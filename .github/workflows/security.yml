@@ -1,0 +1,101 @@
+name: security
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+# Cancel in-flight runs on a new push to the same PR.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+  security-events: write
+
+jobs:
+  secret-scan:
+    name: Gitleaks (no secrets in repo)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: false # don't scan Lygia submodule
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  audit-and-typecheck:
+    name: npm audit + tsc + lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies (frozen lockfile)
+        run: npm ci
+      - name: npm audit (high severity blocks)
+        run: npm audit --audit-level=high --omit=dev
+      - name: Codegen drift check (lib/brands.ts must be committed)
+        run: |
+          npx tsx scripts/gen-brands.ts
+          git diff --exit-code lib/brands.ts || (echo "❌ lib/brands.ts is stale" && exit 1)
+      - name: TypeScript strict
+        run: npx tsc --noEmit
+      - name: Lint
+        run: npm run lint
+
+  codeql:
+    name: CodeQL JS/TS analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+          # Don't analyze lygia (submodule) or banner public assets
+          paths-ignore: |
+            public/shaders/lygia
+            public/banners
+            public/faces
+            public/3d
+      - uses: github/codeql-action/analyze@v3
+
+  claude-code-security-review:
+    name: Claude security review (PR diff)
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      # Anthropic-official action — see github.com/anthropics/claude-code-security-review
+      - uses: anthropics/claude-code-security-review@main
+        with:
+          claude-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
+          comment-pr: true
+          # Don't fail PR on findings — surface as comments. Phase 11 raises this gate.
+          fail-on-findings: false
+
+  npm-audit-dev:
+    name: npm audit (dev deps, advisory only)
+    runs-on: ubuntu-latest
+    continue-on-error: true # advisory — dev deps are OK at moderate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm audit --audit-level=moderate
