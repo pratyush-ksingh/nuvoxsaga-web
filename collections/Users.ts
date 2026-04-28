@@ -14,6 +14,9 @@ import type { CollectionConfig } from 'payload';
 export const Users: CollectionConfig = {
   slug: 'users',
   labels: { singular: 'User', plural: 'Users' },
+  // Avoids collision with Auth.js pg-adapter's `users` table — Payload writes
+  // to `payload_users` instead. Slug stays `users` for API/admin URLs.
+  dbName: 'payload_users',
   auth: {
     useAPIKey: true,
     tokenExpiration: 60 * 60 * 8, // 8h max session

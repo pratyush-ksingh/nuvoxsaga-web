@@ -151,7 +151,7 @@ export async function middleware(req: NextRequest) {
     }
 
     // (3) MFA not yet enrolled → force enrolment, but allow /admin/setup-mfa
-    // @ts-expect-error
+    // @ts-expect-error -- session.user is augmented in auth.config.ts callbacks
     const mfaVerified: boolean | undefined = session.user.mfaVerified;
     if (!mfaVerified && !path.startsWith('/admin/setup-mfa')) {
       return NextResponse.redirect(new URL('/admin/setup-mfa', req.url));
@@ -159,7 +159,7 @@ export async function middleware(req: NextRequest) {
 
     // (4) Session age check — force re-auth if older than 8h (sticky safety net
     //     beyond Auth.js's own maxAge).
-    // @ts-expect-error
+    // @ts-expect-error -- session.user is augmented in auth.config.ts callbacks
     const mintedAt: number | undefined = session.user.mintedAt;
     if (typeof mintedAt === 'number' && Date.now() / 1000 - mintedAt > 8 * 60 * 60) {
       const loginUrl = new URL('/login', req.url);
