@@ -29,6 +29,7 @@ let limits:
       newsletter: Ratelimit;
       auth: Ratelimit;
       yt: Ratelimit;
+      revalidate: Ratelimit;
     }
   | null = null;
 
