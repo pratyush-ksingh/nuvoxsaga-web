@@ -7,7 +7,9 @@
  * Phase 10 review hardening:
  *   - HTML-escape SITE_URL interpolations (defence-in-depth).
  *   - Constant-time stored-token comparison (in addition to HMAC verify).
- *   - Inline <style> documented for Phase 11 nonce-pipeline migration.
+ *   - W2 (Phase 12 launch-prep): inline <style> now carries the per-request
+ *     CSP nonce from middleware (x-nonce header), so the response survives
+ *     a future tightening of style-src that drops 'unsafe-inline'.
  */
 import { NextRequest, NextResponse } from 'next/server';
 import { timingSafeEqual } from 'node:crypto';
@@ -37,11 +39,20 @@ function constantTimeStringEq(a: string, b: string): boolean {
   }
 }
 
-function htmlPage(body: string): NextResponse {
+// Strict allowlist — same shape as middleware's per-request nonce; defend
+// against header spoof (the spoofed nonce wouldn't match the CSP header
+// anyway since middleware sets both, but this keeps the attribute clean).
+function safeNonce(raw: string | null): string {
+  if (!raw) return '';
+  return /^[a-zA-Z0-9_-]{1,64}$/.test(raw) ? raw : '';
+}
+
+function htmlPage(body: string, nonce: string): NextResponse {
+  const nonceAttr = nonce ? ` nonce="${nonce}"` : '';
   return new NextResponse(
     `<!doctype html><html lang="en"><head><meta charset="utf-8">
      <title>Unsubscribe</title>
-     <style>body{font-family:ui-sans-serif,system-ui;background:#0a0a0f;color:#ededef;
+     <style${nonceAttr}>body{font-family:ui-sans-serif,system-ui;background:#0a0a0f;color:#ededef;
      display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0}
      main{max-width:32rem;padding:2rem;text-align:center} a{color:#00B4FF}</style>
      </head><body><main>${body}</main></body></html>`,
@@ -52,10 +63,12 @@ function htmlPage(body: string): NextResponse {
 export async function GET(req: NextRequest) {
   const token = req.nextUrl.searchParams.get('t');
   const secret = process.env.NEWSLETTER_HMAC_SECRET ?? process.env.PAYLOAD_INTERNAL_SECRET;
+  const nonce = safeNonce(req.headers.get('x-nonce'));
 
   if (!token || !secret) {
     return htmlPage(
       `<h1>Unsubscribed</h1><p><a href="${SAFE_SITE_URL}/">Back to Nuvoxsaga</a></p>`,
+      nonce,
     );
   }
   const verified = await verifyOpaqueToken(token, secret);
@@ -63,6 +76,7 @@ export async function GET(req: NextRequest) {
     return htmlPage(
       `<h1>Link expired</h1><p>This unsubscribe link is no longer valid.
        <a href="${SAFE_SITE_URL}/">Back to Nuvoxsaga</a></p>`,
+      nonce,
     );
   }
 
@@ -85,5 +99,6 @@ export async function GET(req: NextRequest) {
   return htmlPage(
     `<h1>Unsubscribed</h1><p>You're off the list. Sorry to see you go.
      <a href="${SAFE_SITE_URL}/">Back to Nuvoxsaga</a></p>`,
+    nonce,
   );
 }

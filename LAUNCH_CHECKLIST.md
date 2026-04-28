@@ -68,7 +68,7 @@ Pre-launch (Phase 0 provisioning) → Launch (Phase 12).
 - [ ] Phase 9 follow-up: replace procedural hero blob with curated CC0 gaussian splat from Sketchfab/Luma
 
 ### Phase 10
-- [ ] Move newsletter `confirm`/`unsubscribe` HTML responses to real Next routes so they participate in the per-request CSP nonce pipeline (currently inline `<style>` will be flagged when CSP enforces)
+- [x] Move newsletter `confirm`/`unsubscribe` HTML responses to real Next routes so they participate in the per-request CSP nonce pipeline (W2: routes now read `x-nonce` from middleware and emit `<style nonce="...">` — survives a future `'unsafe-inline'` drop without changing CSP today)
 - [ ] 90-day TTL cron on `subscribers.sourceIp`/`sourceUa` (GDPR right-to-erasure)
 - [ ] Pagefind deploy-time crawl: `npx pagefind --site https://nuvoxsaga.com` post-deploy → upload to `/public/_pagefind/`
 - [ ] Dedicated `NEWSLETTER_HMAC_SECRET` (currently falls back to PAYLOAD_INTERNAL_SECRET — single-secret blast radius)

@@ -141,6 +141,18 @@ bash infra/restore-workflows.sh
 Pushes `security.yml` (and `lighthouse.yml` if present) into `.github/workflows/`
 so CI gates run on every PR.
 
+After Vercel preview is up (step 7), set the Lighthouse base URL so the
+`lighthouse` workflow has something to audit:
+
+```
+GitHub repo → Settings → Variables → Actions → New repository variable
+  Name:  LIGHTHOUSE_BASE_URL
+  Value: https://<your-vercel-preview-url>   (or https://nuvoxsaga.com after launch)
+```
+
+Without this variable, the workflow logs a warning and skips — it doesn't
+fail the build.
+
 ---
 
 ## Validation: full system smoke

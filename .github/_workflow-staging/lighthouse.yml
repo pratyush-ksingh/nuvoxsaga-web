@@ -1,0 +1,84 @@
+name: lighthouse
+
+# Phase 12 W3. Parked alongside security.yml until `gh auth refresh -s workflow`
+# unblocks the workflow OAuth scope. Move via infra/restore-workflows.sh.
+#
+# Setup before this is useful:
+#   1. Vercel preview must be live (Phase 0 step 7).
+#   2. GitHub repo → Settings → Variables → Actions → New repository variable
+#         Name:  LIGHTHOUSE_BASE_URL
+#         Value: https://nuvoxsaga-web-<hash>.vercel.app  (or production URL)
+#   3. Optional: secret LHCI_GITHUB_APP_TOKEN for inline PR status checks
+#      (https://github.com/apps/lighthouse-ci). Skip and lhci posts a public
+#      report URL instead.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      url_override:
+        description: 'Base URL to audit (overrides LIGHTHOUSE_BASE_URL repo var)'
+        required: false
+
+# Cancel in-flight runs on a new push to the same PR.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  lhci:
+    name: Lighthouse CI (perf + a11y + SEO + best-practices)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Resolve target URL
+        id: target
+        env:
+          INPUT_URL: ${{ github.event.inputs.url_override }}
+          REPO_VAR_URL: ${{ vars.LIGHTHOUSE_BASE_URL }}
+        run: |
+          URL="${INPUT_URL:-$REPO_VAR_URL}"
+          if [ -z "$URL" ]; then
+            echo "::warning::No target URL — set repo variable LIGHTHOUSE_BASE_URL after Vercel preview is up. Skipping audit."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            # Strip trailing slash so URL concat is predictable.
+            URL="${URL%/}"
+            echo "url=$URL" >> "$GITHUB_OUTPUT"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install LHCI
+        if: steps.target.outputs.skip != 'true'
+        run: npm install -g @lhci/cli@0.14.x
+
+      - name: Run Lighthouse CI
+        if: steps.target.outputs.skip != 'true'
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+        run: |
+          set -euo pipefail
+          BASE='${{ steps.target.outputs.url }}'
+          # Audit: parent landing, one brand landing, one blog index. Blog
+          # post detail is omitted until the migration ships real posts —
+          # add it as a separate step once a known slug exists.
+          lhci autorun \
+            --config=./.lighthouserc.json \
+            --collect.url="$BASE/" \
+            --collect.url="$BASE/nuvoxai" \
+            --collect.url="$BASE/nuvoxai/blog" \
+            --upload.target=temporary-public-storage

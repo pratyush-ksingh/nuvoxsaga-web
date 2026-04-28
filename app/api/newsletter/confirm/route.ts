@@ -13,9 +13,11 @@
  *     edit can't slip user input into the response unsanitised).
  *   - Constant-time stored-token comparison (in addition to the HMAC verify
  *     gate) to remove any timing channel on the equality check.
- *   - Inline <style> here is reachable under report-only CSP today; Phase 11
- *     follow-up moves these handcrafted HTML responses to real Next pages
- *     so they participate in the per-request nonce pipeline.
+ *   - W2 (Phase 12 launch-prep): the inline <style> now carries the
+ *     middleware's per-request CSP nonce (req.headers.get('x-nonce')),
+ *     so the response survives a future tightening of style-src that
+ *     drops 'unsafe-inline'. Today's CSP still allows 'unsafe-inline'
+ *     (Tailwind runtime CSS); the nonce is harmless when both are present.
  */
 import { NextRequest, NextResponse } from 'next/server';
 import { timingSafeEqual } from 'node:crypto';
@@ -45,12 +47,20 @@ function constantTimeStringEq(a: string, b: string): boolean {
   }
 }
 
-function htmlPage(title: string, body: string): NextResponse {
+// Strict allowlist for the nonce — middleware emits a 32-char hex via
+// crypto.randomUUID().replace(/-/g,''), but defend against header spoof.
+function safeNonce(raw: string | null): string {
+  if (!raw) return '';
+  return /^[a-zA-Z0-9_-]{1,64}$/.test(raw) ? raw : '';
+}
+
+function htmlPage(title: string, body: string, nonce: string): NextResponse {
+  const nonceAttr = nonce ? ` nonce="${nonce}"` : '';
   return new NextResponse(
     `<!doctype html><html lang="en"><head><meta charset="utf-8">
      <title>${htmlEscape(title)}</title>
      <meta name="viewport" content="width=device-width,initial-scale=1">
-     <style>body{font-family:ui-sans-serif,system-ui;background:#0a0a0f;color:#ededef;
+     <style${nonceAttr}>body{font-family:ui-sans-serif,system-ui;background:#0a0a0f;color:#ededef;
      display:flex;min-height:100vh;align-items:center;justify-content:center;margin:0}
      main{max-width:32rem;padding:2rem;text-align:center}
      a{color:#00B4FF}</style></head>
@@ -62,6 +72,7 @@ function htmlPage(title: string, body: string): NextResponse {
 export async function GET(req: NextRequest) {
   const token = req.nextUrl.searchParams.get('t');
   const secret = process.env.NEWSLETTER_HMAC_SECRET ?? process.env.PAYLOAD_INTERNAL_SECRET;
+  const nonce = safeNonce(req.headers.get('x-nonce'));
 
   // Always render the generic page on any failure path — no enumeration.
   if (!token || !secret) {
@@ -69,6 +80,7 @@ export async function GET(req: NextRequest) {
       'Confirmation',
       `<h1>Subscription confirmed</h1><p>You're on the list.</p>
        <p><a href="${SAFE_SITE_URL}/">Back to Nuvoxsaga</a></p>`,
+      nonce,
     );
   }
 
@@ -78,6 +90,7 @@ export async function GET(req: NextRequest) {
       'Confirmation',
       `<h1>Confirmation expired</h1>
        <p>That link is no longer valid. <a href="${SAFE_SITE_URL}/">Sign up again</a> to get a new one.</p>`,
+      nonce,
     );
   }
 
@@ -112,5 +125,6 @@ export async function GET(req: NextRequest) {
     'Confirmation',
     `<h1>You're confirmed</h1>
      <p>Welcome to the saga. <a href="${SAFE_SITE_URL}/">Read the latest →</a></p>`,
+    nonce,
   );
 }
