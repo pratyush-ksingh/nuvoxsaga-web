@@ -22,6 +22,7 @@ import { Users } from './collections/Users';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Allow `payload generate:types` etc. to run without a real DB (CI typecheck).
+// eslint-disable-next-line no-secrets/no-secrets -- placeholder URL; real value comes from env
 const databaseUri =
   process.env.DATABASE_URI ?? 'postgres://placeholder:placeholder@localhost:5432/placeholder';
 
