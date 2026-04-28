@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { BRANDS } from '@/lib/brands';
+import { NewsletterForm } from '@/components/NewsletterForm';
 
 export function SiteFooter() {
   return (
@@ -11,7 +12,9 @@ export function SiteFooter() {
             A media house at the intersection of AI, space, and the world. Long-form essays
             and daily shorts across three brands.
           </p>
-          {/* Newsletter form lives here in Phase 10 — Turnstile + Resend + double opt-in. */}
+          <div className="mt-8 max-w-md">
+            <NewsletterForm />
+          </div>
         </div>
         <div>
           <h4 className="text-xs uppercase tracking-wider text-foreground/40">Brands</h4>

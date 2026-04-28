@@ -24,9 +24,21 @@ interface Props extends Omit<CanvasProps, 'children'> {
    */
   disabled?: boolean;
   fallback?: ReactNode;
+  /**
+   * A11y label for the canvas — what's on the screen, e.g.
+   * "Animated abstract shape representing the Nuvox AI brand."
+   * Defaults to a generic label; override per scene.
+   */
+  ariaLabel?: string;
 }
 
-export function Canvas3D({ children, disabled, fallback = null, ...rest }: Props) {
+export function Canvas3D({
+  children,
+  disabled,
+  fallback = null,
+  ariaLabel = 'Decorative 3D animation',
+  ...rest
+}: Props) {
   if (disabled) return <>{fallback}</>;
 
   return (
@@ -38,6 +50,8 @@ export function Canvas3D({ children, disabled, fallback = null, ...rest }: Props
         toneMappingExposure: 1.0,
       }}
       frameloop="demand"
+      aria-label={ariaLabel}
+      role="img"
       {...rest}
     >
       <Suspense fallback={null}>{children}</Suspense>

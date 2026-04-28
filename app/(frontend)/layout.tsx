@@ -7,13 +7,17 @@
 import { Lenis } from '@/components/motion/Lenis';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { SkipToContent } from '@/components/SkipToContent';
 
 export default function FrontendLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
+      <SkipToContent />
       <Lenis />
       <SiteHeader />
-      <main className="grain min-h-[60vh]">{children}</main>
+      <main id="main" className="grain min-h-[60vh]">
+        {children}
+      </main>
       <SiteFooter />
     </>
   );

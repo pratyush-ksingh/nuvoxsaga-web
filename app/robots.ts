@@ -16,6 +16,10 @@ export default function robots(): MetadataRoute.Robots {
           // Auth flows aren't useful in search results.
           '/login',
           '/setup-mfa',
+          // Pagefind generated assets — not for crawlers.
+          '/_pagefind/',
+          // Search results pages — also marked noindex via metadata, blocked here too.
+          '/search',
         ],
       },
       // Block aggressive scrapers from training on us without value exchange.
