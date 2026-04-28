@@ -39,3 +39,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# nuvoxsaga security — secrets must never enter git
+.mcp.json
+.env*.local
+.env
+*.local
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# nuvoxsaga local artifacts
+/tokens/build/
+/public/splats/*.ksplat
+/public/splats/*.ply
+/public/3d/*.glb.bak
+/playwright-report/
+/test-results/
+
+# tools / OS
+Thumbs.db
+.idea/
+.vscode/settings.json

@@ -1,0 +1,19 @@
+{
+  "_comment": "COPY this file to .mcp.json (gitignored) and fill in API keys before use. Never commit .mcp.json with real keys.",
+  "mcpServers": {
+    "tavily": {
+      "command": "npx",
+      "args": ["-y", "@tavily/mcp-server"],
+      "env": { "TAVILY_API_KEY": "tvly-REPLACE_ME" }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    },
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-mcp"],
+      "env": { "FIGMA_PAT": "figd_REPLACE_ME" }
+    }
+  }
+}
