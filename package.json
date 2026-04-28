@@ -12,7 +12,7 @@
     "convert-banners": "tsx scripts/convert-banners.ts",
     "test": "vitest",
     "e2e": "playwright test",
-    "search-index": "echo 'Phase 11: configure pagefind crawl against deployed prod URL — Next 16 RSC builds do not produce static HTML for pagefind to scan locally.'"
+    "search-index": "bash infra/pagefind-crawl.sh"
   },
   "dependencies": {
     "@auth/core": "^0.41.2",
