@@ -37,10 +37,6 @@ const requiredInProd = z.object({
   R2_SECRET_ACCESS_KEY: nonEmpty,
   R2_BUCKET: nonEmpty,
   R2_ENDPOINT: url,
-  // Per-brand publisher keys (Python pipeline → Payload)
-  PUBLISHER_API_KEY_NUVOX_AI: nonEmpty,
-  PUBLISHER_API_KEY_NUVOX_SPACE: nonEmpty,
-  PUBLISHER_API_KEY_NUVOX_WORLD: nonEmpty,
   // Revalidate webhook (HMAC) — Python pipeline calls /api/revalidate
   REVALIDATE_HMAC_SECRET: hex64,
   // Resend (Auth.js magic-link, newsletter)
@@ -59,6 +55,15 @@ const requiredInProd = z.object({
 
 // Vars that *can* be unset in production — features degrade gracefully.
 const optional = z.object({
+  // Per-brand publisher API keys. The site never reads these — only the
+  // Python pipeline does, via Windows Credential Manager (keyring). They
+  // live in env.example as a documentation hint for the chicken-and-egg
+  // bootstrap: first deploy creates the Payload admin → admin creates
+  // publisher users → generated API keys → stored in keyring on the
+  // pipeline machine. Required-in-prod here would have failed first deploy.
+  PUBLISHER_API_KEY_NUVOX_AI: z.string().optional(),
+  PUBLISHER_API_KEY_NUVOX_SPACE: z.string().optional(),
+  PUBLISHER_API_KEY_NUVOX_WORLD: z.string().optional(),
   // YouTube Data API (homepage feeds — site works without it, just no YT data)
   YOUTUBE_API_KEY: z.string().optional(),
   BRAND_NUVOX_AI_YT_CHANNEL_ID: z.string().optional(),
@@ -97,9 +102,6 @@ const providerHints: Record<string, string> = {
   R2_SECRET_ACCESS_KEY: 'paired with R2_ACCESS_KEY_ID',
   R2_BUCKET: 'Cloudflare R2 bucket name (default: nuvoxsaga-public)',
   R2_ENDPOINT: 'Cloudflare R2 → bucket → S3 API → endpoint URL',
-  PUBLISHER_API_KEY_NUVOX_AI: 'Payload /admin → Users → create publisher_nuvox_ai → API Key tab',
-  PUBLISHER_API_KEY_NUVOX_SPACE: 'Payload /admin → Users → create publisher_nuvox_space → API Key tab',
-  PUBLISHER_API_KEY_NUVOX_WORLD: 'Payload /admin → Users → create publisher_nuvox_world → API Key tab',
   REVALIDATE_HMAC_SECRET: 'generate locally: openssl rand -hex 32 (also store in Python keyring)',
   RESEND_API_KEY: 'Resend dashboard → API Keys (verify domain DKIM first)',
   SUBSCRIBER_ENCRYPTION_KEY: 'generate locally: node -e "console.log(require(\'crypto\').randomBytes(32).toString(\'base64\'))"',
