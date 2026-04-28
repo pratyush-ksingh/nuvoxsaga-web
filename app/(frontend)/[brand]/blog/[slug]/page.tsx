@@ -19,6 +19,7 @@ import Script from 'next/script';
 import type { Metadata } from 'next';
 import { BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { BrandProvider } from '@/components/brand/BrandProvider';
+import { YouTubeEmbed } from '@/components/blog/YouTubeEmbed';
 import { fetchPost } from '@/lib/content';
 import {
   articleSchema,
@@ -141,6 +142,14 @@ export default async function PostPage({ params }: Props) {
             {post.wordCount && <span>· {post.wordCount.toLocaleString()} words</span>}
           </div>
         </header>
+
+        {/* Video embed posts: render a lite YouTube player above the body.
+            sourceVideoId is set by blog/video_sync.py for upload-sidecar
+            posts; the body for those is just a fallback "Watch on YouTube"
+            link because Posts.beforeChange's DOMPurify rejects <iframe>. */}
+        {post.sourceVideoId && (
+          <YouTubeEmbed videoId={post.sourceVideoId} title={post.title} />
+        )}
 
         <div
           // PHASE-6-M4: We render bodyHtmlSanitized (DOMPurify-cleaned at save),
