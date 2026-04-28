@@ -19,6 +19,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'node:crypto';
 import { revalidateTag, revalidatePath } from 'next/cache';
+import { getPayload } from 'payload';
+import config from '@/payload.config';
 
 interface InternalRevalidateBody {
   brand?: string;
@@ -68,6 +70,26 @@ export async function POST(req: NextRequest) {
   } catch (e) {
     console.error('internal revalidate failed', (e as Error).message);
     return NextResponse.json({ error: 'revalidate failed' }, { status: 500 });
+  }
+
+  // Phase 11 (Phase 6 review M2): audit log on internal revalidates so admin
+  // edits leave a forensic trail. Best-effort — webhook still succeeds if
+  // the audit write fails.
+  try {
+    const payload = await getPayload({ config });
+    await payload.create({
+      collection: 'audit-log',
+      data: {
+        action: 'revalidate',
+        collection: 'posts',
+        docId: `${brand}:${slug}`,
+        ip: req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? null,
+        userAgent: req.headers.get('user-agent') ?? null,
+        meta: { source: 'payload-hook' },
+      },
+    });
+  } catch (e) {
+    console.warn('audit-log write failed (non-fatal):', (e as Error).message);
   }
 
   return NextResponse.json({ revalidated: true, brand, slug });

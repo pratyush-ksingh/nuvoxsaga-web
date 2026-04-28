@@ -1,5 +1,12 @@
 'use client';
 
+/* eslint-disable @typescript-eslint/no-require-imports --
+ * require() is used INTENTIONALLY here as the only Next-supported way to
+ * lazy-load client-only deps (drei, rapier, postprocessing) inside a
+ * sub-component that's already wrapped in dynamic(ssr:false). Static
+ * `import` would pull these into the SSR bundle and break the build.
+ */
+
 /**
  * LabsPlayground — physics + shader sandbox for /labs.
  *
@@ -13,13 +20,10 @@ import { Canvas3D } from './Canvas3D';
 const Scene = dynamic(() => Promise.resolve(SceneImpl), { ssr: false });
 
 function SceneImpl() {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { Physics, RigidBody, CuboidCollider } =
     require('@react-three/rapier') as typeof import('@react-three/rapier');
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { MeshTransmissionMaterial, Float } =
     require('@react-three/drei') as typeof import('@react-three/drei');
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { EffectComposer, Bloom, Noise } =
     require('@react-three/postprocessing') as typeof import('@react-three/postprocessing');
 

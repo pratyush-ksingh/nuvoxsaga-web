@@ -1,5 +1,11 @@
 'use client';
 
+/* eslint-disable @typescript-eslint/no-require-imports --
+ * Lazy-load drei via require() inside the dynamic ssr:false sub-component
+ * to keep three/drei out of the SSR bundle. See LabsPlayground.tsx for
+ * the same pattern.
+ */
+
 /**
  * BrandOrb — lightweight per-brand 3D widget for /[brand] hero.
  *
@@ -16,7 +22,6 @@ const Inner = dynamic(() => Promise.resolve(InnerImpl), { ssr: false });
 
 function InnerImpl({ brand }: { brand: BrandId }) {
   // Avoid pulling in drei + three on the SSR pass — only client side.
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const { Float, MeshDistortMaterial } = require('@react-three/drei') as typeof import('@react-three/drei');
   const palette = BRAND_BY_ID[brand].palette;
   return (

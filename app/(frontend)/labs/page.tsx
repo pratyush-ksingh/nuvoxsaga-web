@@ -34,7 +34,7 @@ export default function LabsPage() {
           <h3 className="text-foreground text-lg">Shaders</h3>
           <p className="mt-2">
             Lygia compositions over drei materials. No custom GLSL beyond the hero
-            displacement — proves "compose, don&apos;t author".
+            displacement — proves &ldquo;compose, don&apos;t author&rdquo;.
           </p>
         </li>
         <li>

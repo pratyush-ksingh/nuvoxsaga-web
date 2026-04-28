@@ -53,6 +53,11 @@ function sanitize(html: string): string {
   return DOMPurify.sanitize(html, {
     ALLOWED_TAGS,
     ALLOWED_ATTR,
+    // ADD_ATTR re-asserts attributes that DOMPurify's html profile would
+    // otherwise strip even when listed in ALLOWED_ATTR (target on <a> is
+    // the canonical case). Without this, the afterSanitizeAttributes hook
+    // below never fires because target is removed BEFORE the hook runs.
+    ADD_ATTR: ['target'],
     FORBID_TAGS: ['script', 'iframe', 'object', 'embed', 'svg', 'form', 'input', 'button'],
     FORBID_ATTR: ['style', 'onerror', 'onload', 'onclick', 'onmouseover'],
     USE_PROFILES: { html: true },

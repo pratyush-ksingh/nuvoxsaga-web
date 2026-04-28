@@ -33,46 +33,61 @@ export function useDeviceCapability(): { degraded: boolean; reason: string | nul
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reducedMotion) {
-      setDegraded(true);
-      setReason('prefers-reduced-motion');
-      return;
+    function evaluate() {
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (reducedMotion) {
+        setDegraded(true);
+        setReason('prefers-reduced-motion');
+        return;
+      }
+
+      const nav = navigator as NavigatorWithMemory;
+      const lowMem = typeof nav.deviceMemory === 'number' && nav.deviceMemory < 4;
+      if (lowMem) {
+        setDegraded(true);
+        setReason(`deviceMemory=${nav.deviceMemory}`);
+        return;
+      }
+
+      const saveData = nav.connection?.saveData === true;
+      if (saveData) {
+        setDegraded(true);
+        setReason('save-data');
+        return;
+      }
+
+      const slowConn =
+        nav.connection?.effectiveType && /^(slow-2g|2g|3g)$/.test(nav.connection.effectiveType);
+      if (slowConn) {
+        setDegraded(true);
+        setReason(`effectiveType=${nav.connection?.effectiveType}`);
+        return;
+      }
+
+      const isMobile = window.matchMedia('(max-width: 768px)').matches;
+      if (isMobile) {
+        setDegraded(true);
+        setReason('mobile-viewport');
+        return;
+      }
+
+      setDegraded(false);
+      setReason(null);
     }
 
-    const nav = navigator as NavigatorWithMemory;
-    const lowMem = typeof nav.deviceMemory === 'number' && nav.deviceMemory < 4;
-    if (lowMem) {
-      setDegraded(true);
-      setReason(`deviceMemory=${nav.deviceMemory}`);
-      return;
-    }
+    evaluate();
 
-    const saveData = nav.connection?.saveData === true;
-    if (saveData) {
-      setDegraded(true);
-      setReason('save-data');
-      return;
-    }
-
-    const slowConn =
-      nav.connection?.effectiveType && /^(slow-2g|2g|3g)$/.test(nav.connection.effectiveType);
-    if (slowConn) {
-      setDegraded(true);
-      setReason(`effectiveType=${nav.connection?.effectiveType}`);
-      return;
-    }
-
-    // Mobile heuristic — heavy 3D is desktop-class for now.
-    const isMobile = window.matchMedia('(max-width: 768px)').matches;
-    if (isMobile) {
-      setDegraded(true);
-      setReason('mobile-viewport');
-      return;
-    }
-
-    setDegraded(false);
-    setReason(null);
+    // Phase 11 / Phase 9 review M4: live-listen for changes so toggling
+    // OS reduced-motion or rotating to a narrow viewport propagates without
+    // a page reload.
+    const reducedMq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const mobileMq = window.matchMedia('(max-width: 768px)');
+    reducedMq.addEventListener('change', evaluate);
+    mobileMq.addEventListener('change', evaluate);
+    return () => {
+      reducedMq.removeEventListener('change', evaluate);
+      mobileMq.removeEventListener('change', evaluate);
+    };
   }, []);
 
   return { degraded, reason };
