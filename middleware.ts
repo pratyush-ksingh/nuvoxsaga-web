@@ -11,9 +11,14 @@
  *   - Upstash env can be missing in local dev — middleware no-ops gracefully.
  *   - /admin is disabled on preview deploys via VERCEL_ENV check.
  */
+import NextAuth from 'next-auth';
 import { NextRequest, NextResponse } from 'next/server';
 import { Ratelimit } from '@upstash/ratelimit';
 import { Redis } from '@upstash/redis';
+import authConfig from '@/app/(auth)/auth.config';
+
+// Edge-safe auth — no provider modules, JWT-only.
+const { auth } = NextAuth(authConfig);
 
 // ---------------------------------------------------------------------------
 // Lazy Upstash client — no-op if env missing (dev mode without creds)
@@ -115,13 +120,45 @@ export async function middleware(req: NextRequest) {
     }
   }
 
-  // -- /admin gate (Phase 5 will replace this stub with Auth.js + WebAuthn) --
+  // -- /admin gate — Auth.js v5 session + WebAuthn MFA --
   if (path.startsWith('/admin')) {
-    // Disable admin entirely on preview deploys — prevents preview-URL admin sniffing.
+    // Hard disable on preview deploys — prevents preview-URL admin sniffing.
     if (process.env.VERCEL_ENV === 'preview') {
       return new NextResponse('Admin disabled on preview', { status: 403 });
     }
-    // TODO Phase 5: replace with `auth()` session check + role=admin + MFA verified
+
+    const session = await auth();
+
+    // (1) No session → redirect to /login
+    if (!session?.user) {
+      const loginUrl = new URL('/login', req.url);
+      loginUrl.searchParams.set('next', path);
+      return NextResponse.redirect(loginUrl);
+    }
+
+    // (2) Session exists but role wrong → 403
+    // @ts-expect-error -- augmented in auth.ts callbacks
+    const role: string | undefined = session.user.role;
+    if (role !== 'admin') {
+      return new NextResponse('Forbidden', { status: 403 });
+    }
+
+    // (3) MFA not yet enrolled → force enrolment, but allow /admin/setup-mfa
+    // @ts-expect-error
+    const mfaVerified: boolean | undefined = session.user.mfaVerified;
+    if (!mfaVerified && !path.startsWith('/admin/setup-mfa')) {
+      return NextResponse.redirect(new URL('/admin/setup-mfa', req.url));
+    }
+
+    // (4) Session age check — force re-auth if older than 8h (sticky safety net
+    //     beyond Auth.js's own maxAge).
+    // @ts-expect-error
+    const mintedAt: number | undefined = session.user.mintedAt;
+    if (typeof mintedAt === 'number' && Date.now() / 1000 - mintedAt > 8 * 60 * 60) {
+      const loginUrl = new URL('/login', req.url);
+      loginUrl.searchParams.set('expired', '1');
+      return NextResponse.redirect(loginUrl);
+    }
   }
 
   // -- Per-request CSP nonce --

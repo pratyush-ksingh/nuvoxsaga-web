@@ -61,6 +61,16 @@ export const Users: CollectionConfig = {
     },
     { name: 'mfaVerified', type: 'checkbox', defaultValue: false },
     { name: 'mfaSecret', type: 'text', admin: { hidden: true } },
+    /**
+     * WebAuthn user handle — opaque random 64-byte ID, base64url-encoded.
+     * Generated on first MFA enrolment, stable across credential rotations.
+     * Per WebAuthn §4: MUST NOT be derived from PII (email, etc).
+     */
+    {
+      name: 'webauthnUserHandle',
+      type: 'text',
+      admin: { hidden: true, description: 'Opaque WebAuthn user handle (random)' },
+    },
     { name: 'lastLoginAt', type: 'date', admin: { readOnly: true } },
     { name: 'lastLoginIp', type: 'text', admin: { readOnly: true } },
   ],
