@@ -1,0 +1,96 @@
+{
+  "color": {
+    "brand": {
+      "nuvox_ai": {
+        "primary": {
+          "value": "#00B4FF",
+          "type": "color"
+        },
+        "cyan": {
+          "value": "#00E5FF",
+          "type": "color"
+        },
+        "purple": {
+          "value": "#7B2FFF",
+          "type": "color"
+        },
+        "gold": {
+          "value": "#FFD700",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#0A0A0A",
+          "type": "color"
+        },
+        "card": {
+          "value": "#121218",
+          "type": "color"
+        },
+        "overlay": {
+          "value": "#1A1A2E",
+          "type": "color"
+        }
+      },
+      "nuvox_space": {
+        "primary": {
+          "value": "#1E90FF",
+          "type": "color"
+        },
+        "cyan": {
+          "value": "#00CED1",
+          "type": "color"
+        },
+        "purple": {
+          "value": "#4B0082",
+          "type": "color"
+        },
+        "gold": {
+          "value": "#FFD700",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#0B0B1A",
+          "type": "color"
+        },
+        "card": {
+          "value": "#0F0F24",
+          "type": "color"
+        },
+        "overlay": {
+          "value": "#141432",
+          "type": "color"
+        }
+      },
+      "nuvox_world": {
+        "primary": {
+          "value": "#DC143C",
+          "type": "color"
+        },
+        "cyan": {
+          "value": "#00B4D8",
+          "type": "color"
+        },
+        "purple": {
+          "value": "#5B2C6F",
+          "type": "color"
+        },
+        "gold": {
+          "value": "#FFD700",
+          "type": "color"
+        },
+        "dark": {
+          "value": "#0A0A0A",
+          "type": "color"
+        },
+        "card": {
+          "value": "#121218",
+          "type": "color"
+        },
+        "overlay": {
+          "value": "#1A1A2E",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

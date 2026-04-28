@@ -9,7 +9,7 @@
  * Skips nuvox_sports (dropped per v7 plan).
  */
 import sharp from 'sharp';
-import { existsSync, mkdirSync, readdirSync, statSync, copyFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, statSync, copyFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
 const SRC_BANNERS = path.resolve('../youtube-ai-system/production/brand_banners');
@@ -86,6 +86,33 @@ async function convertFaces() {
   console.log(`Faces: ${files.length} source PNGs, wrote ${written} WebP`);
 }
 
+/**
+ * Phase 11 review #2: emit a manifest of which banners exist per brand so
+ * a missing banner fails LOUD at build/import time instead of becoming a
+ * silent 404 in production. Components import from @/public/banners/manifest.json.
+ */
+function writeManifest() {
+  ensure(DST_BANNERS);
+  const manifest: Record<string, { sizes: number[]; files: string[] }> = {};
+  if (!existsSync(DST_BANNERS)) return;
+  const all = readdirSync(DST_BANNERS).filter((f) => f.endsWith('.avif'));
+  for (const f of all) {
+    // Filename: nuvox_ai_1.1920.avif → brand=nuvox_ai, n=1, width=1920
+    const m = /^(nuvox_[a-z0-9_]+)_(\d+)\.(\d+)\.avif$/.exec(f);
+    if (!m) continue;
+    const [, brand, , widthStr] = m;
+    const width = parseInt(widthStr, 10);
+    const entry = manifest[brand] ?? { sizes: [], files: [] };
+    if (!entry.sizes.includes(width)) entry.sizes.push(width);
+    entry.files.push(f);
+    manifest[brand] = entry;
+  }
+  for (const b of Object.values(manifest)) b.sizes.sort((a, c) => a - c);
+  const manifestPath = path.join(DST_BANNERS, 'manifest.json');
+  writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+  console.log(`Manifest: ${Object.keys(manifest).length} brands → ${manifestPath}`);
+}
+
 async function main() {
   console.log('=== Asset migration ===\n');
   await convertBanners();
@@ -93,6 +120,8 @@ async function main() {
   copyLogos();
   console.log('');
   await convertFaces();
+  console.log('');
+  writeManifest();
   console.log('\n✓ Done');
 }
 

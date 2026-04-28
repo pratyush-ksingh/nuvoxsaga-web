@@ -1,0 +1,8 @@
+{
+  "_comment": "Brands shipped to the website. Python BRAND_REGISTRY may grow ahead of web; this is the gate. Phase 11 Engineer review #3.",
+  "brands": [
+    "nuvox_ai",
+    "nuvox_space",
+    "nuvox_world"
+  ]
+}
