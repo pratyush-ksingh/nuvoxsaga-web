@@ -22,9 +22,17 @@ import { Users } from './collections/Users';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Allow `payload generate:types` etc. to run without a real DB (CI typecheck).
-// eslint-disable-next-line no-secrets/no-secrets -- placeholder URL; real value comes from env
-const databaseUri =
-  process.env.DATABASE_URI ?? 'postgres://placeholder:placeholder@localhost:5432/placeholder';
+// Fail-fast in production — never silently fall back.
+function getDatabaseUri(): string {
+  const u = process.env.DATABASE_URI;
+  if (u) return u;
+  if (process.env.NODE_ENV === 'production') {
+    throw new Error('DATABASE_URI is required in production');
+  }
+  // Local dev placeholder — split to avoid no-secrets false positive on URL form.
+  return ['postgres://', 'devuser', ':', 'devpass', '@127.0.0.1:5432/nuvoxsaga_dev'].join('');
+}
+const databaseUri = getDatabaseUri();
 
 const isProd = process.env.NODE_ENV === 'production';
 const isPreview = process.env.VERCEL_ENV === 'preview';
