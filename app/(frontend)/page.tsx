@@ -8,6 +8,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { BRANDS } from '@/lib/brands';
+import { HeroCanvasIsland } from '@/components/3d/HeroCanvasIsland';
 
 export const metadata: Metadata = {
   title: 'Nuvoxsaga — three frontiers, one saga',
@@ -19,9 +20,11 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      {/* Hero — placeholder for Phase 9 gaussian-splat canvas */}
-      <section className="relative overflow-hidden">
-        <div className="mx-auto max-w-7xl px-6 pt-24 pb-32">
+      {/* Hero — heavy 3D blob (Phase 9), static banner fallback on degraded devices.
+          Phase 0+ swaps the procedural blob for a CC0 gaussian splat. */}
+      <section className="relative overflow-hidden min-h-[80vh] flex items-end">
+        <HeroCanvasIsland brand="nuvox_ai" />
+        <div className="relative mx-auto max-w-7xl px-6 pt-24 pb-32">
           <p className="text-xs uppercase tracking-[0.3em] text-foreground/40">A media house</p>
           <h1 className="mt-6 text-6xl md:text-7xl lg:text-8xl leading-[0.95] max-w-5xl">
             Three frontiers.

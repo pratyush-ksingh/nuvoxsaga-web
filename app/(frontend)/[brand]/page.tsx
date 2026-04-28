@@ -11,6 +11,7 @@ import type { Metadata } from 'next';
 import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { fetchPostsForBrand } from '@/lib/content';
+import { BrandOrb } from '@/components/3d/BrandOrb';
 
 interface Props {
   params: Promise<{ brand: string }>;
@@ -80,6 +81,11 @@ export default async function BrandPage({ params }: Props) {
             >
               Watch on YouTube →
             </Link>
+          </div>
+          {/* Brand 3D widget — degraded-device users see no widget here, just the
+              banner above. Phase 9.3. */}
+          <div className="mt-16 max-w-md mx-auto">
+            <BrandOrb brand={brand.id} />
           </div>
         </div>
       </section>

@@ -72,7 +72,9 @@ function buildCsp(nonce: string): string {
   const directives: string[] = [
     `default-src 'self'`,
     // 'strict-dynamic' lets nonce'd scripts load further scripts without re-listing.
-    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' ${isDev ? `'unsafe-eval'` : ''}`,
+    // 'wasm-unsafe-eval' required for @react-three/rapier WASM (/labs page).
+    // Phase 9 review M1.
+    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'wasm-unsafe-eval' ${isDev ? `'unsafe-eval'` : ''}`,
     `style-src 'self' 'unsafe-inline'`, // Tailwind's runtime CSS — Phase 10 explores tightening.
     `img-src 'self' data: blob: https://media.nuvoxsaga.com https://i.ytimg.com https://yt3.ggpht.com`,
     `media-src 'self' https://media.nuvoxsaga.com`,
