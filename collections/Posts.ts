@@ -41,6 +41,14 @@ DOMPurify.addHook('uponSanitizeAttribute', (_node, data) => {
   }
 });
 
+// Phase 8 review M1: force rel="noopener noreferrer" on every <a target="_blank">
+// (tabnabbing defence). Runs after attribute sanitisation.
+DOMPurify.addHook('afterSanitizeAttributes', (node) => {
+  if (node.nodeName === 'A' && (node as HTMLAnchorElement).getAttribute?.('target') === '_blank') {
+    (node as HTMLAnchorElement).setAttribute('rel', 'noopener noreferrer');
+  }
+});
+
 function sanitize(html: string): string {
   return DOMPurify.sanitize(html, {
     ALLOWED_TAGS,
