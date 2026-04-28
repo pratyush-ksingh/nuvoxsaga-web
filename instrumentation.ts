@@ -1,14 +1,16 @@
 /**
- * Sentry server + edge instrumentation.
+ * Sentry server + edge instrumentation + boot-time env validation.
  *
  * Loaded by Next.js automatically when present at the project root.
- * Only initialises when SENTRY_DSN is set — silent in dev unless
- * SENTRY_FORCE_DEV=1.
+ * Sentry only initialises when SENTRY_DSN is set — silent in dev unless
+ * SENTRY_FORCE_DEV=1. Env validation runs unconditionally and throws in
+ * deployed environments if a required Phase 0 var is missing.
  *
  * beforeSend scrubs email / Authorization / cookie / set-cookie patterns
  * out of every event before it leaves the server.
  */
 import * as Sentry from '@sentry/nextjs';
+import { validateEnv } from './lib/env';
 
 const DSN = process.env.SENTRY_DSN;
 const FORCE_DEV = process.env.SENTRY_FORCE_DEV === '1';
@@ -51,6 +53,10 @@ function scrubObject<T extends object>(o: T, seen: WeakSet<object> = new WeakSet
 }
 
 export async function register() {
+  // Validate Phase 0 vars first — refuses to boot in deployed envs if
+  // required secrets are missing. In dev this only warns.
+  validateEnv();
+
   if (!ENABLED) return;
 
   // Server (Node) and Edge use the same init shape with different SDKs in
