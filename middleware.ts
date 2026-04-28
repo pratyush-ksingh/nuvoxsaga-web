@@ -47,6 +47,10 @@ function getLimits() {
     auth: new Ratelimit({ redis, limiter: Ratelimit.slidingWindow(5, '1 m'), prefix: 'rl:auth' }),
     // YouTube edge proxy — protect quota.
     yt: new Ratelimit({ redis, limiter: Ratelimit.slidingWindow(60, '1 m'), prefix: 'rl:yt' }),
+    // Revalidate webhook — flood protection BEFORE HMAC compute. Prevents a
+    // signature-fail flood from thrashing the cache + Upstash QPS.
+    // Phase 6 review H1.
+    revalidate: new Ratelimit({ redis, limiter: Ratelimit.slidingWindow(30, '1 m'), prefix: 'rl:rev' }),
   };
   return limits;
 }
@@ -104,7 +108,9 @@ export async function middleware(req: NextRequest) {
           ? lim.auth
           : path.startsWith('/api/youtube')
             ? lim.yt
-            : null;
+            : path === '/api/revalidate' // public webhook ONLY (not /internal)
+              ? lim.revalidate
+              : null;
     if (bucket) {
       const { success, limit, remaining, reset } = await bucket.limit(ip);
       if (!success) {
