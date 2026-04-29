@@ -9,6 +9,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
+import { BRAND_CONTENT } from '@/lib/brand-content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { fetchPostsForBrand } from '@/lib/content';
 import { BrandOrb } from '@/components/3d/BrandOrb';
@@ -64,8 +65,11 @@ export default async function BrandPage({ params }: Props) {
             <span className="text-eyebrow">{brand.handle}</span>
           </div>
           <h1 className="text-display mt-8 text-[clamp(3.5rem,10vw,9rem)]">{brand.name}</h1>
-          <p className="mt-8 text-xl text-foreground/85 max-w-2xl capitalize leading-relaxed">
-            {brand.niche.replace(/_/g, ' ')} — long-form essays and daily shorts.
+          <p className="mt-8 text-xl md:text-2xl text-foreground/90 max-w-2xl leading-snug text-balance">
+            {BRAND_CONTENT[brand.id].tagline}
+          </p>
+          <p className="mt-4 text-base text-foreground/65 max-w-2xl leading-relaxed">
+            {BRAND_CONTENT[brand.id].publicationLine}
           </p>
           <div className="mt-10 flex gap-3">
             <MagneticLink

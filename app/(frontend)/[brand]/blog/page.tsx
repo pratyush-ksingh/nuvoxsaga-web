@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
+import { BRAND_CONTENT } from '@/lib/brand-content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { fetchAllPostsForBrand } from '@/lib/content';
 
@@ -39,8 +40,8 @@ export default async function BlogIndex({ params }: Props) {
         <h1 className="text-display mt-8 text-[clamp(2.75rem,6vw,5rem)] text-balance">
           {brand.name}
         </h1>
-        <p className="mt-6 text-lg text-foreground/85 capitalize">
-          {brand.niche.replace(/_/g, ' ')}
+        <p className="mt-6 text-lg text-foreground/85 max-w-xl text-balance leading-snug">
+          {BRAND_CONTENT[brand.id].tagline}
         </p>
 
         <div className="mt-20 space-y-8">
