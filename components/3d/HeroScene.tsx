@@ -115,18 +115,54 @@ interface SceneProps {
   brand: BrandId;
 }
 
+/**
+ * Per-brand geometry — Phase 12 Fix 5a (shape language).
+ * Same shader (Ashima simplex displacement, fresnel material) — different
+ * primitive geometry. Switching brands now changes shape, not just color.
+ *
+ *   nuvox_ai     icosahedron — angular, signal/noise, AI-coded
+ *   nuvox_space  sphere      — gravity, scale, planetary
+ *   nuvox_world  torus       — surface, landmass, the loop of seasons
+ */
+function brandGeometry(brand: BrandId) {
+  switch (brand) {
+    case 'nuvox_space':
+      return <sphereGeometry args={[1.4, 96, 96]} />;
+    case 'nuvox_world':
+      return <torusGeometry args={[1.0, 0.42, 48, 128]} />;
+    case 'nuvox_ai':
+    default:
+      return <icosahedronGeometry args={[1.4, 64]} />;
+  }
+}
+
+/** Float intensities tuned per shape — torus needs less rotation
+ *  (otherwise it tumbles), sphere needs more (otherwise it looks dead). */
+function brandFloat(brand: BrandId) {
+  switch (brand) {
+    case 'nuvox_space':
+      return { speed: 0.9, rotationIntensity: 0.2, floatIntensity: 0.8 };
+    case 'nuvox_world':
+      return { speed: 1.0, rotationIntensity: 0.6, floatIntensity: 0.4 };
+    case 'nuvox_ai':
+    default:
+      return { speed: 1.2, rotationIntensity: 0.4, floatIntensity: 0.6 };
+  }
+}
+
 function Blob({ brand }: SceneProps) {
   const matRef = useRef<THREE.ShaderMaterial>(null);
   const palette = BRAND_BY_ID[brand].palette;
+  const float = brandFloat(brand);
 
   const uniforms = useMemo(
     () => ({
       uTime: { value: 0 },
-      uIntensity: { value: 0.32 },
+      uIntensity: { value: brand === 'nuvox_world' ? 0.18 : 0.32 },
       uColorA: { value: hexToColor(palette.primary) },
       uColorB: { value: hexToColor(palette.purple) },
     }),
-    [palette.primary, palette.purple],
+    [palette.primary, palette.purple, brand],
   );
 
   useFrame((state) => {
@@ -136,9 +172,13 @@ function Blob({ brand }: SceneProps) {
   });
 
   return (
-    <Float speed={1.2} rotationIntensity={0.4} floatIntensity={0.6}>
+    <Float
+      speed={float.speed}
+      rotationIntensity={float.rotationIntensity}
+      floatIntensity={float.floatIntensity}
+    >
       <mesh>
-        <icosahedronGeometry args={[1.4, 64]} />
+        {brandGeometry(brand)}
         <shaderMaterial
           ref={matRef}
           vertexShader={VERT}
