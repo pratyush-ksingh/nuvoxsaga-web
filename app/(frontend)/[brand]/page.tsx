@@ -57,15 +57,13 @@ export default async function BrandPage({ params }: Props) {
           sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
-        <div className="relative mx-auto max-w-7xl px-6 pt-32 pb-24">
+        <div className="brand-glow relative mx-auto max-w-6xl px-6 pt-32 pb-24">
           <div className="flex items-center gap-3">
             <div className="size-2 rounded-full bg-[var(--brand)] shadow-[0_0_30px_var(--brand)]" />
-            <span className="text-xs uppercase tracking-[0.3em] text-foreground/50">
-              {brand.handle}
-            </span>
+            <span className="text-eyebrow">{brand.handle}</span>
           </div>
-          <h1 className="mt-6 text-7xl md:text-8xl leading-[0.95]">{brand.name}</h1>
-          <p className="mt-6 text-lg text-foreground/65 max-w-2xl capitalize">
+          <h1 className="text-display mt-8 text-[clamp(3.5rem,10vw,9rem)]">{brand.name}</h1>
+          <p className="mt-8 text-xl text-foreground/85 max-w-2xl capitalize leading-relaxed">
             {brand.niche.replace(/_/g, ' ')} — long-form essays and daily shorts.
           </p>
           <div className="mt-10 flex gap-3">
@@ -91,20 +89,30 @@ export default async function BrandPage({ params }: Props) {
       </section>
 
       {/* Latest posts */}
-      <section className="mx-auto max-w-7xl px-6 py-24">
-        <div className="flex items-baseline justify-between mb-8">
-          <h2 className="text-3xl">Latest essays</h2>
+      <section className="mx-auto max-w-6xl px-6 py-32">
+        <div className="flex items-baseline justify-between mb-12">
+          <div>
+            <span className="text-eyebrow">Recent</span>
+            <h2 className="mt-3 text-4xl md:text-5xl text-display">Latest essays</h2>
+          </div>
           <Link
             href={`/${brand.slug}/blog`}
-            className="text-sm text-foreground/60 hover:text-[var(--brand)]"
+            className="text-sm text-foreground/85 hover:text-[var(--brand)] transition-colors"
           >
             All essays →
           </Link>
         </div>
         {posts.length === 0 ? (
-          <p className="text-foreground/50 italic">
-            No essays yet — the press is warming up.
-          </p>
+          <div className="border border-white/10 rounded-xl p-12 max-w-2xl">
+            <span className="text-eyebrow">Issue 00</span>
+            <p className="mt-4 text-2xl text-foreground/85 leading-relaxed text-balance">
+              The press is warming up. The first essay drops the moment our first writer
+              finishes their first draft.
+            </p>
+            <p className="mt-4 text-sm text-foreground/60">
+              Want it in your inbox? Subscribe in the footer.
+            </p>
+          </div>
         ) : (
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((p) => (

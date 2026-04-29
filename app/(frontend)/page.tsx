@@ -24,14 +24,16 @@ export default function Home() {
           Phase 0+ swaps the procedural blob for a CC0 gaussian splat. */}
       <section className="relative overflow-hidden min-h-[80vh] flex items-end">
         <HeroCanvasIsland brand="nuvox_ai" />
-        <div className="relative mx-auto max-w-7xl px-6 pt-24 pb-32">
-          <p className="text-xs uppercase tracking-[0.3em] text-foreground/40">A media house</p>
-          <h1 className="mt-6 text-6xl md:text-7xl lg:text-8xl leading-[0.95] max-w-5xl">
+        <div className="brand-glow relative mx-auto max-w-6xl px-6 pt-24 pb-32 w-full">
+          <span className="text-eyebrow">A media house</span>
+          <h1 className="text-display mt-8 text-[clamp(3.5rem,10vw,9rem)] max-w-5xl">
             Three frontiers.
             <br />
-            <span className="text-foreground/50">One saga.</span>
+            <span className="italic font-[350]" style={{ fontVariationSettings: "'opsz' 144, 'SOFT' 100" }}>
+              One saga.
+            </span>
           </h1>
-          <p className="mt-8 max-w-2xl text-lg text-foreground/65">
+          <p className="mt-10 max-w-2xl text-lg text-foreground/85 leading-relaxed">
             Long-form essays and daily shorts on AI, space, and the world. Built by editors,
             not algorithms — though we use the algorithms too.
           </p>
@@ -39,8 +41,8 @@ export default function Home() {
       </section>
 
       {/* 3 brand zones */}
-      <section className="mx-auto max-w-7xl px-6 pb-24">
-        <p className="text-xs uppercase tracking-[0.3em] text-foreground/40 mb-8">The brands</p>
+      <section className="mx-auto max-w-6xl px-6 pb-32">
+        <span className="text-eyebrow mb-10 inline-flex">The brands</span>
         <div className="grid gap-6 md:grid-cols-3">
           {BRANDS.map((b) => (
             <Link
@@ -60,13 +62,13 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
               <div className="absolute inset-0 flex flex-col justify-end p-6">
                 <div className="flex items-center gap-2">
-                  <div className="size-1.5 rounded-full bg-[var(--brand)]" />
-                  <span className="text-xs uppercase tracking-widest text-foreground/60">
+                  <div className="size-1.5 rounded-full bg-[var(--brand)] shadow-[0_0_24px_var(--brand)]" />
+                  <span className="text-xs uppercase tracking-[0.16em] text-foreground/85">
                     {b.handle}
                   </span>
                 </div>
-                <h3 className="mt-2 text-3xl">{b.name}</h3>
-                <p className="mt-1 text-sm text-foreground/60 capitalize">
+                <h3 className="mt-3 text-3xl tracking-tight" style={{ fontVariationSettings: "'opsz' 96" }}>{b.name}</h3>
+                <p className="mt-1.5 text-sm text-foreground/70 capitalize">
                   {b.niche.replace(/_/g, ' ')}
                 </p>
               </div>

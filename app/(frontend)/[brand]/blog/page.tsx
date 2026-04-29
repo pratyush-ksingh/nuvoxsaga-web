@@ -34,38 +34,49 @@ export default async function BlogIndex({ params }: Props) {
 
   return (
     <BrandProvider brand={brand.id}>
-      <section className="mx-auto max-w-4xl px-6 py-24">
-        <p className="text-xs uppercase tracking-[0.3em] text-foreground/40">Blog</p>
-        <h1 className="mt-6 text-5xl">{brand.name}</h1>
-        <p className="mt-3 text-foreground/60 capitalize">{brand.niche.replace(/_/g, ' ')}</p>
+      <section className="brand-glow mx-auto max-w-4xl px-6 py-32">
+        <span className="text-eyebrow">{brand.name} · Blog</span>
+        <h1 className="text-display mt-8 text-[clamp(2.75rem,6vw,5rem)] text-balance">
+          {brand.name}
+        </h1>
+        <p className="mt-6 text-lg text-foreground/85 capitalize">
+          {brand.niche.replace(/_/g, ' ')}
+        </p>
 
-        <div className="mt-16 space-y-8">
+        <div className="mt-20 space-y-8">
           {posts.length === 0 ? (
-            <p className="text-foreground/50 italic">
-              No essays yet. The first one is being written.
-            </p>
+            <div className="border border-white/10 rounded-xl p-12">
+              <div className="font-mono text-sm tracking-[0.16em] text-[var(--brand)]">ISSUE 00</div>
+              <p className="mt-6 text-2xl md:text-3xl text-foreground/85 leading-snug text-balance">
+                The first essay is being written. The next one will be too.
+              </p>
+              <p className="mt-6 text-sm text-foreground/60 max-w-md">
+                Want them in your inbox the day they ship? Subscribe in the footer — no
+                tracking, double opt-in, one-click unsubscribe.
+              </p>
+            </div>
           ) : (
             posts.map((p) => (
               <Link
                 key={p.id}
                 href={`/${brand.slug}/blog/${p.slug}`}
-                className="group block border-b border-white/5 pb-8 hover:border-[var(--brand)] transition-colors"
+                className="group block border-b border-white/5 pb-10 hover:border-[var(--brand)] transition-colors"
               >
-                <div className="text-xs text-foreground/40">
+                <div className="text-xs font-mono tracking-[0.16em] text-foreground/60">
                   {p.publishedAt
                     ? new Date(p.publishedAt).toLocaleDateString('en-US', {
                         year: 'numeric',
                         month: 'short',
                         day: 'numeric',
-                      })
+                      }).toUpperCase()
                     : ''}
-                  {p.readingTimeMin ? ` · ${p.readingTimeMin} min` : ''}
+                  {p.readingTimeMin ? ` · ${p.readingTimeMin} MIN` : ''}
                 </div>
-                <h2 className="mt-2 text-3xl group-hover:text-[var(--brand)] transition-colors">
+                <h2 className="mt-3 text-3xl md:text-4xl text-display group-hover:text-[var(--brand)] transition-colors">
                   {p.title}
                 </h2>
                 {p.excerpt && (
-                  <p className="mt-3 text-foreground/65 line-clamp-2 max-w-2xl">{p.excerpt}</p>
+                  <p className="mt-4 text-foreground/85 line-clamp-2 max-w-2xl leading-relaxed">{p.excerpt}</p>
                 )}
               </Link>
             ))

@@ -27,17 +27,19 @@ const ACTS = [
 
 export default function AboutPage() {
   return (
-    <article className="mx-auto max-w-3xl px-6 py-32">
-      <p className="text-xs uppercase tracking-[0.3em] text-foreground/40">About</p>
-      <h1 className="mt-6 text-6xl leading-[0.95]">Three frontiers, one editorial spine.</h1>
+    <article className="brand-glow mx-auto max-w-3xl px-6 py-32">
+      <span className="text-eyebrow">About</span>
+      <h1 className="text-display mt-8 text-[clamp(3rem,7vw,6rem)] text-balance">
+        Three frontiers, one editorial spine.
+      </h1>
 
-      <div className="mt-24 space-y-32">
+      <div className="mt-32 space-y-32">
         {ACTS.map((a) => (
           <section key={a.label} className="grid gap-8 md:grid-cols-[80px_1fr] items-baseline">
-            <div className="text-xs tracking-widest text-foreground/40">{a.label}</div>
+            <div className="text-xs font-mono tracking-[0.16em] text-[var(--brand)]">{a.label}</div>
             <div>
-              <h2 className="text-4xl">{a.title}</h2>
-              <p className="mt-6 text-lg text-foreground/70 leading-relaxed">{a.body}</p>
+              <h2 className="text-4xl md:text-5xl text-display">{a.title}</h2>
+              <p className="mt-6 text-lg text-foreground/85 leading-relaxed">{a.body}</p>
             </div>
           </section>
         ))}

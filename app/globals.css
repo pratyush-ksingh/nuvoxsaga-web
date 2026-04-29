@@ -166,6 +166,81 @@
   hr {
     border-color: oklch(1 0 0 / 0.08);
   }
+  /* Brand-tinted text selection — single chromatic accent the user feels
+     every time they highlight copy. color-mix in oklab keeps the tint
+     perceptually consistent across brands. */
+  ::selection {
+    background: color-mix(in oklab, var(--brand) 35%, transparent);
+    color: oklch(0.985 0 0);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Editorial typography — Phase 12 polish.
+ *
+ * .text-display — true display tier, uses Fraunces' optical-size axis at 144
+ *                 with the SOFT axis pushed for editorial warmth. Weight 300
+ *                 (light) + tight tracking (-0.04em) reads as edited not bold.
+ * .text-eyebrow — small caps label above section h1s. Brand color when paired
+ *                 with [data-brand], muted otherwise.
+ * .text-balance — for headlines where line breaks should not orphan the last word.
+ * .brand-glow   — radial brand tint behind hero text. Pure CSS, GPU-cheap.
+ *
+ * The "site looks bad" signal traced to: Fraunces axes loaded but never
+ * driven, body text always at /60 opacity, brand color appearing only as
+ * a 2px dot. These classes restore an editorial tier.
+ * ───────────────────────────────────────────────────────────────────────── */
+.text-display {
+  font-family: var(--font-heading), Georgia, 'Times New Roman', serif;
+  font-variation-settings: 'opsz' 144, 'SOFT' 30, 'WONK' 0;
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+  text-wrap: balance;
+}
+
+.text-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.6875rem; /* 11px */
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--brand);
+}
+
+.text-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.brand-glow {
+  position: relative;
+  isolation: isolate;
+}
+.brand-glow::before {
+  content: '';
+  position: absolute;
+  inset: -10% -10% auto -10%;
+  height: 60%;
+  background: radial-gradient(
+    ellipse at 30% 50%,
+    color-mix(in oklab, var(--brand) 22%, transparent) 0%,
+    transparent 60%
+  );
+  filter: blur(48px);
+  pointer-events: none;
+  z-index: -1;
 }
 
 /* SVG film grain overlay — Phase 10 will refine; baseline is here so layout
