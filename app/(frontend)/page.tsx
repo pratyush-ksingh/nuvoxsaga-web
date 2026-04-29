@@ -9,6 +9,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import { BRANDS } from '@/lib/brands';
 import { HeroCanvasIsland } from '@/components/3d/HeroCanvasIsland';
+import { RevealText } from '@/components/motion/RevealText';
+import { TiltCard } from '@/components/motion/TiltCard';
 
 export const metadata: Metadata = {
   title: 'Nuvoxsaga — three frontiers, one saga',
@@ -25,18 +27,18 @@ export default function Home() {
       <section className="relative overflow-hidden min-h-[80vh] flex items-end">
         <HeroCanvasIsland brand="nuvox_ai" />
         <div className="brand-glow relative mx-auto max-w-6xl px-6 pt-24 pb-32 w-full">
-          <span className="text-eyebrow">A media house</span>
-          <h1 className="text-display mt-8 text-[clamp(3.5rem,10vw,9rem)] max-w-5xl">
+          <RevealText as="span" className="text-eyebrow">A media house</RevealText>
+          <RevealText as="h1" delay={0.08} className="text-display mt-8 text-[clamp(3.5rem,10vw,9rem)] max-w-5xl">
             Three frontiers.
             <br />
             <span className="italic font-[350]" style={{ fontVariationSettings: "'opsz' 144, 'SOFT' 100" }}>
               One saga.
             </span>
-          </h1>
-          <p className="mt-10 max-w-2xl text-lg text-foreground/85 leading-relaxed">
+          </RevealText>
+          <RevealText as="p" delay={0.16} className="mt-10 max-w-2xl text-lg text-foreground/85 leading-relaxed">
             Long-form essays and daily shorts on AI, space, and the world. Built by editors,
             not algorithms — though we use the algorithms too.
-          </p>
+          </RevealText>
         </div>
       </section>
 
@@ -45,11 +47,11 @@ export default function Home() {
         <span className="text-eyebrow mb-10 inline-flex">The brands</span>
         <div className="grid gap-6 md:grid-cols-3">
           {BRANDS.map((b) => (
+            <TiltCard key={b.id} className="rounded-xl">
             <Link
-              key={b.id}
               href={`/${b.slug}`}
               data-brand={b.id}
-              className="group relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-card hover:border-[var(--brand)] transition-colors"
+              className="group relative block aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-card hover:border-[var(--brand)] transition-colors"
             >
               <Image
                 src={`/banners/${b.id}_1.768.avif`}
@@ -73,6 +75,7 @@ export default function Home() {
                 </p>
               </div>
             </Link>
+            </TiltCard>
           ))}
         </div>
       </section>

@@ -12,6 +12,7 @@ import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { fetchPostsForBrand } from '@/lib/content';
 import { BrandOrb } from '@/components/3d/BrandOrb';
+import { MagneticLink } from '@/components/motion/MagneticLink';
 
 interface Props {
   params: Promise<{ brand: string }>;
@@ -67,12 +68,12 @@ export default async function BrandPage({ params }: Props) {
             {brand.niche.replace(/_/g, ' ')} — long-form essays and daily shorts.
           </p>
           <div className="mt-10 flex gap-3">
-            <Link
+            <MagneticLink
               href={`/${brand.slug}/blog`}
               className="inline-flex h-11 items-center px-6 rounded-md bg-[var(--brand)] text-background font-medium hover:opacity-90 transition-opacity"
             >
               Read the blog
-            </Link>
+            </MagneticLink>
             <Link
               href={`/${brand.slug}/videos`}
               className="inline-flex h-11 items-center px-6 rounded-md border border-white/15 hover:border-[var(--brand)] transition-colors"
