@@ -51,6 +51,17 @@ function readAllowlist(): readonly string[] {
   return cfg.brands;
 }
 
+// CI/Vercel only have THIS repo checked out — the sibling
+// youtube-ai-system path doesn't exist on those builders. The committed
+// outputs (lib/brands.ts etc.) are the source of truth in CI; gen-brands
+// is a developer-side regeneration tool gated by the prebuild drift check.
+// When source is absent, exit 0 with a note — the drift check that follows
+// in `npm run prebuild` will pass because nothing was modified.
+if (!existsSync(SRC)) {
+  console.log(`[gen-brands] skip: source not present at ${SRC} (CI build — using committed outputs).`);
+  process.exit(0);
+}
+
 const ALLOWED = readAllowlist();
 const py = readFileSync(SRC, 'utf8');
 
