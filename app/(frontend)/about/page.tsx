@@ -27,7 +27,7 @@ const ACTS = [
 
 export default function AboutPage() {
   return (
-    <article className="brand-glow mx-auto max-w-3xl px-6 py-32">
+    <article className="brand-glow mx-auto max-w-3xl px-6 py-section">
       <span className="text-eyebrow">About</span>
       <h1 className="text-display mt-8 text-[clamp(3rem,7vw,6rem)] text-balance">
         Three frontiers, one editorial spine.

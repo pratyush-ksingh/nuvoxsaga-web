@@ -34,7 +34,7 @@ export default async function BlogIndex({ params }: Props) {
 
   return (
     <BrandProvider brand={brand.id}>
-      <section className="brand-glow mx-auto max-w-4xl px-6 py-32">
+      <section className="brand-glow mx-auto max-w-4xl px-6 py-section">
         <span className="text-eyebrow">{brand.name} · Blog</span>
         <h1 className="text-display mt-8 text-[clamp(2.75rem,6vw,5rem)] text-balance">
           {brand.name}

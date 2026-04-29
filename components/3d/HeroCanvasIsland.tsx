@@ -70,9 +70,20 @@ export function HeroCanvasIsland({ brand = 'nuvox_ai' }: Props) {
         fill
         priority
         sizes="100vw"
-        className="object-cover opacity-40"
+        className="object-cover opacity-55"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background" />
+      {/* Vertical scrim — fades shader/banner into the page background at the bottom */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/50 to-background" />
+      {/* Horizontal scrim — keeps left-aligned headline legible regardless of
+          shader frame (Phase 12 Fix 5b). The 3D shape on the right stays visible. */}
+      <div
+        aria-hidden
+        className="absolute inset-0"
+        style={{
+          background:
+            'linear-gradient(to right, var(--background) 0%, color-mix(in oklab, var(--background) 70%, transparent) 30%, transparent 60%)',
+        }}
+      />
 
       {/* Heavy 3D canvas — only on capable devices, only when on-screen + tab focused */}
       {!degraded && (

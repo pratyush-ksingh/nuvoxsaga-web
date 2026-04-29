@@ -89,7 +89,7 @@ export default async function BrandPage({ params }: Props) {
       </section>
 
       {/* Latest posts */}
-      <section className="mx-auto max-w-6xl px-6 py-32">
+      <section className="mx-auto max-w-6xl px-6 py-section">
         <div className="flex items-baseline justify-between mb-12">
           <div>
             <span className="text-eyebrow">Recent</span>

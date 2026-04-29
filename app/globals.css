@@ -243,6 +243,39 @@
   z-index: -1;
 }
 
+/* Spacing rhythm — Phase 12 polish (Fix 3).
+ * Replace ad-hoc py-24 / py-32 with these tokens for consistent vertical
+ * pacing across pages. clamp() makes them responsive without breakpoint soup. */
+:root {
+  --space-section: clamp(96px, 12vw, 200px);
+  --space-block: clamp(48px, 6vw, 96px);
+  --space-stack: 24px;
+  --space-tight: 8px;
+}
+.py-section { padding-block: var(--space-section); }
+.py-block { padding-block: var(--space-block); }
+.pt-section { padding-top: var(--space-section); }
+.pb-section { padding-bottom: var(--space-section); }
+.pt-block { padding-top: var(--space-block); }
+.pb-block { padding-bottom: var(--space-block); }
+
+/* Hero text scrim (Fix 5b) — horizontal left-side gradient that keeps
+ * headline legible regardless of shader phase. Only behind text, not
+ * full-screen, so the 3D shape stays visible on the right. */
+.hero-scrim::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    var(--background) 0%,
+    color-mix(in oklab, var(--background) 80%, transparent) 30%,
+    transparent 60%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* SVG film grain overlay — Phase 10 will refine; baseline is here so layout
    doesn't shift when grain lands. */
 .grain {

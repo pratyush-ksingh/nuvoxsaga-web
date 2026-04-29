@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* 3 brand zones */}
-      <section className="mx-auto max-w-6xl px-6 pb-32">
+      <section className="mx-auto max-w-6xl px-6 pb-section">
         <span className="text-eyebrow mb-10 inline-flex">The brands</span>
         <div className="grid gap-6 md:grid-cols-3">
           {BRANDS.map((b) => (
