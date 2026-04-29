@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "overrides": {
-    "html-encoding-sniffer": "3.0.0"
+    "jsdom": "24.1.3",
+    "html-encoding-sniffer": "3.0.0",
+    "whatwg-url": "14.2.0"
   },
   "scripts": {
     "dev": "next dev",
