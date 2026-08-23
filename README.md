@@ -7,20 +7,23 @@ Brands: `nuvox_ai`, `nuvox_space`, `nuvox_world`.
 
 ## Status
 
-Phase 2 complete (scaffold). Plan: see `infra/security/BANNED.md` and the v7 plan in user memory.
+Feature-complete, in final pre-launch hardening. Security foundation, Payload
+collections, Auth.js v5 magic-link + WebAuthn, the Ghost → Payload content
+pipeline, SEO, frontend, and heavy 3D are all built; a Vercel preview deploy
+is live. What's left is smoke-testing the full stack, activating Sentry, and
+the deferred Ghost → Payload post migration.
 
-## Next steps (Phase 3+)
+**Canonical status doc: [`infra/REMAINING_PLAN.md`](infra/REMAINING_PLAN.md)** —
+read it first in any session. It tracks live infra (Vercel/R2/Turnstile/Resend/
+Neon/Upstash), the Bitwarden env-var inventory, and the remaining tech-polish /
+smoke-test / migration / launch checklist.
 
-1. Phase 3 — Security foundation (CSP report-only, middleware rate limit, env wiring)
-2. Phase 4 — Payload collections (Posts/Media/Authors/Subscribers/Brands/AuditLog)
-3. Phase 5 — Auth.js v5 magic-link + WebAuthn MFA
-4. Phase 6 — Repoint Python content pipeline (Ghost → Payload, 4-function rewrite)
-5. Phase 7 — SEO foundation (custom `nuvox-seo` skill, sitemap, schema-dts)
-6. Phase 8 — Frontend (no 3D yet)
-7. Phase 9 — Heavy 3D (gaussian splat hero, per-brand bespoke, /about, /labs)
-8. Phase 10 — Polish
-9. Phase 11 — Pre-launch audit (11 hard gates)
-10. Phase 12 — Launch
+## CI
+
+`.github/workflows/security.yml` runs on every push/PR to `master`: Gitleaks
+secret scan, `npm audit`, codegen-drift check, `tsc --noEmit`, lint, CodeQL,
+and (PRs only) the Anthropic `claude-code-security-review` action.
+`lighthouse.yml` runs a Lighthouse CI audit against `LIGHTHOUSE_BASE_URL`.
 
 ## Key files
 
