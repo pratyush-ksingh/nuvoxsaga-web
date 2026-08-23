@@ -71,7 +71,9 @@ function htmlPage(title: string, body: string, nonce: string): NextResponse {
 
 export async function GET(req: NextRequest) {
   const token = req.nextUrl.searchParams.get('t');
-  const secret = process.env.NEWSLETTER_HMAC_SECRET ?? process.env.PAYLOAD_INTERNAL_SECRET;
+  // NEWSLETTER_HMAC_SECRET is required-in-prod (see lib/env.ts); fallback to
+  // PAYLOAD_INTERNAL_SECRET removed (prevents cross-secret blast radius).
+  const secret = process.env.NEWSLETTER_HMAC_SECRET;
   const nonce = safeNonce(req.headers.get('x-nonce'));
 
   // Always render the generic page on any failure path — no enumeration.

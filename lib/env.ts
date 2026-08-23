@@ -51,6 +51,10 @@ const requiredInProd = z.object({
   UPSTASH_REDIS_REST_TOKEN: nonEmpty,
   // Public site URL (used for absolute URLs everywhere)
   NEXT_PUBLIC_SITE_URL: url,
+  // Newsletter HMAC — confirms/unsubscribes use this; previously fell back
+  // to PAYLOAD_INTERNAL_SECRET. Promoted to required-in-prod to prevent a
+  // newsletter-secret leak from cascading into revalidate-webhook compromise.
+  NEWSLETTER_HMAC_SECRET: hex64,
 });
 
 // Vars that *can* be unset in production — features degrade gracefully.
@@ -73,8 +77,6 @@ const optional = z.object({
   SENTRY_DSN: z.string().optional(),
   NEXT_PUBLIC_SENTRY_DSN: z.string().optional(),
   SENTRY_AUTH_TOKEN: z.string().optional(),
-  // Newsletter HMAC — falls back to PAYLOAD_INTERNAL_SECRET if absent
-  NEWSLETTER_HMAC_SECRET: hex64.optional(),
   // Migration script (set transiently during one-shot Ghost → Payload import)
   MIGRATION_TOKEN: z.string().optional(),
   PAYLOAD_API_URL: url.optional(),
@@ -110,6 +112,7 @@ const providerHints: Record<string, string> = {
   UPSTASH_REDIS_REST_URL: 'Upstash → Redis DB → REST URL',
   UPSTASH_REDIS_REST_TOKEN: 'Upstash → Redis DB → REST token',
   NEXT_PUBLIC_SITE_URL: 'https://nuvoxsaga.com (or your Vercel preview URL)',
+  NEWSLETTER_HMAC_SECRET: 'generate locally: openssl rand -hex 32 (separate from PAYLOAD_INTERNAL_SECRET)',
 };
 
 let cached: Env | null = null;

@@ -70,8 +70,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'verification failed' }, { status: 400 });
   }
 
-  // Secrets — fail-closed in prod if missing
-  const hmacSecret = process.env.NEWSLETTER_HMAC_SECRET ?? process.env.PAYLOAD_INTERNAL_SECRET;
+  // Secrets — fail-closed in prod if missing. NEWSLETTER_HMAC_SECRET is now
+  // required-in-prod (see lib/env.ts); validateEnv() throws at boot if absent.
+  // Single-secret fallback to PAYLOAD_INTERNAL_SECRET removed to prevent a
+  // newsletter-HMAC leak from cascading into revalidate-webhook compromise.
+  const hmacSecret = process.env.NEWSLETTER_HMAC_SECRET;
   if (!hmacSecret) {
     return NextResponse.json({ error: 'not configured' }, { status: 503 });
   }
