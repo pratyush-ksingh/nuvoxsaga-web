@@ -14,9 +14,9 @@ name: lighthouse
 
 on:
   pull_request:
-    branches: [main]
+    branches: [master]
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
     inputs:
       url_override:
