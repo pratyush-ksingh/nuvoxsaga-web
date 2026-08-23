@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next';
 import { withPayload } from '@payloadcms/next/withPayload';
+import { withSentryConfig } from '@sentry/nextjs';
 
 /**
  * Security headers — STATIC only (HSTS, X-Frame, etc.).
@@ -64,4 +65,13 @@ const nextConfig: NextConfig = {
   productionBrowserSourceMaps: false,
 };
 
-export default withPayload(nextConfig);
+// Sentry wraps OUTERMOST so its build plugin sees Payload's compiled output
+// and can upload source maps + tunnel route. `silent: !process.env.CI` keeps
+// local builds quiet; uploads only run when SENTRY_AUTH_TOKEN is set.
+export default withSentryConfig(withPayload(nextConfig), {
+  silent: !process.env.CI,
+  widenClientFileUpload: true,
+  tunnelRoute: '/monitoring',
+  disableLogger: true,
+  reactComponentAnnotation: { enabled: false },
+});
