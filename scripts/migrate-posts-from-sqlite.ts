@@ -34,7 +34,7 @@
 import Database from 'better-sqlite3';
 import path from 'node:path';
 import { existsSync } from 'node:fs';
-import { randomUUID } from 'node:crypto';
+import { toBody } from './migrate-lexical';
 
 const ALLOWED_BRANDS = new Set(['nuvox_ai', 'nuvox_space', 'nuvox_world']);
 
@@ -108,19 +108,6 @@ const updateStmt = db.prepare<{ id: number; payload_id: string; payload_url: str
    WHERE id = @id
 `);
 
-function toLexical(html: string): unknown {
-  return {
-    root: {
-      children: [{ type: 'html', version: 1, html }],
-      direction: null,
-      format: '',
-      indent: 0,
-      type: 'root',
-      version: 1,
-    },
-  };
-}
-
 function safeJSON<T>(s: string | null, fallback: T): T {
   if (!s) return fallback;
   try {
@@ -140,7 +127,7 @@ function rowToPayload(r: Row) {
     brand: r.brand_id,
     status: 'published',
     excerpt: r.meta_description ?? '',
-    body: toLexical(r.content_html ?? ''),
+    body: toBody(r.content_html ?? ''),
     tags: tags.map((t) => ({ tag: t })),
     wordCount: r.word_count ?? 0,
     readingTimeMin: r.reading_time_min ?? 0,
@@ -155,24 +142,39 @@ function rowToPayload(r: Row) {
   };
 }
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+// Single retry on transient 5xx with 2s backoff. 4xx (validation, auth) fails
+// fast — retrying a malformed body won't help. X-Idempotency-Key header
+// dropped: Payload doesn't honor it, and a fresh UUID per attempt would
+// defeat its intent anyway.
 async function postOne(payloadDoc: ReturnType<typeof rowToPayload>) {
-  const res = await fetch(`${API}/posts`, {
+  const url = `${API}/posts`;
+  const init: RequestInit = {
     method: 'POST',
     headers: {
       Authorization: `users API-Key ${TOKEN}`,
       'Content-Type': 'application/json',
-      'X-Idempotency-Key': randomUUID(),
     },
     body: JSON.stringify(payloadDoc),
-  });
-  if (!res.ok) {
+  };
+  let lastErr = '';
+  for (let attempt = 0; attempt < 2; attempt++) {
+    if (attempt > 0) await sleep(2000);
+    const res = await fetch(url, init);
+    if (res.ok) {
+      const json = (await res.json()) as { doc?: { id?: string }; id?: string };
+      const id = json.doc?.id ?? json.id;
+      if (!id) throw new Error('response missing id');
+      return String(id);
+    }
     const text = await res.text();
-    throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`);
+    lastErr = `HTTP ${res.status}: ${text.slice(0, 200)}`;
+    if (res.status < 500) break;
   }
-  const json = (await res.json()) as { doc?: { id?: string }; id?: string };
-  const id = json.doc?.id ?? json.id;
-  if (!id) throw new Error('response missing id');
-  return String(id);
+  throw new Error(lastErr);
 }
 
 function publicUrl(brand: string, slug: string): string {
@@ -206,6 +208,9 @@ async function main() {
       console.warn(`  ✗ [${r.id}] ${r.brand_id} / ${r.slug}: ${(e as Error).message}`);
       fail++;
     }
+    // Pace between rows — keeps us well below Payload's per-IP rate-limit on
+    // a 1000-post backlog. 100ms = 10 req/s ceiling, generous either way.
+    await sleep(100);
   }
   console.log(`Done · ok=${ok} fail=${fail}`);
   db.close();
