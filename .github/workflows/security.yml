@@ -53,28 +53,23 @@ jobs:
       - name: Lint
         run: npm run lint
 
-  # codeql:
-  #   name: CodeQL JS/TS analysis
-  #   Disabled 2026-08-23: fails with "Code scanning is not enabled for this
-  #   repository" — this repo is private and GitHub Advanced Security (which
-  #   private-repo code scanning requires) isn't enabled on the current plan.
-  #   Re-enable once GHAS is turned on (Settings -> Code security and
-  #   analysis) or the repo goes public.
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - uses: actions/checkout@v4
-  #       with:
-  #         submodules: false
-  #     - uses: github/codeql-action/init@v3
-  #       with:
-  #         languages: javascript-typescript
-  #         # Don't analyze lygia (submodule) or banner public assets
-  #         paths-ignore: |
-  #           public/shaders/lygia
-  #           public/banners
-  #           public/faces
-  #           public/3d
-  #     - uses: github/codeql-action/analyze@v3
+  codeql:
+    name: CodeQL JS/TS analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+          # Don't analyze lygia (submodule) or banner public assets
+          paths-ignore: |
+            public/shaders/lygia
+            public/banners
+            public/faces
+            public/3d
+      - uses: github/codeql-action/analyze@v3
 
   claude-code-security-review:
     name: Claude security review (PR diff)
