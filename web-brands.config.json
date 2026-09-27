@@ -4,5 +4,11 @@
     "nuvox_ai",
     "nuvox_space",
     "nuvox_world"
-  ]
+  ],
+  "_webSlugs": "Public desk URL per brand (media-house desks, 2026-09-27). Overrides brand_config.py blog_tag for the website only.",
+  "webSlugs": {
+    "nuvox_ai": "ai",
+    "nuvox_space": "space",
+    "nuvox_world": "world"
+  }
 }

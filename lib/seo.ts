@@ -82,14 +82,13 @@ export function breadcrumbSchema(args: {
   const items = [
     { '@type': 'ListItem' as const, position: 1, name: 'Nuvoxsaga', item: SITE_URL },
     { '@type': 'ListItem' as const, position: 2, name: brand.name, item: `${SITE_URL}/${brand.slug}` },
-    { '@type': 'ListItem' as const, position: 3, name: 'Blog', item: `${SITE_URL}/${brand.slug}/blog` },
   ];
   if (args.postSlug && args.postTitle) {
     items.push({
       '@type': 'ListItem',
-      position: 4,
+      position: 3,
       name: stripUnsafeJSONLD(args.postTitle),
-      item: `${SITE_URL}/${brand.slug}/blog/${args.postSlug}`,
+      item: `${SITE_URL}/${brand.slug}/news/${args.postSlug}`,
     });
   }
   return { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items };
@@ -111,7 +110,7 @@ export function articleSchema(args: {
   tier?: 'evergreen' | 'news' | 'companion';
 }): WithContext<TechArticle | NewsArticle | BlogPosting | Article> {
   const brand = BRAND_BY_ID[args.brandId];
-  const url = `${SITE_URL}/${brand.slug}/blog/${args.slug}`;
+  const url = `${SITE_URL}/${brand.slug}/news/${args.slug}`;
   const t =
     args.tier === 'evergreen' ? 'TechArticle' : args.tier === 'news' ? 'NewsArticle' : 'BlogPosting';
 
@@ -120,8 +119,8 @@ export function articleSchema(args: {
     '@type': t,
     headline: stripUnsafeJSONLD(args.title),
     description: stripUnsafeJSONLD(args.excerpt ?? ''),
-    image: args.imageUrl ? [args.imageUrl] : [`${SITE_URL}/banners/${args.brandId}_1.1920.avif`],
-    author: { '@type': 'Person', name: args.author || 'Nuvoxsaga Editorial' },
+    image: [args.imageUrl ?? `${SITE_URL}/og/${args.brandId}/${args.slug}.png`],
+    author: { '@type': 'Organization', name: args.author || `Nuvoxsaga ${brand.name.replace('Nuvox ', '')} desk`, url: SITE_URL },
     publisher: organizationSchema(args.brandId),
     datePublished: args.publishedAt ?? new Date().toISOString(),
     dateModified: args.updatedAt ?? args.publishedAt ?? new Date().toISOString(),

@@ -1,84 +1,280 @@
 /**
- * Parent landing page (/).
- *
- * Phase 8: editorial 3-brand portal placeholder. Phase 9 wires the unified
- * gaussian-splat hero canvas with scroll-driven camera through brand zones.
+ * Home, the media-house front page:
+ *   1. top stories (lead + 3) across the desks    2. Latest river + trending topics/features
+ *   3. one block per desk                          4. how we report (newsletter band: SiteFooter)
+ * Before the first story is published it shows the launch composition instead (LaunchHome).
  */
 import Link from 'next/link';
-import Image from 'next/image';
 import type { Metadata } from 'next';
-import { BRANDS } from '@/lib/brands';
-import { HeroCanvasIsland } from '@/components/3d/HeroCanvasIsland';
-import { RevealText } from '@/components/motion/RevealText';
-import { TiltCard } from '@/components/motion/TiltCard';
+import { ArrowRight } from 'lucide-react';
+import { BRANDS, BRAND_BY_ID, type BrandId } from '@/lib/brands';
+import { BRAND_CONTENT } from '@/lib/brand-content';
+import { DESKS } from '@/lib/desks';
+import { loadAllPosts, splitTop, trendingTopics, type PublicPost } from '@/lib/content';
+import { Picture } from '@/components/Picture';
+import { HeadlineList, River, SecondaryStory, TopStories } from '@/components/news/StoryCards';
 
 export const metadata: Metadata = {
-  title: 'Nuvoxsaga — three frontiers, one saga',
-  description:
-    'Nuvoxsaga is the saga of three frontiers: AI, space, and the world. Long-form essays, daily shorts, and a media house for what comes next.',
-  alternates: { canonical: '/' },
+  title: { absolute: 'Nuvoxsaga: AI, space and world news' },
+  alternates: {
+    canonical: '/',
+    types: { 'application/rss+xml': [{ url: '/feed.xml', title: 'Nuvoxsaga' }] },
+  },
 };
 
+const PRINCIPLES = [
+  {
+    title: 'Primary sources, not memory',
+    body: 'Briefs are written from one primary source, such as a space agency or a research lab, and features from live search. Never from what a model remembers.',
+  },
+  {
+    title: 'An independent second check',
+    body: 'Every name, number and date is matched against the source, and a separate pass has to confirm each claim, headline included.',
+  },
+  {
+    title: 'No check, no story',
+    body: 'A claim that cannot be confirmed is rewritten or removed. If the story still does not hold up, it is not published.',
+  },
+];
+
 export default function Home() {
+  const all = loadAllPosts();
+  if (all.length === 0) return <LaunchHome />;
+  const { lead, secondary, rest } = splitTop(all);
+  const topIds = new Set([lead, ...secondary].map((p) => p?.id));
+  const latest = rest.slice(0, 14);
+  const features = all.filter((p) => p.kind === 'feature' && !topIds.has(p.id)).slice(0, 5);
+  const topics = trendingTopics();
+
   return (
     <>
-      {/* Hero — heavy 3D blob (Phase 9), static banner fallback on degraded devices.
-          Phase 0+ swaps the procedural blob for a CC0 gaussian splat. */}
-      <section className="relative overflow-hidden min-h-[80vh] flex items-end">
-        <HeroCanvasIsland brand="nuvox_ai" />
-        <div className="brand-glow relative mx-auto max-w-6xl px-6 pt-24 pb-32 w-full">
-          <RevealText as="span" className="text-eyebrow">A media house</RevealText>
-          <RevealText as="h1" delay={0.08} className="text-display mt-8 text-[clamp(3.5rem,10vw,9rem)] max-w-5xl">
-            Three frontiers.
-            <br />
-            <span className="italic font-[350]" style={{ fontVariationSettings: "'opsz' 144, 'SOFT' 100" }}>
-              One saga.
-            </span>
-          </RevealText>
-          <RevealText as="p" delay={0.16} className="mt-10 max-w-2xl text-lg text-foreground/85 leading-relaxed">
-            Long-form essays and daily shorts on AI, space, and the world. Built by editors,
-            not algorithms — though we use the algorithms too.
-          </RevealText>
+      <h1 className="sr-only">Nuvoxsaga: AI, space and world news</h1>
+
+      {/* 1. Top stories across the three desks */}
+      <section aria-label="Top stories" className="container-page pb-16 pt-10 md:pb-20 md:pt-14">
+        <TopStories lead={lead} secondary={secondary} />
+      </section>
+
+      {/* 2. Latest river + sidebar */}
+      <section className="border-t border-hairline">
+        <div className="container-page grid gap-14 py-16 md:py-20 lg:grid-cols-[1fr_20rem] lg:gap-16">
+          <div>
+            <div className="mb-2 flex items-end justify-between gap-6">
+              <h2 id="latest" className="scroll-mt-20 text-2xl font-bold tracking-[-0.02em]">
+                Latest
+              </h2>
+              <Link href="/latest" className="link-arrow text-sm text-ink-2">
+                All latest <ArrowRight aria-hidden="true" size={15} />
+              </Link>
+            </div>
+            <River posts={latest} />
+          </div>
+          <aside className="flex flex-col gap-12 lg:sticky lg:top-24 lg:self-start">
+            {topics.length > 0 && (
+              <section aria-labelledby="topics-title">
+                <h2 id="topics-title" className="border-b border-hairline pb-3 text-lg font-bold">
+                  Trending topics
+                </h2>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {topics.map((t) => (
+                    <li key={t.slug}>
+                      <Link
+                        href={`/topic/${t.slug}`}
+                        className="block rounded-full border border-hairline px-3.5 py-1.5 text-sm text-ink-2 transition-colors duration-150 hover:text-ink"
+                      >
+                        {t.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+            {features.length > 0 && (
+              <section aria-labelledby="features-title">
+                <h2 id="features-title" className="border-b border-hairline pb-3 text-lg font-bold">
+                  Features and explainers
+                </h2>
+                <HeadlineList posts={features} numbered />
+              </section>
+            )}
+          </aside>
         </div>
       </section>
 
-      {/* 3 brand zones */}
-      <section className="mx-auto max-w-6xl px-6 pb-section">
-        <span className="text-eyebrow mb-10 inline-flex">The brands</span>
-        <div className="grid gap-6 md:grid-cols-3">
+      {/* 3. One block per desk */}
+      <section aria-label="Desks" className="border-t border-hairline">
+        <div className="container-page grid gap-14 py-16 md:grid-cols-3 md:gap-8 md:py-20">
           {BRANDS.map((b) => (
-            <TiltCard key={b.id} className="rounded-xl">
-            <Link
-              href={`/${b.slug}`}
-              data-brand={b.id}
-              className="group relative block aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-card hover:border-[var(--brand)] transition-colors"
-            >
-              <Image
-                src={`/banners/${b.id}_1.768.avif`}
-                alt={`${b.name} hero banner`}
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover opacity-50 group-hover:opacity-70 transition-opacity"
-                priority={b.id === 'nuvox_ai'}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
-              <div className="absolute inset-0 flex flex-col justify-end p-6">
-                <div className="flex items-center gap-2">
-                  <div className="size-1.5 rounded-full bg-[var(--brand)] shadow-[0_0_24px_var(--brand)]" />
-                  <span className="text-xs uppercase tracking-[0.16em] text-foreground/85">
-                    {b.handle}
-                  </span>
-                </div>
-                <h3 className="mt-3 text-3xl tracking-tight" style={{ fontVariationSettings: "'opsz' 96" }}>{b.name}</h3>
-                <p className="mt-1.5 text-sm text-foreground/70 capitalize">
-                  {b.niche.replace(/_/g, ' ')}
-                </p>
-              </div>
-            </Link>
-            </TiltCard>
+            <DeskBlock key={b.id} brand={b.id} posts={all.filter((p) => p.brand === b.id && !topIds.has(p.id))} />
           ))}
         </div>
       </section>
+
+      {/* 4. How we report (compact) */}
+      <section aria-labelledby="report-title" className="border-t border-hairline">
+        <div className="container-page py-16 md:py-20">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <h2 id="report-title" className="display max-w-[20ch] text-[clamp(1.75rem,3vw,2.5rem)]">
+              Every claim is checked before it ships.
+            </h2>
+            <Link href="/standards" className="link-arrow text-ink-2">
+              Our editorial standards <ArrowRight aria-hidden="true" size={16} />
+            </Link>
+          </div>
+          <dl className="mt-10 grid gap-8 md:grid-cols-3">
+            {PRINCIPLES.map((p) => (
+              <div key={p.title}>
+                <dt className="text-lg font-bold tracking-[-0.015em]">{p.title}</dt>
+                <dd className="mt-2 text-ink-2">{p.body}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
     </>
+  );
+}
+
+function DeskBlock({ brand, posts }: { brand: BrandId; posts: PublicPost[] }) {
+  const b = BRAND_BY_ID[brand];
+  const desk = DESKS[brand];
+  const [first, ...next] = posts;
+  return (
+    <section aria-labelledby={`desk-${b.slug}`}>
+      <div className="mb-6 flex items-end justify-between gap-4 border-b border-hairline pb-3">
+        <h2 id={`desk-${b.slug}`} className="text-2xl font-extrabold tracking-[-0.03em]">
+          <Link href={`/${b.slug}`} className="inline-flex items-center gap-3 hover:text-ink-2">
+            <span aria-hidden="true" className="h-[3px] w-6 rounded-full" style={{ background: desk.accent }} />
+            {desk.name}
+          </Link>
+        </h2>
+        <Link href={`/${b.slug}`} className="text-sm text-ink-2 hover:text-ink">
+          See all
+        </Link>
+      </div>
+      {first ? (
+        <>
+          <SecondaryStory post={first} showDesk={false} />
+          {next.length > 0 && (
+            <div className="mt-4">
+              <HeadlineList posts={next.slice(0, 4)} />
+            </div>
+          )}
+        </>
+      ) : (
+        <p className="text-ink-2">No {desk.name} stories yet.</p>
+      )}
+      <ul className="mt-6 flex flex-wrap gap-x-4 gap-y-2 text-sm text-ink-3">
+        {desk.sections.map((s) => (
+          <li key={s.slug}>
+            <Link href={`/${b.slug}/${s.slug}`} className="hover:text-ink">
+              {s.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** Before the first story passes its checks: the launch composition (hero, desk bento, how we report). */
+function LaunchHome() {
+  const [lead, ...rest] = BRANDS;
+  return (
+    <>
+      <section className="container-page grid gap-10 pb-20 pt-12 md:grid-cols-[1.15fr_0.85fr] md:items-center md:gap-16 md:pb-28 md:pt-20">
+        <div className="hero-in">
+          <h1 className="display text-[clamp(2.75rem,6.4vw,5.5rem)]">
+            Three frontiers.
+            <br />
+            One newsroom.
+          </h1>
+          <p className="mt-6 max-w-[34ch] text-lg leading-relaxed text-ink-2 md:text-xl">
+            News on AI, space and the world, checked claim by claim against the sources before it is published.
+          </p>
+          <div className="mt-9">
+            <a href="#newsletter" className="btn-primary">
+              Subscribe <ArrowRight aria-hidden="true" size={18} strokeWidth={2} />
+            </a>
+          </div>
+        </div>
+        <div className="overflow-hidden rounded-2xl border border-hairline">
+          <Picture
+            name="home-orbit"
+            alt="Illustration: Earth's horizon at dawn seen from orbit"
+            sizes="(min-width: 768px) 42vw, 100vw"
+            priority
+            className="drift aspect-[4/5] max-h-[72vh] w-full object-cover"
+          />
+        </div>
+      </section>
+
+      <section aria-labelledby="desks-title" className="container-page pb-20 md:pb-28">
+        <h2 id="desks-title" className="display reveal mb-8 text-[clamp(2rem,4vw,3.25rem)]">
+          Pick your desk
+        </h2>
+        <div className="grid gap-3 md:grid-cols-[1.25fr_1fr] md:grid-rows-2">
+          <BrandTile brand={lead} large />
+          {rest.map((b) => (
+            <BrandTile key={b.id} brand={b} />
+          ))}
+        </div>
+      </section>
+
+      <section aria-labelledby="report-title" className="border-t border-hairline">
+        <div className="container-page grid gap-12 py-20 md:grid-cols-[1fr_1fr] md:gap-20 md:py-28">
+          <div className="md:sticky md:top-28 md:self-start">
+            <p className="text-sm font-medium uppercase tracking-[0.16em] text-ink-3">How we report</p>
+            <h2 id="report-title" className="display reveal mt-5 max-w-[12ch] text-[clamp(2.25rem,5vw,4rem)]">
+              Every claim is checked before it ships.
+            </h2>
+          </div>
+          <div className="flex flex-col gap-10">
+            <div className="reveal overflow-hidden rounded-2xl border border-hairline">
+              <Picture
+                name="newsroom"
+                alt="Illustration: research papers and source documents on a desk"
+                sizes="(min-width: 768px) 45vw, 100vw"
+                className="aspect-[10/7] w-full object-cover"
+              />
+            </div>
+            <dl className="grid gap-8">
+              {PRINCIPLES.map((p) => (
+                <div key={p.title} className="reveal">
+                  <dt className="text-xl font-bold tracking-[-0.015em]">{p.title}</dt>
+                  <dd className="mt-2 max-w-[52ch] text-ink-2">{p.body}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+function BrandTile({ brand, large = false }: { brand: (typeof BRANDS)[number]; large?: boolean }) {
+  const c = BRAND_CONTENT[brand.id];
+  const desk = DESKS[brand.id];
+  return (
+    <Link
+      href={`/${brand.slug}`}
+      className={`group reveal relative block overflow-hidden rounded-2xl border border-hairline ${
+        large ? 'aspect-[4/5] md:row-span-2 md:aspect-auto md:min-h-[36rem]' : 'aspect-[16/10] md:aspect-auto md:min-h-[17.5rem]'
+      }`}
+    >
+      <Picture
+        name={c.image}
+        alt=""
+        sizes={large ? '(min-width: 768px) 55vw, 100vw' : '(min-width: 768px) 45vw, 100vw'}
+        className="absolute inset-0 size-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+      />
+      <div aria-hidden="true" className="scrim-bottom absolute inset-0" />
+      <div className="absolute inset-x-0 bottom-0 p-6 md:p-8">
+        <span aria-hidden="true" className="mb-4 block h-[3px] w-10 rounded-full" style={{ background: desk.accent }} />
+        <h3 className={`font-extrabold tracking-[-0.03em] ${large ? 'text-4xl md:text-5xl' : 'text-3xl'}`}>{desk.name}</h3>
+        <p className="mt-2 max-w-[36ch] text-ink-2">{c.tileCaption}</p>
+      </div>
+    </Link>
   );
 }

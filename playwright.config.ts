@@ -5,7 +5,7 @@ import { defineConfig, devices } from '@playwright/test';
  *
  * Phase 11 gate 6: 3 brands × 2 themes (dark + reduced-motion) per route.
  * Runs against PLAYWRIGHT_BASE_URL (default localhost:3007). In CI: hit
- * the Vercel preview URL of the PR.
+ * the Cloudflare Pages deployment.
  */
 const BASE_URL = process.env.PLAYWRIGHT_BASE_URL ?? 'http://localhost:3007';
 

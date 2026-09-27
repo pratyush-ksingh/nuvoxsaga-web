@@ -50,6 +50,8 @@ jobs:
           git diff --exit-code lib/brands.ts || (echo "❌ lib/brands.ts is stale" && exit 1)
       - name: TypeScript strict
         run: npx tsc --noEmit
+      - name: TypeScript strict (Pages Functions, workerd types)
+        run: npx tsc -p functions
       - name: Lint
         run: npm run lint
 

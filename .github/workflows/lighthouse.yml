@@ -4,10 +4,11 @@ name: lighthouse
 # unblocks the workflow OAuth scope. Move via infra/restore-workflows.sh.
 #
 # Setup before this is useful:
-#   1. Vercel preview must be live (Phase 0 step 7).
+#   1. The Cloudflare Pages site must be live.
 #   2. GitHub repo → Settings → Variables → Actions → New repository variable
 #         Name:  LIGHTHOUSE_BASE_URL
-#         Value: https://nuvoxsaga-web-<hash>.vercel.app  (or production URL)
+#         Value: https://nuvoxsaga.com  (not *.pages.dev: it sends X-Robots-Tag
+#                noindex, which fails the SEO category)
 #   3. Optional: secret LHCI_GITHUB_APP_TOKEN for inline PR status checks
 #      (https://github.com/apps/lighthouse-ci). Skip and lhci posts a public
 #      report URL instead.
@@ -53,7 +54,7 @@ jobs:
         run: |
           URL="${INPUT_URL:-$REPO_VAR_URL}"
           if [ -z "$URL" ]; then
-            echo "::warning::No target URL — set repo variable LIGHTHOUSE_BASE_URL after Vercel preview is up. Skipping audit."
+            echo "::warning::No target URL — set repo variable LIGHTHOUSE_BASE_URL to the live site. Skipping audit."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
             # Strip trailing slash so URL concat is predictable.
@@ -73,12 +74,10 @@ jobs:
         run: |
           set -euo pipefail
           BASE='${{ steps.target.outputs.url }}'
-          # Audit: parent landing, one brand landing, one blog index. Blog
-          # post detail is omitted until the migration ships real posts —
-          # add it as a separate step once a known slug exists.
+          # Audit: home, one desk front, the latest river.
           lhci autorun \
             --config=./.lighthouserc.json \
             --collect.url="$BASE/" \
-            --collect.url="$BASE/nuvoxai" \
-            --collect.url="$BASE/nuvoxai/blog" \
+            --collect.url="$BASE/ai" \
+            --collect.url="$BASE/latest" \
             --upload.target=temporary-public-storage

@@ -38,6 +38,7 @@ const eslintConfig = defineConfig([
     'next-env.d.ts',
     'public/shaders/lygia/**', // submodule — out of scope for our lint
     'tokens/build/**', // codegen output
+    '.wrangler/**', // wrangler pages dev build output
   ]),
 ]);
 
