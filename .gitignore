@@ -76,3 +76,6 @@ content-fixtures/
 .playwright-cli/
 .deploy.lock
 __pycache__/
+
+# graphify knowledge graph (regenerated locally)
+graphify-out/
