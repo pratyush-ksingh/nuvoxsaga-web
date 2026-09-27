@@ -8,8 +8,8 @@
  * - frameloop="demand" — render only when something changes; saves battery.
  * - Suspense fallback = null (parent is responsible for the static poster).
  *
- * Phase 11 follow-up: add `gl={{ powerPreference: 'low-power' }}` if Vercel
- * Analytics shows we're triggering high-power GPU on integrated chips.
+ * Phase 11 follow-up: add `gl={{ powerPreference: 'low-power' }}` if
+ * Cloudflare Web Analytics shows we're triggering high-power GPU on integrated chips.
  */
 import { Canvas, type CanvasProps } from '@react-three/fiber';
 import { ACESFilmicToneMapping } from 'three';

@@ -56,8 +56,8 @@ function readConfig(): AllowlistConfig {
   return cfg;
 }
 
-// CI/Vercel only have THIS repo checked out — the sibling
-// youtube-ai-system path doesn't exist on those builders. The committed
+// CI only has THIS repo checked out — the sibling youtube-ai-system
+// path doesn't exist there. The committed
 // outputs (lib/brands.ts etc.) are the source of truth in CI; gen-brands
 // is a developer-side regeneration tool gated by the prebuild drift check.
 // When source is absent, exit 0 with a note — the drift check that follows

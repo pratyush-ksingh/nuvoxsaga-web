@@ -10,8 +10,7 @@ const ENABLED = !!DSN && (process.env.NODE_ENV === 'production' || process.env.N
 if (ENABLED) {
   Sentry.init({
     dsn: DSN,
-    environment: process.env.NEXT_PUBLIC_VERCEL_ENV ?? process.env.NODE_ENV,
-    release: process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA ?? 'local',
+    environment: process.env.NODE_ENV,
     tracesSampleRate: 0.05,
     replaysSessionSampleRate: 0,
     replaysOnErrorSampleRate: 0,

@@ -167,7 +167,7 @@ Example import:
 
 - `next-sitemap` (multi-brand merged sitemap)
 - `schema-dts` (Google-official types for JSON-LD)
-- `@vercel/og` (brand-tinted dynamic OG cards)
+- Pre-rendered OG PNGs at build time (static export: no `@vercel/og` / edge runtime)
 
 Do NOT install any third-party SEO Claude skill (e.g. claude-seo by indie
 maintainers). All SEO logic stays in this skill + the three packages above.
