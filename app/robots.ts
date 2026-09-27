@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
           '/login',
           '/setup-mfa',
           // Pagefind generated assets — not for crawlers.
-          '/_pagefind/',
+          '/pagefind/',
           // Search results pages — also marked noindex via metadata, blocked here too.
           '/search',
         ],

@@ -3,16 +3,18 @@
  * Static export has no image-optimisation server, so sizes are generated at design
  * time (design/gen_image.py + sharp) and listed here.
  */
-const SETS: Record<string, { widths: number[]; ratio: [number, number] }> = {
+const SETS = {
   'home-orbit': { widths: [480, 768, 1024], ratio: [4, 5] },
   'brand-ai': { widths: [640, 1280, 1792], ratio: [7, 4] },
   'brand-space': { widths: [640, 1280, 1792], ratio: [7, 4] },
   'brand-world': { widths: [640, 1280, 1792], ratio: [7, 4] },
   newsroom: { widths: [640, 1280], ratio: [10, 7] },
-};
+} satisfies Record<string, { widths: number[]; ratio: [number, number] }>;
+
+export type PictureName = keyof typeof SETS;
 
 interface Props {
-  name: keyof typeof SETS | string;
+  name: PictureName;
   alt: string;
   sizes: string;
   className?: string;
@@ -21,7 +23,6 @@ interface Props {
 
 export function Picture({ name, alt, sizes, className, priority = false }: Props) {
   const set = SETS[name];
-  if (!set) return null;
   const largest = set.widths[set.widths.length - 1];
   return (
     // eslint-disable-next-line @next/next/no-img-element -- static export: pre-encoded srcset

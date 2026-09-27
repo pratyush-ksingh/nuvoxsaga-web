@@ -14,6 +14,7 @@
     "gen-brands": "tsx scripts/gen-brands.ts",
     "prebuild": "tsx scripts/gen-brands.ts && (git diff --exit-code lib/brands.ts app/_brand-vars.generated.css tokens/raw/brands.json || (echo \"❌ codegen drift — commit generated outputs\" && exit 1))",
     "convert-banners": "tsx scripts/convert-banners.ts",
+    "typecheck": "tsc --noEmit && tsc -p functions",
     "test": "vitest",
     "e2e": "playwright test",
     "search-index": "pagefind --site out --glob \"{about.html,standards.html,ai/news/**/*.html,space/news/**/*.html,world/news/**/*.html}\"",
@@ -69,6 +70,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260927.1",
     "@gltf-transform/cli": "^4.3.0",
     "@playwright/cli": "^0.1.21",
     "@playwright/test": "^1.59.1",

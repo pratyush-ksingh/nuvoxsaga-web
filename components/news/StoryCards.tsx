@@ -17,9 +17,15 @@ import { Picture } from '@/components/Picture';
 import { TimeAgo } from '@/components/TimeAgo';
 
 /** The pipeline may write a 480px sibling (<name>-480.webp) for list thumbnails. */
+const smallVariants = new Map<string, string | null>();
 function smallVariant(src: string): string | null {
-  const small = src.replace(/\.(\w+)$/, '-480.$1');
-  return fs.existsSync(path.join(process.cwd(), 'public', small)) ? small : null;
+  let small = smallVariants.get(src);
+  if (small === undefined) {
+    const candidate = src.replace(/\.(\w+)$/, '-480.$1');
+    small = fs.existsSync(path.join(process.cwd(), 'public', candidate)) ? candidate : null;
+    smallVariants.set(src, small);
+  }
+  return small;
 }
 
 export function StoryImage({

@@ -1,0 +1,16 @@
+{
+  // Cloudflare Pages Functions run on workerd, not Node or the browser, so they get
+  // their own project (the root tsconfig excludes functions/ and functions-lib/).
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "types": ["@cloudflare/workers-types"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
+  },
+  "include": ["**/*.ts", "../functions-lib/**/*.ts"]
+}

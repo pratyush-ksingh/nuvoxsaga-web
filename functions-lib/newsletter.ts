@@ -120,7 +120,9 @@ export async function sealEmail(email: string, publicKeyB64: string) {
   const eph = (await crypto.subtle.generateKey({ name: 'ECDH', namedCurve: 'P-256' }, true, [
     'deriveBits',
   ])) as CryptoKeyPair;
-  const shared = await crypto.subtle.deriveBits({ name: 'ECDH', public: recipient }, eph.privateKey, 256);
+  // workers-types spells the ECDH param `$public`; the runtime takes the standard `public`.
+  const ecdh = { name: 'ECDH', public: recipient } as Parameters<SubtleCrypto['deriveBits']>[0];
+  const shared = await crypto.subtle.deriveBits(ecdh, eph.privateKey, 256);
   const hkdf = await crypto.subtle.importKey('raw', shared, 'HKDF', false, ['deriveKey']);
   const aes = await crypto.subtle.deriveKey(
     { name: 'HKDF', hash: 'SHA-256', salt: new Uint8Array(0), info: enc.encode('nuvoxsaga-subscriber-v1') },
@@ -132,7 +134,7 @@ export async function sealEmail(email: string, publicKeyB64: string) {
   const iv = crypto.getRandomValues(new Uint8Array(12));
   const ct = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, aes, enc.encode(normalizeEmail(email)));
   return {
-    epk: b64(await crypto.subtle.exportKey('raw', eph.publicKey)),
+    epk: b64((await crypto.subtle.exportKey('raw', eph.publicKey)) as ArrayBuffer),
     iv: b64(iv),
     ct: b64(ct),
   };

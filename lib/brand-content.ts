@@ -5,6 +5,7 @@
  * Copy rules (DESIGN.md + taste-skill): plain, specific, no em-dashes, no hype verbs.
  */
 import type { BrandId } from './brands';
+import type { PictureName } from '@/components/Picture';
 
 export interface BrandContent {
   /** One-sentence tagline under the brand name. */
@@ -14,7 +15,7 @@ export interface BrandContent {
   /** Short caption on the home-page brand tile. */
   tileCaption: string;
   /** Base name of the responsive image set in public/images (see <Picture>). */
-  image: string;
+  image: PictureName;
   /** Alt text. Images are AI illustrations, and the alt says so. */
   imageAlt: string;
 }

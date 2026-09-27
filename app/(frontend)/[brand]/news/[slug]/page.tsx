@@ -91,7 +91,9 @@ export default async function StoryPage({ params }: Props) {
   const updated = post.updatedAt && post.updatedAt !== post.publishedAt ? post.updatedAt : undefined;
   const more = await related(post);
 
-  const schemas = generateAllSchemas({
+  // The pipeline's pre-built JSON-LD wins; the TS builders are the fallback.
+  const pipelineLD = Array.isArray(post.schemaLD) ? post.schemaLD : post.schemaLD ? [post.schemaLD] : [];
+  const schemas = pipelineLD.length > 0 ? pipelineLD : generateAllSchemas({
     brandId: brand.id,
     slug: post.slug,
     title: post.title,

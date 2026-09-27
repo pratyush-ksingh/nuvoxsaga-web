@@ -24,7 +24,9 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
   const desk = DESKS[brand];
   const { all, lead, secondary, rest, pages } = await deskRiver(brand);
   const river = rest.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-  const features = all.filter((p) => p.kind === 'feature').slice(0, 5);
+  // Skip anything already on this page (top stories on page 1, plus this page's river).
+  const shown = new Set([...(page === 1 ? [lead, ...secondary] : []), ...river].map((p) => p?.id));
+  const features = all.filter((p) => p.kind === 'feature' && !shown.has(p.id)).slice(0, 5);
 
   return (
     <BrandProvider brand={brand}>

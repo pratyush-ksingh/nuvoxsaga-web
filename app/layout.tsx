@@ -40,7 +40,13 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" data-brand="nuvox_ai" className={`${geist.variable} ${geistMono.variable}`}>
+    // BrandProvider rewrites data-brand before hydration on non-default desks.
+    <html
+      lang="en"
+      data-brand="nuvox_ai"
+      className={`${geist.variable} ${geistMono.variable}`}
+      suppressHydrationWarning
+    >
       <body className="min-h-[100dvh] antialiased">{children}</body>
     </html>
   );

@@ -17,7 +17,7 @@ Python pipeline (fact-checked post) ──git push──▶ GitHub (content/post
                                                         │
                                           Cloudflare Pages build (free, 500/mo)
                                                         ▼
-visitor ─▶ nuvoxsaga.com ─▶ Cloudflare Pages: static HTML + /_pagefind search
+visitor ─▶ nuvoxsaga.com ─▶ Cloudflare Pages: static HTML + /pagefind search
                              ├─ media.nuvoxsaga.com (R2 images, free)
                              └─ /api/newsletter/* ─▶ Pages Functions (free 100k req/day)
                                                       ├─ Turnstile verify

@@ -22,7 +22,7 @@ import {
 const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,63}$/;
 const GENERIC_OK = { ok: true, message: 'Check your inbox — confirmation link valid for 24 hours.' };
 
-export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
+export const onRequestPost: PagesFunction<Env> = async ({ request, env, waitUntil }) => {
   const startedAt = Date.now();
   let body: { email?: unknown; brands?: unknown; turnstile?: unknown };
   try {
@@ -86,17 +86,24 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   const unsub = await makeToken('unsub', hash, 365 * 24 * 3600, env.NEWSLETTER_HMAC_SECRET);
   const confirmUrl = `${site}/api/newsletter/confirm?t=${encodeURIComponent(confirm)}`;
   const unsubUrl = `${site}/api/newsletter/unsubscribe?t=${encodeURIComponent(unsub)}`;
-  const sent = await sendEmail(
-    env,
-    email,
-    'Confirm your Nuvoxsaga subscription',
-    `<p>Tap the link below to confirm — valid for 24 hours.</p>
-     <p><a href="${confirmUrl}">Confirm subscription</a></p>
-     <p style="color:#666;font-size:12px">Didn't request this? Ignore this email or
-     <a href="${unsubUrl}">unsubscribe</a>.</p>`,
-    `Confirm: ${confirmUrl}\n\nUnsubscribe: ${unsubUrl}`,
+  // Send in the background: awaiting Resend here would push this path past the
+  // floor whenever the API is slow, making it distinguishable from "already confirmed".
+  waitUntil(
+    sendEmail(
+      env,
+      email,
+      'Confirm your Nuvoxsaga subscription',
+      `<p>Tap the link below to confirm — valid for 24 hours.</p>
+       <p><a href="${confirmUrl}">Confirm subscription</a></p>
+       <p style="color:#666;font-size:12px">Didn't request this? Ignore this email or
+       <a href="${unsubUrl}">unsubscribe</a>.</p>`,
+      `Confirm: ${confirmUrl}\n\nUnsubscribe: ${unsubUrl}`,
+    )
+      .catch(() => false)
+      .then((sent) => {
+        if (!sent) console.error('newsletter subscribe: email send failed', hash.slice(0, 8));
+      }),
   );
-  if (!sent) console.error('newsletter subscribe: email send failed', hash.slice(0, 8));
 
   await floor(startedAt);
   return json(GENERIC_OK);

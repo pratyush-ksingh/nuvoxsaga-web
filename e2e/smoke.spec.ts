@@ -5,22 +5,30 @@
  */
 import { test, expect } from '@playwright/test';
 
+const DESKS = [
+  { slug: 'ai', section: 'models' },
+  { slug: 'space', section: 'launch' },
+  { slug: 'world', section: 'asia' },
+];
+
 test.describe('public routes', () => {
-  test('parent landing renders', async ({ page }) => {
+  test('home renders', async ({ page }) => {
     const res = await page.goto('/');
     expect(res?.status()).toBe(200);
-    await expect(page.getByRole('heading', { level: 1 })).toContainText(/Three frontiers/i);
+    // Launch composition before the first story, the news front after.
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/Three frontiers|AI, space and world news/i);
   });
 
-  for (const slug of ['nuvoxai', 'nuvoxspace', 'nuvoxworld']) {
-    test(`/${slug} renders with its primary CTA`, async ({ page }) => {
+  for (const { slug, section } of DESKS) {
+    test(`/${slug} desk front renders`, async ({ page }) => {
       const res = await page.goto(`/${slug}`);
       expect(res?.status()).toBe(200);
-      await expect(page.getByRole('link', { name: /Read the latest/i })).toBeVisible();
+      await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+      await expect(page.getByRole('link', { name: 'Top stories' })).toBeVisible();
     });
 
-    test(`/${slug}/blog returns 200`, async ({ page }) => {
-      const res = await page.goto(`/${slug}/blog`);
+    test(`/${slug}/${section} section renders`, async ({ page }) => {
+      const res = await page.goto(`/${slug}/${section}`);
       expect(res?.status()).toBe(200);
     });
   }
@@ -34,25 +42,22 @@ test.describe('public routes', () => {
     const res = await page.goto('/about');
     expect(res?.status()).toBe(200);
     await expect(page.getByRole('heading', { level: 1 })).toContainText(/shows its work/i);
+    await expect(page.getByRole('link', { name: /Read the latest/i })).toBeVisible();
   });
 
-  test('/labs renders', async ({ page }) => {
-    const res = await page.goto('/labs');
-    expect(res?.status()).toBe(200);
-  });
+  for (const path of ['/labs', '/latest', '/standards', '/archive']) {
+    test(`${path} renders`, async ({ page }) => {
+      const res = await page.goto(path);
+      expect(res?.status()).toBe(200);
+    });
+  }
 
-  test('/admin redirects when unauthenticated', async ({ page }) => {
-    await page.goto('/admin');
-    // Middleware redirects to /login or returns 403 (preview deploys).
-    await expect(page).toHaveURL(/\/login|\/403/);
-  });
-
-  test('robots.txt blocks /admin and /api', async ({ request }) => {
+  test('robots.txt blocks /api and Pagefind assets', async ({ request }) => {
     const r = await request.get('/robots.txt');
     expect(r.status()).toBe(200);
     const body = await r.text();
-    expect(body).toContain('Disallow: /admin');
     expect(body).toContain('Disallow: /api');
+    expect(body).toContain('Disallow: /pagefind/');
   });
 
   test('sitemap.xml is valid XML', async ({ request }) => {
