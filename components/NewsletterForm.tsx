@@ -52,11 +52,6 @@ export function NewsletterForm() {
   const tsWidgetIdRef = useRef<string | null>(null);
   const tsTokenRef = useRef<string | null>(null);
 
-  // The script may already be on the page (client-side navigation back here).
-  useEffect(() => {
-    if (window.turnstile) setTsLoaded(true);
-  }, []);
-
   const renderWidget = useCallback(() => {
     if (!SITE_KEY || !window.turnstile || tsWidgetIdRef.current) return;
     tsWidgetIdRef.current = window.turnstile.render(`#${tsContainerId}`, {
@@ -77,8 +72,9 @@ export function NewsletterForm() {
     });
   }, [tsContainerId]);
 
+  // The script may already be on the page (client-side navigation back here).
   useEffect(() => {
-    if (tsLoaded) renderWidget();
+    if (tsLoaded || window.turnstile) renderWidget();
   }, [tsLoaded, renderWidget]);
 
   function toggleBrand(id: BrandId) {
