@@ -17,7 +17,8 @@
   --ink-3: #8a8a90;
   --ai: #00b4ff;
   --space: #1e90ff;
-  --world: #dc143c;
+  /* Brand crimson is #dc143c; lightened so desk labels reach 4.5:1 on canvas and surface. */
+  --world: #ef4760;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 

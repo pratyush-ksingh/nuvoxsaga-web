@@ -34,6 +34,7 @@ export default async function TopicPage({ params }: Props) {
       <p className="mt-3 text-ink-2">
         {topic.posts.length} {topic.posts.length === 1 ? 'story' : 'stories'}
       </p>
+      <h2 className="sr-only">Stories</h2>
       <div className="mt-10">
         <River posts={topic.posts.slice(0, 100)} />
       </div>
