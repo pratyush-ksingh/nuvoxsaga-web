@@ -31,9 +31,11 @@ const ALLOWLIST_PATH = path.resolve('web-brands.config.json');
 // ─────────────────────────────────────────────────────────────────────────
 interface AllowlistConfig {
   brands: string[];
+  /** Public URL segment per brand on the website (e.g. nuvox_space -> "space"). */
+  webSlugs?: Record<string, string>;
 }
 
-function readAllowlist(): readonly string[] {
+function readConfig(): AllowlistConfig {
   if (!existsSync(ALLOWLIST_PATH)) {
     throw new Error(
       `${ALLOWLIST_PATH} missing. Create it with {"brands":["nuvox_ai","nuvox_space","nuvox_world"]}`,
@@ -48,7 +50,10 @@ function readAllowlist(): readonly string[] {
       throw new Error(`${ALLOWLIST_PATH}: invalid brand id "${b}"`);
     }
   }
-  return cfg.brands;
+  for (const [id, slug] of Object.entries(cfg.webSlugs ?? {})) {
+    if (!/^[a-z0-9-]{1,40}$/.test(slug)) throw new Error(`${ALLOWLIST_PATH}: invalid web slug "${slug}" for ${id}`);
+  }
+  return cfg;
 }
 
 // CI/Vercel only have THIS repo checked out — the sibling
@@ -62,7 +67,8 @@ if (!existsSync(SRC)) {
   process.exit(0);
 }
 
-const ALLOWED = readAllowlist();
+const CONFIG = readConfig();
+const ALLOWED = CONFIG.brands;
 const py = readFileSync(SRC, 'utf8');
 
 function extractBrandBlock(brandId: string): string {
@@ -93,10 +99,11 @@ function paletteFrom(block: string): Record<string, string> {
 
 const BRANDS = ALLOWED.map((id) => {
   const block = extractBrandBlock(id);
+  const slug = CONFIG.webSlugs?.[id] ?? strField(block, 'blog_tag');
   return {
     id,
-    slug: strField(block, 'blog_tag'),
-    path: strField(block, 'blog_path'),
+    slug,
+    path: `/${slug}/`,
     name: strField(block, 'channel_name'),
     handle: strField(block, 'channel_handle'),
     niche: strField(block, 'niche'),

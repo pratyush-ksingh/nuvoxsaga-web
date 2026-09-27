@@ -31,7 +31,7 @@ export function YouTubeEmbed({ videoId, title }: { videoId: string; title: strin
 
   if (loaded) {
     return (
-      <div className="relative my-8 aspect-video w-full overflow-hidden rounded-lg bg-black">
+      <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-black">
         <iframe
           src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`}
           title={title}
@@ -49,7 +49,7 @@ export function YouTubeEmbed({ videoId, title }: { videoId: string; title: strin
       type="button"
       onClick={() => setLoaded(true)}
       aria-label={`Play video: ${title}`}
-      className="group relative my-8 block aspect-video w-full overflow-hidden rounded-lg bg-black"
+      className="group relative block aspect-video w-full overflow-hidden rounded-2xl bg-black"
     >
       <Image
         src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`}

@@ -1,13 +1,15 @@
 'use client';
 
 /**
- * Newsletter signup form — Cloudflare Turnstile (invisible) + per-brand interest.
+ * Newsletter signup form: Cloudflare Turnstile + per-brand interest.
  *
- * Loads Turnstile JS only on the client, only after the form is in viewport
- * (cheap LCP). Falls back gracefully when NEXT_PUBLIC_TURNSTILE_SITE_KEY
- * is missing (dev) — submits without a token; server accepts in dev.
+ * Turnstile is rendered explicitly once its script has loaded, in
+ * "interaction-only" appearance: most visitors never see it; it only appears when
+ * Cloudflare wants a human to click. The token is ready before Subscribe is pressed.
+ * (The first version rendered on mount, before the async script existed, so no
+ * widget was ever created and every signup was rejected for a missing token.)
  */
-import { useState, useTransition, useEffect, useRef, useId } from 'react';
+import { useState, useTransition, useEffect, useRef, useId, useCallback } from 'react';
 import Script from 'next/script';
 import { BRANDS, type BrandId } from '@/lib/brands';
 
@@ -23,11 +25,12 @@ declare global {
           'expired-callback'?: () => void;
           'error-callback'?: () => void;
           theme?: 'auto' | 'light' | 'dark';
-          size?: 'normal' | 'flexible' | 'compact' | 'invisible';
+          size?: 'normal' | 'flexible' | 'compact';
+          appearance?: 'always' | 'execute' | 'interaction-only';
         },
       ) => string;
       reset: (id: string) => void;
-      execute: (id: string) => void;
+      getResponse: (id: string) => string | undefined;
     };
   }
 }
@@ -42,29 +45,41 @@ export function NewsletterForm() {
   const [state, setState] = useState<State>('idle');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
+  const [tsLoaded, setTsLoaded] = useState(false);
 
-  // Phase 10 review L-1: replace only the `:` separators that aren't valid
-  // in CSS selectors — keep the rest of useId's uniqueness payload.
+  // useId contains ':' which is not valid in a CSS selector.
   const tsContainerId = `ts_${useId().replace(/:/g, '_')}`;
   const tsWidgetIdRef = useRef<string | null>(null);
   const tsTokenRef = useRef<string | null>(null);
 
-  // Render the invisible Turnstile widget once script is loaded.
+  // The script may already be on the page (client-side navigation back here).
   useEffect(() => {
-    if (!SITE_KEY || !window.turnstile) return;
-    if (tsWidgetIdRef.current) return;
+    if (window.turnstile) setTsLoaded(true);
+  }, []);
+
+  const renderWidget = useCallback(() => {
+    if (!SITE_KEY || !window.turnstile || tsWidgetIdRef.current) return;
     tsWidgetIdRef.current = window.turnstile.render(`#${tsContainerId}`, {
       sitekey: SITE_KEY,
       action: 'newsletter',
-      size: 'invisible',
+      theme: 'dark',
+      appearance: 'interaction-only',
       callback: (t) => {
         tsTokenRef.current = t;
+      },
+      'expired-callback': () => {
+        tsTokenRef.current = null;
+        if (tsWidgetIdRef.current) window.turnstile?.reset(tsWidgetIdRef.current);
       },
       'error-callback': () => {
         tsTokenRef.current = null;
       },
     });
   }, [tsContainerId]);
+
+  useEffect(() => {
+    if (tsLoaded) renderWidget();
+  }, [tsLoaded, renderWidget]);
 
   function toggleBrand(id: BrandId) {
     setBrands((prev) => (prev.includes(id) ? prev.filter((b) => b !== id) : [...prev, id]));
@@ -74,15 +89,18 @@ export function NewsletterForm() {
     setErrorMsg(null);
     setState('sending');
 
-    // Trigger invisible Turnstile if configured
-    let turnstileToken = tsTokenRef.current ?? '';
-    if (SITE_KEY && window.turnstile && tsWidgetIdRef.current) {
-      window.turnstile.execute(tsWidgetIdRef.current);
-      // wait briefly for callback
-      for (let i = 0; i < 30 && !tsTokenRef.current; i++) {
-        await new Promise((r) => setTimeout(r, 100));
-      }
-      turnstileToken = tsTokenRef.current ?? '';
+    // The token is normally ready already; give an in-progress challenge up to 8s.
+    for (let i = 0; i < 80 && SITE_KEY && !tsTokenRef.current; i++) {
+      await new Promise((r) => setTimeout(r, 100));
+    }
+    const turnstileToken = tsTokenRef.current ?? '';
+    // A token is single-use: clear it and fetch a fresh one for any retry.
+    tsTokenRef.current = null;
+    if (tsWidgetIdRef.current) window.turnstile?.reset(tsWidgetIdRef.current);
+    if (SITE_KEY && !turnstileToken) {
+      setState('error');
+      setErrorMsg('The spam check did not finish. Check your connection, then try again.');
+      return;
     }
 
     try {
@@ -102,7 +120,11 @@ export function NewsletterForm() {
       }
       if (!res.ok) {
         setState('error');
-        setErrorMsg('Something went wrong. Try again.');
+        setErrorMsg(
+          res.status === 400
+            ? 'We could not verify this request. Check the address, then try again.'
+            : 'Signup is temporarily unavailable. Try again in a few minutes.',
+        );
         return;
       }
       setState('sent');
@@ -115,67 +137,76 @@ export function NewsletterForm() {
 
   if (state === 'sent') {
     return (
-      <div role="status" className="rounded-md border border-emerald-500/30 bg-emerald-500/5 p-4 text-sm">
-        Check your inbox — confirmation link valid for 24 hours.
-      </div>
+      <p role="status" className="max-w-xl rounded-2xl bg-surface px-5 py-4 text-ink">
+        Check your inbox. The confirmation link is valid for 24 hours.
+      </p>
     );
   }
 
   return (
     <>
       {SITE_KEY && (
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer />
+        <Script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+          strategy="afterInteractive"
+          onLoad={() => setTsLoaded(true)}
+          onReady={() => setTsLoaded(true)}
+        />
       )}
       <form
         onSubmit={(e) => {
           e.preventDefault();
           startTransition(submit);
         }}
-        className="flex flex-col gap-3"
+        className="flex max-w-xl flex-col gap-4"
       >
-        <label htmlFor="nl-email" className="text-xs uppercase tracking-wider text-foreground/40">
-          Newsletter
+        <label htmlFor="nl-email" className="sr-only">
+          Email address
         </label>
-        <div className="flex gap-2">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <input
             id="nl-email"
+            name="email"
             type="email"
             required
             autoComplete="email"
-            placeholder="you@domain.com"
+            spellCheck={false}
+            placeholder="you@example.com…"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             disabled={pending}
-            className="flex-1 rounded-md border border-white/10 bg-card px-3 py-2 text-sm focus:border-[var(--brand)] focus:outline-none"
+            aria-describedby="nl-note"
+            className="h-12 flex-1 rounded-full border border-hairline bg-surface px-5 text-ink placeholder:text-ink-3 transition-colors duration-150 focus:border-ink focus:outline-none"
           />
-          <button
-            type="submit"
-            disabled={pending || !email}
-            className="rounded-md bg-foreground text-background px-4 py-2 text-sm font-medium hover:opacity-90 disabled:opacity-50"
-          >
+          <button type="submit" disabled={pending} className="btn-primary justify-center disabled:opacity-60">
             {pending ? 'Sending…' : 'Subscribe'}
           </button>
         </div>
-        <fieldset className="flex flex-wrap gap-3 mt-1">
-          <legend className="sr-only">Brands of interest</legend>
+        <fieldset className="flex flex-wrap gap-2">
+          <legend className="mb-2 text-sm text-ink-2">Send me stories from</legend>
           {BRANDS.map((b) => (
-            <label key={b.id} className="flex items-center gap-2 text-xs text-foreground/60 cursor-pointer">
+            <label
+              key={b.id}
+              className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-hairline px-4 py-2 text-sm text-ink-2 transition-colors duration-150 has-[:checked]:border-ink has-[:checked]:text-ink"
+            >
               <input
                 type="checkbox"
+                name="brands"
                 checked={brands.includes(b.id)}
                 onChange={() => toggleBrand(b.id)}
-                className="size-3.5 accent-[var(--brand)]"
+                className="size-4 accent-[var(--ink)]"
               />
               {b.name.replace('Nuvox ', '')}
             </label>
           ))}
         </fieldset>
-        {errorMsg && (
-          <p role="alert" className="text-xs text-rose-300">
-            {errorMsg}
-          </p>
-        )}
-        <div id={tsContainerId} aria-hidden="true" />
+        <p id="nl-note" className="text-sm text-ink-3">
+          Double opt-in. Unsubscribe in one click.
+        </p>
+        <p aria-live="polite" className="text-sm text-[#ff8a8a] empty:hidden">
+          {errorMsg}
+        </p>
+        <div id={tsContainerId} />
       </form>
     </>
   );

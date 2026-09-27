@@ -3,7 +3,7 @@
 // CI drift check: package.json prebuild fails if this file is stale.
 
 export type BrandId = 'nuvox_ai' | 'nuvox_space' | 'nuvox_world';
-export type BrandSlug = 'nuvoxai' | 'nuvoxspace' | 'nuvoxworld';
+export type BrandSlug = 'ai' | 'space' | 'world';
 
 export interface BrandPalette {
   readonly primary: string;
@@ -28,8 +28,8 @@ export interface Brand {
 export const BRANDS: ReadonlyArray<Brand> = [
   {
     "id": "nuvox_ai",
-    "slug": "nuvoxai",
-    "path": "/nuvoxai/",
+    "slug": "ai",
+    "path": "/ai/",
     "name": "Nuvox AI",
     "handle": "@nuvoxai",
     "niche": "ai_tech",
@@ -45,8 +45,8 @@ export const BRANDS: ReadonlyArray<Brand> = [
   },
   {
     "id": "nuvox_space",
-    "slug": "nuvoxspace",
-    "path": "/nuvoxspace/",
+    "slug": "space",
+    "path": "/space/",
     "name": "Nuvox Space",
     "handle": "@nuvoxspace",
     "niche": "space_astronomy",
@@ -62,8 +62,8 @@ export const BRANDS: ReadonlyArray<Brand> = [
   },
   {
     "id": "nuvox_world",
-    "slug": "nuvoxworld",
-    "path": "/nuvoxworld/",
+    "slug": "world",
+    "path": "/world/",
     "name": "Nuvox World",
     "handle": "@nuvoxworld",
     "niche": "world_facts",

@@ -1,0 +1,15 @@
+# Cloudflare Pages project for nuvoxsaga.com (static export + newsletter Functions).
+# Secrets are NOT stored here — set them with `wrangler pages secret put <NAME>`:
+#   NEWSLETTER_HMAC_SECRET, SUBSCRIBER_PUBLIC_KEY, TURNSTILE_SECRET, RESEND_API_KEY
+name = "nuvoxsaga"
+pages_build_output_dir = "out"
+compatibility_date = "2026-09-01"
+
+[vars]
+SITE_URL = "https://nuvoxsaga.com"
+RESEND_FROM = "Nuvoxsaga <newsletter@nuvoxsaga.com>"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nuvoxsaga"
+database_id = "25616a02-3702-4831-9fb3-314fc5b7f4dd"

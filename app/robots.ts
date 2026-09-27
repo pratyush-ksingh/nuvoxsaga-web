@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 
 export default function robots(): MetadataRoute.Robots {
@@ -31,7 +33,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'PerplexityBot', disallow: '/' },
       { userAgent: 'Google-Extended', disallow: '/' },
     ],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/news-sitemap.xml`],
     host: SITE_URL,
   };
 }

@@ -1,0 +1,26 @@
+# Media-house desks (2026-09-27): old brand paths -> desk fronts. No stories were
+# ever published under the old paths, so everything below them goes to the desk front.
+/nuvoxai /ai 301
+/nuvoxai/* /ai 301
+/nuvoxspace /space 301
+/nuvoxspace/* /space 301
+/nuvoxworld /world 301
+/nuvoxworld/* /world 301
+# BEGIN archive-duplicates (scripts/export_archive.py)
+/archive/ai-coding-agents-production-code-complete-2025-guide /archive/ai-coding-agents-production-code-2025-what-the-1300-prsweek-signal-actually-mean 301
+/archive/ai-coding-agents-production-code-complete-2025-guide/ /archive/ai-coding-agents-production-code-2025-what-the-1300-prsweek-signal-actually-mean 301
+/archive/anthropic-claude-the-complete-technical-architecture-guide-2025 /archive/anthropic-claude-complete-technical-architecture-guide-2025 301
+/archive/anthropic-claude-the-complete-technical-architecture-guide-2025/ /archive/anthropic-claude-complete-technical-architecture-guide-2025 301
+/archive/how-to-create-music-videos-with-ai-in-2025-complete-technical-guide /archive/how-to-create-music-videos-with-ai-in-2025-complete-technical-guide-2 301
+/archive/how-to-create-music-videos-with-ai-in-2025-complete-technical-guide/ /archive/how-to-create-music-videos-with-ai-in-2025-complete-technical-guide-2 301
+/archive/the-ai-video-gold-rush-and-why-most-creators-are-playing-it-wrong /archive/the-ai-video-gold-rush-why-sora-failed-whos-really-winning 301
+/archive/the-ai-video-gold-rush-and-why-most-creators-are-playing-it-wrong/ /archive/the-ai-video-gold-rush-why-sora-failed-whos-really-winning 301
+/archive/the-ai-video-gold-rush-why-sora-stalled-the-3-companies-actually-winning /archive/the-ai-video-gold-rush-why-sora-failed-whos-really-winning 301
+/archive/the-ai-video-gold-rush-why-sora-stalled-the-3-companies-actually-winning/ /archive/the-ai-video-gold-rush-why-sora-failed-whos-really-winning 301
+/archive/v-video-smm3xavtc8o /archive/v-video-cds0pitydpg 301
+/archive/v-video-smm3xavtc8o/ /archive/v-video-cds0pitydpg 301
+/archive/v-video-yq7j13wzkre /archive/v-video-cds0pitydpg 301
+/archive/v-video-yq7j13wzkre/ /archive/v-video-cds0pitydpg 301
+/archive/v/:name/ /archive/v-:name 301
+/archive/v/:name /archive/v-:name 301
+# END archive-duplicates

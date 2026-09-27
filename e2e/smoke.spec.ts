@@ -13,10 +13,10 @@ test.describe('public routes', () => {
   });
 
   for (const slug of ['nuvoxai', 'nuvoxspace', 'nuvoxworld']) {
-    test(`/${slug} renders + brand switcher present`, async ({ page }) => {
+    test(`/${slug} renders with its primary CTA`, async ({ page }) => {
       const res = await page.goto(`/${slug}`);
       expect(res?.status()).toBe(200);
-      await expect(page.getByRole('link', { name: /Read the blog/i })).toBeVisible();
+      await expect(page.getByRole('link', { name: /Read the latest/i })).toBeVisible();
     });
 
     test(`/${slug}/blog returns 200`, async ({ page }) => {
@@ -33,7 +33,7 @@ test.describe('public routes', () => {
   test('/about renders', async ({ page }) => {
     const res = await page.goto('/about');
     expect(res?.status()).toBe(200);
-    await expect(page.getByRole('heading', { level: 1 })).toContainText(/Three frontiers/i);
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(/shows its work/i);
   });
 
   test('/labs renders', async ({ page }) => {

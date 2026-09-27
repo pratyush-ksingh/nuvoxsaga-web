@@ -63,3 +63,16 @@ secrets/
 Thumbs.db
 .idea/
 .vscode/settings.json
+
+# Cloudflare local dev (secrets + local D1 state)
+.dev.vars
+.wrangler/
+
+# local previews of real drafts (never shipped)
+content-preview/
+content-fixtures/
+
+# local tooling state (never commit)
+.playwright-cli/
+.deploy.lock
+__pycache__/

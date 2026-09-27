@@ -32,6 +32,9 @@
   ],
   "exclude": [
     "node_modules",
+    "out",
+    "functions",
+    "functions-lib",
     "public/shaders/lygia",
     "public/shaders/**/test/**"
   ]

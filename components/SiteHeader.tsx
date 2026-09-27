@@ -1,37 +1,95 @@
+'use client';
+
 /**
- * SiteHeader — sticky top, transparent over hero, blur on scroll.
- * Server component (no client state needed for v1).
+ * Site header: wordmark, Latest + the three desks + Archive + Search, one Subscribe action.
+ * Desktop: single-line nav (64px). Mobile (< 768px): a disclosure menu, because five
+ * inline links collided with the wordmark on phones.
  */
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import { Menu, X } from 'lucide-react';
 import { BRANDS } from '@/lib/brands';
+import { DESKS } from '@/lib/desks';
+
+const LINKS = [
+  { href: '/latest', label: 'Latest' },
+  ...BRANDS.map((b) => ({ href: `/${b.slug}`, label: DESKS[b.id].name })),
+  { href: '/archive', label: 'Archive' },
+  { href: '/search', label: 'Search' },
+];
 
 export function SiteHeader() {
+  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => setOpen(false), [pathname]);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
+
+  const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
+
   return (
-    <header className="sticky top-0 z-30 backdrop-blur-md bg-background/60 border-b border-white/5">
-      <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="size-2 rounded-full bg-[var(--brand)] shadow-[0_0_20px_var(--brand)] transition-transform group-hover:scale-125" />
-          <span className="text-sm font-medium tracking-tight">Nuvoxsaga</span>
+    <header className="sticky top-0 z-40 border-b border-hairline bg-canvas/80 backdrop-blur-md">
+      <div className="container-page flex h-16 items-center justify-between gap-6">
+        <Link href="/" className="text-[1.05rem] font-extrabold tracking-[-0.03em]" translate="no">
+          NUVOXSAGA
         </Link>
-        <nav className="flex items-center gap-1 text-sm">
-          {BRANDS.map((b) => (
+
+        <nav aria-label="Primary" className="hidden items-center gap-8 text-[0.95rem] md:flex">
+          {LINKS.map((l) => (
             <Link
-              key={b.id}
-              href={`/${b.slug}`}
-              className="px-3 py-1.5 rounded-md text-foreground/70 hover:text-foreground hover:bg-white/5 transition-colors"
+              key={l.href}
+              href={l.href}
+              aria-current={isActive(l.href) ? 'page' : undefined}
+              className="text-ink-2 transition-colors duration-150 hover:text-ink aria-[current=page]:text-ink aria-[current=page]:underline aria-[current=page]:underline-offset-8"
             >
-              {b.name.replace('Nuvox ', '')}
+              {l.label}
             </Link>
           ))}
-          <span className="mx-2 h-4 w-px bg-white/10" />
-          <Link
-            href="/about"
-            className="px-3 py-1.5 rounded-md text-foreground/70 hover:text-foreground transition-colors"
-          >
-            About
-          </Link>
+          <a href="#newsletter" className="btn-primary !h-10 !px-5 text-sm">
+            Subscribe
+          </a>
         </nav>
+
+        <button
+          type="button"
+          className="-mr-2 inline-flex size-11 items-center justify-center rounded-full text-ink hover:bg-surface md:hidden"
+          aria-expanded={open}
+          aria-controls="mobile-menu"
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? <X aria-hidden="true" size={22} strokeWidth={1.75} /> : <Menu aria-hidden="true" size={22} strokeWidth={1.75} />}
+        </button>
       </div>
+
+      {open && (
+        <nav id="mobile-menu" aria-label="Primary" className="border-t border-hairline bg-canvas md:hidden">
+          <ul className="container-page flex flex-col py-4">
+            {LINKS.map((l) => (
+              <li key={l.href}>
+                <Link
+                  href={l.href}
+                  aria-current={isActive(l.href) ? 'page' : undefined}
+                  className="block py-3 text-2xl font-bold tracking-[-0.02em] text-ink-2 aria-[current=page]:text-ink"
+                >
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+            <li className="pt-4">
+              <a href="#newsletter" onClick={() => setOpen(false)} className="btn-primary">
+                Subscribe
+              </a>
+            </li>
+          </ul>
+        </nav>
+      )}
     </header>
   );
 }
