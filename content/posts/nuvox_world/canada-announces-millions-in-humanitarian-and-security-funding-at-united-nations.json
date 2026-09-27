@@ -1,0 +1,63 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-announces-millions-in-humanitarian-and-security-funding-at-united-nations",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Canada announces millions in humanitarian and security funding at United Nations",
+  "excerpt": "Minister of Foreign Affairs Anita Anand pledged 31.4 million dollars for Yemen and 27 million dollars for the Democratic Republic of the Congo.",
+  "bodyHtml": "<p>The Government of Canada announced several international funding initiatives on September 26, 2026, as Minister of Foreign Affairs Anita Anand concluded her participation in the 81st United Nations General Assembly High-Level Week in New York City.</p>\n<p>According to Global Affairs Canada, the government committed $31.4 million in humanitarian assistance for Yemen, supporting the delivery of life-saving assistance to populations affected by the humanitarian crisis. An additional $27 million in humanitarian assistance was allocated to respond to the needs of people affected by the crisis in the Democratic Republic of the Congo.</p>\n<p>Minister Anand also announced $25.4 million to support security, governance, and community resilience in Haiti. Global Affairs Canada stated this funding includes efforts to combat corruption and organized crime, prevent youth recruitment by gangs, and support local peacebuilding initiatives.</p>",
+  "publishedAt": "2026-09-27T04:37:20Z",
+  "updatedAt": "2026-09-27T04:37:20Z",
+  "wordCount": 130,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand concludes participation in the 81st United Nations General Assembly High-Level Week",
+  "tags": [
+    "Global Affairs Canada",
+    "United Nations",
+    "Haiti",
+    "Yemen"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/09/minister-anand-concludes-participation-in-the-81st-united-nations-general-assembly-high-level-week.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada announces millions in humanitarian and security funding at United Nations",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister of Foreign Affairs Anita Anand pledged 31.4 million dollars for Yemen and 27 million dollars for the Democratic Republic of the Congo.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced several international funding initiatives on September 26, 2026, as Minister of Foreign Affairs Anita Anand concluded her participation in the 81st United Nations General Assembly High-Level Week in New York City.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "According to Global Affairs Canada, the government committed $31.4 million in humanitarian assistance for Yemen, supporting the delivery of life-saving assistance to populations affected by the humanitarian crisis.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "An additional $27 million in humanitarian assistance was allocated to respond to the needs of people affected by the crisis in the Democratic Republic of the Congo.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand also announced $25.4 million to support security, governance, and community resilience in Haiti.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Global Affairs Canada stated this funding includes efforts to combat corruption and organized crime, prevent youth recruitment by gangs, and support local peacebuilding initiatives.",
+      "source": "The Government of Canada"
+    }
+  ]
+}
