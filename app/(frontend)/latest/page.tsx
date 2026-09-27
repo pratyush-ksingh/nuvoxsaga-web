@@ -16,6 +16,7 @@ export default function LatestPage() {
     <section className="container-page pb-24 pt-10 md:pt-14">
       <h1 className="display text-[clamp(2.5rem,6vw,4.5rem)]">Latest</h1>
       <p className="mt-3 max-w-[60ch] text-ink-2">The newest stories from all three desks.</p>
+      <h2 className="sr-only">Stories</h2>
       <div className="mt-10">{posts.length ? <River posts={posts} /> : <EmptyDesk label="published" />}</div>
     </section>
   );
