@@ -8,6 +8,10 @@
  * Cloudflare wants a human to click. The token is ready before Subscribe is pressed.
  * (The first version rendered on mount, before the async script existed, so no
  * widget was ever created and every signup was rejected for a missing token.)
+ *
+ * The form sits in the footer of every page, so the Turnstile script is NOT loaded with
+ * the page: it is added only when the form scrolls near the viewport or the email field
+ * is focused. Readers who never reach the form never load it or run a challenge.
  */
 import { useState, useTransition, useEffect, useRef, useId, useCallback } from 'react';
 import Script from 'next/script';
@@ -46,6 +50,24 @@ export function NewsletterForm() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
   const [tsLoaded, setTsLoaded] = useState(false);
+  // True once the reader is near the form: only then is the Turnstile script added.
+  const [tsWanted, setTsWanted] = useState(false);
+  const formRef = useRef<HTMLFormElement | null>(null);
+
+  useEffect(() => {
+    const form = formRef.current;
+    // Without IntersectionObserver the focus and submit paths below still load it.
+    if (!SITE_KEY || tsWanted || !form || typeof IntersectionObserver === 'undefined') return;
+    // 300px early, so the token is usually ready by the time the field is reached.
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) setTsWanted(true);
+      },
+      { rootMargin: '300px' },
+    );
+    io.observe(form);
+    return () => io.disconnect();
+  }, [tsWanted]);
 
   // useId contains ':' which is not valid in a CSS selector.
   const tsContainerId = `ts_${useId().replace(/:/g, '_')}`;
@@ -84,6 +106,8 @@ export function NewsletterForm() {
   async function submit() {
     setErrorMsg(null);
     setState('sending');
+    // Normally set long before this (scroll or focus); covers a submit with neither.
+    setTsWanted(true);
 
     // The token is normally ready already; give an in-progress challenge up to 8s.
     for (let i = 0; i < 80 && SITE_KEY && !tsTokenRef.current; i++) {
@@ -141,7 +165,9 @@ export function NewsletterForm() {
 
   return (
     <>
-      {SITE_KEY && (
+      {/* Rendered only on the client, after tsWanted flips: the server HTML carries no
+          Turnstile script and no preload for it. */}
+      {SITE_KEY && tsWanted && (
         <Script
           src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
           strategy="afterInteractive"
@@ -150,6 +176,8 @@ export function NewsletterForm() {
         />
       )}
       <form
+        ref={formRef}
+        onFocus={() => setTsWanted(true)}
         onSubmit={(e) => {
           e.preventDefault();
           startTransition(submit);
