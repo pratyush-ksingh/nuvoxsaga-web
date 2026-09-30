@@ -134,7 +134,8 @@ export default async function StoryPage({ params }: Props) {
       <article className="container-page pb-24 pt-10 md:pt-14">
         <header className="mx-auto max-w-[46rem]">
           <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-sm font-medium">
-            <Link href={`/${brand.slug}`} className="text-brand hover:underline hover:underline-offset-4">
+            {/* desk.accent, not text-brand: the raw World crimson fails 4.5:1 on the canvas. */}
+            <Link href={`/${brand.slug}`} className="hover:underline hover:underline-offset-4" style={{ color: desk.accent }}>
               {desk.name}
             </Link>
             {section && (
