@@ -8,11 +8,11 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['tests/**/*.test.ts', 'tests/**/*.test.tsx'],
-    exclude: ['node_modules', '.next', 'public/shaders/lygia/**'],
+    exclude: ['node_modules', '.next'],
     coverage: {
       provider: 'v8',
-      include: ['lib/**/*.ts', 'collections/**/*.ts'],
-      exclude: ['**/*.test.*', '**/types.ts', 'public/shaders/lygia/**'],
+      include: ['lib/**/*.ts', 'functions-lib/**/*.ts'],
+      exclude: ['**/*.test.*', '**/types.ts'],
       thresholds: {
         // Phase 11 gate 5 target: ≥80% on collections/ + lib/. Current pass
         // shipping crypto + brands + sanitize tests; bump after blog content
