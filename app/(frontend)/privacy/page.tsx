@@ -51,7 +51,7 @@ const SECTIONS: { title: string; body: string[] }[] = [
     title: 'Hosting and visit statistics',
     body: [
       'The site is hosted on Cloudflare. Like any web host, Cloudflare processes your IP address and browser details in order to deliver pages and to protect the site from abuse, and it may set a short-lived security cookie to tell visitors from bots.',
-      'We use Cloudflare Web Analytics to count visits. It does not use cookies or local storage, does not fingerprint visitors, and gives us totals such as page views and referrers, not information about you.',
+      'Visit statistics also come from Cloudflare. They are counted without cookies or local storage and without fingerprinting visitors, and they give us totals such as page views and referrers, not information about you.',
     ],
   },
   {

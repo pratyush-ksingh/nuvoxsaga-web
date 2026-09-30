@@ -84,7 +84,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
  */
 function shareImage(post: PublicPost): { url: string; alt: string; width?: number; height?: number } {
   if (post.image && post.image.credit !== 'AI illustration') {
-    return { url: post.image.src, alt: post.image.alt };
+    // Story photos are written at 1200 x 675 by the pipeline (newsdesk/images.py).
+    return { url: post.image.src, alt: post.image.alt, width: 1200, height: 675 };
   }
   return { url: `/og/${post.brand}/${post.slug}.png`, alt: post.title, ...OG_CARD };
 }
