@@ -35,7 +35,8 @@ accent color that appears as a short bar, a label or a dot, never as a wash or a
 
 Rules: one accent per page. Brand pages and posts use their brand accent only. The home
 page stays neutral (white CTAs) and shows the three accents only inside their own brand
-tiles. No gradients except a dark scrim that keeps text readable over photographs.
+tiles. No gradients except a dark scrim that keeps text readable over photographs, and
+the faint pointer glare on a tilting card (§8), which is white at 10% and never colored.
 
 Theme: dark only, a deliberate brand decision (`color-scheme: dark`). The canvas is the
 product, as with both references. Sections never flip to a light background.
@@ -67,9 +68,13 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
 ## 7. Layout
 - Container `max-w-[1320px]`, gutters 24px mobile / 40px desktop.
 - Section rhythm `py-20` mobile, `py-28` desktop; hero top padding at most `pt-24`.
-- Home (media house): lead story + 3 secondary, then the Latest river with a 20rem sidebar
-  (trending topics, features), then one block per desk, then a compact "how we report"
-  band, then the newsletter band. Before the first story exists it falls back to the
+- Home (media house), researched against The Verge (mosaic top stories over a fast
+  stream), Bloomberg (a live headline wire) and Rest of World (rich but light pages):
+  the wire (newest headlines, one line), the hero stage (lead story on a full-bleed 3D
+  photo card + 3 side cards), the Latest river with a 20rem sidebar, the features shelf
+  (only with 3+ features), one block per desk opened by a photo portal, a compact "how we
+  report" band, then the newsletter band. News and articles stay apart: briefs run on the
+  wire and in the river, features get the shelf with image and reading time. Before the first story exists it falls back to the
   launch composition (split hero, desk bento, how we report).
 - Desk front: masthead with section pill tabs, lead + 3, river + features sidebar, pager.
 - Story: kicker (Desk · Section, "In brief" pill), headline, deck, desk byline + UTC stamp,
@@ -80,6 +85,16 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
 Float-up reveals driven by CSS scroll timelines (no JS scroll listeners), a slow scale
 drift on hero photography, 150-200ms color/opacity transitions. Everything is disabled
 under `prefers-reduced-motion`.
+
+Depth (home only, no WebGL: the three.js stack was removed for page weight):
+- **Tilt**: photo cards follow a fine pointer up to 4-6 degrees (`components/home/Tilt.tsx`,
+  one rAF per frame); text lifts off the photo with `translateZ`. Off on touch screens.
+- **Stage**: hero cards rise out of a tilted plane once, on load.
+- **Shelf**: the features shelf turns like a coverflow, driven by its own horizontal
+  scroll timeline (`animation-timeline: view(inline)`), pure CSS.
+- **Wire**: the headline ticker loops; hover or keyboard focus pauses it, and reduced
+  motion turns it into a static, scrollable line.
+- Never animate `transform` on an element that also tilts: put reveals on a wrapper.
 
 ## 9. Imagery
 Photographic illustrations generated for the brand (Workers AI, FLUX.2 klein), stored as
