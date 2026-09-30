@@ -10,10 +10,13 @@ import type { Metadata } from 'next';
 import { ArrowRight } from 'lucide-react';
 import { BRANDS, BRAND_BY_ID, type BrandId } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
-import { loadAllPosts, splitTop, trendingTopics, type PublicPost } from '@/lib/content';
+import { loadAllPosts, splitTop, storyPath, trendingTopics, type PublicPost } from '@/lib/content';
 import { Picture } from '@/components/Picture';
 import { HeadlineList, River } from '@/components/news/StoryCards';
 import { FeatureShelf, HeroStage, PhotoPortal, WireTicker } from '@/components/home/HomeFront';
+import { Masthead } from '@/components/home/Masthead';
+import { FrontierDial } from '@/components/home/FrontierDial';
+import { dialData } from '@/components/home/dial';
 import { JsonLd } from '@/components/JsonLd';
 import { og } from '@/lib/og';
 import { organizationSchema, websiteSchema } from '@/lib/seo';
@@ -56,21 +59,46 @@ export default function Home() {
   const onShelf = new Set(shelf.map((p) => p.id));
   const latest = rest.filter((p) => !onShelf.has(p.id)).slice(0, 14);
   const topics = trendingTopics();
+  // The page is rebuilt on every publish: the build time is the edition time.
+  const edition = new Date();
+  const weekCount = all.filter((p) => edition.getTime() - Date.parse(p.publishedAt ?? '') <= 7 * 864e5).length;
+  const dial = dialData(
+    all.map((p) => ({ id: p.id, title: p.title, href: storyPath(p), brand: p.brand, publishedAt: p.publishedAt ?? '' })),
+    edition,
+  );
 
   return (
     <>
       <JsonLd schemas={SITE_SCHEMAS} />
       <h1 className="sr-only">Nuvoxsaga: AI, space and world news</h1>
 
-      {/* 0. The wire */}
-      <WireTicker posts={all.slice(0, 12)} />
+      {/* 0. Nameplate and the wire */}
+      <Masthead edition={edition} weekCount={weekCount} />
+      <div className="mt-8">
+        <WireTicker posts={all.slice(0, 12)} />
+      </div>
 
       {/* 1. Top stories across the three desks */}
       <section aria-label="Top stories" className="container-page pb-16 pt-8 md:pb-20 md:pt-10">
         <HeroStage lead={lead} secondary={secondary} />
       </section>
 
-      {/* 2. Latest river + sidebar */}
+      {/* 2. The Frontier Dial: when the newsroom published, desk by desk */}
+      {dial.dots.length >= 3 && (
+        <section aria-labelledby="dial-title" className="overflow-hidden border-t border-hairline">
+          <div className="container-page py-16 md:py-24">
+            <p className="data text-sm text-ink-3">The frontier dial</p>
+            <h2 id="dial-title" className="display mt-2 max-w-[18ch] text-[clamp(2rem,4vw,3.25rem)]">
+              Three desks, one clock.
+            </h2>
+            <div className="mt-10 md:mt-14">
+              <FrontierDial data={dial} />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* 3. Latest river + sidebar */}
       <section className="border-t border-hairline">
         <div className="container-page grid gap-14 py-16 md:py-20 lg:grid-cols-[1fr_20rem] lg:gap-16">
           <div>
@@ -116,10 +144,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. Articles */}
+      {/* 4. Articles */}
       {shelf.length > 0 && <FeatureShelf posts={shelf} />}
 
-      {/* 4. One block per desk */}
+      {/* 5. One block per desk */}
       <section aria-label="Desks" className="border-t border-hairline">
         <div className="container-page grid gap-14 py-16 md:grid-cols-3 md:gap-8 md:py-20">
           {BRANDS.map((b) => (
@@ -133,7 +161,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. How we report (compact) */}
+      {/* 6. How we report (compact) */}
       <section aria-labelledby="report-title" className="border-t border-hairline">
         <div className="container-page py-16 md:py-20">
           <div className="flex flex-wrap items-end justify-between gap-6">

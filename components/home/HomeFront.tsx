@@ -129,7 +129,7 @@ function LeadCard({ post, showDesk }: { post: PublicPost; showDesk: boolean }) {
             </Link>
           </h2>
           {post.excerpt && (
-            <p className="mt-4 hidden max-w-[52ch] text-lg leading-snug text-ink-2 md:block">{post.excerpt}</p>
+            <p className="deck mt-4 hidden max-w-[52ch] text-xl leading-snug text-ink-2 md:block">{post.excerpt}</p>
           )}
           <Meta post={post} className="mt-4" />
         </div>

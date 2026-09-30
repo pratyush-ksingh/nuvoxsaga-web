@@ -155,7 +155,7 @@ export default async function StoryPage({ params }: Props) {
           <h1 className={`display mt-5 ${isBrief ? 'text-[clamp(2rem,4vw,3rem)]' : 'text-[clamp(2.25rem,5vw,3.75rem)]'}`}>
             {post.title}
           </h1>
-          {post.excerpt && <p className="mt-5 text-xl leading-snug text-ink-2">{post.excerpt}</p>}
+          {post.excerpt && <p className="deck mt-5 text-[1.4rem] leading-snug text-ink-2">{post.excerpt}</p>}
           <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-1.5 border-y border-hairline py-4 text-sm text-ink-3">
             <span className="text-ink-2">By the Nuvoxsaga {desk.name} desk</span>
             {post.publishedAt && <time dateTime={post.publishedAt}>{stampFmt.format(new Date(post.publishedAt))}</time>}
