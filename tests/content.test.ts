@@ -26,6 +26,7 @@ function story(over: Record<string, unknown> = {}): Record<string, unknown> {
     publishedAt: '2026-09-20T10:00:00Z',
     kind: 'brief',
     source: { name: 'NASA', url: 'https://www.nasa.gov/news-release/x/' },
+    checkedClaims: [{ claim: 'A checked claim', source: 'NASA' }],
     ...over,
   };
 }
@@ -87,6 +88,14 @@ describe('story validation', () => {
     write('nuvox_world', 'feature', story({ kind: undefined, source: undefined }));
     const { loadAllPosts } = await load();
     expect(loadAllPosts()[0].kind).toBe('feature');
+  });
+
+  it('leaves out a published story that has no fact-check record', async () => {
+    write('nuvox_ai', 'no-claims', story({ checkedClaims: [] }));
+    write('nuvox_ai', 'blank-claims', story({ checkedClaims: [{ claim: '  ', source: 'x' }] }));
+    write('nuvox_ai', 'checked', story());
+    const { loadAllPosts } = await load();
+    expect(loadAllPosts().map((p) => p.slug)).toEqual(['checked']);
   });
 
   it('never exposes drafts or future-dated stories', async () => {

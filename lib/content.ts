@@ -116,6 +116,15 @@ function parsePost(file: string, brand: BrandId): PublicPost | null {
   }
   if (Date.parse(publishedAt) > Date.now()) return null; // scheduled for later
 
+  // Backstop for "correct only": every story the pipelines publish carries the claims its
+  // fact-check confirmed. A "published" file without them never went through a gate
+  // (hand-made, or a broken pipeline), so it is left out of the site rather than shipped.
+  const claims = Array.isArray(raw.checkedClaims) ? raw.checkedClaims : [];
+  if (!claims.some((c) => typeof (c as { claim?: unknown })?.claim === 'string' && (c as { claim: string }).claim.trim())) {
+    console.warn(`${where}: published without checkedClaims (no fact-check record), NOT built`);
+    return null;
+  }
+
   const kind: StoryKind = raw.kind === 'brief' ? 'brief' : 'feature';
   const section = str(raw.section);
   if (section && !DESKS[brand].sections.some((s) => s.slug === section)) {
