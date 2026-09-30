@@ -130,8 +130,185 @@
   .scrim-bottom {
     background: linear-gradient(to top, rgb(17 18 20 / 0.92) 0%, rgb(17 18 20 / 0.35) 45%, transparent 75%);
   }
+  /* Lead card: taller text block over any photo, so the kicker keeps its contrast. */
+  .scrim-lead {
+    background: linear-gradient(to top, rgb(17 18 20 / 0.96) 0%, rgb(17 18 20 / 0.82) 38%, rgb(17 18 20 / 0.35) 68%, transparent 88%);
+  }
   .scrim-left {
     background: linear-gradient(to right, rgb(17 18 20 / 0.9) 0%, rgb(17 18 20 / 0.45) 50%, transparent 85%);
+  }
+}
+
+/* Home front: cards, depth and the wire (DESIGN.md §8, "Depth").
+   Static first: every rule below reads as a normal flat card when the 3D and motion
+   rules further down do not apply (touch, reduced motion, older browsers). */
+@layer components {
+  /* Headline link that makes its whole card clickable. Other links in the card
+     (kicker) sit above it with position: relative + z-index. */
+  .card-link {
+    transition: color 150ms var(--ease-out);
+  }
+  .card-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 1rem;
+  }
+  .group:hover .card-link {
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(242 242 240 / 0.35);
+  }
+  .display .card-link,
+  .group:hover .display .card-link {
+    text-decoration: none;
+  }
+  .card-link:focus-visible {
+    outline: none;
+  }
+  .card-link:focus-visible::after {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+
+  .card-frame {
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 20px 40px -24px rgb(0 0 0 / 0.7);
+    transition: box-shadow 400ms var(--ease-out);
+  }
+  .group:hover .card-frame {
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.06) inset, 0 40px 70px -30px rgb(0 0 0 / 0.9);
+  }
+
+  /* Features shelf: bleeds to the window edge, first card aligned with the page grid. */
+  .shelf {
+    --shelf-inset: max(1.5rem, calc((100vw - 1320px) / 2 + 1.5rem));
+    padding-inline: var(--shelf-inset);
+    scroll-padding-inline: var(--shelf-inset);
+    scrollbar-width: thin;
+    scrollbar-color: var(--surface-2) transparent;
+  }
+  @media (min-width: 768px) {
+    .shelf {
+      --shelf-inset: max(2.5rem, calc((100vw - 1320px) / 2 + 2.5rem));
+    }
+  }
+
+  /* The wire: one line of the newest headlines, fading out at both edges. */
+  .wire {
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, #000 3rem, #000 calc(100% - 3rem), transparent);
+  }
+  .wire-track {
+    display: flex;
+    width: max-content;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Pointer tilt: Tilt.tsx writes --rx/--ry/--gx/--gy; children lift off the card. */
+  .tilt {
+    transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+    transform-style: preserve-3d;
+    transition: transform 450ms var(--ease-out);
+  }
+  .tilt-3d {
+    transform-style: preserve-3d;
+  }
+  .depth-1 {
+    transform: translateZ(24px);
+  }
+  .depth-2 {
+    transform: translateZ(48px);
+  }
+  /* Specular highlight that follows the pointer; only once Tilt is live. */
+  .glare {
+    pointer-events: none;
+    opacity: 0;
+    background: radial-gradient(40rem circle at var(--gx, 50%) var(--gy, 50%), rgb(255 255 255 / 0.1), transparent 45%);
+    transition: opacity 400ms var(--ease-out);
+  }
+  .tilt[data-tilt='on']:hover .glare {
+    opacity: 1;
+  }
+
+  /* Hero: cards rise out of a tilted plane on load. */
+  .stage-in {
+    animation: stage-in 900ms var(--ease-out) both;
+  }
+
+  /* The wire scrolls; hover or keyboard focus stops it so a headline can be read. */
+  .wire-track {
+    animation: wire var(--wire-dur, 80s) linear infinite;
+  }
+  .wire:hover .wire-track,
+  .wire:focus-within .wire-track {
+    animation-play-state: paused;
+  }
+  .wire-dot {
+    animation: pulse 2.4s ease-in-out infinite;
+  }
+
+  /* Features shelf: a coverflow driven by the shelf's own horizontal scroll. */
+  @supports (animation-timeline: view()) {
+    .shelf {
+      perspective: 1400px;
+    }
+    .shelf > li {
+      animation: coverflow linear both;
+      animation-timeline: view(inline);
+    }
+  }
+}
+
+/* Reduced motion: the wire becomes a plain horizontally scrollable list. */
+@media (prefers-reduced-motion: reduce) {
+  .wire {
+    overflow-x: auto;
+    mask-image: none;
+  }
+  .wire-run[aria-hidden] {
+    display: none;
+  }
+}
+
+@keyframes stage-in {
+  from {
+    opacity: 0;
+    transform: perspective(1200px) translateY(40px) rotateX(12deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wire {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes coverflow {
+  0% {
+    transform: rotateY(-32deg) scale(0.88);
+    opacity: 0.5;
+  }
+  40%,
+  60% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(32deg) scale(0.88);
+    opacity: 0.5;
   }
 }
 

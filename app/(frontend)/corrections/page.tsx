@@ -1,12 +1,14 @@
 /** /corrections: how to report an error, and every correction we have published. */
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { og } from '@/lib/og';
 import { loadAllPosts, storyPath } from '@/lib/content';
 
 export const metadata: Metadata = {
   title: 'Corrections',
   description: 'Report an error in a Nuvoxsaga story, and see every correction we have made.',
   alternates: { canonical: '/corrections' },
+  openGraph: og({ url: '/corrections' }),
 };
 
 const CORRECTIONS_EMAIL = 'corrections@nuvoxsaga.com';

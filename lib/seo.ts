@@ -1,22 +1,23 @@
 /**
- * Schema.org JSON-LD builders — TS port of the 7-schema generator from
- * D:/nuvoxai/youtube-ai-system/blog/blog_seo.py:generate_all_schemas.
+ * Schema.org JSON-LD builders.
  *
  * Two roles:
- *  1. Used by the Python pipeline path indirectly: posts already have
- *     `schemaLD` JSON pre-populated by the pipeline; the page just inlines
- *     it. These TS builders provide a FALLBACK when post.schemaLD is
- *     missing or empty (defense-in-depth).
- *  2. Used by non-blog routes (homepage, brand pages, /about) which the
- *     Python pipeline doesn't write — those generate schema fresh in TS.
+ *  1. Story pages: posts may carry `schemaLD` pre-built by the pipeline; these TS
+ *     builders are the fallback when it is missing (today: always).
+ *  2. Non-story routes (home) generate their schema here.
+ *
+ * One publisher: every story is published and authored by the organisation
+ * "Nuvoxsaga". The desk (AI, Space, World) is the article's section, not a separate
+ * publisher, so the JSON-LD, the byline and the news sitemap all name the same entity.
+ * Stories are drafted with AI, so the author is the organisation, never an invented
+ * person (Google's structured-data policy forbids impersonation).
  *
  * Compile-time validated via Google's official `schema-dts` types.
  *
- * SECURITY: nothing here writes HTML — output is pure JSON, embedded in
- * <script type="application/ld+json"> by the page. Even so, all string
- * fields that flow from user-controlled Post records are passed through
- * stripUnsafeJSONLD before serialisation (defence against JSON-LD-shaped
- * XSS via </script> in a title).
+ * SECURITY: nothing here writes HTML; output is pure JSON, embedded in
+ * <script type="application/ld+json"> by components/JsonLd.tsx, which escapes every
+ * `<`. String fields that flow from post files also pass through stripUnsafeJSONLD
+ * (defence in depth against a `</script>` in a title).
  */
 import type {
   Article,
@@ -28,50 +29,53 @@ import type {
   Organization,
   TechArticle,
   VideoObject,
+  WebSite,
   WithContext,
 } from 'schema-dts';
-import { BRAND_BY_ID, type BrandId } from './brands';
+import { BRAND_BY_ID, BRANDS, type BrandId } from './brands';
+import { DESKS } from './desks';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
-const ORG_NAME = 'Nuvoxsaga';
+export const ORG_NAME = 'Nuvoxsaga';
+/** 512 x 512 PNG wordmark (public/logos/nuvoxsaga.png). */
+const ORG_LOGO = `${SITE_URL}/logos/nuvoxsaga.png`;
 
-// ─────────────────────────────────────────────────────────────────────────
-// String hygiene — JSON.stringify already escapes most chars, but a literal
-// `</script>` in a title would close the inline script block. We strip the
-// closing tag pattern as defence-in-depth even though the page must also
-// JSON.stringify before insertion.
-// ─────────────────────────────────────────────────────────────────────────
 export function stripUnsafeJSONLD(s: unknown): string {
   if (typeof s !== 'string') return '';
   return s
     .replace(/<\/script/gi, '<\\/script')
     .replace(/<!--/g, '<\\!--')
-    // Defence-in-depth — close CDATA breakout even though we never wrap in CDATA.
+    // Defence-in-depth: close CDATA breakout even though we never wrap in CDATA.
     .replace(/]]>/g, ']]\\>');
 }
 
 // ─────────────────────────────────────────────────────────────────────────
-// Organization (publisher)
+// Organization (the one publisher) and WebSite
 // ─────────────────────────────────────────────────────────────────────────
-export function organizationSchema(brandId?: BrandId): WithContext<Organization> {
-  const brand = brandId ? BRAND_BY_ID[brandId] : undefined;
-  const url = brand ? `${SITE_URL}/${brand.slug}` : SITE_URL;
-  const logo = brand ? `${SITE_URL}/logos/${brand.id}.png` : `${SITE_URL}/logos/nuvox_ai.png`;
-  const name = brand ? brand.name : ORG_NAME;
+export function organizationSchema(): WithContext<Organization> {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name,
-    url,
-    logo,
-    sameAs: brand
-      ? [`https://youtube.com/${brand.handle}`]
-      : ['https://youtube.com/@nuvoxai', 'https://youtube.com/@nuvoxspace', 'https://youtube.com/@nuvoxworld'],
+    name: ORG_NAME,
+    url: SITE_URL,
+    logo: ORG_LOGO,
+    sameAs: BRANDS.map((b) => `https://www.youtube.com/${b.handle}`),
+  };
+}
+
+export function websiteSchema(): WithContext<WebSite> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: ORG_NAME,
+    url: SITE_URL,
+    inLanguage: 'en',
+    publisher: { '@type': 'Organization', name: ORG_NAME, url: SITE_URL, logo: ORG_LOGO },
   };
 }
 
 // ─────────────────────────────────────────────────────────────────────────
-// BreadcrumbList
+// BreadcrumbList: Nuvoxsaga > desk > story
 // ─────────────────────────────────────────────────────────────────────────
 export function breadcrumbSchema(args: {
   brandId: BrandId;
@@ -80,8 +84,8 @@ export function breadcrumbSchema(args: {
 }): WithContext<BreadcrumbList> {
   const brand = BRAND_BY_ID[args.brandId];
   const items = [
-    { '@type': 'ListItem' as const, position: 1, name: 'Nuvoxsaga', item: SITE_URL },
-    { '@type': 'ListItem' as const, position: 2, name: brand.name, item: `${SITE_URL}/${brand.slug}` },
+    { '@type': 'ListItem' as const, position: 1, name: ORG_NAME, item: SITE_URL },
+    { '@type': 'ListItem' as const, position: 2, name: DESKS[args.brandId].name, item: `${SITE_URL}/${brand.slug}` },
   ];
   if (args.postSlug && args.postTitle) {
     items.push({
@@ -102,7 +106,6 @@ export function articleSchema(args: {
   slug: string;
   title: string;
   excerpt?: string;
-  author?: string;
   publishedAt?: string;
   updatedAt?: string;
   imageUrl?: string;
@@ -120,17 +123,15 @@ export function articleSchema(args: {
     headline: stripUnsafeJSONLD(args.title),
     description: stripUnsafeJSONLD(args.excerpt ?? ''),
     image: [args.imageUrl ?? `${SITE_URL}/og/${args.brandId}/${args.slug}.png`],
-    author: { '@type': 'Organization', name: args.author || `Nuvoxsaga ${brand.name.replace('Nuvox ', '')} desk`, url: SITE_URL },
-    publisher: organizationSchema(args.brandId),
+    // author.url identifies the author: the page that says who writes and checks stories.
+    author: { '@type': 'Organization', name: ORG_NAME, url: `${SITE_URL}/standards` },
+    publisher: { '@type': 'Organization', name: ORG_NAME, url: SITE_URL, logo: ORG_LOGO },
+    articleSection: DESKS[args.brandId].name,
     datePublished: args.publishedAt ?? new Date().toISOString(),
     dateModified: args.updatedAt ?? args.publishedAt ?? new Date().toISOString(),
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     url,
     wordCount: args.wordCount,
-    speakable: {
-      '@type': 'SpeakableSpecification',
-      cssSelector: ['h1', '.key-takeaways', 'h2'],
-    },
   };
 }
 
@@ -195,15 +196,14 @@ export function howToSchema(args: {
 }
 
 // ─────────────────────────────────────────────────────────────────────────
-// generateAll — FALLBACK when post.schemaLD JSON is missing.
-// Mirrors blog_seo.py:generate_all_schemas.
+// Everything a story page embeds: the article (which names the publisher), its
+// breadcrumb, and FAQ / video blocks when the story has them.
 // ─────────────────────────────────────────────────────────────────────────
 export function generateAllSchemas(args: {
   brandId: BrandId;
   slug: string;
   title: string;
   excerpt?: string;
-  author?: string;
   publishedAt?: string;
   updatedAt?: string;
   imageUrl?: string;
@@ -215,13 +215,12 @@ export function generateAllSchemas(args: {
   const out: unknown[] = [];
   out.push(articleSchema(args));
   out.push(breadcrumbSchema({ brandId: args.brandId, postSlug: args.slug, postTitle: args.title }));
-  out.push(organizationSchema(args.brandId));
   if (args.faqPairs?.length) {
     const faq = faqSchema(args.faqPairs);
     if (faq) out.push(faq);
   }
   if (args.videoId) {
-    const v = videoSchema({ videoId: args.videoId, title: args.title });
+    const v = videoSchema({ videoId: args.videoId, title: args.title, uploadDate: args.publishedAt });
     if (v) out.push(v);
   }
   return out;

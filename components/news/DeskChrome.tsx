@@ -17,7 +17,7 @@ export function DeskHeader({ brand, active, title }: { brand: BrandId; active?: 
         {title ? (
           <>
             <p className="text-sm font-medium">
-              <Link href={`/${b.slug}`} className="text-brand hover:underline hover:underline-offset-4">
+              <Link href={`/${b.slug}`} className="hover:underline hover:underline-offset-4" style={{ color: desk.accent }}>
                 {desk.name}
               </Link>
             </p>

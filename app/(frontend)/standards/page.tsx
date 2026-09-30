@@ -1,11 +1,13 @@
 /** /standards: how Nuvoxsaga reports, checks and corrects. Plain copy, no em-dashes. */
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { og } from '@/lib/og';
 
 export const metadata: Metadata = {
   title: 'Editorial standards',
   description: 'How Nuvoxsaga writes, checks and corrects its stories, and how AI is used in the newsroom.',
   alternates: { canonical: '/standards' },
+  openGraph: og({ url: '/standards' }),
 };
 
 const SECTIONS: { title: string; body: string[] }[] = [

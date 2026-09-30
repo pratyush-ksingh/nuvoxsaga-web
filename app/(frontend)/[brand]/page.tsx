@@ -8,6 +8,7 @@ import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { BRAND_CONTENT } from '@/lib/brand-content';
 import { DESKS } from '@/lib/desks';
 import { DeskFront } from '@/components/news/DeskFront';
+import { og, OG_CARD } from '@/lib/og';
 
 interface Props {
   params: Promise<{ brand: string }>;
@@ -32,12 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/${brand.slug}`,
       types: { 'application/rss+xml': [{ url: `/${brand.slug}/feed.xml`, title: `Nuvoxsaga ${DESKS[brand.id].name}` }] },
     },
-    openGraph: {
+    openGraph: og({
       title,
       description,
       url: `/${brand.slug}`,
-      images: [{ url: `/og/${brand.id}/default.png`, width: 1200, height: 630 }],
-    },
+      images: [{ url: `/og/${brand.id}/default.png`, ...OG_CARD }],
+    }),
   };
 }
 

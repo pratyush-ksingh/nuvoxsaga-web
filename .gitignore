@@ -77,3 +77,10 @@ __pycache__/
 
 # graphify knowledge graph (regenerated locally)
 graphify-out/
+
+# Stories and story photos are written by the pipeline and backed up to the
+# `content-live` branch after every deploy (youtube-ai-system/blog/static_blog.py),
+# never committed on a code branch.
+/content/posts/
+/public/media/*
+!/public/media/sections/

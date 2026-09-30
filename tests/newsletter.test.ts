@@ -65,3 +65,45 @@ describe('sealEmail', () => {
     expect(new TextDecoder().decode(plain)).toBe('reader@example.com');
   });
 });
+
+describe('confirm endpoint', () => {
+  type Handler = (ctx: { request: Request; env: unknown }) => Promise<Response>;
+  const CONFIRM_MODULE: string = '../functions/api/newsletter/confirm';
+  const db = (run: () => Promise<unknown>) => ({ prepare: () => ({ bind: () => ({ run }) }) });
+
+  async function confirm(run: () => Promise<unknown>, token?: string) {
+    // A computed specifier keeps the Function (typed for the Workers runtime, checked by
+    // `tsc -p functions`) out of the site's own type-check.
+    const { onRequestGet } = await import(/* @vite-ignore */ CONFIRM_MODULE);
+    const hash = await emailHash('reader@example.com', SECRET);
+    const t = token ?? (await makeToken('confirm', hash, 60, SECRET));
+    const request = new Request(`https://nuvoxsaga.com/api/newsletter/confirm?t=${encodeURIComponent(t)}`);
+    return (onRequestGet as unknown as Handler)({ request, env: { DB: db(run), NEWSLETTER_HMAC_SECRET: SECRET } });
+  }
+
+  it('confirms a valid link', async () => {
+    const res = await confirm(async () => ({}));
+    expect(res.status).toBe(200);
+    expect(await res.text()).toContain('Subscription confirmed');
+  });
+
+  it('shows a retry page, not a 500, when storage fails', async () => {
+    const res = await confirm(async () => {
+      throw new Error('D1 unavailable');
+    });
+    expect(res.status).toBe(200);
+    const html = await res.text();
+    expect(html).toContain('Try again shortly');
+    expect(html).not.toContain('D1 unavailable');
+  });
+
+  it('never touches storage for a bad link', async () => {
+    let touched = false;
+    const res = await confirm(async () => {
+      touched = true;
+      return {};
+    }, 'v1.confirm.bad.1.ff');
+    expect(await res.text()).toContain('Link expired');
+    expect(touched).toBe(false);
+  });
+});

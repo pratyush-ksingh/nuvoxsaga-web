@@ -8,6 +8,7 @@
 #   has no logins, cookies or sessions, and all post HTML is sanitized at build time.
 # - challenges.cloudflare.com = Turnstile (newsletter form).
 #   static.cloudflareinsights.com / cloudflareinsights.com = Cloudflare Web Analytics.
+# - 'wasm-unsafe-eval' = Pagefind search (/search), which runs a WebAssembly index reader.
 
 /*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
@@ -15,7 +16,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=(), payment=(), usb=(), midi=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://media.nuvoxsaga.com https://i.ytimg.com https://yt3.ggpht.com; media-src 'self' https://media.nuvoxsaga.com; font-src 'self' data:; connect-src 'self' https://*.ingest.sentry.io https://cloudflareinsights.com; frame-src https://www.youtube-nocookie.com https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://media.nuvoxsaga.com https://i.ytimg.com https://yt3.ggpht.com; media-src 'self' https://media.nuvoxsaga.com; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.youtube-nocookie.com https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
 
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable

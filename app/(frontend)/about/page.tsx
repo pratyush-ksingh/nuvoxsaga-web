@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { og } from '@/lib/og';
 import Link from 'next/link';
 import { Picture } from '@/components/Picture';
 
@@ -7,6 +8,7 @@ export const metadata: Metadata = {
   description:
     'Nuvoxsaga is a news site with three desks: AI, Space and World. Stories are written with AI and checked against their sources before publication.',
   alternates: { canonical: '/about' },
+  openGraph: og({ url: '/about' }),
 };
 
 const FACTS = [

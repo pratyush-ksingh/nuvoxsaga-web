@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 vi.mock('server-only', () => ({}));
 
@@ -26,6 +26,7 @@ function story(over: Record<string, unknown> = {}): Record<string, unknown> {
     publishedAt: '2026-09-20T10:00:00Z',
     kind: 'brief',
     source: { name: 'NASA', url: 'https://www.nasa.gov/news-release/x/' },
+    checkedClaims: [{ claim: 'A checked claim', source: 'NASA' }],
     ...over,
   };
 }
@@ -35,6 +36,12 @@ async function load() {
   process.env.NUVOXSAGA_CONTENT_DIR = dir;
   return import('@/lib/content');
 }
+
+// lib/content imports the sanitizer, which loads jsdom: over 20 s on a cold run here.
+// Load it once up front so the first test does not hit the 5 s default timeout.
+beforeAll(async () => {
+  await import('isomorphic-dompurify');
+}, 120_000);
 
 beforeEach(() => {
   dir = fs.mkdtempSync(path.join(os.tmpdir(), 'nuvoxsaga-content-'));
@@ -87,6 +94,14 @@ describe('story validation', () => {
     write('nuvox_world', 'feature', story({ kind: undefined, source: undefined }));
     const { loadAllPosts } = await load();
     expect(loadAllPosts()[0].kind).toBe('feature');
+  });
+
+  it('leaves out a published story that has no fact-check record', async () => {
+    write('nuvox_ai', 'no-claims', story({ checkedClaims: [] }));
+    write('nuvox_ai', 'blank-claims', story({ checkedClaims: [{ claim: '  ', source: 'x' }] }));
+    write('nuvox_ai', 'checked', story());
+    const { loadAllPosts } = await load();
+    expect(loadAllPosts().map((p) => p.slug)).toEqual(['checked']);
   });
 
   it('never exposes drafts or future-dated stories', async () => {
