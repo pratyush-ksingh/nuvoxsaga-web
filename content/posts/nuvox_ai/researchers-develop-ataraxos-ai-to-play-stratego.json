@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "researchers-develop-ataraxos-ai-to-play-stratego",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Researchers develop Ataraxos AI to play Stratego",
+  "excerpt": "An AI system called Ataraxos has defeated top-ranked human Stratego players by a large margin.",
+  "bodyHtml": "<p>According to MIT News on September 30, 2026, researchers from MIT, Carnegie Mellon University, New York University, and Stanford University developed an artificial intelligence system named Ataraxos that defeated top-ranked human players of the board wargame Stratego. The research appears in Nature.</p>\n<p>Stratego is a two-player game of imperfect information where opponent piece identities remain hidden until they collide. The researchers trained the model using self-play reinforcement learning, where the model plays against itself to learn a blueprint strategy. Ataraxos uses decision-time planning to estimate the likely identities of hidden pieces and evaluate future choices before selecting a move.</p>\n<p>Ataraxos beat the strongest Stratego player in the world by a record margin of 15-1-4 and achieved a 39-2 record against top human players at the Stratego world championship. The system also achieved superhuman performance in other games, including Barrage Stratego, Hanabi, and Dou dizhu. The researchers intend to build interpretability measures into the system so it can explain its decision-making.</p>",
+  "publishedAt": "2026-09-30T16:03:48Z",
+  "updatedAt": "2026-09-30T16:03:48Z",
+  "wordCount": 160,
+  "readingTimeMin": 1,
+  "topic": "This game-playing AI is the new champ at Stratego",
+  "tags": [
+    "MIT",
+    "Carnegie Mellon University",
+    "New York University",
+    "Stanford University"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Researchers develop Ataraxos AI to play Stratego",
+      "source": "MIT News"
+    },
+    {
+      "claim": "An AI system called Ataraxos has defeated top-ranked human Stratego players by a large margin.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "According to MIT News on September 30, 2026 (publication date/attribution).",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Researchers from MIT, Carnegie Mellon, NYU, and Stanford developed the system named Ataraxos.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The research appears in Nature.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Stratego is a two-player game of imperfect information where opponent piece identities remain hidden until they collide.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers trained the model using self-play reinforcement learning, where the model plays against itself to learn a blueprint strategy.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Ataraxos uses decision-time planning to estimate the likely identities of hidden pieces and evaluate future choices before selecting a move.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Ataraxos beat the strongest Stratego player in the world by a record margin of 15-1-4.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Ataraxos achieved a 39-2 record against top human players at the Stratego world championship.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The system also achieved superhuman performance in other games, including Barrage Stratego, Hanabi, and Dou dizhu.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers intend to build interpretability measures into the system so it can explain its decision-making.",
+      "source": "MIT News"
+    }
+  ]
+}

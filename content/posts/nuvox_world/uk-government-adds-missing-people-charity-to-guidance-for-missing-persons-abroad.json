@@ -1,0 +1,65 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-adds-missing-people-charity-to-guidance-for-missing-persons-abroad",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government adds Missing People charity to guidance for missing persons abroad",
+  "excerpt": "The UK government updated its guidance on September 30, 2026, to include information about the charity Missing People.",
+  "bodyHtml": "<p>The UK government updated its guidance regarding British nationals who go missing abroad on September 30, 2026. The update includes information about the charity Missing People, which is dedicated to helping bring missing people back to their families.</p>\n<p>According to the guidance, the charity provides services including a helpline, emotional and practical support, dedicated family support, publicity for eligible cases, peer support, and signposting or referral to specialist organisations. A support worker from the charity can discuss a situation, provide ongoing emotional support, help navigate processes and services, offer advocacy, and connect families with other specialist support services.</p>\n<p>The guidance also notes that the Foreign, Commonwealth &amp; Development Office cannot carry out any physical searches for the missing person, fund any searches for the person, or offer rewards for information. The Foreign, Commonwealth &amp; Development Office can be contacted 24/7 from the UK on +44 (0)20 7008 5000.</p>",
+  "publishedAt": "2026-09-30T16:13:27Z",
+  "updatedAt": "2026-09-30T16:13:27Z",
+  "wordCount": 148,
+  "readingTimeMin": 1,
+  "topic": "Getting help if someone goes missing abroad",
+  "tags": [
+    "UK government",
+    "Missing People"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/getting-help-if-someone-goes-missing-abroad"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated its guidance on September 30, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance concerns British nationals who go missing abroad.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The update includes information about the charity Missing People.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Missing People is dedicated to helping bring missing people back to their families.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The charity provides a helpline, emotional and practical support, dedicated family support, publicity for eligible cases, peer support, and signposting or referral to specialist organisations.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "A support worker can discuss a situation, provide ongoing emotional support, help navigate processes and services, offer advocacy, and connect families with other specialist support services.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO cannot carry out physical searches, fund searches, or offer rewards for information.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO can be contacted 24/7 from the UK on +44 (0)20 7008 5000.",
+      "source": "The UK government"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-1.webp",
+    "alt": "Illustration: satellite on an assembly stand in a clean room, workers out of frame",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-awards-approximately-23-5-million-orbital-safety-contract-to-omitron-inc",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA awards approximately $23.5 million orbital safety contract to Omitron Inc.",
+  "excerpt": "The five-year indefinite-delivery contract provides orbital safety analysis and conjunction assessment screening services.",
+  "bodyHtml": "<p>NASA announced on September 29, 2026, that it has awarded a contract to Omitron Inc. for the acquisition of orbital safety analysis services. This indefinite-delivery contract is valued at approximately $23.5 million over a five-year period of performance.</p>\n<p>The services provided under the contract include conjunction assessment screening services for all NASA uncrewed spacecraft, support of human spaceflight activities, and orbital safety analysis support to the National Oceanic and Atmospheric Administration’s Office of Space Commerce.</p>\n<p>The work will take place at Omitron’s location in Beltsville, Maryland, NASA’s Goddard Space Flight Center in Greenbelt, Maryland, the agency’s Johnson Space Center in Houston, Naval Surface Warfare Center Dahlgren in Virginia, and Peterson Space Force Base in Colorado Springs, Colorado.</p>",
+  "publishedAt": "2026-09-30T16:10:38Z",
+  "updatedAt": "2026-09-30T16:10:38Z",
+  "wordCount": 117,
+  "readingTimeMin": 1,
+  "topic": "NASA Awards Orbital Safety Analysis Support Services Contract",
+  "tags": [
+    "NASA",
+    "Omitron Inc.",
+    "orbital safety"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA awarded a contract to Omitron Inc. for orbital safety analysis services.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The contract is valued at approximately $23.5 million.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The contract is a five-year indefinite-delivery contract.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The contract provides orbital safety analysis and conjunction assessment screening services.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the award on September 29, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Services include conjunction assessment screening for all NASA uncrewed spacecraft.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Services include support of human spaceflight activities.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Services include orbital safety analysis support to NOAA's Office of Space Commerce.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Work will take place at Omitron's location in Beltsville, Maryland, Goddard in Greenbelt, Maryland, Johnson Space Center in Houston, Naval Surface Warfare Center Dahlgren in Virginia, and Peterson Space Force Base in Colorado Springs, Colorado.",
+      "source": "NASA"
+    }
+  ]
+}

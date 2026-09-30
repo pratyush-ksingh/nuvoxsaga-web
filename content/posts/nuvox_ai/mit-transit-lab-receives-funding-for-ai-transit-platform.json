@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-transit-lab-receives-funding-for-ai-transit-platform",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT Transit Lab receives funding for AI transit platform",
+  "excerpt": "Google.org awarded $2.1 million to support the development of the Public Transit Intelligence Hub.",
+  "bodyHtml": "<p>According to MIT News, Google.org announced on Sept. 15 that the MIT Transit Lab is a recipient of $2.1 million in funding. The grant is part of the worldwide Google.org Impact Challenge: AI for Government Innovation, which selected 15 projects globally to integrate artificial intelligence-powered solutions across topics like health, resilience, and economy.</p>\n<p>The funding supports the development of the Public Transit Intelligence Hub, known as PTIQ. The platform aims to unify public transportation agencies&#x27; real-time monitoring, operations control, and passenger communication systems into a single centralized AI-orchestrated platform. This system is designed to allow transit control center staff to make better-informed, on-the-spot decisions and provide riders with more immediate and accurate information.</p>\n<p>In addition to financial backing, Google.org will provide pro bono support from its own engineers and AI product experts for the three-year project. The project will integrate predictive models, optimization engines, and large language model-based contextual reasoning into a decision support interface for control center staff.</p>",
+  "publishedAt": "2026-09-30T16:03:24Z",
+  "updatedAt": "2026-09-30T16:03:24Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "MIT Transit Lab to develop an AI platform for public transit agencies",
+  "tags": [
+    "MIT Transit Lab",
+    "Google.org",
+    "Public Transit Intelligence Hub"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: MIT Transit Lab receives funding for AI transit platform",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Google.org awarded $2.1 million to support development of the Public Transit Intelligence Hub (dek)",
+      "source": "MIT News"
+    },
+    {
+      "claim": "According to MIT News, Google.org announced on Sept. 15 that the MIT Transit Lab is a recipient of $2.1 million in funding.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The grant is part of the worldwide Google.org Impact Challenge: AI for Government Innovation.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The challenge selected 15 projects globally.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The selected projects integrate AI-powered solutions across topics like health, resilience, and economy.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "PTIQ aims to unify transit agencies' real-time monitoring, operations control, and passenger communication systems into a single centralized AI-orchestrated platform.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The system is designed to let control center staff make better-informed, on-the-spot decisions and give riders more immediate and accurate information.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Google.org will provide pro bono support from its own engineers and AI product experts.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The project is three years long.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The project will integrate predictive models, optimization engines, and LLM-based contextual reasoning into a decision support interface for control center staff.",
+      "source": "MIT News"
+    }
+  ]
+}

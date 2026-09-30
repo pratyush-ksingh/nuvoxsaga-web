@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-3.webp",
+    "alt": "Illustration: classical columns at night under a clear starry sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-opens-2027-human-lander-challenge-for-lunar-communications",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "NASA opens 2027 Human Lander Challenge for lunar communications",
+  "excerpt": "The competition invites United States-based collegiate teams to develop systems-level solutions for lunar communications.",
+  "bodyHtml": "<p>NASA announced the 2027 Human Lander Challenge on September 29, 2026, seeking ideas from college and university students to address communications needs for lunar exploration. The competition focuses on developing systems-level solutions for landers and surface operations that can be implemented within three to five years.</p>\n<p>Teams are invited to submit a non-binding notice of intent by Thursday, Oct. 15, to participate. Proposal packages, including a five to seven-page proposal and a two-minute video, are due March 4, 2027.</p>\n<p>Up to 12 finalist teams will be selected to receive $9,000 each and advance to phase 2 of the competition. This phase includes a final design review in Huntsville, Alabama, home of NASA’s Marshall Space Flight Center, scheduled for June 21–24, 2027. The top three teams from phase 2 will share a total prize of $18,000. NASA has identified categories for proposals, including space-rated wireless networks, antenna signal propagation, and surface or orbital communications system architecture.</p>",
+  "publishedAt": "2026-09-30T16:10:05Z",
+  "updatedAt": "2026-09-30T16:10:05Z",
+  "wordCount": 155,
+  "readingTimeMin": 1,
+  "topic": "NASA Opens 2027 Human Lander Challenge for Lunar Communications",
+  "tags": [
+    "NASA",
+    "Artemis",
+    "Human Landing System Program"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-opens-2027-human-lander-challenge-for-lunar-communications/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA opens 2027 Human Lander Challenge for lunar communications (headline)",
+      "source": "NASA"
+    },
+    {
+      "claim": "The competition invites United States-based collegiate teams",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the challenge on September 29, 2026",
+      "source": "NASA"
+    },
+    {
+      "claim": "Seeking ideas from college and university students to address communications needs for lunar exploration",
+      "source": "NASA"
+    },
+    {
+      "claim": "Focus is developing systems-level solutions for landers and surface operations implementable within three to five years",
+      "source": "NASA"
+    },
+    {
+      "claim": "Teams invited to submit a non-binding notice of intent by Thursday, Oct. 15",
+      "source": "NASA"
+    },
+    {
+      "claim": "Proposal packages, including five to seven-page proposal and two-minute video, due March 4, 2027",
+      "source": "NASA"
+    },
+    {
+      "claim": "Up to 12 finalist teams will be selected, each receiving $9,000 and advancing to phase 2",
+      "source": "NASA"
+    },
+    {
+      "claim": "Phase 2 includes a final design review in Huntsville, Alabama, home of Marshall, June 21–24, 2027",
+      "source": "NASA"
+    },
+    {
+      "claim": "Top three teams from phase 2 will share a total prize of $18,000",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA has identified categories for proposals including space-rated wireless networks, antenna signal propagation, and surface or orbital communications system architecture",
+      "source": "NASA"
+    }
+  ]
+}
