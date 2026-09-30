@@ -6,7 +6,7 @@
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
 
 vi.mock('server-only', () => ({}));
 
@@ -36,6 +36,12 @@ async function load() {
   process.env.NUVOXSAGA_CONTENT_DIR = dir;
   return import('@/lib/content');
 }
+
+// lib/content imports the sanitizer, which loads jsdom: over 20 s on a cold run here.
+// Load it once up front so the first test does not hit the 5 s default timeout.
+beforeAll(async () => {
+  await import('isomorphic-dompurify');
+}, 120_000);
 
 beforeEach(() => {
   dir = fs.mkdtempSync(path.join(os.tmpdir(), 'nuvoxsaga-content-'));

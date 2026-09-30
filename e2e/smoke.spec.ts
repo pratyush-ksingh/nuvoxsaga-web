@@ -45,7 +45,7 @@ test.describe('public routes', () => {
     await expect(page.getByRole('link', { name: /Read the latest/i })).toBeVisible();
   });
 
-  for (const path of ['/labs', '/latest', '/standards', '/archive']) {
+  for (const path of ['/latest', '/standards', '/corrections', '/privacy', '/contact', '/archive']) {
     test(`${path} renders`, async ({ page }) => {
       const res = await page.goto(path);
       expect(res?.status()).toBe(200);
@@ -58,6 +58,9 @@ test.describe('public routes', () => {
     const body = await r.text();
     expect(body).toContain('Disallow: /api');
     expect(body).toContain('Disallow: /pagefind/');
+    // Training crawlers are refused; search and citation crawlers are not.
+    expect(body).toMatch(/User-Agent: GPTBot\s+Disallow: \//i);
+    expect(body).not.toMatch(/PerplexityBot|Google-Extended/);
   });
 
   test('sitemap.xml is valid XML', async ({ request }) => {
