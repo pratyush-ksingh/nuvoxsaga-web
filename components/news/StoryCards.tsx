@@ -1,7 +1,7 @@
 /**
- * Story card anatomy for the media-house layout (DESIGN.md §6):
- *   LeadStory       big image + display headline + deck (one per front)
- *   SecondaryStory  16:9 image, kicker, headline (the 3 under the lead)
+ * Story card anatomy for the media-house layout (DESIGN.md §6). Front-page leads and
+ * the 3D hero stage live in components/home/HomeFront.tsx.
+ *   SecondaryStory  16:9 image, kicker, headline ("More from <desk>" on a story page)
  *   River           the "Latest" list: time, kicker, headline, deck, optional thumbnail
  *   HeadlineList    compact numbered headlines (desk blocks, sidebars)
  * The kicker is "Desk · Section" in the desk accent; briefs add an "In brief" label.
@@ -89,32 +89,6 @@ export function Kicker({ post, showDesk = true }: { post: PublicPost; showDesk?:
   );
 }
 
-export function LeadStory({ post, showDesk = true }: { post: PublicPost; showDesk?: boolean }) {
-  const href = storyPath(post);
-  return (
-    <article className="grid gap-6 md:grid-cols-[1.35fr_1fr] md:items-center md:gap-10">
-      <Link href={href} tabIndex={-1} aria-hidden="true" className="group block overflow-hidden rounded-2xl">
-        <StoryImage
-          post={post}
-          sizes="(min-width: 768px) 58vw, 100vw"
-          priority
-          className="aspect-[16/9] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-        />
-      </Link>
-      <div>
-        <Kicker post={post} showDesk={showDesk} />
-        <h2 className="display mt-3 text-[clamp(2rem,3.6vw,3.25rem)]">
-          <Link href={href} className="transition-colors duration-150 hover:text-ink-2">
-            {post.title}
-          </Link>
-        </h2>
-        {post.excerpt && <p className="mt-4 max-w-[48ch] text-lg leading-snug text-ink-2">{post.excerpt}</p>}
-        {post.publishedAt && <TimeAgo iso={post.publishedAt} className="mt-4 block text-sm text-ink-3" />}
-      </div>
-    </article>
-  );
-}
-
 export function SecondaryStory({ post, showDesk = true }: { post: PublicPost; showDesk?: boolean }) {
   const href = storyPath(post);
   return (
@@ -136,22 +110,6 @@ export function SecondaryStory({ post, showDesk = true }: { post: PublicPost; sh
         {post.publishedAt && <TimeAgo iso={post.publishedAt} className="mt-2 block text-sm text-ink-3" />}
       </div>
     </article>
-  );
-}
-
-export function TopStories({ lead, secondary, showDesk = true }: { lead?: PublicPost; secondary: PublicPost[]; showDesk?: boolean }) {
-  if (!lead) return null;
-  return (
-    <div className="grid gap-12">
-      <LeadStory post={lead} showDesk={showDesk} />
-      {secondary.length > 0 && (
-        <div className="grid gap-10 border-t border-hairline pt-10 md:grid-cols-3 md:gap-8">
-          {secondary.map((p) => (
-            <SecondaryStory key={p.id} post={p} showDesk={showDesk} />
-          ))}
-        </div>
-      )}
-    </div>
   );
 }
 

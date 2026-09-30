@@ -9,7 +9,8 @@ import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { DESKS, findSection } from '@/lib/desks';
 import { storiesForSection } from '@/lib/content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
-import { River, TopStories } from '@/components/news/StoryCards';
+import { River } from '@/components/news/StoryCards';
+import { HeroStage } from '@/components/home/HomeFront';
 import { DeskHeader, EmptyDesk } from '@/components/news/DeskChrome';
 import { og, OG_CARD } from '@/lib/og';
 
@@ -49,7 +50,11 @@ export default async function SectionPage({ params }: Props) {
   const r = await resolve(params);
   if (!r) notFound();
   const posts = storiesForSection(r.brand.id, r.section.slug).slice(0, 60);
-  const [lead, ...rest] = posts;
+  // The 3D hero stage takes the lead + up to 3 more once the section has 5+ stories;
+  // a thin section keeps a single lead so the river below is not left empty.
+  const [lead, ...others] = posts;
+  const secondary = posts.length >= 5 ? others.slice(0, 3) : [];
+  const rest = others.slice(secondary.length);
 
   return (
     <BrandProvider brand={r.brand.id}>
@@ -59,7 +64,7 @@ export default async function SectionPage({ params }: Props) {
           <EmptyDesk label={r.section.name} />
         ) : (
           <div className="grid gap-14">
-            <TopStories lead={lead} secondary={[]} showDesk={false} />
+            <HeroStage lead={lead} secondary={secondary} showDesk={false} />
             {rest.length > 0 && <River posts={rest} showDesk={false} />}
           </div>
         )}

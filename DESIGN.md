@@ -76,7 +76,10 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
   report" band, then the newsletter band. News and articles stay apart: briefs run on the
   wire and in the river, features get the shelf with image and reading time. Before the first story exists it falls back to the
   launch composition (split hero, desk bento, how we report).
-- Desk front: masthead with section pill tabs, lead + 3, river + features sidebar, pager.
+- Desk front: masthead with section pill tabs, the desk's wire (labelled by section), the
+  hero stage (shorter lead than home), river + features sidebar, the desk's features shelf
+  once it has 3+ features, pager. Section page: masthead, hero stage (lead + 3 once the
+  section has 5+ stories, a single lead before that), river.
 - Story: kicker (Desk · Section, "In brief" pill), headline, deck, desk byline + UTC stamp,
   credited image, body, source/check box, topic chips, "More from <desk>".
 - Every multi-column block collapses to one column under 768px.
