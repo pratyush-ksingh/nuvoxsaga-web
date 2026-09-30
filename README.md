@@ -1,52 +1,83 @@
 # nuvoxsaga-web
 
-3-brand AI/tech media-house website at **nuvoxsaga.com**.
+The website at **nuvoxsaga.com**: a news site with three desks (AI, Space, World).
 
-Stack: Next.js 15 + Payload CMS 3 + R3F + Tailwind v4 + Auth.js v5.
-Brands: `nuvox_ai`, `nuvox_space`, `nuvox_world`.
+It is a static site. `next build` writes plain files to `out/`, Cloudflare Pages serves
+them, and no server code runs for a page view. The only runtime code is three small
+Pages Functions for the newsletter signup.
 
-## Status
+Stack: Next.js 16 (static export), React 19, Tailwind v4, Pagefind (search),
+Cloudflare Pages + Pages Functions + D1. Cost: $0 a month.
 
-Feature-complete, in final pre-launch hardening. Security foundation, Payload
-collections, Auth.js v5 magic-link + WebAuthn, the Ghost → Payload content
-pipeline, SEO, frontend, and heavy 3D are all built; a Vercel preview deploy
-is live. What's left is smoke-testing the full stack, activating Sentry, and
-the deferred Ghost → Payload post migration.
+## Where the stories come from
 
-**Canonical status doc: [`infra/REMAINING_PLAN.md`](infra/REMAINING_PLAN.md)** —
-read it first in any session. It tracks live infra (Vercel/R2/Turnstile/Resend/
-Neon/Upstash), the Bitwarden env-var inventory, and the remaining tech-polish /
-smoke-test / migration / launch checklist.
+Stories are not written here. The pipeline in `../youtube-ai-system`
+(`newsdesk/briefs.py` for news briefs, `blog/static_blog.py` for features) writes one
+JSON file per story, after its fact-check, to:
+
+    content/posts/<brand_id>/<slug>.json
+
+`lib/content.ts` validates every file at build time, sanitizes the HTML, and leaves out
+drafts, future-dated stories and any story without a fact-check record.
+
+`content/posts/` is gitignored on code branches. After every deploy the pipeline mirrors
+the published stories to the **`content-live`** branch of this repo. To restore them,
+copy `content/` (and `public/media/`) from that branch into a checkout and rebuild.
+
+## Commands
+
+```bash
+npm ci
+npm run dev          # local dev server
+npm run typecheck    # tsc for the site and for the Pages Functions
+npm run lint
+npx vitest run       # unit tests
+npm run build:prod   # static export to out/ + Pagefind index, with the production URL
+```
+
+End-to-end smoke tests run against a served build:
+
+```bash
+npx wrangler pages dev out --port 3007   # serves out/ with _headers, _redirects, Functions
+npx playwright test                      # PLAYWRIGHT_BASE_URL overrides the target
+```
+
+## Deploy
+
+Production is deployed by the pipeline after it publishes a story
+(`build_and_deploy()` in `../youtube-ai-system/blog/static_blog.py`), from this
+working tree:
+
+```bash
+npm run build:prod
+npx wrangler pages deploy out --project-name nuvoxsaga --branch main
+```
+
+Because the pipeline builds whatever is in the working tree, do code work on a branch in
+a separate git worktree and merge it in one step. A half-edited tree would go live.
+
+Newsletter secrets are set with `wrangler pages secret put` (names in `.env.example`).
+
+## Layout
+
+- `app/` routes: home, desk fronts (`/ai`, `/space`, `/world`), sections, stories
+  (`/<desk>/news/<slug>`), topics, archive, trust pages, feeds, sitemaps, share cards.
+- `components/` UI. `lib/` content layer, sanitizer, JSON-LD, Open Graph defaults.
+- `functions/` newsletter Pages Functions. `functions-lib/` their shared helpers.
+- `public/_headers` security headers and CSP. `public/_redirects` old URLs.
+- `content/archive/` the old nuvox-ai.com posts, served under `/archive` as noindex.
+- `DESIGN.md` the design system. New pages must follow it.
+- `lib/brands.ts` is generated from `../youtube-ai-system/core/brand_config.py`
+  (`npm run gen-brands`). Never edit it by hand; the prebuild step fails on drift.
 
 ## CI
 
-`.github/workflows/security.yml` runs on every push/PR to `master`: Gitleaks
-secret scan, `npm audit`, codegen-drift check, `tsc --noEmit`, lint, CodeQL,
-and (PRs only) the Anthropic `claude-code-security-review` action.
-`lighthouse.yml` runs a Lighthouse CI audit against `LIGHTHOUSE_BASE_URL`.
+`.github/workflows/security.yml` runs on every push and PR to `master`: Gitleaks,
+`npm audit`, codegen-drift check, `tsc`, lint and CodeQL. `lighthouse.yml` audits the
+live site.
 
-## Key files
+## More
 
-- `lib/brands.ts` — codegen from `../youtube-ai-system/core/brand_config.py`. **Never edit by hand.**
-- `scripts/gen-brands.ts` — codegen runner. CI prebuild fails on drift.
-- `scripts/convert-banners.ts` — banner PNG → AVIF responsive sizes.
-- `infra/security/BANNED.md` — security policy, do not install banned items.
-- `public/banners/` — 36 AVIF banner sizes (3 brands × 3 banners × 4 widths).
-- `public/logos/` — 3 brand logos (PNG, 800×800).
-- `public/faces/` — 6 emotion-driven avatars (WebP).
-- `public/shaders/lygia/` — git submodule, BSD-style attribution required.
-- `.mcp.json.example` — MCP config template (Tavily/Context7/Figma). Copy to `.mcp.json` (gitignored).
-- `.env.example` — env var template.
-
-## Codegen workflow
-
-```bash
-npm run gen-brands       # regenerate lib/brands.ts from Python source
-npm run convert-banners  # re-convert banners if source PNGs change
-```
-
-Pre-build runs gen-brands automatically and fails on uncommitted drift.
-
-## Security boundary
-
-See `infra/security/BANNED.md` for the full banned list and trojan-name watch.
+- `infra/STATIC_CLOUDFLARE_PLAN.md` why the site is static and how it was launched.
+- `infra/security/BANNED.md` packages and tools that must not be installed.
+- `infra/legacy/` documents from the retired Payload and Vercel stack, kept for history.

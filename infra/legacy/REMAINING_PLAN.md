@@ -1,3 +1,5 @@
+> **Legacy.** This document describes the retired Payload + Vercel + Neon + Auth.js stack. The site is now a static export on Cloudflare Pages: see `README.md` and `infra/STATIC_CLOUDFLARE_PLAN.md`.
+
 # Remaining work — nuvoxsaga.com
 
 Last updated: **2026-04-30** (after the Phase 12 visual polish sprint).

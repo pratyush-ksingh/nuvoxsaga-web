@@ -1,3 +1,5 @@
+> **Legacy.** This document describes the retired Payload + Vercel + Neon + Auth.js stack. The site is now a static export on Cloudflare Pages: see `README.md` and `infra/STATIC_CLOUDFLARE_PLAN.md`.
+
 # Phase 0 Provisioning Runbook
 
 Goal: stand up every external service the site depends on, in one ~90-minute
