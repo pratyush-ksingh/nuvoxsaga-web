@@ -28,8 +28,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/topic/${tag}` },
     openGraph: og({ title: topic.name, description, url: `/topic/${tag}` }),
     // A topic with one or two stories is a thin page: readers can use it, search engines
-    // should not index it (the sitemap applies the same threshold).
-    robots: topic.posts.length < TOPIC_INDEX_MIN ? { index: false, follow: true } : undefined,
+    // should not index it (the sitemap applies the same threshold). The key is left out
+    // entirely for an indexable topic: `robots: undefined` would erase the root layout's
+    // robots tag (and with it max-image-preview:large).
+    ...(topic.posts.length < TOPIC_INDEX_MIN ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
