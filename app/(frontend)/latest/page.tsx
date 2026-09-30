@@ -1,5 +1,6 @@
 /** /latest: the newest 60 stories from every desk, newest first. */
 import type { Metadata } from 'next';
+import { og } from '@/lib/og';
 import { loadAllPosts } from '@/lib/content';
 import { River } from '@/components/news/StoryCards';
 import { EmptyDesk } from '@/components/news/DeskChrome';
@@ -8,6 +9,7 @@ export const metadata: Metadata = {
   title: 'Latest news',
   description: 'The newest stories from the AI, Space and World desks.',
   alternates: { canonical: '/latest' },
+  openGraph: og({ url: '/latest' }),
 };
 
 export default function LatestPage() {

@@ -4,6 +4,16 @@ export const dynamic = 'force-static';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 
+/**
+ * Crawlers that collect pages to train AI models. They are refused.
+ *
+ * Search and citation crawlers (OAI-SearchBot, Claude-SearchBot, PerplexityBot) and
+ * Google-Extended are deliberately NOT listed: they are how a story gets linked from an
+ * AI answer, and being found is the point of a news site. Keep this list to training
+ * crawlers only.
+ */
+const TRAINING_CRAWLERS = ['GPTBot', 'ClaudeBot', 'anthropic-ai', 'CCBot'];
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
@@ -11,29 +21,17 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
         disallow: [
-          '/admin',
-          '/admin/',
+          // Newsletter endpoints (Pages Functions): nothing to index.
           '/api',
           '/api/',
-          // Auth flows aren't useful in search results.
-          '/login',
-          '/setup-mfa',
-          // Pagefind generated assets — not for crawlers.
+          // Pagefind's generated index files.
           '/pagefind/',
-          // Search results pages — also marked noindex via metadata, blocked here too.
+          // Search results page (also noindex in its metadata).
           '/search',
         ],
       },
-      // Block aggressive scrapers from training on us without value exchange.
-      // Per-bot allowlist can be added when individual partnerships exist.
-      { userAgent: 'GPTBot', disallow: '/' },
-      { userAgent: 'CCBot', disallow: '/' },
-      { userAgent: 'anthropic-ai', disallow: '/' },
-      { userAgent: 'ClaudeBot', disallow: '/' },
-      { userAgent: 'PerplexityBot', disallow: '/' },
-      { userAgent: 'Google-Extended', disallow: '/' },
+      ...TRAINING_CRAWLERS.map((userAgent) => ({ userAgent, disallow: '/' })),
     ],
     sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/news-sitemap.xml`],
-    host: SITE_URL,
   };
 }

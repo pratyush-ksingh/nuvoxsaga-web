@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
 import { DeskFront, deskRiver } from '@/components/news/DeskFront';
+import { og, OG_CARD } from '@/lib/og';
 
 interface Props {
   params: Promise<{ brand: string; n: string }>;
@@ -37,6 +38,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${DESKS[r.brand.id].name} news, page ${r.page}`,
     alternates: { canonical: `/${r.brand.slug}/page/${r.page}` },
+    openGraph: og({
+      url: `/${r.brand.slug}/page/${r.page}`,
+      images: [{ url: `/og/${r.brand.id}/default.png`, ...OG_CARD }],
+    }),
   };
 }
 

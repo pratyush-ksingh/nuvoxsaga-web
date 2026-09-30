@@ -1,12 +1,13 @@
 /**
- * sitemap.xml: home, desk and section fronts, trust pages, topics and every published
+ * sitemap.xml: home, desk and section fronts, trust pages, topics with enough stories to
+ * be worth indexing (TOPIC_INDEX_MIN) and every published
  * story (/<desk>/news/<slug>). Drafts, scheduled posts and the noindex archive are
  * excluded. Fresh stories are also listed in /news-sitemap.xml for Google News.
  */
 import type { MetadataRoute } from 'next';
 import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
-import { loadAllPosts, loadTopics, storyPath } from '@/lib/content';
+import { loadAllPosts, loadTopics, storyPath, TOPIC_INDEX_MIN } from '@/lib/content';
 
 export const dynamic = 'force-static';
 
@@ -22,6 +23,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/about`, changeFrequency: 'monthly', priority: 0.3 },
     { url: `${SITE_URL}/standards`, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${SITE_URL}/corrections`, changeFrequency: 'weekly', priority: 0.3 },
+    { url: `${SITE_URL}/contact`, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${SITE_URL}/privacy`, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
   const desks: MetadataRoute.Sitemap = BRANDS.flatMap((b) => [
@@ -35,7 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]);
 
   const topics: MetadataRoute.Sitemap = [...loadTopics().entries()]
-    .filter(([, t]) => t.posts.length >= 2)
+    .filter(([, t]) => t.posts.length >= TOPIC_INDEX_MIN)
     .map(([slug]) => ({ url: `${SITE_URL}/topic/${slug}`, changeFrequency: 'daily' as const, priority: 0.4 }));
 
   const stories: MetadataRoute.Sitemap = posts.map((p) => ({

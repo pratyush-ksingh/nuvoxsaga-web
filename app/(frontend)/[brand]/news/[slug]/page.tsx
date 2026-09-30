@@ -4,7 +4,7 @@
  * SECURITY:
  *   - Brand and slug are validated; unknown -> 404 (dynamicParams = false).
  *   - Renders only post.bodyHtmlSanitized (lib/sanitize.ts at build).
- *   - JSON-LD: every `<` is escaped as < so a title can never close the script.
+ *   - JSON-LD goes through components/JsonLd.tsx, which escapes every `<`.
  *   - Drafts and scheduled posts cannot render: fetchPost only sees published ones.
  */
 import { notFound } from 'next/navigation';
@@ -18,6 +18,8 @@ import { generateAllSchemas } from '@/lib/seo';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { YouTubeEmbed } from '@/components/blog/YouTubeEmbed';
 import { SecondaryStory, StoryImage } from '@/components/news/StoryCards';
+import { JsonLd } from '@/components/JsonLd';
+import { og, OG_CARD } from '@/lib/og';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 const stampFmt = new Intl.DateTimeFormat('en', {
@@ -55,12 +57,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = await resolve(params);
   if (!r) return {};
   const { post } = r;
-  const image = post.image ? post.image.src : `/og/${post.brand}/${post.slug}.png`;
+  const image = shareImage(post);
   return {
     title: post.title,
     description: post.excerpt,
     alternates: { canonical: storyPath(post) },
-    openGraph: {
+    openGraph: og({
       title: post.title,
       description: post.excerpt,
       type: 'article',
@@ -69,16 +71,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       modifiedTime: post.updatedAt,
       section: DESKS[post.brand].name,
       tags: post.tags,
-      images: [{ url: image, alt: post.image?.alt ?? post.title }],
-    },
+      images: [image],
+    }),
     twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt, images: [image] },
   };
 }
 
+/**
+ * The image a shared link shows. A real, credited photo is used as it is. A stock
+ * section illustration says nothing about the story, so those stories share the title
+ * card built for every post at /og/<brand>/<slug>.png (app/og/[brand]/[file]).
+ */
+function shareImage(post: PublicPost): { url: string; alt: string; width?: number; height?: number } {
+  if (post.image && post.image.credit !== 'AI illustration') {
+    return { url: post.image.src, alt: post.image.alt };
+  }
+  return { url: `/og/${post.brand}/${post.slug}.png`, alt: post.title, ...OG_CARD };
+}
+
+/** Three more stories from this desk: shared topics first, then the same section, then the newest. */
 async function related(post: PublicPost): Promise<PublicPost[]> {
   const desk = (await fetchAllPostsForBrand(post.brand)).filter((p) => p.id !== post.id);
+  const topics = new Set((post.tags ?? []).map(topicSlug).filter(Boolean));
+  const shared = (p: PublicPost) => (p.tags ?? []).filter((t) => topics.has(topicSlug(t))).length;
+  // Array.sort is stable, so stories with the same number of shared topics stay newest first.
+  const sameTopics = desk.filter((p) => shared(p) > 0).sort((a, b) => shared(b) - shared(a));
   const sameSection = desk.filter((p) => post.section && p.section === post.section);
-  return [...new Set([...sameSection, ...desk])].slice(0, 3);
+  return [...new Set([...sameTopics, ...sameSection, ...desk])].slice(0, 3);
 }
 
 export default async function StoryPage({ params }: Props) {
@@ -109,14 +128,7 @@ export default async function StoryPage({ params }: Props) {
 
   return (
     <BrandProvider brand={brand.id}>
-      {schemas.map((s, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          // eslint-disable-next-line react/no-danger -- JSON-LD requires raw script content
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(s).replace(/</g, '\\u003c') }}
-        />
-      ))}
+      <JsonLd schemas={schemas} />
 
       <article className="container-page pb-24 pt-10 md:pt-14">
         <header className="mx-auto max-w-[46rem]">
@@ -147,6 +159,19 @@ export default async function StoryPage({ params }: Props) {
             {post.publishedAt && <time dateTime={post.publishedAt}>{stampFmt.format(new Date(post.publishedAt))}</time>}
             {updated && <span>Updated <time dateTime={updated}>{stampFmt.format(new Date(updated))}</time></span>}
             {!isBrief && post.readingTimeMin ? <span>{post.readingTimeMin} min read</span> : null}
+            {isBrief && post.source && (
+              <span>
+                Source:{' '}
+                <a
+                  href={post.source.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-ink-2 underline underline-offset-4 hover:text-ink"
+                >
+                  {post.source.name}
+                </a>
+              </span>
+            )}
           </div>
         </header>
 
@@ -257,7 +282,7 @@ function CheckedBox({ post }: { post: PublicPost }) {
           This brief was written from the source above. Before publication every name, number and date in it was
           matched against that source, and a separate check confirmed each claim.
         </p>
-        <ClaimList claims={claims} />
+        <ClaimList claims={claims} open />
         <ReportLink />
       </section>
     );
@@ -282,10 +307,11 @@ function CheckedBox({ post }: { post: PublicPost }) {
   );
 }
 
-function ClaimList({ claims }: { claims: { claim: string; source: string }[] }) {
+/** A brief is short, so its checked claims are shown open; a feature's longer list starts closed. */
+function ClaimList({ claims, open = false }: { claims: { claim: string; source: string }[]; open?: boolean }) {
   if (!claims.length) return null;
   return (
-    <details className="mt-4 text-sm">
+    <details className="mt-4 text-sm" open={open}>
       <summary className="cursor-pointer font-semibold text-ink">{claims.length} claims verified</summary>
       <ul className="mt-3 grid gap-2 text-ink-2">
         {claims.map((c, i) => (

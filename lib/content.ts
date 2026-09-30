@@ -250,6 +250,9 @@ export function loadTopics(): Map<string, { name: string; posts: PublicPost[] }>
   return topics;
 }
 
+/** A topic page is indexable (and listed in the sitemap) from this many stories. */
+export const TOPIC_INDEX_MIN = 3;
+
 /** The most-used topics in the last 14 days of stories, for the topic strip. */
 export function trendingTopics(limit = 8): { slug: string; name: string }[] {
   const posts = loadAllPosts();

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
@@ -24,12 +25,9 @@ export const metadata: Metadata = {
   keywords: ['AI', 'technology', 'space', 'astronomy', 'world', 'science news'],
   referrer: 'strict-origin-when-cross-origin',
   robots: { index: true, follow: true, 'max-image-preview': 'large' },
-  openGraph: {
-    type: 'website',
-    siteName: 'Nuvoxsaga',
-    locale: 'en_US',
-    images: [{ url: '/og/nuvox_ai/default.png', width: 1200, height: 630 }],
-  },
+  // Pages that set their own openGraph build it with og() (lib/og.ts): Next replaces
+  // this object wholesale, it does not merge into it.
+  openGraph: { type: 'website', siteName: SITE_NAME, locale: 'en_US', images: [DEFAULT_OG_IMAGE] },
   twitter: { card: 'summary_large_image' },
 };
 

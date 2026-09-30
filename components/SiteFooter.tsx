@@ -11,6 +11,8 @@ const MORE = [
   { href: '/about', label: 'About' },
   { href: '/standards', label: 'Editorial standards' },
   { href: '/corrections', label: 'Corrections' },
+  { href: '/contact', label: 'Contact' },
+  { href: '/privacy', label: 'Privacy' },
   { href: '/archive', label: 'Archive' },
   { href: '/feed.xml', label: 'RSS' },
 ];

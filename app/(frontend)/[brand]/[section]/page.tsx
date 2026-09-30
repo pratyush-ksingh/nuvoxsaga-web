@@ -11,6 +11,7 @@ import { storiesForSection } from '@/lib/content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { River, TopStories } from '@/components/news/StoryCards';
 import { DeskHeader, EmptyDesk } from '@/components/news/DeskChrome';
+import { og, OG_CARD } from '@/lib/og';
 
 interface Props {
   params: Promise<{ brand: string; section: string }>;
@@ -32,9 +33,15 @@ async function resolve(params: Props['params']) {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = await resolve(params);
   if (!r) return {};
+  const desk = DESKS[r.brand.id].name;
+  const title = `${r.section.name}: ${desk} news`;
+  const description = `The latest ${r.section.name} stories from the Nuvoxsaga ${desk} desk, each checked against its source before publication.`;
+  const url = `/${r.brand.slug}/${r.section.slug}`;
   return {
-    title: `${r.section.name}: ${DESKS[r.brand.id].name} news`,
-    alternates: { canonical: `/${r.brand.slug}/${r.section.slug}` },
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: og({ title, description, url, images: [{ url: `/og/${r.brand.id}/default.png`, ...OG_CARD }] }),
   };
 }
 

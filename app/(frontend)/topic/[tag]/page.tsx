@@ -1,7 +1,8 @@
 /** /topic/<tag>: every story carrying a tag, across desks. */
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { loadTopics } from '@/lib/content';
+import { loadTopics, TOPIC_INDEX_MIN } from '@/lib/content';
+import { og } from '@/lib/og';
 import { River } from '@/components/news/StoryCards';
 
 interface Props {
@@ -20,7 +21,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { tag } = await params;
   const topic = loadTopics().get(tag);
   if (!topic) return {};
-  return { title: topic.name, alternates: { canonical: `/topic/${tag}` } };
+  const description = `Every Nuvoxsaga story about ${topic.name}, newest first, from the AI, Space and World desks.`;
+  return {
+    title: topic.name,
+    description,
+    alternates: { canonical: `/topic/${tag}` },
+    openGraph: og({ title: topic.name, description, url: `/topic/${tag}` }),
+    // A topic with one or two stories is a thin page: readers can use it, search engines
+    // should not index it (the sitemap applies the same threshold).
+    robots: topic.posts.length < TOPIC_INDEX_MIN ? { index: false, follow: true } : undefined,
+  };
 }
 
 export default async function TopicPage({ params }: Props) {

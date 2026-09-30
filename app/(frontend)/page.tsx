@@ -13,6 +13,9 @@ import { DESKS } from '@/lib/desks';
 import { loadAllPosts, splitTop, trendingTopics, type PublicPost } from '@/lib/content';
 import { Picture } from '@/components/Picture';
 import { HeadlineList, River, SecondaryStory, TopStories } from '@/components/news/StoryCards';
+import { JsonLd } from '@/components/JsonLd';
+import { og } from '@/lib/og';
+import { organizationSchema, websiteSchema } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: { absolute: 'Nuvoxsaga: AI, space and world news' },
@@ -20,7 +23,11 @@ export const metadata: Metadata = {
     canonical: '/',
     types: { 'application/rss+xml': [{ url: '/feed.xml', title: 'Nuvoxsaga' }] },
   },
+  openGraph: og({ url: '/' }),
 };
+
+/** Who publishes this site, for search engines (one Organization, one WebSite). */
+const SITE_SCHEMAS = [organizationSchema(), websiteSchema()];
 
 const PRINCIPLES = [
   {
@@ -48,6 +55,7 @@ export default function Home() {
 
   return (
     <>
+      <JsonLd schemas={SITE_SCHEMAS} />
       <h1 className="sr-only">Nuvoxsaga: AI, space and world news</h1>
 
       {/* 1. Top stories across the three desks */}
@@ -182,6 +190,7 @@ function LaunchHome() {
   const [lead, ...rest] = BRANDS;
   return (
     <>
+      <JsonLd schemas={SITE_SCHEMAS} />
       <section className="container-page grid gap-10 pb-20 pt-12 md:grid-cols-[1.15fr_0.85fr] md:items-center md:gap-16 md:pb-28 md:pt-20">
         <div className="hero-in">
           <h1 className="display text-[clamp(2.75rem,6.4vw,5.5rem)]">
