@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "european-chinese-smile-mission-begins-science-operations",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "European-Chinese Smile mission begins science operations",
+  "excerpt": "The spacecraft is now collecting data on how solar activity interacts with Earth's magnetic field.",
+  "bodyHtml": "<p>The European Space Agency announced on 23 September that the European-Chinese Smile mission is ready to begin science operations. The spacecraft, which launched on 19 May and reached its target orbit on 20 June, has completed its in-space commissioning period.</p>\n<p>During the commissioning phase, teams deployed mechanisms and tested the mission&#x27;s four science instruments: the soft X-ray imager, ultraviolet aurora imager, magnetometer, and light ion analyser. These instruments are designed to study solar storms, geomagnetic storms, and space weather.</p>\n<p>The mission is a joint project between the European Space Agency and the Chinese Academy of Sciences. The soft X-ray imager is expected to capture its first images of the magnetopause or the northern polar cusp by mid-October.</p>",
+  "publishedAt": "2026-09-30T12:00:54Z",
+  "updatedAt": "2026-09-30T12:00:54Z",
+  "wordCount": 117,
+  "readingTimeMin": 1,
+  "topic": "Science begins for Smile",
+  "tags": [
+    "Smile",
+    "ESA",
+    "Chinese Academy of Sciences",
+    "space weather"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Science_begins_for_Smile"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "European-Chinese Smile mission begins science operations",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft is now collecting data on how solar activity interacts with Earth's magnetic field.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on 23 September that the European-Chinese Smile mission is ready to begin science operations.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft launched on 19 May.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft reached its target orbit on 20 June.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft has completed its in-space commissioning period.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "During the commissioning phase, teams deployed mechanisms and tested the mission's four science instruments: the soft X-ray imager, ultraviolet aurora imager, magnetometer, and light ion analyser.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "These instruments are designed to study solar storms, geomagnetic storms, and space weather.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission is a joint project between the European Space Agency and the Chinese Academy of Sciences.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The soft X-ray imager is expected to capture its first images of the magnetopause or the northern polar cusp by mid-October.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

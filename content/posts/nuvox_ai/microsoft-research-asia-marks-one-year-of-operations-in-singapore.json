@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "microsoft-research-asia-marks-one-year-of-operations-in-singapore",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Microsoft Research Asia marks one year of operations in Singapore",
+  "excerpt": "The lab has collaborated on nine new research projects with local universities since its July 24, 2025 opening.",
+  "bodyHtml": "<p>Microsoft Research Asia – Singapore marked one year of operations following its July 24, 2025 opening. The facility serves as the company&#x27;s first research lab in Southeast Asia.</p>\n<p>During its first year, the lab established nine new research projects with the National University of Singapore and Nanyang Technological University. These projects focus on areas including healthcare AI, robotics, and multi-agent systems, which are systems that can reason, plan, use tools, and collaborate with people.</p>\n<p>The lab&#x27;s work includes the Industrial Postgraduate Programme, which supports joint PhD training. The first student in this program, Qiming Huang, presented a paper on RobotSeg, a foundation model for robot segmentation in image and video, at the CVPR 2026 conference.</p>",
+  "publishedAt": "2026-09-29T06:01:20Z",
+  "updatedAt": "2026-09-29T06:01:20Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+  "tags": [
+    "Microsoft Research Asia",
+    "Singapore",
+    "AI research"
+  ],
+  "source": {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/"
+  },
+  "sources": [
+    "Microsoft Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Microsoft Research Asia marks one year of operations in Singapore.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The lab has collaborated on nine new research projects with local universities since its July 24, 2025 opening.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Microsoft Research Asia – Singapore opened on July 24, 2025.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The facility is Microsoft's first research lab in Southeast Asia.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The nine new research projects focus on areas including healthcare AI, robotics, and multi-agent systems.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Multi-agent systems are systems that can reason, plan, use tools, and collaborate with people.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The lab's work includes the Industrial Postgraduate Programme (IPP), which supports joint PhD training.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Qiming Huang was the first student in the Industrial Postgraduate Programme at MSRA – Singapore.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Qiming Huang presented a paper on RobotSeg at the CVPR 2026 conference.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "RobotSeg is a foundation model for robot segmentation in image and video.",
+      "source": "Microsoft Research"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-and-germany-sign-security-information-agreement",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Canada and Germany sign security information agreement",
+  "excerpt": "The agreement establishes a framework for the secure exchange of sensitive information between the two countries.",
+  "bodyHtml": "<p>The Government of Canada announced on September 25, 2026, that Canada and Germany have signed a General Security of Information Agreement. The agreement was finalized during a meeting in Ottawa between Canada’s Minister of Foreign Affairs, Anita Anand, and Germany’s Federal Minister for Foreign Affairs, Johann Wadephul.</p>\n<p>The agreement creates a framework for the secure exchange and protection of sensitive information between the two nations. According to the Government of Canada, the deal will facilitate cooperation on defence and security matters by enabling the secure exchange of intelligence, sensitive operational information, and technical data related to defence and security activities.</p>\n<p>The ministers also discussed ongoing negotiations toward a Canada-Germany Joint Strategic Partnership, which aims to deepen cooperation in areas including security, defence, critical minerals, artificial intelligence, energy, and investment.</p>",
+  "publishedAt": "2026-09-27T06:02:13Z",
+  "updatedAt": "2026-09-27T06:02:13Z",
+  "wordCount": 129,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand meets with Germany’s Federal Minister for Foreign Affairs",
+  "tags": [
+    "Canada",
+    "Germany",
+    "Security",
+    "Diplomacy"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/09/minister-anand-meets-with-germanys-federal-minister-for-foreign-affairs.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada and Germany sign security information agreement",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The agreement establishes a framework for the secure exchange of sensitive information between the two countries.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on September 25, 2026, that Canada and Germany have signed a General Security of Information Agreement.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The agreement was finalized during a meeting in Ottawa between Canada’s Minister of Foreign Affairs, Anita Anand, and Germany’s Federal Minister for Foreign Affairs, Johann Wadephul.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The agreement creates a framework for the secure exchange and protection of sensitive information between the two nations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The deal will facilitate cooperation on defence and security matters by enabling the secure exchange of intelligence, sensitive operational information, and technical data related to defence and security activities.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers also discussed ongoing negotiations toward a Canada-Germany Joint Strategic Partnership, which aims to deepen cooperation in areas including security, defence, critical minerals, artificial intelligence, energy, and investment.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

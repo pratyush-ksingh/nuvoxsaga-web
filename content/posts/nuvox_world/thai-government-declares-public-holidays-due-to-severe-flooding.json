@@ -1,0 +1,69 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-3.webp",
+    "alt": "Illustration: terraced hillside fields in soft morning mist",
+    "credit": "AI illustration"
+  },
+  "slug": "thai-government-declares-public-holidays-due-to-severe-flooding",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Thai government declares public holidays due to severe flooding",
+  "excerpt": "Special holidays are set for September 28 and 29 in four provinces as heavy rainfall causes widespread flooding.",
+  "bodyHtml": "<p>The Thai government has declared special public holidays on 28 and 29 September in Bangkok, Nonthaburi, Pathum Thani and Samut Prakan. This decision follows reports of severe flooding affecting parts of Thailand after heavy rainfall in these provinces.</p>\n<p>According to the UK government, all 50 districts of Bangkok have been declared disaster-affected areas. The flooding has created the potential for travel disruption, including road closures and the inundation of low-lying areas across the region.</p>\n<p>Many government offices and services in the affected provinces may be closed or operating with reduced capacity during this period. The UK government advises that individuals in the area should follow the guidance of local authorities if they plan to travel.</p>\n<p>The government has designated September 28 and 29 as the dates for these special public holidays.</p>",
+  "publishedAt": "2026-09-28T06:02:00Z",
+  "updatedAt": "2026-09-28T06:02:00Z",
+  "wordCount": 131,
+  "readingTimeMin": 1,
+  "topic": "Thailand travel advice",
+  "tags": [
+    "Thailand",
+    "flooding"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/foreign-travel-advice/thailand"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Thai government declares public holidays due to severe flooding",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Special holidays are set for September 28 and 29 in four provinces as heavy rainfall causes widespread flooding.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Thai government has declared special public holidays on 28 and 29 September in Bangkok, Nonthaburi, Pathum Thani and Samut Prakan.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "This decision follows reports of severe flooding affecting parts of Thailand after heavy rainfall in these provinces.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "According to the UK government, all 50 districts of Bangkok have been declared disaster-affected areas.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The flooding has created the potential for travel disruption, including road closures and the inundation of low-lying areas across the region.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Many government offices and services in the affected provinces may be closed or operating with reduced capacity during this period.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government advises that individuals in the area should follow the guidance of local authorities if they plan to travel.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government has designated September 28 and 29 as the dates for these special public holidays.",
+      "source": "The UK government"
+    }
+  ]
+}

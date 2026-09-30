@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "us-sanctions-21-individuals-and-25-entities-tied-to-sinaloa-cartel",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "US sanctions 21 individuals and 25 entities tied to Sinaloa Cartel",
+  "excerpt": "The designations target network members and officials in Baja California accused of facilitating cartel operations.",
+  "bodyHtml": "<p>The United States State Department announced on September 29, 2026, that it is sanctioning 21 individuals and 25 entities linked to the Sinaloa Cartel. The action targets cartel leader Ismael Zambada Sicairos, known as Mayito Flaco, alongside various cell leaders, financial facilitators, and Mexican officials.</p>\n<p>The State Department stated that these designations address the influence of the cartel within Mexican governance, specifically in Baja California. The department alleged that certain political operators and public security officials accepted bribes to protect cartel activities from law enforcement.</p>\n<p>The Department of State’s Narcotics Rewards Program is offering up to $5 million each for information leading to the arrest or conviction of Tijuana plaza bosses Alfonso Arzate Garcia and Rene Arzate Garcia, and up to $5 million for information regarding Mexicali cartel leader Juan Jose Ponce Felix.</p>",
+  "publishedAt": "2026-09-30T02:03:02Z",
+  "updatedAt": "2026-09-30T02:03:02Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "Sanctioning Sinaloa Cartel Leaders and Corrupt Enablers in Baja California",
+  "tags": [
+    "Sinaloa Cartel",
+    "US State Department",
+    "Baja California",
+    "sanctions"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/sanctioning-sinaloa-cartel-leaders-and-corrupt-enablers-in-baja-california/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US is sanctioning 21 individuals and 25 entities tied to the Sinaloa Cartel.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The designations target network members and officials in Baja California accused of facilitating cartel operations.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The United States State Department announced the sanctions on September 29, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The action targets cartel leader Ismael Zambada Sicairos, known as Mayito Flaco.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The action targets various cell leaders, financial facilitators, and Mexican officials.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The State Department stated that these designations address the influence of the cartel within Mexican governance, specifically in Baja California.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The department alleged that certain political operators and public security officials accepted bribes to protect cartel activities from law enforcement.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State’s Narcotics Rewards Program is offering up to $5 million each for information leading to the arrest or conviction of Tijuana plaza bosses Alfonso Arzate Garcia and Rene Arzate Garcia.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State’s Narcotics Rewards Program is offering up to $5 million for information regarding Mexicali cartel leader Juan Jose Ponce Felix.",
+      "source": "The US State Department"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-led-study-maps-1-943-subglacial-valleys-beneath-greenland",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA-led study maps 1,943 subglacial valleys beneath Greenland",
+  "excerpt": "Researchers used a new mapping method to identify hidden bedrock features beneath the Greenland Ice Sheet.",
+  "bodyHtml": "<p>A NASA-led paper published in Geophysical Research Letters details a new method for mapping the bedrock beneath the Greenland Ice Sheet. Using a technique called Ice Flow Perturbation Analysis, researchers identified 1,943 subglacial valleys, with about one-third of these features being newly discovered.</p>\n<p>The mapping method relies on satellite data to observe how ice flow creates subtle bumps and dips on the surface of the ice sheet. These signatures allow scientists to infer the shape of the landscape buried beneath the ice, which measures more than 3 kilometers at its thickest point. The study indicates that many valleys extend further inland than previously mapped, with some features in the west-central region showing a consistent southwest-northeast alignment.</p>\n<p>The research team documented these findings in the study titled A Vast Valley Network Beneath the Greenland Ice Sheet, published in volume 53, issue 13 of the journal.</p>",
+  "publishedAt": "2026-09-28T06:01:29Z",
+  "updatedAt": "2026-09-28T06:01:29Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "Uncovering the Valleys Hidden Below Greenland’s Ice",
+  "tags": [
+    "NASA",
+    "Greenland",
+    "Geophysical Research Letters"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/uncovering-the-valleys-hidden-below-greenlands-ice/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "A NASA-led study mapped 1,943 subglacial valleys beneath Greenland.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Researchers used a new mapping method to identify hidden bedrock features beneath the Greenland Ice Sheet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "A NASA-led paper published in Geophysical Research Letters details a new method for mapping the bedrock beneath the Greenland Ice Sheet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mapping technique is called Ice Flow Perturbation Analysis.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Researchers identified 1,943 subglacial valleys using the Ice Flow Perturbation Analysis technique.",
+      "source": "NASA"
+    },
+    {
+      "claim": "About one-third of the identified subglacial valleys are newly discovered.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mapping method relies on satellite data to observe how ice flow creates subtle bumps and dips on the surface of the ice sheet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Greenland Ice Sheet measures more than 3 kilometers at its thickest point.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The study indicates that many valleys extend further inland than previously mapped.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Some features in the west-central region show a consistent southwest-northeast alignment.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The study is titled 'A Vast Valley Network Beneath the Greenland Ice Sheet'.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The study was published in volume 53, issue 13 of the journal.",
+      "source": "NASA"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-features-image-of-perseid-meteor-over-canary-islands-observatory",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA features image of Perseid meteor over Canary Islands observatory",
+  "excerpt": "A photograph captures a meteor trail near the Large-Sized Telescope at the Observatorio del Roque de los Muchachos.",
+  "bodyHtml": "<p>NASA published an image on September 26, 2026, showing a Perseid meteor streaking through the sky over the Observatorio del Roque de los Muchachos in La Palma, Canary Islands. The photograph, taken on August 15, depicts the meteor trail alongside the Milky Way.</p>\n<p>The foreground of the image features the 23 meter diameter mirror of the prototype Large-Sized Telescope, or LST-1. According to NASA, individual mirror segments of the telescope reflected the atmospheric flash of the meteor during the event.</p>\n<p>LST-1 is the first telescope constructed at the northern hemisphere site of the Cherenkov Telescope Array Observatory. The telescope is designed to detect atmospheric visible light flashes, which last about a billionth of a second and are triggered by energetic gamma-rays from cosmic sources such as distant active galaxies and gamma-ray bursts.</p>",
+  "publishedAt": "2026-09-27T16:02:32Z",
+  "updatedAt": "2026-09-27T16:02:32Z",
+  "wordCount": 132,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+  "tags": [
+    "NASA",
+    "LST-1",
+    "Perseid meteor",
+    "Cherenkov Telescope Array Observatory"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA featured an image of a Perseid meteor over a Canary Islands observatory.",
+      "source": "NASA"
+    },
+    {
+      "claim": "A photograph captures a meteor trail near the Large-Sized Telescope at the Observatorio del Roque de los Muchachos.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA published the image on September 26, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image shows a Perseid meteor streaking through the sky over the Observatorio del Roque de los Muchachos in La Palma, Canary Islands.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph was taken on August 15.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph depicts the meteor trail alongside the Milky Way.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The foreground of the image features the 23 meter diameter mirror of the prototype Large-Sized Telescope, or LST-1.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, individual mirror segments of the telescope reflected the atmospheric flash of the meteor during the event.",
+      "source": "NASA"
+    },
+    {
+      "claim": "LST-1 is the first telescope constructed at the northern hemisphere site of the Cherenkov Telescope Array Observatory.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The telescope is designed to detect atmospheric visible light flashes.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The visible light flashes last about a billionth of a second.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flashes are triggered by energetic gamma-rays from cosmic sources such as distant active galaxies and gamma-ray bursts.",
+      "source": "NASA"
+    }
+  ]
+}

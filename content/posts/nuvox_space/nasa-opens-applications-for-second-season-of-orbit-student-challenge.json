@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-3.webp",
+    "alt": "Illustration: rocket engine nozzle close-up in a test facility",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-opens-applications-for-second-season-of-orbit-student-challenge",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA opens applications for second season of ORBIT student challenge",
+  "excerpt": "University and college student teams can register for the 2026-2027 challenge through Nov. 16, 2026.",
+  "bodyHtml": "<p>NASA announced that registration for the second season of the ORBIT student challenge is open through Monday, Nov. 16, 2026, through the NASA STEM Gateway. The competition brings university and college student innovation to the forefront of Earth technology development and deep-space exploration.</p>\n<p>Expanded for its second season with up to $500,000 in total prize funding, NASA&#x27;s ORBIT invites student teams to explore their boldest ideas and invent their brightest solutions. Through the competition, students must conduct targeted research, conceptualize early models, and perform feasibility analyses to refine their proposals.</p>\n<p>ORBIT has two challenge tracks for teams to choose from. Participants in the ORBIT Earth track must select a NASA-owned patent and develop novel commercial or nonprofit applications addressing critical terrestrial problems. The ORBIT Space track focuses on next-generation space exploration technology designed to support NASA&#x27;s Artemis program and future initiatives to establish a sustainable human presence on the Moon, Mars, and beyond.</p>\n<p>Registration is open until Nov.16, 2026, through the NASA STEM Gateway.</p>",
+  "publishedAt": "2026-09-29T16:06:44Z",
+  "updatedAt": "2026-09-29T16:06:44Z",
+  "wordCount": 164,
+  "readingTimeMin": 1,
+  "topic": "NASA Opens Applications for Second Season of ORBIT Student Challenge",
+  "tags": [
+    "NASA",
+    "ORBIT",
+    "Artemis program"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/learning-resources/research-program-for-students/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA is opening applications for the second season of the ORBIT student challenge.",
+      "source": "NASA"
+    },
+    {
+      "claim": "University and college student teams can register for the 2026-2027 challenge through Nov. 16, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Registration for the challenge is conducted through the NASA STEM Gateway.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The competition brings university and college student innovation to the forefront of Earth technology development and deep-space exploration.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The challenge has been expanded for its second season with up to $500,000 in total prize funding.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA's ORBIT invites student teams to explore their boldest ideas and invent their brightest solutions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Students must conduct targeted research, conceptualize early models, and perform feasibility analyses to refine their proposals.",
+      "source": "NASA"
+    },
+    {
+      "claim": "ORBIT has two challenge tracks for teams to choose from.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Participants in the ORBIT Earth track must select a NASA-owned patent and develop novel commercial or nonprofit applications addressing critical terrestrial problems.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The ORBIT Space track focuses on next-generation space exploration technology designed to support NASA's Artemis program and future initiatives to establish a sustainable human presence on the Moon, Mars, and beyond.",
+      "source": "NASA"
+    }
+  ]
+}

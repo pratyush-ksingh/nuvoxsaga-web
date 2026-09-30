@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-votes-in-favour-of-un-security-council-resolution-on-haiti",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "UK votes in favour of UN Security Council resolution on Haiti",
+  "excerpt": "The United Kingdom has contributed $7.5 million to the human rights compliance mechanism for the Gang Suppression Force.",
+  "bodyHtml": "<p>The United Kingdom voted in favour of a UN Security Council resolution regarding the Gang Suppression Force in Haiti on 29 September 2026. Jennifer MacNaughtan, UK Minister Counsellor, delivered the explanation of the vote following the council&#x27;s decision.</p>\n<p>The United Kingdom has contributed $7.5 million to the human rights compliance mechanism for the mission. The government stated that the success of the Gang Suppression Force is key to addressing instability in the country.</p>\n<p>The United Kingdom government stated that the Gang Suppression Force must be able to fully deploy to turn the tide against gangs. The government also stated that humanitarian and medical workers must be protected and allowed to operate safely without obstruction.</p>\n<p>The United Kingdom government stated that it hopes the Gang Suppression Force can bring about the security and stability that the Haitian people deserve. The government noted that this mission is intended to pave the way to credible elections, allowing Haitians to choose their next leaders.</p>",
+  "publishedAt": "2026-09-29T16:08:36Z",
+  "updatedAt": "2026-09-29T16:08:36Z",
+  "wordCount": 160,
+  "readingTimeMin": 1,
+  "topic": "We hope the Gang Suppression Force can bring about the security and stability that the Haitian people deserve: UK Explanation of Vote at the UN Security Council",
+  "tags": [
+    "Haiti",
+    "United Kingdom",
+    "UN Security Council",
+    "Gang Suppression Force"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/speeches/we-hope-the-gang-suppression-force-can-bring-about-the-security-and-stability-that-the-haitian-people-deserve-uk-explanation-of-vote-at-the-un-securit"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "UK votes in favour of UN Security Council resolution on Haiti",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom has contributed $7.5 million to the human rights compliance mechanism for the Gang Suppression Force.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom voted in favour of a UN Security Council resolution regarding the Gang Suppression Force in Haiti on 29 September 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Jennifer MacNaughtan, UK Minister Counsellor, delivered the explanation of the vote following the council's decision.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom has contributed $7.5 million to the human rights compliance mechanism for the mission.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government stated that the success of the Gang Suppression Force is key to addressing instability in the country.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom government stated that the Gang Suppression Force must be able to fully deploy to turn the tide against gangs.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government also stated that humanitarian and medical workers must be protected and allowed to operate safely without obstruction.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom government stated that it hopes the Gang Suppression Force can bring about the security and stability that the Haitian people deserve.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government noted that this mission is intended to pave the way to credible elections, allowing Haitians to choose their next leaders.",
+      "source": "The UK government"
+    }
+  ]
+}

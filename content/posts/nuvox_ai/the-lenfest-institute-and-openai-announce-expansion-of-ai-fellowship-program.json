@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "the-lenfest-institute-and-openai-announce-expansion-of-ai-fellowship-program",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "The Lenfest Institute and OpenAI announce expansion of AI fellowship program",
+  "excerpt": "OpenAI will provide $5 million in funding and $5 million in software credits to support the next phase of the journalism fellowship.",
+  "bodyHtml": "<p>The Lenfest Institute for Journalism and OpenAI announced on September 28, 2026, the expansion of the Lenfest AI Collaborative and Fellowship Program. This initiative embeds AI technologists into news organizations to assist with business innovation and the adoption of emerging technology.</p>\n<p>OpenAI will contribute $5 million in funding along with up to $5 million in software credits and engineering support for the program. This commitment represents a doubling of the previous support provided by OpenAI for the fellowship.</p>\n<p>The Lenfest Institute plans to invite a new cohort of news organizations to participate in the next phase of the fellowship. The organization also intends to expand its technical capabilities to turn fellowship projects into reusable tools, frameworks, and implementation guides for the broader news field.</p>\n<p>The program will continue to embed AI fellows within participating news organizations. The Lenfest Institute will provide implementation support to make cross-newsroom learning easier to sustain and scale, with the next phase of the program beginning following the September 28, 2026 announcement.</p>",
+  "publishedAt": "2026-09-29T02:02:56Z",
+  "updatedAt": "2026-09-29T02:02:56Z",
+  "wordCount": 166,
+  "readingTimeMin": 1,
+  "topic": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+  "tags": [
+    "Lenfest Institute",
+    "OpenAI",
+    "journalism"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The Lenfest Institute and OpenAI announce expansion of AI fellowship program",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI will provide $5 million in funding and $5 million in software credits to support the next phase of the journalism fellowship.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The Lenfest Institute for Journalism and OpenAI announced on September 28, 2026, the expansion of the Lenfest AI Collaborative and Fellowship Program.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "This initiative embeds AI technologists into news organizations to assist with business innovation and the adoption of emerging technology.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI will contribute $5 million in funding along with up to $5 million in software credits and engineering support for the program.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "This commitment represents a doubling of the previous support provided by OpenAI for the fellowship.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The Lenfest Institute plans to invite a new cohort of news organizations to participate in the next phase of the fellowship.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The organization also intends to expand its technical capabilities to turn fellowship projects into reusable tools, frameworks, and implementation guides for the broader news field.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The program will continue to embed AI fellows within participating news organizations.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The Lenfest Institute will provide implementation support to make cross-newsroom learning easier to sustain and scale",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "the next phase of the program beginning following the September 28, 2026 announcement.",
+      "source": "OpenAI"
+    }
+  ]
+}

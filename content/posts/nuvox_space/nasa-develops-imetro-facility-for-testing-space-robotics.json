@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-2.webp",
+    "alt": "Illustration: rows of small satellites in a factory under white light",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-develops-imetro-facility-for-testing-space-robotics",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA develops iMETRO facility for testing space robotics",
+  "excerpt": "The new facility at Johnson Space Center allows partners to test robotic hardware and software for lunar and space exploration tasks.",
+  "bodyHtml": "<p>NASA announced the development of the Integrated Mobile Evaluation Testbed for Robotics Operations (iMETRO) facility at the Johnson Space Center. The facility provides digital and physical testing environments for robotic hardware and software intended for human-supervised space exploration.</p>\n<p>The iMETRO facility includes open-source software, simulation assets, habitat mockups, and an outdoor rock yard. It is available to NASA programs and external partners to support the adaptation of terrestrial robotic technologies for space applications such as logistics, maintenance, and scientific research.</p>\n<p>According to NASA, the facility has been used by external partners such as PickNik Inc. to test robotic arm software for tasks including hatch operation and cargo transfer. The team is currently emphasizing technologies that can support a sustained human presence on the lunar surface, with potential applications for future missions to Mars.</p>",
+  "publishedAt": "2026-09-28T12:04:07Z",
+  "updatedAt": "2026-09-28T12:04:07Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+  "tags": [
+    "NASA",
+    "Johnson Space Center",
+    "robotics",
+    "iMETRO"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA develops iMETRO facility for testing space robotics",
+      "source": "NASA"
+    },
+    {
+      "claim": "The new facility at Johnson Space Center allows partners to test robotic hardware and software for lunar and space exploration tasks.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the development of the Integrated Mobile Evaluation Testbed for Robotics Operations (iMETRO) facility at the Johnson Space Center.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The facility provides digital and physical testing environments for robotic hardware and software intended for human-supervised space exploration.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The iMETRO facility includes open-source software, simulation assets, habitat mockups, and an outdoor rock yard.",
+      "source": "NASA"
+    },
+    {
+      "claim": "It is available to NASA programs and external partners to support the adaptation of terrestrial robotic technologies for space applications such as logistics, maintenance, and scientific research.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, the facility has been used by external partners such as PickNik Inc. to test robotic arm software for tasks including hatch operation and cargo transfer.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The team is currently emphasizing technologies that can support a sustained human presence on the lunar surface, with potential applications for future missions to Mars.",
+      "source": "NASA"
+    }
+  ]
+}

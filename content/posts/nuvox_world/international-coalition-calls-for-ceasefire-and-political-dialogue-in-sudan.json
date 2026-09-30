@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-3.webp",
+    "alt": "Illustration: aerial view of a port city by a turquoise sea, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "international-coalition-calls-for-ceasefire-and-political-dialogue-in-sudan",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "International coalition calls for ceasefire and political dialogue in Sudan",
+  "excerpt": "Representatives from the African Union, EU, and several nations met at UNGA to address the humanitarian crisis in Sudan.",
+  "bodyHtml": "<p>The African Union, the European Union, France, Germany, the United Kingdom, and the United States convened at UNGA to coordinate efforts regarding the humanitarian crisis in Sudan. The coalition urged warring parties to resume negotiations to achieve a permanent ceasefire.</p>\n<p>The group condemned the military involvement of foreign state and non-state actors in the conflict and called for compliance with United Nations Security Council Resolutions 1556 (2004) and 1591 (2005). The coalition also stated its support for reinforcing the sanctions regime applied to Sudan.</p>\n<p>According to the coalition, over two thirds of the Sudanese population, totaling 33 million people, are in need of assistance. The group also reported that 20 million persons are currently facing acute food insecurity.</p>",
+  "publishedAt": "2026-09-30T12:04:04Z",
+  "updatedAt": "2026-09-30T12:04:04Z",
+  "wordCount": 118,
+  "readingTimeMin": 1,
+  "topic": "Co-chairs' statement: Ministerial Meeting on Coordinating Efforts for De-Escalation and Supporting Inter-Sudanese Dialogue",
+  "tags": [
+    "Sudan",
+    "UNGA",
+    "humanitarian aid"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/co-chairs-statement-ministerial-meeting-on-coordinating-efforts-for-de-escalation-and-supporting-inter-sudanese-dialogue"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "International coalition calls for ceasefire and political dialogue in Sudan",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Representatives from the African Union, EU, and several nations met at UNGA to address the humanitarian crisis in Sudan.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The African Union, the European Union, France, Germany, the United Kingdom, and the United States convened at UNGA to coordinate efforts regarding the humanitarian crisis in Sudan.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The coalition urged warring parties to resume negotiations to achieve a permanent ceasefire.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The group condemned the military involvement of foreign state and non-state actors in the conflict",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The group called for compliance with United Nations Security Council Resolutions 1556 (2004) and 1591 (2005).",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The coalition also stated its support for reinforcing the sanctions regime applied to Sudan.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Over two thirds of the Sudanese population, totaling 33 million people, are in need of assistance.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "20 million persons are currently facing acute food insecurity.",
+      "source": "The UK government"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/space-launch-1.webp",
+    "alt": "Illustration: unbranded rocket on a launch pad at night lit by floodlights",
+    "credit": "AI illustration"
+  },
+  "slug": "spacex-falcon-9-rocket-arrives-at-launch-pad-for-crew-13-mission",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "launch",
+  "title": "SpaceX Falcon 9 rocket arrives at launch pad for Crew-13 mission",
+  "excerpt": "The rocket and Dragon spacecraft are positioned at Cape Canaveral Space Force Station ahead of a scheduled October 1 liftoff.",
+  "bodyHtml": "<p>NASA announced that a SpaceX Falcon 9 rocket and Dragon spacecraft arrived at Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida on September 27, 2026. Teams raised the vehicle to a vertical position to prepare for the upcoming Crew-13 mission.</p>\n<p>The mission will carry NASA astronauts Jessica Watkins and Luke Delaney, Canadian Space Agency astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov to the International Space Station. The crew members will conduct research aboard the orbiting laboratory.</p>\n<p>At the launch pad, rocket and ground systems engineering teams conducted an integrated static fire of the Falcon 9 rocket. This procedure was followed by detailed data reviews conducted by operations teams.</p>\n<p>The launch of the Crew-13 mission is scheduled for no earlier than 11:10 a.m. EDT Thursday, Oct. 1.</p>",
+  "publishedAt": "2026-09-29T16:08:12Z",
+  "updatedAt": "2026-09-29T16:08:12Z",
+  "wordCount": 131,
+  "readingTimeMin": 1,
+  "topic": "NASA’s SpaceX Crew-13 Rocket Arrives at Launch Pad",
+  "tags": [
+    "NASA",
+    "SpaceX",
+    "Crew-13",
+    "International Space Station"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/blogs/commercialcrew/2026/09/28/nasas-spacex-crew-13-rocket-arrives-at-launch-pad/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "SpaceX Falcon 9 rocket arrives at launch pad for Crew-13 mission",
+      "source": "NASA"
+    },
+    {
+      "claim": "The rocket and Dragon spacecraft are positioned at Cape Canaveral Space Force Station ahead of a scheduled October 1 liftoff.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that a SpaceX Falcon 9 rocket and Dragon spacecraft arrived at Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida on September 27, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Teams raised the vehicle to a vertical position to prepare for the upcoming Crew-13 mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will carry NASA astronauts Jessica Watkins and Luke Delaney, Canadian Space Agency astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov to the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crew members will conduct research aboard the orbiting laboratory.",
+      "source": "NASA"
+    },
+    {
+      "claim": "At the launch pad, rocket and ground systems engineering teams conducted an integrated static fire of the Falcon 9 rocket.",
+      "source": "NASA"
+    },
+    {
+      "claim": "This procedure was followed by detailed data reviews conducted by operations teams.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The launch of the Crew-13 mission is scheduled for no earlier than 11:10 a.m. EDT Thursday, Oct. 1.",
+      "source": "NASA"
+    }
+  ]
+}

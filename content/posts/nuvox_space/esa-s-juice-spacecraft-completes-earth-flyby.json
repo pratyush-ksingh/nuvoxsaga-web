@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-s-juice-spacecraft-completes-earth-flyby",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "ESA's Juice spacecraft completes Earth flyby",
+  "excerpt": "The Jupiter Icy Moons Explorer used Earth's gravity to increase its velocity by 3.5 km/s.",
+  "bodyHtml": "<p>The European Space Agency reported that its Jupiter Icy Moons Explorer, known as Juice, performed a gravity assist flyby of Earth on 28 September. The spacecraft passed 8640 km above the Indian Ocean at 13:45 CEST, utilizing the planet&#x27;s gravity to adjust its trajectory toward Jupiter.</p>\n<p>According to the European Space Agency, the maneuver deflected the spacecraft by an angle of 20° and increased its velocity by 3.5 km/s. The flyby also allowed for the calibration of the spacecraft&#x27;s 10 science instruments while it traveled through Earth&#x27;s magnetotail.</p>\n<p>Juice is scheduled to return for a third flyby of Earth in January 2029 to set its final course for a 2031 arrival at Jupiter.</p>",
+  "publishedAt": "2026-09-29T02:04:02Z",
+  "updatedAt": "2026-09-29T02:04:02Z",
+  "wordCount": 113,
+  "readingTimeMin": 1,
+  "topic": "Successful Earth flyby improves Juice’s course to Jupiter",
+  "tags": [
+    "ESA",
+    "Juice",
+    "Jupiter",
+    "Earth"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA's Juice spacecraft completes Earth flyby",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Jupiter Icy Moons Explorer used Earth's gravity to increase its velocity by 3.5 km/s.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency reported that its Jupiter Icy Moons Explorer, known as Juice, performed a gravity assist flyby of Earth on 28 September.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft passed 8640 km above the Indian Ocean at 13:45 CEST",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "utilizing the planet's gravity to adjust its trajectory toward Jupiter.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "the maneuver deflected the spacecraft by an angle of 20°",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The flyby also allowed for the calibration of the spacecraft's 10 science instruments while it traveled through Earth's magnetotail.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Juice is scheduled to return for a third flyby of Earth in January 2029 to set its final course for a 2031 arrival at Jupiter.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-new-hubble-space-telescope-image-of-galaxy-ngc-4698",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases new Hubble Space Telescope image of galaxy NGC 4698",
+  "excerpt": "The image reveals that the spiral galaxy's arms are located only in the outer reaches of its disk.",
+  "bodyHtml": "<p>NASA released a new image of the spiral galaxy NGC 4698 on Sept. 18, 2026, captured by the Hubble Space Telescope. The galaxy is described as a spiral galaxy similar to the Milky Way.</p>\n<p>According to NASA, the galaxy contains a thin disk composed of stars, gas, and dust. The spiral arms within this disk are marked by opaque clumps of brown dust and are dotted with small collections of bright blue stars.</p>\n<p>Unlike many other spiral galaxies, the spiral arms of NGC 4698 do not wind down to the center of the galaxy. Instead, the arms appear to shy away from the glowing center and hover in a ring-like structure around the perimeter of the galaxy.</p>",
+  "publishedAt": "2026-09-27T06:01:28Z",
+  "updatedAt": "2026-09-27T06:01:28Z",
+  "wordCount": 117,
+  "readingTimeMin": 1,
+  "topic": "Hubble Spots Chaotic Secret in Galaxy",
+  "tags": [
+    "NASA",
+    "Hubble Space Telescope",
+    "NGC 4698"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA releases new Hubble Space Telescope image of galaxy NGC 4698",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image reveals that the spiral galaxy's arms are located only in the outer reaches of its disk.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA released a new image of the spiral galaxy NGC 4698 on Sept. 18, 2026, captured by the Hubble Space Telescope.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The galaxy is described as a spiral galaxy similar to the Milky Way.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, the galaxy contains a thin disk composed of stars, gas, and dust.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spiral arms within this disk are marked by opaque clumps of brown dust and are dotted with small collections of bright blue stars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Unlike many other spiral galaxies, the spiral arms of NGC 4698 do not wind down to the center of the galaxy.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Instead, the arms appear to shy away from the glowing center and hover in a ring-like structure around the perimeter of the galaxy.",
+      "source": "NASA"
+    }
+  ]
+}
