@@ -17,7 +17,7 @@ import { fetchAllPostsForBrand, fetchPost, loadAllPosts, storyPath, topicSlug, t
 import { generateAllSchemas } from '@/lib/seo';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { YouTubeEmbed } from '@/components/blog/YouTubeEmbed';
-import { SecondaryStory, StoryImage } from '@/components/news/StoryCards';
+import { FormatLabel, SecondaryStory, StoryImage, sourceCount } from '@/components/news/StoryCards';
 import { JsonLd } from '@/components/JsonLd';
 import { og, OG_CARD } from '@/lib/og';
 
@@ -123,6 +123,7 @@ export default async function StoryPage({ params }: Props) {
     imageUrl: post.image ? `${SITE_URL}${post.image.src}` : undefined,
     wordCount: post.wordCount,
     tier: 'news',
+    format: post.kind,
     faqPairs: post.faqPairs,
     videoId: post.sourceVideoId,
   });
@@ -148,14 +149,24 @@ export default async function StoryPage({ params }: Props) {
                 </Link>
               </>
             )}
-            {isBrief && (
-              <span className="ml-1 rounded-full border border-hairline px-2 py-0.5 text-xs text-ink-3">In brief</span>
-            )}
+            <span className="ml-1">
+              <FormatLabel post={post} />
+            </span>
           </nav>
           <h1 className={`display mt-5 ${isBrief ? 'text-[clamp(2rem,4vw,3rem)]' : 'text-[clamp(2.25rem,5vw,3.75rem)]'}`}>
             {post.title}
           </h1>
           {post.excerpt && <p className="deck mt-5 text-[1.4rem] leading-snug text-ink-2">{post.excerpt}</p>}
+          {/* The format, defined in one line: labels alone are missed by about half of readers. */}
+          <p className="mt-4 text-sm text-ink-3">
+            <span className="font-medium text-ink-2">{isBrief ? 'Brief.' : 'Feature.'}</span>{' '}
+            {isBrief
+              ? `A short, checked summary of one primary source${post.source ? `: ${post.source.name}` : ''}.`
+              : (() => {
+                  const n = sourceCount(post);
+                  return `Researched from ${n > 0 ? `${n} ${n === 1 ? 'source' : 'sources'}` : 'several sources'}, with context, every claim checked.`;
+                })()}
+          </p>
           <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-1.5 border-y border-hairline py-4 text-sm text-ink-3">
             <span className="text-ink-2">By the Nuvoxsaga {desk.name} desk</span>
             {post.publishedAt && <time dateTime={post.publishedAt}>{stampFmt.format(new Date(post.publishedAt))}</time>}
@@ -300,7 +311,7 @@ function StoryRail({ post, deskName, deskHref }: { post: PublicPost; deskName: s
           </a>
         )}
         <p className="data text-ink-3">
-          {post.kind === 'brief' ? 'In brief' : 'Feature'}
+          {post.kind === 'brief' ? 'Brief' : 'Feature'}
           {post.readingTimeMin ? ` · ${post.readingTimeMin} min read` : ''}
         </p>
         <div>
@@ -329,7 +340,7 @@ function CheckedBox({ post }: { post: PublicPost }) {
     return (
       <section aria-labelledby="source-title" className="mx-auto mt-14 max-w-[46rem] rounded-2xl border border-hairline bg-surface p-6 md:p-8">
         <h2 id="source-title" className="text-xl font-bold tracking-[-0.015em]">
-          Source
+          Here&apos;s how we know
         </h2>
         <p className="mt-3">
           <a href={post.source.url} target="_blank" rel="noopener noreferrer" className="link-arrow">
@@ -349,7 +360,7 @@ function CheckedBox({ post }: { post: PublicPost }) {
   return (
     <section aria-labelledby="checked-title" className="mx-auto mt-14 max-w-[46rem] rounded-2xl border border-hairline bg-surface p-6 md:p-8">
       <h2 id="checked-title" className="text-xl font-bold tracking-[-0.015em]">
-        How this story was checked
+        Here&apos;s how we know
       </h2>
       <p className="mt-2 text-ink-2">
         Before publication, an independent search-based check confirmed every factual claim below.

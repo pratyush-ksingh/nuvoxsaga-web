@@ -114,7 +114,7 @@ export function Rail({
       {features.length > 0 && (
         <section aria-labelledby="features-title">
           <h2 id="features-title" className="border-b border-hairline pb-3 text-lg font-bold">
-            Features and explainers
+            Features
           </h2>
           <HeadlineList posts={features} numbered />
         </section>

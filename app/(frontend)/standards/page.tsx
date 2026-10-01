@@ -27,7 +27,7 @@ const SECTIONS: { title: string; body: string[] }[] = [
     ],
   },
   {
-    title: 'Features and explainers',
+    title: 'Features',
     body: [
       'Features are researched with live web search, never from what a model remembers. An independent search-based check then has to confirm every factual claim, including the headline. A story that cannot be confirmed after one revision is dropped.',
       'Each feature lists its sources and the claims that were checked.',

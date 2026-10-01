@@ -26,6 +26,8 @@ import type {
   FAQPage,
   HowTo,
   NewsArticle,
+  ReportageNewsArticle,
+  BackgroundNewsArticle,
   Organization,
   TechArticle,
   VideoObject,
@@ -111,11 +113,15 @@ export function articleSchema(args: {
   imageUrl?: string;
   wordCount?: number;
   tier?: 'evergreen' | 'news' | 'companion';
-}): WithContext<TechArticle | NewsArticle | BlogPosting | Article> {
+  /** News format: a brief reports one source (ReportageNewsArticle), a feature gives
+   *  researched context (BackgroundNewsArticle). Both are NewsArticle subtypes. */
+  format?: 'brief' | 'feature';
+}): WithContext<TechArticle | NewsArticle | ReportageNewsArticle | BackgroundNewsArticle | BlogPosting | Article> {
   const brand = BRAND_BY_ID[args.brandId];
   const url = `${SITE_URL}/${brand.slug}/news/${args.slug}`;
-  const t =
-    args.tier === 'evergreen' ? 'TechArticle' : args.tier === 'news' ? 'NewsArticle' : 'BlogPosting';
+  const news =
+    args.format === 'brief' ? 'ReportageNewsArticle' : args.format === 'feature' ? 'BackgroundNewsArticle' : 'NewsArticle';
+  const t = args.tier === 'evergreen' ? 'TechArticle' : args.tier === 'news' ? news : 'BlogPosting';
 
   return {
     '@context': 'https://schema.org',
@@ -209,6 +215,7 @@ export function generateAllSchemas(args: {
   imageUrl?: string;
   wordCount?: number;
   tier?: 'evergreen' | 'news' | 'companion';
+  format?: 'brief' | 'feature';
   faqPairs?: ReadonlyArray<{ question: string; answer: string }>;
   videoId?: string;
 }): unknown[] {

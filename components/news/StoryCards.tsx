@@ -4,7 +4,9 @@
  *   SecondaryStory  16:9 image, kicker, headline ("More from <desk>" on a story page)
  *   River           the "Latest" list: time, kicker, headline, deck, optional thumbnail
  *   HeadlineList    compact numbered headlines (desk blocks, sidebars)
- * The kicker is "Desk · Section" in the desk accent; briefs add an "In brief" label.
+ * The kicker is "Desk · Section" in the desk accent plus the format label ("Brief" or
+ * "Feature", same style for both: DESIGN.md §6, Formats). formatLine() gives the length and
+ * source cue that goes with it: "1 min · Source: NASA" or "6 min · 6 sources".
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -14,6 +16,9 @@ import { BRAND_CONTENT } from '@/lib/brand-content';
 import { DESKS, findSection } from '@/lib/desks';
 import { storyPath, type PublicPost } from '@/lib/content';
 import { Picture } from '@/components/Picture';
+import { formatLine, sourceCount } from '@/lib/formats';
+
+export { formatLine, sourceCount };
 import { TimeAgo } from '@/components/TimeAgo';
 
 /** The pipeline may write a 480px sibling (<name>-480.webp) for list thumbnails. */
@@ -82,10 +87,17 @@ export function Kicker({ post, showDesk = true }: { post: PublicPost; showDesk?:
           {section.name}
         </Link>
       )}
-      {post.kind === 'brief' && (
-        <span className="rounded-full border border-hairline px-2 py-0.5 text-xs text-ink-3">In brief</span>
-      )}
+      <FormatLabel post={post} />
     </p>
+  );
+}
+
+/** "Brief" or "Feature": one label style for both formats, so neither reads as the default. */
+export function FormatLabel({ post }: { post: PublicPost }) {
+  return (
+    <span className="rounded-full border border-hairline px-2 py-0.5 text-xs font-medium text-ink-2">
+      {post.kind === 'brief' ? 'Brief' : 'Feature'}
+    </span>
   );
 }
 
@@ -118,7 +130,8 @@ export function River({ posts, showDesk = true }: { posts: PublicPost[]; showDes
     <ol className="divide-y divide-hairline border-y border-hairline">
       {posts.map((p) => {
         const href = storyPath(p);
-        const thumb = p.image || p.kind === 'feature';
+        // Briefs are compact, text-led rows; features carry a picture (DESIGN.md §6, Formats).
+        const thumb = p.kind === 'feature';
         return (
           <li key={p.id}>
             <article className={`grid gap-4 py-6 ${thumb ? 'grid-cols-[1fr_6.5rem] md:grid-cols-[6rem_1fr_10rem]' : 'md:grid-cols-[6rem_1fr]'} md:gap-8`}>
@@ -133,7 +146,15 @@ export function River({ posts, showDesk = true }: { posts: PublicPost[]; showDes
                   </Link>
                 </h3>
                 {p.excerpt && <p className="mt-1.5 line-clamp-2 max-w-[62ch] text-ink-2">{p.excerpt}</p>}
-                {p.publishedAt && <TimeAgo iso={p.publishedAt} className="mt-2 block text-sm text-ink-3 md:hidden" />}
+                <p className="mt-2 text-sm text-ink-3">
+                  {p.publishedAt && (
+                    <>
+                      <TimeAgo iso={p.publishedAt} className="md:hidden" />
+                      <span aria-hidden="true" className="md:hidden"> · </span>
+                    </>
+                  )}
+                  {formatLine(p)}
+                </p>
               </div>
               {thumb && (
                 <Link href={href} tabIndex={-1} aria-hidden="true" className="block self-start overflow-hidden rounded-xl md:rounded-2xl">
