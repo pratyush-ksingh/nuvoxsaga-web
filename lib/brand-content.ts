@@ -22,7 +22,7 @@ export interface BrandContent {
 
 export const BRAND_CONTENT: Record<BrandId, BrandContent> = {
   nuvox_ai: {
-    tagline: 'What AI actually does, and who builds it.',
+    tagline: 'What AI can do, where it fails, and who builds it.',
     publicationLine: 'Explainers and news on artificial intelligence: new models, real capabilities, and where they fail.',
     tileCaption: 'Models, chips and the people shipping them.',
     image: 'brand-ai',

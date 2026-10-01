@@ -37,8 +37,8 @@ const SITE_SCHEMAS = [organizationSchema(), websiteSchema()];
 
 const PRINCIPLES = [
   {
-    title: 'Primary sources, not memory',
-    body: 'Briefs are written from one primary source, such as a space agency or a research lab, and features from live search. Never from what a model remembers.',
+    title: 'Straight from the source',
+    body: "Briefs are written from one primary source, such as a space agency or a research lab. Features are researched with live search. A model's memory is never used as a source.",
   },
   {
     title: 'An independent second check',

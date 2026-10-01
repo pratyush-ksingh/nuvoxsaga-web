@@ -14,19 +14,19 @@ export const metadata: Metadata = {
 const FACTS = [
   {
     title: 'What we cover',
-    body: 'Three desks under one roof: AI (models, research, chips and policy), Space (launches, missions and discoveries) and World (international news, with a close eye on Asia and India).',
+    body: 'The AI desk follows models, research, chips and policy. Space tracks launches, missions and discoveries. World handles international news, with a close eye on Asia and India.',
   },
   {
     title: 'How stories are made',
-    body: 'Stories are drafted by AI. News briefs are written from one primary source, such as a space agency, a research lab or a government, which is linked on every brief. Longer features are researched with live web search. We say so plainly because readers deserve to know how their news is made.',
+    body: 'AI drafts our stories. We say that up front, because you should know how your news gets made. A news brief starts from one primary source, such as a space agency, a research lab or a government, and every brief links to that source. Features run longer and are researched with live web search.',
   },
   {
     title: 'How we check them',
-    body: 'Before anything is published, every name, number and date is matched against the source, and a separate check has to confirm each claim, headline included. A story that fails is not published.',
+    body: 'Before anything is published, we match every name, number and date against the source, and a separate check then has to confirm each claim, the headline included. A story that fails stays unpublished.',
   },
   {
     title: 'When we get it wrong',
-    body: 'Checks reduce errors; they do not make them impossible. If you spot a mistake, email corrections@nuvoxsaga.com and we will correct the story and say what changed.',
+    body: "Checks cut errors down, though a mistake can still get through. If you spot one, email corrections@nuvoxsaga.com and we'll fix the story and say what changed.",
   },
 ];
 
