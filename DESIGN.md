@@ -73,6 +73,15 @@ review against Semafor, Quanta, Rest of World, The Pudding and NYT, SND47 winner
 Texture: a page-wide film grain (inline SVG noise at 7%, fixed, behind content) and
 dotted newspaper rules (`.rule-dot`) in the masthead.
 
+### Mark (2026-10-02)
+"N." : a bold Fraunces N in paper on an ink tile, with a full stop in the "checked" green
+(#3fb27f): a checked fact, full stop. Two optical cuts, rendered from the real font by
+scripts/brand/render-icons.mjs (+ make-ico.py): the display cut (opsz 144, weight 800) for
+128 px and up, the small cut (opsz 9, weight 900, larger letter and dot) for the 16-48 px
+favicon. Files: app/favicon.ico, app/icon.png, app/apple-icon.png, public/logos/nuvoxsaga.png
+(organization logo). Share cards (app/og) use the mark, the nameplate, the serif headline on
+paper and "News you can check." at the foot.
+
 ## 5. Shape
 One documented rule: media frames and tiles 16px; buttons, inputs and pills fully round.
 
