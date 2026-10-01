@@ -147,6 +147,11 @@ Depth (home only, no WebGL: the three.js stack was removed for page weight):
 - **Wire**: the headline ticker loops; hover or keyboard focus pauses it, and reduced
   motion turns it into a static, scrollable line.
 - Never animate `transform` on an element that also tilts: put reveals on a wrapper.
+- Entrances and reveals move but never fade from opacity 0 (audit 2026-10-01): an invisible
+  element is not counted as painted, so a fading hero delayed Largest Contentful Paint by
+  about 3 s on a throttled phone, and text caught mid-fade failed the contrast audit.
+- Phones skip the film grain and the header's backdrop blur; animated SVG parts drift as whole
+  <svg> layers (composited), never as elements inside an SVG (main thread every frame).
 
 ## 9. Imagery
 Photographic illustrations generated for the brand (Workers AI, FLUX.2 klein), stored as

@@ -159,6 +159,7 @@
     isolation: isolate;
   }
   .grain::after {
+    display: none;
     content: '';
     position: fixed;
     inset: 0;
@@ -352,8 +353,8 @@
     animation: unveil 1100ms var(--ease-out) both;
   }
   /* Orbit lines drift (the story points on them never move). */
+  /* Each orbit is its own <svg> layer (FrontierDial): rotating the box is composited. */
   .orbit {
-    transform-box: view-box;
     transform-origin: 50% 50%;
     animation: orbit 240s linear infinite;
   }
@@ -407,12 +408,10 @@
 
 @keyframes unveil {
   from {
-    opacity: 0;
     clip-path: inset(0 0 100% 0);
     transform: translateY(0.25em);
   }
   to {
-    opacity: 1;
     clip-path: inset(0 0 -10% 0);
     transform: none;
   }
@@ -424,13 +423,13 @@
   }
 }
 
+/* Movement only, never opacity: an element at opacity 0 is not counted as painted, so a fading
+   hero card held back Largest Contentful Paint by ~3 s on a throttled phone (audit 2026-10-01). */
 @keyframes stage-in {
   from {
-    opacity: 0;
-    transform: perspective(1200px) translateY(40px) rotateX(12deg);
+    transform: perspective(1200px) translateY(28px) rotateX(8deg);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
@@ -487,13 +486,12 @@
   }
 }
 
+/* Movement only (see stage-in): text caught mid-fade also failed the contrast audit. */
 @keyframes float-up {
   from {
-    opacity: 0;
-    transform: translateY(24px);
+    transform: translateY(18px);
   }
   to {
-    opacity: 1;
     transform: none;
   }
 }
@@ -505,6 +503,49 @@
   to {
     transform: scale(1);
   }
+}
+
+/* Grain only where it is visible and cheap: wide screens. Phones skip the full-screen layer. */
+@media (min-width: 768px) {
+  .grain::after {
+    display: block;
+  }
+}
+
+/* Pagefind search UI on the site's tokens (both themes). */
+#search-mount {
+  --pagefind-ui-scale: 0.9;
+  --pagefind-ui-primary: var(--ink);
+  --pagefind-ui-text: var(--ink);
+  --pagefind-ui-background: var(--canvas);
+  --pagefind-ui-border: var(--hairline);
+  --pagefind-ui-tag: var(--surface);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 9999px;
+  --pagefind-ui-font: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+}
+#search-mount .pagefind-ui__search-input {
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 400;
+}
+#search-mount .pagefind-ui__search-input::placeholder {
+  color: var(--ink-3);
+  opacity: 1;
+}
+#search-mount .pagefind-ui__result-link {
+  font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+  color: var(--ink);
+}
+#search-mount mark {
+  background: color-mix(in srgb, var(--ink) 12%, transparent);
+  color: var(--ink);
+  border-radius: 3px;
+  padding: 0 2px;
+}
+#search-mount .pagefind-ui__result-excerpt,
+#search-mount .pagefind-ui__message {
+  color: var(--ink-2);
 }
 
 /* Warning and error colours that work in both themes. */
