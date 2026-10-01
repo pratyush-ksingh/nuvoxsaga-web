@@ -116,7 +116,7 @@ export function Rail({
 
       <section aria-labelledby="edition-title" className="border-t border-hairline pt-6">
         <h2 id="edition-title" className="display text-2xl">
-          The night edition, by email
+          Nuvoxsaga, by email
         </h2>
         <p className="mt-2 text-sm text-ink-2">The day&apos;s checked stories from the desks you pick. Double opt-in.</p>
         <a href="#newsletter" className="link-arrow mt-4 text-sm">

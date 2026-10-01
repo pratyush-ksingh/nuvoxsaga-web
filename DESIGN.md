@@ -42,7 +42,8 @@ Theme: dark only, a deliberate brand decision (`color-scheme: dark`). The canvas
 product, as with both references. Sections never flip to a light background.
 
 ## 4. Typography
-Three voices (2026-10-01, "Night edition", replacing Geist-for-everything after a design
+Three voices (2026-10-01, design pass codenamed "Night edition", an internal name only:
+the publication is Nuvoxsaga and readers never see the codename; replacing Geist-for-everything after a design
 review against Semafor, Quanta, Rest of World, The Pudding and NYT, SND47 winners):
 - **Fraunces** (variable serif, optical size) speaks the news: every h1-h3, `.display`,
   the nameplate, and `.deck` (its italic, for the standfirst under a headline).
