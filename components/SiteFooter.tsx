@@ -102,7 +102,7 @@ export function SiteFooter() {
         </a>
       </div>
       <div className="container-page pb-10 text-sm text-ink-3">
-        <p>© {year} Nuvoxsaga. Stories are drafted with AI and checked against their sources before publication; illustrations are AI-generated and labelled.</p>
+        <p>© {year} Nuvoxsaga. Stories are drafted with AI and checked against their sources before publication. Illustrations are AI-generated and labelled.</p>
       </div>
     </footer>
   );
