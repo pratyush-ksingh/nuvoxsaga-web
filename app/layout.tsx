@@ -21,7 +21,8 @@ const frauncesItalic = Fraunces({
   preload: false,
 });
 const geist = Geist({ variable: '--font-geist', subsets: ['latin'], display: 'swap' });
-const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'], display: 'swap' });
+// Mono only sets small labels and times: not preloaded, so it never competes with the lead image.
+const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'], display: 'swap', preload: false });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 
