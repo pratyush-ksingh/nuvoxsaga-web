@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
 
@@ -60,14 +61,17 @@ export function SiteHeader() {
               {l.label}
             </Link>
           ))}
+          <ThemeToggle className="-mx-3" />
           <a href="#newsletter" className="btn-primary !h-10 !px-5 text-sm">
             Subscribe
           </a>
         </nav>
 
+        <div className="flex items-center gap-1 md:hidden">
+        <ThemeToggle />
         <button
           type="button"
-          className="-mr-2 inline-flex size-11 items-center justify-center rounded-full text-ink hover:bg-surface md:hidden"
+          className="-mr-2 inline-flex size-11 items-center justify-center rounded-full text-ink hover:bg-surface"
           aria-expanded={open}
           aria-controls="mobile-menu"
           aria-label={open ? 'Close menu' : 'Open menu'}
@@ -75,6 +79,7 @@ export function SiteHeader() {
         >
           {open ? <X aria-hidden="true" size={22} strokeWidth={1.75} /> : <Menu aria-hidden="true" size={22} strokeWidth={1.75} />}
         </button>
+        </div>
       </div>
 
       {open && (

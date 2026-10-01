@@ -3,7 +3,8 @@
  *
  *   edition line   weekday and date, edition time in UTC, stories checked this week
  *   nameplate      "Nuvox" roman + "saga" italic in the display serif
- *   standfirst     what the publication is, in one line
+ *   brand line     "News you can check." (DESIGN.md §4: a promise readers can test, never "100%")
+ *   standfirst     what is checked, and when
  *
  * The page is static and rebuilt on every publish, so "edition" is the build time: it is
  * true for as long as the page is.
@@ -33,8 +34,11 @@ export function Masthead({ edition, weekCount }: { edition: Date; weekCount: num
           Nuvox<em>saga</em>
         </p>
         <div aria-hidden="true" className="rule-dot" />
-        <p className="deck mx-auto mt-4 max-w-[44ch] text-center text-lg text-ink-2 md:text-xl">
-          AI, space and the world, checked claim by claim before it is published.
+        <p className="deck mx-auto mt-5 text-center text-[clamp(1.5rem,2.6vw,2.1rem)] leading-tight text-ink">
+          News you can check.
+        </p>
+        <p className="mx-auto mt-2 max-w-[52ch] text-center text-ink-2 md:text-lg">
+          Every factual claim checked against its source, before it is published.
         </p>
       </div>
     </section>

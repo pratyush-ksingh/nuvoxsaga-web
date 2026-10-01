@@ -38,8 +38,19 @@ page stays neutral (white CTAs) and shows the three accents only inside their ow
 tiles. No gradients except a dark scrim that keeps text readable over photographs, and
 the faint pointer glare on a tilting card (§8), which is white at 10% and never colored.
 
-Theme: dark only, a deliberate brand decision (`color-scheme: dark`). The canvas is the
-product, as with both references. Sections never flip to a light background.
+Theme (2026-10-01, from the trust research in reports/): **light by default**, because dark
+text on a light page reads measurably better for long text and every major trusted news
+brand reads light. Dark (the night palette above) is the reader's choice: the header's
+ThemeToggle stores it and lib/theme.ts applies it before first paint. Light tokens: canvas
+#fbfbf9, surface #f1f1ee, ink #15161a, ink-2 #4b4c52, ink-3 #66676d, desk accents AI
+#0b6c9e, Space #3346c7, World #b3142f; every text colour reaches 4.5:1 on canvas, surface and
+surface-2 in both themes. Text set over photographs (`.on-photo`) always uses the night
+palette, since it sits on a dark scrim.
+
+Brand line: **"News you can check."** A promise readers can test on every story (sources and
+checked claims are shown), and the natural parent of the future link checker ("Check any
+link."). Never "100%", "the truth", "trusted" or "unbiased": India's CCPA treats "100%" as
+literal (June 2026) and the corrections log would contradict it.
 
 ## 4. Typography
 Three voices (2026-10-01, design pass codenamed "Night edition", an internal name only:

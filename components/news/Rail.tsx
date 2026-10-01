@@ -5,11 +5,14 @@
  *   sources    the primary sources the briefs were written from, as a small bar chart
  *   topics     trending topics
  *   features   features and explainers, when a page has no shelf for them
+ *   watch      the desks' YouTube channels (optional)
  *   edition    the newsletter, one line and one button
  * Every module is optional and skipped when its data is empty.
  */
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, CirclePlay } from 'lucide-react';
+import { BRANDS } from '@/lib/brands';
+import { DESKS } from '@/lib/desks';
 import type { PublicPost } from '@/lib/content';
 import type { Ledger } from '@/lib/ledger';
 import { HeadlineList } from '@/components/news/StoryCards';
@@ -19,8 +22,11 @@ export function Rail({
   topics = [],
   features = [],
   accent = 'var(--ink)',
+  watch = false,
   children,
 }: {
+  /** Show the three desks' YouTube channels (home and pages without their own watch card). */
+  watch?: boolean;
   ledger?: Ledger;
   topics?: { slug: string; name: string }[];
   features?: PublicPost[];
@@ -111,6 +117,33 @@ export function Rail({
             Features and explainers
           </h2>
           <HeadlineList posts={features} numbered />
+        </section>
+      )}
+
+      {watch && (
+        <section aria-labelledby="watch-title">
+          <h2 id="watch-title" className="border-b border-hairline pb-3 text-lg font-bold">
+            Watch the desks
+          </h2>
+          <ul className="mt-4 grid gap-3 text-sm">
+            {BRANDS.map((b) => (
+              <li key={b.id}>
+                <a
+                  href={`https://www.youtube.com/${b.handle}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-between gap-4"
+                >
+                  <span className="flex items-center gap-2.5 text-ink-2 group-hover:text-ink">
+                    <CirclePlay aria-hidden="true" size={17} strokeWidth={1.75} style={{ color: DESKS[b.id].accent }} />
+                    {b.name}
+                  </span>
+                  <span className="data text-ink-3">{b.handle}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 text-xs text-ink-3">Daily shorts on YouTube, one channel per desk.</p>
         </section>
       )}
 
