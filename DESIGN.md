@@ -93,6 +93,14 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
   window widens from 24 hours to 3 or 7 days until it holds 6 stories. Pointing or
   tabbing shows the story in the readout; every point is a link. Orbit lines drift, points
   never move; a faint sweep trails the edition hand. Data only, never decoration.
+- **Formats (Brief / Feature)** (reports/News formats and safe scaling.md): about half of readers
+  miss a lone label, so the format rests on five cues at once. (1) One label style for both,
+  "Brief" or "Feature" (FormatLabel), never only on one. (2) A length and source line from
+  lib/formats.ts: "1 min read · Source: NASA" / "6 min read · 6 sources". (3) Shape: in rivers a
+  brief is a compact text row, a feature carries a picture; the home shelf is named "Features".
+  (4) A one-line definition under the deck on the story page. (5) One check box on both, titled
+  "Here's how we know". Structured data: ReportageNewsArticle for briefs, BackgroundNewsArticle
+  for features. No colour per format: colour stays with the desks.
 - **Rail (proof, not promotion)**: the sticky column beside a river on home, desk fronts,
   Latest and topic pages (components/news/Rail.tsx). Modules: the ledger (claims checked,
   sources checked, stories, this week, counted by lib/ledger.ts from the stories' own

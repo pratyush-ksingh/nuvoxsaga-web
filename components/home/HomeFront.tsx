@@ -21,7 +21,7 @@ import { DESKS, findSection } from '@/lib/desks';
 import { storyPath, type PublicPost } from '@/lib/content';
 import { Picture } from '@/components/Picture';
 import { TimeAgo } from '@/components/TimeAgo';
-import { Kicker, StoryImage } from '@/components/news/StoryCards';
+import { Kicker, StoryImage, formatLine } from '@/components/news/StoryCards';
 import { Tilt } from '@/components/home/Tilt';
 
 /* ------------------------------------------------------------------ wire */
@@ -169,13 +169,13 @@ function SideCard({ post, showDesk }: { post: PublicPost; showDesk: boolean }) {
 function Meta({ post, className = '' }: { post: PublicPost; className?: string }) {
   return (
     <p className={`flex flex-wrap items-center gap-x-2 text-sm text-ink-3 ${className}`}>
-      {post.publishedAt && <TimeAgo iso={post.publishedAt} />}
-      {post.kind === 'feature' && post.readingTimeMin ? (
+      {post.publishedAt && (
         <>
+          <TimeAgo iso={post.publishedAt} />
           <span aria-hidden="true">·</span>
-          <span>{post.readingTimeMin} min read</span>
         </>
-      ) : null}
+      )}
+      <span>{formatLine(post)}</span>
     </p>
   );
 }
@@ -188,12 +188,11 @@ export function FeatureShelf({ posts, showDesk = true }: { posts: PublicPost[]; 
       <div className="container-page pt-16 md:pt-20">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div>
-            <p className="text-sm font-medium text-ink-3">Long reads</p>
-            <h2 id="shelf-title" className="display mt-2 text-[clamp(2rem,4vw,3.25rem)]">
-              Features and explainers
+            <h2 id="shelf-title" className="display text-[clamp(2rem,4vw,3.25rem)]">
+              Features
             </h2>
           </div>
-          <p className="max-w-[40ch] text-ink-2">Researched from live sources and checked claim by claim.</p>
+          <p className="max-w-[40ch] text-ink-2">Researched from several sources, with context, and checked claim by claim.</p>
         </div>
       </div>
       <ul className="shelf mt-10 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-16 md:pb-20">
