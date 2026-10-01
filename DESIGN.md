@@ -42,14 +42,24 @@ Theme: dark only, a deliberate brand decision (`color-scheme: dark`). The canvas
 product, as with both references. Sections never flip to a light background.
 
 ## 4. Typography
-- Family: **Geist** (display + UI), **Geist Mono** only for timeline dates.
-- Display: Geist 800, `letter-spacing -0.035em`, `line-height 0.98`.
+Three voices (2026-10-01, "Night edition", replacing Geist-for-everything after a design
+review against Semafor, Quanta, Rest of World, The Pudding and NYT, SND47 winners):
+- **Fraunces** (variable serif, optical size) speaks the news: every h1-h3, `.display`,
+  the nameplate, and `.deck` (its italic, for the standfirst under a headline).
+- **Geist** carries text and UI: body, nav, kickers, buttons.
+- **Geist Mono** (`.data`, tabular figures) is the instrument voice: times, dates,
+  counts, the edition line and dial labels.
+- Display: Fraunces 600, `letter-spacing -0.025em`, `line-height 1`.
+- Nameplate: Fraunces 700 at optical size 144, "Nuvox" roman + "saga" italic 400.
   - Hero `clamp(2.75rem, 6vw, 5.5rem)`, max 2 lines.
   - Section `clamp(2rem, 4vw, 3.25rem)`.
 - Headline (cards, feed): Geist 700, 20-24px, `line-height 1.2`.
 - Body: Geist 400, 18px, `line-height 1.65`, max 65ch. Deck/lead 20-22px in `--ink-2`.
 - Labels: sentence case. Uppercase micro-labels are limited to 1 per 3 sections.
-- No serif. No em-dash anywhere in visible copy.
+- No em-dash anywhere in visible copy.
+
+Texture: a page-wide film grain (inline SVG noise at 7%, fixed, behind content) and
+dotted newspaper rules (`.rule-dot`) in the masthead.
 
 ## 5. Shape
 One documented rule: media frames and tiles 16px; buttons, inputs and pills fully round.
@@ -63,6 +73,25 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
 - **Story row (river)**: time column (relative after hydration), kicker in the desk accent,
   bold headline, 2-line deck, 4:3 thumbnail only for features or stories with an image,
   hairline between rows.
+- **Masthead (home only)**: edition line in mono (date, edition time UTC, stories checked
+  this week), dotted rule, the nameplate unveiled once on load, dotted rule, italic
+  standfirst. The edition time is the build time: the page is rebuilt on every publish.
+- **Frontier Dial (home signature)**: a 24-hour UTC clock face with one orbit per desk
+  (AI inner, Space, World outer). Each recent story is a point at its time of day; the
+  window widens from 24 hours to 3 or 7 days until it holds 6 stories. Pointing or
+  tabbing shows the story in the readout; every point is a link. Orbit lines drift, points
+  never move; a faint sweep trails the edition hand. Data only, never decoration.
+- **Rail (proof, not promotion)**: the sticky column beside a river on home, desk fronts,
+  Latest and topic pages (components/news/Rail.tsx). Modules: the ledger (claims checked,
+  sources checked, stories, this week, counted by lib/ledger.ts from the stories' own
+  fact-check records), "Where the news came from" (primary sources of the briefs as thin
+  bars, desk accent on a desk), trending topics, features when there is no shelf, and a
+  one-line newsletter prompt. Researched against NN/g "right-rail blindness": text-first,
+  no graphics competing with the river.
+- **Story rail**: the left margin of a story at 1280px+, sticky beside the body: claim count
+  and source linking to the check, kind and reading time, share links, more from the desk.
+- **Elsewhere on <desk>**: closes every section page with the desk's other sections, each
+  with its story count and newest headline.
 - **Newsletter**: pill email field on `--surface` + primary button, one-line note below.
 
 ## 7. Layout
@@ -70,13 +99,16 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
 - Section rhythm `py-20` mobile, `py-28` desktop; hero top padding at most `pt-24`.
 - Home (media house), researched against The Verge (mosaic top stories over a fast
   stream), Bloomberg (a live headline wire) and Rest of World (rich but light pages):
-  the wire (newest headlines, one line), the hero stage (lead story on a full-bleed 3D
-  photo card + 3 side cards), the Latest river with a 20rem sidebar, the features shelf
+  the masthead, the wire (newest headlines, one line), the hero stage (lead story on a
+  full-bleed 3D photo card + 3 side cards), the Frontier Dial band, the Latest river with a 20rem sidebar, the features shelf
   (only with 3+ features), one block per desk opened by a photo portal, a compact "how we
   report" band, then the newsletter band. News and articles stay apart: briefs run on the
   wire and in the river, features get the shelf with image and reading time. Before the first story exists it falls back to the
   launch composition (split hero, desk bento, how we report).
-- Desk front: masthead with section pill tabs, lead + 3, river + features sidebar, pager.
+- Desk front: masthead with section pill tabs, the desk's wire (labelled by section), the
+  hero stage (shorter lead than home), river + features sidebar, the desk's features shelf
+  once it has 3+ features, pager. Section page: masthead, hero stage (lead + 3 once the
+  section has 5+ stories, a single lead before that), river.
 - Story: kicker (Desk · Section, "In brief" pill), headline, deck, desk byline + UTC stamp,
   credited image, body, source/check box, topic chips, "More from <desk>".
 - Every multi-column block collapses to one column under 768px.

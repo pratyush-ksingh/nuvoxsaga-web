@@ -1,9 +1,12 @@
 /**
- * Home-page blocks for the media-house front (DESIGN.md §7, "Home"):
+ * Front-page blocks for the home page and the desk fronts (DESIGN.md §7):
  *   WireTicker    the newest headlines crossing the top of the page, like a news wire
  *   HeroStage     lead story on a 3D photo card + the three stories beside it
  *   FeatureShelf  long reads and explainers on a scroll-driven 3D shelf
  *   PhotoPortal   a desk as a tilting photo card (desk blocks, launch bento)
+ *
+ * On a desk front (`showDesk={false}`) stories are labelled by section instead of desk,
+ * because every story on the page belongs to the same desk.
  *
  * News (briefs) and articles (features) are kept visually apart: briefs run on the
  * wire and in the Latest river, features get the shelf with images and reading time.
@@ -14,7 +17,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { BRAND_BY_ID, type BrandId } from '@/lib/brands';
 import { BRAND_CONTENT } from '@/lib/brand-content';
-import { DESKS } from '@/lib/desks';
+import { DESKS, findSection } from '@/lib/desks';
 import { storyPath, type PublicPost } from '@/lib/content';
 import { Picture } from '@/components/Picture';
 import { TimeAgo } from '@/components/TimeAgo';
@@ -23,8 +26,10 @@ import { Tilt } from '@/components/home/Tilt';
 
 /* ------------------------------------------------------------------ wire */
 
-export function WireTicker({ posts }: { posts: PublicPost[] }) {
+export function WireTicker({ posts, showDesk = true }: { posts: PublicPost[]; showDesk?: boolean }) {
   if (posts.length < 4) return null;
+  const label = (p: PublicPost) =>
+    showDesk ? DESKS[p.brand].name : (findSection(p.brand, p.section)?.name ?? DESKS[p.brand].name);
   // Two identical runs: the track slides by exactly one run, so the loop has no seam.
   // The copy is hidden from assistive tech and the tab order.
   const run = (copy: boolean) => (
@@ -33,7 +38,7 @@ export function WireTicker({ posts }: { posts: PublicPost[] }) {
         <li key={p.id} className="flex items-center gap-2.5 whitespace-nowrap pr-10 text-sm">
           <span aria-hidden="true" className="size-1.5 rounded-full" style={{ background: DESKS[p.brand].accent }} />
           <span className="font-medium" style={{ color: DESKS[p.brand].accent }}>
-            {DESKS[p.brand].name}
+            {label(p)}
           </span>
           <Link
             href={storyPath(p)}
@@ -66,18 +71,26 @@ export function WireTicker({ posts }: { posts: PublicPost[] }) {
 
 /* ------------------------------------------------------------------ hero */
 
-export function HeroStage({ lead, secondary }: { lead?: PublicPost; secondary: PublicPost[] }) {
+export function HeroStage({
+  lead,
+  secondary,
+  showDesk = true,
+}: {
+  lead?: PublicPost;
+  secondary: PublicPost[];
+  showDesk?: boolean;
+}) {
   if (!lead) return null;
   return (
-    <div className="grid gap-5 lg:grid-cols-[1.55fr_1fr] lg:gap-6">
+    <div className={`grid gap-5 lg:gap-6 ${secondary.length > 0 ? 'lg:grid-cols-[1.55fr_1fr]' : ''}`}>
       <div className="stage-in">
-        <LeadCard post={lead} />
+        <LeadCard post={lead} showDesk={showDesk} />
       </div>
       {secondary.length > 0 && (
         <ul className="grid content-start gap-5 lg:gap-4">
           {secondary.map((p, i) => (
             <li key={p.id} className="stage-in" style={{ animationDelay: `${120 + i * 90}ms` }}>
-              <SideCard post={p} />
+              <SideCard post={p} showDesk={showDesk} />
             </li>
           ))}
         </ul>
@@ -86,9 +99,15 @@ export function HeroStage({ lead, secondary }: { lead?: PublicPost; secondary: P
   );
 }
 
-function LeadCard({ post }: { post: PublicPost }) {
+function LeadCard({ post, showDesk }: { post: PublicPost; showDesk: boolean }) {
   return (
-    <Tilt max={4} className="group relative h-[32rem] rounded-2xl md:h-[36rem] lg:h-full lg:min-h-[40rem]">
+    // Desk and section fronts open under a tall masthead, so their lead is shorter.
+    <Tilt
+      max={4}
+      className={`group relative rounded-2xl lg:h-full ${
+        showDesk ? 'h-[32rem] md:h-[36rem] lg:min-h-[40rem]' : 'h-[28rem] md:h-[30rem] lg:min-h-[32rem]'
+      }`}
+    >
       <article className="tilt-3d absolute inset-0">
         <div className="card-frame absolute inset-0 overflow-hidden rounded-2xl border border-hairline">
           <StoryImage
@@ -102,7 +121,7 @@ function LeadCard({ post }: { post: PublicPost }) {
         </div>
         <div className="depth-2 absolute inset-x-0 bottom-0 p-6 md:p-10">
           <div className="relative z-10">
-            <Kicker post={post} />
+            <Kicker post={post} showDesk={showDesk} />
           </div>
           <h2 className="display mt-3 max-w-[22ch] text-[clamp(2rem,3.6vw,3.25rem)]">
             <Link href={storyPath(post)} className="card-link">
@@ -110,7 +129,7 @@ function LeadCard({ post }: { post: PublicPost }) {
             </Link>
           </h2>
           {post.excerpt && (
-            <p className="mt-4 hidden max-w-[52ch] text-lg leading-snug text-ink-2 md:block">{post.excerpt}</p>
+            <p className="deck mt-4 hidden max-w-[52ch] text-xl leading-snug text-ink-2 md:block">{post.excerpt}</p>
           )}
           <Meta post={post} className="mt-4" />
         </div>
@@ -119,14 +138,14 @@ function LeadCard({ post }: { post: PublicPost }) {
   );
 }
 
-function SideCard({ post }: { post: PublicPost }) {
+function SideCard({ post, showDesk }: { post: PublicPost; showDesk: boolean }) {
   return (
     <Tilt max={4} className="group relative rounded-2xl">
       <article className="card-frame tilt-3d relative grid grid-cols-[1fr_7rem] gap-4 rounded-2xl border border-hairline bg-surface p-4 sm:grid-cols-[1fr_10rem] lg:min-h-[12.6rem] lg:grid-cols-[1fr_8rem] xl:grid-cols-[1fr_10rem]">
         <div aria-hidden="true" className="glare absolute inset-0 rounded-2xl" />
         <div className="depth-1 flex min-w-0 flex-col">
           <div className="relative z-10">
-            <Kicker post={post} />
+            <Kicker post={post} showDesk={showDesk} />
           </div>
           <h3 className="mt-2 text-lg font-bold leading-snug tracking-[-0.015em] xl:text-xl">
             <Link href={storyPath(post)} className="card-link">
@@ -163,7 +182,7 @@ function Meta({ post, className = '' }: { post: PublicPost; className?: string }
 
 /* ----------------------------------------------------------------- shelf */
 
-export function FeatureShelf({ posts }: { posts: PublicPost[] }) {
+export function FeatureShelf({ posts, showDesk = true }: { posts: PublicPost[]; showDesk?: boolean }) {
   return (
     <section aria-labelledby="shelf-title" className="overflow-hidden border-t border-hairline">
       <div className="container-page pt-16 md:pt-20">
@@ -190,7 +209,7 @@ export function FeatureShelf({ posts }: { posts: PublicPost[] }) {
               </div>
               <div className="flex flex-1 flex-col p-5">
                 <div className="relative z-10">
-                  <Kicker post={p} />
+                  <Kicker post={p} showDesk={showDesk} />
                 </div>
                 <h3 className="mt-2 text-xl font-bold leading-snug tracking-[-0.015em]">
                   <Link href={storyPath(p)} className="card-link">

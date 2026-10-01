@@ -5,11 +5,13 @@
  */
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { BRANDS, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
+import Link from 'next/link';
+import { BRANDS, BRAND_BY_ID, BRAND_BY_SLUG, type BrandId, type BrandSlug } from '@/lib/brands';
 import { DESKS, findSection } from '@/lib/desks';
 import { storiesForSection } from '@/lib/content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
-import { River, TopStories } from '@/components/news/StoryCards';
+import { River } from '@/components/news/StoryCards';
+import { HeroStage } from '@/components/home/HomeFront';
 import { DeskHeader, EmptyDesk } from '@/components/news/DeskChrome';
 import { og, OG_CARD } from '@/lib/og';
 
@@ -49,7 +51,11 @@ export default async function SectionPage({ params }: Props) {
   const r = await resolve(params);
   if (!r) notFound();
   const posts = storiesForSection(r.brand.id, r.section.slug).slice(0, 60);
-  const [lead, ...rest] = posts;
+  // The 3D hero stage takes the lead + up to 3 more once the section has 5+ stories;
+  // a thin section keeps a single lead so the river below is not left empty.
+  const [lead, ...others] = posts;
+  const secondary = posts.length >= 5 ? others.slice(0, 3) : [];
+  const rest = others.slice(secondary.length);
 
   return (
     <BrandProvider brand={r.brand.id}>
@@ -59,11 +65,50 @@ export default async function SectionPage({ params }: Props) {
           <EmptyDesk label={r.section.name} />
         ) : (
           <div className="grid gap-14">
-            <TopStories lead={lead} secondary={[]} showDesk={false} />
+            <HeroStage lead={lead} secondary={secondary} showDesk={false} />
             {rest.length > 0 && <River posts={rest} showDesk={false} />}
           </div>
         )}
+        <Elsewhere brand={r.brand.id} current={r.section.slug} />
       </div>
     </BrandProvider>
+  );
+}
+
+/** The desk's other sections, each with its count and newest headline: where to go next. */
+function Elsewhere({ brand, current }: { brand: BrandId; current: string }) {
+  const desk = DESKS[brand];
+  const b = BRAND_BY_ID[brand];
+  const others = desk.sections
+    .filter((s) => s.slug !== current)
+    .map((s) => ({ ...s, posts: storiesForSection(brand, s.slug) }));
+  return (
+    <section aria-labelledby="elsewhere-title" className="mt-20 border-t border-hairline pt-12">
+      <h2 id="elsewhere-title" className="display text-[clamp(1.75rem,3vw,2.5rem)]">
+        Elsewhere on {desk.name}
+      </h2>
+      <ul className="mt-8 grid gap-px overflow-hidden rounded-2xl border border-hairline bg-hairline sm:grid-cols-2 lg:grid-cols-4">
+        {others.map((s) => {
+          const [top] = s.posts;
+          return (
+            <li key={s.slug} className="group relative flex flex-col bg-canvas p-6 transition-colors duration-150 hover:bg-surface">
+              <p className="flex items-baseline justify-between gap-4">
+                <span className="font-medium" style={{ color: desk.accent }}>
+                  {s.name}
+                </span>
+                <span className="data text-sm text-ink-3">
+                  {s.posts.length} {s.posts.length === 1 ? 'story' : 'stories'}
+                </span>
+              </p>
+              <h3 className="mt-3 text-lg font-bold leading-snug">
+                <Link href={`/${b.slug}/${s.slug}`} className="card-link">
+                  {top ? top.title : `No ${s.name} stories yet`}
+                </Link>
+              </h3>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 }

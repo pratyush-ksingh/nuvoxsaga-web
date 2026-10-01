@@ -1,12 +1,24 @@
 import type { Metadata, Viewport } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Fraunces, Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
- * request). Geist for display + UI, Geist Mono for timeline dates only (DESIGN.md §4).
+ * request). Fraunces (variable, optical size) for headlines, Geist for text and UI,
+ * Geist Mono for times, dates and data labels (DESIGN.md §4).
  */
+const fraunces = Fraunces({ variable: '--font-fraunces', subsets: ['latin'], display: 'swap', axes: ['opsz'] });
+// The italic only sets standfirsts and the nameplate, so it is not preloaded: it would
+// compete with the lead image for bandwidth on every story page.
+const frauncesItalic = Fraunces({
+  variable: '--font-fraunces-italic',
+  subsets: ['latin'],
+  display: 'swap',
+  style: 'italic',
+  axes: ['opsz'],
+  preload: false,
+});
 const geist = Geist({ variable: '--font-geist', subsets: ['latin'], display: 'swap' });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'], display: 'swap' });
 
@@ -42,10 +54,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       data-brand="nuvox_ai"
-      className={`${geist.variable} ${geistMono.variable}`}
+      className={`${fraunces.variable} ${frauncesItalic.variable} ${geist.variable} ${geistMono.variable}`}
       suppressHydrationWarning
     >
-      <body className="min-h-[100dvh] antialiased">{children}</body>
+      <body className="grain min-h-[100dvh] antialiased">{children}</body>
     </html>
   );
 }

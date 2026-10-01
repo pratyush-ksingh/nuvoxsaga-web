@@ -41,8 +41,12 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-hairline bg-canvas/80 backdrop-blur-md">
       <div className="container-page flex h-16 items-center justify-between gap-6">
-        <Link href="/" className="text-[1.05rem] font-extrabold tracking-[-0.03em]" translate="no">
-          NUVOXSAGA
+        <Link
+          href="/"
+          className="font-serif text-[1.45rem] font-bold leading-none tracking-[-0.035em] [&_em]:font-normal [&_em]:[font-family:var(--font-fraunces-italic),serif]"
+          translate="no"
+        >
+          Nuvox<em>saga</em>
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-8 text-[0.95rem] md:flex">

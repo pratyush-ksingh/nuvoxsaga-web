@@ -5,6 +5,10 @@
 
 Every fixture is labelled "Sample" so it cannot be mistaken for reporting. A production
 build refuses NUVOXSAGA_CONTENT_DIR (lib/content.ts).
+
+lib/content.ts only builds stories that carry a fact-check record, so every fixture has a
+placeholder `checkedClaims`. Three in four fixtures get a desk section image
+(public/media/sections, tracked) so layouts are reviewed with and without photos.
 """
 import json
 import os
@@ -59,6 +63,15 @@ def main() -> None:
             "readingTimeMin": 6 if kind == "feature" else 1,
             "tags": TAGS[n % len(TAGS)],
         }
+        post["checkedClaims"] = [{"claim": "Sample claim for layout review", "source": "https://example.com/sample"}]
+        if n % 4 != 3:
+            desk = brand.split("_", 1)[1]
+            section = post["section"]
+            post["image"] = {
+                "src": f"/media/sections/{desk}-{section}-{n % 3 + 1}.webp",
+                "alt": f"Illustration for a sample {desk} {section} story",
+                "credit": "AI illustration",
+            }
         if kind == "brief":
             post["source"] = {"name": "Sample source", "url": "https://example.com/sample"}
         with open(os.path.join(ROOT, brand, f"{slug}.json"), "w", encoding="utf-8") as f:

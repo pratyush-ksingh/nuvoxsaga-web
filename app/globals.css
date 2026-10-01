@@ -36,6 +36,7 @@
   --color-world: var(--world);
   --font-sans: var(--font-geist);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-fraunces);
 }
 
 @layer base {
@@ -65,9 +66,12 @@
     background: var(--ink);
     color: var(--canvas);
   }
+  /* Headlines speak in the serif; text and UI stay in Geist (DESIGN.md §4). */
   h1,
   h2,
   h3 {
+    font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+    font-optical-sizing: auto;
     text-wrap: balance;
   }
   p {
@@ -89,9 +93,43 @@
   }
 
   .display {
-    font-weight: 800;
-    letter-spacing: -0.035em;
-    line-height: 0.98;
+    font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1;
+  }
+  /* Deck under a headline: the serif's italic, like a magazine standfirst. */
+  .deck {
+    font-family: var(--font-fraunces-italic), ui-serif, Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+  /* Data voice: times, counts, labels. */
+  .data {
+    font-family: var(--font-geist-mono), ui-monospace, monospace;
+    font-feature-settings: 'tnum';
+    letter-spacing: 0.01em;
+  }
+  /* Newspaper rules: dotted hairlines between masthead rows. */
+  .rule-dot {
+    background-image: radial-gradient(circle, rgb(255 255 255 / 0.22) 1px, transparent 1.2px);
+    background-size: 6px 3px;
+    background-repeat: repeat-x;
+    height: 3px;
+  }
+  /* Film grain over the whole page (inline SVG noise, same-origin): body is a stacking
+     context, so the fixed layer paints above the canvas and below all content. */
+  .grain {
+    isolation: isolate;
+  }
+  .grain::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.07;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
   .btn-primary {
@@ -195,6 +233,46 @@
     }
   }
 
+  /* Home nameplate. */
+  .masthead-name {
+    font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(3.5rem, 14vw, 11.5rem);
+    line-height: 0.88;
+    letter-spacing: -0.05em;
+    font-variation-settings: 'opsz' 144;
+  }
+  .masthead-name em {
+    font-family: var(--font-fraunces-italic), ui-serif, Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+  }
+
+  /* Frontier Dial (components/home/FrontierDial.tsx). */
+  .dial {
+    color: var(--ink);
+  }
+  .dial-sweep {
+    /* The day so far: a faint trail behind the edition hand. */
+    background: conic-gradient(from calc(var(--now) - 90deg), transparent 0deg, rgb(255 255 255 / 0.07) 90deg, transparent 90.4deg);
+    mask-image: radial-gradient(circle closest-side, transparent 22%, #000 23%, #000 93%, transparent 94%);
+  }
+  .dial-point,
+  .dial-halo {
+    transition: r 200ms var(--ease-out);
+  }
+  .dial-dot:hover .dial-point {
+    r: 7px;
+  }
+  .dial-dot:focus-visible {
+    outline: none;
+  }
+  .dial-dot:focus-visible .dial-halo {
+    r: 12px;
+    stroke-opacity: 1;
+  }
+
   /* The wire: one line of the newest headlines, fading out at both edges. */
   .wire {
     overflow: hidden;
@@ -231,6 +309,24 @@
   }
   .tilt[data-tilt='on']:hover .glare {
     opacity: 1;
+  }
+
+  /* Home load, in one sequence: the nameplate is unveiled, then the hero cards rise. */
+  .masthead-name {
+    animation: unveil 1100ms var(--ease-out) both;
+  }
+  /* Orbit lines drift (the story points on them never move). */
+  .orbit {
+    transform-box: view-box;
+    transform-origin: 50% 50%;
+    animation: orbit 240s linear infinite;
+  }
+  .orbit-1 {
+    animation-duration: 330s;
+    animation-direction: reverse;
+  }
+  .orbit-2 {
+    animation-duration: 420s;
   }
 
   /* Hero: cards rise out of a tilted plane on load. */
@@ -270,6 +366,25 @@
   }
   .wire-run[aria-hidden] {
     display: none;
+  }
+}
+
+@keyframes unveil {
+  from {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(0.25em);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 -10% 0);
+    transform: none;
+  }
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
   }
 }
 
