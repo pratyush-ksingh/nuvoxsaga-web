@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-1.webp",
+    "alt": "Illustration: macro view of a glowing processor die with fine copper traces",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-releases-gpt-6-1-sol-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "OpenAI releases GPT-6.1 Sol model",
+  "excerpt": "The new model offers performance improvements over GPT-6 Sol at a lower cost for coding, professional tasks, and computer use.",
+  "bodyHtml": "<p>OpenAI announced the release of GPT-6.1 Sol on September 29, 2026. The model is available to Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex, and to developers through the OpenAI API.</p>\n<p>According to OpenAI, GPT-6.1 Sol provides performance that approaches GPT-6 Astra on agentic coding, computer use, and professional tasks. The company stated the model costs one-fifth of Astra’s standard input and output token prices, with cached input priced at $0.10 per million tokens.</p>\n<p>Standard API pricing for the model is $2 per million input tokens and $10 per million output tokens. OpenAI also plans to release GPT-6.1 Sol Ultrafast in the coming days, which the company said will offer up to 8x faster token generation compared to the standard speed in Codex. On DeepSWE v1.1, which evaluates complex software-engineering tasks in real codebases, GPT-6.1 Sol matches GPT-6 Astra at roughly one-fifth of the cost.</p>",
+  "publishedAt": "2026-10-01T06:04:05Z",
+  "updatedAt": "2026-10-01T06:04:05Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "Introducing GPT-6.1 Sol",
+  "tags": [
+    "OpenAI",
+    "GPT-6.1 Sol",
+    "ChatGPT",
+    "Codex"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI released the GPT-6.1 Sol model.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The new model offers performance improvements over GPT-6 Sol at a lower cost for coding, professional tasks, and computer use.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced the release of GPT-6.1 Sol on September 29, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "GPT-6.1 Sol is available to Plus, Pro, Business, Enterprise, and Edu users in ChatGPT Work and Codex, and to developers through the OpenAI API.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "According to OpenAI, GPT-6.1 Sol provides performance that approaches GPT-6 Astra on agentic coding, computer use, and professional tasks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI stated the model costs one-fifth of Astra's standard input and output token prices, with cached input priced at $0.10 per million tokens.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Standard API pricing for the model is $2 per million input tokens and $10 per million output tokens.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI plans to release GPT-6.1 Sol Ultrafast in the coming days, which it said will offer up to 8x faster token generation compared to the standard speed in Codex.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "On DeepSWE v1.1, which evaluates complex software-engineering tasks in real codebases, GPT-6.1 Sol matches GPT-6 Astra at roughly one-fifth of the cost.",
+      "source": "OpenAI"
+    }
+  ]
+}

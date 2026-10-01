@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-proposes-eu-critical-communication-system",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission proposes EU Critical Communication System",
+  "excerpt": "Commissioner Brunner announced a proposal for a cross-border communication network for first responders on September 30, 2026.",
+  "bodyHtml": "<p>Commissioner Brunner announced a proposal for the EU Critical Communication System on September 30, 2026. According to the Commissioner, the system is designed to connect first responders across the 27 Member States through a single device that allows for the sharing of voice, video, and location data.</p>\n<p>Brunner stated that the system would use broadband technology such as 5G, with EU satellites providing backup when ground networks fail. The Commissioner also noted that the Commission is planning to deploy mobile communications assets, specifically cell towers on a truck with their own generators, to disaster areas.</p>\n<p>The proposal includes the establishment of two new centres. One centre will monitor the network to provide a central connection point, while the second will track cyber security risks and other threats. Brunner stated that the system will be built by European companies and technology to strengthen autonomy and resilience, while setting one standard across all 27 Member States to create a market.</p>",
+  "publishedAt": "2026-10-01T06:10:04Z",
+  "updatedAt": "2026-10-01T06:10:04Z",
+  "wordCount": 158,
+  "readingTimeMin": 1,
+  "topic": "Remarks by Commissioner Brunner at the press conference on the European Union Critical Communication System",
+  "tags": [
+    "European Commission",
+    "EU Critical Communication System",
+    "technology"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2025"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission proposes the EU Critical Communication System (headline).",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Commissioner Brunner announced the proposal on September 30, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The proposal is for a cross-border communication network for first responders.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The system is designed to connect first responders across the 27 Member States.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The system works through a single device allowing sharing of voice, video, and location data.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The system would use broadband technology such as 5G, with EU satellites providing backup when ground networks fail.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission is planning to deploy mobile communications assets (cell towers on a truck with their own generators) to disaster areas.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The proposal includes the establishment of two new centres.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "One centre will monitor the network to provide a central connection point; the other will track cyber security risks and other threats.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The system will be built by European companies and technology to strengthen autonomy and resilience.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "One standard across all 27 Member States will create a market.",
+      "source": "The European Commission"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-and-andorra-ministers-discuss-support-for-ukraine",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Canada and Andorra ministers discuss support for Ukraine",
+  "excerpt": "Ministers Anita Anand and Imma Tor Faus reaffirmed support for Ukraine’s sovereignty and discussed the return of deported children and prisoners of war.",
+  "bodyHtml": "<p>On September 30, 2026, the Government of Canada announced that Minister of Foreign Affairs Anita Anand met with Andorra’s Minister of Foreign Affairs, Imma Tor Faus. The meeting occurred on the margins of the Pathways to Peace: Second International Conference on Returning Ukrainian Children, Detained Civilians, and Prisoners of War, which took place on September 28 and 29, 2026.</p>\n<p>The ministers reaffirmed their support for Ukraine’s sovereignty, independence and territorial integrity. They also expressed a shared commitment to advancing a just, lasting and comprehensive peace. The ministers underscored the importance of securing the return of deported Ukrainian children, unlawfully detained civilians and prisoners of war as a key step to achieving durable peace.</p>\n<p>Minister Anand thanked Minister Tor Faus for her participation in the conference and for Andorra’s continued engagement in the International Coalition for the Return of Ukrainian Children. The ministers also discussed opportunities to further strengthen Canada-Andorra relations, including through people-to-people ties and multilateral cooperation. Minister Anand and Minister Tor Faus agreed to remain in close contact to advance shared priorities, support Ukraine and further strengthen the partnership between Canada and Andorra.</p>",
+  "publishedAt": "2026-10-01T06:08:42Z",
+  "updatedAt": "2026-10-01T06:08:42Z",
+  "wordCount": 184,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand meets with Andorra’s Minister of Foreign Affairs Imma Tor Faus",
+  "tags": [
+    "Canada",
+    "Andorra",
+    "Ukraine",
+    "International Coalition for the Return of Ukrainian Children"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/09/minister-anand-meets-with-andorras-minister-of-foreign-affairs-imma-tor-faus.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Canada and Andorra ministers discuss support for Ukraine",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Ministers Anita Anand and Imma Tor Faus reaffirmed support for Ukraine’s sovereignty and discussed the return of deported children and prisoners of war.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "On September 30, 2026, the Government of Canada announced the meeting.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anita Anand is Canada's Minister of Foreign Affairs and met with Andorra’s Minister of Foreign Affairs, Imma Tor Faus.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The meeting occurred on the margins of the Pathways to Peace: Second International Conference on Returning Ukrainian Children, Detained Civilians, and Prisoners of War.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The conference took place on September 28 and 29, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers reaffirmed their support for Ukraine’s sovereignty, independence and territorial integrity.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "They expressed a shared commitment to advancing a just, lasting and comprehensive peace.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers underscored the importance of securing the return of deported Ukrainian children, unlawfully detained civilians and prisoners of war as a key step to achieving durable peace.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anand thanked Tor Faus for her participation in the conference and for Andorra’s continued engagement in the International Coalition for the Return of Ukrainian Children.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers discussed opportunities to further strengthen Canada-Andorra relations, including through people-to-people ties and multilateral cooperation.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers agreed to remain in close contact to advance shared priorities, support Ukraine and further strengthen the partnership.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

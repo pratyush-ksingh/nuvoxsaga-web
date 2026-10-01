@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-announces-new-agentic-capabilities-and-developer-tools-at-devday-2026",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "OpenAI announces new agentic capabilities and developer tools at DevDay 2026",
+  "excerpt": "OpenAI introduced agents for ongoing responsibilities and opened ChatGPT as a surface for developers to launch native experiences.",
+  "bodyHtml": "<p>OpenAI announced more than 20 major updates on September 29, 2026, during its DevDay 2026 event. The company introduced agents capable of taking on ongoing responsibilities and established new methods for human and AI collaboration.</p>\n<p>As part of the update, OpenAI is opening ChatGPT as a shared surface where humans and agents can collaborate. This surface allows developers to directly launch new native experiences to the company&#x27;s collective 1.2B weekly users.</p>\n<p>The company also announced new tools for developers in Codex and the API. Additionally, the update includes more customization in ChatGPT through plugins.</p>\n<p>OpenAI stated that it believes AI can help bring about a new renaissance of creativity and discovery. The company noted that AI should give people more time for what matters to them, more freedom to pursue their ideas, and the ability to do things they did not think were possible.</p>",
+  "publishedAt": "2026-10-01T06:05:14Z",
+  "updatedAt": "2026-10-01T06:05:14Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "DevDay 2026 Recap",
+  "tags": [
+    "OpenAI",
+    "ChatGPT",
+    "Codex"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/devday-2026-recap"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI announced new agentic capabilities and developer tools at DevDay 2026 (headline)",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI introduced agents for ongoing responsibilities",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI opened ChatGPT as a surface for developers to launch native experiences",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced more than 20 major updates on September 29, 2026, during DevDay 2026",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company established new methods for human and AI collaboration",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "ChatGPT is a shared surface where humans and agents can collaborate",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Developers can directly launch native experiences to the company's collective 1.2B weekly users",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company announced new tools for developers in Codex and the API",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The update includes more customization in ChatGPT through plugins",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI believes AI can help bring about a new renaissance of creativity and discovery",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "AI should give people more time for what matters, more freedom to pursue ideas, and ability to do things they didn't think possible",
+      "source": "OpenAI"
+    }
+  ]
+}

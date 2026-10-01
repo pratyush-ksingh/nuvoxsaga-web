@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/space/nasa-to-participate-in-77th-international-astronautical-congress.webp",
+    "alt": "NASA to participate in 77th International Astronautical Congress",
+    "credit": "NASA/Joel Kowsky"
+  },
+  "slug": "nasa-to-participate-in-77th-international-astronautical-congress",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "NASA to participate in 77th International Astronautical Congress",
+  "excerpt": "The agency will highlight human exploration and science during the event in Antalya, Türkiye, from October 5 to October 9, 2026.",
+  "bodyHtml": "<p>NASA announced on September 30, 2026, that it will participate in the 77th International Astronautical Congress (IAC) in Antalya, Türkiye. The event is scheduled to take place from Monday, Oct. 5, to Friday, Oct. 9, 2026.</p>\n<p>A delegation led by NASA Deputy Administrator Matt Anderson will attend the conference to participate in plenary sessions, technical discussions, and media engagements. The agency will highlight America’s leadership in human exploration to the Moon and Mars, advancing responsible exploration under the Artemis Accords, world-changing science, and support for the commercial space sector.</p>\n<p>The IAC is organized by the International Astronautical Federation and hosted by the Turkish Space Agency. NASA will also maintain an exhibit in Hall 1 at the NEST Convention Centre, featuring the agency’s contributions to space exploration, the U.S. Freedom 250 commemoration, and U.S. leadership in space exploration, science, and technological innovation.</p>",
+  "publishedAt": "2026-10-01T06:06:58Z",
+  "updatedAt": "2026-10-01T06:06:58Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "NASA Features Exploration, Science at International Space Conference",
+  "tags": [
+    "NASA",
+    "International Astronautical Congress",
+    "Turkish Space Agency"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-features-exploration-science-at-international-space-conference/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA will participate in the 77th International Astronautical Congress (IAC) in Antalya, Türkiye.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The event runs from Monday, Oct. 5, to Friday, Oct. 9, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on September 30, 2026 that it will participate.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency will highlight human exploration and science during the event (dek).",
+      "source": "NASA"
+    },
+    {
+      "claim": "A delegation led by NASA Deputy Administrator Matt Anderson will attend.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The delegation will participate in plenary sessions, technical discussions, and media engagements.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA will highlight America's leadership in human exploration to the Moon and Mars, responsible exploration under the Artemis Accords, world-changing science, and support for the commercial space sector.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The IAC is organized by the International Astronautical Federation.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The IAC is hosted by the Turkish Space Agency.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA will maintain an exhibit featuring the agency's contributions to space exploration, the U.S. Freedom 250 commemoration, and U.S. leadership in space exploration, science, and technological innovation.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The exhibit is in Hall 1 at the NEST Convention Centre.",
+      "source": "NASA"
+    }
+  ]
+}
