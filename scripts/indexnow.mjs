@@ -31,7 +31,16 @@ async function sitemapEntries() {
       loc: (m[1].match(/<loc>([^<]+)<\/loc>/) || [])[1],
       lastmod: (m[1].match(/<lastmod>([^<]+)<\/lastmod>/) || [])[1] || '',
     }))
-    .filter((e) => e.loc && e.loc.startsWith(SITE));
+    .filter((e) => e.loc && sameOrigin(e.loc));
+}
+
+/** Only our own pages: an exact origin match, so "https://nuvoxsaga.com.example" is refused. */
+function sameOrigin(url) {
+  try {
+    return new URL(url).origin === new URL(SITE).origin;
+  } catch {
+    return false;
+  }
 }
 
 async function main() {
