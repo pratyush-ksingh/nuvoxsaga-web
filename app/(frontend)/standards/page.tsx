@@ -55,7 +55,7 @@ const SECTIONS: { title: string; body: string[] }[] = [
 
 export default function StandardsPage() {
   return (
-    <article className="container-page pb-24 pt-10 md:pt-14">
+    <article data-pagefind-body className="container-page pb-24 pt-10 md:pt-14">
       <div className="mx-auto max-w-[46rem]">
         <h1 className="display text-[clamp(2.5rem,6vw,4.5rem)]">Editorial standards</h1>
         <p className="mt-5 text-xl leading-snug text-ink-2">How we write, check and correct every story.</p>

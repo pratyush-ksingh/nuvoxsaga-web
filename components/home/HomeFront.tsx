@@ -168,14 +168,14 @@ function SideCard({ post, showDesk }: { post: PublicPost; showDesk: boolean }) {
 
 function Meta({ post, className = '' }: { post: PublicPost; className?: string }) {
   return (
-    <p className={`flex flex-wrap items-center gap-x-2 text-sm text-ink-3 ${className}`}>
+    <p className={`text-sm text-ink-3 ${className}`}>
       {post.publishedAt && (
         <>
-          <TimeAgo iso={post.publishedAt} />
-          <span aria-hidden="true">·</span>
+          <TimeAgo iso={post.publishedAt} />{' '}
+          <span aria-hidden="true">· </span>
         </>
       )}
-      <span>{formatLine(post)}</span>
+      {formatLine(post)}
     </p>
   );
 }
@@ -257,7 +257,7 @@ export function PhotoPortal({
         </div>
         <div className="depth-2 absolute inset-x-0 bottom-0 p-6 md:p-7">
           <span aria-hidden="true" className="mb-4 block h-[3px] w-10 rounded-full" style={{ background: desk.accent }} />
-          <span className={`block font-extrabold tracking-[-0.03em] ${large ? 'text-4xl md:text-5xl' : 'text-3xl'}`}>
+          <span className={`block font-serif font-bold tracking-[-0.03em] ${large ? 'text-4xl md:text-5xl' : 'text-3xl'}`}>
             {desk.name}
           </span>
           <span className="mt-2 flex items-center gap-2 text-ink-2">

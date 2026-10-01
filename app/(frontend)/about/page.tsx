@@ -33,7 +33,7 @@ const FACTS = [
 export default function AboutPage() {
   return (
     <>
-      <section className="container-page grid gap-10 pb-16 pt-14 md:grid-cols-[1.1fr_0.9fr] md:items-end md:pb-24 md:pt-20">
+      <section data-pagefind-body className="container-page grid gap-10 pb-16 pt-14 md:grid-cols-[1.1fr_0.9fr] md:items-end md:pb-24 md:pt-20">
         <div className="hero-in">
           <h1 className="display text-[clamp(2.75rem,6vw,5rem)]">A newsroom that shows its work.</h1>
           <p className="mt-6 max-w-[40ch] text-lg text-ink-2 md:text-xl">
@@ -51,11 +51,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section aria-label="About Nuvoxsaga" className="border-t border-hairline">
+      <section aria-label="About Nuvoxsaga" data-pagefind-body className="border-t border-hairline">
         <dl className="container-page grid gap-x-16 gap-y-12 py-20 md:grid-cols-2 md:py-28">
           {FACTS.map((f) => (
             <div key={f.title} className="reveal">
-              <dt className="text-2xl font-bold tracking-[-0.02em]">{f.title}</dt>
+              <dt className="font-serif text-2xl font-bold tracking-[-0.02em]">{f.title}</dt>
               <dd className="mt-3 max-w-[52ch] text-lg text-ink-2">{f.body}</dd>
             </div>
           ))}

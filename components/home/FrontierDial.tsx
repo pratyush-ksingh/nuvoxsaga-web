@@ -38,6 +38,26 @@ export function FrontierDial({ data }: { data: DialData }) {
     <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,34rem)_1fr] lg:gap-16">
       <figure className="dial relative mx-auto w-full max-w-[34rem]" style={{ ['--now' as string]: `${data.nowAngle}deg` }}>
         <div aria-hidden="true" className="dial-sweep absolute inset-[7%] rounded-full" />
+        {/* One orbit per desk, each its own layer so the drift runs on the compositor. */}
+        {BRANDS.map((b, i) => (
+          <svg
+            key={b.id}
+            aria-hidden="true"
+            viewBox={`0 0 ${SIZE} ${SIZE}`}
+            className={`orbit orbit-${i} absolute inset-0 size-full`}
+          >
+            <circle
+              cx={C}
+              cy={C}
+              r={RADII[i]}
+              fill="none"
+              stroke={DESKS[b.id].accent}
+              strokeOpacity={0.45}
+              strokeWidth={1.25}
+              strokeDasharray="1.5 6"
+            />
+          </svg>
+        ))}
         <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="relative block w-full" role="group" aria-label={`Stories published, ${data.label.toLowerCase()}, by time of day in UTC`}>
           {/* Hour ticks: 24 around the outside, labels every six hours. */}
           <g aria-hidden="true">
@@ -57,24 +77,6 @@ export function FrontierDial({ data }: { data: DialData }) {
                 </text>
               );
             })}
-          </g>
-
-          {/* One orbit per desk. */}
-          <g aria-hidden="true">
-            {BRANDS.map((b, i) => (
-              <circle
-                key={b.id}
-                cx={C}
-                cy={C}
-                r={RADII[i]}
-                fill="none"
-                stroke={DESKS[b.id].accent}
-                strokeOpacity={0.45}
-                strokeWidth={1.25}
-                strokeDasharray="1.5 6"
-                className={`orbit orbit-${i}`}
-              />
-            ))}
           </g>
 
           {/* Edition hand: when this page was built. */}

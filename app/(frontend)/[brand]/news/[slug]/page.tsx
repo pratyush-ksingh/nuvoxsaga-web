@@ -132,9 +132,10 @@ export default async function StoryPage({ params }: Props) {
     <BrandProvider brand={brand.id}>
       <JsonLd schemas={schemas} />
 
-      <article className="container-page pb-24 pt-10 md:pt-14">
+      {/* data-pagefind-body: search indexes this story only, not the related cards below it. */}
+      <article data-pagefind-body className="container-page pb-24 pt-10 md:pt-14">
         <header className="mx-auto max-w-[46rem]">
-          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-sm font-medium">
+          <nav aria-label="Breadcrumb" data-pagefind-ignore className="flex flex-wrap items-center gap-2 text-sm font-medium">
             {/* desk.accent, not text-brand: the raw World crimson fails 4.5:1 on the canvas. */}
             <Link href={`/${brand.slug}`} className="hover:underline hover:underline-offset-4" style={{ color: desk.accent }}>
               {desk.name}
@@ -297,7 +298,7 @@ function StoryRail({ post, deskName, deskHref }: { post: PublicPost; deskName: s
     ['Email', `mailto:?subject=${encodeURIComponent(post.title)}&body=${encodeURIComponent(url)}`],
   ];
   return (
-    <aside aria-label="About this story" className="absolute inset-y-0 left-0 hidden w-[calc((100%-46rem)/2-3rem)] xl:block">
+    <aside aria-label="About this story" data-pagefind-ignore className="absolute inset-y-0 left-0 hidden w-[calc((100%-46rem)/2-3rem)] xl:block">
       <div className="sticky top-24 flex flex-col gap-7 border-t border-hairline pt-5 text-sm">
         {claims > 0 && (
           <a href={anchor} className="group block">
