@@ -84,3 +84,6 @@ graphify-out/
 /content/posts/
 /public/media/*
 !/public/media/sections/
+
+# IndexNow: URLs already submitted (scripts/indexnow.mjs)
+/.indexnow-sent.json
