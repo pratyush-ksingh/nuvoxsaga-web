@@ -13,6 +13,7 @@ import Link from 'next/link';
 import { ArrowRight, CirclePlay } from 'lucide-react';
 import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
+import { X_HANDLE, X_URL } from '@/lib/social';
 import type { PublicPost } from '@/lib/content';
 import type { Ledger } from '@/lib/ledger';
 import { HeadlineList } from '@/components/news/StoryCards';
@@ -144,6 +145,15 @@ export function Rail({
             ))}
           </ul>
           <p className="mt-3 text-xs text-ink-3">Daily shorts on YouTube, one channel per desk.</p>
+          <a
+            href={X_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 flex items-center justify-between gap-4 border-t border-hairline pt-4 text-sm text-ink-2 hover:text-ink"
+          >
+            Follow the newsroom on X
+            <span className="data text-ink-3">@{X_HANDLE}</span>
+          </a>
         </section>
       )}
 
