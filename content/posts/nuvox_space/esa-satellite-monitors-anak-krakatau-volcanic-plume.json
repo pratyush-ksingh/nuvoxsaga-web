@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-satellite-monitors-anak-krakatau-volcanic-plume",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "ESA satellite monitors Anak Krakatau volcanic plume",
+  "excerpt": "The EarthCARE satellite provided atmospheric data to assist aviation safety following the eruption of Anak Krakatau in Indonesia.",
+  "bodyHtml": "<p>The European Space Agency announced on October 1, 2026, that its EarthCARE satellite captured vertical profiles of the volcanic plume from Anak Krakatau following the eruption that began on 4 September. The satellite utilized its atmospheric lidar, known as ATLID, to measure aerosol concentrations and altitudes.</p>\n<p>The Australian Bureau of Meteorology, which operates the Darwin Volcanic Ash Advisory Centre, incorporated the EarthCARE data into its monitoring tools to verify the altitude of the plume. The Darwin VAAC is responsible for providing aviation advice for a specific part of the globe.</p>\n<p>Scientists are using the measurements to study volcanic ash dispersion and the impact of aerosols on the climate system. Researchers are also investigating the potential for large ash particles to remain aloft for longer periods than previously assumed.</p>\n<p>The EarthCARE satellite carries four instruments, including the cloud profiling radar, the multispectral imager, and the broadband radiometer. These instruments work in synergy to measure clouds and aerosols to deepen the understanding of how they regulate the energy balance of Earth.</p>",
+  "publishedAt": "2026-10-01T12:02:11Z",
+  "updatedAt": "2026-10-01T12:02:11Z",
+  "wordCount": 169,
+  "readingTimeMin": 1,
+  "topic": "EarthCARE’s view of volcanic plume boosts air safety",
+  "tags": [
+    "EarthCARE",
+    "Anak Krakatau",
+    "ESA"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE/EarthCARE_s_view_of_volcanic_plume_boosts_air_safety"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The EarthCARE satellite monitored the Anak Krakatau volcanic plume.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The EarthCARE satellite provided atmospheric data to assist aviation safety following the eruption of Anak Krakatau in Indonesia.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 1, 2026, that its EarthCARE satellite captured vertical profiles of the volcanic plume from Anak Krakatau.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The eruption of Anak Krakatau began on 4 September.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite utilized its atmospheric lidar, known as ATLID, to measure aerosol concentrations and altitudes.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Australian Bureau of Meteorology (BOM) operates the Darwin Volcanic Ash Advisory Centre (VAAC).",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Australian Bureau of Meteorology incorporated EarthCARE data into its monitoring tools to verify the altitude of the plume.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Darwin VAAC is responsible for providing aviation advice for a specific part of the globe.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Scientists are using the measurements to study volcanic ash dispersion and the impact of aerosols on the climate system.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Researchers are investigating the potential for large ash particles to remain aloft for longer periods than previously assumed.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The EarthCARE satellite carries four instruments, including the cloud profiling radar, the multispectral imager, and the broadband radiometer.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "EarthCARE's instruments work in synergy to measure clouds and aerosols to deepen the understanding of how they regulate the energy balance of Earth.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

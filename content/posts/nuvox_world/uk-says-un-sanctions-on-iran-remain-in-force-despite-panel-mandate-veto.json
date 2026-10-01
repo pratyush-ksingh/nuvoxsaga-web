@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-3.webp",
+    "alt": "Illustration: aerial view of a port city by a turquoise sea, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-says-un-sanctions-on-iran-remain-in-force-despite-panel-mandate-veto",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "UK says UN sanctions on Iran remain in force despite panel mandate veto",
+  "excerpt": "The UK stated that the Iran Panel of Experts will no longer operate after two permanent Security Council members vetoed the renewal of its mandate.",
+  "bodyHtml": "<p>The United Kingdom announced on October 1, 2026, that a Security Council resolution to renew the mandate for the Iran Panel of Experts was vetoed by two permanent members. Ambassador Sarah MacIntosh, UK Permanent Representative to the UN, stated that these vetoes mean the Iran Panel of Experts will no longer operate.</p>\n<p>The UK government said this will make it harder for the Security Council to discharge its responsibility for the maintenance of international peace and security in respect of Iran’s nuclear programme. The UK stated that Iran has accumulated more than 400 kilograms of uranium enriched to 60% and that Iran is the only state without nuclear weapons to enrich uranium to this level.</p>\n<p>According to the UK, Iran has failed to cooperate with the International Atomic Energy Agency and has denied inspectors access to key facilities. The UK government stated that despite these vetoes of the Panel of Experts’ mandate, UN sanctions on Iranian proliferation remain fully in force and are binding on every Member State.</p>",
+  "publishedAt": "2026-10-01T16:09:02Z",
+  "updatedAt": "2026-10-01T16:09:02Z",
+  "wordCount": 168,
+  "readingTimeMin": 1,
+  "topic": "Despite these vetoes of the Panel of Experts’ mandate, UN sanctions on Iranian proliferation remain fully in force: UK statement at the UN General Assembly",
+  "tags": [
+    "UN",
+    "Iran",
+    "UK"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/speeches/despite-these-vetoes-of-the-panel-of-experts-mandate-un-sanctions-on-iranian-proliferation-remain-fully-in-force-uk-statement-at-the-un-general-assemb"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK said UN sanctions on Iran remain in force despite a panel mandate veto.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK stated that the Iran Panel of Experts will no longer operate after two permanent Security Council members vetoed the renewal of its mandate.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom announced on October 1, 2026, that a Security Council resolution to renew the mandate for the Iran Panel of Experts was vetoed by two permanent members.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Ambassador Sarah MacIntosh, UK Permanent Representative to the UN, stated that these vetoes mean the Iran Panel of Experts will no longer operate.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government said this will make it harder for the Security Council to discharge its responsibility for the maintenance of international peace and security in respect of Iran’s nuclear programme.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK stated that Iran has accumulated more than 400 kilograms of uranium enriched to 60%.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK stated that Iran is the only state without nuclear weapons to enrich uranium to this level.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "According to the UK, Iran has failed to cooperate with the International Atomic Energy Agency and has denied inspectors access to key facilities.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government stated that despite these vetoes of the Panel of Experts’ mandate, UN sanctions on Iranian proliferation remain fully in force and are binding on every Member State.",
+      "source": "The UK government"
+    }
+  ]
+}

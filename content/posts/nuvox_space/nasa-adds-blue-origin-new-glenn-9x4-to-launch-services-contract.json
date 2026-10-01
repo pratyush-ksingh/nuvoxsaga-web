@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-2.webp",
+    "alt": "Illustration: rows of small satellites in a factory under white light",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA adds Blue Origin New Glenn 9x4 to launch services contract",
+  "excerpt": "The addition allows the launch vehicle to be used for future missions under the agency's existing contract framework.",
+  "bodyHtml": "<p>NASA announced on September 29, 2026, that it has added Blue Origin’s New Glenn 9×4 launch service to the NASA Launch Services (NLS) II contract. This action was taken in accordance with an on-ramp clause included in the contract.</p>\n<p>The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts with an ordering period through June 2030, and an overall period of performance through December 2032. The on-ramp provision provides an opportunity annually for new launch service providers to compete for future missions and allows existing contractors to introduce launch vehicles not currently on their NLS II contracts.</p>\n<p>The NLS II contracts support the goals and objectives of the agency’s Human Spaceflight Mission Directorate, Science Mission Directorate, and the Research and Technology Mission Directorate. Under the contract, NASA also can provide launch services to other government agencies, such as the National Oceanic and Atmospheric Administration.</p>\n<p>NASA’s Launch Services Program Office at the agency’s Kennedy Space Center in Florida manages the NLS II contracts.</p>",
+  "publishedAt": "2026-10-01T12:03:16Z",
+  "updatedAt": "2026-10-01T12:03:16Z",
+  "wordCount": 160,
+  "readingTimeMin": 1,
+  "topic": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
+  "tags": [
+    "NASA",
+    "Blue Origin",
+    "New Glenn"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA adds Blue Origin New Glenn 9x4 to launch services contract.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The addition allows the launch vehicle to be used for future missions under the agency's existing contract framework.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on September 29, 2026, that it has added Blue Origin’s New Glenn 9×4 launch service to the NASA Launch Services (NLS) II contract.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The action to add the launch service was taken in accordance with an on-ramp clause included in the contract.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The ordering period for NLS II contracts is through June 2030.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The overall period of performance for NLS II contracts is through December 2032.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The on-ramp provision provides an opportunity annually for new launch service providers to compete for future missions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The on-ramp provision allows existing contractors to introduce launch vehicles not currently on their NLS II contracts.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The NLS II contracts support the goals and objectives of the agency’s Human Spaceflight Mission Directorate.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The NLS II contracts support the goals and objectives of the agency’s Science Mission Directorate.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The NLS II contracts support the goals and objectives of the agency’s Research and Technology Mission Directorate.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Under the contract, NASA also can provide launch services to other government agencies, such as the National Oceanic and Atmospheric Administration.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA’s Launch Services Program Office at the agency’s Kennedy Space Center in Florida manages the NLS II contracts.",
+      "source": "NASA"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-1.webp",
+    "alt": "Illustration: laboratory test tubes in a rack under cool light",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-committee-adopts-draft-resolution-on-cop31-priorities",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "European Parliament committee adopts draft resolution on COP31 priorities",
+  "excerpt": "The Environment Committee voted 50 to 16 to support a faster fossil fuel phase-out and increased climate finance ahead of the November conference in Antalya.",
+  "bodyHtml": "<p>The Committee on the Environment, Climate and Food Safety of the European Parliament adopted a draft resolution on October 1, 2026, outlining priorities for the UN Climate Change Conference (COP31) scheduled for 9-20 November in Antalya, Türkiye. The committee approved the text by 50 votes to 16 with 3 abstentions.</p>\n<p>The resolution calls for an accelerated transition away from fossil fuels and an increase in climate finance for vulnerable countries. MEPs urged the European Union to lead negotiations toward a fossil fuel non-proliferation treaty and requested time-bound plans to phase out fossil fuel subsidies and production. The committee also noted that preliminary data shows EU emissions rose by 1% between 2024 and 2025.</p>\n<p>The full European Parliament is scheduled to vote on the final resolution during its 19-22 October plenary session. A delegation of 15 MEPs, headed by Lídia Pereira, will attend the climate talks from 16 to 20 November.</p>\n<p>The committee also called for the rapid scaling-up of predictable and accessible finance for the fund for responding to loss and damage, and for all parties to deliver on the goal of tripling adaptation finance by 2035.</p>",
+  "publishedAt": "2026-10-01T16:12:08Z",
+  "updatedAt": "2026-10-01T16:12:08Z",
+  "wordCount": 187,
+  "readingTimeMin": 1,
+  "topic": "Press release - COP31: Environment MEPs set out priorities ahead of Antalya climate summit",
+  "tags": [
+    "European Parliament",
+    "COP31",
+    "climate change"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20260928IPR47822/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The Environment Committee (Committee on the Environment, Climate and Food Safety) adopted a draft resolution on COP31 priorities on October 1, 2026.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The vote was 50 to 16 with 3 abstentions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "COP31 is scheduled for 9-20 November in Antalya, Türkiye.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The resolution/committee supports a faster fossil fuel phase-out and increased climate finance (headline and dek), including for vulnerable countries.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs urged the EU to lead negotiations toward a fossil fuel non-proliferation treaty.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs requested time-bound plans to phase out fossil fuel subsidies and production.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The committee noted preliminary data showing EU emissions rose by 1% between 2024 and 2025.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The full Parliament is scheduled to vote on the final resolution during its 19-22 October plenary session.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "A delegation of 15 MEPs headed by Lídia Pereira will attend the climate talks from 16 to 20 November.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The committee called for rapid scaling-up of predictable and accessible finance for the loss and damage fund, and for all parties to deliver on tripling adaptation finance by 2035.",
+      "source": "The European Parliament"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-announces-31-new-sanctions-against-russia",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK announces 31 new sanctions against Russia",
+  "excerpt": "The measures target shadow fleet vessels, disinformation networks, and individuals involved in human rights abuses.",
+  "bodyHtml": "<p>The UK government announced a package of 31 sanctions against Russia on October 1, 2026. The measures target liquefied natural gas shadow fleet vessels, Kremlin disinformation networks, and individuals identified as perpetrators of civilian torture and child indoctrination.</p>\n<p>The package includes 23 individuals and entities that will be subject to asset freezes, trust services sanctions, and director disqualification sanctions. The individuals named in the package will also face travel bans. Additionally, eight ships are subject to shipping and trade sanctions, including three shadow fleet vessels, two vessels providing bunkering services, and three Russian-owned ice-class vessels.</p>\n<p>The UK government stated that these measures follow reports of Russia firing over 3,100 jet powered drones into Ukraine in September. The government also noted that the sanctions are intended to address the activities of a network of bot farms and trolls used to target democratic processes and spread disinformation.</p>",
+  "publishedAt": "2026-10-01T12:07:21Z",
+  "updatedAt": "2026-10-01T12:07:21Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "New UK sanctions target Kremlin war chest, propagandists and torturers",
+  "tags": [
+    "UK",
+    "Russia",
+    "sanctions"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/new-uk-sanctions-target-kremlin-war-chest-propagandists-and-torturers"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK announced 31 new sanctions against Russia.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The measures target shadow fleet vessels, disinformation networks, and individuals involved in human rights abuses.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced a package of 31 sanctions against Russia on October 1, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The sanctions target liquefied natural gas shadow fleet vessels, Kremlin disinformation networks, and individuals identified as perpetrators of civilian torture and child indoctrination.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The package includes 23 individuals and entities that will be subject to asset freezes, trust services sanctions, and director disqualification sanctions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The individuals named in the package will also face travel bans.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Eight ships are subject to shipping and trade sanctions, including three shadow fleet vessels, two vessels providing bunkering services, and three Russian-owned ice-class vessels.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government stated that these measures follow Russia firing over 3,100 jet powered drones into Ukraine in September.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government noted that the sanctions are intended to address the activities of a network of bot farms and trolls used to target democratic processes and spread disinformation.",
+      "source": "The UK government"
+    }
+  ]
+}

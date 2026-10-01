@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-publishes-guidance-for-mental-health-support-in-iceland",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government publishes guidance for mental health support in Iceland",
+  "excerpt": "The guidance outlines emergency procedures and medical access for British nationals experiencing mental health difficulties while in Iceland.",
+  "bodyHtml": "<p>On October 1, 2026, the UK government released guidance regarding mental health support for British nationals in Iceland. The document provides information on accessing emergency medical care, including instructions to call 112 for urgent assistance from the police or an ambulance.</p>\n<p>The guidance clarifies that UK mental health laws are not transferable to Iceland. It notes that individuals in Iceland may be subject to involuntary commitment, known locally as nauðungarvistun, if legal criteria are met. The government advises that hospital bills and medical fees can be high without adequate travel insurance.</p>\n<p>British nationals are advised to bring enough regular medication to last for their stay and to bring a copy of their prescription. For further support, the guidance lists the Icelandic Red Cross helpline at 1717 and local health services as resources for those in need.</p>",
+  "publishedAt": "2026-10-01T12:06:55Z",
+  "updatedAt": "2026-10-01T12:06:55Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "Mental health support for British nationals in Iceland",
+  "tags": [
+    "Iceland",
+    "mental health",
+    "UK government"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/mental-health-support-for-british-nationals-in-iceland"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government published guidance for mental health support in Iceland.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance outlines emergency procedures and medical access for British nationals experiencing mental health difficulties while in Iceland.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "On October 1, 2026, the UK government released guidance regarding mental health support for British nationals in Iceland.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The document provides information on accessing emergency medical care, including instructions to call 112 for urgent assistance from the police or an ambulance.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance clarifies that UK mental health laws are not transferable to Iceland.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance notes that individuals in Iceland may be subject to involuntary commitment, known locally as nauðungarvistun, if legal criteria are met.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government advises that hospital bills and medical fees can be high in Iceland without adequate travel insurance.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "British nationals are advised to bring enough regular medication to last for their stay and to bring a copy of their prescription.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "For further support, the guidance lists the Icelandic Red Cross helpline at 1717 and local health services as resources for those in need.",
+      "source": "The UK government"
+    }
+  ]
+}

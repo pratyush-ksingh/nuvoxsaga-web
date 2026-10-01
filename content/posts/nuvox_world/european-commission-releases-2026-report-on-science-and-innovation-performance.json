@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-releases-2026-report-on-science-and-innovation-performance",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission releases 2026 report on science and innovation performance",
+  "excerpt": "The report identifies a need for 560 billion euros in additional investment to meet research and development spending targets by 2030.",
+  "bodyHtml": "<p>The European Commission published the 2026 edition of the Science, Research and Innovation Performance of the EU report on October 1, 2026. The document provides an assessment of the research and innovation landscape across the European Union.</p>\n<p>The report states that the European Union requires an estimated 560 billion euros in additional investment to reach its goal of spending 3% of GDP on research and development by 2030. It identifies challenges including fragmentation of efforts across regions and institutions, as well as difficulties in scaling up innovation for technologies such as artificial intelligence and semiconductors.</p>\n<p>To address these challenges, the Commission has proposed a stronger research and innovation budget for 2028-2034. Additionally, the Commission is preparing a European Research Area Act to strengthen coordination between EU and national research and innovation priorities, improve investment planning and remove the remaining barriers to the circulation of knowledge and talent.</p>",
+  "publishedAt": "2026-10-01T16:09:38Z",
+  "updatedAt": "2026-10-01T16:09:38Z",
+  "wordCount": 147,
+  "readingTimeMin": 1,
+  "topic": "Europe must scale up research and innovation to remain competitive, new Commission report says",
+  "tags": [
+    "European Commission",
+    "research",
+    "innovation"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2041"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission released its 2026 report on science and innovation performance.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The report identifies a need for 560 billion euros in additional investment to meet research and development spending targets by 2030.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission published the 2026 edition of the Science, Research and Innovation Performance of the EU report on October 1, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The document provides an assessment of the research and innovation landscape across the European Union.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The report states that the European Union requires an estimated 560 billion euros in additional investment to reach its goal of spending 3% of GDP on research and development by 2030.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The report identifies challenges including fragmentation of efforts across regions and institutions, as well as difficulties in scaling up innovation for technologies such as artificial intelligence and semiconductors.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "To address these challenges, the Commission has proposed a stronger research and innovation budget for 2028-2034.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission is preparing a European Research Area Act to strengthen coordination between EU and national research and innovation priorities, improve investment planning, and remove remaining barriers to the circulation of knowledge and talent.",
+      "source": "The European Commission"
+    }
+  ]
+}

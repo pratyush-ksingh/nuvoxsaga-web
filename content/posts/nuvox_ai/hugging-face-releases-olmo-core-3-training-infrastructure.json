@@ -1,0 +1,73 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-olmo-core-3-training-infrastructure",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face releases Olmo-core 3 training infrastructure",
+  "excerpt": "The framework features a redesigned open mixture-of-experts training system designed for trillion-parameter scaling.",
+  "bodyHtml": "<p>Hugging Face released Olmo-core 3 on October 1, 2026, introducing a redesigned open mixture-of-experts training system for developing large language models. The framework is designed to scale mixture-of-expert training into the trillion-parameter range while preserving computational efficiency.</p>\n<p>The new infrastructure switches from a fully sharded data parallelism configuration to a system based on distributed data parallelism. This approach keeps experts resident on GPUs and routes the relevant data to them, avoiding repeated weight gathering. In a preliminary test on eight NVIDIA B300 GPUs, a 47-billion-parameter mixture-of-expert model processed 52,000 tokens per second per GPU with the new stack, compared with 19,400 using the earlier implementation.</p>\n<p>Olmo-core 3 also supports MXFP8, a lower-precision number format that represents some values with fewer bits. In a controlled benchmark on four NVIDIA B300 GPUs, training throughput was about 21% higher than with BF16, while peak active memory fell from 103 GiB to 95 GiB. The system has been benchmarked at over one trillion total parameters.</p>",
+  "publishedAt": "2026-10-01T16:05:14Z",
+  "updatedAt": "2026-10-01T16:05:14Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+  "tags": [
+    "Hugging Face",
+    "NVIDIA"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/allenai/olmocore3"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released Olmo-core 3 training infrastructure.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework features a redesigned open mixture-of-experts training system designed for trillion-parameter scaling.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face released Olmo-core 3 on October 1, 2026, introducing a redesigned open mixture-of-experts training system for developing large language models.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework is designed to scale mixture-of-experts training into the trillion-parameter range while preserving computational efficiency.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The new infrastructure switches from a fully sharded data parallelism configuration to a system based on distributed data parallelism.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The distributed data parallelism approach keeps experts resident on GPUs and routes the relevant data to them, avoiding repeated weight gathering.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "In a preliminary test on eight NVIDIA B300 GPUs, a 47-billion-parameter mixture-of-experts model processed 52,000 tokens per second per GPU with the new stack, compared with 19,400 using the earlier implementation.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Olmo-core 3 supports MXFP8, a lower-precision number format that represents some values with fewer bits.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "In a controlled benchmark on four NVIDIA B300 GPUs, training throughput was about 21% higher with MXFP8 than with BF16, while peak active memory fell from 103 GiB to 95 GiB.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system has been benchmarked at over one trillion total parameters.",
+      "source": "Hugging Face"
+    }
+  ]
+}

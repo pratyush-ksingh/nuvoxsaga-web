@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-launches-overlap-zoo-citizen-science-project",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA launches Overlap Zoo citizen science project",
+  "excerpt": "The project seeks public assistance in identifying overlapping galaxy pairs to help astronomers study cosmic dust.",
+  "bodyHtml": "<p>NASA announced the launch of the Overlap Zoo project on September 30, 2026. The project invites volunteers to help identify and classify pairs of galaxies that appear to overlap from the perspective of Earth or space telescopes.</p>\n<p>According to project lead Trevor Butrum, the initiative aims to create a catalog of galaxy pairs to assist in mapping the distribution of dust within galaxies. Volunteers will review images previously identified by the Galaxy Zoo project to verify the presence of galaxy pairs and mark their features.</p>\n<p>The project states that backlit dust creates dark silhouettes, which allow astronomers to map how dust is distributed throughout galaxies. These measurements help astronomers learn how dust blocks, scatters, and dims starlight traveling through space.</p>\n<p>Measurements of how dust impacts light can even help astronomers refine estimates of the distances to faraway objects. The project is open to anyone with an internet-connected computer.</p>",
+  "publishedAt": "2026-10-01T12:02:37Z",
+  "updatedAt": "2026-10-01T12:02:37Z",
+  "wordCount": 148,
+  "readingTimeMin": 1,
+  "topic": "Help Overlap Zoo Reveal Cosmic Dust",
+  "tags": [
+    "NASA",
+    "Overlap Zoo",
+    "Galaxy Zoo"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/get-involved/citizen-science/help-overlap-zoo-reveal-cosmic-dust/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA launched the Overlap Zoo citizen science project.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The project seeks public assistance in identifying overlapping galaxy pairs to help astronomers study cosmic dust.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the launch of the Overlap Zoo project on September 30, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The project invites volunteers to help identify and classify pairs of galaxies that appear to overlap from the perspective of Earth or space telescopes.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Trevor Butrum is the Overlap Zoo project lead.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Trevor Butrum is a graduate student.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The initiative aims to create a catalog of galaxy pairs to assist in mapping the distribution of dust within galaxies.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Volunteers will review images previously identified by the Galaxy Zoo project.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Volunteers will verify the presence of galaxy pairs and mark their features.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Backlit dust creates dark silhouettes.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Silhouettes allow astronomers to map how dust is distributed throughout galaxies.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Measurements of dust help astronomers learn how it blocks, scatters, and dims starlight traveling through space.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Measurements of how dust impacts light can help astronomers refine estimates of the distances to faraway objects.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The project is open to anyone with an internet-connected computer.",
+      "source": "NASA"
+    }
+  ]
+}
