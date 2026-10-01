@@ -6,6 +6,7 @@
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { SkipToContent } from '@/components/SkipToContent';
+import { RelativeTimes } from '@/components/RelativeTimes';
 
 export default function FrontendLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -16,6 +17,7 @@ export default function FrontendLayout({ children }: { children: React.ReactNode
         {children}
       </main>
       <SiteFooter />
+      <RelativeTimes />
     </>
   );
 }

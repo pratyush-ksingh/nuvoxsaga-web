@@ -39,7 +39,7 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
   return (
     <BrandProvider brand={brand}>
       <DeskHeader brand={brand} />
-      {page === 1 && <WireTicker posts={all.slice(0, 12)} showDesk={false} />}
+      {page === 1 && <WireTicker posts={all.slice(0, 8)} showDesk={false} />}
       <div className={`container-page pt-8 md:pt-10 ${shelf.length > 0 ? 'pb-16 md:pb-20' : 'pb-24'}`}>
         {all.length === 0 ? (
           <EmptyDesk label={desk.name} />

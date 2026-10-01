@@ -59,7 +59,7 @@ export default function Home() {
   const features = all.filter((p) => p.kind === 'feature' && !topIds.has(p.id)).slice(0, 8);
   const shelf = features.length >= 3 ? features : [];
   const onShelf = new Set(shelf.map((p) => p.id));
-  const latest = rest.filter((p) => !onShelf.has(p.id)).slice(0, 14);
+  const latest = rest.filter((p) => !onShelf.has(p.id)).slice(0, 10);
   const topics = trendingTopics();
   // The page is rebuilt on every publish: the build time is the edition time.
   const edition = new Date();
@@ -77,7 +77,7 @@ export default function Home() {
       {/* 0. Nameplate and the wire */}
       <Masthead edition={edition} weekCount={weekCount} />
       <div className="mt-8">
-        <WireTicker posts={all.slice(0, 12)} />
+        <WireTicker posts={all.slice(0, 8)} />
       </div>
 
       {/* 1. Top stories across the three desks */}
