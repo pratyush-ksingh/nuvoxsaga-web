@@ -4,13 +4,14 @@
  * once the desk has 3+ features; every page then runs the "Latest" river with a sidebar
  * of the desk's recent features. Same blocks as the home page (components/home).
  */
-import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { BRAND_BY_ID, type BrandId } from '@/lib/brands';
 import { DESKS, PAGE_SIZE } from '@/lib/desks';
 import { fetchAllPostsForBrand, splitTop, type PublicPost } from '@/lib/content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
-import { HeadlineList, River } from '@/components/news/StoryCards';
+import { River } from '@/components/news/StoryCards';
+import { Rail } from '@/components/news/Rail';
+import { ledger } from '@/lib/ledger';
 import { FeatureShelf, HeroStage, WireTicker } from '@/components/home/HomeFront';
 import { DeskHeader, EmptyDesk, Pager } from '@/components/news/DeskChrome';
 
@@ -57,7 +58,7 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
                 )}
                 <Pager base={`/${b.slug}`} page={page} pages={pages} />
               </section>
-              <Sidebar brand={brand} features={features} />
+              <Sidebar brand={brand} features={features} posts={all} />
             </div>
           </>
         )}
@@ -67,18 +68,10 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
   );
 }
 
-function Sidebar({ brand, features }: { brand: BrandId; features: PublicPost[] }) {
+function Sidebar({ brand, features, posts }: { brand: BrandId; features: PublicPost[]; posts: PublicPost[] }) {
   const b = BRAND_BY_ID[brand];
   return (
-    <aside className="flex flex-col gap-12 lg:sticky lg:top-24 lg:self-start">
-      {features.length > 0 && (
-        <section aria-labelledby="features-title">
-          <h2 id="features-title" className="border-b border-hairline pb-3 text-lg font-bold">
-            Features and explainers
-          </h2>
-          <HeadlineList posts={features} />
-        </section>
-      )}
+    <Rail ledger={ledger(posts, new Date())} features={features} accent={DESKS[brand].accent}>
       <section aria-labelledby="watch-title" className="rounded-2xl border border-hairline bg-surface p-6">
         <h2 id="watch-title" className="text-lg font-bold">
           Watch {b.name}
@@ -93,12 +86,6 @@ function Sidebar({ brand, features }: { brand: BrandId; features: PublicPost[] }
           Open on YouTube <ArrowUpRight aria-hidden="true" size={15} />
         </a>
       </section>
-      <p className="text-sm text-ink-3">
-        How we check stories:{' '}
-        <Link href="/standards" className="text-ink-2 underline underline-offset-4 hover:text-ink">
-          editorial standards
-        </Link>
-      </p>
-    </aside>
+    </Rail>
   );
 }

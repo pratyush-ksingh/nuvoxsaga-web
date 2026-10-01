@@ -81,6 +81,17 @@ One documented rule: media frames and tiles 16px; buttons, inputs and pills full
   window widens from 24 hours to 3 or 7 days until it holds 6 stories. Pointing or
   tabbing shows the story in the readout; every point is a link. Orbit lines drift, points
   never move; a faint sweep trails the edition hand. Data only, never decoration.
+- **Rail (proof, not promotion)**: the sticky column beside a river on home, desk fronts,
+  Latest and topic pages (components/news/Rail.tsx). Modules: the ledger (claims checked,
+  sources checked, stories, this week, counted by lib/ledger.ts from the stories' own
+  fact-check records), "Where the news came from" (primary sources of the briefs as thin
+  bars, desk accent on a desk), trending topics, features when there is no shelf, and a
+  one-line newsletter prompt. Researched against NN/g "right-rail blindness": text-first,
+  no graphics competing with the river.
+- **Story rail**: the left margin of a story at 1280px+, sticky beside the body: claim count
+  and source linking to the check, kind and reading time, share links, more from the desk.
+- **Elsewhere on <desk>**: closes every section page with the desk's other sections, each
+  with its story count and newest headline.
 - **Newsletter**: pill email field on `--surface` + primary button, one-line note below.
 
 ## 7. Layout

@@ -10,7 +10,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { BRAND_BY_ID, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { DESKS, findSection } from '@/lib/desks';
 import { fetchAllPostsForBrand, fetchPost, loadAllPosts, storyPath, topicSlug, type PublicPost } from '@/lib/content';
@@ -190,6 +190,9 @@ export default async function StoryPage({ params }: Props) {
           </div>
         )}
 
+        {/* Body to topics, with the story rail in the left margin on wide screens. */}
+        <div className="relative">
+        <StoryRail post={post} deskName={desk.name} deskHref={`/${brand.slug}`} />
         <div
           // Sanitized at build time (lib/sanitize.ts); raw pipeline HTML is never rendered.
           // eslint-disable-next-line react/no-danger -- sanitized at build
@@ -247,6 +250,7 @@ export default async function StoryPage({ params }: Props) {
             )}
           </ul>
         )}
+        </div>
       </article>
 
       {more.length > 0 && (
@@ -264,6 +268,58 @@ export default async function StoryPage({ params }: Props) {
         </section>
       )}
     </BrandProvider>
+  );
+}
+
+/**
+ * Story rail: the left margin of a wide screen, sticky beside the body. Shows how the story
+ * was checked (claim count and source, linking to the full check below), reading time and
+ * share links. Hidden under 1280px, where the margin is too narrow.
+ */
+function StoryRail({ post, deskName, deskHref }: { post: PublicPost; deskName: string; deskHref: string }) {
+  const claims = post.checkedClaims?.length ?? 0;
+  const anchor = post.kind === 'brief' && post.source ? '#source-title' : '#checked-title';
+  const url = `${SITE_URL}${storyPath(post)}`;
+  const share = [
+    ['X', `https://x.com/intent/post?url=${encodeURIComponent(url)}&text=${encodeURIComponent(post.title)}`],
+    ['LinkedIn', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`],
+    ['Email', `mailto:?subject=${encodeURIComponent(post.title)}&body=${encodeURIComponent(url)}`],
+  ];
+  return (
+    <aside aria-label="About this story" className="absolute inset-y-0 left-0 hidden w-[calc((100%-46rem)/2-3rem)] xl:block">
+      <div className="sticky top-24 flex flex-col gap-7 border-t border-hairline pt-5 text-sm">
+        {claims > 0 && (
+          <a href={anchor} className="group block">
+            <span className="data block text-[2.4rem] leading-none text-ink">{claims}</span>
+            <span className="mt-2 block text-ink-2 group-hover:text-ink">
+              claims checked{post.kind === 'brief' && post.source ? ` against ${post.source.name}` : ''}
+            </span>
+            <span className="link-arrow mt-2 text-xs text-ink-3 group-hover:text-ink">
+              See the check <ArrowDown aria-hidden="true" size={13} />
+            </span>
+          </a>
+        )}
+        <p className="data text-ink-3">
+          {post.kind === 'brief' ? 'In brief' : 'Feature'}
+          {post.readingTimeMin ? ` · ${post.readingTimeMin} min read` : ''}
+        </p>
+        <div>
+          <p className="text-ink-3">Share</p>
+          <ul className="mt-2 flex flex-col gap-1.5">
+            {share.map(([name, href]) => (
+              <li key={name}>
+                <a href={href} target="_blank" rel="noopener noreferrer" className="text-ink-2 hover:text-ink hover:underline hover:underline-offset-4">
+                  {name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <Link href={deskHref} className="link-arrow text-ink-2">
+          More from {deskName} <ArrowRight aria-hidden="true" size={14} />
+        </Link>
+      </div>
+    </aside>
   );
 }
 

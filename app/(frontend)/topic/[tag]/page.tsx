@@ -1,7 +1,9 @@
 /** /topic/<tag>: every story carrying a tag, across desks. */
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { loadTopics, TOPIC_INDEX_MIN } from '@/lib/content';
+import { loadTopics, trendingTopics, TOPIC_INDEX_MIN } from '@/lib/content';
+import { ledger } from '@/lib/ledger';
+import { Rail } from '@/components/news/Rail';
 import { og } from '@/lib/og';
 import { River } from '@/components/news/StoryCards';
 
@@ -47,8 +49,9 @@ export default async function TopicPage({ params }: Props) {
         {topic.posts.length} {topic.posts.length === 1 ? 'story' : 'stories'}
       </p>
       <h2 className="sr-only">Stories</h2>
-      <div className="mt-10">
+      <div className="mt-10 grid gap-14 lg:grid-cols-[1fr_20rem] lg:gap-16">
         <River posts={topic.posts.slice(0, 100)} />
+        <Rail ledger={ledger(topic.posts, new Date())} topics={trendingTopics().filter((t) => t.slug !== tag)} />
       </div>
     </section>
   );

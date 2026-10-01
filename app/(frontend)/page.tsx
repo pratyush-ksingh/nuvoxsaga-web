@@ -13,6 +13,8 @@ import { DESKS } from '@/lib/desks';
 import { loadAllPosts, splitTop, storyPath, trendingTopics, type PublicPost } from '@/lib/content';
 import { Picture } from '@/components/Picture';
 import { HeadlineList, River } from '@/components/news/StoryCards';
+import { Rail } from '@/components/news/Rail';
+import { ledger } from '@/lib/ledger';
 import { FeatureShelf, HeroStage, PhotoPortal, WireTicker } from '@/components/home/HomeFront';
 import { Masthead } from '@/components/home/Masthead';
 import { FrontierDial } from '@/components/home/FrontierDial';
@@ -112,35 +114,11 @@ export default function Home() {
             </div>
             <River posts={latest} />
           </div>
-          <aside className="flex flex-col gap-12 lg:sticky lg:top-24 lg:self-start">
-            {topics.length > 0 && (
-              <section aria-labelledby="topics-title">
-                <h2 id="topics-title" className="border-b border-hairline pb-3 text-lg font-bold">
-                  Trending topics
-                </h2>
-                <ul className="mt-4 flex flex-wrap gap-2">
-                  {topics.map((t) => (
-                    <li key={t.slug}>
-                      <Link
-                        href={`/topic/${t.slug}`}
-                        className="block rounded-full border border-hairline px-3.5 py-1.5 text-sm text-ink-2 transition-colors duration-150 hover:text-ink"
-                      >
-                        {t.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
-            {shelf.length === 0 && features.length > 0 && (
-              <section aria-labelledby="features-title">
-                <h2 id="features-title" className="border-b border-hairline pb-3 text-lg font-bold">
-                  Features and explainers
-                </h2>
-                <HeadlineList posts={features} numbered />
-              </section>
-            )}
-          </aside>
+          <Rail
+            ledger={ledger(all, edition)}
+            topics={topics}
+            features={shelf.length === 0 ? features : []}
+          />
         </div>
       </section>
 
