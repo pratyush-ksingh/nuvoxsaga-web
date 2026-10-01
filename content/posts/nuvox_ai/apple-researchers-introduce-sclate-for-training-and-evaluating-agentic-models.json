@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "apple-researchers-introduce-sclate-for-training-and-evaluating-agentic-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Apple researchers introduce SCLATE for training and evaluating agentic models",
+  "excerpt": "The new execution substrate compresses month-long scenarios into hours by using a hybrid simulated clock to manage events.",
+  "bodyHtml": "<p>Apple researchers announced SCLATE on September 30, 2026, as an execution substrate designed for training and evaluating continual-learning agents. These agents are systems of models, harnesses, and memory that operate over long multi-session horizons.</p>\n<p>SCLATE functions as an open event scheduler where benchmarks and agents add their events through an adapter. A hybrid simulated clock runs these events on a shared timeline, allowing the system to skip idle gaps and compress a month-long scenario into hours. The platform also acts as a rollout engine that records tokens and log probabilities of model calls through an in-container proxy.</p>\n<p>Researchers ported seven benchmarks to the platform and compared ten unmodified harness and memory configurations. The comparison shows that an added memory system does not reliably beat the harness&#x27;s native memory and that models differ widely in how they use the same harness and memory. When the team used Qwen3.5-4B through unmodified harnesses and memory systems, the model read 6.8× fewer file lines with a 16.7-point higher SWE-bench Verified pass rate, while its held-out MetaClaw accuracy rose by up to 11.8 points.</p>",
+  "publishedAt": "2026-10-01T02:01:47Z",
+  "updatedAt": "2026-10-01T02:01:47Z",
+  "wordCount": 179,
+  "readingTimeMin": 1,
+  "topic": "SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation",
+  "tags": [
+    "Apple",
+    "SCLATE",
+    "Qwen3.5-4B",
+    "Machine Learning"
+  ],
+  "source": {
+    "name": "Apple",
+    "url": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation"
+  },
+  "sources": [
+    "Apple"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Apple researchers introduced SCLATE for training and evaluating agentic models.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The execution substrate compresses month-long scenarios into hours by using a hybrid simulated clock to manage events.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Apple researchers announced SCLATE on September 30, 2026, as an execution substrate designed for training and evaluating continual-learning agents.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Continual-learning agents are systems of models, harnesses, and memory that operate over long multi-session horizons.",
+      "source": "Apple"
+    },
+    {
+      "claim": "SCLATE functions as an open event scheduler where benchmarks and agents add their events through an adapter.",
+      "source": "Apple"
+    },
+    {
+      "claim": "A hybrid simulated clock runs these events on a shared timeline, allowing the system to skip idle gaps and compress a month-long scenario into hours.",
+      "source": "Apple"
+    },
+    {
+      "claim": "SCLATE also acts as a rollout engine that records tokens and log probabilities of model calls through an in-container proxy.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Researchers ported seven benchmarks to the platform and compared ten unmodified harness and memory configurations.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The comparison shows that an added memory system does not reliably beat the harness's native memory and that models differ widely in how they use the same harness and memory.",
+      "source": "Apple"
+    },
+    {
+      "claim": "When the team post-trained Qwen3.5-4B through unmodified harnesses and memory systems, the model read 6.8× fewer file lines with a 16.7-point higher SWE-bench Verified pass rate, while its held-out MetaClaw accuracy rose by up to 11.8 points.",
+      "source": "Apple"
+    }
+  ]
+}

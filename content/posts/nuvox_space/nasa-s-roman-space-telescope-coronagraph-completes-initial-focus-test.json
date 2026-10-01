@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-s-roman-space-telescope-coronagraph-completes-initial-focus-test",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA's Roman Space Telescope coronagraph completes initial focus test",
+  "excerpt": "The instrument, designed to block starlight, performed a limited test to confirm it can produce a focused image in space.",
+  "bodyHtml": "<p>NASA&#x27;s Jet Propulsion Laboratory announced that the Coronagraph Instrument on the Nancy Grace Roman Space Telescope successfully turned on its cameras for the first time in space on Sept. 22, 2026. The instrument was designed and built by the laboratory to test technologies for blocking starlight to view planets and dusty disks around nearby stars.</p>\n<p>The instrument woke up on Sept. 1 and stretched its digital, electronic, and mechanical limbs mid-month. After the team confirmed that the fine-guidance system was holding the instrument steady, scientists adjusted the focus to take a first look at space. Vanessa Bailey, a Roman Coronagraph Instrument scientist at NASA JPL, stated that the observation confirms the instrument can produce a focused image.</p>\n<p>Bailey described the event as a very limited test that kicks off a methodical process of increasingly complex tasks to help prepare for the instrument’s future observations.</p>",
+  "publishedAt": "2026-10-01T02:04:43Z",
+  "updatedAt": "2026-10-01T02:04:43Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Roman Team Snaps Test Coronagraph Image",
+  "tags": [
+    "NASA",
+    "Nancy Grace Roman Space Telescope",
+    "Jet Propulsion Laboratory"
+  ],
+  "source": {
+    "name": "NASA's Jet Propulsion Laboratory",
+    "url": "https://www.jpl.nasa.gov/news/nasas-roman-team-snaps-test-coronagraph-image"
+  },
+  "sources": [
+    "NASA's Jet Propulsion Laboratory"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: NASA's Roman Space Telescope coronagraph completes initial focus test",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Dek: The instrument is designed to block starlight",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Dek: it performed a limited test to confirm it can produce a focused image in space",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "NASA's Jet Propulsion Laboratory announced the news (publisher release)",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The Coronagraph Instrument on the Nancy Grace Roman Space Telescope successfully turned on its cameras for the first time in space on Sept. 22, 2026",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The instrument was designed and built by the laboratory (JPL)",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The instrument will test technologies for blocking starlight to view planets and dusty disks around nearby stars",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The instrument woke up on Sept. 1 and stretched its digital, electronic, and mechanical limbs mid-month",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "After the team confirmed the fine-guidance system was holding the instrument steady, scientists adjusted the focus to take a first look at space",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Vanessa Bailey is a Roman Coronagraph Instrument scientist at NASA JPL and stated the observation confirms the instrument can produce a focused image",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Bailey described the event as a very limited test that kicks off a methodical process of increasingly complex tasks to help prepare for future observations",
+      "source": "NASA's Jet Propulsion Laboratory"
+    }
+  ]
+}

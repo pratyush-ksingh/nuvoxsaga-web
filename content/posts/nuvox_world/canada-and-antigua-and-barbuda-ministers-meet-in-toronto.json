@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-and-antigua-and-barbuda-ministers-meet-in-toronto",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Canada and Antigua and Barbuda ministers meet in Toronto",
+  "excerpt": "Minister of Foreign Affairs Anita Anand and Minister Chet Greene discussed trade, food security, and the upcoming Commonwealth Heads of Government Meeting.",
+  "bodyHtml": "<p>The Government of Canada announced on September 30, 2026, that Minister of Foreign Affairs Anita Anand met with Chet Greene, Antigua and Barbuda’s Minister of Foreign Affairs, Trade and Barbuda Affairs. The meeting occurred on the margins of the Pathways to Peace: Second International Conference on Returning Ukrainian Children, Detained Civilians, and Prisoners of War, held in Toronto on September 28 and 29, 2026.</p>\n<p>The ministers discussed preparations for the 2026 Commonwealth Heads of Government Meeting, which is scheduled to take place in St. John’s, Antigua and Barbuda, from November 1 to 4. Minister Anand highlighted Canada’s support for Antigua and Barbuda’s hosting role and leadership efforts, including capacity-building assistance.</p>\n<p>During the meeting, the ministers exchanged views on opportunities to deepen trade and investment ties between the two countries. Minister Anand also underscored Canada’s interest in supporting Antigua and Barbuda’s agricultural sector and food security goals through Canadian agri-tech solutions, technical expertise and reliable suppliers of high-quality food products.</p>",
+  "publishedAt": "2026-10-01T02:09:39Z",
+  "updatedAt": "2026-10-01T02:09:39Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand meets with Antigua and Barbuda’s Minister of Foreign Affairs, Trade and Barbuda Affairs",
+  "tags": [
+    "Canada",
+    "Antigua and Barbuda",
+    "Commonwealth"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/09/minister-anand-meets-with-antigua-and-barbudas-minister-of-foreign-affairs-trade-and-barbuda-affairs.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Canada and Antigua and Barbuda ministers meet in Toronto",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Dek: Anand and Greene discussed trade, food security, and the upcoming Commonwealth Heads of Government Meeting.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on September 30, 2026 that the meeting took place.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anita Anand is Minister of Foreign Affairs.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Chet Greene is Antigua and Barbuda's Minister of Foreign Affairs, Trade and Barbuda Affairs.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The meeting occurred on the margins of the Pathways to Peace: Second International Conference on Returning Ukrainian Children, Detained Civilians, and Prisoners of War.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The conference was held in Toronto on September 28 and 29, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers discussed preparations for the 2026 Commonwealth Heads of Government Meeting.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The CHOGM is scheduled for St. John's, Antigua and Barbuda, November 1 to 4.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anand highlighted Canada's support for Antigua and Barbuda's hosting role and leadership efforts, including capacity-building assistance.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers exchanged views on opportunities to deepen trade and investment ties between the two countries.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anand underscored Canada's interest in supporting Antigua and Barbuda's agricultural sector and food security goals through Canadian agri-tech solutions, technical expertise and reliable suppliers of high-quality food products.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

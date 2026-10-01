@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/space/nasa-selects-three-new-scientific-investigations-for-moon-base.webp",
+    "alt": "NASA selects three new scientific investigations for Moon Base",
+    "credit": "NASA"
+  },
+  "slug": "nasa-selects-three-new-scientific-investigations-for-moon-base",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA selects three new scientific investigations for Moon Base",
+  "excerpt": "The payloads will monitor the lunar environment, map potential underground shelters, and measure ice deposits.",
+  "bodyHtml": "<p>NASA announced on September 30, 2026, that it has selected three new scientific investigations to support the development of its Moon Base lunar outpost. The payloads were chosen through the Payloads and Research Investigations on the Surface of the Moon program and will be transported to the lunar surface via the Commercial Lunar Payload Services initiative.</p>\n<p>The selected suites include the Lunar Environment Monitoring Station – South Pole, which will track micrometeoroids and seismic events, and the Geophysical Investigation for Mapping Lunar Interior, which will scan the Marius Hills Pit for potential lava tubes. The third payload, the Depth Imager with Spectral and Color Optics, will perform direct measurements of ice in lunar micro-cold traps.</p>\n<p>These instruments are intended to provide data on lunar resources and environmental hazards. The agency plans to use these findings to inform future surface operations and habitat planning for human missions.</p>",
+  "publishedAt": "2026-10-01T02:03:24Z",
+  "updatedAt": "2026-10-01T02:03:24Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "NASA Adds New Science Investigations for Moon Base",
+  "tags": [
+    "NASA",
+    "Moon Base",
+    "Commercial Lunar Payload Services"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-adds-new-science-investigations-for-moon-base/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA selects three new scientific investigations for Moon Base (headline)",
+      "source": "NASA"
+    },
+    {
+      "claim": "The payloads will monitor the lunar environment, map potential underground shelters, and measure ice deposits (dek)",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on September 30, 2026 that it selected three new investigations",
+      "source": "NASA"
+    },
+    {
+      "claim": "The investigations support development of the Moon Base lunar outpost",
+      "source": "NASA"
+    },
+    {
+      "claim": "The payloads were chosen through the Payloads and Research Investigations on the Surface of the Moon program",
+      "source": "NASA"
+    },
+    {
+      "claim": "The payloads will be transported to the lunar surface via the Commercial Lunar Payload Services initiative",
+      "source": "NASA"
+    },
+    {
+      "claim": "LEMS-SP will track micrometeoroids and seismic events",
+      "source": "NASA"
+    },
+    {
+      "claim": "GIMLI will scan the Marius Hills Pit for potential lava tubes",
+      "source": "NASA"
+    },
+    {
+      "claim": "DISCO will perform direct measurements of ice in lunar micro-cold traps",
+      "source": "NASA"
+    },
+    {
+      "claim": "The instruments are intended to provide data on lunar resources and environmental hazards",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency plans to use these findings to inform future surface operations and habitat planning for human missions",
+      "source": "NASA"
+    }
+  ]
+}

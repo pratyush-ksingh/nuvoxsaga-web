@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-disrupts-coordinated-model-distillation-campaign",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "OpenAI disrupts coordinated model distillation campaign",
+  "excerpt": "The company identified unauthorized attempts to extract protected reasoning from its models between July 1 and July 28, 2026.",
+  "bodyHtml": "<p>OpenAI announced on September 30, 2026, that it disrupted a coordinated campaign involving adversarial distillation, which is the unauthorized use of one model&#x27;s outputs to train or improve another model. The activity, which began July 1, involved operators manipulating model interactions to extract protected reasoning, defined as the internal record a model uses to work through a task.</p>\n<p>OpenAI attributed a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi. The company observed high-volume spikes on July 24 and 25, involving 16,000 requests from over 4,000 users. By July 28, OpenAI fully disrupted the activity, which spanned a cluster of more than 15,000 users.</p>\n<p>In response, OpenAI implemented account enforcement, technical controls, and partner coordination. The company closed a pathway that allowed users to replay encrypted reasoning and expanded monitoring for related networks. OpenAI continues to improve tool defenses and classifier coverage as part of its ongoing mitigation efforts.</p>",
+  "publishedAt": "2026-10-01T02:01:17Z",
+  "updatedAt": "2026-10-01T02:01:17Z",
+  "wordCount": 155,
+  "readingTimeMin": 1,
+  "topic": "Disrupting a coordinated model-distillation campaign",
+  "tags": [
+    "OpenAI",
+    "Moonshot AI",
+    "Kimi",
+    "adversarial distillation"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI disrupted a coordinated model distillation campaign.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company identified unauthorized attempts to extract protected reasoning from its models between July 1 and July 28, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced on September 30, 2026, that it disrupted a coordinated campaign involving adversarial distillation, which is the unauthorized use of one model's outputs to train or improve another model.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The activity involved operators manipulating model interactions to extract protected reasoning, defined as the internal record a model uses to work through a task.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI attributed a core cluster of the activity to individuals associated with Moonshot AI, the developer of Kimi.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company observed high-volume spikes on July 24 and 25, involving 16,000 requests from over 4,000 users.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "By July 28, OpenAI fully disrupted the activity, which spanned a cluster of more than 15,000 users.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In response, OpenAI implemented account enforcement, technical controls, and partner coordination.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company closed a pathway that allowed users to replay encrypted reasoning and expanded monitoring for related networks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI continues to improve tool defenses and classifier coverage as part of its ongoing mitigation efforts.",
+      "source": "OpenAI"
+    }
+  ]
+}
