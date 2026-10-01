@@ -115,6 +115,7 @@ export default function Home() {
             <River posts={latest} />
           </div>
           <Rail
+            watch
             ledger={ledger(all, edition)}
             topics={topics}
             features={shelf.length === 0 ? features : []}

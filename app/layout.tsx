@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Fraunces, Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
+import { THEME_SCRIPT } from '@/lib/theme';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
@@ -44,8 +45,8 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#111214',
-  colorScheme: 'dark',
+  themeColor: '#fbfbf9',
+  colorScheme: 'light dark',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -57,6 +58,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${fraunces.variable} ${frauncesItalic.variable} ${geist.variable} ${geistMono.variable}`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Applies a saved dark choice before first paint (CSP allows inline scripts; see public/_headers). */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="grain min-h-[100dvh] antialiased">{children}</body>
     </html>
   );

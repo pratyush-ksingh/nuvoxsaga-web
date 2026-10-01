@@ -108,7 +108,7 @@ function LeadCard({ post, showDesk }: { post: PublicPost; showDesk: boolean }) {
         showDesk ? 'h-[32rem] md:h-[36rem] lg:min-h-[40rem]' : 'h-[28rem] md:h-[30rem] lg:min-h-[32rem]'
       }`}
     >
-      <article className="tilt-3d absolute inset-0">
+      <article className="on-photo tilt-3d absolute inset-0">
         <div className="card-frame absolute inset-0 overflow-hidden rounded-2xl border border-hairline">
           <StoryImage
             post={post}
@@ -245,7 +245,7 @@ export function PhotoPortal({
   const desk = DESKS[brand];
   return (
     <Tilt max={6} className={`group relative rounded-2xl ${className}`}>
-      <Link href={`/${b.slug}`} className="tilt-3d absolute inset-0 block rounded-2xl">
+      <Link href={`/${b.slug}`} className="on-photo tilt-3d absolute inset-0 block rounded-2xl">
         <div className="card-frame absolute inset-0 overflow-hidden rounded-2xl border border-hairline">
           <Picture
             name={c.image}

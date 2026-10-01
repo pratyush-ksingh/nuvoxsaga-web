@@ -5,21 +5,57 @@
    youtube-ai-system/core/brand_config.py; do not edit by hand. */
 @import "./_brand-vars.generated.css";
 
-/* Design tokens: see DESIGN.md. Dark-only by brand decision. */
+/* Design tokens: see DESIGN.md §3. Light reading theme by default (dark text on light
+   reads better for long text); dark is the reader's choice, stored by ThemeToggle.
+   Every text colour below reaches 4.5:1 on canvas, surface and surface-2. */
 :root {
-  color-scheme: dark;
+  color-scheme: light;
+  --canvas: #fbfbf9;
+  --surface: #f1f1ee;
+  --surface-2: #e7e7e3;
+  --hairline: rgb(21 22 26 / 0.1);
+  --ink: #15161a;
+  --ink-2: #4b4c52;
+  --ink-3: #66676d;
+  --body-ink: #2a2b30;
+  /* Desk accents, darkened for a light page (AI 5.6:1, Space 7.1:1, World 6.6:1). */
+  --ai: #0b6c9e;
+  --space: #3346c7;
+  --world: #b3142f;
+  --dot: rgb(21 22 26 / 0.28);
+  --sweep: rgb(21 22 26 / 0.06);
+  --grain: 0.035;
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.6) inset, 0 18px 36px -26px rgb(21 22 26 / 0.35);
+  --shadow-hover: 0 1px 0 rgb(255 255 255 / 0.6) inset, 0 34px 60px -32px rgb(21 22 26 / 0.45);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Dark theme: the night palette. Also used for text set over photographs (.on-photo). */
+:root[data-theme='dark'],
+.on-photo {
   --canvas: #111214;
   --surface: #1a1b1e;
   --surface-2: #232428;
   --hairline: rgb(255 255 255 / 0.08);
   --ink: #f2f2f0;
-  --ink-2: #a1a1a6;
+  --ink-2: #b4b4b8;
   --ink-3: #8a8a90;
+  --body-ink: #d6d6d4;
   --ai: #00b4ff;
   --space: #1e90ff;
   /* Brand crimson is #dc143c; lightened so desk labels reach 4.5:1 on canvas and surface. */
   --world: #ef4760;
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dot: rgb(255 255 255 / 0.22);
+  --sweep: rgb(255 255 255 / 0.07);
+  --grain: 0.07;
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 20px 40px -24px rgb(0 0 0 / 0.7);
+  --shadow-hover: 0 1px 0 rgb(255 255 255 / 0.06) inset, 0 40px 70px -30px rgb(0 0 0 / 0.9);
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+.on-photo {
+  color: var(--ink);
 }
 
 @theme inline {
@@ -112,7 +148,7 @@
   }
   /* Newspaper rules: dotted hairlines between masthead rows. */
   .rule-dot {
-    background-image: radial-gradient(circle, rgb(255 255 255 / 0.22) 1px, transparent 1.2px);
+    background-image: radial-gradient(circle, var(--dot) 1px, transparent 1.2px);
     background-size: 6px 3px;
     background-repeat: repeat-x;
     height: 3px;
@@ -128,7 +164,7 @@
     inset: 0;
     z-index: -1;
     pointer-events: none;
-    opacity: 0.07;
+    opacity: var(--grain);
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
@@ -197,7 +233,7 @@
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
-    text-decoration-color: rgb(242 242 240 / 0.35);
+    text-decoration-color: color-mix(in srgb, var(--ink) 35%, transparent);
   }
   .display .card-link,
   .group:hover .display .card-link {
@@ -212,11 +248,11 @@
   }
 
   .card-frame {
-    box-shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 20px 40px -24px rgb(0 0 0 / 0.7);
+    box-shadow: var(--shadow);
     transition: box-shadow 400ms var(--ease-out);
   }
   .group:hover .card-frame {
-    box-shadow: 0 1px 0 rgb(255 255 255 / 0.06) inset, 0 40px 70px -30px rgb(0 0 0 / 0.9);
+    box-shadow: var(--shadow-hover);
   }
 
   /* Features shelf: bleeds to the window edge, first card aligned with the page grid. */
@@ -255,7 +291,7 @@
   }
   .dial-sweep {
     /* The day so far: a faint trail behind the edition hand. */
-    background: conic-gradient(from calc(var(--now) - 90deg), transparent 0deg, rgb(255 255 255 / 0.07) 90deg, transparent 90.4deg);
+    background: conic-gradient(from calc(var(--now) - 90deg), transparent 0deg, var(--sweep) 90deg, transparent 90.4deg);
     mask-image: radial-gradient(circle closest-side, transparent 22%, #000 23%, #000 93%, transparent 94%);
   }
   .dial-point,
@@ -471,11 +507,35 @@
   }
 }
 
+/* Warning and error colours that work in both themes. */
+.archive-note {
+  border-color: #b08a2a;
+  background: #fbf3dc;
+  color: #3d2f08;
+}
+.archive-note-body {
+  color: #5a4a1e;
+}
+:root[data-theme='dark'] .archive-note {
+  border-color: #8a6d1f;
+  background: #241f12;
+  color: #f2e6c4;
+}
+:root[data-theme='dark'] .archive-note-body {
+  color: #d9cfae;
+}
+.form-error {
+  color: #b3261e;
+}
+:root[data-theme='dark'] .form-error {
+  color: #ff8a8a;
+}
+
 /* Long-form article body. */
 .article-body {
   font-size: 1.125rem;
   line-height: 1.7;
-  color: #d6d6d4;
+  color: var(--body-ink);
 }
 .article-body :where(h2, h3) {
   color: var(--ink);

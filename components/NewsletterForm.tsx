@@ -227,7 +227,7 @@ export function NewsletterForm() {
         <p id="nl-note" className="text-sm text-ink-3">
           Double opt-in. Unsubscribe in one click.
         </p>
-        <p aria-live="polite" className="text-sm text-[#ff8a8a] empty:hidden">
+        <p aria-live="polite" className="form-error text-sm empty:hidden">
           {errorMsg}
         </p>
         <div id={tsContainerId} />

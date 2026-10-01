@@ -25,7 +25,7 @@ export default function LatestPage() {
       {posts.length ? (
         <div className="mt-10 grid gap-14 lg:grid-cols-[1fr_20rem] lg:gap-16">
           <River posts={posts} />
-          <Rail ledger={ledger(all, new Date())} topics={trendingTopics()} />
+          <Rail watch ledger={ledger(all, new Date())} topics={trendingTopics()} />
         </div>
       ) : (
         <div className="mt-10">
