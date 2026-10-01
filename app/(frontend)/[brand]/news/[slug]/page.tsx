@@ -340,7 +340,7 @@ function CheckedBox({ post }: { post: PublicPost }) {
           This brief was written from the source above. Before publication every name, number and date in it was
           matched against that source, and a separate check confirmed each claim.
         </p>
-        <ClaimList claims={claims} open />
+        <ClaimList claims={claims} />
         <ReportLink />
       </section>
     );
@@ -365,11 +365,11 @@ function CheckedBox({ post }: { post: PublicPost }) {
   );
 }
 
-/** A brief is short, so its checked claims are shown open; a feature's longer list starts closed. */
-function ClaimList({ claims, open = false }: { claims: { claim: string; source: string }[]; open?: boolean }) {
+/** The checked claims, closed by default: the count is the summary, the list is one tap away. */
+function ClaimList({ claims }: { claims: { claim: string; source: string }[] }) {
   if (!claims.length) return null;
   return (
-    <details className="mt-4 text-sm" open={open}>
+    <details className="mt-4 text-sm">
       <summary className="cursor-pointer font-semibold text-ink">{claims.length} claims verified</summary>
       <ul className="mt-3 grid gap-2 text-ink-2">
         {claims.map((c, i) => (
