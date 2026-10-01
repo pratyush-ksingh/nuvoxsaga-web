@@ -17,7 +17,8 @@
     "test": "vitest",
     "e2e": "playwright test",
     "search-index": "pagefind --site out --glob \"{about.html,standards.html,ai/news/**/*.html,space/news/**/*.html,world/news/**/*.html}\"",
-    "build:prod": "cross-env NEXT_PUBLIC_SITE_URL=https://nuvoxsaga.com npm run build --ignore-scripts"
+    "build:prod": "cross-env NEXT_PUBLIC_SITE_URL=https://nuvoxsaga.com npm run build --ignore-scripts",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "isomorphic-dompurify": "^3.10.0",
