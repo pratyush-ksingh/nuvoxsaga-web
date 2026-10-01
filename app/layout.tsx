@@ -3,6 +3,7 @@ import { Fraunces, Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
 import { THEME_SCRIPT } from '@/lib/theme';
+import { X_HANDLE } from '@/lib/social';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
   // Pages that set their own openGraph build it with og() (lib/og.ts): Next replaces
   // this object wholesale, it does not merge into it.
   openGraph: { type: 'website', siteName: SITE_NAME, locale: 'en_US', images: [DEFAULT_OG_IMAGE] },
-  twitter: { card: 'summary_large_image' },
+  twitter: { card: 'summary_large_image', site: `@${X_HANDLE}` },
 };
 
 export const viewport: Viewport = {

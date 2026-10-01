@@ -4,6 +4,7 @@
  */
 import Link from 'next/link';
 import { CirclePlay } from 'lucide-react';
+import { X_HANDLE, X_URL } from '@/lib/social';
 import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
 
@@ -86,9 +87,32 @@ export function SiteFooter() {
           ))}
         </ul>
       </div>
+      <div className="container-page flex flex-wrap items-center gap-x-6 gap-y-3 pb-6 text-sm">
+        <p className="flex items-center gap-2 text-ink-2">
+          <XLogo />
+          Follow on X
+        </p>
+        <a
+          href={X_URL}
+          target="_blank"
+          rel="noopener noreferrer me"
+          className="text-ink transition-colors duration-150 hover:underline hover:underline-offset-4"
+        >
+          Nuvoxsaga <span className="data text-ink-3">@{X_HANDLE}</span>
+        </a>
+      </div>
       <div className="container-page pb-10 text-sm text-ink-3">
         <p>© {year} Nuvoxsaga. Stories are drafted with AI and checked against their sources before publication; illustrations are AI-generated and labelled.</p>
       </div>
     </footer>
+  );
+}
+
+/** The X logo (lucide ships no brand marks), sized to match the 16px line icons. */
+function XLogo() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+      <path d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.8-6.3L6.4 22H3.3l7.3-8.3L1 2h6.3l4.4 5.8L18.9 2Zm-1.1 18.1h1.7L6.3 3.8H4.5l13.3 16.3Z" />
+    </svg>
   );
 }

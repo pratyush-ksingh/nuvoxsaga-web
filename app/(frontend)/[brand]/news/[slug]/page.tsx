@@ -20,6 +20,7 @@ import { YouTubeEmbed } from '@/components/blog/YouTubeEmbed';
 import { FormatLabel, SecondaryStory, StoryImage, sourceCount } from '@/components/news/StoryCards';
 import { JsonLd } from '@/components/JsonLd';
 import { og, OG_CARD } from '@/lib/og';
+import { X_HANDLE } from '@/lib/social';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 const stampFmt = new Intl.DateTimeFormat('en', {
@@ -73,7 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       tags: post.tags,
       images: [image],
     }),
-    twitter: { card: 'summary_large_image', title: post.title, description: post.excerpt, images: [image] },
+    twitter: { card: 'summary_large_image', site: `@${X_HANDLE}`, title: post.title, description: post.excerpt, images: [image] },
   };
 }
 
@@ -293,7 +294,7 @@ function StoryRail({ post, deskName, deskHref }: { post: PublicPost; deskName: s
   const anchor = post.kind === 'brief' && post.source ? '#source-title' : '#checked-title';
   const url = `${SITE_URL}${storyPath(post)}`;
   const share = [
-    ['X', `https://x.com/intent/post?url=${encodeURIComponent(url)}&text=${encodeURIComponent(post.title)}`],
+    ['X', `https://x.com/intent/post?url=${encodeURIComponent(url)}&text=${encodeURIComponent(post.title)}&via=${X_HANDLE}`],
     ['LinkedIn', `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`],
     ['Email', `mailto:?subject=${encodeURIComponent(post.title)}&body=${encodeURIComponent(url)}`],
   ];
