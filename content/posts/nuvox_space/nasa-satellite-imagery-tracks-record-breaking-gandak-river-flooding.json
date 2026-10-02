@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-satellite-imagery-tracks-record-breaking-gandak-river-flooding",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA satellite imagery tracks record-breaking Gandak River flooding",
+  "excerpt": "Data from the Terra and Aqua satellites show the extent of flooding in Nepal and India following torrential rains between September 24 and 27, 2026.",
+  "bodyHtml": "<p>NASA released satellite imagery documenting record-breaking flood levels along the Gandak River in Nepal and India. The images, captured by the Moderate Resolution Imaging Spectroradiometer (MODIS) on the Terra and Aqua satellites, compare the river&#x27;s state on September 20, 2026, to its condition on September 29, 2026.</p>\n<p>According to data from Nepal&#x27;s Department of Hydrology and Meteorology, a gauge in Devghāṭ reached 11.94 meters on September 27, 2026. This measurement represents the highest level recorded at that location since monitoring began in the 1960s. Additional gauges in India at Bagaha, Dumariaghat, Rewaghat, and Lalganj also established new high-water marks.</p>\n<p>The deluge, which occurred late in the monsoon season, triggered landslides and caused the river to overtop and breach embankments in several areas. This resulted in the inundation of farmland and settlements along the river for hundreds of kilometers. News reports indicated that flooding and landslides affected hundreds of villages and displaced thousands of people.</p>",
+  "publishedAt": "2026-10-02T06:14:02Z",
+  "updatedAt": "2026-10-02T06:14:02Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "Rains Swamp the Gandak River",
+  "tags": [
+    "NASA",
+    "Gandak River",
+    "MODIS",
+    "Floods"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA satellite imagery tracks record-breaking Gandak River flooding.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Data from the Terra and Aqua satellites show the extent of flooding in Nepal and India following torrential rains between September 24 and 27, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA released satellite imagery documenting record-breaking flood levels along the Gandak River in Nepal and India.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The images were captured by MODIS on the Terra and Aqua satellites and compare the river's state on September 20, 2026, to September 29, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Data from Nepal's Department of Hydrology and Meteorology indicated that a gauge in Devghāṭ reached 11.94 meters on September 27, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Devghāṭ gauge measurement represents the highest level recorded at that location since monitoring began in the 1960s.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to news reports, additional gauges in India at Bagaha, Dumariaghat, Rewaghat, and Lalganj along the Gandak established new high-water marks.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The deluge occurred late in the monsoon season, triggered landslides, and caused the river to overtop and breach embankments in several areas.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The river overtopping and breaching embankments resulted in the inundation of farmland and settlements along the river for hundreds of kilometers.",
+      "source": "NASA"
+    },
+    {
+      "claim": "News reports indicated that flooding and landslides affected hundreds of villages and displaced thousands of people.",
+      "source": "NASA"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-announces-availability-of-gpt-6-astra-ultrafast",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "NVIDIA announces availability of GPT-6 Astra Ultrafast",
+  "excerpt": "The model, which runs on NVIDIA Blackwell GPUs, offers up to 8x faster token generation than Astra Standard mode.",
+  "bodyHtml": "<p>NVIDIA reported on October 1, 2026, that GPT-6 Astra Ultrafast is available in the OpenAI API and to eligible ChatGPT Work and Codex users. The model runs on NVIDIA Blackwell GPUs and is accelerated by inference optimizations that tap into the capabilities of the NVIDIA Blackwell architecture.</p>\n<p>According to NVIDIA, the Ultrafast mode offers up to 8x faster token generation than the Astra Standard mode. The company stated that faster generation can shorten coding agents’ edit-test-debug cycles and reduce the time spent generating responses between tool calls.</p>\n<p>Philippe Tillet, inference lead at OpenAI, said that NVIDIA’s investment in tooling and documentation has enabled OpenAI to make models exceptionally good at programming Blackwell and Rubin GPUs. Uday Ruddarraju, chief technology officer of compute at OpenAI, stated that the company used its internal models to optimize inference on NVIDIA GPUs. OpenAI is using its own models to help refine the inference software running on NVIDIA GPUs, taking advantage of the platform’s programmability to test and implement improvements. Developers can see the Ultrafast guide for access, pricing and implementation details.</p>",
+  "publishedAt": "2026-10-02T06:11:43Z",
+  "updatedAt": "2026-10-02T06:11:43Z",
+  "wordCount": 177,
+  "readingTimeMin": 1,
+  "topic": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+  "tags": [
+    "NVIDIA",
+    "OpenAI",
+    "GPT-6 Astra Ultrafast",
+    "Inference"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA announced the availability of GPT-6 Astra Ultrafast.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "GPT-6 Astra Ultrafast runs on NVIDIA Blackwell GPUs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "GPT-6 Astra Ultrafast offers up to 8x faster token generation than Astra Standard mode.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA reported on October 1, 2026, that GPT-6 Astra Ultrafast is available in the OpenAI API and to eligible ChatGPT Work and Codex users.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "GPT-6 Astra Ultrafast is accelerated by inference optimizations that tap into the capabilities of the NVIDIA Blackwell architecture.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA stated that faster generation can shorten coding agents’ edit-test-debug cycles and reduce the time spent generating responses between tool calls.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Philippe Tillet, inference lead at OpenAI, said that NVIDIA's investment in tooling and documentation has enabled OpenAI to make models exceptionally good at programming Blackwell and Rubin GPUs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Uday Ruddarraju, chief technology officer of compute at OpenAI, stated that OpenAI used its internal models to optimize inference on NVIDIA GPUs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "OpenAI is using its own models to help refine the inference software running on NVIDIA GPUs, taking advantage of the platform's programmability to test and implement improvements.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Developers can see the Ultrafast guide for access, pricing and implementation details.",
+      "source": "NVIDIA"
+    }
+  ]
+}

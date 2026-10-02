@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-martin-trust-center-launches-dear-dreamer-ai-platform-for-youth",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "MIT Martin Trust Center launches Dear Dreamer AI platform for youth",
+  "excerpt": "The free, AI-powered tool adapts the disciplined entrepreneurship framework for middle and high school students.",
+  "bodyHtml": "<p>The Martin Trust Center for MIT Entrepreneurship announced the launch of Dear Dreamer, a free, AI-powered platform designed to teach entrepreneurship to middle and high school students. The project was made possible through a gift from the Frank and Eileen Foundation.</p>\n<p>The platform adapts the disciplined entrepreneurship framework, which consists of 24 steps for starting a venture, into a digital, self-paced learning experience. It features short educational videos, interactive exercises, and personalized feedback on user ideas.</p>\n<p>The platform was inspired by the vision of Audrey McLoghlin, the founder and CEO of apparel brand Frank and Eileen and president of the Frank and Eileen Foundation. The tool utilizes Jetpack, which is MIT’s generative AI tool trained on disciplined entrepreneurship.</p>\n<p>According to Bill Aulet, managing director of the Martin Trust Center for MIT Entrepreneurship, the project aims to empower 50,000 young entrepreneurs by 2030.</p>",
+  "publishedAt": "2026-10-02T06:05:45Z",
+  "updatedAt": "2026-10-02T06:05:45Z",
+  "wordCount": 142,
+  "readingTimeMin": 1,
+  "topic": "3 Questions: A new resource to empower young entrepreneurs",
+  "tags": [
+    "MIT",
+    "Dear Dreamer",
+    "Artificial intelligence"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The MIT Martin Trust Center launched the Dear Dreamer AI platform for youth.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Dear Dreamer is a free, AI-powered tool.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The platform adapts the disciplined entrepreneurship framework for middle and high school students.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The project was made possible through a gift from the Frank and Eileen Foundation.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The disciplined entrepreneurship framework consists of 24 steps for starting a venture.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The platform is a digital, self-paced learning experience featuring short educational videos, interactive exercises, and personalized feedback.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The platform was inspired by the vision of Audrey McLoghlin.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Audrey McLoghlin is the founder and CEO of apparel brand Frank and Eileen and president of the Frank and Eileen Foundation.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The tool utilizes Jetpack, which is MIT’s generative AI tool trained on disciplined entrepreneurship.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Bill Aulet is the managing director of the Martin Trust Center for MIT Entrepreneurship.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Bill Aulet stated the project aims to empower 50,000 young entrepreneurs by 2030.",
+      "source": "MIT News"
+    }
+  ]
+}

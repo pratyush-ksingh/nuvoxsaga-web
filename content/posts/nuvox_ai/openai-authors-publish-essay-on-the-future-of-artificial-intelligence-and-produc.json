@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-authors-publish-essay-on-the-future-of-artificial-intelligence-and-produc",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "OpenAI authors publish essay on the future of artificial intelligence and productivity",
+  "excerpt": "Hemanth Asirvatham and Elliott Mokski explore how AI might influence the future of research and institutional execution.",
+  "bodyHtml": "<p>On October 1, 2026, OpenAI published an essay by Hemanth Asirvatham and Elliott Mokski titled The Eternal Complement. The authors examine the potential role of artificial intelligence in advancing human progress and its impact on the economy.</p>\n<p>The essay discusses two potential pathways for future development. One is a civilization of depth, where superintelligence relies on reasoning and existing data to advance knowledge. The second is a civilization of width, where progress requires large-scale physical experiments and complex infrastructure.</p>\n<p>The authors note that their views do not reflect the views of OpenAI or their colleagues. They state that frontier intelligence and the capacity to realize its ideas are complements, meaning more of one raises the value of the other. The authors conclude that the future depends on how far thought can travel before it must make fresh contact with reality.</p>",
+  "publishedAt": "2026-10-02T06:12:23Z",
+  "updatedAt": "2026-10-02T06:12:23Z",
+  "wordCount": 140,
+  "readingTimeMin": 1,
+  "topic": "The eternal complement",
+  "tags": [
+    "OpenAI",
+    "Artificial Intelligence",
+    "Economy"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/the-eternal-complement"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI published an essay on the future of artificial intelligence and productivity.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Hemanth Asirvatham and Elliott Mokski explore how AI might influence the future of research and institutional execution.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "On October 1, 2026, OpenAI published an essay by Hemanth Asirvatham and Elliott Mokski titled The Eternal Complement.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The authors examine the potential role of artificial intelligence in advancing human progress and its impact on the economy.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The essay discusses two potential pathways for future development.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "One pathway is a civilization of depth, where superintelligence relies on reasoning and existing data to advance knowledge.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The second pathway is a civilization of width, where progress requires large-scale physical experiments and complex infrastructure.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The authors note that their views do not reflect the views of OpenAI or their colleagues.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The authors state that frontier intelligence and the capacity to realize its ideas are complements, meaning more of one raises the value of the other.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The authors conclude that the future depends on how far thought can travel before it must make fresh contact with reality.",
+      "source": "OpenAI"
+    }
+  ]
+}

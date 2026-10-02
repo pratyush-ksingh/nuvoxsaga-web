@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-1.webp",
+    "alt": "Illustration: satellite on an assembly stand in a clean room, workers out of frame",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-awards-1-4-billion-in-logistics-support-agreements",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA awards $1.4 billion in logistics support agreements",
+  "excerpt": "The agency selected 16 companies to provide equipment, transportation, and property management services over a five-year period.",
+  "bodyHtml": "<p>NASA announced on October 1, 2026, that it has selected 16 companies to provide Enterprise Logistics Support Services. The agreements are intended to standardize requirements, improve reporting, and streamline the management of costs and resources.</p>\n<p>The $1.4 billion blanket purchase agreements will support equipment and property management, transportation, disposal, product support, flight hardware support operations, equipment maintenance and repair, export control, move operations, flight hardware, and other material purchases.</p>\n<p>Under the General Services Administration’s One Acquisition Solution for Integrated Services Plus multiple-award blanket purchase agreements, NASA has the discretion to use firm-fixed-price, time-and-materials, labor-hour, or hybrid contract types.</p>\n<p>The five-year base ordering period begins October 1, 2026, and runs through Sept. 30, 2031. This period is followed by three optional one-year ordering periods and a six-month option to extend.</p>",
+  "publishedAt": "2026-10-02T06:14:17Z",
+  "updatedAt": "2026-10-02T06:14:17Z",
+  "wordCount": 129,
+  "readingTimeMin": 1,
+  "topic": "NASA Awards Enterprise Logistics Support Services Agreements",
+  "tags": [
+    "NASA",
+    "Logistics",
+    "Contracts"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA awarded $1.4 billion in logistics support agreements.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA selected 16 companies to provide equipment, transportation, and property management services over a five-year period.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 1, 2026, that it has selected 16 companies to provide Enterprise Logistics Support Services.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agreements are intended to standardize requirements, improve reporting, and streamline the management of costs and resources.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The $1.4 billion blanket purchase agreements will support equipment and property management, transportation, disposal, product support, flight hardware support operations, equipment maintenance and repair, export control, move operations, flight hardware, and other material purchases.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Under the General Services Administration’s One Acquisition Solution for Integrated Services Plus multiple-award blanket purchase agreements, NASA has the discretion to use firm-fixed-price, time-and-materials, labor-hour, or hybrid contract types.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The five-year base ordering period begins October 1, 2026, and runs through Sept. 30, 2031.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The base ordering period is followed by three optional one-year ordering periods and a six-month option to extend.",
+      "source": "NASA"
+    }
+  ]
+}
