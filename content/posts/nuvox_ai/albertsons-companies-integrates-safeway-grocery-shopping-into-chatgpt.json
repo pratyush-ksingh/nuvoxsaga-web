@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "albertsons-companies-integrates-safeway-grocery-shopping-into-chatgpt",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Albertsons Companies integrates Safeway grocery shopping into ChatGPT",
+  "excerpt": "The retailer is expanding its partnership with OpenAI to allow customers to build carts and plan meals directly within the ChatGPT interface.",
+  "bodyHtml": "<p>Albertsons Companies announced on October 1, 2026, that it is expanding its partnership with OpenAI to incorporate AI-powered shopping experiences into its retail operations. The initiative allows customers to use ChatGPT to plan meals, build digital shopping lists, and select products for checkout at Safeway stores.</p>\n<p>The company is also utilizing ChatGPT Enterprise and the OpenAI API to assist internal teams with retail technology development, promotional insights, and data-driven decision-making. These tools are being used to help teams navigate complexity, accelerate workflows, and move promising ideas toward production faster.</p>\n<p>Albertsons Companies plans to extend these AI-powered shopping capabilities beyond Safeway to its other brands, including Albertsons, Vons, Jewel-Osco, Shaw’s, ACME, and Tom Thumb. The retailer currently operates more than 2,200 stores and serves over 36 million customers each week.</p>",
+  "publishedAt": "2026-10-02T12:03:45Z",
+  "updatedAt": "2026-10-02T12:03:45Z",
+  "wordCount": 129,
+  "readingTimeMin": 1,
+  "topic": "How Albertsons Companies is reimagining retail from the inside out",
+  "tags": [
+    "Albertsons Companies",
+    "OpenAI",
+    "Safeway",
+    "ChatGPT"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/albertsons-reimagining-retail"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Albertsons Companies integrates Safeway grocery shopping into ChatGPT.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The retailer is expanding its partnership with OpenAI to allow customers to build carts and plan meals directly within the ChatGPT interface.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Albertsons Companies announced on October 1, 2026, that it is expanding its partnership with OpenAI to incorporate AI-powered shopping experiences into its retail operations.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The initiative allows customers to use ChatGPT to plan meals, build digital shopping lists, and select products for checkout at Safeway stores.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company is also utilizing ChatGPT Enterprise and the OpenAI API to assist internal teams with retail technology development, promotional insights, and data-driven decision-making.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "These tools are being used to help teams navigate complexity, accelerate workflows, and move promising ideas toward production faster.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Albertsons Companies plans to extend these AI-powered shopping capabilities beyond Safeway to its other brands, including Albertsons, Vons, Jewel-Osco, Shaw’s, ACME, and Tom Thumb.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The retailer currently operates more than 2,200 stores and serves over 36 million customers each week.",
+      "source": "OpenAI"
+    }
+  ]
+}

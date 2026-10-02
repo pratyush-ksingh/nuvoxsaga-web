@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "apple-researchers-introduce-rltl-dr-for-ai-self-improvement",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Apple researchers introduce RLTL;DR for AI self-improvement",
+  "excerpt": "The new method enables AI models to generate and internalize their own feedback to solve complex tasks.",
+  "bodyHtml": "<p>Apple researchers announced a new reinforcement learning method called RLTL;DR on October 1, 2026. The approach is designed for tasks where agents have a low chance of success and lack teacher models or example solutions.</p>\n<p>Under the RLTL;DR framework, an agent writes its own feedback as a single insight after each failed attempt. The system then conditions subsequent attempts on these insights and enables backpropagation to internalize a mapping between tasks and insights. In tests using a Qwen 3.5 9B Thinking policy on coding and tool-calling datasets, the method achieved a Pass@1 rate of 14–31%.</p>\n<p>Researchers also tested a reduced version called SFTL;DR, which trains only on task and insight tuples. Training on only 4k of these tuples recovers almost the full performance of RLTL;DR and classical SFT on full rollouts. The authors hope this compacted training paradigm of the form “on this sort of task, keep this sort of thing in mind” will inspire future research.</p>",
+  "publishedAt": "2026-10-02T12:10:16Z",
+  "updatedAt": "2026-10-02T12:10:16Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+  "tags": [
+    "Apple",
+    "Reinforcement Learning",
+    "Artificial Intelligence"
+  ],
+  "source": {
+    "name": "Apple",
+    "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement"
+  },
+  "sources": [
+    "Apple"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Apple researchers introduce RLTL;DR for AI self-improvement.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The new method enables AI models to generate and internalize their own feedback to solve complex tasks.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Apple researchers announced a new reinforcement learning method called RLTL;DR on October 1, 2026.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The approach is designed for tasks where agents have a low chance of success and lack teacher models or example solutions.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Under the RLTL;DR framework, an agent writes its own feedback as a single insight after each failed attempt.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The system then conditions subsequent attempts on these insights and enables backpropagation to internalize a mapping between tasks and insights.",
+      "source": "Apple"
+    },
+    {
+      "claim": "In tests using a Qwen 3.5 9B Thinking policy on coding and tool-calling datasets, the method achieved a Pass@1 rate of 14–31%.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Researchers also tested a reduced version called SFTL;DR, which trains only on task and insight tuples.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Training on only 4k of these tuples recovers almost the full performance of RLTL;DR and classical SFT on full rollouts.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The authors hope this compacted training paradigm of the form “on this sort of task, keep this sort of thing in mind” will inspire future research.",
+      "source": "Apple"
+    }
+  ]
+}
