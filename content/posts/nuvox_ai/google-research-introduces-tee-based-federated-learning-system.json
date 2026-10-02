@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-introduces-tee-based-federated-learning-system",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research introduces TEE-based federated learning system",
+  "excerpt": "The new system uses trusted execution environments to provide verifiable privacy guarantees for decentralized machine learning.",
+  "bodyHtml": "<p>Google Research announced a new federated learning system on October 2, 2026, designed to provide externally verifiable privacy guarantees for machine learning models trained across decentralized data. The system utilizes Trusted Execution Environments (TEEs), which are secure computing areas that allow for remote attestation, confidentiality, and integrity of data processing.</p>\n<p>The architecture coordinates data encryption, a key management system, and workload execution to ensure that only anonymized results are released. Access policies for these workloads are published to Rekor, a public transparency log, allowing external auditors to track the server-side workloads.</p>\n<p>Gboard has already implemented this system for its English and Japanese next-word prediction models. Google Research stated that the new infrastructure allows for faster training times by shifting computation to the server and is currently exploring its use for other workloads, including synthetic data generation.</p>",
+  "publishedAt": "2026-10-02T16:04:33Z",
+  "updatedAt": "2026-10-02T16:04:33Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "Toward provably private learning from federated data",
+  "tags": [
+    "Google Research",
+    "Federated Learning",
+    "Gboard"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research introduces TEE-based federated learning system.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The new system uses trusted execution environments to provide verifiable privacy guarantees for decentralized machine learning.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research announced a new federated learning system on October 2, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system is designed to provide externally verifiable privacy guarantees for machine learning models trained across decentralized data.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system utilizes Trusted Execution Environments (TEEs).",
+      "source": "Google Research"
+    },
+    {
+      "claim": "TEEs are secure computing areas that allow for remote attestation, confidentiality, and integrity of data processing.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The architecture coordinates data encryption, a key management system, and workload execution to ensure that only anonymized results are released.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Access policies for these workloads are published to Rekor, a public transparency log.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The use of Rekor allows external auditors to track the server-side workloads.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Gboard has already implemented this system for its English and Japanese next-word prediction models.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research stated that the new infrastructure allows for faster training times by shifting computation to the server.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research is currently exploring its use for other workloads, including synthetic data generation.",
+      "source": "Google Research"
+    }
+  ]
+}
