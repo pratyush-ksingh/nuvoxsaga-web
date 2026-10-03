@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-1.webp",
+    "alt": "Illustration: macro view of a glowing processor die with fine copper traces",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-astabrief-8b-model-for-scientific-report-generation",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Hugging Face releases AstaBrief 8B model for scientific report generation",
+  "excerpt": "The open-weights model is designed to generate cited research reports faster than proprietary alternatives.",
+  "bodyHtml": "<p>Hugging Face announced the release of AstaBrief 8B on October 2, 2026. The model is built to convert research questions and retrieved literature excerpts into cited scientific reports. It was developed using Qwen3-8B as a base, focusing on post-training data and report-generation scaffolding to meet the demands of scientific work.</p>\n<p>According to Hugging Face, AstaBrief 8B achieves an average generation time of 51.1 seconds per report. This performance is approximately 3.5 times faster than the 178.5 seconds required by the proprietary Thinking mode pipeline used in the Asta platform. The model generates reports in one pass rather than section by section to improve speed.</p>\n<p>The model is available in the Asta platform as a Fast mode feature. Hugging Face has also released the model weights and training data to allow institutions to run the software on their own infrastructure. Researchers can also adapt an example workflow provided by the company to create reports from their own PDFs.</p>",
+  "publishedAt": "2026-10-03T06:04:19Z",
+  "updatedAt": "2026-10-03T06:04:19Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+  "tags": [
+    "AstaBrief",
+    "Hugging Face",
+    "Asta"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/allenai/astabrief"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released the AstaBrief 8B model for scientific report generation.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AstaBrief 8B is an open-weights model designed to generate cited research reports faster than proprietary alternatives.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the release of AstaBrief 8B on October 2, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AstaBrief 8B is built to convert research questions and retrieved literature excerpts into cited scientific reports.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AstaBrief 8B was developed using Qwen3-8B as a base, focusing on post-training data and report-generation scaffolding.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AstaBrief 8B achieves an average generation time of 51.1 seconds per report.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Fast mode is approximately 3.5 times faster than the 178.5 seconds required by the proprietary Thinking mode pipeline used in the Asta platform.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model generates reports in one pass rather than section by section to improve speed.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model is available in the Asta platform as a Fast mode feature.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face released the model weights and training data to allow institutions to run the software on their own infrastructure.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Researchers can adapt an example workflow provided with the model to create reports from their own PDFs.",
+      "source": "Hugging Face"
+    }
+  ]
+}
