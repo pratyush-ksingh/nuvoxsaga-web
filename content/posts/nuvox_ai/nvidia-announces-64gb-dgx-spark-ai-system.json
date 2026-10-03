@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-announces-64gb-dgx-spark-ai-system",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "NVIDIA announces 64GB DGX Spark AI system",
+  "excerpt": "The new personal AI supercomputer configuration will be available from manufacturer partners starting October 23, 2026.",
+  "bodyHtml": "<p>NVIDIA announced on October 2, 2026, that a new 64GB configuration of its DGX Spark system will be available from manufacturer partners including Acer, ASUS, Dell, Gigabyte, HP, and MSI. The system is designed for local AI development, including agentic applications, inference, and fine-tuning.</p>\n<p>The 64GB unit features the GB10 Grace Blackwell Superchip, DGX OS, and an NVIDIA AI software stack. It supports up to 100-billion-parameter models and can be clustered with a second unit using the NVIDIA Sync Cluster Assistant to reach 128GB of memory. When two units are clustered, they deliver up to 1.7x performance compared with a single system.</p>\n<p>The system ships with the NVIDIA Agent Toolkit, CUDA-X AI libraries, Nemotron open models, and runtimes like Ollama, vLLM, and PyTorch with CUDA. The DGX Spark 64GB will be available from manufacturer partners on October 23, 2026, with a starting price of $4,999.</p>",
+  "publishedAt": "2026-10-03T02:06:23Z",
+  "updatedAt": "2026-10-03T02:06:23Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+  "tags": [
+    "NVIDIA",
+    "DGX Spark",
+    "Artificial Intelligence"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA announced a 64GB DGX Spark AI system.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The new personal AI supercomputer configuration will be available from manufacturer partners starting October 23, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced the configuration on October 2, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The 64GB configuration will be available from manufacturer partners including Acer, ASUS, Dell, Gigabyte, HP, and MSI.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system is designed for local AI development, including agentic applications, inference, and fine-tuning.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The 64GB unit features the GB10 Grace Blackwell Superchip, DGX OS, and an NVIDIA AI software stack.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system supports up to 100-billion-parameter models.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The 64GB unit can be clustered with a second unit using the NVIDIA Sync Cluster Assistant to reach 128GB of memory.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "When two units are clustered, they deliver up to 1.7x performance compared with a single system.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system ships with the NVIDIA Agent Toolkit, CUDA-X AI libraries, Nemotron open models, and runtimes like Ollama, vLLM, and PyTorch with CUDA.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The DGX Spark 64GB will be available from manufacturer partners on October 23, 2026, with a starting price of $4,999.",
+      "source": "NVIDIA"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-spacex-crew-12-mission-concludes-station-science-mission",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA SpaceX Crew-12 mission concludes station science mission",
+  "excerpt": "The crew is scheduled to return from the International Space Station in early October.",
+  "bodyHtml": "<p>NASA announced on October 2, 2026, that the SpaceX Crew-12 mission is ending. The crew members, including NASA astronauts Jessica Meir and Jack Hathaway, ESA astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev, are scheduled to return from the International Space Station in early October.</p>\n<p>During their time on the station, the crew supported various research projects. These included experiments in crystal growth, quantum science using the Cold Atom Lab, and testing bone scaffolds for regeneration. The mission also involved 3D printing of metal parts and studies on stem cell expansion and antibiotic-resistant bacteria.</p>\n<p>The crew also worked on an investigation studying soft materials made from tiny particles suspended in water. Additionally, they conducted research on how engineered cartilage tissue develops in microgravity and worked to produce intravenous fluid on demand. These activities were performed to support research that benefits life on Earth and prepares humans for missions into deep space.</p>\n<p>The crew is scheduled to return in early October.</p>",
+  "publishedAt": "2026-10-03T02:19:50Z",
+  "updatedAt": "2026-10-03T02:19:50Z",
+  "wordCount": 160,
+  "readingTimeMin": 1,
+  "topic": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
+  "tags": [
+    "NASA",
+    "SpaceX",
+    "International Space Station"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA's SpaceX Crew-12 mission is concluding its station science mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crew is scheduled to return from the International Space Station in early October.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 2, 2026, that the SpaceX Crew-12 mission is ending.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crew members include NASA astronauts Jessica Meir and Jack Hathaway, ESA astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev.",
+      "source": "NASA"
+    },
+    {
+      "claim": "During their time on the station, the crew supported various research projects.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The research projects included experiments in crystal growth, quantum science using the Cold Atom Lab, and testing bone scaffolds for regeneration.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission involved 3D printing of metal parts and studies on stem cell expansion and antibiotic-resistant bacteria.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crew worked on an investigation studying soft materials made from tiny particles suspended in water.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crew conducted research on how engineered cartilage tissue develops in microgravity and worked to produce intravenous fluid on demand.",
+      "source": "NASA"
+    },
+    {
+      "claim": "These activities supported research that benefits life on Earth and prepares humans for missions into deep space.",
+      "source": "NASA"
+    }
+  ]
+}

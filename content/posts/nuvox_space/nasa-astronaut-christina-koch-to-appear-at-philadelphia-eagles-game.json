@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/space/nasa-astronaut-christina-koch-to-appear-at-philadelphia-eagles-game.webp",
+    "alt": "NASA astronaut Christina Koch to appear at Philadelphia Eagles game",
+    "credit": "NASA/John Kraus"
+  },
+  "slug": "nasa-astronaut-christina-koch-to-appear-at-philadelphia-eagles-game",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA astronaut Christina Koch to appear at Philadelphia Eagles game",
+  "excerpt": "The Artemis II mission specialist will engage with fans at the stadium on October 4, 2026.",
+  "bodyHtml": "<p>NASA announced that astronaut Christina Koch will attend the Philadelphia Eagles versus Los Angeles Rams game in Philadelphia on October 4, 2026. The appearance is part of the agency&#x27;s Inspiration Tour, which connects NASA with stakeholders in the academic, industry, and public sectors.</p>\n<p>NASA team members will host an Experience Zone outside the stadium from 10 a.m. to 1 p.m. before the game. The event will feature interactive games and information regarding the Artemis program, which is the agency&#x27;s effort to return to the Moon.</p>\n<p>The Inspiration Tour will conclude with a public exposition titled MAX POWER, scheduled for November 7 and November 8, 2026, near the Kennedy Space Center in Florida.</p>",
+  "publishedAt": "2026-10-03T02:19:07Z",
+  "updatedAt": "2026-10-03T02:19:07Z",
+  "wordCount": 112,
+  "readingTimeMin": 1,
+  "topic": "NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia",
+  "tags": [
+    "Christina H. Koch",
+    "Artemis 2",
+    "NASA"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA astronaut Christina Koch will appear at a Philadelphia Eagles game.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Christina Koch served as an Artemis II mission specialist.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Christina Koch will engage with fans at the stadium on October 4, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that Christina Koch will attend the Philadelphia Eagles versus Los Angeles Rams game in Philadelphia on October 4, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The appearance is part of NASA's Inspiration Tour, which connects the agency with academic, industry, and public sector stakeholders.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA team members will host an Experience Zone outside the stadium from 10 a.m. to 1 p.m. before the game.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Experience Zone event will feature interactive games and information regarding the Artemis program, NASA's effort to return to the Moon.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Inspiration Tour will conclude with a public exposition titled MAX POWER, scheduled for November 7 and November 8, 2026, near the Kennedy Space Center in Florida.",
+      "source": "NASA"
+    }
+  ]
+}

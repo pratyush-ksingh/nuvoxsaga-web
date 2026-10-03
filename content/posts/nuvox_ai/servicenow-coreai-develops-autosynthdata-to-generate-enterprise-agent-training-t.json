@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "servicenow-coreai-develops-autosynthdata-to-generate-enterprise-agent-training-t",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "ServiceNow CoreAI develops AutoSynthData to generate enterprise agent training tasks",
+  "excerpt": "The tool uses model failures and teacher successes to create and validate training data for enterprise environments.",
+  "bodyHtml": "<p>Hugging Face reported on October 2, 2026, that ServiceNow CoreAI developed AutoSynthData to generate training data for enterprise agents. The system identifies capability gaps in a target model by evaluating its performance in a specific environment and comparing it to a stronger teacher model.</p>\n<p>AutoSynthData creates new tasks through a two-phase process. The target phase builds a core set of training samples, while the multiply phase expands the dataset by creating novel variants. Each candidate task undergoes verification to ensure it is executable and solvable. The pipeline uses a shared controller for generation and an adapter for environment execution.</p>\n<p>In experiments using the EnterpriseOps Gym, the system improved the mean Pass@1 performance of the Gemma-4-26B-A4B-it model by 7.2 percentage points in the Hybrid domain. Additionally, the system raised the mean Pass@1 from 18.77% to 27.18% in the ITSM domain of the EnterpriseOps Gym. The best checkpoint for the Hybrid domain was epoch 5.</p>",
+  "publishedAt": "2026-10-03T02:16:23Z",
+  "updatedAt": "2026-10-03T02:16:23Z",
+  "wordCount": 153,
+  "readingTimeMin": 1,
+  "topic": "AutoSynthData: Generating Training Data for Enterprise Agents",
+  "tags": [
+    "ServiceNow CoreAI",
+    "Hugging Face",
+    "AutoSynthData",
+    "EnterpriseOps Gym"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ServiceNow CoreAI developed AutoSynthData to generate enterprise agent training tasks.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The tool uses model failures and teacher successes to create and validate training data for enterprise environments.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face reported on October 2, 2026, that ServiceNow CoreAI developed AutoSynthData to generate training data for enterprise agents.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system identifies capability gaps in a target model by evaluating its performance in a specific environment and comparing it to a stronger teacher model.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AutoSynthData creates new tasks through a two-phase process.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The target phase builds a core set of training samples, while the multiply phase expands the dataset by creating novel variants.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Each candidate task undergoes verification to ensure it is executable and solvable.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The pipeline uses a shared controller for generation and an adapter for environment execution.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "In experiments using EnterpriseOps Gym, the system improved the mean Pass@1 performance of the Gemma-4-26B-A4B-it model by 7.2 percentage points in the Hybrid domain.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The best checkpoint for the Hybrid domain was epoch 5.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system raised the mean Pass@1 from 18.77% to 27.18% in the ITSM domain of the EnterpriseOps Gym.",
+      "source": "Hugging Face"
+    }
+  ]
+}
