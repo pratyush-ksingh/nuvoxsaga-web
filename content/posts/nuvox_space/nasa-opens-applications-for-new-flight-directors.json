@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/space/nasa-opens-applications-for-new-flight-directors.webp",
+    "alt": "NASA opens applications for new flight directors",
+    "credit": "NASA/Robert Markowitz"
+  },
+  "slug": "nasa-opens-applications-for-new-flight-directors",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "NASA opens applications for new flight directors",
+  "excerpt": "The agency is seeking candidates to lead human spaceflight missions including the International Space Station and Artemis lunar programs.",
+  "bodyHtml": "<p>NASA announced on October 2, 2026, that it is accepting applications for the position of flight director at the Johnson Space Center in Houston. These individuals will lead teams of flight controllers, astronauts, and commercial and international partners during real-time mission execution and risk management.</p>\n<p>Candidates must be U.S. citizens holding a bachelor’s degree in engineering, biological science, physical science, computer science, or mathematics. Applicants are required to have professional experience involving time-critical decision-making in high-stress, high-risk environments. While many previous flight directors worked as flight controllers, this is not a prerequisite for the current application process.</p>\n<p>In preparation for missions, flight directors will collaborate with engineering, safety, and program partners to ensure operational plans align with spacecraft capabilities and mission objectives. The application period closes on October 12, and NASA plans to announce selections by the end of the year.</p>",
+  "publishedAt": "2026-10-04T08:14:00Z",
+  "updatedAt": "2026-10-04T08:14:00Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "NASA Opens Applications for Next Class of Flight Directors",
+  "tags": [
+    "NASA",
+    "Johnson Space Center",
+    "Artemis"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA opens applications for new flight directors.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency is seeking candidates to lead human spaceflight missions including the International Space Station and Artemis lunar programs.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 2, 2026, that it is accepting applications for the position of flight director at the Johnson Space Center in Houston.",
+      "source": "NASA"
+    },
+    {
+      "claim": "These individuals will lead teams of flight controllers, astronauts, and commercial and international partners during real-time mission execution and risk management.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Candidates must be U.S. citizens.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Candidates must hold a bachelor’s degree in engineering, biological science, physical science, computer science, or mathematics.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Applicants are required to have professional experience involving time-critical decision-making in high-stress, high-risk environments.",
+      "source": "NASA"
+    },
+    {
+      "claim": "While many previous flight directors worked as flight controllers, this is not a prerequisite for the current application process.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In preparation for missions, flight directors will collaborate with engineering, safety, and program partners to ensure operational plans align with spacecraft capabilities and mission objectives.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The application period closes on October 12.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA plans to announce selections by the end of the year.",
+      "source": "NASA"
+    }
+  ]
+}

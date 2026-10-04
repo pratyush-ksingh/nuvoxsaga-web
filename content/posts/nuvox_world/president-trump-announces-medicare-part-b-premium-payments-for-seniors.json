@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-2.webp",
+    "alt": "Illustration: cracked dry earth under a hazy sun",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-announces-medicare-part-b-premium-payments-for-seniors",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "President Trump announces Medicare Part B premium payments for seniors",
+  "excerpt": "The federal government will issue one-time $90 payments to over 20 million Medicare enrollees in October 2026.",
+  "bodyHtml": "<p>On October 2, 2026, the White House announced that the federal government will issue one-time payments of $90 to more than 20 million Medicare Part B enrollees. The payments are intended to help enrollees pay for their Medicare Part B premiums.</p>\n<p>The payments will be drawn from the Medicare Improvement Fund, which received $2 billion from Congress. This marks the first time the fund has been utilized for such payments since its establishment in 2008.</p>\n<p>Most eligible seniors will receive the funds via direct deposit or check in early October 2026. Those whose premiums are already paid by Medicaid or who pay an Income-Related Monthly Adjustment Amount do not qualify for the payments.</p>\n<p>Beneficiaries who want to check on the status of their payment should call the Social Security Administration at 1-800-772-1213. Seniors can also call 1-800-MEDICARE to check on their eligibility for the premium rebate.</p>",
+  "publishedAt": "2026-10-04T08:18:27Z",
+  "updatedAt": "2026-10-04T08:18:27Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "Fact Sheet: President Donald J. Trump Announces Medicare Improvement Fund Payments for Seniors",
+  "tags": [
+    "Medicare",
+    "United States",
+    "Social Security Administration"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-announces-medicare-improvement-fund-payments-for-seniors/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump announces Medicare Part B premium payments for seniors.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The federal government will issue one-time $90 payments to over 20 million Medicare enrollees in October 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "On October 2, 2026, the White House announced that the federal government will issue one-time payments of $90 to more than 20 million Medicare Part B enrollees.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The payments are intended to help enrollees pay for their Medicare Part B premiums.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The payments will be drawn from the Medicare Improvement Fund, which received $2 billion from Congress.",
+      "source": "The White House"
+    },
+    {
+      "claim": "This marks the first time the fund has been utilized for such payments since its establishment in 2008.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Most eligible seniors will receive the funds via direct deposit or check in early October 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Those whose premiums are already paid by Medicaid or who pay an Income-Related Monthly Adjustment Amount do not qualify for the payments.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Beneficiaries who want to check on the status of their payment should call the Social Security Administration at 1-800-772-1213.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Seniors can also call 1-800-MEDICARE to check on their eligibility for the premium rebate.",
+      "source": "The White House"
+    }
+  ]
+}

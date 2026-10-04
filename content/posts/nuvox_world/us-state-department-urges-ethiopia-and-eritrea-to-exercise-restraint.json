@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-2.webp",
+    "alt": "Illustration: acacia trees on a savanna at golden hour",
+    "credit": "AI illustration"
+  },
+  "slug": "us-state-department-urges-ethiopia-and-eritrea-to-exercise-restraint",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "US State Department urges Ethiopia and Eritrea to exercise restraint",
+  "excerpt": "The US government says rising cross-border tensions between the two nations threaten regional stability and humanitarian conditions.",
+  "bodyHtml": "<p>The US State Department issued a statement on October 3, 2026, regarding increasing cross-border tensions between Ethiopia and Eritrea. The department said these tensions have the potential to affect the entire region.</p>\n<p>The department warned that the Horn of Africa cannot sustain another military conflict and humanitarian crisis. According to the US State Department, a conflict would jeopardize ongoing collaboration on shared interests with both countries.</p>\n<p>The department urged Ethiopia and Eritrea to respect the sovereignty and territorial integrity of their neighbors and to exercise maximum restraint. The statement called for the countries to return to dialogue and cooperation as agreed in their 2018 peace framework.</p>\n<p>The US State Department stated that peace through dialogue is the only path toward sustainable security, economic growth, and prosperity.</p>",
+  "publishedAt": "2026-10-04T08:18:08Z",
+  "updatedAt": "2026-10-04T08:18:08Z",
+  "wordCount": 126,
+  "readingTimeMin": 1,
+  "topic": "U.S. Statement on Increased Tensions Between Ethiopia and Eritrea",
+  "tags": [
+    "Ethiopia",
+    "Eritrea",
+    "US State Department"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/u-s-statement-on-increased-tensions-between-ethiopia-and-eritrea/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US State Department urges Ethiopia and Eritrea to exercise restraint.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US government says rising cross-border tensions between Ethiopia and Eritrea threaten regional stability and humanitarian conditions.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department issued a statement on October 3, 2026, regarding increasing cross-border tensions between Ethiopia and Eritrea.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department said these tensions have the potential to affect the entire region.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department warned that the Horn of Africa cannot sustain another military conflict and humanitarian crisis.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "According to the US State Department, a conflict would jeopardize ongoing collaboration on shared interests with both countries.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department urged Ethiopia and Eritrea to respect the sovereignty and territorial integrity of their neighbors.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department urged Ethiopia and Eritrea to exercise maximum restraint.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The statement called for the countries to return to dialogue and cooperation as agreed in their 2018 peace framework.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department stated that peace through dialogue is the only path toward sustainable security, economic growth, and prosperity.",
+      "source": "The US State Department"
+    }
+  ]
+}

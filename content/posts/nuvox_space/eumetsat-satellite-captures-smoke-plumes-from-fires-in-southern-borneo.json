@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-satellite-captures-smoke-plumes-from-fires-in-southern-borneo",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "EUMETSAT satellite captures smoke plumes from fires in southern Borneo",
+  "excerpt": "The Copernicus Sentinel-3 satellite recorded imagery of haze and smoke originating from agricultural and peatland fires on 23 September 2026.",
+  "bodyHtml": "<p>EUMETSAT reported on October 2, 2026, that its Copernicus Sentinel-3 satellite captured imagery of smoke plumes and haze in southern Kalimantan on the island of Borneo. The data was collected by the OLCI instrument onboard the satellite on 23 September 2026.</p>\n<p>According to EUMETSAT, the smoke and haze are the result of agricultural burning and peatland fires. These conditions have been exacerbated by drought linked to El Niño. The agency noted that the haze has impacted air quality for millions of people in Southeast Asia and affected the natural habitats of the Bornean orangutan.</p>\n<p>EUMETSAT operates the Sentinel-3 satellites in cooperation with ESA. The agency delivers marine and atmospheric data on behalf of the European Union. Users can access atmospheric data from the EUMETSAT User Portal or monitor haze conditions over Southeast Asia through provided resources.</p>",
+  "publishedAt": "2026-10-04T08:17:38Z",
+  "updatedAt": "2026-10-04T08:17:38Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "Image of the week: Fires continue in southern Borneo",
+  "tags": [
+    "EUMETSAT",
+    "Copernicus Sentinel-3",
+    "Borneo",
+    "wildfires"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/image-week-fires-continue-southern-borneo"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "A EUMETSAT satellite captured smoke plumes from fires in southern Borneo.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The Copernicus Sentinel-3 satellite recorded imagery of haze and smoke originating from agricultural and peatland fires on 23 September 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT reported on October 2, 2026, that its Copernicus Sentinel-3 satellite captured imagery of smoke plumes and haze in southern Kalimantan on the island of Borneo.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The data was collected by the OLCI instrument onboard the satellite on 23 September 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "According to EUMETSAT, the smoke and haze are the result of agricultural burning and peatland fires.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The conditions have been exacerbated by drought linked to El Niño.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT noted that the haze has impacted air quality for millions of people in Southeast Asia and affected the natural habitats of the Bornean orangutan.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT operates the Sentinel-3 satellites in cooperation with ESA.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT delivers marine and atmospheric data on behalf of the European Union.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Users can access atmospheric data from the EUMETSAT User Portal or monitor haze conditions over Southeast Asia through provided resources.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

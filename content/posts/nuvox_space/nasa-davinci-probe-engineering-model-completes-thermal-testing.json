@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-davinci-probe-engineering-model-completes-thermal-testing",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA DAVINCI probe engineering model completes thermal testing",
+  "excerpt": "The descent probe successfully withstood temperatures of 869 F during a simulation of Venus conditions.",
+  "bodyHtml": "<p>NASA announced on October 2, 2026, that an engineering model of the DAVINCI (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) descent probe passed a thermal evaluation. The test occurred between August 28 and September 10.</p>\n<p>During the evaluation, the team placed the yoga ball-sized vessel into a ceramic-lined chamber. Over the course of about an hour, the temperature was increased to 869 F, or 465 C, to replicate the heat the probe will encounter during its descent to the surface of Venus.</p>\n<p>The DAVINCI probe is designed to study the origin, evolution, and present state of Venus. The mission aims to help determine whether the planet was once wet and habitable, like Earth.</p>",
+  "publishedAt": "2026-10-04T08:13:28Z",
+  "updatedAt": "2026-10-04T08:13:28Z",
+  "wordCount": 116,
+  "readingTimeMin": 1,
+  "topic": "NASA’s DAVINCI Probe Can Stand the Heat",
+  "tags": [
+    "NASA",
+    "DAVINCI",
+    "Venus"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The NASA DAVINCI probe engineering model completed thermal testing.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The descent probe successfully withstood temperatures of 869 F during a simulation of Venus conditions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 2, 2026, that an engineering model of the DAVINCI descent probe passed a thermal evaluation.",
+      "source": "NASA"
+    },
+    {
+      "claim": "DAVINCI stands for Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The test occurred between August 28 and September 10.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The team placed the yoga ball-sized vessel into a ceramic-lined chamber.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The temperature was increased to 869 F, or 465 C, over the course of about an hour.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The heating pace replicates the heat the probe will encounter during its descent to the surface of Venus.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The DAVINCI probe is designed to study the origin, evolution, and present state of Venus.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission aims to help determine whether Venus was once wet and habitable, like Earth.",
+      "source": "NASA"
+    }
+  ]
+}

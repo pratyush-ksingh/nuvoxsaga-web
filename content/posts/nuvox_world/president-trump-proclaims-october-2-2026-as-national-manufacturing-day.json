@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-proclaims-october-2-2026-as-national-manufacturing-day",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump proclaims October 2, 2026, as National Manufacturing Day",
+  "excerpt": "The proclamation follows the addition of 72,000 manufacturing jobs in the United States during 2026.",
+  "bodyHtml": "<p>President Donald J. Trump issued a proclamation on October 2, 2026, designating the date as National Manufacturing Day. The proclamation honors workers in the manufacturing sector and highlights recent industrial developments in the United States.</p>\n<p>According to the White House, 72,000 new manufacturing jobs have been added in 2026. The administration also reported that 112,000 new factory construction workers have been employed since the President returned to office. These construction jobs are intended to support manufacturing roles for future decades.</p>\n<p>The White House stated that the President has secured more than $11.2 trillion in United States and foreign investments across manufacturing, critical infrastructure, and technology sectors. Additionally, the President signed the Working Families Tax Cuts Act, which makes the Small Business Tax Deduction permanent and allows manufacturers to immediately expense 100 percent of their factory, machinery, equipment, and domestic research and development investments.</p>\n<p>The administration reported that the real wage for the average manufacturing worker has surged by $2,500 annually since the President took office. This legislation also includes new provisions such as No Tax on Overtime.</p>",
+  "publishedAt": "2026-10-04T08:21:21Z",
+  "updatedAt": "2026-10-04T08:21:21Z",
+  "wordCount": 177,
+  "readingTimeMin": 1,
+  "topic": "National Manufacturing Day, 2026",
+  "tags": [
+    "Donald J. Trump",
+    "Manufacturing",
+    "United States"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-manufacturing-day-2026/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump proclaimed October 2, 2026, as National Manufacturing Day.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation follows the addition of 72,000 manufacturing jobs in the United States during 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Donald J. Trump issued a proclamation on October 2, 2026, designating the date as National Manufacturing Day.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation honors workers in the manufacturing sector and highlights recent industrial developments in the United States.",
+      "source": "The White House"
+    },
+    {
+      "claim": "According to the White House, 72,000 new manufacturing jobs have been added in 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration reported that 112,000 new factory construction workers have been employed since the President returned to office.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These construction jobs are intended to support manufacturing roles for future decades.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated that the President has secured more than $11.2 trillion in United States and foreign investments across manufacturing, critical infrastructure, and technology sectors.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The President signed the Working Families Tax Cuts Act, which makes the Small Business Tax Deduction permanent and allows manufacturers to immediately expense 100 percent of their factory, machinery, equipment, and domestic research and development investments.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration reported that the real wage for the average manufacturing worker has surged by $2,500 annually since the President took office.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Working Families Tax Cuts Act includes new provisions such as No Tax on Overtime.",
+      "source": "The White House"
+    }
+  ]
+}

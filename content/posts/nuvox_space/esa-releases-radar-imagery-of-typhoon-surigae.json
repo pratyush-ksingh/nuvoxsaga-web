@@ -1,0 +1,95 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-releases-radar-imagery-of-typhoon-surigae",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "ESA releases radar imagery of Typhoon Surigae",
+  "excerpt": "The Copernicus Sentinel-1 satellite captured the storm's surface conditions in the Philippine Sea on 28 September 2026.",
+  "bodyHtml": "<p>The European Space Agency released a radar image of Typhoon Surigae on October 2, 2026. The image was captured by the Copernicus Sentinel-1 satellite on 28 September 2026 while the storm was moving north-eastwards in the Philippine Sea, approximately 200 km south of Shikoku, Japan.</p>\n<p>The satellite used a radar instrument to detect surface conditions beneath the clouds. The imagery shows an orange-yellow ring indicating rough ocean conditions and strong winds, while dark blue areas represent the relatively calm seas at the eye of the storm. Lighter blue areas in the image likely denote ocean and wind conditions such as lower wind speeds, less sea surface movement, or areas of rain.</p>\n<p>At the time of the observation, Typhoon Surigae produced wind gusts of up to 240 km per hour and waves reaching 7 m. By 1 October, the storm, also known as Typhoon no. 26, was almost 1000 km away, roughly 200 km south of Tokyo. The European Space Agency reported the storm weakened to a tropical depression with maximum wind speeds of 55 km per hour.</p>",
+  "publishedAt": "2026-10-04T08:14:41Z",
+  "updatedAt": "2026-10-04T08:14:41Z",
+  "wordCount": 177,
+  "readingTimeMin": 1,
+  "topic": "Earth from Space: Typhoon Surigae",
+  "tags": [
+    "ESA",
+    "Copernicus",
+    "Sentinel-1",
+    "Typhoon Surigae"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_Typhoon_Surigae"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Space Agency released radar imagery of Typhoon Surigae.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Copernicus Sentinel-1 satellite captured the storm's surface conditions in the Philippine Sea on 28 September 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency released the radar image on October 2, 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The storm was moving north-eastwards approximately 200 km south of Shikoku, Japan at the time of capture.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite used a radar instrument to detect surface conditions beneath the clouds.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The imagery shows an orange-yellow ring indicating rough ocean conditions and strong winds.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Dark blue areas represent the relatively calm seas at the eye of the storm.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Lighter blue areas in the image likely denote ocean and wind conditions such as lower wind speeds, less sea surface movement, or areas of rain.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "At the time of the observation, Typhoon Surigae produced wind gusts of up to 240 km per hour.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "At the time of the observation, Typhoon Surigae produced waves reaching 7 m.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "By 1 October, the storm was almost 1000 km away.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "By 1 October, the storm was roughly 200 km south of Tokyo.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Typhoon Surigae is also known as Typhoon no. 26.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency reported the storm weakened to a tropical depression.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The storm's maximum wind speeds as a tropical depression are 55 km per hour.",
+      "source": "The European Space Agency"
+    }
+  ]
+}
