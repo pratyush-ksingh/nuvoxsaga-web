@@ -1,0 +1,58 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-1.webp",
+    "alt": "Illustration: aerial view of a river winding through green mountains at dawn",
+    "credit": "AI illustration"
+  },
+  "slug": "united-states-and-16-countries-endorse-kyoto-vision-for-a-golden-age-of-science",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "United States and 16 countries endorse Kyoto Vision for a Golden Age of Science",
+  "excerpt": "The declaration aims to strengthen science ecosystems and integrate super intelligence into research workflows.",
+  "bodyHtml": "<p>The United States and 16 other countries endorsed the Kyoto Vision for a Golden Age of Science on October 4, 2026. The agreement was reached during the 23rd Annual Meeting of the Science and Technology in Society Forum held in Kyoto, Japan.</p>\n<p>The declaration encourages the integration of super intelligence, which the White House Office of Science and Technology Policy describes as a tool for autonomous experimentation, into scientific workflows. Participating nations pledged to expand researcher access to computing infrastructure and data while exploring new institutional models for funding and research.</p>\n<p>The countries endorsing the vision include Argentina, Bulgaria, Chile, Cyprus, Germany, Greece, Indonesia, Italy, Japan, Kazakhstan, the Republic of Korea, New Zealand, Poland, Singapore, the United Arab Emirates, the United Kingdom, and the United States of America.</p>",
+  "publishedAt": "2026-10-04T12:09:21Z",
+  "updatedAt": "2026-10-04T12:09:21Z",
+  "wordCount": 128,
+  "readingTimeMin": 1,
+  "topic": "U.S. Leads International Coalition to Endorse Kyoto Vision for a Golden Age of Science",
+  "tags": [
+    "Science",
+    "Technology",
+    "Kyoto Vision"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/releases/2026/10/us-leads-international-coalition-to-endorse-kyoto-vision-for-a-golden-age-of-science/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The United States and 16 other countries endorsed the Kyoto Vision for a Golden Age of Science on October 4, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The declaration aims to strengthen science ecosystems and integrate super intelligence into research workflows.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The agreement was reached during the 23rd Annual Meeting of the Science and Technology in Society Forum held in Kyoto, Japan.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The declaration encourages the integration of super intelligence, which the White House Office of Science and Technology Policy describes as a tool for autonomous experimentation, into scientific workflows.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Participating nations pledged to expand researcher access to computing infrastructure and data while exploring new institutional models for funding and research.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The endorsing countries include Argentina, Bulgaria, Chile, Cyprus, Germany, Greece, Indonesia, Italy, Japan, Kazakhstan, the Republic of Korea, New Zealand, Poland, Singapore, the United Arab Emirates, the United Kingdom, and the United States of America.",
+      "source": "The White House"
+    }
+  ]
+}

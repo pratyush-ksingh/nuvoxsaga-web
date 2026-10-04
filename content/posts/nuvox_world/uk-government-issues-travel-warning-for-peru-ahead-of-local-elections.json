@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-issues-travel-warning-for-peru-ahead-of-local-elections",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "UK government issues travel warning for Peru ahead of local elections",
+  "excerpt": "The Foreign, Commonwealth and Development Office advises against non-essential travel to specific regions due to security concerns.",
+  "bodyHtml": "<p>The UK government issued updated travel advice for Peru on October 2, 2026, ahead of local elections scheduled for Sunday 4 October. Officials warned that increased numbers of people are expected around polling stations and electoral institutions, noting that isolated incidents or protests occasionally occur around such events.</p>\n<p>The Foreign, Commonwealth and Development Office also advises against all but essential travel to two specific areas for safety and security reasons. These include the Valley of the Apurímac, Ene, and Mantaro Rivers, known as the VRAEM region, and areas within 20km south of the Putumayo River and the border between Peru and Colombia in the Loreto region, with limited exceptions.</p>\n<p>The government advises that travel insurance could be invalidated if individuals travel against advice from the Foreign, Commonwealth and Development Office. Travelers are encouraged to research destinations and ensure insurance covers their itinerary, planned activities, and expenses in an emergency.</p>",
+  "publishedAt": "2026-10-04T12:13:58Z",
+  "updatedAt": "2026-10-04T12:13:58Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "Peru travel advice",
+  "tags": [
+    "Peru",
+    "FCDO",
+    "elections"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/foreign-travel-advice/peru"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government issued a travel warning for Peru ahead of local elections.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office advises against non-essential travel to specific regions due to security concerns.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government issued updated travel advice for Peru on October 2, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Local elections are scheduled for Sunday 4 October.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Officials warned that increased numbers of people are expected around polling stations and electoral institutions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Isolated incidents or protests occasionally occur around electoral events.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office advises against all but essential travel to two specific areas for safety and security reasons.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "One restricted area is the Valley of the Apurímac, Ene, and Mantaro Rivers, known as the VRAEM region.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "One restricted area includes areas within 20km south of the Putumayo River and the border between Peru and Colombia in the Loreto region, with limited exceptions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Travel insurance could be invalidated if individuals travel against advice from the Foreign, Commonwealth and Development Office.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Travelers are encouraged to research destinations.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Travelers are encouraged to ensure insurance covers their itinerary, planned activities, and expenses in an emergency.",
+      "source": "The UK government"
+    }
+  ]
+}
