@@ -45,8 +45,9 @@ export function StoryImage({
   priority?: boolean;
 }) {
   if (!post.image) {
-    // Desk illustration as a neutral fallback; decorative, so empty alt.
-    return <Picture name={BRAND_CONTENT[post.brand].image} alt="" sizes={sizes} className={className} priority={priority} />;
+    // Desk illustration as a fallback. Described (search engines treat an empty alt as missing).
+    const c = BRAND_CONTENT[post.brand];
+    return <Picture name={c.image} alt={c.imageAlt} sizes={sizes} className={className} priority={priority} />;
   }
   const small = smallVariant(post.image.src);
   return (
