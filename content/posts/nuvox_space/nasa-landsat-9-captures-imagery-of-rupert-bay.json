@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-landsat-9-captures-imagery-of-rupert-bay",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA Landsat 9 captures imagery of Rupert Bay",
+  "excerpt": "The Operational Land Imager on Landsat 9 recorded the mixing of river water and sediment in the bay on September 27, 2026.",
+  "bodyHtml": "<p>NASA reported that the Operational Land Imager (OLI) on the Landsat 9 satellite captured imagery of Rupert Bay and Hannah Bay on September 27, 2026. The images show tea-colored water from the Moose, Nottaway, and Harricanaw rivers entering the bays and mingling with the darker blue waters of James Bay.</p>\n<p>According to NASA, the brown appearance of the water is caused by colored dissolved organic matter (CDOM). This substance includes tannins and lignins that leach from decaying leaves, roots, bark, and soils into streams and rivers.</p>\n<p>The lighter brown areas along the shore are mudflats created by the shallow, sloping bathymetry of the region. The comings and goings of tides and river currents often stir up the mud, producing the lighter brown plumes of suspended sediment that mix with the incoming river water.</p>\n<p>Postglacial rebound is slowly lifting the entire landscape, and rivers continually deposit fine mud particles and other sediments that build up the flats.</p>",
+  "publishedAt": "2026-10-06T06:12:27Z",
+  "updatedAt": "2026-10-06T06:12:27Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "The Beaver Brown Waters of Rupert Bay",
+  "tags": [
+    "NASA",
+    "Landsat 9",
+    "Rupert Bay",
+    "James Bay"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA Landsat 9 captured imagery of Rupert Bay.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Operational Land Imager on Landsat 9 recorded the mixing of river water and sediment in the bay on September 27, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA reported that the Operational Land Imager (OLI) on the Landsat 9 satellite captured imagery of Rupert Bay and Hannah Bay on September 27, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The images show tea-colored water from the Moose, Nottaway, and Harricanaw rivers entering the bays and mingling with the darker blue waters of James Bay.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, the brown appearance of the water is caused by colored dissolved organic matter (CDOM).",
+      "source": "NASA"
+    },
+    {
+      "claim": "CDOM includes tannins and lignins that leach from decaying leaves, roots, bark, and soils into streams and rivers.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The lighter brown areas along the shore are mudflats created by the shallow, sloping bathymetry of the region.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The comings and goings of tides and river currents often stir up the mud, producing the lighter brown plumes of suspended sediment that mix with the incoming river water.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Postglacial rebound is slowly lifting the entire landscape.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Rivers continually deposit fine mud particles and other sediments that build up the flats.",
+      "source": "NASA"
+    }
+  ]
+}

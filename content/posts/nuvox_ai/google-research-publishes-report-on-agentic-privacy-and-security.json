@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-publishes-report-on-agentic-privacy-and-security",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research publishes report on agentic privacy and security",
+  "excerpt": "The report outlines research directions for autonomous AI agents based on the theory of Contextual Integrity.",
+  "bodyHtml": "<p>Google Research published a workshop report titled Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle on October 5, 2026. The document presents findings from the Google Contextual Agent Privacy and Security Workshop, which took place in New York City in late 2025.</p>\n<p>The report identifies foundational privacy and security challenges for autonomous agents, including unstructured input, probabilistic control flows, and issues related to autonomy and delegation. It proposes utilizing the theory of Contextual Integrity, which defines privacy as appropriate information flow according to social norms, to help agents evaluate the appropriateness of actions before execution.</p>\n<p>The report outlines opportunities for innovation across the entire stack, including system-level sandboxing, model-level reasoning, and user-centric controls. It also proposes the development of new approaches to safety evaluations that more directly apply to highly autonomous, multi-agent systems. The authors call for collaboration across academia, government, civil society, and industry to develop the contextual foundations necessary for a safe, secure, and privacy-respecting ecosystem.</p>",
+  "publishedAt": "2026-10-06T06:05:18Z",
+  "updatedAt": "2026-10-06T06:05:18Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+  "tags": [
+    "Google Research",
+    "AI agents",
+    "privacy",
+    "security"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research published a report on agentic privacy and security.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The report outlines research directions for autonomous AI agents based on the theory of Contextual Integrity.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research published a workshop report titled Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle on October 5, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The document presents findings from the Google Contextual Agent Privacy and Security Workshop.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The workshop took place in New York City in late 2025.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The report identifies foundational privacy and security challenges for autonomous agents, including unstructured input, probabilistic control flows, and issues related to autonomy and delegation.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The report proposes utilizing the theory of Contextual Integrity to help agents evaluate the appropriateness of actions before execution.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Contextual Integrity defines privacy as appropriate information flow according to social norms.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The report outlines opportunities for innovation across the entire stack, including system-level sandboxing, model-level reasoning, and user-centric controls.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The report proposes the development of new approaches to safety evaluations that more directly apply to highly autonomous, multi-agent systems.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The authors call for collaboration across academia, government, civil society, and industry to develop the contextual foundations necessary for a safe, secure, and privacy-respecting ecosystem.",
+      "source": "Google Research"
+    }
+  ]
+}

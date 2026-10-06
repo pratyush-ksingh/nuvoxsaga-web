@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-and-cas-release-smile-spacecraft-footage-of-auroral-oval",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "ESA and CAS release SMILE spacecraft footage of auroral oval",
+  "excerpt": "The robotic spacecraft captured a full auroral oval in ultraviolet light during a one-hour time-lapse in late July.",
+  "bodyHtml": "<p>ESA and CAS announced on October 6, 2026, that the robotic SMILE spacecraft has captured imagery of a complete auroral oval. An auroral oval is a circle of light around a magnetic pole that is typically too large to be seen from the ground.</p>\n<p>The footage, released by the agencies, shows the phenomenon in ultraviolet light. The time-lapse covers approximately one hour of activity recorded in late July. The spacecraft&#x27;s camera view shifts as it orbits the Earth, causing distant stars on the sides of the frame to appear to move.</p>\n<p>According to the release, the SMILE spacecraft is designed to observe how the Sun&#x27;s wind interacts with the Earth&#x27;s magnetosphere. This data is intended to help understand how to protect astronauts, spacecraft, and ground-based electrical grids from solar storms.</p>",
+  "publishedAt": "2026-10-06T06:11:52Z",
+  "updatedAt": "2026-10-06T06:11:52Z",
+  "wordCount": 130,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
+  "tags": [
+    "ESA",
+    "CAS",
+    "SMILE"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA and CAS released SMILE spacecraft footage of an auroral oval.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The robotic spacecraft captured a full auroral oval in ultraviolet light during a one-hour time-lapse in late July.",
+      "source": "NASA"
+    },
+    {
+      "claim": "ESA and CAS announced on October 6, 2026, that the robotic SMILE spacecraft captured imagery of a complete auroral oval.",
+      "source": "NASA"
+    },
+    {
+      "claim": "An auroral oval is a circle of light around a magnetic pole that is typically too large to be seen from the ground.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The footage shows the phenomenon in ultraviolet light.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The time-lapse covers approximately one hour of activity recorded in late July.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft's camera view shifts as it orbits the Earth, causing distant stars on the sides of the frame to appear to move.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The SMILE spacecraft is designed to observe how the Sun's wind interacts with the Earth's magnetosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "This data is intended to help understand how to protect astronauts, spacecraft, and ground-based electrical grids from solar storms.",
+      "source": "NASA"
+    }
+  ]
+}

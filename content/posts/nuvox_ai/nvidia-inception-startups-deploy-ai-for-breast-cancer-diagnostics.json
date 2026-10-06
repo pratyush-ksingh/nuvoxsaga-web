@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-inception-startups-deploy-ai-for-breast-cancer-diagnostics",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA Inception startups deploy AI for breast cancer diagnostics",
+  "excerpt": "Startups in the NVIDIA Inception program are using AI to automate imaging, risk assessment, and treatment planning for breast cancer patients.",
+  "bodyHtml": "<p>NVIDIA announced on October 5, 2026, that companies within its Inception program are utilizing NVIDIA AI infrastructure to develop applications for breast cancer care. These startups aim to address clinical challenges including radiologist shortages, imaging workflows, and the time required for treatment-informing genomic assays.</p>\n<p>The startup iSono Health has released its FDA-cleared ATUSA platform, a wearable 3D quantitative ultrasound system that uses NVIDIA GPU acceleration to capture breast volume in approximately two minutes. Additionally, Whiterabbit.ai uses NVIDIA GPUs to power its FDA-cleared WRDensity software, which automatically assesses breast density from mammograms to assist radiologists.</p>\n<p>Ataraxis AI has developed models that interpret pathology slides to predict patient outcomes and response to therapies. These models, which run on NVIDIA GPUs using PyTorch and CUDA, have been validated across more than 10 institutions and are currently in active clinical use.</p>",
+  "publishedAt": "2026-10-06T06:08:54Z",
+  "updatedAt": "2026-10-06T06:08:54Z",
+  "wordCount": 137,
+  "readingTimeMin": 1,
+  "topic": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+  "tags": [
+    "NVIDIA",
+    "Inception",
+    "AI",
+    "Healthcare"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA Inception startups deploy AI for breast cancer diagnostics.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Startups in the NVIDIA Inception program are using AI to automate imaging, risk assessment, and treatment planning for breast cancer patients.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on October 5, 2026, that companies within its Inception program are utilizing NVIDIA AI infrastructure to develop applications for breast cancer care.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These startups aim to address clinical challenges including radiologist shortages, imaging workflows, and the time required for treatment-informing genomic assays.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The startup iSono Health has released its FDA-cleared ATUSA platform, a wearable 3D quantitative ultrasound system.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "ATUSA uses NVIDIA GPU acceleration to capture breast volume in approximately two minutes.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Whiterabbit.ai uses NVIDIA GPUs to power its FDA-cleared WRDensity software.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "WRDensity automatically assesses breast density from mammograms to assist radiologists.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Ataraxis AI has developed models that interpret pathology slides to predict patient outcomes and response to therapies.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Ataraxis AI models run on NVIDIA GPUs using PyTorch and CUDA.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Ataraxis AI models have been validated across more than 10 institutions and are currently in active clinical use.",
+      "source": "NVIDIA"
+    }
+  ]
+}
