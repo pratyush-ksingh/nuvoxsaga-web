@@ -4,7 +4,7 @@
  */
 import Link from 'next/link';
 import { CirclePlay } from 'lucide-react';
-import { X_HANDLE, X_URL } from '@/lib/social';
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, X_HANDLE, X_URL } from '@/lib/social';
 import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
 
@@ -88,23 +88,39 @@ export function SiteFooter() {
         </ul>
       </div>
       <div className="container-page flex flex-wrap items-center gap-x-6 gap-y-3 pb-6 text-sm">
-        <p className="flex items-center gap-2 text-ink-2">
-          <XLogo />
-          Follow on X
-        </p>
+        <p className="text-ink-2">Follow</p>
         <a
           href={X_URL}
           target="_blank"
           rel="noopener noreferrer me"
-          className="text-ink transition-colors duration-150 hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 text-ink transition-colors duration-150 hover:underline hover:underline-offset-4"
         >
-          Nuvoxsaga <span className="data text-ink-3">@{X_HANDLE}</span>
+          <XLogo /> X <span className="data text-ink-3">@{X_HANDLE}</span>
+        </a>
+        <a
+          href={INSTAGRAM_URL}
+          target="_blank"
+          rel="noopener noreferrer me"
+          className="flex items-center gap-2 text-ink transition-colors duration-150 hover:underline hover:underline-offset-4"
+        >
+          <InstagramLogo /> Instagram <span className="data text-ink-3">@{INSTAGRAM_HANDLE}</span>
         </a>
       </div>
       <div className="container-page pb-10 text-sm text-ink-3">
         <p>© {year} Nuvoxsaga. Stories are drafted with AI and checked against their sources before publication. Illustrations are AI-generated and labelled.</p>
       </div>
     </footer>
+  );
+}
+
+/** The Instagram glyph (rounded square, lens, flash dot), drawn like lucide's line icons. */
+function InstagramLogo() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" />
+    </svg>
   );
 }
 

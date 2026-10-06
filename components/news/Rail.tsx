@@ -13,7 +13,7 @@ import Link from 'next/link';
 import { ArrowRight, CirclePlay } from 'lucide-react';
 import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
-import { X_HANDLE, X_URL } from '@/lib/social';
+import { INSTAGRAM_HANDLE, INSTAGRAM_URL, X_HANDLE, X_URL } from '@/lib/social';
 import type { PublicPost } from '@/lib/content';
 import type { Ledger } from '@/lib/ledger';
 import { HeadlineList } from '@/components/news/StoryCards';
@@ -153,6 +153,15 @@ export function Rail({
           >
             Follow the newsroom on X
             <span className="data text-ink-3">@{X_HANDLE}</span>
+          </a>
+          <a
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 flex items-center justify-between gap-4 text-sm text-ink-2 hover:text-ink"
+          >
+            Follow on Instagram
+            <span className="data text-ink-3">@{INSTAGRAM_HANDLE}</span>
           </a>
         </section>
       )}
