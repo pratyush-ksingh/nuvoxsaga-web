@@ -248,7 +248,7 @@ export function PhotoPortal({
         <div className="card-frame absolute inset-0 overflow-hidden rounded-2xl border border-hairline">
           <Picture
             name={c.image}
-            alt=""
+            alt={c.imageAlt}
             sizes={large ? '(min-width: 768px) 55vw, 100vw' : '(min-width: 768px) 33vw, 100vw'}
             className="absolute inset-0 size-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.06]"
           />
