@@ -36,7 +36,7 @@ import type {
 } from 'schema-dts';
 import { BRAND_BY_ID, BRANDS, type BrandId } from './brands';
 import { DESKS } from './desks';
-import { X_URL } from './social';
+import { INSTAGRAM_URL, X_URL } from './social';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 export const ORG_NAME = 'Nuvoxsaga';
@@ -62,7 +62,7 @@ export function organizationSchema(): WithContext<Organization> {
     name: ORG_NAME,
     url: SITE_URL,
     logo: ORG_LOGO,
-    sameAs: [X_URL, ...BRANDS.map((b) => `https://www.youtube.com/${b.handle}`)],
+    sameAs: [X_URL, INSTAGRAM_URL, ...BRANDS.map((b) => `https://www.youtube.com/${b.handle}`)],
   };
 }
 
