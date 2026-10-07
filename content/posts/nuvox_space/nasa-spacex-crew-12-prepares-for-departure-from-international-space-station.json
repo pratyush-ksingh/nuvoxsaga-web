@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-spacex-crew-12-prepares-for-departure-from-international-space-station",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA SpaceX Crew-12 prepares for departure from International Space Station",
+  "excerpt": "The Dragon spacecraft hatch closed at 6:05 a.m. EDT on October 7, 2026, to begin return operations.",
+  "bodyHtml": "<p>NASA announced that the SpaceX Crew-12 mission has initiated return operations from the International Space Station. The hatch between the SpaceX Dragon spacecraft and the orbiting laboratory was closed at 6:05 a.m. EDT on October 7, 2026.</p>\n<p>The spacecraft is scheduled to autonomously undock from the station at approximately 8:05 a.m. to begin its return journey to Earth. NASA coverage of the undocking process is scheduled to begin streaming at 7:45 a.m. across multiple platforms.</p>\n<p>Following the conclusion of the undocking coverage, NASA will distribute audio-only discussions between the Crew-12 members, the space station, and flight controllers during the transit of the Dragon spacecraft away from the orbital complex.</p>\n<p>NASA plans to resume live coverage of the return operations at 10:20 a.m. on October 8, 2026, continuing through the splashdown of the spacecraft.</p>",
+  "publishedAt": "2026-10-07T12:02:02Z",
+  "updatedAt": "2026-10-07T12:02:02Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "NASA’s SpaceX Crew-12 Closes Dragon Hatch, Preps for Departure",
+  "tags": [
+    "NASA",
+    "SpaceX",
+    "International Space Station",
+    "Dragon"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/blogs/spacestation/2026/10/07/nasas-spacex-crew-12-closes-dragon-hatch-preps-for-departure/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA SpaceX Crew-12 is preparing for departure from the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Dragon spacecraft hatch closed at 6:05 a.m. EDT on October 7, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The hatch closure marked the beginning of return operations for the SpaceX Crew-12 mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that the SpaceX Crew-12 mission has initiated return operations from the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft is scheduled to autonomously undock from the station at approximately 8:05 a.m.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The undocking is intended to begin the spacecraft's return journey to Earth.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA coverage of the undocking process is scheduled to begin streaming at 7:45 a.m. across multiple platforms.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA will distribute audio-only discussions between the Crew-12 members, the space station, and flight controllers following the undocking coverage.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The audio-only discussions will occur during the transit of the Dragon spacecraft away from the orbital complex.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA plans to resume live coverage of the return operations at 10:20 a.m. on October 8, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The live coverage on October 8 will continue through the splashdown of the spacecraft.",
+      "source": "NASA"
+    }
+  ]
+}

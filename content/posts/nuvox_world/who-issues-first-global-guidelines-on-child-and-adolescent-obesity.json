@@ -1,0 +1,73 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-2.webp",
+    "alt": "Illustration: cracked dry earth under a hazy sun",
+    "credit": "AI illustration"
+  },
+  "slug": "who-issues-first-global-guidelines-on-child-and-adolescent-obesity",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "WHO issues first global guidelines on child and adolescent obesity",
+  "excerpt": "The guidelines set out how health systems can deliver care for those living with obesity.",
+  "bodyHtml": "<p>The World Health Organization released its first guidelines addressing the rise in obesity among children and adolescents on October 7, 2026. The guidance sets out how health workers can deliver timely care.</p>\n<p>In 2024, 170 million children and adolescents aged 5–19 years were living with obesity. Obesity prevalence in this age group has quadrupled since 1990, rising from 2% to 8%.</p>\n<p>For children and adolescents with obesity, the World Health Organization strongly recommends structured dietary, physical activity and behaviour-changing interventions. Digital health interventions are conditionally recommended with parent or caregiver supervision.</p>\n<p>The World Health Organization does not recommend pharmacological treatment, bariatric surgery or weight-loss devices for children aged 0–9 years. For adolescents aged 10–19 years, treatment with approved medicines may be considered only when a supervised multimodal lifestyle programme has not achieved the desired results.</p>",
+  "publishedAt": "2026-10-07T12:09:14Z",
+  "updatedAt": "2026-10-07T12:09:14Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "WHO issues first global guidelines on child and adolescent obesity",
+  "tags": [
+    "World Health Organization",
+    "obesity"
+  ],
+  "source": {
+    "name": "The World Health Organization",
+    "url": "https://www.who.int/news/item/07-10-2026-who-issues-first-global-guidelines-on-child-and-adolescent-obesity"
+  },
+  "sources": [
+    "The World Health Organization"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "WHO issues first global guidelines on child and adolescent obesity.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The guidelines set out how health systems can deliver care for those living with obesity.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The World Health Organization released its first guidelines addressing the rise in obesity among children and adolescents on October 7, 2026.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The guidance sets out how health workers can deliver timely care.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "In 2024, 170 million children and adolescents aged 5–19 years were living with obesity.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Obesity prevalence in this age group has quadrupled since 1990, rising from 2% to 8%.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "For children and adolescents with obesity, the World Health Organization strongly recommends structured dietary, physical activity and behaviour-changing interventions.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Digital health interventions are conditionally recommended with parent or caregiver supervision.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The World Health Organization does not recommend pharmacological treatment, bariatric surgery or weight-loss devices for children aged 0–9 years.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "For adolescents aged 10–19 years, treatment with approved medicines may be considered only when a supervised multimodal lifestyle programme has not achieved the desired results.",
+      "source": "The World Health Organization"
+    }
+  ]
+}

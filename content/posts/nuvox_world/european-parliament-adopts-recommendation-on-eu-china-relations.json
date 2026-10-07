@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-adopts-recommendation-on-eu-china-relations",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament adopts recommendation on EU-China relations",
+  "excerpt": "MEPs voted 454 to 86 to demand a stronger and more principled policy regarding China's economic practices and its position on the war in Ukraine.",
+  "bodyHtml": "<p>The European Parliament adopted a recommendation on October 7, 2026, calling for a stronger EU-China policy that balances dialogue with the protection of European interests. The measure passed with 454 votes in favour, 86 against, and 110 abstentions.</p>\n<p>The recommendation states that bilateral relations have reached a critical point due to China&#x27;s economic practices and its stance on the war in Ukraine. MEPs expressed concern over reports that the Chinese military has trained Russian personnel to fight in Ukraine. The Parliament also called for a de-risking strategy in strategic sectors, including critical raw materials, semiconductors, and electric vehicles, while demanding reciprocity in trade and investment.</p>\n<p>Parliamentary delegations visited China between March and June 2026, with a fourth delegation scheduled to follow later in October 2026.</p>",
+  "publishedAt": "2026-10-07T12:09:48Z",
+  "updatedAt": "2026-10-07T12:09:48Z",
+  "wordCount": 125,
+  "readingTimeMin": 1,
+  "topic": "Press release - EU-China relations: MEPs defend dialogue, fair trade, and human rights",
+  "tags": [
+    "European Parliament",
+    "China",
+    "EU",
+    "trade"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261002IPR47902/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Parliament adopted a recommendation on EU-China relations.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs voted 454 to 86 to demand a stronger and more principled policy regarding China's economic practices and its position on the war in Ukraine.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament adopted the recommendation on October 7, 2026.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The recommendation calls for a stronger EU-China policy that balances dialogue with the protection of European interests.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The measure passed with 454 votes in favour, 86 against, and 110 abstentions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The recommendation states that bilateral relations have reached a critical point due to China's economic practices and its stance on the war in Ukraine.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs expressed concern over reports that the Chinese military has trained Russian personnel to fight in Ukraine.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The Parliament called for a de-risking strategy in strategic sectors, including critical raw materials, semiconductors, and electric vehicles.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The Parliament demanded reciprocity in trade and investment.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Parliamentary delegations visited China between March and June 2026.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "A fourth delegation is scheduled to follow later in October 2026.",
+      "source": "The European Parliament"
+    }
+  ]
+}
