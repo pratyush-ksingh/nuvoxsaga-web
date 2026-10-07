@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-announces-scheduled-departure-of-northrop-grumman-crs-24-spacecraft",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA announces scheduled departure of Northrop Grumman CRS-24 spacecraft",
+  "excerpt": "NASA will provide live coverage of the Cygnus XL spacecraft undocking from the International Space Station on October 9.",
+  "bodyHtml": "<p>NASA announced that the Northrop Grumman Cygnus XL spacecraft is scheduled to depart the International Space Station on October 9. The spacecraft, which delivered more than 11,000 pounds of supplies and science experiments to the orbital complex, is part of the Commercial Resupply Services-24 mission.</p>\n<p>NASA will provide live coverage of the undocking and departure beginning at 12:30 p.m. EDT. Flight controllers on the ground will send commands for the station’s Canadarm2 robotic arm to detach the spacecraft from the Unity module’s Earth-facing port and maneuver it into position for release at 12:45 p.m. EDT. NASA astronaut Luke Delaney will monitor the operation from aboard the orbital complex.</p>\n<p>The spacecraft launched on April 11 on a SpaceX Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. Loaded with thousands of pounds of disposal items and other unneeded cargo, the Cygnus XL is scheduled to deorbit on October 11 for a destructive re-entry into Earth’s atmosphere. NASA will not provide coverage of the spacecraft’s deorbit.</p>",
+  "publishedAt": "2026-10-07T04:27:48Z",
+  "updatedAt": "2026-10-07T04:27:48Z",
+  "wordCount": 171,
+  "readingTimeMin": 1,
+  "topic": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+  "tags": [
+    "Northrop Grumman",
+    "International Space Station",
+    "Commercial Resupply"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA announced the scheduled departure of the Northrop Grumman CRS-24 spacecraft (Cygnus XL).",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA will provide live coverage of the Cygnus XL undocking from the ISS on October 9.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Cygnus XL delivered more than 11,000 pounds of supplies and science experiments to the station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission is Commercial Resupply Services-24.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Live coverage begins at 12:30 p.m. EDT.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Flight controllers on the ground will send commands for Canadarm2 to detach the spacecraft from the Unity module’s Earth-facing port and maneuver it into position for release.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Release is at 12:45 p.m. EDT.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA astronaut Luke Delaney will monitor the operation from aboard the station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft launched on April 11 on a SpaceX Falcon 9 from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Cygnus XL is loaded with thousands of pounds of disposal items and other unneeded cargo.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Cygnus XL is scheduled to deorbit on October 11 for a destructive re-entry into Earth’s atmosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA will not provide coverage of the spacecraft’s deorbit.",
+      "source": "NASA"
+    }
+  ]
+}

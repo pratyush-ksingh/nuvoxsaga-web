@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-announces-30-billion-parameter-nemotron-3-large-telco-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "NVIDIA announces 30-billion-parameter Nemotron 3 Large Telco Model",
+  "excerpt": "The new model is fine-tuned on open source telecom datasets to assist with network configuration and customer incident triage.",
+  "bodyHtml": "<p>NVIDIA announced the 30-billion-parameter Nemotron 3 Large Telco Model on October 6, 2026. The model was fine-tuned by AdaptKey using open source telecom datasets to improve accuracy for specific industry tasks.</p>\n<p>The model provides an open baseline designed to understand telecom terminology and reason through operational workflows. This includes tasks such as network configuration and customer incident triage.</p>\n<p>NVIDIA also released a full recipe that walks through the end-to-end fine-tuning pipeline for adapting open models to operator-specific networks, customers and procedures using NVIDIA NeMo open libraries.</p>\n<p>According to NVIDIA, 89% of respondents in its latest State of AI in Telecommunications report stated that open source models and software are important to their company’s AI strategy. The company provides an end-to-end platform for these models, powered by NVIDIA AI Enterprise software and the NVIDIA Agent Toolkit.</p>",
+  "publishedAt": "2026-10-06T18:10:54Z",
+  "updatedAt": "2026-10-06T18:10:54Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+  "tags": [
+    "NVIDIA",
+    "Nemotron",
+    "NVIDIA NeMo",
+    "Telecommunications"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA announced the Nemotron 3 Large Telco Model (LTM).",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The model has 30 billion parameters.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The announcement was made on October 6, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The model was fine-tuned by AdaptKey.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "It was fine-tuned on open source telecom datasets to improve accuracy for telecom-specific tasks.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The model provides an open baseline that understands telecom terminology and reasons through operational workflows.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Workflows include network configuration and customer incident triage.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA released a full recipe for the end-to-end fine-tuning pipeline for adapting open models to operator-specific networks, customers and procedures using NVIDIA NeMo open libraries.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "89% of respondents in NVIDIA's latest State of AI in Telecommunications report said open source models and software are important to their company's AI strategy.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA provides an end-to-end platform for these models, powered by NVIDIA AI Enterprise software and the NVIDIA Agent Toolkit.",
+      "source": "NVIDIA"
+    }
+  ]
+}

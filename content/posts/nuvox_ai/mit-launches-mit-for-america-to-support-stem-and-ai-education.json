@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-1.webp",
+    "alt": "Illustration: classical government building columns at night with soft light",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-launches-mit-for-america-to-support-stem-and-ai-education",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "MIT launches MIT for America to support STEM and AI education",
+  "excerpt": "President Sally Kornbluth announced the new strategic initiative on October 6, 2026.",
+  "bodyHtml": "<p>MIT announced the launch of a new strategic initiative named MIT for America on October 6, 2026, to strengthen STEM education nationally across multiple levels of learning. President Sally Kornbluth made the announcement in a letter to the Institute community.</p>\n<p>The initiative includes programs addressing living, learning, and working with artificial intelligence, such as teacher education that helps instructors integrate artificial intelligence into classroom learning. Faculty co-director Cynthia Breazeal and faculty co-director Eric Klopfer lead the initiative alongside other Institute leaders.</p>\n<p>The initiative leverages existing efforts such as the MIT RAISE program, which stands for Responsible AI for Social Empowerment and Education, to provide materials and training for teachers. The Institute also launched a related program called Pathways for AI Training and Hiring on October 1.</p>",
+  "publishedAt": "2026-10-06T18:14:54Z",
+  "updatedAt": "2026-10-06T18:14:54Z",
+  "wordCount": 126,
+  "readingTimeMin": 1,
+  "topic": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
+  "tags": [
+    "MIT",
+    "MIT for America",
+    "MIT RAISE",
+    "Sally Kornbluth"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT launched a new strategic initiative named MIT for America.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The launch was announced on October 6, 2026.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The initiative aims to strengthen STEM education nationally across multiple levels of learning.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The initiative supports STEM and AI education (headline).",
+      "source": "MIT News"
+    },
+    {
+      "claim": "President Sally Kornbluth made the announcement in a letter to the Institute community.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The initiative includes programs addressing living, learning, and working with AI, such as teacher education that helps instructors integrate AI into classroom learning.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Cynthia Breazeal is a faculty co-director of the initiative.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Eric Klopfer is a faculty co-director of the initiative.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Breazeal and Klopfer lead the initiative alongside other Institute leaders.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The initiative leverages existing efforts such as MIT RAISE to provide materials and training for teachers.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT RAISE stands for Responsible AI for Social Empowerment and Education.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The Institute launched a related program called Pathways for AI Training and Hiring on October 1.",
+      "source": "MIT News"
+    }
+  ]
+}

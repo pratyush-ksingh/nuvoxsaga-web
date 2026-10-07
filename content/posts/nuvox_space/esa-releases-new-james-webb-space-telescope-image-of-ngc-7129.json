@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/space/esa-releases-new-james-webb-space-telescope-image-of-ngc-7129.webp",
+    "alt": "NGC 7129 (NIRCam image)",
+    "credit": "NASA, ESA, CSA, STScI; Image Processing: A. Pagan (STScI) (CC BY 4.0)"
+  },
+  "slug": "esa-releases-new-james-webb-space-telescope-image-of-ngc-7129",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "ESA releases new James Webb Space Telescope image of NGC 7129",
+  "excerpt": "The infrared image reveals stars at various stages of development within a stellar nursery located 3,300 light-years from Earth.",
+  "bodyHtml": "<p>On October 6, 2026, ESA released a new image from the James Webb Space Telescope depicting the stellar nursery NGC 7129. The nebula, which contains gas, dust, and numerous stars, is located approximately 3,300 light-years from Earth.</p>\n<p>The image captures infrared light, allowing the telescope to observe stars hidden by dense clouds of dust. The region includes the luminous central star LkH(alpha) 234, a pre-main-sequence star estimated to be 5 to 8 times the mass of the Sun. This star is contracting under the force of gravity, causing its temperature to rise.</p>\n<p>The image also shows a golden cavity spanning about 3.5 light-years, which was carved by outflows from the central star. Astronomers will continue to use this Webb data to study how the stars and protostars in this region influence the surrounding gas and dust.</p>",
+  "publishedAt": "2026-10-07T04:29:06Z",
+  "updatedAt": "2026-10-07T04:29:06Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "Photo Release: Webb captures commotion from nebula’s stellar jets",
+  "tags": [
+    "ESA",
+    "James Webb Space Telescope",
+    "NGC 7129"
+  ],
+  "source": {
+    "name": "ESA",
+    "url": "https://esawebb.org/news/weic2620/"
+  },
+  "sources": [
+    "ESA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA released a new James Webb Space Telescope image of NGC 7129 (headline).",
+      "source": "ESA"
+    },
+    {
+      "claim": "The infrared image reveals stars at various stages of development within a stellar nursery (dek).",
+      "source": "ESA"
+    },
+    {
+      "claim": "The stellar nursery is located 3,300 light-years from Earth.",
+      "source": "ESA"
+    },
+    {
+      "claim": "On October 6, 2026, ESA released the image.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The nebula contains gas, dust, and numerous stars.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The image captures infrared light, allowing the telescope to observe stars hidden by dense clouds of dust.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The region includes the luminous central star LkH(alpha) 234.",
+      "source": "ESA"
+    },
+    {
+      "claim": "LkH(alpha) 234 is a pre-main-sequence star estimated at 5 to 8 times the mass of the Sun.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The star is contracting under gravity, causing its temperature to rise.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The image shows a golden cavity spanning about 3.5 light-years.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The cavity was carved by outflows from the central star.",
+      "source": "ESA"
+    },
+    {
+      "claim": "Astronomers will continue to use this Webb data to study how stars and protostars influence the surrounding gas and dust.",
+      "source": "ESA"
+    }
+  ]
+}

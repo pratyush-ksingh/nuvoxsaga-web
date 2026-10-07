@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-1.webp",
+    "alt": "Illustration: laboratory test tubes in a rack under cool light",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-provides-mental-health-support-guidance-for-nationals-in-singapore",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "UK government provides mental health support guidance for nationals in Singapore",
+  "excerpt": "The guidance details emergency procedures, medical access, and local support resources for British citizens in Singapore.",
+  "bodyHtml": "<p>The UK government published guidance on October 7, 2026, regarding mental health support for British nationals in Singapore. For emergencies or urgent medical attention, the government advises calling 995 to request an ambulance or police, or visiting the emergency department at any general hospital. Alternatively, individuals may attend the walk-in centre at the Institute of Mental Health.</p>\n<p>The guidance states that individuals experiencing a mental health crisis may be subject to involuntary detention, where they are treated against their wishes if deemed a risk to themselves or others. UK mental health laws and General Data Protection Regulation laws are non-transferrable to Singapore. For non-urgent medical attention, the government suggests visiting the Ministry of Health website or a local SingHealth Polyclinic.</p>\n<p>British nationals are advised to check if they require approval from the Health Sciences Authority to bring medication from the UK. Local support organisations include the National Care Hotline at 1800 202 6868, the Samaritans of Singapore at 1800 221 4444, and the Mental Health Helpline at +65 6389 2222.</p>",
+  "publishedAt": "2026-10-07T04:34:49Z",
+  "updatedAt": "2026-10-07T04:34:49Z",
+  "wordCount": 170,
+  "readingTimeMin": 1,
+  "topic": "Mental health support for British nationals in Singapore",
+  "tags": [
+    "Singapore",
+    "mental health",
+    "UK government"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/mental-health-support-for-british-nationals-in-singapore"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government published guidance on October 7, 2026 on mental health support for British nationals in Singapore.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance details emergency procedures, medical access, and local support resources for British citizens in Singapore.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "For emergencies or urgent medical attention, the government advises calling 995 to request an ambulance or police.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government advises visiting the emergency department at any general hospital.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Alternatively, individuals may attend the walk-in centre at the Institute of Mental Health.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "People experiencing a mental health crisis may be subject to involuntary detention, treated against their wishes if deemed a risk to themselves or others.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "UK mental health laws and GDPR laws are non-transferrable to Singapore.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "For non-urgent medical attention, the government suggests visiting the Ministry of Health website or a local SingHealth Polyclinic.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "British nationals are advised to check if they require Health Sciences Authority approval to bring medication from the UK.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "National Care Hotline is 1800 202 6868.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Samaritans of Singapore is 1800 221 4444.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Mental Health Helpline is +65 6389 2222.",
+      "source": "The UK government"
+    }
+  ]
+}
