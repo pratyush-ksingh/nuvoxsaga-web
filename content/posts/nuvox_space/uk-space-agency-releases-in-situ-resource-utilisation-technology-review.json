@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-2.webp",
+    "alt": "Illustration: rows of small satellites in a factory under white light",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-releases-in-situ-resource-utilisation-technology-review",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "UK Space Agency releases In-Situ Resource Utilisation technology review",
+  "excerpt": "The report details findings on UK capabilities, international ambitions, and sector opportunities.",
+  "bodyHtml": "<p>The UK Space Agency published the UK In-Situ Resource Utilisation (ISRU) Technology Review on October 6, 2026. This independent review was commissioned in 2025 to explore the capabilities of the UK space sector in the ISRU technology field.</p>\n<p>Frazer-Nash Consultancy Ltd. led the review. The process was supported by ISRU-UK, which is the association group for active organisations in this technology area. Additionally, the review incorporated individual responses from representatives of UK organisations already involved in research and development of such technologies.</p>\n<p>The report provides conclusions regarding UK capabilities, international ambitions, and opportunities for the sector. The document is 77 pages long and is available in both HTML and PDF formats. The PDF file is 27.2 MB in size.</p>",
+  "publishedAt": "2026-10-07T06:03:27Z",
+  "updatedAt": "2026-10-07T06:03:27Z",
+  "wordCount": 119,
+  "readingTimeMin": 1,
+  "topic": "Research: UK In-Situ Resource Utilisation (ISRU) Technology Review",
+  "tags": [
+    "UK Space Agency",
+    "ISRU",
+    "Frazer-Nash Consultancy Ltd."
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/uk-in-situ-resource-utilisation-isru-technology-review"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency released/published the UK ISRU Technology Review (headline)",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The report details findings on UK capabilities, international ambitions, and sector opportunities.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency published the review on October 6, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The review is independent.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The review was commissioned in 2025 to explore the capabilities of the UK space sector in the ISRU technology field.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Frazer-Nash Consultancy Ltd. led the review.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The process was supported by ISRU-UK, the association group for active organisations in this technology area.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The review incorporated individual responses from representatives of UK organisations already involved in R&D of such technologies.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The document is 77 pages long.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The document is available in both HTML and PDF formats.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The PDF file is 27.2 MB.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

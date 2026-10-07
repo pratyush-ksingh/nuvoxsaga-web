@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "portugal-prime-minister-calls-for-modernization-of-eu-budget",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Portugal prime minister calls for modernization of EU budget",
+  "excerpt": "Luís Montenegro addressed the European Parliament on October 6, 2026, to discuss the future of the European Union.",
+  "bodyHtml": "<p>During a debate at the European Parliament on October 6, 2026, Prime Minister of Portugal Luís Montenegro called for the modernization of the European Union budget. He stated that the forthcoming multiannual financial framework covering 2028-2034 should serve as the financial translation of the political ambitions of the European Union.</p>\n<p>Montenegro advocated for the reduction of red tape and bureaucracy to improve the competitiveness of member states. He also called for progress in establishing the Saving and Investment Union and the conclusion of the Banking Union to provide high quality and well-paid jobs.</p>\n<p>The prime minister requested a coordinated European approach to the current energy crisis to reduce dependency on other countries. He further suggested that European action could assist with the housing crisis by contributing to the simplification of procedures while respecting national and local competences.</p>",
+  "publishedAt": "2026-10-07T06:06:47Z",
+  "updatedAt": "2026-10-07T06:06:47Z",
+  "wordCount": 137,
+  "readingTimeMin": 1,
+  "topic": "Press release - MEPs debate the EU’s future with the Prime Minister of Portugal, Luís Montenegro",
+  "tags": [
+    "European Union",
+    "Portugal",
+    "Luís Montenegro",
+    "European Parliament"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261002IPR47898/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Portugal's prime minister Luís Montenegro called for modernization of the EU budget (headline).",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Montenegro addressed the European Parliament on October 6, 2026, to discuss the future of the EU.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The forthcoming multiannual financial framework covers 2028-2034.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Montenegro said the MFF should serve as the financial translation of the EU's political ambitions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Montenegro advocated reducing red tape and bureaucracy to improve the competitiveness of member states.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "He called for progress on the Saving and Investment Union and conclusion of the Banking Union to provide high quality, well-paid jobs.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "He requested a coordinated European approach to the current energy crisis to reduce dependency on other countries.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "He suggested European action could help with the housing crisis by contributing to simplification of procedures while respecting national and local competences.",
+      "source": "The European Parliament"
+    }
+  ]
+}

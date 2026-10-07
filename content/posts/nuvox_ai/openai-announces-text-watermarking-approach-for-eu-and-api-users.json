@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-2.webp",
+    "alt": "Illustration: wooden gavel on a desk next to a glowing microchip",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-announces-text-watermarking-approach-for-eu-and-api-users",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "OpenAI announces text watermarking approach for EU and API users",
+  "excerpt": "The company is introducing optional API watermarking and plans to add invisible signals to ChatGPT and Codex outputs in the European Union.",
+  "bodyHtml": "<p>OpenAI announced on October 5, 2026, its approach to text watermarking in response to the EU AI Act. The company plans to add an invisible watermark to eligible ChatGPT and Codex text output in the European Union over the coming weeks. For API customers globally, OpenAI is making text watermarking available as an opt-in feature for select models, with the technology remaining off by default.</p>\n<p>The watermarking technology, called textGrain, adds an invisible statistical signal to the model’s word choices. OpenAI is limiting access to its watermark detector to approved researchers and expert organizations to evaluate the technology. The company stated that it is not making the detector publicly available at launch due to the risk of missed watermarks and false positives.</p>\n<p>Detection performance is lower for shorter text or content with less flexibility in word choice, such as mathematics. OpenAI noted that a watermark does not measure human contribution, establish ownership, identify the user, or verify accuracy. Approved researchers and expert organizations can apply for access to the detector starting October 5, 2026, and OpenAI plans to make the technology available in open source.</p>",
+  "publishedAt": "2026-10-07T06:02:02Z",
+  "updatedAt": "2026-10-07T06:02:02Z",
+  "wordCount": 185,
+  "readingTimeMin": 1,
+  "topic": "Our approach to EU text provenance rules",
+  "tags": [
+    "OpenAI",
+    "EU AI Act",
+    "textGrain"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/eu-text-provenance"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI announced on October 5, 2026 its approach to text watermarking in response to the EU AI Act.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI plans to add an invisible watermark to eligible ChatGPT and Codex text output in the European Union over the coming weeks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "For API customers globally, text watermarking is an opt-in feature for select models.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Text watermarking remains off by default in the API.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The technology is called textGrain and adds an invisible statistical signal to the model's word choices.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI is limiting detector access to approved researchers and expert organizations to evaluate the technology.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI is not making the detector publicly available at launch due to the risk of missed watermarks and false positives.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Detection performance is lower for shorter text or content with less flexibility in word choice, such as mathematics.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "A watermark does not measure human contribution, establish ownership, identify the user, or verify accuracy.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Approved researchers and expert organizations can apply for detector access starting October 5, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI plans to make the technology available in open source.",
+      "source": "OpenAI"
+    }
+  ]
+}
