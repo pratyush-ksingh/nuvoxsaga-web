@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/space/nasa-and-spacex-schedule-35th-commercial-resupply-mission-for-october-13.webp",
+    "alt": "D4_2067548_20260616T162925_R_2026-06-16 16-29-28.NEF",
+    "credit": "NASA"
+  },
+  "slug": "nasa-and-spacex-schedule-35th-commercial-resupply-mission-for-october-13",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "launch",
+  "title": "NASA and SpaceX schedule 35th commercial resupply mission for October 13",
+  "excerpt": "The Dragon spacecraft will carry over 6,300 pounds of science experiments and supplies to the International Space Station.",
+  "bodyHtml": "<p>NASA and SpaceX are targeting 6:33 a.m. EDT, Oct. 13, for the launch of the 35th commercial resupply services mission to the International Space Station. The mission will utilize a SpaceX Dragon spacecraft launched on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.</p>\n<p>The spacecraft is scheduled to dock autonomously around 11 a.m. on Oct. 15 to the space-facing port of the station’s Harmony module. The cargo includes the final set of International Space Station Roll-Out Solar Arrays, hardware to manufacture artificial retinas in microgravity, and 3D heart tissues models to advance large-scale drug testing.</p>\n<p>The spacecraft will also carry materials to study how a new type of glass forms in microgravity and brain organoids that could reveal treatment targets for neurodegenerative diseases. The Dragon spacecraft is scheduled to remain at the space station until mid-November when it will depart the orbiting laboratory and return to Earth with time-critical research and cargo, splashing down off the coast of California.</p>",
+  "publishedAt": "2026-10-08T02:14:35Z",
+  "updatedAt": "2026-10-08T02:14:35Z",
+  "wordCount": 168,
+  "readingTimeMin": 1,
+  "topic": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+  "tags": [
+    "NASA",
+    "SpaceX",
+    "International Space Station",
+    "Dragon"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA and SpaceX have scheduled their 35th commercial resupply mission for October 13.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Dragon spacecraft will carry over 6,300 pounds of science experiments and supplies to the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA and SpaceX are targeting 6:33 a.m. EDT on Oct. 13 for the launch of the 35th commercial resupply services mission to the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will use a SpaceX Dragon spacecraft launched on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft is scheduled to dock autonomously around 11 a.m. on Oct. 15 to the space-facing port of the station’s Harmony module.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The cargo includes the final set of International Space Station Roll-Out Solar Arrays, hardware to manufacture artificial retinas in microgravity, and 3D heart tissues models to advance large-scale drug testing.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft will carry materials to study how a new type of glass forms in microgravity and brain organoids that could reveal treatment targets for neurodegenerative diseases.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Dragon spacecraft is scheduled to remain at the space station until mid-November when it will depart and return to Earth, splashing down off the coast of California.",
+      "source": "NASA"
+    }
+  ]
+}

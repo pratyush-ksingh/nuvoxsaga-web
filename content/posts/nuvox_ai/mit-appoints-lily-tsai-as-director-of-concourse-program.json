@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-3.webp",
+    "alt": "Illustration: empty conference table with microphones in a dim hall",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-appoints-lily-tsai-as-director-of-concourse-program",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "MIT appoints Lily Tsai as director of Concourse program",
+  "excerpt": "The Ford Professor of Political Science succeeds Anne McCants in leading the first-year learning community.",
+  "bodyHtml": "<p>MIT News reported on October 7, 2026, that Lily Tsai, the Ford Professor of Political Science, has been named the new director of the Concourse program. The appointment follows the departure of Anne McCants, the Ann F. Friedlaender Professor of History, who led the program for 14 years.</p>\n<p>Concourse is a first-year learning community at MIT that combines humanities, math, and science curricula. The program accepts 50 first-year students each year and provides a foundation in the humanities alongside General Institute Requirement courses.</p>\n<p>Tsai assumes the leadership role as the Institute expands efforts to broaden connections between the School of Humanities, Arts, and Social Sciences and other fields. These efforts include the Compass Initiative, the MIT Human Insight Collaborative, and the creation of shared faculty positions within the MIT Schwarzman College of Computing.</p>",
+  "publishedAt": "2026-10-08T02:08:27Z",
+  "updatedAt": "2026-10-08T02:08:27Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "Discovering the value of humanistic inquiry",
+  "tags": [
+    "MIT",
+    "Concourse",
+    "Lily Tsai"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT appointed Lily Tsai as director of the Concourse program.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Lily Tsai is the Ford Professor of Political Science.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Lily Tsai succeeds Anne McCants in leading the Concourse program.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT News reported the appointment on October 7, 2026.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Anne McCants is the Ann F. Friedlaender Professor of History.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Anne McCants led the Concourse program for 14 years.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Concourse is a first-year learning community at MIT.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Concourse combines humanities, math, and science curricula.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The Concourse program accepts 50 first-year students each year.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The program provides a foundation in the humanities alongside General Institute Requirement courses.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Tsai's appointment comes as MIT expands efforts to connect the School of Humanities, Arts, and Social Sciences (SHASS) with other fields.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT's expansion efforts include the Compass Initiative, the MIT Human Insight Collaborative, and the creation of shared faculty positions within the MIT Schwarzman College of Computing.",
+      "source": "MIT News"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-and-microsoft-announce-rtx-spark-hardware-for-windows-pcs",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "NVIDIA and Microsoft announce RTX Spark hardware for Windows PCs",
+  "excerpt": "The new hardware platform integrates NVIDIA AI technology into laptops and compact desktops to support local AI agents.",
+  "bodyHtml": "<p>NVIDIA and Microsoft announced on October 7, 2026, that they are co-engineering hardware and software for AI agents to run on Windows PCs. The companies introduced RTX Spark, an AI stack designed to bring NVIDIA hardware capabilities into Windows laptops and compact desktops.</p>\n<p>RTX Spark combines an NVIDIA Blackwell RTX GPU with up to 6,144 cores and an NVIDIA Grace CPU. The hardware supports up to 128GB of unified memory and one petaflop of FP4 AI performance. Microsoft also announced the general availability of Microsoft Execution Containers, which is OS-level infrastructure intended to allow agents to run in the background under operating system control.</p>\n<p>Laptop preorders for RTX Spark systems are open as of October 7, 2026, with availability beginning October 16. Compact desktop configurations are scheduled for sale in November.</p>",
+  "publishedAt": "2026-10-08T02:07:54Z",
+  "updatedAt": "2026-10-08T02:07:54Z",
+  "wordCount": 131,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+  "tags": [
+    "NVIDIA",
+    "Microsoft",
+    "RTX Spark",
+    "Windows"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA and Microsoft announced RTX Spark hardware for Windows PCs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The hardware platform integrates NVIDIA AI technology into laptops and compact desktops to support local AI agents.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA and Microsoft announced on October 7, 2026, that they are co-engineering hardware and software for AI agents to run on Windows PCs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The companies introduced RTX Spark, an AI stack designed to bring NVIDIA hardware capabilities into Windows laptops and compact desktops.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "RTX Spark combines an NVIDIA Blackwell RTX GPU with up to 6,144 cores and an NVIDIA Grace CPU.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The hardware supports up to 128GB of unified memory and one petaflop of FP4 AI performance.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Microsoft announced the general availability of Microsoft Execution Containers, an OS-level infrastructure that allows agents to run in the background under operating system control.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Laptop preorders for RTX Spark systems opened on October 7, 2026, with availability starting October 16.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Compact desktop configurations are scheduled for sale in November.",
+      "source": "NVIDIA"
+    }
+  ]
+}

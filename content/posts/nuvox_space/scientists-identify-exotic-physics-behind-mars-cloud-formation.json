@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "scientists-identify-exotic-physics-behind-mars-cloud-formation",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Scientists identify exotic physics behind Mars cloud formation",
+  "excerpt": "Researchers using the Mars Express spacecraft found that the Arsia Mons Elongated Cloud forms through a rare process called homogeneous nucleation.",
+  "bodyHtml": "<p>The European Space Agency announced on October 7, 2026, that scientists using the Mars Express spacecraft and meteorological modeling have identified the physics behind the Arsia Mons Elongated Cloud. This cloud, which forms downwind of the 20-km-tall Arsia Mons volcano, appears during the southern hemisphere spring and summer.</p>\n<p>The study indicates the cloud forms via homogeneous nucleation, a process where water vapor turns directly into icy cloud particles without needing dust or other particles to cling to. This process requires extreme relative humidity levels and has not been observed before in a planetary atmosphere.</p>\n<p>The findings were detailed in the paper titled Homogeneous ice Nucleation from Water Vapour Suggested by Elongated Clouds on Mars, which was published in Nature Geoscience on October 7, 2026. The researchers based their modelling on data from the three cameras aboard Mars Express, which are the Visual Monitoring Camera, High Resolution Stereo Camera, and OMEGA.</p>",
+  "publishedAt": "2026-10-08T02:15:38Z",
+  "updatedAt": "2026-10-08T02:15:38Z",
+  "wordCount": 150,
+  "readingTimeMin": 1,
+  "topic": "Mars’s oddest cloud may be even odder than we thought",
+  "tags": [
+    "Mars Express",
+    "Mars",
+    "European Space Agency"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Mars_s_oddest_cloud_may_be_even_odder_than_we_thought"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Scientists identify exotic physics behind Mars cloud formation.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Researchers using the Mars Express spacecraft found that the Arsia Mons Elongated Cloud forms through a rare process called homogeneous nucleation.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 7, 2026, that scientists using the Mars Express spacecraft and meteorological modeling have identified the physics behind the Arsia Mons Elongated Cloud.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Arsia Mons Elongated Cloud forms downwind of the 20-km-tall Arsia Mons volcano.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Arsia Mons Elongated Cloud appears during the southern hemisphere spring and summer.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The study indicates the cloud forms via homogeneous nucleation.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Homogeneous nucleation is a process where water vapor turns directly into icy cloud particles without needing dust or other particles to cling to.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Homogeneous nucleation requires extreme relative humidity levels.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Homogeneous nucleation has not been observed before in a planetary atmosphere.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The findings were detailed in the paper titled Homogeneous ice Nucleation from Water Vapour Suggested by Elongated Clouds on Mars.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The paper was published in Nature Geoscience on October 7, 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The researchers based their modelling on data from the three cameras aboard Mars Express, which are the Visual Monitoring Camera, High Resolution Stereo Camera, and OMEGA.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

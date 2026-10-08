@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-selects-prima-for-new-probe-explorers-mission-class",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA selects PRIMA for new Probe Explorers mission class",
+  "excerpt": "The agency plans a 2033 launch for the far-infrared observatory if the mission is confirmed.",
+  "bodyHtml": "<p>NASA announced on October 7, 2026, that it has selected the PRobe far-Infrared Mission for Astrophysics (PRIMA) for development. This observatory is the first mission in the new Probe Explorers class within the agency&#x27;s Explorers Program. The agency selected the mission in September 2026.</p>\n<p>PRIMA will observe far-infrared light to study cosmic objects obscured by dust. The mission is intended to provide insights into the formation of planets, stars, and black holes, and even how water on Earth came to be. The mission will utilize a proposed design for the observatory.</p>\n<p>If the mission is confirmed by the agency, NASA targets a 2033 launch for a planned five-year mission. The mission is currently in the proposed design stage.</p>",
+  "publishedAt": "2026-10-08T02:15:11Z",
+  "updatedAt": "2026-10-08T02:15:11Z",
+  "wordCount": 118,
+  "readingTimeMin": 1,
+  "topic": "NASA’s PRIMA Spacecraft (Artist’s Concept)",
+  "tags": [
+    "NASA",
+    "PRIMA",
+    "Explorers Program"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA selects PRIMA for new Probe Explorers mission class.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency plans a 2033 launch for the far-infrared observatory if the mission is confirmed.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 7, 2026, that it has selected the PRobe far-Infrared Mission for Astrophysics (PRIMA) for development.",
+      "source": "NASA"
+    },
+    {
+      "claim": "PRIMA is the first mission in the new Probe Explorers class within the agency's Explorers Program.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency selected the mission in September 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "PRIMA will observe far-infrared light to study cosmic objects obscured by dust.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission is intended to provide insights into the formation of planets, stars, and black holes, and even how water on Earth came to be.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will utilize a proposed design for the observatory.",
+      "source": "NASA"
+    },
+    {
+      "claim": "If the mission is confirmed by the agency, NASA targets a 2033 launch.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission is planned for five years.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission is currently in the proposed design stage.",
+      "source": "NASA"
+    }
+  ]
+}

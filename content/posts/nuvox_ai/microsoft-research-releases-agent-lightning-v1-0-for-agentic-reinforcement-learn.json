@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "microsoft-research-releases-agent-lightning-v1-0-for-agentic-reinforcement-learn",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Microsoft Research releases Agent Lightning v1.0 for agentic reinforcement learning",
+  "excerpt": "The new framework enables reinforcement learning for AI agents using existing deployment harnesses and native Kubernetes support.",
+  "bodyHtml": "<p>Microsoft Research Asia announced the release of Agent Lightning v1.0 on October 7, 2026. The framework introduces a training paradigm called Harnessed Agentic RL, in which the same agent harness used in deployment participates directly in reinforcement learning. This approach removes the need for developers to reimplement agents inside a training framework.</p>\n<p>The system is designed to be lightweight, consisting of approximately 3,500 lines of code. It features native Kubernetes support, allowing agents to run as standard jobs on self-managed clusters or cloud infrastructure without requiring commercial sandbox services. The framework also utilizes Collocated Async RL, a method that lets rollout and model updates share the same set of GPUs to improve efficiency.</p>\n<p>In testing, the researchers applied the framework to an end-to-end coding agent pipeline using the Qwen3.5-9B model. The training process utilized about 6,000 training samples and increased the model&#x27;s Pass@1 performance on SWE-bench Verified from 41.8% to 56.4%.</p>\n<p>The researchers noted that compared with sample-level handling, rollout-level advantage combined with rollout-level normalization achieves a higher validation reward and keeps policy entropy more stable during training.</p>",
+  "publishedAt": "2026-10-08T02:09:01Z",
+  "updatedAt": "2026-10-08T02:09:01Z",
+  "wordCount": 178,
+  "readingTimeMin": 1,
+  "topic": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+  "tags": [
+    "Microsoft Research",
+    "Agent Lightning",
+    "Kubernetes",
+    "Reinforcement Learning"
+  ],
+  "source": {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/"
+  },
+  "sources": [
+    "Microsoft Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Microsoft Research released Agent Lightning v1.0 for agentic reinforcement learning.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The new framework enables reinforcement learning for AI agents using existing deployment harnesses and native Kubernetes support.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Microsoft Research Asia announced the release of Agent Lightning v1.0 on October 7, 2026.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The framework introduces a training paradigm called Harnessed Agentic RL, in which the same agent harness used in deployment participates directly in reinforcement learning.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The Harnessed Agentic RL approach removes the need for developers to reimplement agents inside a training framework.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The Agent Lightning v1.0 system is designed to be lightweight, consisting of approximately 3,500 lines of code.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The framework features native Kubernetes support, allowing agents to run as standard jobs on self-managed clusters or cloud infrastructure without requiring commercial sandbox services.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The framework utilizes Collocated Async RL, a method that lets rollout and model updates share the same set of GPUs to improve efficiency.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Researchers applied the framework to an end-to-end coding agent pipeline using the Qwen3.5-9B model.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The training process for the Qwen3.5-9B model utilized about 6,000 training samples.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The training process increased the Qwen3.5-9B model's Pass@1 performance on SWE-bench Verified from 41.8% to 56.4%.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Rollout-level advantage combined with rollout-level normalization achieves a higher validation reward and keeps policy entropy more stable during training compared with sample-level handling.",
+      "source": "Microsoft Research"
+    }
+  ]
+}
