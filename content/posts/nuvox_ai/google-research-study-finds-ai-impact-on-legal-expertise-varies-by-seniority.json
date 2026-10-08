@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-study-finds-ai-impact-on-legal-expertise-varies-by-seniority",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research study finds AI impact on legal expertise varies by seniority",
+  "excerpt": "A three-month trial with 133 patent lawyers shows that AI assistance improves immediate output but affects long-term skill development differently.",
+  "bodyHtml": "<p>Google Research published a study on October 7, 2026, examining how AI tools influence the professional judgment of patent attorneys. The randomized controlled trial involved 133 lawyers at eleven intellectual property law firms who used a patent writing assistant tool, now part of Gemini Notebook, over a three-month period.</p>\n<p>The researchers found that while AI access consistently improved drafting performance, its effect on skill building depended on experience. Senior lawyers who used the tool demonstrated stronger judgment in unassisted tasks, while junior lawyers showed no average skill gain. The study concluded that for junior professionals, AI-assisted performance does not necessarily translate into the faster acquisition of expertise.</p>\n<p>The research team plans to conduct further studies to better understand the long-term effects of AI assistance on professional skill development.</p>",
+  "publishedAt": "2026-10-08T06:02:53Z",
+  "updatedAt": "2026-10-08T06:02:53Z",
+  "wordCount": 128,
+  "readingTimeMin": 1,
+  "topic": "Does better work always mean better workers?",
+  "tags": [
+    "Google Research",
+    "Gemini Notebook",
+    "AI",
+    "legal"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/does-better-work-always-mean-better-workers/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research study finds AI impact on legal expertise varies by seniority.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "A three-month trial with 133 patent lawyers shows that AI assistance improves immediate output but affects long-term skill development differently.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research published a study on October 7, 2026, examining how AI tools influence the professional judgment of patent attorneys.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The randomized controlled trial involved 133 lawyers at eleven intellectual property law firms who used a patent writing assistant tool, now part of Gemini Notebook, over a three-month period.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "AI access consistently improved drafting performance.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The effect of AI on skill building depended on experience.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Senior lawyers who used the tool demonstrated stronger judgment in unassisted tasks.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Junior lawyers showed no average skill gain.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The study concluded that for junior professionals, AI-assisted performance does not necessarily translate into the faster acquisition of expertise.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The research team plans to conduct further studies to better understand the long-term effects of AI assistance on professional skill development.",
+      "source": "Google Research"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-hera-mission-to-perform-braking-manoeuvres",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "ESA Hera mission to perform braking manoeuvres",
+  "excerpt": "The spacecraft will ignite thrusters on October 15 to reduce its velocity relative to the Didymos asteroid system.",
+  "bodyHtml": "<p>The European Space Agency announced on October 7, 2026, that the Hera spacecraft is preparing for a series of braking manoeuvres to approach its target asteroids. The mission, which launched from Cape Canaveral Space Force Station on October 7, 2024, is currently travelling at a speed of more than 12 kilometres per second relative to Earth.</p>\n<p>On October 15, Hera will rotate to align its ring of Orbit Control Thrusters to face the Didymos system. Three of these hydrazine-based thrusters will be ignited at once, burning continuously for a total of 93 minutes to reduce the spacecraft&#x27;s velocity relative to the asteroids by a few hundred metres per second.</p>\n<p>A second braking manoeuvre, known as BRM-2, is scheduled for implementation on October 22. This second thruster burn will last approximately 31 minutes and is intended to complete most of the delta-v required to match the velocity of the Didymos system, while also compensating for any performance variations during the first manoeuvre.</p>\n<p>Following these two primary burns, the mission team will conduct three smaller transition manoeuvres toward the end of October. These final adjustments will reduce the relative velocity of the spacecraft with respect to the Didymos system down to near zero.</p>",
+  "publishedAt": "2026-10-08T06:07:28Z",
+  "updatedAt": "2026-10-08T06:07:28Z",
+  "wordCount": 201,
+  "readingTimeMin": 1,
+  "topic": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+  "tags": [
+    "ESA",
+    "Hera",
+    "Didymos"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA Hera mission is set to perform braking manoeuvres.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Hera spacecraft will ignite thrusters on October 15 to reduce its velocity relative to the Didymos asteroid system.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 7, 2026, that the Hera spacecraft is preparing for a series of braking manoeuvres to approach its target asteroids.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission launched from Cape Canaveral Space Force Station on October 7, 2024, and is currently travelling at a speed of more than 12 kilometres per second relative to Earth.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "On October 15, Hera will rotate to align its ring of Orbit Control Thrusters to face the Didymos system.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Three hydrazine-based thrusters will be ignited at once, burning continuously for 93 minutes to reduce the spacecraft's velocity relative to the asteroids by a few hundred metres per second.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "A second braking manoeuvre, known as BRM-2, is scheduled for implementation on October 22.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The second thruster burn will last approximately 31 minutes and is intended to complete most of the delta-v required to match the velocity of the Didymos system, while compensating for any performance variations during the first manoeuvre.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Following the primary burns, the mission team will conduct three smaller transition manoeuvres toward the end of October.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The final adjustments will reduce the relative velocity of the spacecraft with respect to the Didymos system down to near zero.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

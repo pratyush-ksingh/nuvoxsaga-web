@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-researchers-develop-ai-tools-to-improve-data-center-efficiency",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT researchers develop AI tools to improve data center efficiency",
+  "excerpt": "Associate professor Christina Delimitrou is using machine learning to optimize hardware resource management and reduce energy consumption in cloud systems.",
+  "bodyHtml": "<p>On October 8, 2026, MIT News reported that associate professor Christina Delimitrou is applying machine learning to address the environmental impact of power-hungry data centers. By redesigning cloud computing systems and managing shared hardware resources, her research group aims to increase the computational power extracted from existing hardware.</p>\n<p>The team developed a tool called Seer, which uses deep learning to anticipate and prevent problems in web applications before they occur. This approach is intended to eliminate application downtime that hampers performance and drains computational resources.</p>\n<p>Additionally, the researchers created a tool named Ditto to mimic the structure and performance characteristics of proprietary systems, allowing for studies on hardware and software efficiency. Delimitrou is currently focusing on adding explainability to these AI tools to provide developers with useful feedback from the systems.</p>",
+  "publishedAt": "2026-10-08T06:02:00Z",
+  "updatedAt": "2026-10-08T06:02:00Z",
+  "wordCount": 131,
+  "readingTimeMin": 1,
+  "topic": "Using AI to mitigate the growing environmental threat of data centers",
+  "tags": [
+    "MIT",
+    "Artificial intelligence",
+    "Data centers"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT researchers develop AI tools to improve data center efficiency.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Associate professor Christina Delimitrou is using machine learning to optimize hardware resource management and reduce energy consumption in cloud systems.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "On October 8, 2026, MIT News reported that associate professor Christina Delimitrou is applying machine learning to address the environmental impact of power-hungry data centers.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "By redesigning cloud computing systems and managing shared hardware resources, her research group aims to increase the computational power extracted from existing hardware.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team developed a tool called Seer, which uses deep learning to anticipate and prevent problems in web applications before they occur.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "This approach is intended to eliminate application downtime that hampers performance and drains computational resources.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers created a tool named Ditto to mimic the structure and performance characteristics of proprietary systems, allowing for studies on hardware and software efficiency.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Delimitrou is currently focusing on adding explainability to these AI tools to provide developers with useful feedback from the systems.",
+      "source": "MIT News"
+    }
+  ]
+}

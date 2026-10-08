@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-hera-mission-arrives-at-didymos-asteroid-system",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "ESA Hera mission arrives at Didymos asteroid system",
+  "excerpt": "The spacecraft and its two CubeSats reached the double asteroid system after a two-year journey.",
+  "bodyHtml": "<p>The European Space Agency announced on October 7, 2026, that the Hera mission has arrived at the Didymos double asteroid system. The spacecraft completed a two-year journey to reach the destination, which includes the asteroid Dimorphos.</p>\n<p>Hera is accompanied by two CubeSats, which are small satellites named Milani and Juventas. The mission will involve the CubeSats conducting a close-up examination of the asteroids, which the European Space Agency describes as a double asteroid system that poses an impact risk to Earth.</p>\n<p>The European Space Agency stated that Dimorphos is the very first Solar System object to have had its orbit shifted by human action. The mission will now proceed with the CubeSats beginning their close-up exam of the space rock.</p>\n<p>The European Space Agency released a video episode detailing the operations of the asteroid detective and its assistants. The agency noted that the mission will explain how the spacecraft and its CubeSat companions will say goodbye to each other.</p>",
+  "publishedAt": "2026-10-08T06:07:47Z",
+  "updatedAt": "2026-10-08T06:07:47Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "The Incredible Adventures of the Hera mission – The space detectives arrive",
+  "tags": [
+    "Hera",
+    "ESA",
+    "Didymos",
+    "CubeSats"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/The_Incredible_Adventures_of_the_Hera_mission_The_space_detectives_arrive"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA Hera mission arrives at Didymos asteroid system.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft and its two CubeSats reached the double asteroid system after a two-year journey.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 7, 2026, that the Hera mission has arrived at the Didymos double asteroid system.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The spacecraft completed a two-year journey to reach the destination, which includes the asteroid Dimorphos.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Hera is accompanied by two CubeSats, which are small satellites named Milani and Juventas.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission will involve the CubeSats conducting a close-up examination of the asteroids, which the European Space Agency describes as a double asteroid system that poses an impact risk to Earth.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency stated that Dimorphos is the very first Solar System object to have had its orbit shifted by human action.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission will now proceed with the CubeSats beginning their close-up exam of the space rock.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency released a video episode detailing the operations of the asteroid detective and its assistants.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The agency noted that the mission will explain how the spacecraft and its CubeSat companions will say goodbye to each other.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

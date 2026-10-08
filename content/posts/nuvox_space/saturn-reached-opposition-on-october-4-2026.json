@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "saturn-reached-opposition-on-october-4-2026",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Saturn reached opposition on October 4 2026",
+  "excerpt": "The planet reached its point of full illumination by the Sun as Earth passed between the two bodies.",
+  "bodyHtml": "<p>NASA announced on October 8, 2026, that Saturn reached its opposition on October 4, 2026. This astronomical event occurs when Earth passes between the Sun and the planet.</p>\n<p>According to NASA, the planet&#x27;s proximity and full illumination from the Sun during this period provide favorable conditions for observation. Astrophotographer Tom Williams captured images of the Saturn system, including features such as Titan, the icy stripes of Enceladus, and the gaps and spokes in the planet&#x27;s rings.</p>\n<p>Williams captured these details using the lucky imaging technique. This process involves taking thousands of short-exposure images very quickly with a high-speed camera and adding up the clearest images to reduce the impact of seeing, which is the distortion caused by atmospheric turbulence.</p>\n<p>The planet reached opposition on October 4, 2026.</p>",
+  "publishedAt": "2026-10-08T06:06:15Z",
+  "updatedAt": "2026-10-08T06:06:15Z",
+  "wordCount": 127,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 8 – The Saturn System Smörgåsbord",
+  "tags": [
+    "Saturn",
+    "NASA",
+    "Astronomy"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Saturn reached opposition on October 4, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The planet reached its point of full illumination by the Sun as Earth passed between the two bodies.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 8, 2026, that Saturn reached its opposition on October 4, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "This astronomical event occurs when Earth passes between the Sun and the planet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, the planet's proximity and full illumination from the Sun during this period provide favorable conditions for observation.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Astrophotographer Tom Williams captured images of the Saturn system, including features such as Titan, the icy stripes of Enceladus, and the gaps and spokes in the planet's rings.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Williams captured these details using the lucky imaging technique.",
+      "source": "NASA"
+    },
+    {
+      "claim": "This process involves taking thousands of short-exposure images very quickly with a high-speed camera and adding up the clearest images to reduce the impact of seeing, which is the distortion caused by atmospheric turbulence.",
+      "source": "NASA"
+    }
+  ]
+}
