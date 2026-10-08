@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "google-launches-experimental-game-creation-platform-playground",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Google launches experimental game creation platform Playground",
+  "excerpt": "The browser-based platform allows users to build and share custom games using text prompts without requiring coding experience.",
+  "bodyHtml": "<p>Google announced the launch of Playground, an experimental gaming platform, on October 7, 2026. The service allows users to create, play, and share custom games through a conversational interface that interprets text prompts to generate characters, rules, and environments.</p>\n<p>The platform is available to users in the U.S. aged 18 and older at playground.google, with access tiers determined by Google AI subscriptions. Users can publish games to a community gallery or share them via links, with support for multiplayer gameplay and leaderboards in certain genres.</p>\n<p>Google stated that an integration with Unity Spark is planned for the future to provide professional-level mechanics and 3D capabilities. Unity Spark is currently in testing, with a closed beta scheduled to arrive soon.</p>",
+  "publishedAt": "2026-10-08T12:04:37Z",
+  "updatedAt": "2026-10-08T12:04:37Z",
+  "wordCount": 119,
+  "readingTimeMin": 1,
+  "topic": "Introducing Playground: Create and play custom games",
+  "tags": [
+    "Google",
+    "Playground",
+    "Unity Spark"
+  ],
+  "source": {
+    "name": "Google",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+  },
+  "sources": [
+    "Google"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google launches experimental game creation platform Playground.",
+      "source": "Google"
+    },
+    {
+      "claim": "The browser-based platform allows users to build and share custom games using text prompts without requiring coding experience.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google announced the launch of Playground on October 7, 2026.",
+      "source": "Google"
+    },
+    {
+      "claim": "The service allows users to create, play, and share custom games through a conversational interface that interprets text prompts to generate characters, rules, and environments.",
+      "source": "Google"
+    },
+    {
+      "claim": "The platform is available to users in the U.S. aged 18 and older at playground.google.",
+      "source": "Google"
+    },
+    {
+      "claim": "Access tiers for Playground are determined by Google AI subscriptions.",
+      "source": "Google"
+    },
+    {
+      "claim": "Users can publish games to a community gallery or share them via links.",
+      "source": "Google"
+    },
+    {
+      "claim": "The platform supports multiplayer gameplay and leaderboards in certain genres.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google stated that an integration with Unity Spark is planned for the future to provide professional-level mechanics and 3D capabilities.",
+      "source": "Google"
+    },
+    {
+      "claim": "Unity Spark is currently in testing, with a closed beta scheduled to arrive soon.",
+      "source": "Google"
+    }
+  ]
+}

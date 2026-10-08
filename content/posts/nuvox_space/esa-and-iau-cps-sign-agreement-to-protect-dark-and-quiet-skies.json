@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-3.webp",
+    "alt": "Illustration: classical columns at night under a clear starry sky",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-and-iau-cps-sign-agreement-to-protect-dark-and-quiet-skies",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "ESA and IAU CPS sign agreement to protect dark and quiet skies",
+  "excerpt": "The partnership aims to develop technical solutions to mitigate satellite interference with astronomical observations.",
+  "bodyHtml": "<p>The European Space Agency (ESA) and the International Astronomical Union’s Centre for the Protection of the Dark and Quiet Sky (IAU CPS) signed a Memorandum of Intent at the International Astronautical Congress. The agreement establishes a framework for cooperation to address the impact of satellite constellations on astronomy.</p>\n<p>According to ESA, the growth of satellites in low-Earth orbit creates reflected light and radio frequency interference that disrupts observations of the electromagnetic spectrum. The collaboration will focus on developing technological solutions, such as darker spacecraft surfaces and radio-quiet electronics, to allow space activities and astronomy to coexist.</p>\n<p>ESA will provide technical expertise to support the development of best practices for satellite operators. The partnership will also foster dialogue between the astronomical community and the space industry to ensure future space activities account for the preservation of the night sky.</p>",
+  "publishedAt": "2026-10-08T12:06:23Z",
+  "updatedAt": "2026-10-08T12:06:23Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "Keeping the sky dark and quiet",
+  "tags": [
+    "ESA",
+    "IAU CPS",
+    "astronomy",
+    "satellites"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Space_Safety/Clean_Space/Keeping_the_sky_dark_and_quiet"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA and IAU CPS signed an agreement to protect dark and quiet skies.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The partnership aims to develop technical solutions to mitigate satellite interference with astronomical observations.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "ESA and IAU CPS signed a Memorandum of Intent at the International Astronautical Congress.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The agreement establishes a framework for cooperation to address the impact of satellite constellations on astronomy.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "According to ESA, the growth of satellites in low-Earth orbit creates reflected light and radio frequency interference.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Satellite interference disrupts observations of the electromagnetic spectrum.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The collaboration will focus on developing technological solutions, such as darker spacecraft surfaces and radio-quiet electronics.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The goal of the collaboration is to allow space activities and astronomy to coexist.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "ESA will provide technical expertise to support the development of best practices for satellite operators.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The partnership will foster dialogue between the astronomical community and the space industry.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The partnership aims to ensure future space activities account for the preservation of the night sky.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

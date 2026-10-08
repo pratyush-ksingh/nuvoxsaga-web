@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "solar-orbiter-traces-origin-of-magnetic-switchbacks-to-sun-surface",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Solar Orbiter traces origin of magnetic switchbacks to Sun surface",
+  "excerpt": "Researchers identified that interchange reconnection at the Sun's surface creates S-shaped magnetic field kinks known as switchbacks.",
+  "bodyHtml": "<p>The European Space Agency announced on October 8, 2026, that the Solar Orbiter spacecraft has traced the origin of magnetic switchbacks to the surface of the Sun. Switchbacks are S-shaped kinks in the solar wind magnetic field that carry hot charged particles into space.</p>\n<p>By sampling plasma within a switchback using the Solar Wind Analyser instrument, researchers identified a specific mix of charged oxygen and carbon particles. Lead author Jesse Coburn stated this composition confirms the formation process known as interchange reconnection, where open and closed magnetic field lines interact.</p>\n<p>The research team combined in situ observations from the spacecraft with images of the Sun and magnetic field models. The findings were published in the journal Nature Astronomy on October 8, 2026.</p>",
+  "publishedAt": "2026-10-08T12:06:07Z",
+  "updatedAt": "2026-10-08T12:06:07Z",
+  "wordCount": 122,
+  "readingTimeMin": 1,
+  "topic": "Solar Orbiter tracks origin of mysterious magnetic switchbacks",
+  "tags": [
+    "Solar Orbiter",
+    "European Space Agency",
+    "Sun"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Solar Orbiter traces origin of magnetic switchbacks to Sun surface.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Researchers identified that interchange reconnection at the Sun's surface creates S-shaped magnetic field kinks known as switchbacks.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 8, 2026, that the Solar Orbiter spacecraft has traced the origin of magnetic switchbacks to the surface of the Sun.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Switchbacks are S-shaped kinks in the solar wind magnetic field that carry hot charged particles into space.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "By sampling plasma within a switchback using the Solar Wind Analyser instrument, researchers identified a specific mix of charged oxygen and carbon particles.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Lead author Jesse Coburn stated this composition confirms the formation process known as interchange reconnection, where open and closed magnetic field lines interact.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The research team combined in situ observations from the spacecraft with images of the Sun and magnetic field models.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The findings were published in the journal Nature Astronomy on October 8, 2026.",
+      "source": "The European Space Agency"
+    }
+  ]
+}
