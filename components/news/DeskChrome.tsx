@@ -7,7 +7,18 @@ import { BRAND_BY_ID, type BrandId } from '@/lib/brands';
 import { BRAND_CONTENT } from '@/lib/brand-content';
 import { DESKS } from '@/lib/desks';
 
-export function DeskHeader({ brand, active, title }: { brand: BrandId; active?: string; title?: string }) {
+export function DeskHeader({
+  brand,
+  active,
+  title,
+  intro,
+}: {
+  brand: BrandId;
+  active?: string;
+  title?: string;
+  /** A section's own description (lib/desks.ts blurb), under the title. */
+  intro?: string;
+}) {
   const desk = DESKS[brand];
   const b = BRAND_BY_ID[brand];
   return (
@@ -22,6 +33,7 @@ export function DeskHeader({ brand, active, title }: { brand: BrandId; active?: 
               </Link>
             </p>
             <h1 className="display mt-2 text-[clamp(2.25rem,5vw,3.75rem)]">{title}</h1>
+            {intro && <p className="mt-4 max-w-[64ch] text-ink-2">{intro}</p>}
           </>
         ) : (
           <>

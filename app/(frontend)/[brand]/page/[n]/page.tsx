@@ -38,6 +38,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${DESKS[r.brand.id].name} news, page ${r.page}`,
     alternates: { canonical: `/${r.brand.slug}/page/${r.page}` },
+    // Older pages of the river are navigation, not content: crawl them, do not index them.
+    robots: { index: false, follow: true },
     openGraph: og({
       url: `/${r.brand.slug}/page/${r.page}`,
       images: [{ url: `/og/${r.brand.id}/default.png`, ...OG_CARD }],

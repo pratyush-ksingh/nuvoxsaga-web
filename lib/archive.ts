@@ -31,20 +31,27 @@ const SLUG_RE = /^[a-z0-9_-]{1,200}$/;
  * trailing "---SEO_METADATA---" block. Neither is article text, so both are removed
  * when the archive is loaded. Pure, so it is unit-tested (tests/archive.test.ts).
  */
-const PREAMBLE_P = /^\s*<p>[^<]*\b(?:here is the\b[^<]*\b(?:article|version)\b|of course\b)[^<]*<\/p>\s*(?:<hr\s*\/?>\s*)?/i;
+// The first paragraph, when it holds plain text only (a preamble never has markup in it).
+const FIRST_P = /^\s*<p>([^<]*)<\/p>\s*/i;
+const PREAMBLE_TEXT = /\bhere is the\b.*\b(?:article|version)\b/i;
+const OF_COURSE = /^\s*of course\b/i;
+const LEADING_HR = /^<hr\s*\/?>\s*/i;
 // "<p>---SEO_METADATA---</p>", "<h2 id="seo_metadata">SEO_METADATA</h2>" and "<p>---SEO_METADATA---\n{…"
 // all mark the start of the leaked block; everything from there to the end goes.
-const TRAILING_META = /\s*(?:<hr\s*\/?>\s*)?<(?:p|h[1-6])(?:\s[^>]*)?>\s*(?:-{2,}\s*)?(?:SEO[_ ])?METADATA\b[\s\S]*$/i;
+const META_START = /<(?:p|h[1-6])\b[^>]*>\s*-*\s*(?:SEO[_ ])?METADATA\b/i;
+const TRAILING_HR = /<hr\s*\/?>\s*$/i;
 
 export function stripModelChatter(html: string): string {
   let out = html;
-  // A preamble can span two paragraphs ("Of course. … Here is the article." then a rule).
+  // A preamble can span two paragraphs ("Of course. …" then "Here is the article.").
   for (let i = 0; i < 2; i++) {
-    const next = out.replace(PREAMBLE_P, '');
-    if (next === out) break;
-    out = next;
+    const m = FIRST_P.exec(out);
+    if (!m || !(PREAMBLE_TEXT.test(m[1]) || OF_COURSE.test(m[1]))) break;
+    out = out.slice(m[0].length).replace(LEADING_HR, '');
   }
-  return out.replace(TRAILING_META, '').trim();
+  const at = out.search(META_START);
+  if (at >= 0) out = out.slice(0, at).trimEnd().replace(TRAILING_HR, '');
+  return out.trim();
 }
 
 let cache: ArchivePost[] | null = null;
