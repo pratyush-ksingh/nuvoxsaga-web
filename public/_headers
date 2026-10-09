@@ -9,6 +9,16 @@
 # - challenges.cloudflare.com = Turnstile (newsletter form).
 #   static.cloudflareinsights.com / cloudflareinsights.com = Cloudflare Web Analytics.
 # - 'wasm-unsafe-eval' = Pagefind search (/search), which runs a WebAssembly index reader.
+# - Display ads (Google AdSense + its consent tool, lib/ads.ts): the Report-Only line below
+#   is the enforced policy plus Google's origins (googlesyndication, doubleclick,
+#   fundingchoicesmessages, googletagservices, googleadservices, adtrafficquality for the
+#   invalid-traffic checks, csi.gstatic for timing beacons; img-src opens to https: because
+#   creatives come from thousands of advertiser hosts). Allowing an origin that never loads
+#   is harmless, so it is not tied to the ads flag. Google only "supports" nonce +
+#   strict-dynamic, which a static export cannot mint; the allowlist is the pragmatic choice
+#   and may need hosts added over time. After a week of clean report-only (browser console on
+#   a page with ads on), the flip is one line: give Content-Security-Policy the Report-Only
+#   value and delete the Report-Only line. tests/headers.test.ts guards both lines.
 
 /*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
@@ -17,6 +27,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=(), payment=(), usb=(), midi=()
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://media.nuvoxsaga.com https://i.ytimg.com https://yt3.ggpht.com; media-src 'self' https://media.nuvoxsaga.com; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; frame-src https://www.youtube-nocookie.com https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://static.cloudflareinsights.com https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com https://www.googletagservices.com https://partner.googleadservices.com https://*.adtrafficquality.google; style-src 'self' 'unsafe-inline' https://fundingchoicesmessages.google.com; img-src 'self' data: blob: https:; media-src 'self' https://media.nuvoxsaga.com; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://fundingchoicesmessages.google.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google https://csi.gstatic.com; frame-src https://www.youtube-nocookie.com https://challenges.cloudflare.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://*.safeframe.googlesyndication.com https://fundingchoicesmessages.google.com https://*.adtrafficquality.google https://www.google.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
 
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable

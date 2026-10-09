@@ -26,6 +26,8 @@ import {
 } from '@/lib/content';
 import { EDITOR } from '@/lib/editor';
 import { generateAllSchemas } from '@/lib/seo';
+import { ADS_ON, SLOTS, adsEligible, inArticleSplit } from '@/lib/ads';
+import { AdSlot } from '@/components/ads/AdSlot';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { YouTubeEmbed } from '@/components/blog/YouTubeEmbed';
 import { FormatLabel, SecondaryStory, StoryImage, sourceCount } from '@/components/news/StoryCards';
@@ -126,6 +128,11 @@ export default async function StoryPage({ params }: Props) {
   // for readers and a thin page for crawlers (topic/[tag] applies the same threshold).
   const topics = loadTopics();
   const chips = (post.tags ?? []).filter((t) => (topics.get(topicSlug(t))?.posts.length ?? 0) >= TOPIC_INDEX_MIN);
+  // Ad units only on a story long enough to outweigh them (lib/ads.ts): never on a brief
+  // under 300 words. The in-article unit splits the sanitised body at a top-level paragraph.
+  const ads = ADS_ON && adsEligible({ kind: 'story', wordCount: post.wordCount, isFeature: !isBrief });
+  const body = post.bodyHtmlSanitized ?? '';
+  const split = ads ? inArticleSplit(body) : null;
 
   // The pipeline's pre-built JSON-LD wins; the TS builders are the fallback.
   const pipelineLD = Array.isArray(post.schemaLD) ? post.schemaLD : post.schemaLD ? [post.schemaLD] : [];
@@ -216,6 +223,8 @@ export default async function StoryPage({ params }: Props) {
           </div>
         </header>
 
+        {ads && <AdSlot slot={SLOTS.storyTop} shape="banner" className="mx-auto mt-10 max-w-[46rem]" />}
+
         {post.image && (
           <figure className="mx-auto mt-10 max-w-[60rem]">
             <StoryImage post={post} sizes="(min-width: 1024px) 960px, 100vw" priority className="aspect-[16/9] w-full rounded-2xl object-cover" />
@@ -235,9 +244,20 @@ export default async function StoryPage({ params }: Props) {
         <div
           // Sanitized at build time (lib/sanitize.ts); raw pipeline HTML is never rendered.
           // eslint-disable-next-line react/no-danger -- sanitized at build
-          dangerouslySetInnerHTML={{ __html: post.bodyHtmlSanitized ?? '' }}
+          dangerouslySetInnerHTML={{ __html: split ? split.before : body }}
           className="article-body mx-auto mt-10 max-w-[46rem]"
         />
+        {split && (
+          <>
+            <AdSlot slot={SLOTS.storyInArticle} shape="rectangle" className="mx-auto my-10 max-w-[46rem]" />
+            <div
+              // The rest of the same sanitized body, cut at a top-level </p> (lib/ads.ts).
+              // eslint-disable-next-line react/no-danger -- sanitized at build
+              dangerouslySetInnerHTML={{ __html: split.after }}
+              className="article-body mx-auto max-w-[46rem]"
+            />
+          </>
+        )}
 
         {post.corrections && post.corrections.length > 0 && (
           <section aria-labelledby="corrections-title" className="mx-auto mt-12 max-w-[46rem] border-l-2 border-brand pl-5">
@@ -270,6 +290,8 @@ export default async function StoryPage({ params }: Props) {
             </dl>
           </section>
         )}
+
+        {ads && <AdSlot slot={SLOTS.storyEnd} shape="banner" className="mx-auto mt-14 max-w-[46rem]" />}
 
         <CheckedBox post={post} />
 

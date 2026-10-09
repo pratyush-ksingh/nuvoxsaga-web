@@ -146,6 +146,59 @@
     font-feature-settings: 'tnum';
     letter-spacing: 0.01em;
   }
+  /* Ad units (components/ads/AdSlot.tsx): a surface panel whose label is there before the
+     unit loads, and a fixed unit size per breakpoint so nothing shifts whether an ad fills
+     it or not. Sizes are set with media queries, the AdSense-documented method, instead of
+     data-full-width-responsive: a 728px unit must never land on a 390px phone. The panel
+     keeps 8px side padding so a 300px unit fits the 20rem rail. */
+  .ad-slot {
+    border: 1px solid var(--hairline);
+    border-radius: 1rem;
+    background: var(--surface);
+    padding: 0.5rem 0.5rem 0.75rem;
+    text-align: center;
+  }
+  .ad-unit {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+  .ad-unit--rectangle {
+    width: 300px;
+    height: 250px;
+  }
+  .ad-slot--rectangle {
+    min-height: 294px;
+  }
+  .ad-unit--banner,
+  .ad-unit--leaderboard {
+    width: 320px;
+    height: 100px;
+  }
+  .ad-slot--banner,
+  .ad-slot--leaderboard {
+    min-height: 144px;
+  }
+  @media (min-width: 560px) {
+    .ad-unit--banner,
+    .ad-unit--leaderboard {
+      width: 468px;
+      height: 60px;
+    }
+    .ad-slot--banner,
+    .ad-slot--leaderboard {
+      min-height: 104px;
+    }
+  }
+  /* 860px: the narrowest viewport whose page gutters leave room for 728px plus the panel. */
+  @media (min-width: 860px) {
+    .ad-unit--leaderboard {
+      width: 728px;
+      height: 90px;
+    }
+    .ad-slot--leaderboard {
+      min-height: 134px;
+    }
+  }
   /* Newspaper rules: dotted hairlines between masthead rows. */
   .rule-dot {
     background-image: radial-gradient(circle, var(--dot) 1px, transparent 1.2px);

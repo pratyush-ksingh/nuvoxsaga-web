@@ -12,6 +12,8 @@ import { BrandProvider } from '@/components/brand/BrandProvider';
 import { River } from '@/components/news/StoryCards';
 import { Rail } from '@/components/news/Rail';
 import { ledger } from '@/lib/ledger';
+import { ADS_ON, RIVER_ROWS_BEFORE_AD, SLOTS, adsEligible } from '@/lib/ads';
+import { AdSlot } from '@/components/ads/AdSlot';
 import { FeatureShelf, HeroStage, WireTicker } from '@/components/home/HomeFront';
 import { DeskHeader, EmptyDesk, Pager } from '@/components/news/DeskChrome';
 
@@ -35,6 +37,9 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
   // Skip anything already on this page (top stories on page 1, the shelf, this page's river).
   const shown = new Set([...(page === 1 ? [...topIds] : []), ...onShelf, ...river.map((p) => p.id)]);
   const features = all.filter((p) => p.kind === 'feature' && !shown.has(p.id)).slice(0, 5);
+  // Ad units on a desk with enough stories (lib/ads.ts): one in the rail, one after the
+  // river's fifth row when there are rows below it. Never above the desk's headline.
+  const ads = ADS_ON && adsEligible({ kind: 'desk', storyCount: all.length });
 
   return (
     <BrandProvider brand={brand}>
@@ -51,14 +56,20 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
                 <h2 id="latest-title" className="mb-2 text-2xl font-bold tracking-[-0.02em]">
                   {page === 1 ? 'Latest' : `Latest, page ${page}`}
                 </h2>
-                {river.length > 0 ? (
-                  <River posts={river} showDesk={false} />
-                ) : (
+                {river.length === 0 ? (
                   <p className="border-t border-hairline py-6 text-ink-2">Every story on this desk is above.</p>
+                ) : ads && river.length > RIVER_ROWS_BEFORE_AD ? (
+                  <>
+                    <River posts={river.slice(0, RIVER_ROWS_BEFORE_AD)} showDesk={false} />
+                    <AdSlot slot={SLOTS.deskRiver} shape="leaderboard" className="my-8" />
+                    <River posts={river.slice(RIVER_ROWS_BEFORE_AD)} showDesk={false} />
+                  </>
+                ) : (
+                  <River posts={river} showDesk={false} />
                 )}
                 <Pager base={`/${b.slug}`} page={page} pages={pages} />
               </section>
-              <Sidebar brand={brand} features={features} posts={all} />
+              <Sidebar brand={brand} features={features} posts={all} ads={ads} />
             </div>
           </>
         )}
@@ -68,10 +79,11 @@ export async function DeskFront({ brand, page }: { brand: BrandId; page: number 
   );
 }
 
-function Sidebar({ brand, features, posts }: { brand: BrandId; features: PublicPost[]; posts: PublicPost[] }) {
+function Sidebar({ brand, features, posts, ads }: { brand: BrandId; features: PublicPost[]; posts: PublicPost[]; ads: boolean }) {
   const b = BRAND_BY_ID[brand];
   return (
     <Rail ledger={ledger(posts, new Date())} features={features} accent={DESKS[brand].accent}>
+      {ads && <AdSlot slot={SLOTS.deskRail} shape="rectangle" />}
       <section aria-labelledby="watch-title" className="rounded-2xl border border-hairline bg-surface p-6">
         <h2 id="watch-title" className="text-lg font-bold">
           Watch {b.name}

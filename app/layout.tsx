@@ -4,6 +4,7 @@ import './globals.css';
 import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
 import { THEME_SCRIPT } from '@/lib/theme';
 import { X_HANDLE } from '@/lib/social';
+import { ADS_ON, ADSENSE_CLIENT, ADSENSE_LOADER, CLIENT_VALID, CONSENT_LOADER, CONSENT_SIGNAL_SCRIPT } from '@/lib/ads';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
@@ -44,6 +45,9 @@ export const metadata: Metadata = {
   // this object wholesale, it does not merge into it.
   openGraph: { type: 'website', siteName: SITE_NAME, locale: 'en_US', images: [DEFAULT_OG_IMAGE] },
   twitter: { card: 'summary_large_image', site: `@${X_HANDLE}` },
+  // Proves the site to AdSense without ads on (a verification method on its own, like
+  // /ads.txt): it follows the publisher id, not the ads flag.
+  ...(CLIENT_VALID ? { other: { 'google-adsense-account': ADSENSE_CLIENT } } : {}),
 };
 
 export const viewport: Viewport = {
@@ -63,6 +67,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* Applies a saved dark choice before first paint (CSP allows inline scripts; see public/_headers). */}
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+        {ADS_ON && (
+          <>
+            {/* Google's consent tool (Privacy & messaging) goes before the ad loader: it holds
+                ad requests in the EEA, UK and Switzerland until the reader has chosen, and
+                targets those regions itself, so no per-view code runs at the edge. */}
+            <script async src={CONSENT_LOADER} />
+            <script dangerouslySetInnerHTML={{ __html: CONSENT_SIGNAL_SCRIPT }} />
+            {/* The AdSense loader, in the HTML of every page as Google documents it: the review
+                crawler reads the markup, so a tag injected later would read as "code not found".
+                It is async and the units sit below the fold, so the lead image still wins. */}
+            <script async src={ADSENSE_LOADER} crossOrigin="anonymous" />
+          </>
+        )}
       </head>
       <body className="grain min-h-[100dvh] antialiased">{children}</body>
     </html>
