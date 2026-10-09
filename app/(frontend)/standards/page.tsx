@@ -10,12 +10,21 @@ export const metadata: Metadata = {
   openGraph: og({ url: '/standards' }),
 };
 
-const SECTIONS: { title: string; body: string[] }[] = [
+const SECTIONS: { id?: string; title: string; body: string[] }[] = [
   {
     title: 'Who we are',
     body: [
-      'Nuvoxsaga is a small independent newsroom with three desks: AI, Space and World.',
+      'Nuvoxsaga is a small independent newsroom with three desks: AI, Space and World. It is owned and edited by Pratyush Kumar Singh, who sets the sources, reviews the checks and owns the corrections.',
       'Our stories are drafted with AI language models. An automated verification process checks them before anything is published, and this page explains how it works.',
+    ],
+  },
+  {
+    // Every story's "Here's how we know" line links here.
+    id: 'checks',
+    title: 'How every story is checked',
+    body: [
+      'Each story names the sources it was written from, and each factual claim in it is listed with the source that confirms it. Before publication, every name, number and date is matched against the source text, and a separate, independent check has to confirm each claim, the headline included.',
+      'A claim that cannot be confirmed is rewritten or removed. If the story still does not hold up, it is not published. The claims list under every story is the record of that check.',
     ],
   },
   {
@@ -51,6 +60,14 @@ const SECTIONS: { title: string; body: string[] }[] = [
       'When we get something wrong we fix it in public: the story carries a dated correction note, and the correction is listed on our corrections page.',
     ],
   },
+  {
+    id: 'advertising',
+    title: 'Advertising',
+    body: [
+      'Nuvoxsaga is self-funded and will carry display advertising served by Google. Every ad is labelled as an advertisement and is kept apart from the stories. Advertisers have no say in what we cover or how a story is written, checked or corrected, and they never see a story before it is published.',
+      'We do not publish sponsored content, advertorials or paid links, and no story is written to carry an ad. Who owns and funds the site is set out on the about page.',
+    ],
+  },
 ];
 
 export default function StandardsPage() {
@@ -61,7 +78,7 @@ export default function StandardsPage() {
         <p className="mt-5 text-xl leading-snug text-ink-2">How we write, check and correct every story.</p>
         <div className="mt-12 grid gap-12">
           {SECTIONS.map((s) => (
-            <section key={s.title}>
+            <section key={s.title} id={s.id} className={s.id ? 'scroll-mt-20' : undefined}>
               <h2 className="text-2xl font-bold tracking-[-0.02em]">{s.title}</h2>
               {s.body.map((p, i) => (
                 <p key={i} className="mt-4 text-lg leading-relaxed text-ink-2">
