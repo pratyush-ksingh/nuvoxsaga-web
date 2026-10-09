@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { og } from '@/lib/og';
+import { PlainEmail } from '@/components/PlainEmail';
+import { EDITOR } from '@/lib/editor';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -33,14 +35,25 @@ export default function ContactPage() {
           <p className="mt-3 text-sm text-ink-3">
             Reporting an error? Include the link to the story, what is wrong, and a source that shows it.
           </p>
+          {/* A readable copy: the mailto: link above is rewritten by Cloudflare's obfuscation. */}
+          <p className="mt-3 text-sm text-ink-3">
+            If the address above does not display, it is <PlainEmail address={CONTACT_EMAIL} />.
+          </p>
         </section>
 
         <section className="mt-14">
           <h2 className="text-2xl font-bold tracking-[-0.02em]">Who runs Nuvoxsaga</h2>
           <p className="mt-4 text-lg leading-relaxed text-ink-2">
-            Nuvoxsaga is published and edited by Pratyush Kumar Singh, an independent publisher based in India. The
-            editor is responsible for what the site publishes, for the rules the stories are checked against, and
-            for corrections.
+            Nuvoxsaga is published and edited by{' '}
+            <Link href={EDITOR.path} className="text-ink underline underline-offset-4">
+              {EDITOR.name}
+            </Link>
+            , an independent publisher based in India. The editor is responsible for what the site publishes, for the
+            rules the stories are checked against, and for corrections. Who owns and funds the site is set out on the{' '}
+            <Link href="/about#ownership" className="text-ink underline underline-offset-4">
+              about page
+            </Link>
+            .
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-2">
             Stories are drafted with AI language models and checked against their sources by an automated process

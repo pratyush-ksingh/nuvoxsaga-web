@@ -22,7 +22,7 @@ describe('ledger', () => {
       [
         post(1, 1, { source: { name: 'NASA', url: 'https://nasa.gov/a' } }),
         post(2, 2, { source: { name: 'NASA', url: 'https://nasa.gov/b' } }),
-        post(3, 3, { source: { name: 'ESA', url: 'https://esa.int/c' }, sources: ['Reuters', 'nasa'] }),
+        post(3, 3, { source: { name: 'ESA', url: 'https://esa.int/c' }, sources: [{ name: 'Reuters' }, { name: 'nasa' }] }),
         post(4, 10, { source: { name: 'JAXA', url: 'https://jaxa.jp/d' } }),
       ],
       NOW,

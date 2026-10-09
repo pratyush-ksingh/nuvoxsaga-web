@@ -45,7 +45,7 @@ test.describe('public routes', () => {
     await expect(page.getByRole('link', { name: /Read the latest/i })).toBeVisible();
   });
 
-  for (const path of ['/latest', '/standards', '/corrections', '/privacy', '/contact', '/archive']) {
+  for (const path of ['/latest', '/standards', '/corrections', '/privacy', '/terms', '/contact', '/archive', '/about/pratyush-kumar-singh']) {
     test(`${path} renders`, async ({ page }) => {
       const res = await page.goto(path);
       expect(res?.status()).toBe(200);

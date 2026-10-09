@@ -27,6 +27,12 @@ export default function CorrectionsPage() {
         <p className="mt-5 text-xl leading-snug text-ink-2">
           If a story of ours is wrong, we want to know, and we fix it in public.
         </p>
+        <p className="mt-5 text-lg leading-relaxed text-ink-2">
+          Every story is checked against its sources before it is published, and the claims that passed are listed under
+          it. Checks cut errors down; they do not end them. When a reader or the editor finds a mistake, the story is
+          corrected, a dated note on the story says what changed, and the correction is listed here. Nothing is quietly
+          edited away. This page is the complete record, newest first.
+        </p>
         <section className="mt-10 rounded-2xl border border-hairline bg-surface p-6 md:p-8">
           <h2 className="text-xl font-bold">Report an error</h2>
           <p className="mt-3 text-ink-2">

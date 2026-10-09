@@ -1,3 +1,8 @@
+# The feed is a file; readers and people guessing the URL land on /feed.
+/feed /feed.xml 301
+/feed/ /feed.xml 301
+/rss /feed.xml 301
+/rss.xml /feed.xml 301
 # Media-house desks (2026-09-27): old brand paths -> desk fronts. No stories were
 # ever published under the old paths, so everything below them goes to the desk front.
 /nuvoxai /ai 301

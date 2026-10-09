@@ -10,7 +10,11 @@
  * "Nuvoxsaga". The desk (AI, Space, World) is the article's section, not a separate
  * publisher, so the JSON-LD, the byline and the news sitemap all name the same entity.
  * Stories are drafted with AI, so the author is the organisation, never an invented
- * person (Google's structured-data policy forbids impersonation).
+ * person (Google's structured-data policy forbids impersonation). The one real human,
+ * the editor (lib/editor.ts), is credited as `editor` on every article and has a
+ * ProfilePage + Person of his own; the organisation is a NewsMediaOrganization whose
+ * policy links (standards, corrections, masthead, ownership, feedback) point at the
+ * pages that state them.
  *
  * Compile-time validated via Google's official `schema-dts` types.
  *
@@ -26,9 +30,10 @@ import type {
   FAQPage,
   HowTo,
   NewsArticle,
+  NewsMediaOrganization,
+  ProfilePage,
   ReportageNewsArticle,
   BackgroundNewsArticle,
-  Organization,
   TechArticle,
   VideoObject,
   WebSite,
@@ -36,12 +41,16 @@ import type {
 } from 'schema-dts';
 import { BRAND_BY_ID, BRANDS, type BrandId } from './brands';
 import { DESKS } from './desks';
+import { EDITOR } from './editor';
 import { INSTAGRAM_URL, X_URL } from './social';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 export const ORG_NAME = 'Nuvoxsaga';
 /** 512 x 512 PNG wordmark (public/logos/nuvoxsaga.png). */
 const ORG_LOGO = `${SITE_URL}/logos/nuvoxsaga.png`;
+/** First story published (the archive predates the newsroom and is not counted). */
+export const FOUNDING_DATE = '2026-09-27';
+const EDITOR_URL = `${SITE_URL}${EDITOR.path}`;
 
 export function stripUnsafeJSONLD(s: unknown): string {
   if (typeof s !== 'string') return '';
@@ -53,16 +62,55 @@ export function stripUnsafeJSONLD(s: unknown): string {
 }
 
 // ─────────────────────────────────────────────────────────────────────────
-// Organization (the one publisher) and WebSite
+// The editor (Person), the organisation (NewsMediaOrganization) and the WebSite
 // ─────────────────────────────────────────────────────────────────────────
-export function organizationSchema(): WithContext<Organization> {
+/** The editor as a Person node: the short form every article's `editor` carries. */
+export function editorPerson() {
+  return {
+    '@type': 'Person' as const,
+    '@id': `${EDITOR_URL}#person`,
+    name: EDITOR.name,
+    url: EDITOR_URL,
+    jobTitle: EDITOR.jobTitle,
+  };
+}
+
+export function organizationSchema(): WithContext<NewsMediaOrganization> {
   return {
     '@context': 'https://schema.org',
-    '@type': 'Organization',
+    '@type': 'NewsMediaOrganization',
+    '@id': `${SITE_URL}/#organization`,
     name: ORG_NAME,
     url: SITE_URL,
     logo: ORG_LOGO,
+    foundingDate: FOUNDING_DATE,
+    founder: editorPerson(),
     sameAs: [X_URL, INSTAGRAM_URL, ...BRANDS.map((b) => `https://www.youtube.com/${b.handle}`)],
+    // Trust Project vocabulary: each link is the page that states the policy.
+    ethicsPolicy: `${SITE_URL}/standards`,
+    publishingPrinciples: `${SITE_URL}/standards`,
+    correctionsPolicy: `${SITE_URL}/corrections`,
+    masthead: `${SITE_URL}/about#masthead`,
+    ownershipFundingInfo: `${SITE_URL}/about#ownership`,
+    actionableFeedbackPolicy: `${SITE_URL}/contact`,
+  };
+}
+
+/** /about/<editor>: a ProfilePage whose main entity is the editor, with photo when present. */
+export function editorProfileSchema(args: { photoUrl?: string; description: string }): WithContext<ProfilePage> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    url: EDITOR_URL,
+    dateCreated: FOUNDING_DATE,
+    mainEntity: {
+      ...editorPerson(),
+      description: stripUnsafeJSONLD(args.description),
+      email: EDITOR.email,
+      sameAs: [...EDITOR.sameAs],
+      worksFor: { '@type': 'NewsMediaOrganization', '@id': `${SITE_URL}/#organization`, name: ORG_NAME, url: SITE_URL },
+      ...(args.photoUrl ? { image: args.photoUrl } : {}),
+    },
   };
 }
 
@@ -124,15 +172,22 @@ export function articleSchema(args: {
     args.format === 'brief' ? 'ReportageNewsArticle' : args.format === 'feature' ? 'BackgroundNewsArticle' : 'NewsArticle';
   const t = args.tier === 'evergreen' ? 'TechArticle' : args.tier === 'news' ? news : 'BlogPosting';
 
+  // The 1200 x 630 title card exists for every story (app/og); a credited story photo,
+  // when there is one, comes second. Both are >= 1200 px wide, as Discover asks.
+  const card = `${SITE_URL}/og/${args.brandId}/${args.slug}.png`;
+  const image = args.imageUrl && args.imageUrl !== card ? [card, args.imageUrl] : [card];
+
   return {
     '@context': 'https://schema.org',
     '@type': t,
     headline: stripUnsafeJSONLD(args.title),
     description: stripUnsafeJSONLD(args.excerpt ?? ''),
-    image: [args.imageUrl ?? `${SITE_URL}/og/${args.brandId}/${args.slug}.png`],
+    image,
     // author.url identifies the author: the page that says who writes and checks stories.
     author: { '@type': 'Organization', name: ORG_NAME, url: `${SITE_URL}/standards` },
-    publisher: { '@type': 'Organization', name: ORG_NAME, url: SITE_URL, logo: ORG_LOGO },
+    // The human who set the sources, reviewed the checks and owns corrections.
+    editor: editorPerson(),
+    publisher: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: ORG_NAME, url: SITE_URL, logo: ORG_LOGO },
     articleSection: DESKS[args.brandId].name,
     datePublished: args.publishedAt ?? new Date().toISOString(),
     dateModified: args.updatedAt ?? args.publishedAt ?? new Date().toISOString(),

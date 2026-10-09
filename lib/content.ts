@@ -26,6 +26,22 @@ import { sanitizePostHtml } from './sanitize';
 
 /** A short news brief written from one primary source, or a longer researched feature. */
 export type StoryKind = 'brief' | 'feature';
+/** What kind of feature: a background explainer, an analysis, or a weekly round-up. */
+export type FeatureFormat = 'explainer' | 'analysis' | 'roundup';
+const FEATURE_FORMATS = new Set<string>(['explainer', 'analysis', 'roundup']);
+
+/** A publisher the research relied on. The pipeline writes either a name or a linked one. */
+export interface StorySource {
+  name: string;
+  url?: string;
+}
+
+export interface CheckedClaim {
+  claim: string;
+  source: string;
+  /** Where the claim was confirmed, when the check recorded a page. */
+  url?: string;
+}
 
 export interface StoryImage {
   /** Site-relative path under /media, e.g. /media/space/<slug>.webp */
@@ -38,6 +54,8 @@ export interface StoryImage {
 export interface PublicPost {
   id: string;
   kind: StoryKind;
+  /** Set on features only; briefs have no format. */
+  format?: FeatureFormat;
   /** Section slug within the desk (lib/desks.ts). */
   section?: string;
   /** Editor pick: eligible for the lead slot on the home page and desk front. */
@@ -61,9 +79,9 @@ export interface PublicPost {
   faqPairs?: { question: string; answer: string }[];
   sourceVideoId?: string;
   /** Publishers the research and fact-check relied on (from live search). */
-  sources?: string[];
+  sources?: StorySource[];
   /** Every claim the independent fact-check confirmed, with the source that confirmed it. */
-  checkedClaims?: { claim: string; source: string }[];
+  checkedClaims?: CheckedClaim[];
 }
 
 // NUVOXSAGA_CONTENT_DIR lets a local preview build against design fixtures
@@ -126,6 +144,13 @@ function parsePost(file: string, brand: BrandId): PublicPost | null {
   }
 
   const kind: StoryKind = raw.kind === 'brief' ? 'brief' : 'feature';
+  let format: FeatureFormat | undefined;
+  if (raw.format !== undefined) {
+    if (kind !== 'feature' || typeof raw.format !== 'string' || !FEATURE_FORMATS.has(raw.format)) {
+      throw new Error(`${where}: format must be explainer, analysis or roundup, on a feature`);
+    }
+    format = raw.format as FeatureFormat;
+  }
   const section = str(raw.section);
   if (section && !DESKS[brand].sections.some((s) => s.slug === section)) {
     throw new Error(`${where}: unknown section "${section}" for ${brand}`);
@@ -148,9 +173,36 @@ function parsePost(file: string, brand: BrandId): PublicPost | null {
     image = { src: im.src, alt: String(im.alt), credit: String(im.credit) };
   }
 
+  // `sources` came as names only until October 2026; the pipeline now writes {name, url}.
+  // Both shapes load, and a url, when present, must be https like every other link.
+  const sources: StorySource[] = [];
+  for (const s of Array.isArray(raw.sources) ? raw.sources : []) {
+    if (typeof s === 'string') {
+      if (s.trim()) sources.push({ name: s.trim() });
+      continue;
+    }
+    const o = s as { name?: unknown; url?: unknown };
+    if (!str(o?.name)) continue;
+    if (o.url !== undefined && (typeof o.url !== 'string' || !HTTPS_RE.test(o.url))) {
+      throw new Error(`${where}: source "${String(o.name)}" needs an https url`);
+    }
+    sources.push(o.url ? { name: String(o.name).trim(), url: o.url as string } : { name: String(o.name).trim() });
+  }
+  const checkedClaims: CheckedClaim[] = [];
+  for (const c of claims) {
+    const o = c as { claim?: unknown; source?: unknown; url?: unknown };
+    const claim = String(o?.claim ?? '');
+    if (!claim) continue;
+    if (o.url !== undefined && (typeof o.url !== 'string' || !HTTPS_RE.test(o.url))) {
+      throw new Error(`${where}: checked claim "${claim.slice(0, 40)}" has a non-https url`);
+    }
+    checkedClaims.push(o.url ? { claim, source: String(o.source ?? ''), url: o.url as string } : { claim, source: String(o.source ?? '') });
+  }
+
   return {
     id: `${brand}/${slug}`,
     kind,
+    format,
     section,
     featured: raw.featured === true,
     source,
@@ -182,15 +234,8 @@ function parsePost(file: string, brand: BrandId): PublicPost | null {
         }))
       : [],
     sourceVideoId: str(raw.sourceVideoId),
-    sources: Array.isArray(raw.sources) ? raw.sources.filter((x): x is string => typeof x === 'string') : [],
-    checkedClaims: Array.isArray(raw.checkedClaims)
-      ? raw.checkedClaims
-          .map((c) => ({
-            claim: String((c as { claim?: unknown }).claim ?? ''),
-            source: String((c as { source?: unknown }).source ?? ''),
-          }))
-          .filter((c) => c.claim)
-      : [],
+    sources,
+    checkedClaims,
   };
 }
 
@@ -253,10 +298,15 @@ export function loadTopics(): Map<string, { name: string; posts: PublicPost[] }>
 /** A topic page is indexable (and listed in the sitemap) from this many stories. */
 export const TOPIC_INDEX_MIN = 3;
 
-/** The most-used topics in the last 14 days of stories, for the topic strip. */
+/**
+ * The most-used topics in the last 14 days of stories, for the topic strip. Only topics
+ * whose page is indexable (TOPIC_INDEX_MIN stories in all) are offered, like the chips on
+ * a story: a chip should lead to a page with something on it.
+ */
 export function trendingTopics(limit = 8): { slug: string; name: string }[] {
   const posts = loadAllPosts();
   const newest = posts[0]?.publishedAt ? Date.parse(posts[0].publishedAt) : 0;
+  const topics = loadTopics();
   const counts = new Map<string, { name: string; n: number }>();
   for (const p of posts) {
     if (newest - Date.parse(p.publishedAt ?? '') > 14 * 864e5) break;
@@ -269,7 +319,7 @@ export function trendingTopics(limit = 8): { slug: string; name: string }[] {
     }
   }
   return [...counts.entries()]
-    .filter(([, c]) => c.n >= 2)
+    .filter(([slug, c]) => c.n >= 2 && (topics.get(slug)?.posts.length ?? 0) >= TOPIC_INDEX_MIN)
     .sort((a, b) => b[1].n - a[1].n)
     .slice(0, limit)
     .map(([slug, c]) => ({ slug, name: c.name }));

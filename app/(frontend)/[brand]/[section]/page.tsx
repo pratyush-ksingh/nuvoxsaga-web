@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { BRANDS, BRAND_BY_ID, BRAND_BY_SLUG, type BrandId, type BrandSlug } from '@/lib/brands';
-import { DESKS, findSection } from '@/lib/desks';
+import { DESKS, findSection, SECTION_INDEX_MIN } from '@/lib/desks';
 import { storiesForSection } from '@/lib/content';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { River } from '@/components/news/StoryCards';
@@ -39,11 +39,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${r.section.name}: ${desk} news`;
   const description = `The latest ${r.section.name} stories from the Nuvoxsaga ${desk} desk, each checked against its source before publication.`;
   const url = `/${r.brand.slug}/${r.section.slug}`;
+  const count = storiesForSection(r.brand.id, r.section.slug).length;
   return {
     title,
     description,
     alternates: { canonical: url },
     openGraph: og({ title, description, url, images: [{ url: `/og/${r.brand.id}/default.png`, ...OG_CARD }] }),
+    // A section with a handful of stories is a thin page (the sitemap applies the same
+    // threshold). The key is left out for an indexable section: `robots: undefined` would
+    // erase the root layout's robots tag, and with it max-image-preview:large.
+    ...(count < SECTION_INDEX_MIN ? { robots: { index: false, follow: true } } : {}),
   };
 }
 
@@ -59,7 +64,7 @@ export default async function SectionPage({ params }: Props) {
 
   return (
     <BrandProvider brand={r.brand.id}>
-      <DeskHeader brand={r.brand.id} active={r.section.slug} title={r.section.name} />
+      <DeskHeader brand={r.brand.id} active={r.section.slug} title={r.section.name} intro={r.section.blurb} />
       <div className="container-page pb-24 pt-10 md:pt-14">
         {posts.length === 0 ? (
           <EmptyDesk label={r.section.name} />

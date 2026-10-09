@@ -35,7 +35,7 @@ export function ledger(posts: PublicPost[], now: Date, brand?: BrandId): Ledger 
       bySource.set(p.source.name, (bySource.get(p.source.name) ?? 0) + 1);
       sourceNames.add(p.source.name.toLowerCase());
     }
-    for (const s of p.sources ?? []) sourceNames.add(s.toLowerCase());
+    for (const s of p.sources ?? []) sourceNames.add(s.name.toLowerCase());
   }
   const topSources = [...bySource.entries()]
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
