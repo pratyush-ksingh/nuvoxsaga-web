@@ -11,7 +11,7 @@ type FormatFields = Pick<PublicPost, 'kind' | 'source' | 'sources' | 'checkedCla
 export function sourceCount(post: FormatFields): number {
   if (post.kind === 'brief') return post.source ? 1 : 0;
   const names = new Set<string>();
-  for (const s of post.sources ?? []) if (s.trim()) names.add(s.trim().toLowerCase());
+  for (const s of post.sources ?? []) if (s.name.trim()) names.add(s.name.trim().toLowerCase());
   if (names.size === 0) for (const c of post.checkedClaims ?? []) if (c.source?.trim()) names.add(c.source.trim().toLowerCase());
   return names.size;
 }

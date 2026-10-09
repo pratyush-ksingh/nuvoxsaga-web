@@ -104,6 +104,49 @@ describe('story validation', () => {
     expect(loadAllPosts().map((p) => p.slug)).toEqual(['checked']);
   });
 
+  it('accepts sources as names (legacy) or as {name, url}, and a url on a checked claim', async () => {
+    write('nuvox_ai', 'legacy', story({ kind: 'feature', source: undefined, sources: ['NASA', ' ', 'ESA'] }));
+    write(
+      'nuvox_ai',
+      'linked',
+      story({
+        kind: 'feature',
+        format: 'explainer',
+        source: undefined,
+        sources: [{ name: 'NASA', url: 'https://www.nasa.gov/x' }, { name: 'ESA' }, { name: '' }],
+        checkedClaims: [{ claim: 'A claim', source: 'NASA', url: 'https://www.nasa.gov/x' }, { claim: 'B', source: 'ESA' }],
+      }),
+    );
+    const { loadAllPosts } = await load();
+    const byslug = Object.fromEntries(loadAllPosts().map((p) => [p.slug, p]));
+    expect(byslug.legacy.sources).toEqual([{ name: 'NASA' }, { name: 'ESA' }]);
+    expect(byslug.legacy.format).toBeUndefined();
+    expect(byslug.linked.format).toBe('explainer');
+    expect(byslug.linked.sources).toEqual([{ name: 'NASA', url: 'https://www.nasa.gov/x' }, { name: 'ESA' }]);
+    expect(byslug.linked.checkedClaims).toEqual([
+      { claim: 'A claim', source: 'NASA', url: 'https://www.nasa.gov/x' },
+      { claim: 'B', source: 'ESA' },
+    ]);
+  });
+
+  it('rejects an unknown format, a format on a brief, and non-https source or claim urls', async () => {
+    write('nuvox_ai', 'bad-format', story({ kind: 'feature', source: undefined, format: 'listicle' }));
+    let mod = await load();
+    expect(() => mod.loadAllPosts()).toThrow(/format must be/);
+    fs.rmSync(path.join(dir, 'posts'), { recursive: true });
+    write('nuvox_ai', 'brief-format', story({ format: 'explainer' }));
+    mod = await load();
+    expect(() => mod.loadAllPosts()).toThrow(/format must be/);
+    fs.rmSync(path.join(dir, 'posts'), { recursive: true });
+    write('nuvox_ai', 'bad-url', story({ kind: 'feature', source: undefined, sources: [{ name: 'X', url: 'http://x.example' }] }));
+    mod = await load();
+    expect(() => mod.loadAllPosts()).toThrow(/https url/);
+    fs.rmSync(path.join(dir, 'posts'), { recursive: true });
+    write('nuvox_ai', 'bad-claim', story({ checkedClaims: [{ claim: 'c', source: 's', url: 'javascript:alert(1)' }] }));
+    mod = await load();
+    expect(() => mod.loadAllPosts()).toThrow(/non-https url/);
+  });
+
   it('never exposes drafts or future-dated stories', async () => {
     write('nuvox_ai', 'draft', story({ status: 'draft' }));
     write('nuvox_ai', 'future', story({ publishedAt: '2999-01-01T00:00:00Z' }));
@@ -141,10 +184,31 @@ describe('feeds', () => {
     const { rss, newsSitemap, xml } = await import('@/lib/feeds');
     expect(xml('<a href="x">&</a>')).toBe('&lt;a href=&quot;x&quot;&gt;&amp;&lt;/a&gt;');
     const feed = await rss({ title: 't', path: '/', description: 'd', posts: loadAllPosts() }).text();
-    expect(feed).not.toContain('<b>');
+    expect(feed).not.toContain('<title>A <b>');
     expect(feed).toContain('A &lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; claim');
     const news = await newsSitemap(loadAllPosts(), Date.parse('2026-09-21T09:00:00Z')).text();
     expect(news).toContain('/ai/news/x');
     expect(news).not.toContain('/ai/news/y');
+  });
+
+  it('gives every item an author, an image enclosure and the body', async () => {
+    write('nuvox_space', 'photo', story({ bodyHtml: '<p>Body ]]> here</p>', image: { src: '/media/space/photo.webp', alt: 'a', credit: 'NASA' } }));
+    write('nuvox_space', 'card', story({ image: { src: '/media/sections/space-launch-1.webp', alt: 'a', credit: 'AI illustration' } }));
+    const { loadAllPosts } = await load();
+    const { rss, cdata, feedImage } = await import('@/lib/feeds');
+    const posts = loadAllPosts();
+    const feed = await rss({ title: 't', path: '/space', description: 'd', posts }).text();
+    expect(feed).toContain('<dc:creator>Nuvoxsaga Space desk</dc:creator>');
+    expect(feed).toContain('<author>corrections@nuvoxsaga.com (Nuvoxsaga Space desk)</author>');
+    // A credited photo is the enclosure; an AI illustration is replaced by the title card.
+    expect(feed).toContain('<enclosure url="https://nuvoxsaga.com/media/space/photo.webp" type="image/webp"');
+    expect(feed).toContain('<enclosure url="https://nuvoxsaga.com/og/nuvox_space/card.png" type="image/png" length="0"/>');
+    expect(feedImage(posts.find((p) => p.slug === 'card')!).url).toMatch(/\/og\/nuvox_space\/card\.png$/);
+    // The body travels as CDATA, and the one sequence that could end it is split.
+    // DOMPurify serialises a text-node ">" as &gt;, so the body itself can never end the CDATA.
+    expect(feed).toContain('<content:encoded><![CDATA[<p>Body ]]&gt; here</p>]]></content:encoded>');
+    expect(cdata('a]]>b')).toBe('<![CDATA[a]]]]><![CDATA[>b]]>');
+    expect(feed).toContain('xmlns:dc=');
+    expect(feed).toContain('xmlns:content=');
   });
 });

@@ -9,7 +9,11 @@ describe('story formats', () => {
   });
 
   it('a feature counts distinct research sources, ignoring case', () => {
-    const f = { kind: 'feature' as const, readingTimeMin: 6, sources: ['NASA', 'nasa', 'ESA', ' '] };
+    const f = {
+      kind: 'feature' as const,
+      readingTimeMin: 6,
+      sources: [{ name: 'NASA', url: 'https://www.nasa.gov/x' }, { name: 'nasa' }, { name: 'ESA' }, { name: ' ' }],
+    };
     expect(sourceCount(f)).toBe(2);
     expect(formatLine(f)).toBe('6 min read · 2 sources');
   });
