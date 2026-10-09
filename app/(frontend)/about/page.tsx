@@ -33,7 +33,7 @@ const FACTS = [
   },
   {
     title: 'How we check them',
-    body: 'Before anything is published, we match every name, number and date against the source, and a separate check then has to confirm each claim, the headline included. A story that fails stays unpublished.',
+    body: 'Before anything is published, an automated check matches every name, number and date against the source, and a separate automated check then has to confirm each claim, the headline included. A story that fails stays unpublished; the editor writes the rules and reads the daily reports.',
   },
   {
     title: 'When we get it wrong',
@@ -90,8 +90,8 @@ export default function AboutPage() {
                 </Link>
               </dd>
               <dd className="mt-2 max-w-[52ch] text-ink-2">
-                Sets the sources each desk draws on and the rules every story is checked against, and owns the corrections
-                log. Based in {EDITOR.location}.{' '}
+                Sets the sources each desk draws on, writes the rules every story is checked against, and owns the
+                corrections log. Based in {EDITOR.location}.{' '}
                 <Link href={EDITOR.path} className="link-arrow text-ink">
                   Read more <ArrowRight aria-hidden="true" size={14} />
                 </Link>

@@ -14,7 +14,7 @@ const SECTIONS: { id?: string; title: string; body: string[] }[] = [
   {
     title: 'Who we are',
     body: [
-      'Nuvoxsaga is a small independent newsroom with three desks: AI, Space and World. It is owned and edited by Pratyush Kumar Singh, who sets the sources and the checking rules, and owns the corrections.',
+      'Nuvoxsaga is a small independent newsroom with three desks: AI, Space and World. It is owned and edited by Pratyush Kumar Singh, who sets the sources, writes the checking rules and owns the corrections.',
       'Our stories are drafted with AI language models. An automated verification process checks them before anything is published, and this page explains how it works.',
     ],
   },
@@ -23,7 +23,7 @@ const SECTIONS: { id?: string; title: string; body: string[] }[] = [
     id: 'checks',
     title: 'How every story is checked',
     body: [
-      'Each story names the sources it was written from, and each factual claim in it is listed with the source that confirms it. Before publication, every name, number and date is matched against the source text, and a separate, independent check has to confirm each claim, the headline included.',
+      'Each story names the sources it was written from, and each factual claim in it is listed with the source that confirms it. Before publication, an automated check matches every name, number and date against the source text, and a separate, independent automated check has to confirm each claim, the headline included. No person reads every story before it goes live; the editor writes the rules, reads the daily check reports and pulls any story that fails on a second look.',
       'A claim that cannot be confirmed is rewritten or removed. If the story still does not hold up, it is not published. The claims list under every story is the record of that check.',
     ],
   },

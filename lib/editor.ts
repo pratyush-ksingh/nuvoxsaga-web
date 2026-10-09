@@ -25,7 +25,7 @@ export const EDITOR = {
   sameAs: [X_URL, INSTAGRAM_URL],
   /** 60-80 words, drawn from /contact and /privacy. */
   bio: [
-    'Pratyush Kumar Singh is the editor and publisher of Nuvoxsaga, an independent news site based in India. He runs the newsroom alone: he decides which primary sources the three desks draw on, sets the rules every story is checked against, reads the daily reports on what passed and what was rejected, and owns the corrections log.',
+    'Pratyush Kumar Singh is the editor and publisher of Nuvoxsaga, an independent news site based in India. He runs the newsroom alone: he decides which primary sources the three desks draw on, writes the rules every story is checked against, reads the daily check reports, pulls any story that fails on a second look, and owns the corrections log.',
     'Stories are drafted with AI; the decision about what runs, and what gets fixed, is his. He is also responsible for how the site uses personal data.',
   ],
 } as const;

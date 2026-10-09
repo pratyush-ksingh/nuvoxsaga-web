@@ -17,15 +17,15 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nuvoxsaga.com';
 
 export const metadata: Metadata = {
   title: `${EDITOR.name}, editor`,
-  description: `${EDITOR.name} edits and publishes Nuvoxsaga: he sets the sources and the checking rules, and owns the corrections.`,
+  description: `${EDITOR.name} edits and publishes Nuvoxsaga: he sets the sources, writes the checking rules and owns the corrections.`,
   alternates: { canonical: EDITOR.path },
   openGraph: og({ url: EDITOR.path, type: 'profile' }),
 };
 
 const DUTIES = [
   { title: 'Sets the sources', body: 'Decides which primary sources each desk draws on: space agencies, research labs, companies, governments and international bodies.' },
-  { title: 'Sets the rules', body: 'Stories are drafted with AI and checked claim by claim against their sources by an automated process. The editor sets its rules and reads its daily reports; what fails stays unpublished.' },
-  { title: 'Owns the corrections', body: 'Every reported error is read by the editor. Corrections are made on the story and listed in public on the corrections page.' },
+  { title: 'Writes the rules', body: 'Stories are drafted with AI and checked claim by claim against their sources by an automated process. The editor writes its rules and reads its daily check reports; what fails stays unpublished.' },
+  { title: 'Owns the corrections', body: 'Every reported error is read by the editor, who pulls any story that fails on a second look. Corrections are made on the story and listed in public on the corrections page.' },
 ];
 
 export default function EditorPage() {
