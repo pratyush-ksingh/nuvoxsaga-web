@@ -1,9 +1,10 @@
 'use client';
 
 /**
- * Site header: wordmark, Latest + the three desks + Archive + Search, one Subscribe action.
+ * Site header: wordmark, Latest + the three desks + Search, one Subscribe action.
  * Desktop: single-line nav (64px). Mobile (< 768px): a disclosure menu, because five
- * inline links collided with the wordmark on phones.
+ * inline links collided with the wordmark on phones. The unverified archive is linked
+ * from the footer only: it is not part of the newsroom's offer.
  */
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -16,7 +17,6 @@ import { DESKS } from '@/lib/desks';
 const LINKS = [
   { href: '/latest', label: 'Latest' },
   ...BRANDS.map((b) => ({ href: `/${b.slug}`, label: DESKS[b.id].name })),
-  { href: '/archive', label: 'Archive' },
   { href: '/search', label: 'Search' },
 ];
 

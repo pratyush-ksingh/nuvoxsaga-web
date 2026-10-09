@@ -25,6 +25,28 @@ const ARCHIVE_DIR = path.join(process.cwd(), 'content', 'archive');
 // Old Ghost video slugs embed YouTube ids, which can contain "_".
 const SLUG_RE = /^[a-z0-9_-]{1,200}$/;
 
+/**
+ * The old posts were written by a model that sometimes left its own chatter in the
+ * output: an opening "Here is the SEO-optimized version of the article…" paragraph and a
+ * trailing "---SEO_METADATA---" block. Neither is article text, so both are removed
+ * when the archive is loaded. Pure, so it is unit-tested (tests/archive.test.ts).
+ */
+const PREAMBLE_P = /^\s*<p>[^<]*\b(?:here is the\b[^<]*\b(?:article|version)\b|of course\b)[^<]*<\/p>\s*(?:<hr\s*\/?>\s*)?/i;
+// "<p>---SEO_METADATA---</p>", "<h2 id="seo_metadata">SEO_METADATA</h2>" and "<p>---SEO_METADATA---\n{…"
+// all mark the start of the leaked block; everything from there to the end goes.
+const TRAILING_META = /\s*(?:<hr\s*\/?>\s*)?<(?:p|h[1-6])(?:\s[^>]*)?>\s*(?:-{2,}\s*)?(?:SEO[_ ])?METADATA\b[\s\S]*$/i;
+
+export function stripModelChatter(html: string): string {
+  let out = html;
+  // A preamble can span two paragraphs ("Of course. … Here is the article." then a rule).
+  for (let i = 0; i < 2; i++) {
+    const next = out.replace(PREAMBLE_P, '');
+    if (next === out) break;
+    out = next;
+  }
+  return out.replace(TRAILING_META, '').trim();
+}
+
 let cache: ArchivePost[] | null = null;
 
 export function loadArchive(): ArchivePost[] {
@@ -43,7 +65,7 @@ export function loadArchive(): ArchivePost[] {
         slug,
         title: raw.title,
         excerpt: typeof raw.excerpt === 'string' && raw.excerpt ? raw.excerpt : undefined,
-        bodyHtmlSanitized: sanitizePostHtml(raw.bodyHtml),
+        bodyHtmlSanitized: sanitizePostHtml(stripModelChatter(raw.bodyHtml)),
         publishedAt: typeof raw.publishedAt === 'string' ? raw.publishedAt : undefined,
         originalUrl: typeof raw.originalUrl === 'string' ? raw.originalUrl : undefined,
         readingTimeMin: typeof raw.readingTimeMin === 'number' ? raw.readingTimeMin : undefined,

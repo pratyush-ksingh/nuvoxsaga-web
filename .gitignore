@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# .env.production holds only public NEXT_PUBLIC_* build values (tests/env.test.ts checks
+# that). Tracked so a build from any worktree ships the same keys as the live site.
+!.env.production
 
 
 # typescript

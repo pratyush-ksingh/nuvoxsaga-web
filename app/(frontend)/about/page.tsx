@@ -18,7 +18,7 @@ const FACTS = [
   },
   {
     title: 'How stories are made',
-    body: 'AI drafts our stories. We say that up front, because you should know how your news gets made. A news brief starts from one primary source, such as a space agency, a research lab or a government, and every brief links to that source. Features run longer and are researched with live web search.',
+    body: 'AI drafts our stories. We say that up front, because you should know how your news gets made. A news brief starts from one primary source, such as a space agency, a research lab or a government, and every brief links to that source. Longer features and weekly round-ups are checked the same way, claim by claim, before they are published.',
   },
   {
     title: 'How we check them',
