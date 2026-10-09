@@ -27,9 +27,10 @@ export function xml(s: string): string {
     .replace(/'/g, '&apos;');
 }
 
-/** HTML inside CDATA: the only sequence that can end the section is split in two. */
+/** HTML inside CDATA: control characters are illegal even here, and the only sequence that can end the section is split in two. */
 export function cdata(html: string): string {
-  return `<![CDATA[${html.replace(/]]>/g, ']]]]><![CDATA[>')}]]>`;
+  const clean = html.replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '');
+  return `<![CDATA[${clean.replace(/]]>/g, ']]]]><![CDATA[>')}]]>`;
 }
 
 const MIME: Record<string, string> = { webp: 'image/webp', jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', avif: 'image/avif' };

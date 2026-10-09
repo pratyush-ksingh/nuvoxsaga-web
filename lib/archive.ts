@@ -33,12 +33,14 @@ const SLUG_RE = /^[a-z0-9_-]{1,200}$/;
  */
 // The first paragraph, when it holds plain text only (a preamble never has markup in it).
 const FIRST_P = /^\s*<p>([^<]*)<\/p>\s*/i;
-const PREAMBLE_TEXT = /\bhere is the\b.*\b(?:article|version)\b/i;
+// Bounded span: a preamble is one sentence, and an unbounded `.*` is quadratic on a long first paragraph.
+const PREAMBLE_TEXT = /\bhere is the\b.{0,400}\b(?:article|version)\b/i;
 const OF_COURSE = /^\s*of course\b/i;
 const LEADING_HR = /^<hr\s*\/?>\s*/i;
 // "<p>---SEO_METADATA---</p>", "<h2 id="seo_metadata">SEO_METADATA</h2>" and "<p>---SEO_METADATA---\n{…"
 // all mark the start of the leaked block; everything from there to the end goes.
-const META_START = /<(?:p|h[1-6])\b[^>]*>\s*-*\s*(?:SEO[_ ])?METADATA\b/i;
+// One character class for the dashes and spaces: three adjacent optional runs backtrack quadratically.
+const META_START = /<(?:p|h[1-6])\b[^>]*>[\s-]*(?:SEO[_ ])?METADATA\b/i;
 const TRAILING_HR = /<hr\s*\/?>\s*$/i;
 
 export function stripModelChatter(html: string): string {
