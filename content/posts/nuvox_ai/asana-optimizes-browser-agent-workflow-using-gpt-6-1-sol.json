@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "asana-optimizes-browser-agent-workflow-using-gpt-6-1-sol",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Asana optimizes browser agent workflow using GPT-6.1 Sol",
+  "excerpt": "The company reported a 76x reduction in model costs and a 5x increase in speed during browser agent tests.",
+  "bodyHtml": "<p>Asana optimized its browser agent workflow using OpenAI’s GPT-6.1 Sol model. By utilizing GPT-6 Astra in Codex to conduct experiments, the company reduced estimated model costs by 76x and increased execution speed by 5x compared to its original production setup.</p>\n<p>The optimization process involved using GPT-6 Astra to map the codebase and identify inefficiencies, such as the redundant resending of page history. Asana implemented new caching and screenshot policies, which allowed the agent to retain more browsing history while managing screenshot accumulation. The best-performing policy allowed screenshots to accumulate to 20 before cutting back to the most recent one.</p>\n<p>In tests, the optimized workflow on GPT-6.1 Sol achieved an average estimated model cost of $0.47 per run. Asana uses GPT-6 Astra in Codex to test product features before release, where the agent navigates the platform, tries different inputs, and reports bugs for human QA reviewers. The company plans to incorporate this testing into the platform’s evaluations, so customers and internal teams can compare cost, runtime, and answer quality when configuring their agents.</p>",
+  "publishedAt": "2026-10-09T19:13:19Z",
+  "updatedAt": "2026-10-09T19:13:19Z",
+  "wordCount": 172,
+  "readingTimeMin": 1,
+  "topic": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "tags": [
+    "Asana",
+    "OpenAI",
+    "GPT-6.1 Sol",
+    "StackAI"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/asana-browser-agent"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Asana optimized its browser agent workflow using GPT-6.1 Sol.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Asana reported a 76x reduction in estimated model costs and a 5x increase in speed during browser agent tests.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "GPT-6.1 Sol is an OpenAI model.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "By utilizing GPT-6 Astra in Codex to conduct experiments, Asana reduced estimated model costs by 76x and increased execution speed by 5x compared to its original production setup.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The optimization process involved using GPT-6 Astra to map the codebase and identify inefficiencies, such as the redundant resending of page history.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Asana implemented new caching and screenshot policies that allowed the agent to retain more browsing history while managing screenshot accumulation.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The best-performing policy allowed screenshots to accumulate to 20 before cutting back to the most recent one.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In tests, the optimized workflow on GPT-6.1 Sol achieved an average estimated model cost of $0.47 per run.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Asana uses GPT-6 Astra in Codex to test product features before release, where the agent navigates the platform, tries different inputs, and reports bugs for human QA reviewers.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Asana plans to incorporate this testing into the platform’s evaluations so customers and internal teams can compare cost, runtime, and answer quality when configuring agents.",
+      "source": "OpenAI"
+    }
+  ]
+}

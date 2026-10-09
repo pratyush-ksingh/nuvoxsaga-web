@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-ml-intern-agent-for-automated-model-training",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face releases ML-intern agent for automated model training",
+  "excerpt": "The tool allows users to automate the planning, training, and evaluation of models within HuggingChat.",
+  "bodyHtml": "<p>Hugging Face announced on October 8, 2026, the availability of ML-intern, an agent integrated into HuggingChat designed to assist users in building machine learning models. The agent manages the planning of work, requests budgets, performs testing, and handles the training and evaluation processes on Hugging Face hardware.</p>\n<p>Users initiate the process by providing a prompt that details the dataset, base model, and training script. The agent requires explicit permission before executing paid jobs and enforces spending limits defined by the user. If a user does not specify a budget, the agent suggests paths based on project size and asks for a preference.</p>\n<p>The agent has been used to build various models, including a citrus disease classifier and image generation tools. Total compute costs for six projects, including training and testing, amounted to about USD 103.</p>",
+  "publishedAt": "2026-10-09T19:26:22Z",
+  "updatedAt": "2026-10-09T19:26:22Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "The model that didn't exist, so you made it yourself",
+  "tags": [
+    "Hugging Face",
+    "ML-intern",
+    "HuggingChat"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/building-with-ml-intern"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face releases ML-intern agent for automated model training.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The tool allows users to automate the planning, training, and evaluation of models within HuggingChat.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced on October 8, 2026, the availability of ML-intern.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "ML-intern is an agent integrated into HuggingChat designed to assist users in building machine learning models.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent manages the planning of work.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent requests budgets.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent performs testing.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent handles the training and evaluation processes on Hugging Face hardware.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Users initiate the process by providing a prompt that details the dataset, base model, and training script.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent requires explicit permission before executing paid jobs.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent enforces spending limits defined by the user.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "If a user does not specify a budget, the agent suggests paths based on project size and asks for a preference.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The agent has been used to build various models, including a citrus disease classifier and image generation tools.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Total compute costs for six projects, including training and testing, amounted to about USD 103.",
+      "source": "Hugging Face"
+    }
+  ]
+}

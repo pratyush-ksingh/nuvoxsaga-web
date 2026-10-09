@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-s-spherex-telescope-identifies-chemical-signatures-in-brown-dwarfs",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA’s SPHEREx telescope identifies chemical signatures in brown dwarfs",
+  "excerpt": "Researchers analyzed 37 brown dwarfs, finding atmospheres containing water, carbon dioxide, carbon monoxide, and methane.",
+  "bodyHtml": "<p>NASA’s Jet Propulsion Laboratory announced on October 8, 2026, that the SPHEREx space telescope is observing thousands of brown dwarfs. These celestial objects form from collapsing gas clouds like stars but lack the mass to sustain hydrogen fusion in their cores.</p>\n<p>A study published in The Astrophysical Journal analyzed 37 nearby brown dwarfs using SPHEREx, which measures brightness in 102 different colors. The data revealed chemically rich atmospheres containing water, carbon dioxide, carbon monoxide, and methane. The telescope observes wavelengths of light that are typically absorbed by water in Earth’s atmosphere.</p>\n<p>Scientists are currently in the process of analyzing thousands of additional brown dwarfs identified by the telescope. The team is investigating how these objects change as they grow older and colder, noting that no two brown dwarfs are alike.</p>",
+  "publishedAt": "2026-10-09T19:41:47Z",
+  "updatedAt": "2026-10-09T19:41:47Z",
+  "wordCount": 130,
+  "readingTimeMin": 1,
+  "topic": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+  "tags": [
+    "NASA",
+    "SPHEREx",
+    "brown dwarfs"
+  ],
+  "source": {
+    "name": "NASA's Jet Propulsion Laboratory",
+    "url": "https://www.jpl.nasa.gov/news/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs"
+  },
+  "sources": [
+    "NASA's Jet Propulsion Laboratory"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA’s SPHEREx telescope identifies chemical signatures in brown dwarfs.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Researchers analyzed 37 brown dwarfs, finding atmospheres containing water, carbon dioxide, carbon monoxide, and methane.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "NASA’s Jet Propulsion Laboratory announced on October 8, 2026, that the SPHEREx space telescope is observing thousands of brown dwarfs.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Brown dwarfs form from collapsing gas clouds like stars but lack the mass to sustain hydrogen fusion in their cores.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "A study published in The Astrophysical Journal analyzed 37 nearby brown dwarfs using SPHEREx.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "SPHEREx measures brightness in 102 different colors.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The data revealed chemically rich atmospheres containing water, carbon dioxide, carbon monoxide, and methane.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The telescope observes wavelengths of light that are typically absorbed by water in Earth’s atmosphere.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Scientists are currently in the process of analyzing thousands of additional brown dwarfs identified by the telescope.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The team is investigating how these objects change as they grow older and colder.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "No two brown dwarfs are alike.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    }
+  ]
+}

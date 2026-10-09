@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/space/webb-telescope-identifies-host-galaxy-of-most-distant-fast-radio-burst.webp",
+    "alt": "FRB 20240304B (NIRCam image)",
+    "credit": "NASA, ESA, CSA, STScI, T. Nanayakkara (USYD). Image Processing: J. DePasquale (STScI) (CC BY 4.0)"
+  },
+  "slug": "webb-telescope-identifies-host-galaxy-of-most-distant-fast-radio-burst",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Webb telescope identifies host galaxy of most distant fast radio burst",
+  "excerpt": "The discovery of the host galaxy for FRB 20240304B suggests these radio flashes may originate from young magnetars.",
+  "bodyHtml": "<p>On October 8, 2026, ESA announced that the James Webb Space Telescope identified the host galaxy of the most distant fast radio burst (FRB) ever recorded. The burst, designated FRB 20240304B, was initially detected by the MeerKAT telescope on 4 March 2024.</p>\n<p>Webb’s NIRCam and NIRSpec instruments confirmed the galaxy exists at a redshift of 2.148, dating back to 3 billion years after the Big Bang. Researchers found the host is a dwarf galaxy 1,000 times less massive than expected, which challenges theories that FRBs originate from binary neutron star mergers. Instead, the findings suggest the bursts likely come from young, highly magnetic neutron stars known as magnetars.</p>\n<p>The team also used the FRB signal to detect a previously unknown galaxy cluster at a redshift of 0.3 and identified the nearby Virgo Cluster. The team estimates that the MeerKAT telescope may be able to detect and localise several FRBs per year at a redshift greater than 1.0.</p>",
+  "publishedAt": "2026-10-09T19:38:33Z",
+  "updatedAt": "2026-10-09T19:38:33Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "Science Release: Webb measures distance to farthest fast radio burst, suggesting origin",
+  "tags": [
+    "Webb",
+    "FRB",
+    "ESA",
+    "NASA"
+  ],
+  "source": {
+    "name": "ESA",
+    "url": "https://esawebb.org/news/weic2621/"
+  },
+  "sources": [
+    "ESA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The Webb telescope identified the host galaxy of the most distant fast radio burst.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The discovery of the host galaxy for FRB 20240304B suggests that fast radio bursts may originate from young magnetars.",
+      "source": "ESA"
+    },
+    {
+      "claim": "On October 8, 2026, ESA announced that the James Webb Space Telescope identified the host galaxy of the most distant fast radio burst recorded to date.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The burst FRB 20240304B was initially detected by the MeerKAT telescope on March 4, 2024.",
+      "source": "ESA"
+    },
+    {
+      "claim": "Webb’s NIRCam and NIRSpec instruments confirmed the galaxy exists at a redshift of 2.148, corresponding to 3 billion years after the Big Bang.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The host galaxy is a dwarf galaxy 1,000 times less massive than expected, challenging theories that FRBs originate from binary neutron star mergers.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The findings suggest fast radio bursts likely come from young, highly magnetic neutron stars known as magnetars.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The team used the FRB signal to detect a previously unknown galaxy cluster at a redshift of 0.3 and identified the nearby Virgo Cluster.",
+      "source": "ESA"
+    },
+    {
+      "claim": "The team estimates the MeerKAT telescope may be able to detect and localise several FRBs per year at a redshift greater than 1.0.",
+      "source": "ESA"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/space/nasa-tests-experimental-heat-shield-materials-on-cargo-spacecraft.webp",
+    "alt": "NASA tests experimental heat shield materials on cargo spacecraft",
+    "credit": "NASA"
+  },
+  "slug": "nasa-tests-experimental-heat-shield-materials-on-cargo-spacecraft",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA tests experimental heat shield materials on cargo spacecraft",
+  "excerpt": "NASA is testing thermal protection materials using 12 experimental capsules carried on a Northrop Grumman cargo spacecraft.",
+  "bodyHtml": "<p>NASA is testing next-generation heat shield materials using 12 experimental capsules carried aboard a Northrop Grumman 24th cargo resupply mission. The capsules were activated before the spacecraft departed the International Space Station.</p>\n<p>The experiment, called the Kentucky Reentry Probe Experiment (KREPE-3), includes sensors that will measure temperature, pressure, motion, magnetic field, and light during re-entry. The capsules contain various thermal protective components, including ceramic tile material used on the space shuttle and a 3-D printed heat shield developed at NASA Johnson and Oak Ridge National Laboratory.</p>\n<p>As the vehicle breaks apart in Earth’s atmosphere, the capsules will eject to collect data. Satellite signals will transfer live data to researchers, offering insights into how larger heat shields could protect future cargo or crew. The capsules also include a deployable heat shield shaped like an umbrella to increase surface area and slow descent, as well as a dual-cone shape combining a tungsten tip with carbon and heat-resistant plastic fibers.</p>",
+  "publishedAt": "2026-10-09T19:35:01Z",
+  "updatedAt": "2026-10-09T19:35:01Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+  "tags": [
+    "NASA",
+    "KREPE-3",
+    "International Space Station",
+    "Northrop Grumman"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA is testing experimental heat shield materials on a cargo spacecraft.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA is testing thermal protection materials using 12 experimental capsules carried on a Northrop Grumman cargo spacecraft.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA is testing next-generation heat shield materials using 12 experimental capsules carried aboard a Northrop Grumman 24th cargo resupply mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The capsules were activated before the spacecraft departed the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The experiment is called the Kentucky Reentry Probe Experiment (KREPE-3).",
+      "source": "NASA"
+    },
+    {
+      "claim": "The experiment includes sensors that will measure temperature, pressure, motion, magnetic field, and light during re-entry.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The capsules contain various thermal protective components, including ceramic tile material used on the space shuttle.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The capsules contain a 3-D printed heat shield developed at NASA Johnson and Oak Ridge National Laboratory.",
+      "source": "NASA"
+    },
+    {
+      "claim": "As the vehicle breaks apart in Earth’s atmosphere, the capsules will eject to collect data.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Satellite signals will transfer live data to researchers, offering insights into how larger heat shields could protect future cargo or crew.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The capsules include a deployable heat shield shaped like an umbrella to increase surface area and slow descent.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The capsules include a dual-cone shape combining a tungsten tip with carbon and heat-resistant plastic fibers.",
+      "source": "NASA"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-releases-meteosat-12-imagery-of-saharan-dust-over-mediterranean",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "EUMETSAT releases Meteosat-12 imagery of Saharan dust over Mediterranean",
+  "excerpt": "The geostationary weather satellite captured the dust cloud moving northeast across the sea on 25 August 2026.",
+  "bodyHtml": "<p>EUMETSAT released imagery on October 9, 2026, showing a Saharan dust cloud moving northeast across the Mediterranean Sea. The data was captured on 25 August 2026 by the FCI instrument onboard the Meteosat-12 geostationary weather satellite.</p>\n<p>The satellite, which operates 36,000km above the Earth, provides imagery for weather forecasting, climate monitoring, and the early detection of severe weather. According to EUMETSAT, Saharan dust particles are lifted by surface wind gusts and can be transported thousands of kilometres from their origin.</p>\n<p>The agency noted that dust traveling over populated areas can reduce air quality and cause respiratory problems or flight delays. Over oceans, the dust can act as a fertiliser for phytoplankton, which are tiny marine plants that form the basis of the marine food chain.</p>",
+  "publishedAt": "2026-10-09T19:35:29Z",
+  "updatedAt": "2026-10-09T19:35:29Z",
+  "wordCount": 125,
+  "readingTimeMin": 1,
+  "topic": "Image of the week: Dust cloud moves over the Mediterranean",
+  "tags": [
+    "EUMETSAT",
+    "Meteosat-12",
+    "Mediterranean",
+    "Saharan dust"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/image-week-dust-cloud-moves-over-mediterranean"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EUMETSAT released Meteosat-12 imagery of Saharan dust over the Mediterranean.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The geostationary weather satellite captured the dust cloud moving northeast across the sea on 25 August 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT released the imagery on October 9, 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The imagery shows a Saharan dust cloud moving northeast across the Mediterranean Sea.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The data was captured on 25 August 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The data was captured by the FCI instrument onboard the Meteosat-12 geostationary weather satellite.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite operates 36,000km above the Earth.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite provides imagery for weather forecasting, climate monitoring, and the early detection of severe weather.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Saharan dust particles are lifted by surface wind gusts.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Saharan dust can be transported thousands of kilometres from its origin.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Dust traveling over populated areas can reduce air quality.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Dust traveling over populated areas can cause respiratory problems or flight delays.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Over oceans, dust can act as a fertiliser for phytoplankton.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Phytoplankton are tiny marine plants that form the basis of the marine food chain.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

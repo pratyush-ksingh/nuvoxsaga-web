@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-commits-1-billion-to-advance-us-science-over-five-years",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA commits $1 billion to advance US science over five years",
+  "excerpt": "The investment supports super intelligence research in fields including quantum computing, healthcare, and energy security.",
+  "bodyHtml": "<p>NVIDIA announced on October 8, 2026, a commitment of $1 billion to advance science in the United States over the next five years. The company stated the funding will support the nation’s capacity for super intelligence research and development in critical fields such as quantum computing, healthcare, and energy security.</p>\n<p>The announcement was made during the Science: A New Golden Age event in Washington, D.C. NVIDIA plans to support higher-education research institutions, invest in quantum leadership, and provide resources to cloud service providers to assist with U.S. government mission needs.</p>\n<p>NVIDIA is also a collaborator on a number of the phase 2 Genesis Mission awards announced at the event. These projects include work in quantum computing, fusion, accelerator design, and microelectronics.</p>\n<p>The company has collaborated with U.S. national labs for more than two decades. This includes work to build the Department of Energy’s largest supercomputer for scientific research at Argonne National Laboratory, as well as supporting seven new systems across Argonne and Los Alamos National Laboratories.</p>",
+  "publishedAt": "2026-10-09T19:16:12Z",
+  "updatedAt": "2026-10-09T19:16:12Z",
+  "wordCount": 166,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA Commits $1 Billion to Advance US Science Over the Next Five Years",
+  "tags": [
+    "NVIDIA",
+    "Quantum Computing",
+    "Genesis Mission"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA commits $1 billion to advance U.S. science over five years.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The investment supports super intelligence research in fields including quantum computing, healthcare, and energy security.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on October 8, 2026, a commitment of $1 billion to advance science in the United States over the next five years.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The company stated the funding will support the nation’s capacity for super intelligence research and development in critical fields such as quantum computing, healthcare, and energy security.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The announcement was made during the Science: A New Golden Age event in Washington, D.C.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA plans to support higher-education research institutions, invest in quantum leadership, and provide resources to cloud service providers to assist with U.S. government mission needs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA is a collaborator on a number of the phase 2 Genesis Mission awards announced at the event.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These Genesis Mission award projects include work in quantum computing, fusion, accelerator design, and microelectronics.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA has collaborated with U.S. national labs for more than two decades.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "This includes work to build the Department of Energy’s largest supercomputer for scientific research at Argonne National Laboratory, as well as supporting seven new systems across Argonne and Los Alamos National Laboratories.",
+      "source": "NVIDIA"
+    }
+  ]
+}

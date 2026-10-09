@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-1.webp",
+    "alt": "Illustration: aerial view of a river winding through green mountains at dawn",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-to-lead-trade-mission-to-india",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Canada to lead trade mission to India",
+  "excerpt": "Minister of International Trade Maninder Sidhu will lead nearly 300 delegates to India from October 12 to 17, 2026.",
+  "bodyHtml": "<p>The Government of Canada announced on October 9, 2026, that the Honourable Maninder Sidhu, Minister of International Trade, will lead a Team Canada Trade Mission to India. The mission will include stops in Mumbai and Bengaluru.</p>\n<p>From October 12 to 17, 2026, Minister Sidhu will lead nearly 300 delegates to connect with Indian decision makers, industry players and potential clients. The delegation includes businesses from the aerospace and space, clean technologies and energy transition, information and communication technologies, life sciences and agri-food sectors.</p>\n<p>According to the Government of Canada, this is the largest trade delegation Canada has sent to India in over 30 years. Two-way goods and services trade between Canada and India totalled $30.4 billion in 2025.</p>",
+  "publishedAt": "2026-10-09T19:46:48Z",
+  "updatedAt": "2026-10-09T19:46:48Z",
+  "wordCount": 118,
+  "readingTimeMin": 1,
+  "topic": "Minister Sidhu to lead Team Canada Trade Mission to India to unlock new bilateral trade opportunities",
+  "tags": [
+    "Canada",
+    "India",
+    "Trade"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-sidhu-to-lead-team-canada-trade-mission-to-india-to-unlock-new-bilateral-trade-opportunities.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada will lead a trade mission to India.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister of International Trade Maninder Sidhu will lead nearly 300 delegates to India from October 12 to 17, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on October 9, 2026, that Minister Sidhu will lead a Team Canada Trade Mission to India.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The mission will include stops in Mumbai and Bengaluru.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "From October 12 to 17, 2026, Minister Sidhu will lead nearly 300 delegates to connect with Indian decision makers, industry players, and potential clients.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The delegation includes businesses from Canada's aerospace and space, clean technologies and energy transition, information and communication technologies, life sciences, and agri-food sectors.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "According to the Government of Canada, this is the largest trade delegation Canada has sent to India in over 30 years.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Two-way goods and services trade between Canada and India totalled $30.4 billion in 2025.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

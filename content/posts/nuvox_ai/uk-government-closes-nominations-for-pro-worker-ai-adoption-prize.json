@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-3.webp",
+    "alt": "Illustration: empty conference table with microphones in a dim hall",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-closes-nominations-for-pro-worker-ai-adoption-prize",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK government closes nominations for Pro-Worker AI Adoption Prize",
+  "excerpt": "The judging panel for the initiative, which recognizes organizations using AI to benefit workers, has been confirmed.",
+  "bodyHtml": "<p>The UK government announced on October 8, 2026, that the Pro-Worker AI Adoption Prize closed to nominations at 11:55pm on 7 October 2026. The prize recognizes and promotes UK organizations that adopt artificial intelligence in ways that increase productivity, provide workers with new capabilities, and create new jobs.</p>\n<p>The Department for Business, Innovation, Science and Trade has confirmed the judging panel for the prize. The panel is chaired by Professor Simon Johnson and includes Milena Mondini, CEO of Admiral Group, and Mike Clancy, General Secretary of the Prospect trade union. These members will bring experience across AI, business, and worker representation to the assessment process.</p>\n<p>After a period of assessment by the expert judging panel, the government will announce a shortlist of top innovators before declaring 3 overall prize-winners. Leading UK business school professors will write detailed case studies on the 3 winning organizations to show how AI can benefit businesses and their workers. This work will be funded by grants from the William and Flora Hewlett Foundation.</p>",
+  "publishedAt": "2026-10-09T19:22:46Z",
+  "updatedAt": "2026-10-09T19:22:46Z",
+  "wordCount": 168,
+  "readingTimeMin": 1,
+  "topic": "Pro-Worker AI Adoption Prize",
+  "tags": [
+    "UK government",
+    "artificial intelligence",
+    "Pro-Worker AI Adoption Prize"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/pro-worker-ai-adoption-prize"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government closed nominations for the Pro-Worker AI Adoption Prize.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The judging panel for the Pro-Worker AI Adoption Prize has been confirmed.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Pro-Worker AI Adoption Prize recognizes organizations using AI to benefit workers.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced on October 8, 2026, that the Pro-Worker AI Adoption Prize closed to nominations at 11:55pm on 7 October 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The prize recognizes and promotes UK organizations that adopt artificial intelligence in ways that increase productivity, provide workers with new capabilities, and create new jobs.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Department for Business, Innovation, Science and Trade has confirmed the judging panel for the prize.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The judging panel is chaired by Professor Simon Johnson and includes Milena Mondini, CEO of Admiral Group, and Mike Clancy, General Secretary of the Prospect trade union.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The panel members will bring experience across AI, business, and worker representation to the assessment process.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "After an assessment period by the expert judging panel, the government will announce a shortlist of top innovators before declaring 3 overall prize-winners.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Leading UK business school professors will write detailed case studies on the 3 winning organizations to show how AI can benefit businesses and their workers.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The case studies will be funded by grants from the William and Flora Hewlett Foundation.",
+      "source": "The UK government"
+    }
+  ]
+}

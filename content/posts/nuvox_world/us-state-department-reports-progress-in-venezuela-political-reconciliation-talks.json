@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "us-state-department-reports-progress-in-venezuela-political-reconciliation-talks",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "US State Department reports progress in Venezuela political reconciliation talks",
+  "excerpt": "Delegations have reformed the Supreme Court selection process and restored access to more than 70 internet domains.",
+  "bodyHtml": "<p>The US State Department announced on October 9, 2026, that political reconciliation talks between the interim Venezuelan government and 2015 National Assembly representatives have produced reforms in civil liberties and political rights. The delegations held two rounds of talks in Caracas in August and September.</p>\n<p>The parties have reached agreements to reconstruct the Venezuelan Supreme Court and reform a law previously used to jail opposition figures. The 2026 National Assembly published a law reforming the Supreme Court selection process, with 32 new judges to be selected by December. Additionally, the interim government has restored access to more than 70 previously blocked internet domains, including El Tiempo, EFE, Revista Semana, El Pitazo, and Efecto Cucuyo.</p>\n<p>The interim government has released over 1,000 political prisoners since Operation Absolute Resolve. Since the political reconciliation talks began in August, the interim government has announced the release of an additional 177 political prisoners. The delegations are scheduled to begin another round of talks on October 14.</p>",
+  "publishedAt": "2026-10-09T19:44:38Z",
+  "updatedAt": "2026-10-09T19:44:38Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Reconciliation Talks Deliver Concrete Progress for Venezuela’s Democratic Transition",
+  "tags": [
+    "Venezuela",
+    "politics",
+    "human rights"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/reconciliation-talks-deliver-concrete-progress-for-venezuelas-democratic-transition/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US State Department reported progress in Venezuela political reconciliation talks.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Delegations have reformed the Supreme Court selection process and restored access to more than 70 internet domains.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department announced on October 9, 2026, that political reconciliation talks between the interim Venezuelan government and 2015 National Assembly representatives have produced reforms in civil liberties and political rights.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The delegations held two rounds of talks in Caracas in August and September.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The parties have reached agreements to reconstruct the Venezuelan Supreme Court and reform a law previously used to jail opposition figures.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The 2026 National Assembly published a law reforming the Supreme Court selection process, with 32 new judges to be selected by December.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The interim government has restored access to more than 70 previously blocked internet domains, including El Tiempo, EFE, Revista Semana, El Pitazo, and Efecto Cucuyo.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The interim government has released over 1,000 political prisoners since Operation Absolute Resolve.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Since the political reconciliation talks began in August, the interim government has announced the release of an additional 177 political prisoners.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The delegations are scheduled to begin another round of talks on October 14.",
+      "source": "The US State Department"
+    }
+  ]
+}

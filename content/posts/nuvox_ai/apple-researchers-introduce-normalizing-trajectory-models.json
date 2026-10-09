@@ -1,0 +1,69 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "apple-researchers-introduce-normalizing-trajectory-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Apple researchers introduce Normalizing Trajectory Models",
+  "excerpt": "The new method models reverse steps as conditional normalizing flows to maintain exact likelihood training in image generation.",
+  "bodyHtml": "<p>Apple researchers announced the development of Normalizing Trajectory Models (NTM) on October 8, 2026. The method addresses diffusion-based models, which decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions.</p>\n<p>NTM models each reverse step as an expressive conditional normalizing flow with exact likelihood training. Architecturally, NTM combines shallow invertible blocks within each step with a deep parallel predictor across the trajectory, forming an end-to-end network trainable from scratch or initializable from pretrained flow-matching models.</p>\n<p>The model&#x27;s exact trajectory likelihood enables self-distillation. A lightweight denoiser trained on the score function induced by the model itself produces high-quality samples in four steps. On text-to-image benchmarks, NTM matches or outperforms strong image generation baselines in just four sampling steps while uniquely retaining exact likelihood over the generative trajectory.</p>",
+  "publishedAt": "2026-10-09T19:26:02Z",
+  "updatedAt": "2026-10-09T19:26:02Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "Normalizing Trajectory Models",
+  "tags": [
+    "Apple",
+    "Machine Learning"
+  ],
+  "source": {
+    "name": "Apple",
+    "url": "https://machinelearning.apple.com/research/normalizing-trajectory-models"
+  },
+  "sources": [
+    "Apple"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Apple researchers introduce Normalizing Trajectory Models.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The new method models reverse steps as conditional normalizing flows to maintain exact likelihood training in image generation.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Apple researchers announced the development of Normalizing Trajectory Models (NTM) on October 8, 2026.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The method addresses diffusion-based models, which decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions.",
+      "source": "Apple"
+    },
+    {
+      "claim": "NTM models each reverse step as an expressive conditional normalizing flow with exact likelihood training.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Architecturally, NTM combines shallow invertible blocks within each step with a deep parallel predictor across the trajectory, forming an end-to-end network trainable from scratch or initializable from pretrained flow-matching models.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The model's exact trajectory likelihood enables self-distillation.",
+      "source": "Apple"
+    },
+    {
+      "claim": "A lightweight denoiser trained on the score function induced by the model itself produces high-quality samples in four steps.",
+      "source": "Apple"
+    },
+    {
+      "claim": "On text-to-image benchmarks, NTM matches or outperforms strong image generation baselines in just four sampling steps while uniquely retaining exact likelihood over the generative trajectory.",
+      "source": "Apple"
+    }
+  ]
+}

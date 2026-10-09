@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-updates-mars-exploration-program-science-objectives",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA updates Mars Exploration Program science objectives",
+  "excerpt": "The agency synthesized program goals focused on life, habitability, and preparation for human exploration.",
+  "bodyHtml": "<p>NASA announced on October 9, 2026, that the science activities of the Mars Exploration Program are adapting to meet the challenges of exploring a habitable planet. The agency synthesized a wide range of input into a streamlined set of program science goals and objectives.</p>\n<p>The framework focuses on three themes: Life and Habitability; Ice, Weather, and Climate; and Geology. Agency planning for future human exploration of Mars puts focus on issues of planetary protection and preparation for human arrival. These issues are cross-cutting across many of the science objectives derived from the science themes.</p>\n<p>The program goals include determining the astrobiological potential of Mars and the processes that govern the preservation of organic and physical biosignatures. NASA also intends to characterize the modern habitability of Martian environments, and identify and characterize the emplacement, exchange, and evolution of present-day water ice and other volatiles at or near the Martian surface. The agency provides a traceability table that shows the relationship of each goal and objective to the MEP Future Plan and the Planetary Science and Astrobiology Decadal Survey.</p>",
+  "publishedAt": "2026-10-09T19:28:14Z",
+  "updatedAt": "2026-10-09T19:28:14Z",
+  "wordCount": 177,
+  "readingTimeMin": 1,
+  "topic": "Mars Science Objectives",
+  "tags": [
+    "NASA",
+    "Mars",
+    "Mars Exploration Program"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/mars-science-objectives/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA updates Mars Exploration Program science objectives.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency synthesized program goals focused on life, habitability, and preparation for human exploration.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 9, 2026, that the science activities of the Mars Exploration Program are adapting to meet the challenges of exploring a habitable planet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency synthesized a wide range of input into a streamlined set of program science goals and objectives.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The framework focuses on three themes: Life and Habitability; Ice, Weather, and Climate; and Geology.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Agency planning for future human exploration of Mars puts focus on issues of planetary protection and preparation for human arrival.",
+      "source": "NASA"
+    },
+    {
+      "claim": "These issues are cross-cutting across many of the science objectives derived from the science themes.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The program goals include determining the astrobiological potential of Mars and the processes that govern the preservation of organic and physical biosignatures.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA also intends to characterize the modern habitability of Martian environments.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA intends to identify and characterize the emplacement, exchange, and evolution of present-day water ice and other volatiles at or near the Martian surface.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency provides a traceability table that shows the relationship of each goal and objective to the MEP Future Plan and the Planetary Science and Astrobiology Decadal Survey.",
+      "source": "NASA"
+    }
+  ]
+}

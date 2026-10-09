@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "sophos-reports-96-percent-reduction-in-threat-investigation-time-using-openai-mo",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Sophos reports 96 percent reduction in threat investigation time using OpenAI models",
+  "excerpt": "The cybersecurity firm integrated OpenAI Daybreak to automate case handling, resolving 52 percent of managed detection and response cases end-to-end.",
+  "bodyHtml": "<p>Sophos announced on October 9, 2026, that it has reduced the average time required to investigate cybersecurity threats by 96 percent. The company achieved this result by integrating OpenAI Daybreak, a program that combines frontier intelligence with internal security expertise and response playbooks.</p>\n<p>According to Sophos, the average response time for cases using AI agents has decreased to 89 seconds. Sophos’s existing process previously averaged around 38 minutes. The company currently resolves 52 percent of its Managed Detection and Response cases end-to-end using these AI agents, which are designed to gather customer context and indicators of compromise before creating a summary for human analysts to review.</p>\n<p>Sophos Chief Technology Officer John Peterson stated that the company plans to continue expanding the capabilities of these agents to address a broader range of use cases. Sophos has built customer control into its MDR service through three operating modes. Anything the company does not feel comfortable with an agent handling gets passed off for human judgement.</p>",
+  "publishedAt": "2026-10-09T19:07:33Z",
+  "updatedAt": "2026-10-09T19:07:33Z",
+  "wordCount": 163,
+  "readingTimeMin": 1,
+  "topic": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+  "tags": [
+    "Sophos",
+    "OpenAI",
+    "Cybersecurity"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/sophos"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Sophos reports a 96 percent reduction in threat investigation time using OpenAI models.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos integrated OpenAI Daybreak to automate case handling, resolving 52 percent of managed detection and response cases end-to-end.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos announced on October 9, 2026, that it has reduced the average time required to investigate cybersecurity threats by 96 percent.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos achieved this result by integrating OpenAI Daybreak, which combines frontier intelligence with internal security expertise and response playbooks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "According to Sophos, the average response time for cases using AI agents has decreased to 89 seconds.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos’s existing process previously averaged around 38 minutes.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos resolves 52 percent of its Managed Detection and Response cases end-to-end using AI agents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The AI agents gather customer context and indicators of compromise before creating a summary for human analysts to review.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos Chief Technology Officer John Peterson stated that the company plans to expand the capabilities of these agents to address a broader range of use cases.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sophos has built customer control into its MDR service through three operating modes.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Anything the company does not feel comfortable with an agent handling gets passed off for human judgement.",
+      "source": "OpenAI"
+    }
+  ]
+}

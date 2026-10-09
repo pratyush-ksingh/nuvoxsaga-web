@@ -1,0 +1,62 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "eight-nations-express-opposition-to-us-sanctions-against-the-international-crimi",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Eight nations express opposition to US sanctions against the International Criminal Court",
+  "excerpt": "Foreign ministers from Canada, Japan, Denmark, Germany, France, Italy, the Netherlands, and the UK issued a joint statement on October 9, 2026.",
+  "bodyHtml": "<p>The foreign ministers of Canada, Denmark, Germany, France, Italy, Japan, the Netherlands, and the United Kingdom issued a joint statement on October 9, 2026, regarding the International Criminal Court (ICC). The signatories stated they regret and strongly disagree with the announcement of sanctions to be imposed upon the Court by the United States.</p>\n<p>The ministers noted that the ICC is working to prepare for these measures to ensure the Court can continue to fulfill its mandate under the Rome Statute. The signatories stated that if the sanctions are put into effect, they will have a significant impact on the work of the Court, its dedicated staff, and their families.</p>\n<p>The group stated they remain united in their support for the ICC and are committed to engaging in constructive and inclusive dialogue with non-States Parties as they prepare for the Assembly of States Parties in December 2026. The ministers added that they will continue to work together to support the Court’s vital work, uphold the rules-based international system, and advance accountability.</p>",
+  "publishedAt": "2026-10-09T19:46:20Z",
+  "updatedAt": "2026-10-09T19:46:20Z",
+  "wordCount": 170,
+  "readingTimeMin": 1,
+  "topic": "Joint statement of the Foreign Ministers of Canada, Denmark, Germany, France, Italy, Japan the Netherlands and the United Kingdom",
+  "tags": [
+    "International Criminal Court",
+    "diplomacy",
+    "sanctions"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/joint-statement-of-the-foreign-ministers-of-canada-denmark-germany-france-italy-japan-the-netherlands-and-the-united-kingdom.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Eight nations expressed opposition to US sanctions against the International Criminal Court.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Foreign ministers from Canada, Japan, Denmark, Germany, France, Italy, the Netherlands, and the UK issued a joint statement on October 9, 2026, regarding the ICC.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The signatories stated they regret and strongly disagree with the announcement of sanctions to be imposed upon the Court by the United States.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers noted that the ICC is working to prepare for these measures to ensure the Court can continue to fulfill its mandate under the Rome Statute.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The signatories stated that if the sanctions are put into effect, they will have a significant impact on the work of the Court, its dedicated staff, and their families.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The signatories stated they remain united in their support for the ICC and are committed to engaging in constructive and inclusive dialogue with non-States Parties ahead of the Assembly of States Parties in December 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers stated they will continue to work together to support the Court’s vital work, uphold the rules-based international system, and advance accountability.",
+      "source": "The Government of Canada"
+    }
+  ]
+}
