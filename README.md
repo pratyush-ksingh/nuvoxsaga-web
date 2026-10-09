@@ -58,6 +58,46 @@ a separate git worktree and merge it in one step. A half-edited tree would go li
 
 Newsletter secrets are set with `wrangler pages secret put` (names in `.env.example`).
 
+## Display ads (off by default)
+
+Google AdSense is wired but switched off. Two public values in `.env.production` decide it:
+
+- `NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-…` the publisher id. On its own it adds the
+  `google-adsense-account` meta tag and writes `/ads.txt` at build
+  (`scripts/gen-ads-txt.ts`, run by `npm run build`; with the id empty no file ships).
+  Both verify the site to AdSense without serving ads.
+- `NEXT_PUBLIC_ADS=1` renders the consent tool (Google Privacy & messaging, in `<head>`),
+  the AdSense loader (added after the first scroll or idle time) and ad units, on
+  eligible pages only: a feature or a story of 300+ words, a desk or section with 5+
+  stories, home and `/latest`. Never on search, policy pages, the archive, 404 or a short
+  brief (`lib/ads.ts`, `adsEligible`). A build with `NEXT_PUBLIC_ADS=1` and no valid id fails.
+
+Ad unit ids are placeholders in `lib/ads.ts` (`SLOTS`); paste each unit's `data-ad-slot`
+from AdSense there.
+
+The CSP already allows Google's origins, as a `Content-Security-Policy-Report-Only` header
+beside the unchanged enforced one (`public/_headers`). After a week with ads on and a
+clean console, flip it in one line: give `Content-Security-Policy` the Report-Only value
+and delete the Report-Only line (`tests/headers.test.ts` must then be updated to the new
+enforced value).
+
+Testing both states (Chromium projects; the WebKit project times out against wrangler dev):
+
+```bash
+# ads off: the default build, no ad markup anywhere
+npm run build:prod && npx wrangler pages dev out --port 3008
+npx playwright test --project=chromium-desktop --project=chromium-reduced-motion
+
+# ads on: needs a feature or a 300-word story, so build from the fixtures
+python scripts/make-fixtures.py
+NUVOXSAGA_CONTENT_DIR=content-fixtures NEXT_PUBLIC_SITE_URL=http://localhost:3008 \
+  NEXT_PUBLIC_ADS=1 NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-0000000000000000 npm run build --ignore-scripts
+npx wrangler pages dev out --port 3008
+E2E_ADS=1 npx playwright test e2e/ads.spec.ts --project=chromium-desktop --project=chromium-reduced-motion
+```
+
+Lighthouse with ads on: `.lighthouserc.ads.json` (same thresholds; needs the real id).
+
 ## Layout
 
 - `app/` routes: home, desk fronts (`/ai`, `/space`, `/world`), sections, stories
