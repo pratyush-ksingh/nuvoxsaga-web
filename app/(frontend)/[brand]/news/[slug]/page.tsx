@@ -13,7 +13,18 @@ import type { Metadata } from 'next';
 import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { BRAND_BY_ID, BRAND_BY_SLUG, type BrandSlug } from '@/lib/brands';
 import { DESKS, findSection } from '@/lib/desks';
-import { fetchAllPostsForBrand, fetchPost, loadAllPosts, storyPath, topicSlug, type PublicPost } from '@/lib/content';
+import {
+  fetchAllPostsForBrand,
+  fetchPost,
+  loadAllPosts,
+  loadTopics,
+  storyPath,
+  TOPIC_INDEX_MIN,
+  topicSlug,
+  type CheckedClaim,
+  type PublicPost,
+} from '@/lib/content';
+import { EDITOR } from '@/lib/editor';
 import { generateAllSchemas } from '@/lib/seo';
 import { BrandProvider } from '@/components/brand/BrandProvider';
 import { YouTubeEmbed } from '@/components/blog/YouTubeEmbed';
@@ -111,6 +122,10 @@ export default async function StoryPage({ params }: Props) {
   const isBrief = post.kind === 'brief';
   const updated = post.updatedAt && post.updatedAt !== post.publishedAt ? post.updatedAt : undefined;
   const more = await related(post);
+  // Chips link only to topic pages worth indexing; a one-story topic page is a dead end
+  // for readers and a thin page for crawlers (topic/[tag] applies the same threshold).
+  const topics = loadTopics();
+  const chips = (post.tags ?? []).filter((t) => (topics.get(topicSlug(t))?.posts.length ?? 0) >= TOPIC_INDEX_MIN);
 
   // The pipeline's pre-built JSON-LD wins; the TS builders are the fallback.
   const pipelineLD = Array.isArray(post.schemaLD) ? post.schemaLD : post.schemaLD ? [post.schemaLD] : [];
@@ -161,7 +176,7 @@ export default async function StoryPage({ params }: Props) {
           {post.excerpt && <p className="deck mt-5 text-[1.4rem] leading-snug text-ink-2">{post.excerpt}</p>}
           {/* The format, defined in one line: labels alone are missed by about half of readers. */}
           <p className="mt-4 text-sm text-ink-3">
-            <span className="font-medium text-ink-2">{isBrief ? 'Brief.' : 'Feature.'}</span>{' '}
+            <span className="font-medium text-ink-2">{isBrief ? 'Brief.' : `${FORMAT_NAME[post.format ?? 'feature']}.`}</span>{' '}
             {isBrief
               ? `A short, checked summary of one primary source${post.source ? `: ${post.source.name}` : ''}.`
               : (() => {
@@ -170,7 +185,16 @@ export default async function StoryPage({ params }: Props) {
                 })()}
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-1.5 border-y border-hairline py-4 text-sm text-ink-3">
-            <span className="text-ink-2">By the Nuvoxsaga {desk.name} desk</span>
+            <span className="text-ink-2">
+              By the Nuvoxsaga {desk.name} desk
+              <span aria-hidden="true" className="text-ink-3">
+                {' · '}
+              </span>
+              Edited by{' '}
+              <Link href={EDITOR.path} rel="author" className="underline underline-offset-4 hover:text-ink">
+                {EDITOR.name}
+              </Link>
+            </span>
             {post.publishedAt && <time dateTime={post.publishedAt}>{stampFmt.format(new Date(post.publishedAt))}</time>}
             {updated && <span>Updated <time dateTime={updated}>{stampFmt.format(new Date(updated))}</time></span>}
             {!isBrief && post.readingTimeMin ? <span>{post.readingTimeMin} min read</span> : null}
@@ -247,9 +271,9 @@ export default async function StoryPage({ params }: Props) {
 
         <CheckedBox post={post} />
 
-        {post.tags && post.tags.length > 0 && (
+        {chips.length > 0 && (
           <ul aria-label="Topics" className="mx-auto mt-10 flex max-w-[46rem] flex-wrap gap-2">
-            {post.tags.map((t) =>
+            {chips.map((t) =>
               topicSlug(t) ? (
                 <li key={t}>
                   <Link
@@ -336,74 +360,94 @@ function StoryRail({ post, deskName, deskHref }: { post: PublicPost; deskName: s
   );
 }
 
+const FORMAT_NAME = { feature: 'Feature', explainer: 'Explainer', analysis: 'Analysis', roundup: 'Round-up' } as const;
+
+/**
+ * "Here's how we know", in one line: the source(s), the number of claims checked and a
+ * link to the method. The claims themselves stay one tap away in a <details> that search
+ * engines are asked not to quote (data-nosnippet): they restate the story, and on a short
+ * brief a restated list would outweigh the story itself. The footer links the corrections
+ * page, so the box no longer repeats a "report a mistake" line.
+ */
 function CheckedBox({ post }: { post: PublicPost }) {
   const claims = post.checkedClaims ?? [];
-  if (post.kind === 'brief' && post.source) {
-    return (
-      <section aria-labelledby="source-title" className="mx-auto mt-14 max-w-[46rem] rounded-2xl border border-hairline bg-surface p-6 md:p-8">
-        <h2 id="source-title" className="text-xl font-bold tracking-[-0.015em]">
-          Here&apos;s how we know
-        </h2>
-        <p className="mt-3">
-          <a href={post.source.url} target="_blank" rel="noopener noreferrer" className="link-arrow">
-            {post.source.name} <ArrowUpRight aria-hidden="true" size={15} />
-          </a>
-        </p>
-        <p className="mt-3 text-sm text-ink-2">
-          This brief was written from the source above. Before publication every name, number and date in it was
-          matched against that source, and a separate check confirmed each claim.
-        </p>
-        <ClaimList claims={claims} />
-        <ReportLink />
-      </section>
-    );
-  }
-  if (!post.sources?.length && !claims.length) return null;
+  const brief = post.kind === 'brief' && post.source;
+  if (!brief && !post.sources?.length && !claims.length) return null;
+  const sources = brief ? [post.source!] : post.sources ?? [];
+  const sep = (
+    <span aria-hidden="true" className="text-ink-3">
+      {' · '}
+    </span>
+  );
   return (
-    <section aria-labelledby="checked-title" className="mx-auto mt-14 max-w-[46rem] rounded-2xl border border-hairline bg-surface p-6 md:p-8">
-      <h2 id="checked-title" className="text-xl font-bold tracking-[-0.015em]">
+    <section
+      aria-labelledby={brief ? 'source-title' : 'checked-title'}
+      className="mx-auto mt-14 max-w-[46rem] rounded-2xl border border-hairline bg-surface p-5 md:p-6"
+    >
+      <h2 id={brief ? 'source-title' : 'checked-title'} className="text-base font-bold tracking-[-0.015em]">
         Here&apos;s how we know
       </h2>
-      <p className="mt-2 text-ink-2">
-        Before publication, an independent search-based check confirmed every factual claim below.
+      <p className="mt-2 text-sm text-ink-2">
+        {sources.length > 0 && (
+          <>
+            <span className="text-ink-3">{sources.length === 1 ? 'Source: ' : 'Sources: '}</span>
+            {sources.map((s, i) => (
+              <span key={`${s.name}-${i}`}>
+                {i > 0 && ', '}
+                {s.url ? (
+                  <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-ink underline underline-offset-4 hover:text-ink-2">
+                    {s.name}
+                  </a>
+                ) : (
+                  <span className="text-ink">{s.name}</span>
+                )}
+              </span>
+            ))}
+            {sep}
+          </>
+        )}
+        {claims.length > 0 && (
+          <>
+            <span className="text-ink">{claims.length}</span> {claims.length === 1 ? 'claim' : 'claims'} checked
+            {sep}
+          </>
+        )}
+        <Link href="/standards#checks" className="link-arrow text-ink-2">
+          How we check <ArrowUpRight aria-hidden="true" size={13} />
+        </Link>
       </p>
-      {post.sources && post.sources.length > 0 && (
-        <p className="mt-4 text-sm text-ink-2">
-          <span className="font-semibold text-ink">Sources:</span> {post.sources.join(', ')}
-        </p>
-      )}
       <ClaimList claims={claims} />
-      <ReportLink />
     </section>
   );
 }
 
 /** The checked claims, closed by default: the count is the summary, the list is one tap away. */
-function ClaimList({ claims }: { claims: { claim: string; source: string }[] }) {
+function ClaimList({ claims }: { claims: CheckedClaim[] }) {
   if (!claims.length) return null;
   return (
-    <details className="mt-4 text-sm">
-      <summary className="cursor-pointer font-semibold text-ink">{claims.length} claims verified</summary>
+    <details className="mt-3 text-sm" data-nosnippet>
+      <summary className="cursor-pointer font-semibold text-ink">See the {claims.length} claims</summary>
       <ul className="mt-3 grid gap-2 text-ink-2">
         {claims.map((c, i) => (
           <li key={i}>
             {c.claim}
-            {c.source && <span className="text-ink-3"> ({c.source})</span>}
+            {c.source && (
+              <span className="text-ink-3">
+                {' '}
+                (
+                {c.url ? (
+                  <a href={c.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-ink">
+                    {c.source}
+                  </a>
+                ) : (
+                  c.source
+                )}
+                )
+              </span>
+            )}
           </li>
         ))}
       </ul>
     </details>
-  );
-}
-
-function ReportLink() {
-  return (
-    <p className="mt-5 text-sm text-ink-3">
-      Spotted a mistake?{' '}
-      <Link href="/corrections" className="text-ink-2 underline underline-offset-4 hover:text-ink">
-        Report it
-      </Link>{' '}
-      and we will correct it in public.
-    </p>
   );
 }
