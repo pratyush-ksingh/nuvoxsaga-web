@@ -204,6 +204,11 @@ describe('feeds', () => {
     expect(feed).toContain('<enclosure url="https://nuvoxsaga.com/media/space/photo.webp" type="image/webp"');
     expect(feed).toContain('<enclosure url="https://nuvoxsaga.com/og/nuvox_space/card.png" type="image/png" length="0"/>');
     expect(feedImage(posts.find((p) => p.slug === 'card')!).url).toMatch(/\/og\/nuvox_space\/card\.png$/);
+    // The image credit and the brief's primary source travel with the item.
+    expect(feed).toContain('<media:credit>NASA</media:credit>');
+    expect(feed).toContain('<media:credit>Nuvoxsaga</media:credit>');
+    expect(feed).toContain('<source url="https://www.nasa.gov/news-release/x/">NASA</source>');
+    expect(feed).toContain('xmlns:media=');
     // The body travels as CDATA, and the one sequence that could end it is split.
     // DOMPurify serialises a text-node ">" as &gt;, so the body itself can never end the CDATA.
     expect(feed).toContain('<content:encoded><![CDATA[<p>Body ]]&gt; here</p>]]></content:encoded>');

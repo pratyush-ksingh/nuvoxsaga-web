@@ -90,7 +90,7 @@ export default function AboutPage() {
                 </Link>
               </dd>
               <dd className="mt-2 max-w-[52ch] text-ink-2">
-                Sets the sources each desk draws on, reviews the checks every story goes through, and owns the corrections
+                Sets the sources each desk draws on and the rules every story is checked against, and owns the corrections
                 log. Based in {EDITOR.location}.{' '}
                 <Link href={EDITOR.path} className="link-arrow text-ink">
                   Read more <ArrowRight aria-hidden="true" size={14} />

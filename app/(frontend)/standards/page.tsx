@@ -14,7 +14,7 @@ const SECTIONS: { id?: string; title: string; body: string[] }[] = [
   {
     title: 'Who we are',
     body: [
-      'Nuvoxsaga is a small independent newsroom with three desks: AI, Space and World. It is owned and edited by Pratyush Kumar Singh, who sets the sources, reviews the checks and owns the corrections.',
+      'Nuvoxsaga is a small independent newsroom with three desks: AI, Space and World. It is owned and edited by Pratyush Kumar Singh, who sets the sources and the checking rules, and owns the corrections.',
       'Our stories are drafted with AI language models. An automated verification process checks them before anything is published, and this page explains how it works.',
     ],
   },

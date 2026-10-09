@@ -4,8 +4,8 @@
  *
  * Each RSS item carries the desk as author (dc:creator, and RSS's own <author>, which
  * needs an address: the public corrections inbox), the story's image as an enclosure
- * (the credited photo when it has one, else the title card from app/og) and the body as
- * content:encoded. The feeds are the input to the social posters, so they carry what a
+ * (the credited photo when it has one, else the title card from app/og) with its credit
+ * as media:credit, the brief's primary source as <source>, and the body as content:encoded. The feeds are the input to the social posters, so they carry what a
  * post needs: picture, text, link.
  */
 import 'server-only';
@@ -40,7 +40,7 @@ const MIME: Record<string, string> = { webp: 'image/webp', jpg: 'image/jpeg', jp
  * photo is on disk; the card is rendered by another route during the same build, so its
  * size is unknown and reported as 0 (readers accept that).
  */
-export function feedImage(p: PublicPost, root = process.cwd()): { url: string; type: string; length: number } {
+export function feedImage(p: PublicPost, root = process.cwd()): { url: string; type: string; length: number; credit: string } {
   if (p.image && p.image.credit !== 'AI illustration') {
     const ext = p.image.src.split('.').pop()?.toLowerCase() ?? '';
     let length = 0;
@@ -49,9 +49,10 @@ export function feedImage(p: PublicPost, root = process.cwd()): { url: string; t
     } catch {
       length = 0;
     }
-    return { url: `${SITE_URL}${p.image.src}`, type: MIME[ext] ?? 'application/octet-stream', length };
+    return { url: `${SITE_URL}${p.image.src}`, type: MIME[ext] ?? 'application/octet-stream', length, credit: p.image.credit };
   }
-  return { url: `${SITE_URL}/og/${p.brand}/${p.slug}.png`, type: 'image/png', length: 0 };
+  // The title card is ours (app/og): the credit names the publication.
+  return { url: `${SITE_URL}/og/${p.brand}/${p.slug}.png`, type: 'image/png', length: 0, credit: 'Nuvoxsaga' };
 }
 
 export function rss(args: { title: string; path: string; description: string; posts: PublicPost[] }): Response {
@@ -71,14 +72,17 @@ export function rss(args: { title: string; path: string; description: string; po
         `<author>${xml(`${FEED_EMAIL} (${desk})`)}</author>`,
         `<category>${xml(DESKS[p.brand].name)}</category>`,
         p.excerpt ? `<description>${xml(p.excerpt)}</description>` : '',
+        // The primary source a brief was written from, as RSS's own <source> (url required).
+        p.source ? `<source url="${xml(p.source.url)}">${xml(p.source.name)}</source>` : '',
         `<enclosure url="${xml(img.url)}" type="${img.type}" length="${img.length}"/>`,
+        `<media:credit>${xml(img.credit)}</media:credit>`,
         p.bodyHtmlSanitized ? `<content:encoded>${cdata(p.bodyHtmlSanitized)}</content:encoded>` : '',
         '</item>',
       ].join('');
     })
     .join('\n');
   const body = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
 <title>${xml(args.title)}</title>
 <link>${xml(SITE_URL + args.path)}</link>
