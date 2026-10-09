@@ -14,6 +14,8 @@ import { River } from '@/components/news/StoryCards';
 import { HeroStage } from '@/components/home/HomeFront';
 import { DeskHeader, EmptyDesk } from '@/components/news/DeskChrome';
 import { og, OG_CARD } from '@/lib/og';
+import { ADS_ON, SLOTS, adsEligible } from '@/lib/ads';
+import { AdSlot } from '@/components/ads/AdSlot';
 
 interface Props {
   params: Promise<{ brand: string; section: string }>;
@@ -61,6 +63,9 @@ export default async function SectionPage({ params }: Props) {
   const [lead, ...others] = posts;
   const secondary = posts.length >= 5 ? others.slice(0, 3) : [];
   const rest = others.slice(secondary.length);
+  // One unit between the stage and the river, only on a section with enough stories
+  // (lib/ads.ts); a thin section is noindex and carries none.
+  const ads = ADS_ON && adsEligible({ kind: 'section', storyCount: posts.length });
 
   return (
     <BrandProvider brand={r.brand.id}>
@@ -71,6 +76,7 @@ export default async function SectionPage({ params }: Props) {
         ) : (
           <div className="grid gap-14">
             <HeroStage lead={lead} secondary={secondary} showDesk={false} />
+            {ads && <AdSlot slot={SLOTS.sectionTop} shape="leaderboard" />}
             {rest.length > 0 && <River posts={rest} showDesk={false} />}
           </div>
         )}

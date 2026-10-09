@@ -9,7 +9,9 @@ import { BRANDS } from '@/lib/brands';
 import { DESKS } from '@/lib/desks';
 
 import { EDITOR } from '@/lib/editor';
+import { ADS_ON } from '@/lib/ads';
 import { NewsletterForm } from '@/components/NewsletterForm';
+import { ConsentLink } from '@/components/ads/ConsentLink';
 
 const MORE = [
   { href: '/latest', label: 'Latest' },
@@ -59,6 +61,12 @@ export function SiteFooter() {
                 </Link>
               </li>
             ))}
+            {/* Reopens Google's consent message; the privacy page promises this link. Ads on only. */}
+            {ADS_ON && (
+              <li>
+                <ConsentLink className="cursor-pointer transition-colors duration-150 hover:text-ink" />
+              </li>
+            )}
           </ul>
         </nav>
       </div>

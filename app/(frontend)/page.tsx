@@ -22,6 +22,8 @@ import { dialData } from '@/components/home/dial';
 import { JsonLd } from '@/components/JsonLd';
 import { og } from '@/lib/og';
 import { organizationSchema, websiteSchema } from '@/lib/seo';
+import { ADS_ON, SLOTS, adsEligible } from '@/lib/ads';
+import { AdSlot } from '@/components/ads/AdSlot';
 
 export const metadata: Metadata = {
   title: { absolute: 'Nuvoxsaga: AI, space and world news' },
@@ -122,6 +124,13 @@ export default function Home() {
           />
         </div>
       </section>
+
+      {/* One ad unit between Latest and the desks (lib/ads.ts); never in the stage, the wire or the dial. */}
+      {ADS_ON && adsEligible({ kind: 'home' }) && (
+        <div className="container-page pb-16 md:pb-20">
+          <AdSlot slot={SLOTS.homeLatest} shape="leaderboard" />
+        </div>
+      )}
 
       {/* 4. Articles */}
       {shelf.length > 0 && <FeatureShelf posts={shelf} />}
