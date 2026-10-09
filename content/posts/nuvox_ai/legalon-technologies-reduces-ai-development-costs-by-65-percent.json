@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "legalon-technologies-reduces-ai-development-costs-by-65-percent",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "LegalOn Technologies reduces AI development costs by 65 percent",
+  "excerpt": "The company achieved the reduction by matching specific GPT-6 models to task complexity and implementing new budget controls.",
+  "bodyHtml": "<p>LegalOn Technologies announced on October 8, 2026, that it reduced its estimated daily AI development costs by 65 percent. The company achieved this by transitioning from using its most capable model for every task to a tiered selection process based on task complexity and development stage.</p>\n<p>Under the new guidelines, engineers select between GPT-6 Luna for implementation, GPT-6.1 Sol for standard design and analysis, and GPT-6 Astra for complex architecture design. The company also introduced administrator-controlled budget caps for departments and individuals, while maintaining development speed through practices such as parallel task execution.</p>\n<p>LegalOn Technologies is currently building a pipeline to measure the return on investment for AI by linking customer value to the costs of individual feature releases.</p>",
+  "publishedAt": "2026-10-09T06:05:08Z",
+  "updatedAt": "2026-10-09T06:05:08Z",
+  "wordCount": 119,
+  "readingTimeMin": 1,
+  "topic": "LegalOn halves Codex costs while maintaining development speed",
+  "tags": [
+    "LegalOn Technologies",
+    "GPT-6",
+    "AI development"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/legalon-halves-codex-costs"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "LegalOn Technologies reduced its AI development costs by 65 percent.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The cost reduction was achieved by matching specific GPT-6 models to task complexity.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The cost reduction was achieved by implementing new budget controls.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "LegalOn Technologies announced on October 8, 2026, that it reduced its estimated daily AI development costs by 65 percent.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company achieved the cost reduction by transitioning from using its most capable model for every task to a tiered selection process based on task complexity and development stage.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Under the new guidelines, engineers select GPT-6 Luna for implementation.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Under the new guidelines, engineers select GPT-6.1 Sol for standard design and analysis.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Under the new guidelines, engineers select GPT-6 Astra for complex architecture design.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company introduced administrator-controlled budget caps for departments and individuals.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company maintained development speed through practices such as parallel task execution.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "LegalOn Technologies is currently building a pipeline to measure the return on investment for AI by linking customer value to the costs of individual feature releases.",
+      "source": "OpenAI"
+    }
+  ]
+}
