@@ -136,7 +136,9 @@ export default async function StoryPage({ params }: Props) {
     excerpt: post.excerpt,
     publishedAt: post.publishedAt,
     updatedAt: post.updatedAt,
-    imageUrl: post.image ? `${SITE_URL}${post.image.src}` : undefined,
+    // A credited photo is the story's own image; a stock desk illustration is shared across
+    // stories and says nothing about this one, so the schema lists only the title card then.
+    imageUrl: post.image && post.image.credit !== 'AI illustration' ? `${SITE_URL}${post.image.src}` : undefined,
     wordCount: post.wordCount,
     tier: 'news',
     format: post.kind,
