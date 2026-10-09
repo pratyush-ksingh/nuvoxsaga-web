@@ -66,11 +66,13 @@ Google AdSense is wired but switched off. Two public values in `.env.production`
   `google-adsense-account` meta tag and writes `/ads.txt` at build
   (`scripts/gen-ads-txt.ts`, run by `npm run build`; with the id empty no file ships).
   Both verify the site to AdSense without serving ads.
-- `NEXT_PUBLIC_ADS=1` renders the consent tool (Google Privacy & messaging, in `<head>`),
-  the AdSense loader (added after the first scroll or idle time) and ad units, on
-  eligible pages only: a feature or a story of 300+ words, a desk or section with 5+
-  stories, home and `/latest`. Never on search, policy pages, the archive, 404 or a short
-  brief (`lib/ads.ts`, `adsEligible`). A build with `NEXT_PUBLIC_ADS=1` and no valid id fails.
+- `NEXT_PUBLIC_ADS=1` renders the consent tool (Google Privacy & messaging) and the
+  AdSense loader in the `<head>` of every page, deliberately including pages that carry no
+  unit: Google documents the loader site-wide and its review crawler reads the raw HTML, so
+  a tag injected later would read as "code not found". Ad units render on eligible pages
+  only: a feature or a story of 300+ words, a desk or section with 5+ stories, home and
+  `/latest`. Never on search, policy pages, the archive, 404 or a short brief (`lib/ads.ts`,
+  `adsEligible`). A build with `NEXT_PUBLIC_ADS=1` and no valid id fails.
 
 Ad unit ids are placeholders in `lib/ads.ts` (`SLOTS`); paste each unit's `data-ad-slot`
 from AdSense there.

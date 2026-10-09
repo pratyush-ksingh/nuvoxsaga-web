@@ -4,8 +4,7 @@ import './globals.css';
 import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
 import { THEME_SCRIPT } from '@/lib/theme';
 import { X_HANDLE } from '@/lib/social';
-import { ADS_ON, ADSENSE_CLIENT, CONSENT_LOADER, CONSENT_SIGNAL_SCRIPT } from '@/lib/ads';
-import { AdsScript } from '@/components/ads/AdsScript';
+import { ADS_ON, ADSENSE_CLIENT, ADSENSE_LOADER, CONSENT_LOADER, CONSENT_SIGNAL_SCRIPT } from '@/lib/ads';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
@@ -75,14 +74,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 targets those regions itself, so no per-view code runs at the edge. */}
             <script async src={CONSENT_LOADER} />
             <script dangerouslySetInnerHTML={{ __html: CONSENT_SIGNAL_SCRIPT }} />
+            {/* The AdSense loader, in the HTML of every page as Google documents it: the review
+                crawler reads the markup, so a tag injected later would read as "code not found".
+                It is async and the units sit below the fold, so the lead image still wins. */}
+            <script async src={ADSENSE_LOADER} crossOrigin="anonymous" />
           </>
         )}
       </head>
-      <body className="grain min-h-[100dvh] antialiased">
-        {children}
-        {/* The AdSense loader itself is added by the island, late (components/ads/AdsScript.tsx). */}
-        {ADS_ON && <AdsScript />}
-      </body>
+      <body className="grain min-h-[100dvh] antialiased">{children}</body>
     </html>
   );
 }

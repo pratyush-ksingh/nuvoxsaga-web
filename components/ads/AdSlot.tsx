@@ -5,7 +5,8 @@
  * voice, present before anything loads, and an <ins> whose size is fixed per breakpoint
  * in globals.css (.ad-unit--*). Fixed sizes, set with media queries, are the AdSense
  * method that never puts a 728px unit on a 390px phone; the reserved height keeps CLS
- * at zero whether or not an ad fills it. Renders nothing while ads are off.
+ * at zero whether or not an ad fills it. The push() queues until the loader in the root
+ * layout's <head> has run. Renders nothing while ads are off.
  *
  * Shapes: banner (320x100 / 468x60) for a story column, leaderboard (adds 728x90) for a
  * full-width band, rectangle (300x250) for the rail and in-article.

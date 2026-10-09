@@ -2,8 +2,9 @@
  * Display ads (AdSense plan, Phase 4), one expectation set per build:
  *   E2E_ADS unset  the build was made with NEXT_PUBLIC_ADS=0: no ad markup anywhere
  *   E2E_ADS=1      the build was made with NEXT_PUBLIC_ADS=1 and a ca-pub id, from the
- *                  fixture content (scripts/make-fixtures.py), which has features: units
- *                  on eligible pages only, sized, labelled, below the headline
+ *                  fixture content (scripts/make-fixtures.py), which has features: the loader
+ *                  and consent tool in the HTML of every page, units on eligible pages only,
+ *                  sized, labelled, below the headline
  * Google's hosts are stubbed so the run is hermetic. Chromium projects only (README).
  */
 import { test, expect, type APIRequestContext, type Page } from '@playwright/test';
@@ -65,9 +66,8 @@ test.describe(ADS ? 'ads on' : 'ads off', () => {
   if (!ADS) {
     test('ads off: no loader, no consent tool, no footer control, no meta tag, no ads.txt, nowhere', async ({ page }) => {
       for (const path of ['/', '/ai', '/latest', '/space/launch', '/search', '/privacy']) {
+        expect(await (await page.request.get(path)).text(), path).not.toMatch(/googlesyndication|fundingchoicesmessages|adsbygoogle/);
         await noUnits(page, path);
-        await page.mouse.wheel(0, 800);
-        await page.waitForTimeout(300);
         await expect(page.locator(LOADER), path).toHaveCount(0);
         await expect(page.locator(CONSENT), path).toHaveCount(0);
         await expect(page.getByRole('button', { name: 'Privacy and cookie settings' }), path).toHaveCount(0);
@@ -86,7 +86,7 @@ test.describe(ADS ? 'ads on' : 'ads off', () => {
     await expect(page.locator('meta[name="google-adsense-account"]')).toHaveAttribute('content', CLIENT);
   });
 
-  test('an eligible story carries labelled, sized units below the headline, the consent tool and the lazy loader', async ({ page }) => {
+  test('an eligible story carries labelled, sized units below the headline, with the consent tool and loader in <head>', async ({ page }) => {
     const all = await stories(page.request);
     const eligible = all.find((s) => s.feature || s.words >= 300);
     test.skip(!eligible, 'no feature or 300-word story in this content set (build from the fixtures)');
@@ -119,14 +119,25 @@ test.describe(ADS ? 'ads on' : 'ads off', () => {
     if ((await page.locator('article .article-body').count()) === 2) {
       await expect(page.locator('article .article-body + .ad-slot + .article-body')).toHaveCount(1);
     }
-    // Consent tool first, in <head>; the AdSense loader only after the reader moves.
+    // Consent tool first, then the AdSense loader, both in <head>.
     await expect(page.locator(`head ${CONSENT}`)).toHaveCount(1);
     await expect(page.locator(`head script[src="https://fundingchoicesmessages.google.com/i/${CLIENT.replace(/^ca-/, '')}?ers=1"]`)).toHaveCount(1);
-    await page.mouse.wheel(0, 600);
-    await expect(page.locator(LOADER)).toHaveCount(1);
+    await expect(page.locator(`head ${LOADER}`)).toHaveCount(1);
     await expect(page.locator(LOADER)).toHaveAttribute('src', `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CLIENT}`);
     await expect(page.locator(LOADER)).toHaveAttribute('crossorigin', 'anonymous');
+    expect(await page.evaluate(() => [...document.head.querySelectorAll('script[src]')].map((s) => (s as HTMLScriptElement).src)))
+      .toEqual(expect.arrayContaining([expect.stringContaining('fundingchoicesmessages'), expect.stringContaining('adsbygoogle.js')]));
     await expect(page.locator('footer').getByRole('button', { name: 'Privacy and cookie settings' })).toBeVisible();
+  });
+
+  test('the loader is in the raw HTML of every page, eligible or not (Google reads the markup site-wide)', async ({ page }) => {
+    const all = await stories(page.request);
+    const tag = `<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CLIENT}" crossorigin="anonymous">`;
+    for (const path of ['/', '/ai', '/latest', ...NEVER, ...all.slice(0, 3).map((s) => s.path)]) {
+      const html = await (await page.request.get(path)).text();
+      expect(html, path).toContain(tag);
+      expect(html.indexOf('fundingchoicesmessages.google.com/i/'), path).toBeLessThan(html.indexOf('adsbygoogle.js?client='));
+    }
   });
 
   test('no horizontal overflow at 390px on a story, a desk and the home page', async ({ page }) => {
