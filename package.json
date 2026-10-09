@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/flatten-segment-files.mjs out && pagefind --site out --glob \"{about.html,standards.html,ai/news/**/*.html,space/news/**/*.html,world/news/**/*.html}\"",
+    "build": "next build && node scripts/flatten-segment-files.mjs out && tsx scripts/gen-ads-txt.ts out && pagefind --site out --glob \"{about.html,standards.html,ai/news/**/*.html,space/news/**/*.html,world/news/**/*.html}\"",
     "lint": "eslint",
     "gen-brands": "tsx scripts/gen-brands.ts",
     "prebuild": "tsx scripts/gen-brands.ts && (git diff --exit-code lib/brands.ts app/_brand-vars.generated.css tokens/raw/brands.json || (echo \"❌ codegen drift — commit generated outputs\" && exit 1))",

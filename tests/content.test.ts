@@ -62,6 +62,15 @@ describe('story validation', () => {
     expect(storyPath(p)).toBe('/space/news/launch-one');
   });
 
+  it('keeps the pipeline word count and counts the body when a file has none', async () => {
+    write('nuvox_ai', 'counted', story({ wordCount: 412 }));
+    write('nuvox_ai', 'uncounted', story({ bodyHtml: '<p>One two <em>three</em>.</p><ul><li>four five</li></ul>' }));
+    const { loadAllPosts } = await load();
+    const by = Object.fromEntries(loadAllPosts().map((p) => [p.slug, p.wordCount]));
+    expect(by.counted).toBe(412);
+    expect(by.uncounted).toBe(5);
+  });
+
   it('rejects a brief without a source', async () => {
     write('nuvox_ai', 'no-source', story({ source: undefined }));
     const { loadAllPosts } = await load();

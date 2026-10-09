@@ -23,6 +23,7 @@ import path from 'node:path';
 import { BRANDS, type BrandId } from './brands';
 import { DESKS } from './desks';
 import { sanitizePostHtml } from './sanitize';
+import { countWords } from './ads';
 
 /** A short news brief written from one primary source, or a longer researched feature. */
 export type StoryKind = 'brief' | 'feature';
@@ -222,7 +223,9 @@ function parsePost(file: string, brand: BrandId): PublicPost | null {
     bodyHtmlSanitized: sanitizePostHtml(String(raw.bodyHtml)),
     publishedAt,
     updatedAt: str(raw.updatedAt) ?? publishedAt,
-    wordCount: typeof raw.wordCount === 'number' ? raw.wordCount : undefined,
+    // The pipeline writes wordCount; counted here when a file lacks it, so the ad
+    // eligibility rule (lib/ads.ts) and the article schema never see an unknown length.
+    wordCount: typeof raw.wordCount === 'number' ? raw.wordCount : countWords(String(raw.bodyHtml)),
     readingTimeMin: typeof raw.readingTimeMin === 'number' ? raw.readingTimeMin : undefined,
     topic: str(raw.topic),
     tags: Array.isArray(raw.tags) ? raw.tags.filter((t): t is string => typeof t === 'string') : [],
