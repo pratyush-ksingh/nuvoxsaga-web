@@ -4,7 +4,7 @@ import './globals.css';
 import { DEFAULT_OG_IMAGE, SITE_NAME } from '@/lib/og';
 import { THEME_SCRIPT } from '@/lib/theme';
 import { X_HANDLE } from '@/lib/social';
-import { ADS_ON, ADSENSE_CLIENT, ADSENSE_LOADER, CONSENT_LOADER, CONSENT_SIGNAL_SCRIPT } from '@/lib/ads';
+import { ADS_ON, ADSENSE_CLIENT, ADSENSE_LOADER, CLIENT_VALID, CONSENT_LOADER, CONSENT_SIGNAL_SCRIPT } from '@/lib/ads';
 
 /**
  * Root layout. Fonts are self-hosted by next/font at build time (no runtime CDN
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', site: `@${X_HANDLE}` },
   // Proves the site to AdSense without ads on (a verification method on its own, like
   // /ads.txt): it follows the publisher id, not the ads flag.
-  ...(ADSENSE_CLIENT ? { other: { 'google-adsense-account': ADSENSE_CLIENT } } : {}),
+  ...(CLIENT_VALID ? { other: { 'google-adsense-account': ADSENSE_CLIENT } } : {}),
 };
 
 export const viewport: Viewport = {

@@ -14,8 +14,10 @@
 
 export const ADSENSE_CLIENT = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? '').trim();
 const CLIENT_RE = /^ca-pub-\d{16}$/;
+/** A well-formed publisher id: the meta tag, ads.txt and the loaders all key off this, so a typo cannot ship three disagreeing signals. */
+export const CLIENT_VALID = CLIENT_RE.test(ADSENSE_CLIENT);
 /** The flag alone is not enough: units without a publisher id would be broken markup. */
-export const ADS_ON = process.env.NEXT_PUBLIC_ADS === '1' && CLIENT_RE.test(ADSENSE_CLIENT);
+export const ADS_ON = process.env.NEXT_PUBLIC_ADS === '1' && CLIENT_VALID;
 /** `pub-…`: the form Google's consent loader and ads.txt use. */
 export const PUBLISHER_ID = ADSENSE_CLIENT.replace(/^ca-/, '');
 
@@ -110,7 +112,58 @@ export function countWords(html: string): number {
 }
 
 const VOID_TAGS = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr']);
-const TAG_RE = /<!--[\s\S]*?-->|<\/?([a-zA-Z][a-zA-Z0-9-]*)\b[^>]*>/g;
+
+type Tag = { name: string; close: boolean; leaf: boolean; end: number };
+
+const isNameChar = (c: string) => (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c === '-';
+
+/**
+ * The tags of a body, in order, by a single forward pass. Hand-written rather than a regex
+ * because the two things a regex got wrong here are both quadratic on hostile input: an
+ * unclosed `<!--` (rescans to the end for each one) and an unclosed quote (same). Every
+ * character is visited once. A quoted attribute value may hold `<` or `>` (DOMPurify keeps
+ * them), so a `</p>` inside a title or alt never ends the tag. An unterminated tag or comment
+ * ends the scan.
+ */
+function* scanTags(html: string): Generator<Tag> {
+  let i = 0;
+  for (;;) {
+    const lt = html.indexOf('<', i);
+    if (lt < 0) return;
+    if (html.startsWith('<!--', lt)) {
+      const end = html.indexOf('-->', lt + 4);
+      if (end < 0) return;
+      i = end + 3;
+      continue;
+    }
+    let j = lt + 1;
+    const close = html[j] === '/';
+    if (close) j++;
+    const start = j;
+    while (j < html.length && isNameChar(html[j])) j++;
+    const name = html.slice(start, j);
+    if (!name || !/^[a-zA-Z]/.test(name)) {
+      i = lt + 1; // a bare `<` in text (DOMPurify escapes these, but stay linear if not)
+      continue;
+    }
+    let quote = '';
+    while (j < html.length) {
+      const c = html[j];
+      if (quote) {
+        if (c === quote) quote = '';
+      } else if (c === '"' || c === "'") {
+        quote = c;
+      } else if (c === '>') {
+        break;
+      }
+      j++;
+    }
+    if (j >= html.length) return;
+    const leaf = VOID_TAGS.has(name.toLowerCase()) || html[j - 1] === '/';
+    yield { name: name.toLowerCase(), close, leaf, end: j + 1 };
+    i = j + 1;
+  }
+}
 
 /**
  * Split sanitised body HTML after its n-th top-level paragraph, for an in-article unit.
@@ -125,18 +178,15 @@ export function splitBodyAfterParagraph(html: string, n: number): { before: stri
   let depth = 0;
   let closed = 0;
   let cut = -1;
-  for (const m of html.matchAll(TAG_RE)) {
-    const name = m[1]?.toLowerCase();
-    if (!name) continue; // a comment
-    const tag = m[0];
-    if (tag.startsWith('</')) {
+  for (const t of scanTags(html)) {
+    if (t.close) {
       if (depth === 0) return null; // a stray close: not balanced
       depth--;
-      if (name === 'p' && depth === 0) {
+      if (t.name === 'p' && depth === 0) {
         closed++;
-        if (closed === n) cut = m.index + tag.length;
+        if (closed === n) cut = t.end;
       }
-    } else if (!VOID_TAGS.has(name) && !tag.endsWith('/>')) {
+    } else if (!t.leaf) {
       depth++;
     }
   }
@@ -148,13 +198,11 @@ export function splitBodyAfterParagraph(html: string, n: number): { before: stri
 export function countParagraphs(html: string): number {
   let depth = 0;
   let closed = 0;
-  for (const m of html.matchAll(TAG_RE)) {
-    const name = m[1]?.toLowerCase();
-    if (!name) continue;
-    if (m[0].startsWith('</')) {
+  for (const t of scanTags(html)) {
+    if (t.close) {
       depth = Math.max(0, depth - 1);
-      if (name === 'p' && depth === 0) closed++;
-    } else if (!VOID_TAGS.has(name) && !m[0].endsWith('/>')) {
+      if (t.name === 'p' && depth === 0) closed++;
+    } else if (!t.leaf) {
       depth++;
     }
   }

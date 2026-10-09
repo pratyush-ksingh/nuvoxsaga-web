@@ -82,6 +82,18 @@ describe('splitBodyAfterParagraph', () => {
     expect(splitBodyAfterParagraph(p(6), 1.5)).toBeNull();
   });
 
+  it('a </p> inside an attribute value is not a cut point', () => {
+    // DOMPurify keeps < and > inside attribute values; a naive tag scanner would end the
+    // anchor at the first > and count the embedded </p> as a top-level paragraph close.
+    const anchor = '<a href="https://x" title="x>y</p>z<p>">link</a>';
+    const html = p(8) + '<p>' + anchor + ' tail</p>' + p(3).replace(/Paragraph /g, 'Extra ');
+    const r = splitBodyAfterParagraph(html, 9)!;
+    expect(r).not.toBeNull();
+    expect(r.before.endsWith(anchor + ' tail</p>')).toBe(true);
+    expect(r.before + r.after).toBe(html);
+    expect(countParagraphs(html)).toBe(12);
+  });
+
   it('ignores paragraphs nested in lists, blockquotes and figures', () => {
     const html =
       '<p>One</p>' +
