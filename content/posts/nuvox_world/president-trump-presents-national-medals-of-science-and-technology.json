@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-presents-national-medals-of-science-and-technology",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump presents National Medals of Science and Technology",
+  "excerpt": "Six innovators received the honors during the Science: A New Golden Age Summit on October 8, 2026.",
+  "bodyHtml": "<p>On October 8, 2026, President Donald J. Trump presented the National Medal of Science and the National Medal of Technology and Innovation to six individuals. The White House stated these honors recognize exemplary achievement and leadership in science and technology.</p>\n<p>The recipients of the National Medal of Science are Elon Musk, Sergey Brin, Jensen Huang, and Lisa Su. Michael Dell and Satya Nadella received the National Medal of Technology and Innovation. According to the White House, these medalists have pioneered breakthroughs in science and engineering for the new age of super intelligence, including advances in general-purpose parallel computing and semiconductor design.</p>\n<p>The awards were presented at the Science: A New Golden Age Summit. The summit convenes leading scientists and innovators to examine changes in scientific discovery and discuss the implementation of the report titled Science: A New Golden Age, which was released in July 2026 by White House Office of Science and Technology Policy Director Michael Kratsios.</p>",
+  "publishedAt": "2026-10-10T12:14:11Z",
+  "updatedAt": "2026-10-10T12:14:11Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "President Trump Presents National Medals of Science and National Medals of Technology and Innovation",
+  "tags": [
+    "White House",
+    "Science",
+    "Technology",
+    "Awards"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-presents-national-medals-of-science-and-national-medals-of-technology-and-innovation/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: President Trump presents National Medals of Science and Technology",
+      "source": "The White House"
+    },
+    {
+      "claim": "Six innovators received the honors during the Science: A New Golden Age Summit on October 8, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "On October 8, 2026, Trump presented the National Medal of Science and the National Medal of Technology and Innovation to six individuals.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated these honors recognize exemplary achievement and leadership in science and technology.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The recipients of the National Medal of Science are Elon Musk, Sergey Brin, Jensen Huang, and Lisa Su.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Michael Dell and Satya Nadella received the National Medal of Technology and Innovation.",
+      "source": "The White House"
+    },
+    {
+      "claim": "According to the White House, these medalists have pioneered breakthroughs in science and engineering for the new age of super intelligence, including advances in general-purpose parallel computing and semiconductor design.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The awards were presented at the Science: A New Golden Age Summit.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The summit convenes leading scientists and innovators to examine changes in scientific discovery and discuss implementation of the report.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The report Science: A New Golden Age was released in July 2026 by OSTP Director Michael Kratsios.",
+      "source": "The White House"
+    }
+  ]
+}

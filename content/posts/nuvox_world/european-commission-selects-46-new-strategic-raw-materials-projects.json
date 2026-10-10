@@ -1,0 +1,86 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-selects-46-new-strategic-raw-materials-projects",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission selects 46 new strategic raw materials projects",
+  "excerpt": "The projects aim to strengthen supply chain resilience and require approximately 21.1 billion euros in capital investment.",
+  "bodyHtml": "<p>The European Commission announced on October 9, 2026, that it has selected 46 new strategic projects across 16 Member States. These projects focus on the extraction, processing, and recycling of raw materials to improve the security of supply for the European Union. Together with 47 projects selected in March 2025, there are now 93 strategic projects in the EU.</p>\n<p>The selected initiatives cover 15 of the 17 strategic raw materials identified under the Critical Raw Materials Act. These include lithium, nickel, cobalt, manganese, graphite, magnesium, tungsten, titanium, and silicon metal. The projects are expected to require approximately 21.1 billion euros in capital investment from public and private sources. The projects cover 8 extraction projects, 11 processing projects, 19 recycling projects, and 8 integrated projects.</p>\n<p>The Commission plans to launch a new call for strategic project applications towards the end of 2026.</p>",
+  "publishedAt": "2026-10-10T16:09:59Z",
+  "updatedAt": "2026-10-10T16:09:59Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "Questions and answers on the Critical Raw Materials strategic projects",
+  "tags": [
+    "European Commission",
+    "Critical Raw Materials Act",
+    "raw materials"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2114"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission has selected 46 new strategic raw materials projects.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The projects aim to strengthen supply chain resilience.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The projects require approximately 21.1 billion euros in capital investment.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced the selection on October 9, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The 46 new projects are located across 16 Member States.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The projects focus on the extraction, processing, and recycling of raw materials.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The projects aim to improve the security of supply for the European Union.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Together with 47 projects selected in March 2025, there are now 93 strategic projects in the EU.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The selected initiatives cover 15 of the 17 strategic raw materials identified under the Critical Raw Materials Act.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The projects include lithium, nickel, cobalt, manganese, graphite, magnesium, tungsten, titanium, and silicon metal.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Investment for the projects will come from public and private sources.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The projects consist of 8 extraction projects, 11 processing projects, 19 recycling projects, and 8 integrated projects.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission plans to launch a new call for strategic project applications towards the end of 2026.",
+      "source": "The European Commission"
+    }
+  ]
+}

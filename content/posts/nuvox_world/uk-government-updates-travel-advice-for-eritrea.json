@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-2.webp",
+    "alt": "Illustration: acacia trees on a savanna at golden hour",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-updates-travel-advice-for-eritrea",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "UK government updates travel advice for Eritrea",
+  "excerpt": "The Foreign, Commonwealth and Development Office advises against all travel to within 25km of Eritrea’s land borders.",
+  "bodyHtml": "<p>On October 9, 2026, the UK government issued updated travel advice for Eritrea. The Foreign, Commonwealth and Development Office (FCDO) advises against all travel to within 25km of all of Eritrea’s land borders, and advises against all but essential travel to the rest of the country.</p>\n<p>The government stated that tensions between Eritrea and Ethiopia are high and noted that practical support from the British government, such as face-to-face consular support or evacuation, may be severely limited in a crisis. The FCDO further stated that the British Embassy in Asmara cannot offer support in person in areas where it advises against travel.</p>\n<p>The FCDO also noted that the British Embassy is unable to offer consular assistance to British-Eritrean dual nationals. If British nationals are in Eritrea and need urgent help, they can contact the British Embassy in Asmara during office hours or the British Embassy Addis Ababa for out of hours support.</p>",
+  "publishedAt": "2026-10-10T16:09:41Z",
+  "updatedAt": "2026-10-10T16:09:41Z",
+  "wordCount": 152,
+  "readingTimeMin": 1,
+  "topic": "Eritrea travel advice",
+  "tags": [
+    "Eritrea",
+    "FCDO",
+    "travel advice"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/foreign-travel-advice/eritrea"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated its travel advice for Eritrea.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office advises against all travel to within 25km of Eritrea’s land borders.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "On October 9, 2026, the UK government issued updated travel advice for Eritrea.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office (FCDO) advises against all travel to within 25km of all of Eritrea’s land borders.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO advises against all but essential travel to the rest of the country.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Tensions between Eritrea and Ethiopia are high.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Practical support from the British government, such as face-to-face consular support or evacuation, may be severely limited in a crisis.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO stated that the British Embassy in Asmara cannot offer support in person in areas where it advises against travel.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The British Embassy is unable to offer consular assistance to British-Eritrean dual nationals.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "British nationals in Eritrea needing urgent help can contact the British Embassy in Asmara during office hours.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "British nationals in Eritrea needing urgent help can contact the British Embassy Addis Ababa for out of hours support.",
+      "source": "The UK government"
+    }
+  ]
+}

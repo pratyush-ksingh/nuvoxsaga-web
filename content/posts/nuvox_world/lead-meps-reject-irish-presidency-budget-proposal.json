@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "lead-meps-reject-irish-presidency-budget-proposal",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Lead MEPs reject Irish presidency budget proposal",
+  "excerpt": "Four lead MEPs stated the draft negotiating position for the multiannual financial framework would weaken the European Union's capacity to act.",
+  "bodyHtml": "<p>On October 10, 2026, four lead MEPs issued a statement rejecting the draft negotiating position for the next multiannual financial framework (MFF) presented by the Irish Presidency. Siegfried Mureșan, Carla Tavares, Danuše Nerudová, and Sandra Gómez López stated the proposal cannot serve as a starting point for an agreement.</p>\n<p>The MEPs said the proposal includes an 8% cut to the Commission&#x27;s proposal. According to the MEPs, the EU budget has lost 10% of its purchasing power due to high inflation. They stated that the Irish Presidency failed to take any of Parliament’s proposals into account regarding new revenue sources.</p>\n<p>The MEPs argued that the current negotiating box does not provide an adequate basis for discussions. Sandra Gómez López stated that without progress in own resources, there is no MFF. The MEPs noted that the proposed increase of €356 billion does not compensate for the cumulative effects of inflation and economic growth.</p>",
+  "publishedAt": "2026-10-10T16:09:10Z",
+  "updatedAt": "2026-10-10T16:09:10Z",
+  "wordCount": 151,
+  "readingTimeMin": 1,
+  "topic": "Press release - Lead MEPs on EU’s long-term budget react to Irish presidency’s negotiating box",
+  "tags": [
+    "European Parliament",
+    "EU budget",
+    "Irish Presidency"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261009IPR48078/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Lead MEPs reject Irish presidency budget proposal",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Four lead MEPs stated the draft negotiating position for the multiannual financial framework would weaken the European Union's capacity to act.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "On October 10, 2026, four lead MEPs issued a statement rejecting the draft negotiating position for the next multiannual financial framework (MFF) presented by the Irish Presidency.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The MEPs involved are Siegfried Mureșan, Carla Tavares, Danuše Nerudová, and Sandra Gómez López.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "They stated the proposal cannot serve as a starting point for an agreement.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The MEPs said the proposal includes an 8% cut to the Commission's proposal.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "According to the MEPs, the EU budget has lost 10% of its purchasing power due to high inflation.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "They stated that the Irish Presidency failed to take any of Parliament’s proposals into account regarding new revenue sources.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The MEPs argued that the current negotiating box does not provide an adequate basis for discussions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Sandra Gómez López stated that without progress in own resources, there is no MFF.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The MEPs noted that the proposed increase of €356 billion does not compensate for the cumulative effects of inflation and economic growth.",
+      "source": "The European Parliament"
+    }
+  ]
+}

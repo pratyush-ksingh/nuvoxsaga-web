@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-3.webp",
+    "alt": "Illustration: storm clouds gathering over the ocean seen from above",
+    "credit": "AI illustration"
+  },
+  "slug": "world-health-organization-releases-guide-to-transition-mental-health-care",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "World Health Organization releases guide to transition mental health care",
+  "excerpt": "The new framework aims to move patients from long-term psychiatric hospitals to community-based support systems.",
+  "bodyHtml": "<p>The World Health Organization released a new guide on October 9, 2026, to assist countries in shifting mental health care away from institutional models. The initiative focuses on deinstitutionalization, which involves helping individuals who have spent six months or more in psychiatric hospitals return to community living.</p>\n<p>According to the World Health Organization, nearly half of the people currently in psychiatric hospitals are kept in facilities involuntarily for periods ranging from months to decades. Data from the organization&#x27;s Mental Health Atlas indicates that 28% of people admitted to psychiatric hospitals stay longer than six months, while only 9% of reporting countries have fully transitioned to community-based care models.</p>\n<p>The guide provides practical actions for hospital leaders to reduce admissions and long-term stays while ensuring patients receive necessary social and health support. The organization reports that 53% of countries remain at an early stage of reform regarding these mental health services.</p>",
+  "publishedAt": "2026-10-10T12:04:48Z",
+  "updatedAt": "2026-10-10T12:04:48Z",
+  "wordCount": 150,
+  "readingTimeMin": 1,
+  "topic": "WHO urges shift from institutional to community-based mental health care",
+  "tags": [
+    "World Health Organization",
+    "mental health",
+    "hospitals"
+  ],
+  "source": {
+    "name": "The World Health Organization",
+    "url": "https://www.who.int/news/item/09-10-2026-who-urges-shift-from-institutional-to-community-based-mental-health-care"
+  },
+  "sources": [
+    "The World Health Organization"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The World Health Organization released a guide to transition mental health care.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The new framework aims to move patients from long-term psychiatric hospitals to community-based support systems.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The World Health Organization released a new guide on October 9, 2026.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The guide assists countries in shifting mental health care away from institutional models.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The initiative focuses on deinstitutionalization.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Deinstitutionalization involves helping individuals who have spent six months or more in psychiatric hospitals return to community living.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Nearly half of the people currently in psychiatric hospitals are kept in facilities involuntarily for periods ranging from months to decades.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Data from the organization's Mental Health Atlas indicates that 28% of people admitted to psychiatric hospitals stay longer than six months.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Only 9% of reporting countries have fully transitioned to community-based care models.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The guide provides practical actions for hospital leaders to reduce admissions and long-term stays.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The guide aims to ensure patients receive necessary social and health support.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "53% of countries remain at an early stage of reform regarding these mental health services.",
+      "source": "The World Health Organization"
+    }
+  ]
+}
