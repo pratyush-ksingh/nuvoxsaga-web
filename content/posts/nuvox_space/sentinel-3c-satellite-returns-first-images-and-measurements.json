@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "sentinel-3c-satellite-returns-first-images-and-measurements",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "Sentinel-3C satellite returns first images and measurements",
+  "excerpt": "The European Space Agency confirmed the satellite is performing well two weeks after its launch.",
+  "bodyHtml": "<p>The European Space Agency announced on October 8, 2026, that the Copernicus Sentinel-3C satellite has returned its first images and measurements. The data were collected from two of the satellite&#x27;s instruments, confirming the spacecraft is functioning as expected following its launch two weeks prior.</p>\n<p>The initial imagery includes views of Italy, the Arctic, and the Caribbean captured by the ocean and land colour instrument. Additionally, the synthetic aperture radar altimeter, a tool for measuring surface height, provided data on the Greenland ice sheet and sea surface levels. The altimeter measurements of the Greenland Ice Sheet were acquired between 30 September and 4 October.</p>\n<p>The European Space Agency stated that the commissioning phase for the satellite will continue for another five months. Once commissioned, the altimeter will contribute to monitoring changes in sea-surface height around the world, complementing long-term records from missions such as Copernicus Sentinel-6 and Jason.</p>",
+  "publishedAt": "2026-10-10T02:05:18Z",
+  "updatedAt": "2026-10-10T02:05:18Z",
+  "wordCount": 147,
+  "readingTimeMin": 1,
+  "topic": "Sentinel-3C returns its first views of Earth",
+  "tags": [
+    "Sentinel-3C",
+    "European Space Agency",
+    "Copernicus"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The Sentinel-3C satellite returned its first images and measurements.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency confirmed the satellite is performing well two weeks after its launch.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 8, 2026, that the Copernicus Sentinel-3C satellite has returned its first images and measurements.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The data were collected from two of the satellite's instruments, confirming the spacecraft is functioning as expected following its launch two weeks prior.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The initial imagery includes views of Italy, the Arctic, and the Caribbean captured by the ocean and land colour instrument.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The synthetic aperture radar altimeter, a tool for measuring surface height, provided data on the Greenland ice sheet and sea surface levels.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The altimeter measurements of the Greenland Ice Sheet were acquired between 30 September and 4 October.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency stated that the commissioning phase for the satellite will continue for another five months.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Once commissioned, the altimeter will contribute to monitoring changes in sea-surface height around the world, complementing long-term records from missions such as Copernicus Sentinel-6 and Jason.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

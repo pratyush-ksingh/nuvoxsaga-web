@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-astronaut-sophie-adenot-returns-to-earth-after-record-breaking-mission",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "ESA astronaut Sophie Adenot returns to Earth after record-breaking mission",
+  "excerpt": "The mission set a new European record for the longest single spaceflight at 237 days, 5 hours and 18 minutes.",
+  "bodyHtml": "<p>The European Space Agency announced that astronaut Sophie Adenot returned to Earth on 8 October 2026. Adenot and the Crew-12 team splashed down off the coast of California at 15:34 GMT following an eight-month mission to the International Space Station.</p>\n<p>The Dragon Freedom spacecraft carried Adenot along with NASA astronauts Jessica Meir and Jack Hathaway and Roscosmos cosmonaut Andrei Fedyaev. The crew undocked from the station on 7 October and completed a 27 hours and 29 minutes return journey.</p>\n<p>The mission lasted a total of 237 days, 5 hours and 18 minutes, exceeding the previous European record for the longest single spaceflight by more than 35 days. Following initial medical checks on the recovery vessel, the crew will travel to Ellington Field in Houston before Adenot continues to the European Astronaut Centre in Cologne, Germany.</p>",
+  "publishedAt": "2026-10-10T02:04:03Z",
+  "updatedAt": "2026-10-10T02:04:03Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "Splashdown confirmed for Sophie Adenot",
+  "tags": [
+    "ESA",
+    "Sophie Adenot",
+    "International Space Station",
+    "Crew-12"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/epsilon/Splashdown_confirmed_for_Sophie_Adenot"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA astronaut Sophie Adenot returned to Earth after a record-breaking mission.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission set a new European record for the longest single spaceflight at 237 days, 5 hours and 18 minutes.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced that astronaut Sophie Adenot returned to Earth on 8 October 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Adenot and the Crew-12 team splashed down off the coast of California at 15:34 GMT following an eight-month mission to the International Space Station.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Dragon Freedom spacecraft carried Adenot along with NASA astronauts Jessica Meir and Jack Hathaway and Roscosmos cosmonaut Andrei Fedyaev.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The crew undocked from the station on 7 October and completed a 27 hours and 29 minutes return journey.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission lasted a total of 237 days, 5 hours and 18 minutes, exceeding the previous European record for the longest single spaceflight by more than 35 days.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Following initial medical checks on the recovery vessel, the crew will travel to Ellington Field in Houston before Adenot continues to the European Astronaut Centre in Cologne, Germany.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

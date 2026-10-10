@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-test-pilot-nils-larson-receives-iven-c-kincheloe-award",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA test pilot Nils Larson receives Iven C. Kincheloe Award",
+  "excerpt": "Larson was honored for his work on the X-59 quiet supersonic aircraft, including the first flight in 2025.",
+  "bodyHtml": "<p>NASA test pilot Nils Larson received the Iven C. Kincheloe Award from the Society of Experimental Test Pilots on September 26, 2026. The award recognizes Larson for leading the first flight of the X-59, a quiet supersonic aircraft, and for his contributions to the aircraft&#x27;s development through research and simulations.</p>\n<p>According to NASA, Larson is the first recipient of this award for a NASA test flight project in 44 years. During the flight testing process, Larson expanded the flight envelope of the X-59 to Mach 1.4 at an altitude of 55,000 feet.</p>\n<p>Throughout the current work to fly the X-59 in a variety of altitudes, speeds, and conditions, Larson has alternated piloting duties with Jim “Clue” Less. Their work has helped advance NASA’s goals for enabling commercial quiet supersonic flight over land.</p>\n<p>The X-59 aircraft completed its first flight in 2025. Larson received the award on September 26.</p>",
+  "publishedAt": "2026-10-10T02:03:44Z",
+  "updatedAt": "2026-10-10T02:03:44Z",
+  "wordCount": 148,
+  "readingTimeMin": 1,
+  "topic": "NASA X-59 Pilot Receives Top Test Pilot Award",
+  "tags": [
+    "NASA",
+    "X-59",
+    "Nils Larson"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/blogs/quesst/2026/10/09/nasa-x-59-pilot-receives-top-test-pilot-award/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA test pilot Nils Larson received the Iven C. Kincheloe Award.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Larson was honored for his work on the X-59 quiet supersonic aircraft, including making its first flight in 2025.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Larson received the Iven C. Kincheloe Award from the Society of Experimental Test Pilots on September 26, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The award recognizes Larson for leading the first flight of the X-59, a quiet supersonic aircraft, and for his contributions to the aircraft's development through research and simulations.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Larson is the first recipient of this award for a NASA test flight project in 44 years.",
+      "source": "NASA"
+    },
+    {
+      "claim": "During the flight testing process, Larson expanded the flight envelope of the X-59 to Mach 1.4 at an altitude of 55,000 feet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Throughout the current work to fly the X-59 in a variety of altitudes, speeds, and conditions, Larson has alternated piloting duties with Jim “Clue” Less.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Their work has helped advance NASA’s goals for enabling commercial quiet supersonic flight over land.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The X-59 aircraft completed its first flight in 2025.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Larson received the award on September 26.",
+      "source": "NASA"
+    }
+  ]
+}

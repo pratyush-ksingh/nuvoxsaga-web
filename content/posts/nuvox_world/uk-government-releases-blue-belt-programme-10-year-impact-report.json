@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-1.webp",
+    "alt": "Illustration: laboratory test tubes in a rack under cool light",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-releases-blue-belt-programme-10-year-impact-report",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "UK government releases Blue Belt Programme 10-year impact report",
+  "excerpt": "The report details marine conservation activities and achievements in UK Overseas Territories from 2016 to 2026.",
+  "bodyHtml": "<p>The UK government released the Blue Belt Programme 10-year anniversary impact report on October 9, 2026. The programme supports UK Overseas Territories with the protection and sustainable management of their marine environments.</p>\n<p>According to the report, the programme has supported the protection of more than 4 million square kilometres of marine environment. The programme works across core themes including understanding and protecting biodiversity, strengthening governance and management frameworks, managing human impacts, assisting compliance and enforcement, and capacity building and ocean literacy.</p>\n<p>The programme is supported by the Centre for Environment Fisheries and Aquaculture Science and the Marine Management Organisation. Between 2022 and 2025, the programme is funded directly by the Foreign, Commonwealth and Development Office’s International Programme Fund.</p>\n<p>The programme also provides funding to two sub-programmes, the Blue Shield Programme and the Global Ocean Wildlife Analysis Network. The Global Ocean Wildlife Analysis Network uses Baited Remote Underwater Video Systems to monitor biodiversity and marine ecosystems across the Overseas Territories.</p>",
+  "publishedAt": "2026-10-10T02:07:18Z",
+  "updatedAt": "2026-10-10T02:07:18Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "The Blue Belt Programme",
+  "tags": [
+    "Blue Belt Programme",
+    "UK Overseas Territories",
+    "marine conservation"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/the-blue-belt-programme"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government released the Blue Belt Programme 10-year anniversary impact report on October 9, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The report details marine conservation activities and achievements in UK Overseas Territories from 2016 to 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Blue Belt Programme supports UK Overseas Territories with the protection and sustainable management of their marine environments.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "According to the report, the programme has supported the protection of more than 4 million square kilometres of marine environment.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The programme works across core themes including understanding and protecting biodiversity, strengthening governance and management frameworks, managing human impacts, assisting compliance and enforcement, and capacity building and ocean literacy.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The programme is supported by the Centre for Environment Fisheries and Aquaculture Science and the Marine Management Organisation.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Between 2022 and 2025, the programme is funded directly by the Foreign, Commonwealth and Development Office’s International Programme Fund.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The programme provides funding to two sub-programmes: the Blue Shield Programme and the Global Ocean Wildlife Analysis Network.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Global Ocean Wildlife Analysis Network uses Baited Remote Underwater Video Systems to monitor biodiversity and marine ecosystems across the Overseas Territories.",
+      "source": "The UK government"
+    }
+  ]
+}
