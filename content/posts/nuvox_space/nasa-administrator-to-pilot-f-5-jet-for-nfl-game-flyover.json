@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-3.webp",
+    "alt": "Illustration: rocket engine nozzle close-up in a test facility",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-administrator-to-pilot-f-5-jet-for-nfl-game-flyover",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA administrator to pilot F-5 jet for NFL game flyover",
+  "excerpt": "NASA Administrator Jared Isaacman will pilot an F-5 fighter jet during the New York Jets and Cleveland Browns game on October 11, 2026.",
+  "bodyHtml": "<p>NASA announced that Administrator Jared Isaacman will pilot one of three F-5 fighter jets during a flyover at an NFL game between the New York Jets and the Cleveland Browns. The event is scheduled for October 11, 2026, in East Rutherford, New Jersey.</p>\n<p>NASA team members will engage with fans at the agency’s Experience Zone, located at the Jets Tailgate Zone outside the stadium, from 10 a.m. to 1 p.m. EDT. Fans can learn more about NASA’s return to the Moon under the agency’s Artemis dome, enjoy interactive games, and capture photos with a large, inflatable SLS, or Space Launch System, rocket.</p>\n<p>The flyover is part of NASA’s Inspiration Tour, which convenes academic, industry, and public sector stakeholders. The tour will culminate in MAX POWER, a public exposition of American air and space innovation, Saturday, Nov. 7, and Sunday, Nov. 8, on and near the agency’s Kennedy Space Center in Florida. Isaacman will be available for limited media interviews during the game.</p>",
+  "publishedAt": "2026-10-11T06:17:44Z",
+  "updatedAt": "2026-10-11T06:17:44Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "NASA to Conduct Flyover, Engage NFL Fans at MetLife Stadium",
+  "tags": [
+    "NASA",
+    "Artemis",
+    "SLS",
+    "Kennedy Space Center"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA Administrator Jared Isaacman will pilot an F-5 fighter jet for an NFL game flyover.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The game between the New York Jets and the Cleveland Browns is scheduled for October 11, 2026, in East Rutherford, New Jersey.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that Administrator Jared Isaacman will pilot one of three F-5 fighter jets during a flyover at an NFL game between the New York Jets and the Cleveland Browns.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA team members will engage with fans at the agency’s Experience Zone outside the stadium from 10 a.m. to 1 p.m. EDT.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Fans can learn about NASA’s return to the Moon under the Artemis dome, enjoy interactive games, and take photos with an inflatable Space Launch System (SLS) rocket.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flyover is part of NASA’s Inspiration Tour, which convenes academic, industry, and public sector stakeholders.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The tour will culminate in MAX POWER, a public exposition on Nov. 7 and Nov. 8 on and near Kennedy Space Center in Florida.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Isaacman will be available for limited media interviews during the game.",
+      "source": "NASA"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-announces-nobel-prize-in-physics-for-icecube-collaboration-founding-leader",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA announces Nobel Prize in Physics for IceCube Collaboration founding leader",
+  "excerpt": "The award recognizes discoveries from the South Pole observatory, which uses light detectors to identify neutrinos from space.",
+  "bodyHtml": "<p>NASA announced on October 11, 2026, that a founding leader of the IceCube Collaboration will be awarded the Nobel Prize in Physics. This recognition follows discoveries made using the IceCube Neutrino Observatory, an astronomical facility located near the South Pole.</p>\n<p>The observatory consists of almost 100 holes melted into the ice, each containing a string of light detectors. These instruments are sensitive to blue light emitted in the surrounding clear ice. Such light results from fast-moving secondary particles liberated when high-energy neutrinos emitted by powerful processes out in the universe collide with ice molecules.</p>\n<p>The water in each hole refreezes after the strings are lowered. The observatory is the largest neutrino detector ever created. Pictured in 2010, one of the last of IceCube&#x27;s detector strings was lowered into the freezing abyss. The IceCube Neutrino Observatory has now detected many illuminating neutrinos.</p>",
+  "publishedAt": "2026-10-11T06:12:06Z",
+  "updatedAt": "2026-10-11T06:12:06Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 11 – Ice Fishing for Cosmic Neutrinos",
+  "tags": [
+    "IceCube Neutrino Observatory",
+    "Nobel Prize",
+    "Physics"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA announced a Nobel Prize in Physics for a founding leader of the IceCube Collaboration.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The award recognizes discoveries from the South Pole observatory, which uses light detectors to identify neutrinos from space.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 11, 2026, that a founding leader of the IceCube Collaboration will be awarded the Nobel Prize in Physics.",
+      "source": "NASA"
+    },
+    {
+      "claim": "This recognition follows discoveries made using the IceCube Neutrino Observatory, an astronomical facility located near the South Pole.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The IceCube Neutrino Observatory consists of almost 100 holes melted into the ice, each containing a string of light detectors.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The light detectors are sensitive to blue light emitted in the surrounding clear ice.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Such blue light results from fast-moving secondary particles liberated when high-energy neutrinos emitted by powerful processes out in the universe collide with ice molecules.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The water in each hole refreezes after the strings are lowered.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The IceCube Neutrino Observatory is the largest neutrino detector ever created.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Pictured in 2010, one of the last of IceCube's detector strings was lowered into the freezing abyss.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The IceCube Neutrino Observatory has now detected many illuminating neutrinos.",
+      "source": "NASA"
+    }
+  ]
+}

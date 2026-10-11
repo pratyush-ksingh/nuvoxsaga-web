@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "white-house-council-of-economic-advisers-reports-growth-in-manufacturing-sector",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "White House Council of Economic Advisers reports growth in manufacturing sector",
+  "excerpt": "The Council of Economic Advisers released an evaluation of the manufacturing sector on October 10, 2026.",
+  "bodyHtml": "<p>The White House Council of Economic Advisers (CEA) released an evaluation of the United States manufacturing sector on October 10, 2026. The report states that the sector is experiencing growth under the policies of the Trump Administration.</p>\n<p>According to the CEA, the United States is now the world&#x27;s largest energy exporter. The report also notes that factory construction is increasing as a result of tariff policies, which incentivized companies to manufacture products within the United States.</p>\n<p>The CEA analysis states that the manufacturing resurgence has positive impacts on the labor sector, including increased wages and company expansions that stimulate local economies. The report further claims that the United States is currently pioneering the technology frontier and reshoring production.</p>\n<p>The report identifies several critical industries for national security that are positioned at the forefront of this manufacturing activity. These industries include aerospace, aircraft equipment, natural gas and petroleum production, and metals, with a new renaissance in American steel production reinforcing domestic industrial capacity.</p>",
+  "publishedAt": "2026-10-11T06:27:11Z",
+  "updatedAt": "2026-10-11T06:27:11Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "The State of American Manufacturing",
+  "tags": [
+    "manufacturing",
+    "economy",
+    "energy"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/research/2026/10/the-state-of-american-manufacturing/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The White House Council of Economic Advisers reports growth in the manufacturing sector.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Council of Economic Advisers released an evaluation of the manufacturing sector on October 10, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House Council of Economic Advisers (CEA) released an evaluation of the United States manufacturing sector on October 10, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The report states that the manufacturing sector is experiencing growth under the policies of the Trump Administration.",
+      "source": "The White House"
+    },
+    {
+      "claim": "According to the CEA, the United States is now the world's largest energy exporter.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The report notes that factory construction is increasing as a result of tariff policies, which incentivized companies to manufacture products within the United States.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The CEA analysis states that the manufacturing resurgence has positive impacts on the labor sector, including increased wages and company expansions that stimulate local economies.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The report claims that the United States is currently pioneering the technology frontier and reshoring production.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The report identifies several critical industries for national security that are positioned at the forefront of manufacturing activity.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These critical industries include aerospace, aircraft equipment, natural gas and petroleum production, and metals, with a new renaissance in American steel production reinforcing domestic industrial capacity.",
+      "source": "The White House"
+    }
+  ]
+}

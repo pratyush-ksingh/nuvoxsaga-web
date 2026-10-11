@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "us-state-department-mobilizes-response-to-panama-earthquake",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "US State Department mobilizes response to Panama earthquake",
+  "excerpt": "The US State Department has deployed search and rescue teams and committed $5 million in aid following a 7.7 magnitude earthquake in Panama.",
+  "bodyHtml": "<p>The US State Department announced on October 10, 2026, that it has mobilized an immediate response to a 7.7 magnitude earthquake that struck Panama on October 9. At the request of the Panamanian government, the department deployed Urban Search and Rescue technical teams to conduct expert structural assessments of damage and identify immediate assistance needs.</p>\n<p>The department has committed $5 million in assistance to support trusted on the ground implementers conducting relief efforts. Additionally, the Department of War is supporting aerial damage assessments in the Azuero peninsula and Cocle, including joint assessments with the Disaster Assistance Response Team, Embassy staff, and Panamanian officials.</p>\n<p>The department authorized Panama’s Air and Naval Service to use two INL-supported helicopters for earthquake relief. Furthermore, the State Department is providing consular assistance to U.S. citizens in the affected area and their families. The department is coordinating with SOUTHCOM to determine if additional logistical support will be required.</p>",
+  "publishedAt": "2026-10-11T06:24:22Z",
+  "updatedAt": "2026-10-11T06:24:22Z",
+  "wordCount": 152,
+  "readingTimeMin": 1,
+  "topic": "The United States Mobilizes Immediate Response to the Panama Earthquakes",
+  "tags": [
+    "Panama",
+    "United States",
+    "earthquake",
+    "humanitarian aid"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/the-united-states-mobilizes-immediate-response-to-the-panama-earthquakes/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US State Department mobilizes response to Panama earthquake",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department has deployed search and rescue teams and committed $5 million in aid following a 7.7 magnitude earthquake in Panama.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department announced on October 10, 2026, that it has mobilized an immediate response to a 7.7 magnitude earthquake that struck Panama on October 9.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "At the request of the Panamanian government, the department deployed Urban Search and Rescue technical teams to conduct expert structural assessments of damage and identify immediate assistance needs.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The department has committed $5 million in assistance to support trusted on the ground implementers conducting relief efforts.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of War is supporting aerial damage assessments in the Azuero peninsula and Cocle, including joint assessments with the Disaster Assistance Response Team, Embassy staff, and Panamanian officials.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The department authorized Panama’s Air and Naval Service to use two INL-supported helicopters for earthquake relief.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The State Department is providing consular assistance to U.S. citizens in the affected area and their families.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The department is coordinating with SOUTHCOM to determine if additional logistical support will be required.",
+      "source": "The US State Department"
+    }
+  ]
+}

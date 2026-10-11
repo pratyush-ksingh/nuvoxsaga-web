@@ -1,0 +1,73 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-updates-list-of-foreign-office-posts",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government updates list of foreign office posts",
+  "excerpt": "The Foreign, Commonwealth & Development Office amended its official registry of international missions on October 9, 2026.",
+  "bodyHtml": "<p>The UK government announced an update to its list of Foreign, Commonwealth &amp; Development Office posts abroad on October 9, 2026. The official registry, which details embassies, high commissions, consulates, and other forms of UK representation, was amended to reflect changes regarding the UK Mission in Jerusalem.</p>\n<p>The government maintains these records to track the status of UK diplomatic and trade representations across various countries and territories. The published document provides a list of current and previous offices maintained by the Foreign, Commonwealth &amp; Development Office and the former Foreign &amp; Commonwealth Office.</p>\n<p>Previous updates to the list include the addition of the British Embassy Office in Lviv, Ukraine, on 16 February 2026. Additionally, the UK Government Office in San Diego was removed from the list on 2 December 2025, and the British Consulate in Split, Croatia, was removed following its closure on 1 September 2025.</p>",
+  "publishedAt": "2026-10-11T06:32:45Z",
+  "updatedAt": "2026-10-11T06:32:45Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "Transparency data: List of Foreign, Commonwealth & Development Office posts abroad",
+  "tags": [
+    "UK government",
+    "Foreign, Commonwealth & Development Office"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/publications/list-of-foreign-office-posts"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated its list of foreign office posts on October 9, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth & Development Office amended its official registry of international missions on October 9, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced an update to its list of Foreign, Commonwealth & Development Office posts abroad on October 9, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The official registry details embassies, high commissions, consulates, and other forms of UK representation.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The registry was amended to reflect changes regarding the UK Mission in Jerusalem.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government maintains these records to track the status of UK diplomatic and trade representations across various countries and territories.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The published document provides a list of current and previous offices maintained by the Foreign, Commonwealth & Development Office and the former Foreign & Commonwealth Office.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Previous updates to the list include the addition of the British Embassy Office in Lviv, Ukraine, on 16 February 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK Government Office in San Diego was removed from the list on 2 December 2025.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The British Consulate in Split, Croatia, was removed following its closure on 1 September 2025.",
+      "source": "The UK government"
+    }
+  ]
+}

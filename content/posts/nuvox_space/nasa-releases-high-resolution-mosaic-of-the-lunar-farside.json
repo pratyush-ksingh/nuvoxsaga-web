@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-high-resolution-mosaic-of-the-lunar-farside",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases high-resolution mosaic of the lunar farside",
+  "excerpt": "The image, captured by the Lunar Reconnaissance Orbiter, reveals a surface distinct from the nearside.",
+  "bodyHtml": "<p>NASA released a high-resolution mosaic of the Moon&#x27;s farside on October 10, 2026. The image was compiled from over 15,000 individual photographs acquired by the Lunar Reconnaissance Orbiter&#x27;s wide angle camera between November 2009 and February 2011.</p>\n<p>The mosaic shows features at a scale of 100 meters per pixel. According to NASA, the farside surface appears rough and battered, contrasting with the smooth, dark lunar maria found on the nearside. The agency stated that the farside crust is likely thicker, which hindered molten material from the interior from reaching the surface to form maria.</p>\n<p>The Moon is tidally locked in synchronous rotation, which means it always presents its familiar nearside to planet Earth. From lunar orbit, the Moon&#x27;s farside can become familiar. This sharp picture is a mosaic from the Lunar Reconnaissance Orbiter&#x27;s wide angle camera, centered on the lunar farside.</p>",
+  "publishedAt": "2026-10-11T06:20:39Z",
+  "updatedAt": "2026-10-11T06:20:39Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 10 – Lunar Farside",
+  "tags": [
+    "NASA",
+    "Lunar Reconnaissance Orbiter",
+    "Moon"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA releases a high-resolution mosaic of the lunar farside.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image, captured by the Lunar Reconnaissance Orbiter, reveals a surface distinct from the nearside.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA released a high-resolution mosaic of the Moon's farside on October 10, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image was compiled from over 15,000 individual photographs acquired by the Lunar Reconnaissance Orbiter's wide angle camera between November 2009 and February 2011.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mosaic shows features at a scale of 100 meters per pixel.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, the farside surface appears rough and battered, contrasting with the smooth, dark lunar maria found on the nearside.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA stated that the farside crust is likely thicker, making it harder for molten material from the interior to reach the surface to form maria.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Moon is tidally locked in synchronous rotation, which means it always presents its familiar nearside to planet Earth.",
+      "source": "NASA"
+    },
+    {
+      "claim": "From lunar orbit, the Moon's farside can become familiar.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The sharp picture is a mosaic from the Lunar Reconnaissance Orbiter's wide angle camera, centered on the lunar farside.",
+      "source": "NASA"
+    }
+  ]
+}
