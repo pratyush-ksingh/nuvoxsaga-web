@@ -1,0 +1,77 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "high-representative-vice-president-kaja-kallas-announces-global-pledge-on-mariti",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "High Representative/Vice-President Kaja Kallas announces global pledge on maritime law",
+  "excerpt": "The pledge aims to maintain the integrity of the International Law of the Sea with support from the EU and 33 countries.",
+  "bodyHtml": "<p>According to the Government of Canada, High Representative/Vice-President Kaja Kallas announced the global pledge on 12 October 2026. The announcement states that straits used for international navigation are regional waterways and global lifelines, and their security and safety depend on respect for international law, restraint, and sustained multilateral cooperation.</p>\n<p>The pledge is supported by all EU Member States and 33 countries from around the world. These countries include Australia, Bahrain, Benin, Cabo Verde, Cambodia, Cameroon, Canada, Cook Islands, Fiji, Gabon, Honduras, Iceland, Japan, Jordan, Kiribati, Lesotho, Liberia, Mauritania, Montenegro, New Zealand, North Macedonia, Norway, Oman, Palau, the Philippines, the Republic of Korea, São Tomé and Príncipe, Singapore, Sri Lanka, Switzerland, Turkmenistan, the United Kingdom, and Yemen.</p>\n<p>Participants pledge to champion multilateral cooperation, reject coercion and unilateral action, and oppose measures that would hamper or impair lawful navigation through straits used for international navigation. The pledge was announced by High Representative/Vice-President Kaja Kallas on 12 October 2026.</p>",
+  "publishedAt": "2026-10-12T18:04:03Z",
+  "updatedAt": "2026-10-12T18:04:03Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "Pledge on maintaining the integrity of the International Law of the Sea – No Fees / No Tolls",
+  "tags": [
+    "Global Affairs Canada",
+    "International Maritime Organization"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/pledge-on-maintaining-the-integrity-of-the-international-law-of-the-sea--no-fees--no-tolls.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "High Representative/Vice-President Kaja Kallas announced a global pledge on maritime law.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The pledge aims to maintain the integrity of the International Law of the Sea.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The pledge has support from the EU and 33 countries.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "High Representative/Vice-President Kaja Kallas announced the global pledge on 12 October 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Straits used for international navigation are regional waterways and global lifelines.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The security and safety of straits depend on respect for international law, restraint, and sustained multilateral cooperation.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The pledge is supported by all EU Member States.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The 33 supporting countries include Australia, Bahrain, Benin, Cabo Verde, Cambodia, Cameroon, Canada, Cook Islands, Fiji, Gabon, Honduras, Iceland, Japan, Jordan, Kiribati, Lesotho, Liberia, Mauritania, Montenegro, New Zealand, North Macedonia, Norway, Oman, Palau, the Philippines, the Republic of Korea, São Tomé and Príncipe, Singapore, Sri Lanka, Switzerland, Turkmenistan, the United Kingdom, and Yemen.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Participants pledge to champion multilateral cooperation.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Participants pledge to reject coercion and unilateral action.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Participants pledge to oppose measures that would hamper or impair lawful navigation through straits used for international navigation.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

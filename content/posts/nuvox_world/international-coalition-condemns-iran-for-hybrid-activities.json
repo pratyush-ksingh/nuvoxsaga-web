@@ -1,0 +1,62 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-1.webp",
+    "alt": "Illustration: desert dunes at sunset with long shadows",
+    "credit": "AI illustration"
+  },
+  "slug": "international-coalition-condemns-iran-for-hybrid-activities",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "International coalition condemns Iran for hybrid activities",
+  "excerpt": "Foreign ministers from multiple nations issued a joint statement condemning Iran for lethal plotting, cyber-attacks, and sabotage.",
+  "bodyHtml": "<p>Foreign ministers from Australia, Austria, Belgium, Bulgaria, Canada, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, New Zealand, Norway, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, the United Kingdom and the United States released a joint statement on October 12, 2026, condemning Iran for its use of violent attacks. The coalition cited acts of lethal plotting, arson, sabotage, and cyber-attacks as evidence of Iran&#x27;s hybrid activities against their nations and partners.</p>\n<p>The statement recognised the United Kingdom’s attribution of Iran’s involvement in the incident at RAF Fairford on 27 September. The ministers stated that this event demonstrates the IRGC’s continued willingness to project hostile activity beyond its borders through covert networks and proxy actors.</p>\n<p>The coalition announced that it will take action to identify, investigate, disrupt, and prosecute those conducting hostile activities on behalf of Iran. The ministers stated they remain committed to safeguarding their sovereignty and ensuring that those responsible for these acts are held to account.</p>",
+  "publishedAt": "2026-10-12T17:58:17Z",
+  "updatedAt": "2026-10-12T17:58:17Z",
+  "wordCount": 167,
+  "readingTimeMin": 1,
+  "topic": "Joint Statement on Iran, 12 October",
+  "tags": [
+    "Iran",
+    "RAF Fairford",
+    "IRGC"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/joint-statement-on-iran-12-october"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Foreign ministers from multiple nations issued a joint statement condemning Iran for lethal plotting, cyber-attacks, sabotage, and hybrid activities.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Foreign ministers from 32 named nations released a joint statement on October 12, 2026, condemning Iran for its use of violent attacks.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The coalition cited acts of lethal plotting, arson, sabotage, and cyber-attacks as part of Iran's hybrid activities against their nations and partners.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The statement recognised the United Kingdom’s attribution of Iran’s involvement in the incident at RAF Fairford on 27 September.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The ministers noted that the UK concluded this event demonstrates the IRGC’s continued willingness to project hostile activity beyond its borders through covert networks and proxy actors.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The coalition announced that it will take action to identify, investigate, disrupt, and prosecute those conducting hostile activities on behalf of Iran.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The ministers stated they remain committed to safeguarding their sovereignty and ensuring that those responsible are held to account.",
+      "source": "The UK government"
+    }
+  ]
+}

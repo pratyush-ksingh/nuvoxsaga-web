@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-and-cisco-introduce-ultra-dense-small-form-factor-pluggable-module",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA and Cisco introduce Ultra-Dense Small Form Factor Pluggable module",
+  "excerpt": "The new optical module supports 400Gb/s-per-lane signals to increase bandwidth density in AI factory networks.",
+  "bodyHtml": "<p>NVIDIA and Cisco announced the Ultra-Dense Small Form Factor Pluggable (USFP) module on October 12, 2026. This hardware is designed to support 400Gb/s-per-lane electrical signals, allowing AI factory builders to scale Ethernet AI fabrics while maintaining existing data center network deployment models.</p>\n<p>The USFP module provides 4x the bandwidth density and 1.3x the power efficiency of 200Gb/s-per-lane optics. The first planned USFP-based transceivers will pack 16 full-duplex lanes in an octal small form factor (OSFP)-sized footprint, and customers will be able to achieve 12.8Tb/s of overall capacity with USFP. The module supports power dissipation of up to 100 watts without needing a separate, dedicated embedded cooling circuit within the transceiver.</p>\n<p>NVIDIA and Cisco are collaborating with TE Connectivity and Amphenol to build USFP cages, connectors and modules. The companies plan to create an open industry specification for USFP through an upcoming community-led multi-source project.</p>",
+  "publishedAt": "2026-10-12T17:49:04Z",
+  "updatedAt": "2026-10-12T17:49:04Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+  "tags": [
+    "NVIDIA",
+    "Cisco",
+    "AI factories",
+    "USFP"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA and Cisco introduced the Ultra-Dense Small Form Factor Pluggable (USFP) module.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The USFP module supports 400Gb/s-per-lane signals to increase bandwidth density in AI factory networks.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA and Cisco announced the USFP module on October 12, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The USFP hardware is designed to support 400Gb/s-per-lane electrical signals.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The module allows AI factory builders to scale Ethernet AI fabrics while maintaining existing data center network deployment models.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The USFP module provides 4x the bandwidth density of 200Gb/s-per-lane optics.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The USFP module provides 1.3x the power efficiency of 200Gb/s-per-lane optics.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The first planned USFP-based transceivers will pack 16 full-duplex lanes in an octal small form factor (OSFP)-sized footprint.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Customers will be able to achieve 12.8Tb/s of overall capacity with USFP.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The USFP module supports power dissipation of up to 100 watts without needing a separate, dedicated embedded cooling circuit within the transceiver.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA and Cisco are collaborating with TE Connectivity and Amphenol to build USFP cages, connectors and modules.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA and Cisco plan to create an open industry specification for USFP through an upcoming community-led multi-source project.",
+      "source": "NVIDIA"
+    }
+  ]
+}

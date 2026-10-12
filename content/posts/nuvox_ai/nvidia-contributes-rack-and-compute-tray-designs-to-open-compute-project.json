@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-contributes-rack-and-compute-tray-designs-to-open-compute-project",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Nvidia contributes rack and compute tray designs to Open Compute Project",
+  "excerpt": "Nvidia announced new partnerships and contributions at the Open Compute Project Global Summit.",
+  "bodyHtml": "<p>At the Open Compute Project Global Summit taking place on October 12, 2026, Nvidia announced new partnerships and contributions aimed at creating a common foundation for next-generation AI infrastructure. According to Nvidia, the company contributed key Nvidia Vera Rubin rack and compute tray designs to the Open Compute Project through the open Nvidia MGX architecture.</p>\n<p>The updated MGX 1.2 specification extends the open architecture for artificial intelligence factories with rack-scale blind-mate liquid cooling, interoperable rack-scale interconnect infrastructure and a liquid-cooled 5,000A busbar designed for higher-power artificial intelligence systems. The architecture supports rack deployments up to 250kW while simplifying serviceability, deployment and infrastructure reuse.</p>\n<p>Additionally, Nvidia and Cisco announced the Ultra-Dense Small Form Factor Pluggable standard. This is the industry’s first module for 400Gb/s-based networking fabrics. The new form factor is designed for the scale and efficiency demands of next generation AI factories, supporting higher-bandwidth fabrics while preserving the flexibility and serviceability that have made pluggable optics a mainstay of modern data centers.</p>",
+  "publishedAt": "2026-10-12T17:47:41Z",
+  "updatedAt": "2026-10-12T17:47:41Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+  "tags": [
+    "Nvidia",
+    "Open Compute Project",
+    "Vera Rubin",
+    "MGX"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Nvidia contributes rack and compute tray designs to the Open Compute Project.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Nvidia announced new partnerships and contributions at the Open Compute Project Global Summit.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "At the Open Compute Project Global Summit taking place on October 12, 2026, Nvidia announced new partnerships and contributions aimed at creating a common foundation for next-generation AI infrastructure.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "According to Nvidia, the company contributed key Nvidia Vera Rubin rack and compute tray designs to the Open Compute Project through the open Nvidia MGX architecture.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The updated MGX 1.2 specification extends the open architecture for artificial intelligence factories with rack-scale blind-mate liquid cooling, interoperable rack-scale interconnect infrastructure and a liquid-cooled 5,000A busbar designed for higher-power artificial intelligence systems.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The architecture supports rack deployments up to 250kW while simplifying serviceability, deployment and infrastructure reuse.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Nvidia and Cisco announced the Ultra-Dense Small Form Factor Pluggable standard.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The Ultra-Dense Small Form Factor Pluggable module is the industry’s first module for 400Gb/s-based networking fabrics.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The new form factor is designed for the scale and efficiency demands of next generation AI factories, supporting higher-bandwidth fabrics while preserving the flexibility and serviceability that have made pluggable optics a mainstay of modern data centers.",
+      "source": "NVIDIA"
+    }
+  ]
+}

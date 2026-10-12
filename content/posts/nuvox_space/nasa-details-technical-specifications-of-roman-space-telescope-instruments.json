@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-details-technical-specifications-of-roman-space-telescope-instruments",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA details technical specifications of Roman Space Telescope instruments",
+  "excerpt": "The observatory features a field of view that is more than 100 times larger than the Hubble Space Telescope.",
+  "bodyHtml": "<p>NASA provided technical details regarding the Nancy Grace Roman Space Telescope on October 12, 2026. According to NASA, Roman is designed to advance studies of dark energy and infrared astrophysics.</p>\n<p>The telescope includes a Wide Field Instrument that features a Mosaic Plate Assembly acting as the heart of the instrument. Each of these 18 detectors contains more than 16 million pixels that collect visible and infrared light emitted by astronomical sources.</p>\n<p>Additionally, the Roman Element Wheel Assembly allows the Roman Wide Field Instrument to both tune the wavelength of light that reaches the detectors and spread the light of astronomical objects into spectra.</p>\n<p>NASA stated that the Nancy Grace Roman Space Telescope has a field of view that is more than 100 times larger than the Hubble Space Telescope. The mission will find thousands of planets beyond our solar system and hundreds of millions of galaxies.</p>",
+  "publishedAt": "2026-10-12T17:53:07Z",
+  "updatedAt": "2026-10-12T17:53:07Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "Roman Coloring Pages",
+  "tags": [
+    "NASA",
+    "Roman Space Telescope",
+    "Hubble Space Telescope"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/mission/roman-space-telescope/roman-coloring-pages/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA details technical specifications of Roman Space Telescope instruments.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The observatory features a field of view that is more than 100 times larger than the Hubble Space Telescope.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA provided technical details regarding the Nancy Grace Roman Space Telescope on October 12, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, Roman is designed to advance studies of dark energy and infrared astrophysics.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The telescope includes a Wide Field Instrument that features a Mosaic Plate Assembly acting as the heart of the instrument.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Each of these 18 detectors contains more than 16 million pixels that collect visible and infrared light emitted by astronomical sources.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Roman Element Wheel Assembly allows the Roman Wide Field Instrument to both tune the wavelength of light that reaches the detectors and spread the light of astronomical objects into spectra.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA stated that the Nancy Grace Roman Space Telescope has a field of view that is more than 100 times larger than the Hubble Space Telescope.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will find thousands of planets beyond our solar system and hundreds of millions of galaxies.",
+      "source": "NASA"
+    }
+  ]
+}

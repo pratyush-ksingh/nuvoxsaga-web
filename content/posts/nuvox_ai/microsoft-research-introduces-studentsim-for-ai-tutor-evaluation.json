@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "microsoft-research-introduces-studentsim-for-ai-tutor-evaluation",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Microsoft Research introduces StudentSim for AI tutor evaluation",
+  "excerpt": "The research system uses personalized simulators to provide feedback on AI tutoring tools before they are tested with real students.",
+  "bodyHtml": "<p>Microsoft Research announced StudentSim on October 12, 2026, a research system designed to evaluate and improve AI tutoring tools. The system creates personalized simulators of individual students by training on publicly available, de-identified learner records to model how students respond to tutor guidance.</p>\n<p>The research includes StudentSimEval, a benchmark protocol covering chess, second-language English writing, and mathematics. The system uses a two-stage training pipeline, first learning shared student behavior from pooled records before specializing on one student’s own records.</p>\n<p>In testing, a tutor trained with StudentSim feedback reached 90.5% accuracy, compared to 75.7% for a baseline model without reinforcement learning. The tutor also received higher ratings for guidance quality and personalization. The research team has made the StudentSim training and evaluation code publicly available.</p>",
+  "publishedAt": "2026-10-12T17:46:43Z",
+  "updatedAt": "2026-10-12T17:46:43Z",
+  "wordCount": 124,
+  "readingTimeMin": 1,
+  "topic": "Simulating student learning for better AI tutoring",
+  "tags": [
+    "Microsoft Research",
+    "StudentSim",
+    "AI tutoring"
+  ],
+  "source": {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/"
+  },
+  "sources": [
+    "Microsoft Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Microsoft Research introduced StudentSim for AI tutor evaluation.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The research system uses personalized simulators to provide feedback on AI tutoring tools before they are tested with real students.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Microsoft Research announced StudentSim on October 12, 2026.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "StudentSim is a research system designed to evaluate and improve AI tutoring tools.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The system creates personalized simulators of individual students by training on publicly available, de-identified learner records to model how students respond to tutor guidance.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The research includes StudentSimEval, a benchmark protocol covering chess, second-language English writing, and mathematics.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The system uses a two-stage training pipeline, first learning shared student behavior from pooled records before specializing on one student’s own records.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "In testing, a tutor trained with StudentSim feedback reached 90.5% accuracy, compared to 75.7% for a baseline model without reinforcement learning.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The tutor also received higher ratings for guidance quality and personalization.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The research team has made the StudentSim training and evaluation code publicly available.",
+      "source": "Microsoft Research"
+    }
+  ]
+}

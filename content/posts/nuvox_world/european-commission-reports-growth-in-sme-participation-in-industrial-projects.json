@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-reports-growth-in-sme-participation-in-industrial-projects",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission reports growth in SME participation in industrial projects",
+  "excerpt": "The share of small and medium-sized enterprises in Important Projects of Common European Interest has risen to 60 percent as of 2025.",
+  "bodyHtml": "<p>The European Commission announced on October 12, 2026, that small and medium-sized enterprises (SMEs) now account for 60 percent of participants in Important Projects of Common European Interest (IPCEIs). These projects are designed to allow Member States, companies, and researchers to coordinate investments and share risks for large-scale industrial initiatives.</p>\n<p>According to the European Commission, the share of SMEs in these projects has grown from 7 percent in the first IPCEI launched in 2018. To date, the Commission has approved 11 integrated IPCEI projects, which involve 257 companies and 23 Member States, plus Norway, representing 38 billion euros in public funding.</p>\n<p>The Commission is currently working with Member States and stakeholders on two new initiatives focused on advanced semiconductor technologies and artificial intelligence. Additionally, the Commission is exploring the potential for an IPCEI on quantum technologies and is supporting work on seven other potential projects, including biotechnology and critical raw materials.</p>",
+  "publishedAt": "2026-10-12T17:55:01Z",
+  "updatedAt": "2026-10-12T17:55:01Z",
+  "wordCount": 151,
+  "readingTimeMin": 1,
+  "topic": "Speech by Executive Vice-President Teresa Ribera at an event organised by BusinessEurope on Important Projects of Common European Interest",
+  "tags": [
+    "European Commission",
+    "IPCEI",
+    "SMEs",
+    "Industry"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2144"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission reports growth in SME participation in industrial projects.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The share of small and medium-sized enterprises in Important Projects of Common European Interest has risen to 60 percent as of 2025.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced on October 12, 2026, that small and medium-sized enterprises (SMEs) now account for 60 percent of participants in Important Projects of Common European Interest (IPCEIs).",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "IPCEIs are designed to allow Member States, companies, and researchers to coordinate investments and share risks for large-scale industrial initiatives.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The share of SMEs in these projects has grown from 7 percent in the first IPCEI launched in 2018.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "To date, the Commission has approved 11 integrated IPCEI projects.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The 11 approved IPCEI projects involve 257 companies and 23 Member States, plus Norway.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The 11 approved IPCEI projects represent 38 billion euros in public funding.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission is currently working with Member States and stakeholders on two new initiatives focused on advanced semiconductor technologies and artificial intelligence.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission is exploring the potential for an IPCEI on quantum technologies.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission is supporting work on seven other potential projects, including biotechnology and critical raw materials.",
+      "source": "The European Commission"
+    }
+  ]
+}
