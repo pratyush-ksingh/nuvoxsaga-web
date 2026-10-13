@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-prepares-spacex-crs-35-mission-for-health-research",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA prepares SpaceX CRS-35 mission for health research",
+  "excerpt": "The mission will carry experiments to the International Space Station to study human brain models, crop diseases, and antibiotic-resistant bacteria.",
+  "bodyHtml": "<p>NASA announced on October 12, 2026, that the SpaceX CRS-35 mission will launch from Cape Canaveral Space Force Station in Florida. The mission will transport experiments focused on human and plant health, as well as drug-resistant organisms, to the International Space Station.</p>\n<p>The research includes sending lab-grown human brain models to the station for five weeks to observe cellular responses to spaceflight. Researchers will compare these space-flown tissue models with identical ones kept on Earth to determine how spaceflight affects the human brain at the cellular level.</p>\n<p>Additionally, the mission will test how crop diseases develop in microgravity and monitor the space station for antibiotic-resistant bacteria. The mission includes a test of a compact microplate reader to detect and measure biomarkers such as antibodies, antigens, and proteins. This investigation tests the device’s ability to detect and measure certain biomarkers such as antibodies, antigens, and proteins. The research also includes a study of how antibiotic-resistant bacteria survive and evolve in microgravity, with astronauts repeatedly sampling surfaces throughout the space station to monitor for drug-resistant organisms.</p>",
+  "publishedAt": "2026-10-13T02:10:32Z",
+  "updatedAt": "2026-10-13T02:10:32Z",
+  "wordCount": 174,
+  "readingTimeMin": 1,
+  "topic": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
+  "tags": [
+    "NASA",
+    "SpaceX",
+    "International Space Station",
+    "CRS-35"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA is preparing the SpaceX CRS-35 mission to conduct health research.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The CRS-35 mission will carry experiments to the International Space Station to study human brain models, crop diseases, and antibiotic-resistant bacteria.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 12, 2026, that the SpaceX CRS-35 mission will launch from Cape Canaveral Space Force Station in Florida.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will transport experiments focused on human and plant health, as well as drug-resistant organisms, to the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The research includes sending lab-grown human brain models to the space station for five weeks to observe cellular responses to spaceflight.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Researchers will compare the space-flown tissue models with identical ones kept on Earth to determine how spaceflight affects the human brain at the cellular level.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will test how crop diseases develop in microgravity and monitor the space station for antibiotic-resistant bacteria.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission includes a test of a compact microplate reader to detect and measure biomarkers such as antibodies, antigens, and proteins.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The research includes a study of how antibiotic-resistant bacteria survive and evolve in microgravity, with astronauts repeatedly sampling surfaces throughout the space station to monitor for drug-resistant organisms.",
+      "source": "NASA"
+    }
+  ]
+}

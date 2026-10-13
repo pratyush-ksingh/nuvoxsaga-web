@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-2.webp",
+    "alt": "Illustration: cracked dry earth under a hazy sun",
+    "credit": "AI illustration"
+  },
+  "slug": "world-health-organization-launches-five-year-pandemic-intelligence-strategy",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "World Health Organization launches five-year pandemic intelligence strategy",
+  "excerpt": "The initiative aims to enable all countries to detect and understand emerging health threats within 24 hours by 2030.",
+  "bodyHtml": "<p>The World Health Organization announced a new five-year strategy for its Hub for Pandemic and Epidemic Intelligence on October 12, 2026. The plan establishes a goal for every country to possess the capability to detect and understand emerging health threats within 24 hours of their appearance by 2030.</p>\n<p>The Hub was created in 2021 with foundational support from the German Government. Under the next five-year strategy, the Hub will deliver its work through five priority initiatives. These include the Epidemic Intelligence from Open Sources, which uses artificial intelligence to scan thousands of publicly available sources in real time each day to identify signals of potential health threats. The International Pathogen Surveillance Network strengthens capacities in genomic sequencing and bioinformatics to identify and understand emerging pathogens.</p>\n<p>The Collaborative Surveillance Initiative is being implemented in more than 83 countries to support national institutions, systems and workforces. Additionally, the Digital Enablers for Public Health Intelligence Initiative will develop secure digital systems that enable countries and partners to share, analyze and use data. The Hub has worked with 160 WHO Member States and 190 partner organizations.</p>",
+  "publishedAt": "2026-10-13T02:13:09Z",
+  "updatedAt": "2026-10-13T02:13:09Z",
+  "wordCount": 182,
+  "readingTimeMin": 1,
+  "topic": "WHO Pandemic Hub sets ambitious goal to detect new outbreaks within 24 hours",
+  "tags": [
+    "World Health Organization",
+    "Pandemic",
+    "Public Health"
+  ],
+  "source": {
+    "name": "The World Health Organization",
+    "url": "https://www.who.int/news/item/12-10-2026-who-pandemic-hub-sets-ambitious-goal-to-detect-new-outbreaks-within-24-hours"
+  },
+  "sources": [
+    "The World Health Organization"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The World Health Organization launched a five-year pandemic intelligence strategy.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The initiative aims to enable all countries to detect and understand emerging health threats within 24 hours by 2030.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The World Health Organization announced the new five-year strategy for its Hub for Pandemic and Epidemic Intelligence on October 12, 2026.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The plan establishes a goal for every country to possess the capability to detect and understand emerging health threats within 24 hours of their appearance by 2030.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The WHO Hub was created in 2021 with foundational support from the German Government.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Under the next five-year strategy, the Hub will deliver its work through five priority initiatives.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Epidemic Intelligence from Open Sources uses artificial intelligence to scan thousands of publicly available sources in real time each day to identify signals of potential health threats.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The International Pathogen Surveillance Network strengthens capacities in genomic sequencing and bioinformatics to identify and understand emerging pathogens.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The Collaborative Surveillance Initiative is being implemented in more than 83 countries to support national institutions, systems and workforces.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The Digital Enablers for Public Health Intelligence Initiative will develop secure digital systems that enable countries and partners to share, analyze and use data.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The Hub has worked with 160 WHO Member States and 190 partner organizations.",
+      "source": "The World Health Organization"
+    }
+  ]
+}

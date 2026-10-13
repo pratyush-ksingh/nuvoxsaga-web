@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-perseverance-rover-sets-off-world-driving-record",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA Perseverance rover sets off-world driving record",
+  "excerpt": "The rover reached a total distance of 28.10 miles on October 11, 2026, surpassing the record previously held by the Opportunity rover.",
+  "bodyHtml": "<p>NASA’s Jet Propulsion Laboratory announced on October 11, 2026, that the Perseverance Mars rover has driven further than any other vehicle on the surface of another world. On that date, the rover reached a total distance of 28.10 miles, exceeding the 28.06-mile record set by the Opportunity rover between 2004 and 2018.</p>\n<p>Perseverance achieved this milestone on the 2,006th Martian day of its mission. The rover utilizes an autonomous navigation system known as AutoNav to image terrain and plot courses between waypoints. The six-wheeled scientist has driven more than 90% of its total distance using AutoNav to evaluate the terrain.</p>\n<p>NASA approved the mission’s first extension, which began in October and will carry Perseverance’s exploration of the crater rim through roughly the end of 2028. After the region nicknamed Lac de Charmes, the rover will continue along the crater rim and head south during the extended mission towards Rainbow Falls, a 328-foot-wide block of ancient crust uplifted by the impact that created Jezero.</p>",
+  "publishedAt": "2026-10-13T02:06:52Z",
+  "updatedAt": "2026-10-13T02:06:52Z",
+  "wordCount": 163,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Perseverance Sets Off-World Record for Total Distance Driven",
+  "tags": [
+    "NASA",
+    "Perseverance",
+    "Mars",
+    "Opportunity"
+  ],
+  "source": {
+    "name": "NASA's Jet Propulsion Laboratory",
+    "url": "https://www.jpl.nasa.gov/news/nasas-perseverance-sets-off-world-record-for-total-distance-driven"
+  },
+  "sources": [
+    "NASA's Jet Propulsion Laboratory"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA's Perseverance rover set an off-world driving record.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The rover reached a total distance of 28.10 miles on October 11, 2026, surpassing the record previously held by the Opportunity rover.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "NASA’s Jet Propulsion Laboratory announced on October 11, 2026, that the Perseverance Mars rover has driven farther than any other vehicle on the surface of another world.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "On October 11, 2026, Perseverance's distance exceeded the 28.06-mile record set by the Opportunity rover between 2004 and 2018.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Perseverance achieved this milestone on the 2,006th Martian day of its mission.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The rover utilizes an autonomous navigation system known as AutoNav to image terrain and plot courses between waypoints.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The rover has driven more than 90% of its total distance using AutoNav to evaluate the terrain.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "NASA approved the mission’s first extension, which began in October and will carry Perseverance’s exploration of the crater rim through roughly the end of 2028.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "After the region nicknamed Lac de Charmes, the rover will continue along the crater rim and head south during the extended mission towards Rainbow Falls, a 328-foot-wide block of ancient crust uplifted by the impact that created Jezero.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    }
+  ]
+}

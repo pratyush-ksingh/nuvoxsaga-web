@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-2.webp",
+    "alt": "Illustration: busy harbor with container cranes at dusk, seen from above",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-foreign-minister-to-visit-india-and-uae",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Canada foreign minister to visit India and UAE",
+  "excerpt": "Anita Anand will travel to both countries from October 13 to October 16 to discuss bilateral relations.",
+  "bodyHtml": "<p>The Government of Canada announced on October 12, 2026, that Minister of Foreign Affairs Anita Anand will travel to India and the United Arab Emirates from October 13 to October 16. The visit is intended to deepen bilateral relations and cooperation with both nations.</p>\n<p>In India, Minister Anand will meet with Minister of External Affairs Subrahmanyam Jaishankar to discuss trade, energy, and security. She is also scheduled to participate in a panel discussion at the Bloomberg New Economy Forum in New Delhi regarding middle powers and the global order.</p>\n<p>During her visit to the United Arab Emirates, Minister Anand will meet with Deputy Prime Minister and Minister of Foreign Affairs Sheikh Abdullah bin Zayed Al Nahyan. The meetings will focus on expanding commercial partnerships and collaboration in artificial intelligence, innovation, and defence.</p>",
+  "publishedAt": "2026-10-13T02:12:36Z",
+  "updatedAt": "2026-10-13T02:12:36Z",
+  "wordCount": 132,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand to travel to India and the United Arab Emirates",
+  "tags": [
+    "Canada",
+    "India",
+    "United Arab Emirates",
+    "Anita Anand"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-anand-to-travel-to-india-and-the-united-arab-emirates.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada's foreign minister will visit India and the UAE.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anita Anand will travel to both countries from October 13 to October 16 to discuss bilateral relations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on October 12, 2026, that Minister of Foreign Affairs Anita Anand will travel to India and the United Arab Emirates from October 13 to October 16.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The visit is intended to deepen bilateral relations and cooperation with both nations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "In India, Minister Anand will meet with Minister of External Affairs Subrahmanyam Jaishankar to discuss trade, energy, and security.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand is scheduled to participate in a panel discussion at the Bloomberg New Economy Forum in New Delhi regarding middle powers and the global order.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "During her visit to the United Arab Emirates, Minister Anand will meet with Deputy Prime Minister and Minister of Foreign Affairs Sheikh Abdullah bin Zayed Al Nahyan.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The meetings in the UAE will focus on expanding commercial partnerships and collaboration in artificial intelligence, innovation, and defence.",
+      "source": "The Government of Canada"
+    }
+  ]
+}
