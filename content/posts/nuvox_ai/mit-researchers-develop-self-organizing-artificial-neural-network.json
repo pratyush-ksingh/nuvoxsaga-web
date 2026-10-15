@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-researchers-develop-self-organizing-artificial-neural-network",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT researchers develop self-organizing artificial neural network",
+  "excerpt": "A study published in PNAS shows that neural networks can build their own learning machinery without developer guidance.",
+  "bodyHtml": "<p>Scientists at MIT’s McGovern Institute for Brain Research and the K. Lisa Yang Integrative Computational Neuroscience Center published a paper in the journal PNAS on October 9, 2026. The researchers demonstrated that an artificial neural network can build its own learning machinery by organizing itself using simple rules for adjusting connections.</p>\n<p>The team created a network of randomly connected units that reshaped itself into an information-processing system. This model uses self-assembling motifs that reorganize through an optimization strategy similar to gradient descent, a method where connections are adjusted in response to errors to improve performance.</p>\n<p>The researchers found that this self-organizing network performed at a level similar to networks designed using back-propagation, an algorithm commonly used in modern machine learning. The team suggests that self-organization is a critical starting point for biological plausibility in artificial intelligence research.</p>",
+  "publishedAt": "2026-10-14T06:51:27Z",
+  "updatedAt": "2026-10-14T06:51:27Z",
+  "wordCount": 137,
+  "readingTimeMin": 1,
+  "topic": "How artificial neural networks build their own learning machinery",
+  "tags": [
+    "MIT",
+    "Artificial intelligence",
+    "Neuroscience"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT researchers developed a self-organizing artificial neural network.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "A study published in PNAS shows that neural networks can build their own learning machinery without developer guidance.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Scientists at MIT’s McGovern Institute for Brain Research and the K. Lisa Yang Integrative Computational Neuroscience Center published a paper in the journal PNAS on October 9, 2026.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers demonstrated that an artificial neural network can build its own learning machinery by organizing itself using simple rules for adjusting connections.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team created a network of randomly connected units that reshaped itself into an information-processing system.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The model uses self-assembling motifs that reorganize through an optimization strategy similar to gradient descent.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Gradient descent is a method where connections are adjusted in response to errors to improve performance.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The self-organizing network performed at a level similar to networks designed using back-propagation.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Back-propagation is an algorithm commonly used in modern machine learning.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team suggests that self-organization is a critical starting point for biological plausibility in artificial intelligence research.",
+      "source": "MIT News"
+    }
+  ]
+}

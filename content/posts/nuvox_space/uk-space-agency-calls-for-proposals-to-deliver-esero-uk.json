@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-3.webp",
+    "alt": "Illustration: classical columns at night under a clear starry sky",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-calls-for-proposals-to-deliver-esero-uk",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK Space Agency calls for proposals to deliver ESERO-UK",
+  "excerpt": "The agency and the European Space Agency are offering up to approximately 5,138,700 pounds in co-funding.",
+  "bodyHtml": "<p>The UK Space Agency announced on October 14, 2026, that it is inviting proposals to deliver ESERO-UK, which is a UK-wide space education and engagement programme, from financial years 2027/28 to 2029/30.</p>\n<p>The UK Space Agency is offering funding of up to £4.5 million, while the European Space Agency expects to provide up to €750,000, which is approximately £638,700, over the same period. The total co-funding envelope available is approximately £5,138,700 from April 2027 to March 2030.</p>\n<p>Applicants should submit proposals for the full UK Space Agency and European Space Agency co-funded envelope. Key dates for the grant call include a market engagement webinar on 28 October 2026.</p>\n<p>The application deadline is 11:59 pm UK time, 20 January 2027. Successful applicants will be notified on 24 February 2027, with the grant start date on 1 April 2027.</p>",
+  "publishedAt": "2026-10-14T14:07:28Z",
+  "updatedAt": "2026-10-14T14:07:28Z",
+  "wordCount": 137,
+  "readingTimeMin": 1,
+  "topic": "Guidance: Call for proposals - ESERO-UK",
+  "tags": [
+    "UK Space Agency",
+    "European Space Agency",
+    "ESERO-UK"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/call-for-proposals-esero-uk"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency is calling for proposals to deliver ESERO-UK.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency and the European Space Agency are offering up to approximately 5,138,700 pounds in co-funding.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency announced the call for proposals on October 14, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "ESERO-UK is a UK-wide space education and engagement programme.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The delivery period for ESERO-UK is from financial years 2027/28 to 2029/30.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency is offering funding of up to £4.5 million.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The European Space Agency expects to provide up to €750,000.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "€750,000 is approximately £638,700.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The total co-funding envelope available is approximately £5,138,700 from April 2027 to March 2030.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applicants should submit proposals for the full UK Space Agency and European Space Agency co-funded envelope.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "A market engagement webinar is scheduled for 28 October 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The application deadline is 11:59 pm UK time, 20 January 2027.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Successful applicants will be notified on 24 February 2027.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The grant start date is 1 April 2027.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-3.webp",
+    "alt": "Illustration: rows of server racks with small blue status lights in a dark data hall",
+    "credit": "AI illustration"
+  },
+  "slug": "google-releases-gemini-4-argon-frontier-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Google releases Gemini 4 Argon frontier model",
+  "excerpt": "Google said Gemini 4 Argon is now globally available for developers and enterprises via the API in AI Studio and Gemini platform.",
+  "bodyHtml": "<p>Google announced the global availability of Gemini 4 Argon on October 13, 2026. Google said the model is accessible for developers and enterprises via the API in AI Studio and Gemini platform, for Google AI Ultra subscribers in Google Antigravity, and for Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search.</p>\n<p>Google said the model launched at an introductory price of $2 per million input tokens and $10 per million output tokens, with cached input tokens at 95% off. Google stated that Argon ranks number 1 on the Vals Index, which measures model performance across critical economic sectors like finance, coding, legal, and tax work.</p>\n<p>Google stated that it is offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months, subject to eligibility, capacity, and selection.</p>",
+  "publishedAt": "2026-10-14T14:06:23Z",
+  "updatedAt": "2026-10-14T14:06:23Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "Gemini 4 Argon: Built to solve your hardest problems",
+  "tags": [
+    "Google",
+    "Gemini 4 Argon",
+    "AI Studio"
+  ],
+  "source": {
+    "name": "Google",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+  },
+  "sources": [
+    "Google"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google releases Gemini 4 Argon frontier model",
+      "source": "Google"
+    },
+    {
+      "claim": "Google said Gemini 4 Argon is now globally available for developers and enterprises via the API in AI Studio and Gemini platform.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google announced the global availability of Gemini 4 Argon on October 13, 2026.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google said the model is accessible for developers and enterprises via the API in AI Studio and Gemini platform, for Google AI Ultra subscribers in Google Antigravity, and for Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google said the model launched at an introductory price of $2 per million input tokens and $10 per million output tokens, with cached input tokens at 95% off.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google stated that Argon ranks number 1 on the Vals Index, which measures model performance across critical economic sectors like finance, coding, legal, and tax work.",
+      "source": "Google"
+    },
+    {
+      "claim": "Google stated that it is offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months, subject to eligibility, capacity, and selection.",
+      "source": "Google"
+    }
+  ]
+}

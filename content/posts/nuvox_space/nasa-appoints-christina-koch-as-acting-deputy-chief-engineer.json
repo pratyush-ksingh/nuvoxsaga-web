@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/space/nasa-appoints-christina-koch-as-acting-deputy-chief-engineer.webp",
+    "alt": "NASA astronaut Christina Koch stands inside Kennedy Space Center’s Vehicle Assembly Building on July 14, 2021, in front of the agency’s Space Launch System (SLS) rocket that ultimately powered the Orion spacecraft on the Artemis I mission....",
+    "credit": "NASA/Glenn Benson"
+  },
+  "slug": "nasa-appoints-christina-koch-as-acting-deputy-chief-engineer",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "NASA appoints Christina Koch as acting deputy chief engineer",
+  "excerpt": "The astronaut will transition to a management role on November 1, 2026, following the retirement of Katherine Van Hooser.",
+  "bodyHtml": "<p>NASA announced on October 13, 2026, that astronaut Christina Koch will serve as the agency&#x27;s acting deputy chief engineer. Koch will begin the new role on Sunday, November 1, 2026.</p>\n<p>The appointment follows the retirement of Katherine Van Hooser, who will conclude more than 35 years of service to the agency on Wednesday, October 21, 2026. In her new position, Koch will help lead the engineering community and support technical oversight, mission readiness, and engineering excellence across the agency’s programs and projects.</p>\n<p>With this transition to management astronaut status, Koch will no longer be eligible for future spaceflight assignments. Koch previously served as a mission specialist on the Artemis II mission in April 2026. Before her selection as an astronaut in 2013, her experience included scientific field engineering in Antarctica and the Arctic. She began her NASA career as an electrical engineer at the agency’s Goddard Space Flight Center in Greenbelt, Maryland, developing scientific instruments for space missions.</p>",
+  "publishedAt": "2026-10-14T07:09:48Z",
+  "updatedAt": "2026-10-14T07:09:48Z",
+  "wordCount": 158,
+  "readingTimeMin": 1,
+  "topic": "NASA Names Astronaut Christina Koch Acting Deputy Chief Engineer",
+  "tags": [
+    "Christina H. Koch",
+    "NASA",
+    "Artemis II"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA appoints Christina Koch as acting deputy chief engineer.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Koch will transition to a management role on November 1, 2026, following the retirement of Katherine Van Hooser.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 13, 2026, that astronaut Christina Koch will serve as the agency's acting deputy chief engineer.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Koch will begin the new role on Sunday, November 1, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The appointment follows the retirement of Katherine Van Hooser, who will conclude more than 35 years of service to the agency on Wednesday, October 21, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In her new position, Koch will help lead NASA's engineering community and support technical oversight, mission readiness, and engineering excellence across the agency’s programs and projects.",
+      "source": "NASA"
+    },
+    {
+      "claim": "With the transition to management astronaut status, Koch will no longer be eligible for future spaceflight assignments.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Koch previously served as a mission specialist on the Artemis II mission in April 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Before her selection as an astronaut in 2013, Koch's experience included scientific field engineering in Antarctica and the Arctic.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Koch began her NASA career as an electrical engineer at the agency’s Goddard Space Flight Center in Greenbelt, Maryland, developing scientific instruments for space missions.",
+      "source": "NASA"
+    }
+  ]
+}

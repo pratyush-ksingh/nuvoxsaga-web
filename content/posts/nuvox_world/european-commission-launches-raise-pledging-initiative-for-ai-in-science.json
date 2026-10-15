@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-launches-raise-pledging-initiative-for-ai-in-science",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission launches RAISE pledging initiative for AI in science",
+  "excerpt": "The initiative aims to mobilise private-sector and philanthropic support for European researchers working across artificial intelligence and science.",
+  "bodyHtml": "<p>The European Commission launched the RAISE (Resource for AI Science in Europe) pledging initiative on October 15, 2026, at the European AI in Science Summit in Dublin. The initiative aims to mobilise private-sector and philanthropic support for European researchers working across artificial intelligence and science, beyond what public funding alone can provide.</p>\n<p>Participating organisations must make a concrete pledge showing sustained support for AI in science beyond their direct commercial interests. Contributions may include financial support, access to computing infrastructure, AI models, datasets, cloud services, software licences, scholarships, fellowships, and training programmes. Initial commitments have been made by the Novo Nordisk Foundation, Nvidia, Elsevier, Sanofi, Frontiers, Mistral, and Google DeepMind. The initiative remains open to further contributions.</p>\n<p>As part of the initiative, Mistral AI and CERN launched a new partnership to develop what is set to become the largest foundation model in physics. The initiative will be reviewed annually, with pledges and progress presented at future editions of the European AI in Science Summit.</p>",
+  "publishedAt": "2026-10-15T16:52:05Z",
+  "updatedAt": "2026-10-15T16:52:05Z",
+  "wordCount": 164,
+  "readingTimeMin": 1,
+  "topic": "Commission launches RAISE pledging initiative to boost AI support for researchers across Europe",
+  "tags": [
+    "European Commission",
+    "Artificial Intelligence",
+    "RAISE",
+    "CERN"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2175"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission launched the RAISE (Resource for AI Science in Europe) pledging initiative.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The launch took place on October 15, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The launch took place at the European AI in Science Summit in Dublin.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The initiative aims to mobilise private-sector and philanthropic support for European researchers working across AI and science, beyond what public funding alone can provide.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Participating organisations must make a concrete pledge showing sustained support for AI in science beyond their direct commercial interests.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Contributions may include financial support, access to computing infrastructure, AI models, datasets, cloud services, software licences, scholarships, fellowships, and training programmes.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Initial commitments have been made by the Novo Nordisk Foundation, Nvidia, Elsevier, Sanofi, Frontiers, Mistral, and Google DeepMind.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The initiative remains open to further contributions.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "As part of the initiative, Mistral AI and CERN launched a new partnership to develop what is set to become the largest foundation model in physics.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The initiative will be reviewed annually, with pledges and progress presented at future editions of the European AI in Science Summit.",
+      "source": "The European Commission"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-announces-ecosystem-partners-for-city-operations-and-public-services",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA announces ecosystem partners for city operations and public services",
+  "excerpt": "Software and infrastructure partners are using NVIDIA AI technologies to develop digital twins and agents for urban management across the EMEA region.",
+  "bodyHtml": "<p>NVIDIA announced on October 13, 2026, that cities and software partners across the EMEA region are utilizing NVIDIA accelerated computing to build physical AI agents and digital twins. These applications can anticipate maintenance needs, guide urban planning and make public services more responsive.</p>\n<p>Software partners including ABA Technology, Akila, Galene AI, Honeywell Technologies, K2K, Linker Vision, Milestone, Onetera, ThinkDeep and Younite are using NVIDIA physical and agentic AI to develop solutions for city operations and public services. NVIDIA Cosmos open models and the NVIDIA Metropolis Blueprint for video search and summarization help agents interpret video and identify conditions, such as traffic congestion, equipment condition, underused spaces and safety hazards.</p>\n<p>System builders and infrastructure partners including Cisco, Dell Technologies, HPE, Lenovo and Supermicro are packaging NVIDIA accelerated computing, networking and storage into locally operated AI factories. These systems let cities customize and run intelligent applications locally while retaining control of their data, models and operations. NVIDIA and its ecosystem will present these technologies at the Smart City Expo World Congress in Barcelona, running Nov. 3-5.</p>",
+  "publishedAt": "2026-10-14T06:50:58Z",
+  "updatedAt": "2026-10-14T06:50:58Z",
+  "wordCount": 174,
+  "readingTimeMin": 1,
+  "topic": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+  "tags": [
+    "NVIDIA",
+    "Agentic AI",
+    "Digital Twin",
+    "Smart Spaces"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA announces ecosystem partners for city operations and public services.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Software and infrastructure partners are using NVIDIA AI technologies to develop digital twins and agents for urban management across the EMEA region.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on October 13, 2026, that cities and software partners across the EMEA region are utilizing NVIDIA accelerated computing to build physical AI agents and digital twins.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These applications can anticipate maintenance needs, guide urban planning and make public services more responsive.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Software partners including ABA Technology, Akila, Galene AI, Honeywell Technologies, K2K, Linker Vision, Milestone, Onetera, ThinkDeep and Younite are using NVIDIA physical and agentic AI to develop solutions for city operations and public services.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA Cosmos open models and the NVIDIA Metropolis Blueprint for video search and summarization help agents interpret video and identify conditions, such as traffic congestion, equipment condition, underused spaces and safety hazards.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "System builders and infrastructure partners including Cisco, Dell Technologies, HPE, Lenovo and Supermicro are packaging NVIDIA accelerated computing, networking and storage into locally operated AI factories.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These systems let cities customize and run intelligent applications locally while retaining control of their data, models and operations.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA and its ecosystem will present these technologies at the Smart City Expo World Congress in Barcelona, running Nov. 3-5.",
+      "source": "NVIDIA"
+    }
+  ]
+}

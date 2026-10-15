@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-commits-250-million-dollars-to-uk-agentic-ai-safety-research",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "NVIDIA commits 250 million dollars to UK agentic AI safety research",
+  "excerpt": "The five-year compute donation will support research into agentic foundation models and robotics safety across the United Kingdom.",
+  "bodyHtml": "<p>NVIDIA announced on October 13, 2026, a five-year compute donation valued at 250 million dollars to support agentic safety and security research in the United Kingdom. The program will provide 50 million dollars in compute access annually to the U.K. research community.</p>\n<p>The initiative will support work at the British Open-Ended Learning and Discovery Lab, the Science of Fundamental AI Research Lab and Imperial College London. Research programs will focus on secure agents, open-model security and real-world threat mitigations, with compute access delivered through U.K.-based NVIDIA Cloud Partners.</p>\n<p>The work will support secure sandboxes, reproducible research and safety assessment benchmarks. These efforts will include research conducted using NVIDIA OpenShell open, secure runtime software and the NVIDIA Sentry reference design.</p>\n<p>NVIDIA will fund compute access through U.K.-based NVIDIA Cloud Partners, with infrastructure hosted in the U.K. Provider selection, technical architecture and commercial terms are to be agreed.</p>",
+  "publishedAt": "2026-10-14T06:45:36Z",
+  "updatedAt": "2026-10-14T06:45:36Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
+  "tags": [
+    "NVIDIA",
+    "United Kingdom",
+    "AI safety"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA committed $250 million to UK agentic AI safety research.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The five-year compute donation will support research into agentic foundation models and robotics safety across the United Kingdom.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced the five-year compute donation valued at $250 million on October 13, 2026, to support agentic safety and security research in the United Kingdom.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The program will provide $50 million in compute access annually to the U.K. research community.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The initiative will support work at the British Open-Ended Learning and Discovery Lab, the Science of Fundamental AI Research Lab, and Imperial College London.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Research programs will focus on secure agents, open-model security, and real-world threat mitigations.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Compute access will be delivered through U.K.-based NVIDIA Cloud Partners.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The work will support secure sandboxes, reproducible research, and safety assessment benchmarks.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These efforts will include research conducted using NVIDIA OpenShell open, secure runtime software and the NVIDIA Sentry reference design.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA will fund compute access through U.K.-based NVIDIA Cloud Partners, with infrastructure hosted in the U.K.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Provider selection, technical architecture, and commercial terms are to be agreed.",
+      "source": "NVIDIA"
+    }
+  ]
+}

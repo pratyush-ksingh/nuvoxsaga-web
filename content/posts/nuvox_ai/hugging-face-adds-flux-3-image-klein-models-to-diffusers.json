@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-adds-flux-3-image-klein-models-to-diffusers",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Hugging Face adds FLUX.3 Image Klein models to Diffusers",
+  "excerpt": "The integration includes a distilled checkpoint for fast inference and a base model for fine-tuning.",
+  "bodyHtml": "<p>Hugging Face announced on October 15, 2026, that the FLUX.3 Image Klein collection from Black Forest Labs is available in Diffusers. The collection includes two open checkpoints: a distilled model for fast inference and a base model intended for fine-tuning.</p>\n<p>The distilled checkpoint generates a 1024 × 1024 image in about 2 seconds on an H100. This model runs in 16 steps with no CFG. The base model runs in 50 steps with CFG. Both models ship as a Modular Diffusers pipeline, allowing users to pop blocks out or add their own.</p>\n<p>The architecture uses Qwen3-VL as a text encoder. The system supports LoRA training scripts for both text-to-image and image editing. Users can load quantized variants, including fp8r and nvfp4, using from_single_file. The distilled checkpoint generates a 1024 × 1024 image in 16 steps by default, though users can pass height, width, or num_inference_steps to change these parameters.</p>",
+  "publishedAt": "2026-10-15T16:39:14Z",
+  "updatedAt": "2026-10-15T16:39:14Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "Welcome FLUX.3 Image Klein in Diffusers",
+  "tags": [
+    "Hugging Face",
+    "Black Forest Labs",
+    "FLUX.3",
+    "Diffusers"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/flux-3"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face adds FLUX.3 Image Klein models to Diffusers.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The integration includes a distilled checkpoint for fast inference and a base model for fine-tuning.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced on October 15, 2026, that the FLUX.3 Image Klein collection from Black Forest Labs is available in Diffusers.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The collection includes two open checkpoints: a distilled model for fast inference and a base model intended for fine-tuning.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The distilled checkpoint generates a 1024 × 1024 image in about 2 seconds on an H100.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The distilled checkpoint runs in 16 steps with no CFG.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The base model runs in 50 steps with CFG.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Both models ship as a Modular Diffusers pipeline, allowing users to pop blocks out or add their own.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The architecture uses Qwen3-VL as a text encoder.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system supports LoRA training scripts for both text-to-image and image editing.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Users can load quantized variants, including fp8r and nvfp4, using from_single_file.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The distilled checkpoint generates a 1024 × 1024 image in 16 steps by default, though users can pass height, width, or num_inference_steps to change these parameters.",
+      "source": "Hugging Face"
+    }
+  ]
+}

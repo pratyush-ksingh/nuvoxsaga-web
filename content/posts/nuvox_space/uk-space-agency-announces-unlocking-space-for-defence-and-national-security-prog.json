@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-2.webp",
+    "alt": "Illustration: conference hall with a large screen showing a starfield, empty seats",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-announces-unlocking-space-for-defence-and-national-security-prog",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK Space Agency announces Unlocking Space for Defence and National Security programme",
+  "excerpt": "The programme supports organisations working across civil and defence space by addressing identified barriers.",
+  "bodyHtml": "<p>The UK Space Agency announced the Unlocking Space for Defence and National Security programme on October 13, 2026. The programme supports UK organisations to unlock growth through civil-defence space opportunities.</p>\n<p>The programme supports the growth of organisations working across civil and defence space by addressing barriers identified through engagement with the space sector. It also works by strengthening alignment across government, defence and national security stakeholders.</p>\n<p>The programme has been developed based on engagement with the space sector to identify barriers for organisations aiming to operate across civil and defence space. This development occurred alongside cross-government alignment to map overlapping priorities and capability needs.</p>\n<p>The UK Space Agency stated that the programme supports organisations working across civil and defence space by addressing barriers identified through engagement with the space sector and by strengthening alignment across government, defence and national security stakeholders.</p>",
+  "publishedAt": "2026-10-14T07:10:17Z",
+  "updatedAt": "2026-10-14T07:10:17Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "Guidance: Unlocking Space for Defence and National Security (USD)",
+  "tags": [
+    "UK Space Agency",
+    "defence",
+    "national security"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/unlocking-space-for-defence-and-national-security-usd"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency announced the Unlocking Space for Defence and National Security programme.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme supports organisations working across civil and defence space by addressing identified barriers.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency announced the Unlocking Space for Defence and National Security programme on October 13, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme supports UK organisations to unlock growth through civil-defence space opportunities.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme supports the growth of organisations working across civil and defence space by addressing barriers identified through engagement with the space sector.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme strengthens alignment across government, defence and national security stakeholders.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme has been developed based on engagement with the space sector to identify barriers for organisations aiming to operate across civil and defence space.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The development of the programme occurred alongside cross-government alignment to map overlapping priorities and capability needs.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency stated that the programme supports organisations working across civil and defence space by addressing barriers identified through engagement with the space sector and by strengthening alignment across government, defence and national security stakeholders.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

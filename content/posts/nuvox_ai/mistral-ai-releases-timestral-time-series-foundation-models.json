@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-1.webp",
+    "alt": "Illustration: macro view of a glowing processor die with fine copper traces",
+    "credit": "AI illustration"
+  },
+  "slug": "mistral-ai-releases-timestral-time-series-foundation-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Mistral AI releases Timestral time-series foundation models",
+  "excerpt": "The new family of models provides probabilistic, multivariate forecasting and supports four sizes ranging from 5M to 209M parameters.",
+  "bodyHtml": "<p>Mistral AI announced the release of Timestral on October 15, 2026, a new family of foundation models designed for time-series data. The models are capable of delivering probabilistic, multivariate forecasts and are available in four sizes, ranging from 5M to 209M parameters.</p>\n<p>According to Mistral AI, the 209M parameter model ranks first on the GIFT-Eval, TIME, and fev-bench public benchmarks. The models are designed to run on standard server CPUs without requiring a GPU for inference. The architecture supports a context length of 32,768 time steps.</p>\n<p>The company has published a GitHub repository to allow users to run the models on their own data. For further adaptation, the models are available through Mistral Forge, which supports fine-tuning on proprietary data and architectural extensions.</p>",
+  "publishedAt": "2026-10-15T16:20:40Z",
+  "updatedAt": "2026-10-15T16:20:40Z",
+  "wordCount": 123,
+  "readingTimeMin": 1,
+  "topic": "Introducing Timestral",
+  "tags": [
+    "Mistral AI",
+    "Timestral",
+    "Time-series"
+  ],
+  "source": {
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/news/timestral/"
+  },
+  "sources": [
+    "Mistral AI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Mistral AI releases Timestral time-series foundation models.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The new family of models provides probabilistic, multivariate forecasting.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The models support four sizes ranging from 5M to 209M parameters.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral AI announced the release of Timestral on October 15, 2026.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Timestral is a new family of foundation models designed for time-series data.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "According to Mistral AI, the 209M parameter model ranks first on the GIFT-Eval, TIME, and fev-bench public benchmarks.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The models are designed to run on standard server CPUs without requiring a GPU for inference.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The architecture supports a context length of 32,768 time steps.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The company has published a GitHub repository to allow users to run the models on their own data.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "For further adaptation, the models are available through Mistral Forge.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral Forge supports fine-tuning on proprietary data and architectural extensions.",
+      "source": "Mistral AI"
+    }
+  ]
+}

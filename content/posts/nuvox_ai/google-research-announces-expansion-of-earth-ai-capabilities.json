@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-announces-expansion-of-earth-ai-capabilities",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Google Research announces expansion of Earth AI capabilities",
+  "excerpt": "The company is providing new access to geospatial analysis tools and committing $10 million in funding for crisis resilience and public health.",
+  "bodyHtml": "<p>Google Research announced on October 14, 2026, the expansion of experimental capabilities for Google Earth AI. The platform provides planetary intelligence for organizations and society, enabling users to forecast public health threats and accelerate clean energy investments.</p>\n<p>The company is offering three new ways to access these features, including an early access experimental feature in Google Earth, a planetary prediction engine for risk assessments, and an experimental agent-to-agent API for developers. These tools integrate geospatial reasoning agent skills and provide access to satellite imagery parsing, routing, and demographic embeddings.</p>\n<p>Google.org is providing $10 million in funding to support social impact efforts focused on crisis resilience and public health. This includes $2 million allocated to The Milken Institute to address infrastructure bottlenecks for affordable housing, clean energy, broadband, and safe water systems.</p>",
+  "publishedAt": "2026-10-15T02:05:43Z",
+  "updatedAt": "2026-10-15T02:05:43Z",
+  "wordCount": 131,
+  "readingTimeMin": 1,
+  "topic": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+  "tags": [
+    "Google Research",
+    "Google Earth AI",
+    "Google.org"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research announced the expansion of Earth AI capabilities.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The company is providing new access to geospatial analysis tools and committing $10 million in funding for crisis resilience and public health.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research announced the expansion on October 14, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The Google Earth AI platform provides planetary intelligence for organizations and society, enabling users to forecast public health threats and accelerate clean energy investments.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The company is offering three new ways to access these features, including an early access experimental feature in Google Earth, a planetary prediction engine for risk assessments, and an experimental agent-to-agent API for developers.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "These tools integrate geospatial reasoning agent skills and provide access to satellite imagery parsing, routing, and demographic embeddings.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google.org is providing $10 million in funding to support social impact efforts focused on crisis resilience and public health.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The funding includes $2 million allocated to The Milken Institute to address infrastructure bottlenecks for affordable housing, clean energy, broadband, and safe water systems.",
+      "source": "Google Research"
+    }
+  ]
+}

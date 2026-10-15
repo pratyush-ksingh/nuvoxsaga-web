@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "microsoft-research-releases-magnetar-zero-knowledge-virtual-machine",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Microsoft Research releases Magnetar zero-knowledge virtual machine",
+  "excerpt": "The system proves program execution for RISC-V architectures using standard hash functions for security.",
+  "bodyHtml": "<p>Microsoft Research announced Magnetar on October 15, 2026, a zero-knowledge virtual machine, or zkVM. The system allows developers to write programs in Rust, Go, or C and receive a cryptographic certificate that the program ran correctly. Magnetar proves the execution of RISC-V, an open processor architecture with mature compilers for every mainstream language.</p>\n<p>According to Microsoft Research, Magnetar proves 7.2 to 8.7 million processor instructions per second on a laptop. Across 15 benchmark programs, the system is 10 to 39 times faster on average than the fastest existing zkVMs on the same machine. An optimized version of Magnetar proves 9.5–12.8 million cycles per second, and its proofs verify in about 12 milliseconds.</p>\n<p>The system relies on standard hash functions such as SHA-256 or SHA-3. It requires no elliptic curves, no lattices, no special-purpose hash functions, no trusted setup, and no unproven conjecture about error-correcting codes.</p>",
+  "publishedAt": "2026-10-15T16:07:50Z",
+  "updatedAt": "2026-10-15T16:07:50Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "Proof-based general-purpose computing with Magnetar",
+  "tags": [
+    "Microsoft Research",
+    "Magnetar",
+    "cryptography",
+    "RISC-V"
+  ],
+  "source": {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/"
+  },
+  "sources": [
+    "Microsoft Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Microsoft Research announced Magnetar on October 15, 2026.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Magnetar is a zero-knowledge virtual machine, or zkVM.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Developers can write programs in Rust, Go, or C and receive a cryptographic certificate that the program ran correctly.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Magnetar proves the execution of RISC-V, an open processor architecture with mature compilers for every mainstream language.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Magnetar proves 7.2 to 8.7 million processor instructions per second on a laptop.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Across 15 benchmark programs, it is 10 to 39 times faster on average than the fastest existing zkVMs on the same machine.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "An optimized Magnetar proves 9.5–12.8 million cycles per second.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Its proofs verify in about 12 milliseconds.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The system relies on standard hash functions such as SHA-256 or SHA-3.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "It requires no elliptic curves, no lattices, no special-purpose hash functions, no trusted setup, and no unproven conjecture about error-correcting codes.",
+      "source": "Microsoft Research"
+    }
+  ]
+}

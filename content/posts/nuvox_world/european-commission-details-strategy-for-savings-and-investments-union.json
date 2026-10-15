@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-details-strategy-for-savings-and-investments-union",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission details strategy for Savings and Investments Union",
+  "excerpt": "The strategy aims to create a connected financing ecosystem across the European Union to improve opportunities for citizens and businesses.",
+  "bodyHtml": "<p>The European Commission announced on October 15, 2026, that it is implementing the Savings and Investments Union (SIU) strategy. Adopted in March 2025, the strategy intends to establish a connected financing ecosystem across the European Union to provide citizens with better saving and investment opportunities while allowing businesses to scale.</p>\n<p>As part of the initiative, the Commission introduced the first-ever European Financial Literacy Strategy in September 2025 to support financial education across Member States. The Commission intends to identify successful initiatives across the European Union, increase their visibility and help scale them up.</p>\n<p>Additionally, the Commission adopted a recommendation in September 2025 to promote the creation of Savings and Investment Accounts. These accounts are designed to allow individuals to invest in funds, shares, or bonds in an accessible manner. The Commission also adopted a package on supplementary pensions in November 2025 to help citizens prepare for their financial future.</p>",
+  "publishedAt": "2026-10-15T16:51:34Z",
+  "updatedAt": "2026-10-15T16:51:34Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "Speech by Commissioner Albuquerque (by video message) for the Malta's Financial Wellbeing Conference 2026: From Access to Trust",
+  "tags": [
+    "European Commission",
+    "Savings and Investments Union",
+    "Finance"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2176"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission detailed its strategy for the Savings and Investments Union.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The strategy aims to create a connected financing ecosystem across the European Union to improve opportunities for citizens and businesses.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced on October 15, 2026, that it is implementing the Savings and Investments Union (SIU) strategy.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Savings and Investments Union strategy was adopted in March 2025.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The strategy intends to establish a connected financing ecosystem across the European Union to provide citizens with better saving and investment opportunities while allowing businesses to scale.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "As part of the initiative, the Commission introduced the first-ever European Financial Literacy Strategy in September 2025 to support financial education across Member States.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission intends to identify successful initiatives across the European Union, increase their visibility, and help scale them up.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission adopted a recommendation in September 2025 to promote the creation of Savings and Investment Accounts.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Savings and Investment Accounts are designed to allow individuals to invest in funds, shares, or bonds in an accessible manner.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission adopted a package on supplementary pensions in November 2025 to help citizens prepare for their financial future.",
+      "source": "The European Commission"
+    }
+  ]
+}

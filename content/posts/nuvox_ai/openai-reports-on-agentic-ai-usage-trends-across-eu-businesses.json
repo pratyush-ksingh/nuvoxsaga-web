@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-reports-on-agentic-ai-usage-trends-across-eu-businesses",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "OpenAI reports on agentic AI usage trends across EU businesses",
+  "excerpt": "Weekly active users of Codex and ChatGPT Work in EU small and medium businesses grew more than eightfold since May 2026.",
+  "bodyHtml": "<p>OpenAI published a report on October 14, 2026, regarding the use of agentic tools, which allow users to carry out tasks from planning through completion, across the European Union. According to the report, which focuses on a sample of ChatGPT Enterprise and Business accounts, Codex and ChatGPT Work account for more than half of output tokens within the EU sample.</p>\n<p>The report states that since May 2026, weekly active users of Codex and ChatGPT Work among EU small and medium businesses, defined as businesses with 200 or fewer associated users, grew more than eightfold. Usage intensity varies by country, with the share of output tokens generated through these tools ranging from 22% in Slovenia to 85% in Lithuania.</p>\n<p>OpenAI found that frontier firms in the EU generated more than four times as many output tokens per active user as typical EU firms in September. However, frontier firms outside the EU generated more than twice as many output tokens per active user as frontier EU firms. Additionally, EU-based firms represented only 10% of the frontier firms globally.</p>",
+  "publishedAt": "2026-10-14T12:05:22Z",
+  "updatedAt": "2026-10-14T12:05:22Z",
+  "wordCount": 176,
+  "readingTimeMin": 1,
+  "topic": "The EU’s next chapter in AI is agentic",
+  "tags": [
+    "OpenAI",
+    "EU",
+    "ChatGPT",
+    "Codex"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI reports on agentic AI usage trends across EU businesses.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Weekly active users of Codex and ChatGPT Work in EU small and medium businesses grew more than eightfold since May 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI published a report on October 14, 2026, regarding the use of agentic tools across the European Union.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Agentic tools allow users to carry out tasks from planning through completion.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The report focuses on a sample of ChatGPT Enterprise and Business accounts.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Codex and ChatGPT Work account for more than half of output tokens within the EU sample.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Small and medium businesses are defined as businesses with 200 or fewer associated users.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Usage intensity of agentic AI varies by country across the EU.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The share of output tokens generated through agentic tools ranged from 22% in Slovenia to 85% in Lithuania.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Frontier firms in the EU generated more than four times as many output tokens per active user as typical EU firms in September.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Frontier firms outside the EU generated more than twice as many output tokens per active user as frontier EU firms.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "EU-based firms represented only 10% of the frontier firms globally.",
+      "source": "OpenAI"
+    }
+  ]
+}

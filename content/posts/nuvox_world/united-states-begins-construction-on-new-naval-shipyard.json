@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "united-states-begins-construction-on-new-naval-shipyard",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "United States begins construction on new naval shipyard",
+  "excerpt": "The facility is the first new shipyard to be established in more than eight decades and will focus on submarine production.",
+  "bodyHtml": "<p>The White House announced on October 13, 2026, that construction has commenced on a new naval shipyard in the United States. This facility is the first of its kind to be built in more than eight decades and is intended to increase the nation&#x27;s capacity for repairing submarines and aircraft carriers.</p>\n<p>The project is part of a broader administration effort to expand the American shipbuilding industrial base. According to the White House, the administration has secured over $150 billion in investments for the shipbuilding industry, and a National Security Presidential Memorandum signed in August directs the Department of War to pursue further investments in the sector.</p>\n<p>The new shipyard will specifically build the next generation of American submarines. The administration stated that these actions are intended to ensure the fleet is prepared to meet every challenge of the age.</p>",
+  "publishedAt": "2026-10-14T07:27:59Z",
+  "updatedAt": "2026-10-14T07:27:59Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "Presidential Message on the Birthday of the United States Navy",
+  "tags": [
+    "United States Navy",
+    "shipbuilding",
+    "Department of War"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/10/presidential-message-on-the-birthday-of-the-united-states-navy/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "United States begins construction on new naval shipyard",
+      "source": "The White House"
+    },
+    {
+      "claim": "The facility is the first new shipyard to be established in more than eight decades",
+      "source": "The White House"
+    },
+    {
+      "claim": "The facility will focus on submarine production.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House announced on October 13, 2026, that construction has commenced on a new naval shipyard in the United States.",
+      "source": "The White House"
+    },
+    {
+      "claim": "This facility is the first of its kind to be built in more than eight decades",
+      "source": "The White House"
+    },
+    {
+      "claim": "This facility is intended to increase the nation's capacity for repairing submarines and aircraft carriers.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The project is part of a broader administration effort to expand the American shipbuilding industrial base.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration has secured over $150 billion in investments for the shipbuilding industry.",
+      "source": "The White House"
+    },
+    {
+      "claim": "A National Security Presidential Memorandum signed in August directs the Department of War to pursue further investments in the sector.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The new shipyard will specifically build the next generation of American submarines.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration stated that these actions are intended to ensure the fleet is prepared to meet every challenge of the age.",
+      "source": "The White House"
+    }
+  ]
+}

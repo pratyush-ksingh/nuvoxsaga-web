@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/space/nasa-confirms-artemis-ii-heat-shield-performance.webp",
+    "alt": "NASA confirms Artemis II heat shield performance",
+    "credit": "NASA"
+  },
+  "slug": "nasa-confirms-artemis-ii-heat-shield-performance",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA confirms Artemis II heat shield performance",
+  "excerpt": "Engineering analysis shows the Orion spacecraft heat shield performed as expected during the mission's return to Earth.",
+  "bodyHtml": "<p>NASA announced on October 15, 2026, that a post-mission analysis of the Orion spacecraft heat shield used during the Artemis II mission confirmed the system performed as expected. The agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere.</p>\n<p>Engineers determined that modifying the reentry trajectory to shorten the maximum downrange distance reduced cracking and char loss on the heat shield by a factor of ten compared to the Artemis I mission. Post-flight inspections revealed only nine spots of char loss of varying sizes on the Artemis II heat shield dish, compared to 103 during Artemis I.</p>\n<p>The agency is continuing with heat shield sample extraction at NASA Marshall and subsequent material test and assessment and thermal analysis. Additionally, the team is comparing post-flight laser scans of the heat shield surface to pre-flight measurements to determine material recession, which will then be compared to analysis predictions.</p>",
+  "publishedAt": "2026-10-15T16:47:00Z",
+  "updatedAt": "2026-10-15T16:47:00Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
+  "tags": [
+    "NASA",
+    "Artemis II",
+    "Orion",
+    "heat shield"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA confirms Artemis II heat shield performance.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Engineering analysis shows the Orion spacecraft heat shield performed as expected during the mission's return to Earth.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 15, 2026, that a post-mission analysis of the Orion spacecraft heat shield used during the Artemis II mission confirmed the system performed as expected.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Engineers determined that modifying the reentry trajectory to shorten the maximum downrange distance reduced cracking and char loss on the heat shield by a factor of ten compared to the Artemis I mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Post-flight inspections revealed only nine spots of char loss of varying sizes on the Artemis II heat shield dish, compared to 103 during Artemis I.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency is continuing with heat shield sample extraction at NASA Marshall and subsequent material test and assessment and thermal analysis.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The team is comparing post-flight laser scans of the heat shield surface to pre-flight measurements to determine material recession, which will then be compared to analysis predictions.",
+      "source": "NASA"
+    }
+  ]
+}

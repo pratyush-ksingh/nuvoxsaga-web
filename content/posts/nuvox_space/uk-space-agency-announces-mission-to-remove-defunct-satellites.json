@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-announces-mission-to-remove-defunct-satellites",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "UK Space Agency announces mission to remove defunct satellites",
+  "excerpt": "The government is providing over £60 million to clear two satellites from orbit by 2032 using a new spacecraft.",
+  "bodyHtml": "<p>The UK Space Agency announced on October 15, 2026, a national mission to remove two defunct satellites from orbit by 2032. The government is backing the project with more than £60 million to develop a spacecraft capable of grabbing debris and releasing it into the atmosphere to burn up.</p>\n<p>The spacecraft is scheduled to launch in 2029 from Saxavord Spaceport in Scotland. The UK Space Agency is working with ClearSpace UK as its industry delivery partner to develop the robotic capture technology for the mission.</p>\n<p>The UK Space Agency has opened a competition for the public to name the spacecraft. The mission is intended to support the development of in-orbit servicing, assembly and manufacturing capabilities.</p>",
+  "publishedAt": "2026-10-15T16:47:31Z",
+  "updatedAt": "2026-10-15T16:47:31Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "World-first mission puts UK expertise to work to help clean up space",
+  "tags": [
+    "UK Space Agency",
+    "ClearSpace UK",
+    "Saxavord Spaceport"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/news/world-first-mission-puts-uk-expertise-to-work-to-help-clean-up-space"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "UK Space Agency announces mission to remove defunct satellites",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The government is providing over £60 million to clear two satellites from orbit by 2032 using a new spacecraft.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency announced on October 15, 2026, a national mission to remove two defunct satellites from orbit by 2032.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The government is backing the project with more than £60 million to develop a spacecraft capable of grabbing debris and releasing it into the atmosphere to burn up.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The spacecraft is scheduled to launch in 2029 from Saxavord Spaceport in Scotland.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency is working with ClearSpace UK as its industry delivery partner to develop the robotic capture technology for the mission.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency has opened a competition for the public to name the spacecraft.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The mission is intended to support the development of in-orbit servicing, assembly and manufacturing capabilities.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

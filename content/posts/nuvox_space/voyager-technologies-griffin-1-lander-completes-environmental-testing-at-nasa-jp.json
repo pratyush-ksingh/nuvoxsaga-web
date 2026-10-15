@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "voyager-technologies-griffin-1-lander-completes-environmental-testing-at-nasa-jp",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "Voyager Technologies Griffin-1 lander completes environmental testing at NASA JPL",
+  "excerpt": "The lunar lander passed simulations of space conditions and launch vibrations at the agency's Jet Propulsion Laboratory.",
+  "bodyHtml": "<p>NASA’s Jet Propulsion Laboratory announced on October 13, 2026, that the Voyager Technologies Griffin-1 lunar lander has completed a series of environmental tests. The spacecraft was put through weeks of tests to show it can survive the conditions of launch through lunar landing.</p>\n<p>Engineers subjected the 2,789-pound (1,265-kilogram) spacecraft to vibration testing and acoustic testing. Giant horns powered by compressed gaseous nitrogen blasted the spacecraft with up to 153 decibels inside a sealed acoustic chamber at JPL. Additionally, the lander spent about two weeks in a thermal vacuum chamber, where it alternately baked at up to 167 degrees Fahrenheit (75 degrees Celsius) and froze at temperatures as low as minus 148 F (minus 100 C).</p>\n<p>The Griffin-1 spacecraft will carry 10 science and technology demonstrations from six countries. After proving its mettle at JPL, Griffin-1 has returned to Voyager Lunar Systems’ facility for final assembly. Next up: launch-readiness operations before shipment to Cape Canaveral.</p>",
+  "publishedAt": "2026-10-14T07:15:11Z",
+  "updatedAt": "2026-10-14T07:15:11Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+  "tags": [
+    "NASA",
+    "JPL",
+    "Voyager Technologies",
+    "Griffin-1"
+  ],
+  "source": {
+    "name": "NASA's Jet Propulsion Laboratory",
+    "url": "https://www.jpl.nasa.gov/news/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission"
+  },
+  "sources": [
+    "NASA's Jet Propulsion Laboratory"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Voyager Technologies' Griffin-1 lander completed environmental testing at NASA JPL.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The lunar lander passed simulations of space conditions and launch vibrations at NASA's Jet Propulsion Laboratory.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "NASA’s Jet Propulsion Laboratory announced on October 13, 2026, that the Voyager Technologies Griffin-1 lunar lander completed a series of environmental tests.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The spacecraft was put through weeks of tests to show it can survive the conditions of launch through lunar landing.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Engineers subjected the 2,789-pound (1,265-kilogram) spacecraft to vibration testing and acoustic testing.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Giant horns powered by compressed gaseous nitrogen blasted the spacecraft with up to 153 decibels inside a sealed acoustic chamber at JPL.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The lander spent about two weeks in a thermal vacuum chamber, where it alternately baked at up to 167 degrees Fahrenheit (75 degrees Celsius) and froze at temperatures as low as minus 148 F (minus 100 C).",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The Griffin-1 spacecraft will carry 10 science and technology demonstrations from six countries.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "After completing tests at JPL, Griffin-1 returned to Voyager Lunar Systems’ facility for final assembly.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "The next steps are launch-readiness operations before shipment to Cape Canaveral.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    }
+  ]
+}

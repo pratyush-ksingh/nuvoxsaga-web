@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-starts-operational-service-of-meteosat-13-infrared-sounder",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "EUMETSAT starts operational service of Meteosat-13 infrared sounder",
+  "excerpt": "The instrument provides profiles of temperature and humidity at different heights every 30 minutes.",
+  "bodyHtml": "<p>EUMETSAT stated on October 13, 2026, that the Infrared Sounder on Meteosat-13 entered operational service. According to EUMETSAT, the instrument is the first of its kind over Europe.</p>\n<p>The instrument provides profiles of temperature and humidity at different heights every 30 minutes, with the clearest view in cloud-free skies and down to the tops of clouds. EUMETSAT announced that its data are operational and available to weather services and other users across Europe and beyond starting on 13 October.</p>\n<p>Bojan Bojkov, head of EUMETSAT’s Remote Sensing and Products Division, spoke about the observations. Bojkov said the observations give a new and more complete view of how humidity moves through the atmosphere, how air masses mix, and how these intricate parts work together.</p>",
+  "publishedAt": "2026-10-14T14:08:35Z",
+  "updatedAt": "2026-10-14T14:08:35Z",
+  "wordCount": 122,
+  "readingTimeMin": 1,
+  "topic": "Meteosat Third Generation in 4D",
+  "tags": [
+    "EUMETSAT",
+    "Meteosat-13",
+    "Infrared Sounder"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/features/meteosat-third-generation-4d"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EUMETSAT starts operational service of Meteosat-13 infrared sounder.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The Meteosat-13 infrared sounder provides profiles of temperature and humidity at different heights every 30 minutes.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT stated on October 13, 2026, that the Infrared Sounder on Meteosat-13 entered operational service.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "According to EUMETSAT, the Meteosat-13 infrared sounder is the first of its kind over Europe.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The instrument provides profiles of temperature and humidity at different heights every 30 minutes, with the clearest view in cloud-free skies and down to the tops of clouds.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT announced that the sounder's data are operational and available to weather services and other users across Europe and beyond starting on 13 October.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Bojan Bojkov is the head of EUMETSAT’s Remote Sensing and Products Division.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Bojan Bojkov spoke about the observations.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Bojkov said the observations give a new and more complete view of how humidity moves through the atmosphere, how air masses mix, and how these intricate parts work together.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

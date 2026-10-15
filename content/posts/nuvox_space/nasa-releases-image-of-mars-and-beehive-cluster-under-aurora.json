@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-image-of-mars-and-beehive-cluster-under-aurora",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases image of Mars and Beehive cluster under aurora",
+  "excerpt": "The photograph was captured near Lansjärv, Sweden, following a solar eruption on October 10, 2026.",
+  "bodyHtml": "<p>NASA published an image on October 14, 2026, showing Mars and the Beehive cluster, also known as M44 or Praesepe, positioned beneath an auroral curtain. The photograph was taken near Lansjärv, Sweden.</p>\n<p>According to NASA, an eruption off the Sun reached Earth on October 10, 2026, causing disturbances in the magnetic field. These disturbances resulted in energetic particles colliding with atmospheric molecules to create the aurora.</p>\n<p>At the time of the capture, Mars appeared closest to the center of the Beehive cluster. The Beehive cluster is a swarm of young stars. Their rotation periods have helped humanity learn about how stars spin slower over time as they lose mass through their stellar winds.</p>",
+  "publishedAt": "2026-10-14T07:04:31Z",
+  "updatedAt": "2026-10-14T07:04:31Z",
+  "wordCount": 113,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 14 – Mars and the Beehive Under an Aurora",
+  "tags": [
+    "NASA",
+    "Mars",
+    "Beehive cluster",
+    "aurora"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-14-mars-and-the-beehive-under-an-aurora/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released an image of Mars and the Beehive cluster under an aurora.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph was captured near Lansjärv, Sweden, following a solar eruption on October 10, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA published the image on October 14, 2026, showing Mars and the Beehive cluster, also known as M44 or Praesepe, positioned beneath an auroral curtain.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph was taken near Lansjärv, Sweden.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, an eruption off the Sun reached Earth on October 10, 2026, causing disturbances in the magnetic field.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Energetic particles from the eruption collided with atmospheric molecules to create the aurora.",
+      "source": "NASA"
+    },
+    {
+      "claim": "At the time of the capture, Mars appeared closest to the center of the Beehive cluster.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Beehive cluster is a swarm of young stars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The rotation periods of the Beehive cluster's stars have helped humanity learn about how stars spin slower over time as they lose mass through stellar winds.",
+      "source": "NASA"
+    }
+  ]
+}

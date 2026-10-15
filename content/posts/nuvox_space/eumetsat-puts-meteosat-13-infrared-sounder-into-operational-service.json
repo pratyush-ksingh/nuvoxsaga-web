@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-puts-meteosat-13-infrared-sounder-into-operational-service",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "EUMETSAT puts Meteosat-13 infrared sounder into operational service",
+  "excerpt": "The instrument measures atmospheric temperature, humidity, and trace gases to support weather warnings for EUMETSAT Member States.",
+  "bodyHtml": "<p>EUMETSAT announced on October 13, 2026, that the Infrared Sounder on the Meteosat-13 spacecraft has entered operational service. The spacecraft, which carries the sounder, was launched on 1 July 2025. The Infrared Sounder is the first of its kind that Europe has placed in geostationary orbit and is the first for any global operational weather observation programme.</p>\n<p>The instrument measures nearly 2,000 infrared wavelengths to observe temperature, humidity, and trace gases. Every 30 minutes, the measurements can be used to detail atmospheric conditions and to track ozone, dust, and volcanic ash. EUMETSAT Director-General Phil Evans said national weather services across EUMETSAT Member States can use these data to detect signs of atmospheric instability.</p>\n<p>Meteosat-13 joins the imager Meteosat-12 in providing operational data. A second imager satellite, MTG-I2, is being commissioned and will scan Europe every 2.5 minutes. A second instrument on board Meteosat-13 serves the European Union’s Copernicus Sentinel-4 air quality mission, which is expected to start delivering operational data in 2027.</p>",
+  "publishedAt": "2026-10-14T07:26:34Z",
+  "updatedAt": "2026-10-14T07:26:34Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "First European geostationary sounder enters service",
+  "tags": [
+    "EUMETSAT",
+    "Meteosat-13",
+    "weather"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/first-european-geostationary-sounder-enters-service"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EUMETSAT puts Meteosat-13 infrared sounder into operational service.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The instrument measures atmospheric temperature, humidity, and trace gases to support weather warnings for EUMETSAT Member States.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT announced on October 13, 2026, that the Infrared Sounder on the Meteosat-13 spacecraft has entered operational service.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The spacecraft, which carries the sounder, was launched on 1 July 2025.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The Infrared Sounder is the first of its kind that Europe has placed in geostationary orbit and is the first for any global operational weather observation programme.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The instrument measures nearly 2,000 infrared wavelengths to observe temperature, humidity, and trace gases.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Every 30 minutes, the measurements can be used to detail atmospheric conditions and to track ozone, dust, and volcanic ash.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT Director-General Phil Evans said national weather services across EUMETSAT Member States can use these data to detect signs of atmospheric instability.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Meteosat-13 joins the imager Meteosat-12 in providing operational data.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "A second imager satellite, MTG-I2, is being commissioned and will scan Europe every 2.5 minutes.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "A second instrument on board Meteosat-13 serves the European Union’s Copernicus Sentinel-4 air quality mission, which is expected to start delivering operational data in 2027.",
+      "source": "EUMETSAT"
+    }
+  ]
+}
