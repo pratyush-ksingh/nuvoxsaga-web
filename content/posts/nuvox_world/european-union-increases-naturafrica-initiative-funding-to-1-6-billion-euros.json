@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-union-increases-naturafrica-initiative-funding-to-1-6-billion-euros",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Union increases NaturAfrica initiative funding to 1.6 billion euros",
+  "excerpt": "Executive Vice-President Teresa Ribera announced the funding boost at the COP17 biodiversity conference in Yerevan.",
+  "bodyHtml": "<p>Executive Vice-President Teresa Ribera announced on October 16, 2026, that the European Union has increased its contribution to the flagship NaturAfrica initiative to a total of 1.6 billion euros. This figure represents an increase of 200 million euros over the initial commitment for the project.</p>\n<p>The additional funding is allocated to the Greater Zakouma landscape in Chad, Fouta Djallon in Guinea, and various transboundary landscapes located in the Congo Basin and southern Africa. Ribera stated that the European Union is on track to double its international biodiversity finance to 7 billion euros for the 2021–2027 period.</p>\n<p>The European Union also announced the launch of a Group of Friends on Nature Credits at the conference. This initiative is intended to promote a sustainable finance taxonomy and strengthen international cooperation regarding high-integrity nature credits with strong safeguards and fair benefit-sharing with local communities.</p>",
+  "publishedAt": "2026-10-16T12:16:56Z",
+  "updatedAt": "2026-10-16T12:16:56Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "Speech by Executive Vice-President Teresa Ribera at 17th Conference of the Parties to the United Nations Convention on Biological Diversity (COP17)",
+  "tags": [
+    "European Union",
+    "NaturAfrica",
+    "COP17",
+    "biodiversity"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2191"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Union has increased its NaturAfrica initiative funding to 1.6 billion euros.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Executive Vice-President Teresa Ribera announced the NaturAfrica funding boost at the COP17 biodiversity conference in Yerevan.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Executive Vice-President Teresa Ribera made the announcement regarding NaturAfrica on October 16, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The 1.6 billion euro total represents an increase of 200 million euros over the initial commitment.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "New funding is allocated to the Greater Zakouma landscape in Chad, Fouta Djallon in Guinea, and transboundary landscapes in the Congo Basin and southern Africa.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Ribera stated that the European Union is on track to double its international biodiversity finance to 7 billion euros over the 2021–2027 period.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Union announced the launch of a Group of Friends on Nature Credits at the conference.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Group of Friends on Nature Credits is intended to promote a sustainable finance taxonomy and strengthen international cooperation on high-integrity nature credits with safeguards and fair benefit-sharing for local communities.",
+      "source": "The European Commission"
+    }
+  ]
+}

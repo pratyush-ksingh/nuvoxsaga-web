@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-1.webp",
+    "alt": "Illustration: macro view of a glowing processor die with fine copper traces",
+    "credit": "AI illustration"
+  },
+  "slug": "meta-releases-muse-spark-open-multimodal-mixture-of-experts-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Meta releases Muse Spark Open multimodal mixture-of-experts model",
+  "excerpt": "The 816B parameter model supports text, image, audio, and video inputs for agentic coding tasks.",
+  "bodyHtml": "<p>Hugging Face announced on October 15, 2026, the release of Muse Spark Open, an open-weight frontier multimodal mixture-of-experts model developed by Meta. The model features approximately 816 billion total parameters, with 42 billion active parameters per token.</p>\n<p>The model is designed for agentic coding tasks such as reading codebases, debugging, and tool calling. It supports text, image, audio, and video inputs and provides a context window of up to 1 million tokens.</p>\n<p>The model architecture utilizes 256 experts per layer, with a router selecting 8 experts for each token. It is available in BF16 and NVFP4 checkpoint formats, with the latter designed for NVIDIA Blackwell GPUs. Users can deploy the model via integrations including llama.cpp, SGLang, and vLLM.</p>",
+  "publishedAt": "2026-10-16T12:09:12Z",
+  "updatedAt": "2026-10-16T12:09:12Z",
+  "wordCount": 118,
+  "readingTimeMin": 1,
+  "topic": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+  "tags": [
+    "Meta",
+    "Hugging Face",
+    "Muse Spark Open"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/meta-muse-spark-open"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Meta releases Muse Spark Open, a multimodal mixture-of-experts model (headline)",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced on October 15, 2026 the release of Muse Spark Open",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model is open-weight and frontier, developed by Meta",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model has approximately 816 billion total parameters",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "42 billion active parameters per token",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Designed for agentic coding tasks such as reading codebases, debugging, and tool calling",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Supports text, image, audio, and video inputs",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Context window of up to 1 million tokens",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "256 experts per layer, router selects 8 per token",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Available in BF16 and NVFP4 checkpoint formats",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "NVFP4 is designed for NVIDIA Blackwell GPUs",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Users can deploy the model via integrations including llama.cpp, SGLang, and vLLM",
+      "source": "Hugging Face"
+    }
+  ]
+}

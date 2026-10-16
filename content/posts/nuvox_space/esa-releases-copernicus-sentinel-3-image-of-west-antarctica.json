@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-releases-copernicus-sentinel-3-image-of-west-antarctica",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "ESA releases Copernicus Sentinel-3 image of West Antarctica",
+  "excerpt": "The satellite imagery captures the sea ice extent near the Antarctic Peninsula as the southern hemisphere winter concludes.",
+  "bodyHtml": "<p>The European Space Agency released an image of West Antarctica captured by the Copernicus Sentinel-3 satellite on 30 September 2026. The image displays an area of approximately 1200 km by 1700 km, covering the periphery of the continent.</p>\n<p>According to the European Space Agency, the imagery shows sea ice engulfing the tip of the Antarctic Peninsula and parts of the Weddell Sea. The National Snow and Ice Data Center reported that Antarctic sea ice likely reached its annual maximum extent on 14 September 2026.</p>\n<p>Elephant Island, which is about 50 km in length, is visible against ice-free ocean on the left-hand side of the image. It is located about 930 km from the tip of Argentina’s Tierra del Fuego.</p>\n<p>The image reveals a variety of textures reflecting different types of ice, including areas of tightly packed sea ice on the right. Large floes comparable in size to Elephant Island are visible, progressing to smaller pieces of sea ice that form swirling shapes in the ocean.</p>",
+  "publishedAt": "2026-10-16T12:12:29Z",
+  "updatedAt": "2026-10-16T12:12:29Z",
+  "wordCount": 165,
+  "readingTimeMin": 1,
+  "topic": "Earth from Space: West Antarctica",
+  "tags": [
+    "ESA",
+    "Copernicus Sentinel-3",
+    "Antarctica"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_West_Antarctica"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA released a Copernicus Sentinel-3 image of West Antarctica.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite imagery captures the sea ice extent near the Antarctic Peninsula as the southern hemisphere winter concludes.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency released an image of West Antarctica captured by the Copernicus Sentinel-3 satellite on 30 September 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image displays an area of approximately 1200 km by 1700 km.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image covers the periphery of the continent.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "According to the European Space Agency, the imagery shows sea ice engulfing the tip of the Antarctic Peninsula and parts of the Weddell Sea.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The National Snow and Ice Data Center reported that Antarctic sea ice likely reached its annual maximum extent on 14 September 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Elephant Island is about 50 km in length.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Elephant Island is visible against ice-free ocean on the left-hand side of the image.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Elephant Island is located about 930 km from the tip of Argentina’s Tierra del Fuego.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image reveals a variety of textures reflecting different types of ice.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image includes areas of tightly packed sea ice on the right.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Large floes comparable in size to Elephant Island are visible.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The ice floes progress to smaller pieces of sea ice that form swirling shapes in the ocean.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

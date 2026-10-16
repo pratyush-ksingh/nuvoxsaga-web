@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/space/nasa-releases-black-marble-hd-imagery-of-hurricane-isaias-power-outages.webp",
+    "alt": "Nighttime lights along the Florida Panhandle coast in August 2026, brightest in Pensacola and Destin and along the road between them.",
+    "credit": "NASA Earth Observatory / Lauren Dauphin"
+  },
+  "slug": "nasa-releases-black-marble-hd-imagery-of-hurricane-isaias-power-outages",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases Black Marble HD imagery of Hurricane Isaias power outages",
+  "excerpt": "Satellite data reveals nighttime light reductions and recovery patterns along the Florida Panhandle following the storm.",
+  "bodyHtml": "<p>NASA published high-definition nighttime lights imagery on October 16, 2026, showing power outages and recovery along the Florida Panhandle after Hurricane Isaias. The storm made landfall near Destin, Florida, on the evening of October 9, 2026, as a Category 2 hurricane with maximum sustained winds of 105 miles per hour.</p>\n<p>Images from the Black Marble HD product, processed by Ranjay Shrestha of NASA&#x27;s Black Marble science team using data from the VIIRS instrument on the NOAA-20 satellite, revealed decreases in nighttime lights around Pensacola and along the U.S. Route 98 corridor toward Destin. The product uses the Visible Infrared Imaging Radiometer Suite to detect light emitted and reflected at night.</p>\n<p>The imagery shows that by October 12, 2026, lights in Pensacola and Destin and along the road between them were closer to pre-storm levels. By October 14, 2026, lighting patterns looked similar to pre-storm conditions. The NASA Disasters Program is supporting the Alabama Red Cross and the Alabama Emergency Management Agency’s response to Hurricane Isaias.</p>",
+  "publishedAt": "2026-10-16T12:16:24Z",
+  "updatedAt": "2026-10-16T12:16:24Z",
+  "wordCount": 165,
+  "readingTimeMin": 1,
+  "topic": "Isaias Dims the Gulf Coast",
+  "tags": [
+    "NASA",
+    "NOAA-20",
+    "Hurricane Isaias"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released Black Marble HD imagery of Hurricane Isaias power outages.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Satellite data reveals nighttime light reductions and recovery patterns along the Florida Panhandle following the storm.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA published high-definition nighttime lights imagery on October 16, 2026, showing power outages and recovery along the Florida Panhandle after Hurricane Isaias.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Hurricane Isaias made landfall near Destin, Florida, on the evening of October 9, 2026, as a Category 2 hurricane with maximum sustained winds of 105 miles per hour.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Images from the Black Marble HD product were processed by Ranjay Shrestha of NASA's Black Marble science team using data from the VIIRS instrument on the NOAA-20 satellite.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The images revealed decreases in nighttime lights around Pensacola and along the U.S. Route 98 corridor toward Destin.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Black Marble HD product uses the Visible Infrared Imaging Radiometer Suite to detect light emitted and reflected at night.",
+      "source": "NASA"
+    },
+    {
+      "claim": "By October 12, 2026, lights in Pensacola and Destin and along the road between them were closer to pre-storm levels.",
+      "source": "NASA"
+    },
+    {
+      "claim": "By October 14, 2026, lighting patterns looked similar to pre-storm conditions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The NASA Disasters Program is supporting the Alabama Red Cross and the Alabama Emergency Management Agency’s response to Hurricane Isaias.",
+      "source": "NASA"
+    }
+  ]
+}

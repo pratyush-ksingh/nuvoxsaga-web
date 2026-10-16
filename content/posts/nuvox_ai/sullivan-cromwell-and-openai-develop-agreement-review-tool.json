@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "sullivan-cromwell-and-openai-develop-agreement-review-tool",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Sullivan & Cromwell and OpenAI develop agreement review tool",
+  "excerpt": "Agreement Analyzer uses ChatGPT Enterprise to identify issues in draft legal agreements.",
+  "bodyHtml": "<p>In collaboration with OpenAI, Sullivan &amp; Cromwell developed Agreement Analyzer, an artificial intelligence tool for identifying issues in a draft agreement, according to a publication from October 15, 2026. The application integrates Sullivan &amp; Cromwell workflows, curated firm precedents, negotiating playbooks, and ChatGPT Enterprise.</p>\n<p>Sullivan &amp; Cromwell partner John Savva developed Agreement Analyzer as a single-user proof of concept built with Codex. He then collaborated with OpenAI on improving the quality of outputs, enhancing efficiency through parallel processing and transforming the application into a tool that could be used by multiple lawyers at the same time.</p>\n<p>The tool performs multiple review cycles from different perspectives, synthesizes the outputs, helps identify potential issues and returns a memorandum and proposed tracked changes for a lawyer to review, adapt or reject. Sullivan &amp; Cromwell is continuing to explore tools shaped around specific legal tasks.</p>",
+  "publishedAt": "2026-10-16T06:02:37Z",
+  "updatedAt": "2026-10-16T06:02:37Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "Sullivan & Cromwell brings legal expertise into agreement review",
+  "tags": [
+    "Sullivan & Cromwell",
+    "OpenAI",
+    "Agreement Analyzer",
+    "ChatGPT Enterprise"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/sullivan-cromwell"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Sullivan & Cromwell, in collaboration with OpenAI, developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement (headline and lead)",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Dek: Agreement Analyzer uses ChatGPT Enterprise to identify issues in draft legal agreements",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The information comes from a publication dated October 15, 2026",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The application integrates S&C workflows, curated firm precedents, negotiating playbooks, and ChatGPT Enterprise",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Partner John Savva developed Agreement Analyzer as a single-user proof of concept built with Codex",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "He then collaborated with OpenAI on improving output quality, efficiency through parallel processing, and making it usable by multiple lawyers at once",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The tool performs multiple review cycles from different perspectives, synthesizes outputs, helps identify potential issues and returns a memorandum and proposed tracked changes for a lawyer to review, adapt or reject",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Sullivan & Cromwell is continuing to explore tools shaped around specific legal tasks",
+      "source": "OpenAI"
+    }
+  ]
+}

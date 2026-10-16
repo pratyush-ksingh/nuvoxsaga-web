@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "researchers-introduce-selection-based-structured-reasoning-for-search-agents",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Researchers introduce Selection-based Structured Reasoning for search agents",
+  "excerpt": "A new framework reformulates reasoning as selection to reduce inference latency in multimodal search agents.",
+  "bodyHtml": "<p>On October 15, 2026, authors published a framework called Selection-based Structured Reasoning (SSR) to address efficiency challenges in multimodal agents. According to the authors, multimodal agents commonly generate freeform reasoning before each action, and for small models, limited model capacity can result in lengthy reasoning that provides little useful guidance while incurring substantial inference cost.</p>\n<p>To address this challenge, SSR reformulates reasoning as selection instead of open-ended generation. The framework represents recurring high-level reasoning as pre-specified, reusable natural-language candidates. At each turn, the model selects from the reasoning candidates based on their likelihoods given the current context, without an auxiliary task head. Using pre-specified reasoning traces enables parallel scoring, where teacher-forced prefilling computes token likelihoods concurrently within and across candidates using a shared context KV cache.</p>\n<p>The authors stated that they evaluated SSR on seven multimodal search benchmarks using 2B and 4B models. Across multiple reinforcement learning objectives and supervised fine-tuning, the authors reported that SSR delivers significant efficiency gains without sacrificing task performance. The authors stated that SSR achieves an average success rate competitive with leading search agents of the same scale, while reducing per-turn reasoning latency by over 90% and total per-question model inference latency by 28–54%.</p>",
+  "publishedAt": "2026-10-16T12:11:39Z",
+  "updatedAt": "2026-10-16T12:11:39Z",
+  "wordCount": 199,
+  "readingTimeMin": 1,
+  "topic": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+  "tags": [
+    "Apple",
+    "Carnegie Mellon University",
+    "University of Illinois Urbana-Champaign"
+  ],
+  "source": {
+    "name": "Apple",
+    "url": "https://machinelearning.apple.com/research/selection-structured-reasoning"
+  },
+  "sources": [
+    "Apple"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Researchers introduced Selection-based Structured Reasoning for search agents.",
+      "source": "Apple"
+    },
+    {
+      "claim": "A new framework reformulates reasoning as selection to reduce inference latency in multimodal search agents.",
+      "source": "Apple"
+    },
+    {
+      "claim": "On October 15, 2026, authors published a framework called Selection-based Structured Reasoning (SSR) to address efficiency challenges in multimodal agents.",
+      "source": "Apple"
+    },
+    {
+      "claim": "According to the authors, multimodal agents commonly generate freeform reasoning before each action, and for small models, limited model capacity can result in lengthy reasoning that provides little useful guidance while incurring substantial inference cost.",
+      "source": "Apple"
+    },
+    {
+      "claim": "To address this challenge, SSR reformulates reasoning as selection instead of open-ended generation.",
+      "source": "Apple"
+    },
+    {
+      "claim": "SSR represents recurring high-level reasoning as pre-specified, reusable natural-language candidates.",
+      "source": "Apple"
+    },
+    {
+      "claim": "At each turn, the model selects from the reasoning candidates based on their likelihoods given the current context, without an auxiliary task head.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Using pre-specified reasoning traces enables parallel scoring, where teacher-forced prefilling computes token likelihoods concurrently within and across candidates using a shared context KV cache.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The authors stated that they evaluated SSR on seven multimodal search benchmarks using 2B and 4B models.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Across multiple reinforcement learning objectives and supervised fine-tuning, the authors reported that SSR delivers significant efficiency gains without sacrificing task performance.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The authors stated that SSR achieves an average success rate competitive with leading search agents of the same scale, while reducing per-turn reasoning latency by over 90% and total per-question model inference latency by 28–54%.",
+      "source": "Apple"
+    }
+  ]
+}

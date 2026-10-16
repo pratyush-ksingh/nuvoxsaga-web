@@ -1,0 +1,59 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "us-sanctions-cuban-state-owned-banco-internacional-de-comercio",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "US sanctions Cuban state-owned banco internacional de comercio",
+  "excerpt": "The US State Department announced the financial sanctions on October 15, 2026.",
+  "bodyHtml": "<p>The US State Department announced on October 15, 2026, that it is sanctioning the Cuban state-owned Banco Internacional de Comercio, S.A., also known as BICSA.</p>\n<p>According to the US State Department, the institution provided services to Iran&#x27;s Karafarin Bank since at least 2022. The US State Department stated that the action was taken pursuant to Executive Order 14404 for operating in the financial services sector of the Cuban economy.</p>\n<p>The US State Department stated that all property and interests in property of the designated person in the United States or in possession or control of U.S. persons are blocked and must be reported to the Department of the Treasury&#x27;s Office of Foreign Assets Control.</p>",
+  "publishedAt": "2026-10-16T12:23:03Z",
+  "updatedAt": "2026-10-16T12:23:03Z",
+  "wordCount": 114,
+  "readingTimeMin": 1,
+  "topic": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA)",
+  "tags": [
+    "Banco Internacional de Comercio, S.A.",
+    "Department of the Treasury",
+    "Cuba",
+    "Iran"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/sanctioning-cuban-state-owned-banco-internacional-de-comercio-s-a-bicsa/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US sanctioned Cuban state-owned Banco Internacional de Comercio.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department announced the financial sanctions on October 15, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department announced on October 15, 2026, that it is sanctioning the Cuban state-owned Banco Internacional de Comercio, S.A., also known as BICSA.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "According to the US State Department, the institution provided services to Iran's Karafarin Bank since at least 2022.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department stated that the action was taken pursuant to Executive Order 14404 for operating in the financial services sector of the Cuban economy.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department stated that all property and interests in property of the designated person in the United States or in possession or control of U.S. persons are blocked and must be reported to the Department of the Treasury's Office of Foreign Assets Control.",
+      "source": "The US State Department"
+    }
+  ]
+}

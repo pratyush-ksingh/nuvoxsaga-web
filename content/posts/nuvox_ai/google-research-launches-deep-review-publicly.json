@@ -1,0 +1,65 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-launches-deep-review-publicly",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Google Research launches Deep Review publicly",
+  "excerpt": "The agentic AI system provides technical verification on complex documents following pilot deployments at four conferences.",
+  "bodyHtml": "<p>Google Research announced the public release of Deep Review on October 14, 2026. The system is an agentic AI system engineered to provide rigorous feedback and technical verification on complex documents. It expanded from deep mathematical and scientific peer review to knowledge documents including Google Docs and presentations.</p>\n<p>The public release follows experimental deployments under the name Paper Assistant Tool at STOC, ICML, NeurIPS, and ICLR. Every user receives two complimentary document reviews per week. Users with high-volume workflows can connect their Gemini API key for higher usage limits and programmatic integration via the Deep Review API.</p>\n<p>Deep Review supports PDFs and plain text as input formats. Uploaded documents are stored for one year for the sole purpose of display to the user in the Deep Review UI.</p>",
+  "publishedAt": "2026-10-16T12:12:11Z",
+  "updatedAt": "2026-10-16T12:12:11Z",
+  "wordCount": 128,
+  "readingTimeMin": 1,
+  "topic": "Analyzing technical documents with Deep Review",
+  "tags": [
+    "Google Research",
+    "Gemini API"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research launched Deep Review publicly on October 14, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Deep Review is an agentic AI system engineered to provide rigorous feedback and technical verification on complex documents.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system expanded from deep mathematical and scientific peer review to knowledge documents including Google Docs and presentations.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The public release follows experimental deployments under the name Paper Assistant Tool at STOC, ICML, NeurIPS, and ICLR.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Every user receives two complimentary document reviews per week.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Users with high-volume workflows can connect their Gemini API key for higher usage limits and programmatic integration via the Deep Review API.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Deep Review supports PDFs and plain text as input formats.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Uploaded documents are stored for one year for the sole purpose of display to the user in the Deep Review UI.",
+      "source": "Google Research"
+    }
+  ]
+}

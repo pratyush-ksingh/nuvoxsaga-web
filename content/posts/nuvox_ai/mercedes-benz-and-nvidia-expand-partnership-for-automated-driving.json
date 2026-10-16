@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "mercedes-benz-and-nvidia-expand-partnership-for-automated-driving",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Mercedes-Benz and NVIDIA expand partnership for automated driving",
+  "excerpt": "Mercedes-Benz and NVIDIA announced the extension of their strategic partnership on October 16, 2026.",
+  "bodyHtml": "<p>Mercedes-Benz and NVIDIA announced on October 16, 2026, that they will extend their strategic partnership to jointly develop the next generation of driver assistance and automated driving systems. According to NVIDIA, the collaboration combines Mercedes-Benz automotive engineering and MB.OS with the NVIDIA Hyperion compute and sensor architecture, Alpamayo Stack software and Halos safety system to accelerate the development of automated vehicles.</p>\n<p>Jörg Burzer, member of the board of management of Mercedes-Benz Group AG and chief technology officer, development and procurement, stated that NVIDIA is their most important strategic partner in automated driving. Ali Kani, vice president of automotive at NVIDIA, said that accelerated computing is giving vehicles the intelligence to understand the world and reason through complex driving situations.</p>\n<p>Together, these technologies support advanced driver assistance and the development of future SAE-Level 4 applications, including robolimousines. Beyond automated driving, Mercedes-Benz also relies on NVIDIA technologies for vehicle engineering simulation and within MO360, its digital production ecosystem, from virtual planning to AI-based applications.</p>",
+  "publishedAt": "2026-10-16T12:03:05Z",
+  "updatedAt": "2026-10-16T12:03:05Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "Mercedes-Benz and NVIDIA Expand Strategic Partnership to Advance Safe Highly Automated Driving in the Next Decade",
+  "tags": [
+    "Mercedes-Benz",
+    "NVIDIA",
+    "MB.OS"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/mercedes-benz-and-nvidia-expand-strategic-partnership-to-advance-safe-highly-automated-driving-in-the-next-decade"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Mercedes-Benz and NVIDIA expand partnership for automated driving.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Mercedes-Benz and NVIDIA announced the extension of their strategic partnership on October 16, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Mercedes-Benz and NVIDIA announced on October 16, 2026, that they will extend their strategic partnership to jointly develop the next generation of driver assistance and automated driving systems.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "According to NVIDIA, the collaboration combines Mercedes-Benz automotive engineering and MB.OS with the NVIDIA Hyperion compute and sensor architecture, Alpamayo Stack software and Halos safety system to accelerate the development of automated vehicles.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Jörg Burzer is a member of the board of management of Mercedes-Benz Group AG and chief technology officer, development and procurement.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Jörg Burzer stated that NVIDIA is their most important strategic partner in automated driving.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Ali Kani is vice president of automotive at NVIDIA.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Ali Kani said that accelerated computing is giving vehicles the intelligence to understand the world and reason through complex driving situations.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Together, these technologies support advanced driver assistance and the development of future SAE-Level 4 applications, including robolimousines.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Beyond automated driving, Mercedes-Benz also relies on NVIDIA technologies for vehicle engineering simulation.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Mercedes-Benz relies on NVIDIA technologies within MO360, its digital production ecosystem, from virtual planning to AI-based applications.",
+      "source": "NVIDIA"
+    }
+  ]
+}
