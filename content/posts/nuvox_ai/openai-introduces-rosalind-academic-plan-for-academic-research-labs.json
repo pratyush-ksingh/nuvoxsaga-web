@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-introduces-rosalind-academic-plan-for-academic-research-labs",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "OpenAI introduces Rosalind Academic Plan for academic research labs",
+  "excerpt": "Eligible labs can receive up to 30 Business Standard seats at no cost for up to 12 months.",
+  "bodyHtml": "<p>OpenAI announced the Rosalind Academic Plan on October 15, 2026, offering eligible labs sponsored access to GPT-Rosalind and tools for life sciences discovery. GPT-Rosalind is a dedicated life sciences model combining frontier reasoning with the Rosalind workbench for tool orchestration across medicinal chemistry, genomics, and wet-lab assistance.</p>\n<p>Under the plan, eligible labs can receive up to 30 Business Standard seats at no cost for up to 12 months, with access to GPT-Rosalind subject to trusted-access approval. Research data shared through the Rosalind Academic Plan is not used to train models by default.</p>\n<p>The Rosalind Academic Plan is currently available to academic labs at U.S. universities. PIs and lab leads at universities without an OpenAI Enterprise agreement can apply on behalf of their labs through the trusted access process.</p>",
+  "publishedAt": "2026-10-16T02:01:51Z",
+  "updatedAt": "2026-10-16T02:01:51Z",
+  "wordCount": 128,
+  "readingTimeMin": 1,
+  "topic": "Bringing GPT-Rosalind to academic research labs",
+  "tags": [
+    "OpenAI",
+    "GPT-Rosalind",
+    "Rosalind Academic Plan"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI introduced/announced the Rosalind Academic Plan for academic research labs",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The announcement was made on October 15, 2026",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The plan offers eligible labs sponsored access to GPT-Rosalind and tools for life sciences discovery",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "GPT-Rosalind is a dedicated life sciences model combining frontier reasoning with the Rosalind workbench",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The workbench enables tool orchestration across medicinal chemistry, genomics, and wet-lab assistance",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Eligible labs can receive up to 30 Business Standard seats at no cost for up to 12 months",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Access to GPT-Rosalind is subject to trusted-access approval",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Research data shared through the plan is not used to train models by default",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The plan is currently available to academic labs at U.S. universities",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "PIs and lab leads at universities without an OpenAI Enterprise agreement can apply on behalf of their labs through the trusted access process",
+      "source": "OpenAI"
+    }
+  ]
+}

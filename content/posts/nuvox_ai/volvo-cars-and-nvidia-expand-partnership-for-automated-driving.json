@@ -1,0 +1,77 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "volvo-cars-and-nvidia-expand-partnership-for-automated-driving",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Volvo Cars and NVIDIA expand partnership for automated driving",
+  "excerpt": "Volvo Cars announced an expanded partnership with NVIDIA on October 15, 2026, to use AI and accelerated computing for automated driving technology.",
+  "bodyHtml": "<p>Volvo Cars announced on October 15, 2026, that it is expanding its partnership with NVIDIA to advance automated driving technology in future cars from Volvo. The collaboration builds on a decade-long relationship that began in 2017.</p>\n<p>The technology will combine Volvo Cars vehicle safety systems with NVIDIA AI and accelerated computing technologies, including the Hyperion sensor and compute architecture, Halos OS, and Alpamayo Stack driving software. The system is designed to enable future Volvo cars to safely navigate complex real-world environments from door to door.</p>\n<p>The technology will make its debut in a next-generation Volvo car as part of the company product push. The companies aim to introduce eyes-off and mind-off driving gradually, with Volvo Cars bringing its human-centric approach and nearly a century of real-world safety research to the development.</p>",
+  "publishedAt": "2026-10-16T02:04:35Z",
+  "updatedAt": "2026-10-16T02:04:35Z",
+  "wordCount": 131,
+  "readingTimeMin": 1,
+  "topic": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+  "tags": [
+    "Volvo Cars",
+    "NVIDIA"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Volvo Cars and NVIDIA expand partnership for automated driving",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Volvo Cars announced the expanded partnership on October 15, 2026",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The partnership is to use AI and accelerated computing for automated driving technology",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The technology is for future cars from Volvo",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The collaboration builds on a decade-long relationship that began in 2017",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The technology will combine Volvo Cars vehicle safety systems with NVIDIA AI and accelerated computing technologies",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These include the Hyperion sensor and compute architecture, Halos OS, and Alpamayo Stack driving software",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system is designed to enable future Volvo cars to safely navigate complex real-world environments from door to door",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The technology will make its debut in a next-generation Volvo car as part of the company product push",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The companies aim to introduce eyes-off and mind-off driving gradually",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Volvo Cars brings its human-centric approach and nearly a century of real-world safety research to the development",
+      "source": "NVIDIA"
+    }
+  ]
+}

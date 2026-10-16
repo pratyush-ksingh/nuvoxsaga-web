@@ -1,0 +1,65 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-lab-publishes-2026-supply-chain-sustainability-report",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT lab publishes 2026 supply chain sustainability report",
+  "excerpt": "The report finds that 83 percent of surveyed supply chain professionals rate sustainability as important to long-term business success.",
+  "bodyHtml": "<p>According to the 2026 State of Supply Chain Sustainability report published by the MIT Sustainable Supply Chain Lab on October 15, 2026, 83 percent of surveyed supply chain professionals rate sustainability as important or very important to long-term business success. The report surveyed 1,810 supply chain professionals across 91 countries.</p>\n<p>Sreedevi Rajagopalan, director of the MIT Sustainable Supply Chain Lab and lead author of the report, said that commitment is strong, measurement is expanding, and artificial intelligence is accelerating. The report notes that 78 percent of North American organizations report current use of artificial intelligence in sustainability initiatives.</p>\n<p>Among mature agentic artificial intelligence users, only 53 percent report a reduction in total greenhouse gas emissions.</p>",
+  "publishedAt": "2026-10-16T02:02:45Z",
+  "updatedAt": "2026-10-16T02:02:45Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+  "tags": [
+    "MIT Sustainable Supply Chain Lab",
+    "North America"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT lab publishes 2026 supply chain sustainability report (headline: the MIT Sustainable Supply Chain Lab published the report)",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The report was published by the MIT Sustainable Supply Chain Lab on October 15, 2026.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "83 percent of surveyed supply chain professionals rate sustainability as important or very important to long-term business success.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The report surveyed 1,810 supply chain professionals across 91 countries.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Sreedevi Rajagopalan is director of the MIT Sustainable Supply Chain Lab and lead author of the report.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Rajagopalan said commitment is strong, measurement is expanding, and AI is accelerating.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The report notes that 78 percent of North American organizations report current use of AI in sustainability initiatives.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Among mature agentic AI users, only 53 percent report a reduction in total greenhouse gas emissions.",
+      "source": "MIT News"
+    }
+  ]
+}
