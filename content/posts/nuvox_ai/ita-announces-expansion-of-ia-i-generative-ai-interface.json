@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "ita-announces-expansion-of-ia-i-generative-ai-interface",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Itaú announces expansion of ia.i generative AI interface",
+  "excerpt": "The bank plans to roll out its conversational AI tool to its entire customer base by the end of 2026.",
+  "bodyHtml": "<p>Itaú announced on October 16, 2026, that it is expanding ia.i, a conversational interface that allows customers to interact with bank services through text or voice. The platform currently serves approximately 300,000 customers in its initial phase.</p>\n<p>The bank intends to make the tool available to its full customer base by the end of 2026. The system uses OpenAI models to manage interactions across checking accounts, credit, cards, and insurance services.</p>\n<p>Itaú also utilizes a governance and orchestration platform called IARA to manage access to different AI models. This platform supports the bank&#x27;s legal department, which operates on a repository of more than 90 million documents.</p>\n<p>The legal solution executes more than 2 million tasks per month. According to the bank, this implementation has resulted in efficiency gains of 20% to 80% in stages of the department’s processes.</p>",
+  "publishedAt": "2026-10-17T02:03:52Z",
+  "updatedAt": "2026-10-17T02:03:52Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "How Itaú is building generative AI for its entire customer base",
+  "tags": [
+    "Itaú",
+    "OpenAI",
+    "ia.i",
+    "IARA"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/itau-generative-ai"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Itaú announces expansion of ia.i generative AI interface.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The bank plans to roll out its conversational AI tool to its entire customer base by the end of 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Itaú announced on October 16, 2026, that it is expanding ia.i, a conversational interface that allows customers to interact with bank services through text or voice.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The platform currently serves approximately 300,000 customers in its initial phase.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The bank intends to make the tool available to its full customer base by the end of 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The system uses OpenAI models to manage interactions across checking accounts, credit, cards, and insurance services.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Itaú also utilizes a governance and orchestration platform called IARA to manage access to different AI models.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "This platform supports the bank's legal department, which operates on a repository of more than 90 million documents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The legal solution executes more than 2 million tasks per month.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "According to the bank, this implementation has resulted in efficiency gains of 20% to 80% in stages of the department’s processes.",
+      "source": "OpenAI"
+    }
+  ]
+}

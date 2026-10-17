@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-issues-waivers-for-lindsey-o-graham-sanctioning-russia-and-iran",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump issues waivers for Lindsey O. Graham Sanctioning Russia and Iran Act",
+  "excerpt": "The order waives various sanctions and duties established by the 2026 legislation while maintaining existing measures against Russian harmful activities.",
+  "bodyHtml": "<p>On October 16, 2026, President Donald J. Trump signed an executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026. The act, signed into law on September 18, 2026, provides for sanctions against foreign persons and duties on goods imported from the Russian Federation.</p>\n<p>The President issued waivers for the application of duties and sanctions provided for in sections 102, 112, and 113 of the act. The order specifies that these waivers do not affect measures previously established under executive orders addressing the national emergency regarding harmful foreign activities of the Russian government. The waivers remain in effect until the President or the Secretary of State, in consultation with the Secretary of the Treasury and the Trade Representative, determine that further action is appropriate.</p>\n<p>The order mandates that the Trade Representative, in consultation with the Secretary of State, the Secretary of the Treasury, and the Secretary of Energy, monitor circumstances related to the importation and purchases of crude oil and natural gas of Russian Federation origin. These officials must regularly report to the President on these circumstances and inform the President of any situation that might indicate the need for further action.</p>",
+  "publishedAt": "2026-10-17T02:06:40Z",
+  "updatedAt": "2026-10-17T02:06:40Z",
+  "wordCount": 196,
+  "readingTimeMin": 1,
+  "topic": "Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+  "tags": [
+    "Russia",
+    "Iran",
+    "sanctions",
+    "trade"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump issued waivers for the Lindsey O. Graham Sanctioning Russia and Iran Act.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order waives various sanctions and duties established by the 2026 legislation while maintaining existing measures against Russian harmful activities.",
+      "source": "The White House"
+    },
+    {
+      "claim": "On October 16, 2026, President Donald J. Trump signed an executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Graham Act was signed into law on September 18, 2026, and provides for sanctions against foreign persons and duties on goods imported from the Russian Federation.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The President issued waivers for the application of duties and sanctions provided for in sections 102, 112, and 113 of the act.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order specifies that the waivers do not affect measures previously established under executive orders addressing the national emergency regarding harmful foreign activities of the Russian government.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The waivers remain in effect until the President or the Secretary of State, in consultation with the Secretary of the Treasury and the Trade Representative, determine that further action is appropriate.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order mandates that the Trade Representative, in consultation with the Secretary of State, the Secretary of the Treasury, and the Secretary of Energy, monitor circumstances related to the importation and purchases of crude oil and natural gas of Russian Federation origin.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These officials must regularly report to the President on these circumstances and inform the President of any situation that might indicate the need for further action.",
+      "source": "The White House"
+    }
+  ]
+}

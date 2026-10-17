@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-3.webp",
+    "alt": "Illustration: terraced hillside fields in soft morning mist",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-reports-34-commercial-agreements-secured-during-trade-mission-to-india",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Canada reports 34 commercial agreements secured during trade mission to India",
+  "excerpt": "The Government of Canada announced that the trade mission resulted in agreements worth close to $300 million.",
+  "bodyHtml": "<p>The Government of Canada announced on October 16, 2026, that Minister of International Trade Maninder Sidhu concluded a trade mission to India. The delegation, which included nearly 300 members, visited Mumbai and Bengaluru to engage with Indian officials and business leaders.</p>\n<p>According to the Government of Canada, the mission delivered 34 commercial agreements worth close to $300 million. During the visit, Minister Sidhu met with India’s Minister of Commerce and Industry, Piyush Goyal, to advance negotiations toward a Canada-India Comprehensive Economic Partnership Agreement. The two ministers have now met 10 times since May 2025.</p>\n<p>Minister Sidhu participated in an aerospace roundtable in Bengaluru with Canadian and Indian industry leaders to explore new opportunities for collaboration. He also met with Yotta Data Services to discuss opportunities for the company to invest and establish an AI innovation hub in Canada. The Government of Canada stated that it is aiming to double two-way trade with India to $70 billion annually by 2030.</p>",
+  "publishedAt": "2026-10-17T02:11:35Z",
+  "updatedAt": "2026-10-17T02:11:35Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "Minister Sidhu concludes largest Team Canada Trade Mission to India in 30 years, securing new commercial contracts for Canadian businesses",
+  "tags": [
+    "Canada",
+    "India",
+    "Trade",
+    "Maninder Sidhu"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-sidhu-concludes-largest-team-canada-trade-mission-to-india-in-30-years-securing-new-commercial-contracts-for-canadian-businesses.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Canada reports 34 commercial agreements secured during trade mission to India",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced the trade mission resulted in agreements worth close to $300 million.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on October 16, 2026 that Minister of International Trade Maninder Sidhu concluded a trade mission to India.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The delegation included nearly 300 members.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The delegation visited Mumbai and Bengaluru.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The delegation engaged with Indian officials and business leaders.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Sidhu met with India's Minister of Commerce and Industry Piyush Goyal during the visit to advance CEPA negotiations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The two ministers have now met 10 times since May 2025.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Sidhu participated in an aerospace roundtable in Bengaluru with Canadian and Indian industry leaders to explore new opportunities for collaboration.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Sidhu met with Yotta Data Services to discuss opportunities for the company to invest and establish an AI innovation hub in Canada.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada stated it is aiming to double two-way trade with India to $70 billion annually by 2030.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-professor-daron-acemoglu-discusses-ai-and-worker-capabilities",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT professor Daron Acemoglu discusses AI and worker capabilities",
+  "excerpt": "The economist addressed the role of artificial intelligence in the workforce during the Kendall Square Association annual meeting.",
+  "bodyHtml": "<p>MIT Institute Professor Daron Acemoglu spoke about the integration of artificial intelligence into the workforce during the 18th Annual Meeting of the Kendall Square Association. The event took place at The Engine, a nonprofit startup incubator in Cambridge, Massachusetts, and included local business leaders, elected officials, residents, and students.</p>\n<p>During his keynote address, Acemoglu questioned how to position artificial intelligence as a tool for workers to expand their capabilities and build new expertise rather than as an enemy of work. He stated that the world requires new innovations and adaptations to address growing challenges.</p>\n<p>The Kendall Square Association is a nonprofit organization comprised of over 150 entities, including research organizations, universities, and independent shops. The event also featured a vote on new board members, awards for organizations making a positive impact through innovation, and music from the Kendall Square Orchestra. Cambridge Mayor Sumbul Siddiqui also spoke at the event, noting the culture of collaboration among nonprofits, governments, and residents.</p>",
+  "publishedAt": "2026-10-17T02:05:27Z",
+  "updatedAt": "2026-10-17T02:05:27Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "Fostering community amid Kendall Square’s innovation",
+  "tags": [
+    "Artificial intelligence",
+    "MIT",
+    "Kendall Square Association"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT Professor Daron Acemoglu discussed artificial intelligence and worker capabilities.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The economist addressed the role of artificial intelligence in the workforce during the Kendall Square Association annual meeting.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT Institute Professor Daron Acemoglu spoke about the integration of artificial intelligence into the workforce during the 18th Annual Meeting of the Kendall Square Association.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The event took place at The Engine, a nonprofit startup incubator in Cambridge, Massachusetts, and included local business leaders, elected officials, residents, and students.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "During his keynote address, Acemoglu questioned how to make artificial intelligence a tool for workers to expand their capabilities and build new expertise rather than an enemy of work.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Acemoglu stated that the world requires new innovations and adaptations to address growing challenges.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The Kendall Square Association is a nonprofit organization comprised of over 150 entities, including research organizations, universities, and independent shops.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The event featured a vote on new board members, awards for organizations making a positive impact through innovation, and music from the Kendall Square Orchestra.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Cambridge Mayor Sumbul Siddiqui spoke at the event, noting the culture of collaboration among nonprofits, governments, and residents.",
+      "source": "MIT News"
+    }
+  ]
+}

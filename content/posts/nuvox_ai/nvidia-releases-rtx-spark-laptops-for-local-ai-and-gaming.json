@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-releases-rtx-spark-laptops-for-local-ai-and-gaming",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA releases RTX Spark laptops for local AI and gaming",
+  "excerpt": "The new Windows devices feature a Blackwell RTX GPU and Grace CPU with up to 128GB of unified memory.",
+  "bodyHtml": "<p>NVIDIA announced on October 16, 2026, the availability of RTX Spark laptops from manufacturers including ASUS, Dell, HP, Lenovo, Microsoft and MSI. The devices are designed to support local AI, creative applications and gaming. These laptops bring together RTX graphics and NVIDIA’s full-stack AI platform in slim, premium Windows PCs for accelerated creation, immersive gaming and powerful local AI.</p>\n<p>The laptops utilize a single superchip that combines an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU. This hardware provides up to 1 petaflop of FP4 AI performance and up to 128GB of unified memory, allowing users to run large language models and AI agents locally. MediaTek collaborated with NVIDIA on the custom CPU design, contributing to its power efficiency, performance and connectivity.</p>\n<p>The RTX Spark laptops are available globally from ASUS, Dell, HP, Lenovo, Microsoft and MSI through their websites and major retailers, starting at $2,599. The lineup includes the ASUS ProArt P14 and P16, Dell XPS 16, HP OmniBook Ultra and OmniBook X 14, Lenovo Yoga Pro 9n, Microsoft Surface Laptop Ultra, and MSI Prestige N16 Flip AI+ and Prestige N16.</p>",
+  "publishedAt": "2026-10-17T02:04:43Z",
+  "updatedAt": "2026-10-17T02:04:43Z",
+  "wordCount": 183,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+  "tags": [
+    "NVIDIA",
+    "RTX Spark",
+    "Windows",
+    "AI"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA released RTX Spark laptops for local AI and gaming.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The new Windows devices feature a Blackwell RTX GPU and Grace CPU with up to 128GB of unified memory.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on October 16, 2026, the availability of RTX Spark laptops from manufacturers including ASUS, Dell, HP, Lenovo, Microsoft and MSI.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The devices are designed to support local AI, creative applications and gaming.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The laptops combine RTX graphics and NVIDIA's full-stack AI platform in slim, premium Windows PCs for accelerated creation, immersive gaming, and powerful local AI.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The laptops utilize a single superchip that combines an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The hardware provides up to 1 petaflop of FP4 AI performance and up to 128GB of unified memory, allowing users to run large language models and AI agents locally.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "MediaTek collaborated with NVIDIA on the custom CPU design, contributing to its power efficiency, performance, and connectivity.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The RTX Spark laptops are available globally from ASUS, Dell, HP, Lenovo, Microsoft and MSI through their websites and major retailers, starting at $2,599.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The lineup includes the ASUS ProArt P14 and P16, Dell XPS 16, HP OmniBook Ultra and OmniBook X 14, Lenovo Yoga Pro 9n, Microsoft Surface Laptop Ultra, and MSI Prestige N16 Flip AI+ and Prestige N16.",
+      "source": "NVIDIA"
+    }
+  ]
+}

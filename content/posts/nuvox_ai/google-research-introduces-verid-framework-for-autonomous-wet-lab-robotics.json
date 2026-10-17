@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-introduces-verid-framework-for-autonomous-wet-lab-robotics",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research introduces VERID framework for autonomous wet-lab robotics",
+  "excerpt": "The system acts as a digital twin to help AI agents manage liquid-handling robots and execute molecular biology protocols.",
+  "bodyHtml": "<p>Google Research announced on October 16, 2026, the development of the VERified Infrastructure for Discovery Laboratories (VERID) framework. The system functions as a semantic digital twin, providing a live, stateful 3D volumetric entity tree that tracks laboratory components including robotic arm geometry, well volumes, reagent identities, and pipette tip inventory.</p>\n<p>The framework is designed to bridge the gap between AI agent reasoning and the physical reality of a wet lab. It provides four core capabilities: live 3D state tracking, fast virtual dry runs to catch potential collisions or empty wells, hardware safety checks to block invalid commands, and synchronized video and action logs for research reproducibility.</p>\n<p>In reported case studies, the framework allowed agents to refine mixing strategies and recover from equipment failures during experiments. The system also enabled agents to design and execute robot experiments to reconstruct blinded dye mixtures, identifying optical and fluidic artifacts to improve accuracy more than fivefold. The team stated that their next step is to combine VERID’s fully traceable automation with closed-loop learning for protein discovery.</p>",
+  "publishedAt": "2026-10-17T02:04:20Z",
+  "updatedAt": "2026-10-17T02:04:20Z",
+  "wordCount": 172,
+  "readingTimeMin": 1,
+  "topic": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+  "tags": [
+    "Google Research",
+    "Robotics",
+    "VERID"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research introduced the VERID framework for autonomous wet-lab robotics.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The VERID system acts as a digital twin to help AI agents manage liquid-handling robots and execute molecular biology protocols.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research announced the development of the VERified Infrastructure for Discovery Laboratories (VERID) framework on October 16, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system functions as a semantic digital twin, providing a live, stateful 3D volumetric entity tree that tracks laboratory components including robotic arm geometry, well volumes, reagent identities, and pipette tip inventory.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The framework is designed to bridge the gap between AI agent reasoning and the physical reality of a wet lab.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "VERID provides four core capabilities: live 3D state tracking, fast virtual dry runs to catch potential collisions or empty wells, hardware safety checks to block invalid commands, and synchronized video and action logs for research reproducibility.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "In reported case studies, the framework allowed agents to refine mixing strategies and recover from equipment failures during experiments.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system enabled agents to design and execute robot experiments to reconstruct blinded dye mixtures, identifying optical and fluidic artifacts to improve accuracy more than fivefold.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The team stated that their next step is to combine VERID's fully traceable automation with closed-loop learning for protein discovery.",
+      "source": "Google Research"
+    }
+  ]
+}
