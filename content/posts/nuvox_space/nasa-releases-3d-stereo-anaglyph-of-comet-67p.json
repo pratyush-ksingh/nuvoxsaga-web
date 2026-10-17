@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-3d-stereo-anaglyph-of-comet-67p",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases 3D stereo anaglyph of comet 67P",
+  "excerpt": "The image features the nucleus of Churyumov-Gerasimenko as captured by the Rosetta spacecraft in 2015.",
+  "bodyHtml": "<p>NASA published a 3D stereo anaglyph of the comet Churyumov-Gerasimenko, also known as Comet 67P. The image displays the jagged and double-lobed nucleus of the comet. The larger lobe is around 4 kilometers in diameter, joined to a smaller, 2.5 kilometer diameter lobe by a narrow neck.</p>\n<p>The stereo anaglyph was created by combining two images from the Rosetta spacecraft&#x27;s narrow angle OSIRIS camera taken on July 25, 2015 from a distance of 184 kilometers. Numerous jets are emanating from the small solar system world&#x27;s active surface near its closest approach to the Sun.</p>\n<p>Rosetta&#x27;s mission to the comet ended in September 2016 when the spacecraft was commanded to a controlled impact with the comet&#x27;s surface. A catalog of nearly 1400 stereo anaglyphs created from Rosetta image data is available on the website. The stereo anaglyph was created by Philippe Lamy and The Team.</p>",
+  "publishedAt": "2026-10-17T06:04:20Z",
+  "updatedAt": "2026-10-17T06:04:20Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 17 – 3D 67P",
+  "tags": [
+    "NASA",
+    "Rosetta",
+    "Comet 67P"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released a 3D stereo anaglyph of comet 67P.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image features the nucleus of Churyumov-Gerasimenko as captured by the Rosetta spacecraft in 2015.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA published a 3D stereo anaglyph of the comet Churyumov-Gerasimenko, also known as Comet 67P.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image displays the jagged and double-lobed nucleus of the comet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The larger lobe is around 4 kilometers in diameter, joined to a smaller, 2.5 kilometer diameter lobe by a narrow neck.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The stereo anaglyph was created by combining two images from the Rosetta spacecraft's narrow angle OSIRIS camera taken on July 25, 2015 from a distance of 184 kilometers.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Numerous jets are emanating from the small solar system world's active surface near its closest approach to the Sun.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Rosetta's mission to the comet ended in September 2016 when the spacecraft was commanded to a controlled impact with the comet's surface.",
+      "source": "NASA"
+    },
+    {
+      "claim": "A catalog of nearly 1,400 stereo anaglyphs created from Rosetta image data is available on the website.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The stereo anaglyph was created by Philippe Lamy and The Team.",
+      "source": "NASA"
+    }
+  ]
+}
