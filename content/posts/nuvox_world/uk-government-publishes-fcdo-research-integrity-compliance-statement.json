@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-publishes-fcdo-research-integrity-compliance-statement",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government publishes FCDO research integrity compliance statement",
+  "excerpt": "The Foreign, Commonwealth and Development Office released its annual report on research standards for the 2025 to 2026 period.",
+  "bodyHtml": "<p>The UK government published its annual statement of compliance with the Concordat to Support Research Integrity on October 16, 2026. The document provides an account of how the Foreign, Commonwealth and Development Office (FCDO) complied with the Concordat to Support Research Integrity in 2025 to 2026.</p>\n<p>The statement outlines the governance mechanisms and quality assurance processes used by the department. It also details specific actions taken in 2025 to 2026 to ensure all FCDO-funded research meets the standards set out in the Concordat to Support Research Integrity.</p>\n<p>The publication is available for public access on the government website. The document serves as the official annual account of research integrity standards for the department regarding the 2025 to 2026 period.</p>",
+  "publishedAt": "2026-10-17T20:14:49Z",
+  "updatedAt": "2026-10-17T20:14:49Z",
+  "wordCount": 119,
+  "readingTimeMin": 1,
+  "topic": "Policy paper: FCDO annual statement of compliance with the Concordat to Support Research Integrity 2025 to 2026",
+  "tags": [
+    "FCDO",
+    "UK government",
+    "research"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/publications/fcdo-annual-statement-of-compliance-with-the-concordat-to-support-research-integrity-2025-to-2026"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government published the FCDO research integrity compliance statement.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office released its annual report on research standards for the 2025 to 2026 period.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government published its annual statement of compliance with the Concordat to Support Research Integrity on October 16, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The document provides an account of how the Foreign, Commonwealth and Development Office (FCDO) complied with the Concordat to Support Research Integrity in 2025 to 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The statement outlines the governance mechanisms and quality assurance processes used by the department.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The statement details specific actions taken in 2025 to 2026 to ensure all FCDO-funded research meets the standards set out in the Concordat to Support Research Integrity.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The publication is available for public access on the government website.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The document serves as the official annual account of research integrity standards for the department regarding the 2025 to 2026 period.",
+      "source": "The UK government"
+    }
+  ]
+}

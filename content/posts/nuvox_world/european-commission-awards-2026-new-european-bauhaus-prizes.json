@@ -1,0 +1,85 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-awards-2026-new-european-bauhaus-prizes",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission awards 2026 New European Bauhaus prizes",
+  "excerpt": "The European Commission awarded prizes to 13 laureates for projects that combine sustainability, inclusion and aesthetics.",
+  "bodyHtml": "<p>The European Commission announced on October 16, 2026, that it has awarded the New European Bauhaus (NEB) Prizes 2026 to 13 laureates from several EU countries, Ukraine and North Macedonia, as well as Japan and Brazil. The prizes reward projects, concepts and ideas that combine sustainability, inclusion and aesthetics.</p>\n<p>The competition featured two strands: the New European Bauhaus Champions for established projects and the New European Bauhaus Rising Stars for promising initiatives from younger applicants. All winners received a monetary prize of up to €20,000 and a dedicated communication package, as well as targeted coach support and mentoring to strengthen their visibility.</p>\n<p>The 2026 edition included a special prize for water resilience, which was awarded to ECO H2O from Romania. Furthermore, 20 small municipalities were awarded the NEB Boost for Small Municipalities. This initiative is supported by a pilot project of the European Parliament. The prizes were awarded during a ceremony held in Brussels on 15 October.</p>",
+  "publishedAt": "2026-10-17T20:18:34Z",
+  "updatedAt": "2026-10-17T20:18:34Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "Commission awards 2026 New European Bauhaus prizes for sustainable, inclusive and beautiful projects",
+  "tags": [
+    "European Commission",
+    "New European Bauhaus"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2186"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission awarded the 2026 New European Bauhaus prizes.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The prizes were awarded to 13 laureates for projects that combine sustainability, inclusion and aesthetics.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced the awards on October 16, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The laureates are from several EU countries, Ukraine, North Macedonia, Japan, and Brazil.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The competition featured two strands: the New European Bauhaus Champions for established projects and the New European Bauhaus Rising Stars for promising initiatives from younger applicants.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "All winners received a monetary prize of up to €20,000.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "All winners received a dedicated communication package.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "All winners received targeted coach support and mentoring to strengthen their visibility.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The 2026 edition included a special prize for water resilience.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The special prize for water resilience was awarded to ECO H2O from Romania.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "20 small municipalities were awarded the NEB Boost for Small Municipalities.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The NEB Boost initiative is supported by a pilot project of the European Parliament.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The prizes were awarded during a ceremony held in Brussels on 15 October.",
+      "source": "The European Commission"
+    }
+  ]
+}
