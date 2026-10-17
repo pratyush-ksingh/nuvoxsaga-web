@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "international-press-association-to-announce-daphne-caruana-galizia-prize-winner",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "International Press Association to announce Daphne Caruana Galizia Prize winner",
+  "excerpt": "The 2026 award ceremony will take place on October 21 at the European Parliament in Strasbourg.",
+  "bodyHtml": "<p>The European Parliament announced that the 2026 Daphne Caruana Galizia Prize for Journalism award ceremony will take place at 18.00 on October 21, 2026, in Strasbourg. During the event, the President of the International Press Association, Dafydd Ab Iago, will reveal the winner from ten finalists.</p>\n<p>The prize includes 20,000 euro in prize money. For this sixth edition of the prize, 344 submissions were received from journalists across the 27 European Union member states. All ten finalists are expected to attend the ceremony.</p>\n<p>Before the award ceremony, the Parliament’s press service is organising a seminar on the continued risks to a free press, including unresolved assassination cases and legal and financial intimidation. The seminar will begin at 14.00 in room WEISS N3.2, with an introduction by European Parliament Vice-President Pina Picierno. During this session, the ten finalists of the Daphne Caruana Galizia Prize for Journalism will present their investigations to the audience.</p>",
+  "publishedAt": "2026-10-17T12:07:00Z",
+  "updatedAt": "2026-10-17T12:07:00Z",
+  "wordCount": 152,
+  "readingTimeMin": 1,
+  "topic": "Press release - Daphne Caruana Galizia Prize for Journalism 2026: invitation to award ceremony",
+  "tags": [
+    "European Parliament",
+    "Journalism",
+    "Daphne Caruana Galizia Prize"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261012IPR48164/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The International Press Association will announce the Daphne Caruana Galizia Prize winner.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The 2026 award ceremony will take place on October 21 at the European Parliament in Strasbourg.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament announced that the 2026 Daphne Caruana Galizia Prize for Journalism award ceremony will take place at 18.00 on October 21, 2026, in Strasbourg.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "During the event, the President of the International Press Association, Dafydd Ab Iago, will reveal the winner from ten finalists.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The prize includes 20,000 euro in prize money.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "For this sixth edition of the prize, 344 submissions were received from journalists across the 27 European Union member states.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "All ten finalists are expected to attend the ceremony.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Before the award ceremony, the Parliament’s press service is organising a seminar on the continued risks to a free press, including unresolved assassination cases and legal and financial intimidation.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The seminar will begin at 14.00 in room WEISS N3.2.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The seminar will have an introduction by European Parliament Vice-President Pina Picierno.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "During the seminar session, the ten finalists of the Daphne Caruana Galizia Prize for Journalism will present their investigations to the audience.",
+      "source": "The European Parliament"
+    }
+  ]
+}

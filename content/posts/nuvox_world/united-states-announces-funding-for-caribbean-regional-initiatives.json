@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "united-states-announces-funding-for-caribbean-regional-initiatives",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "United States announces funding for Caribbean regional initiatives",
+  "excerpt": "The State Department announced new investments in undersea cables, healthcare, and security programs following a dialogue with Caribbean nations.",
+  "bodyHtml": "<p>The United States State Department announced on October 16, 2026, that it is launching several initiatives to expand cooperation with Caribbean nations. This follows a U.S.-Caribbean Dialogue hosted by Deputy Secretary of State Landau on October 15, 2026, which included delegations from 15 Caribbean countries.</p>\n<p>The Department of State announced $175.8 million to expand trusted, high-speed undersea cable connectivity across the Caribbean and Central America. Additionally, the Department of State intends to provide $61.5 million through the Americas Strategic Partnership for Independent Regional Healthcare Excellence to help Caribbean governments build self-sufficient health workforces.</p>\n<p>The Department of State announced $37 million in CBSI programming to secure critical digital infrastructure and ports, and counter illegal, unreported, and unregulated fishing. Furthermore, the State Department announced $66 million in CBSI programming to strengthen Caribbean partners’ ability to counter transnational criminal organizations and secure the region’s borders. The Department of State announced that it will host a Caribbean Investment Summit in early 2027 to connect U.S. companies, financiers, and government finance agencies with Caribbean partners.</p>",
+  "publishedAt": "2026-10-17T12:01:52Z",
+  "updatedAt": "2026-10-17T12:01:52Z",
+  "wordCount": 170,
+  "readingTimeMin": 1,
+  "topic": "United States Hosts Caribbean Dialogue to Advance Shared Security and Prosperity",
+  "tags": [
+    "United States",
+    "Caribbean",
+    "State Department"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/united-states-hosts-caribbean-dialogue-to-advance-shared-security-and-prosperity/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The United States announced funding for Caribbean regional initiatives.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The State Department announced new investments in undersea cables, healthcare, and security programs following a dialogue with Caribbean nations.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The United States State Department announced on October 16, 2026, that it is launching several initiatives to expand cooperation with Caribbean nations.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The initiatives follow a U.S.-Caribbean Dialogue hosted by Deputy Secretary of State Landau on October 15, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The dialogue included delegations from 15 Caribbean countries.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State announced $175.8 million to expand trusted, high-speed undersea cable connectivity across the Caribbean and Central America.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State intends to provide $61.5 million through the Americas Strategic Partnership for Independent Regional Healthcare Excellence to help Caribbean governments build self-sufficient health workforces.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State announced $37 million in CBSI programming to secure critical digital infrastructure and ports, and counter illegal, unreported, and unregulated fishing.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The State Department announced $66 million in CBSI programming to strengthen Caribbean partners’ ability to counter transnational criminal organizations and secure the region’s borders.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State announced that it will host a Caribbean Investment Summit in early 2027 to connect U.S. companies, financiers, and government finance agencies with Caribbean partners.",
+      "source": "The US State Department"
+    }
+  ]
+}
