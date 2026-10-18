@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-confirms-artemis-ii-heat-shield-performance-2",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA confirms Artemis II heat shield performance",
+  "excerpt": "The agency completed an analysis of the Orion spacecraft heat shield following the April 10, 2026, splashdown.",
+  "bodyHtml": "<p>NASA announced on October 16, 2026, that the heat shield on the Orion spacecraft performed as expected following the Artemis II mission. The agency conducted a rigorous analysis of the thermal protection system, which is the hardware designed to protect the spacecraft during reentry into Earth&#x27;s atmosphere.</p>\n<p>The mission concluded with a splashdown on April 10, 2026. Shortly after this event, U.S. Navy divers captured underwater imagery of the Orion spacecraft heat shield. In the months after the splashdown, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere.</p>\n<p>The agency confirmed that the heat shield performed as expected. This assessment was based on the rigorous analysis conducted by the agency in the months following the splashdown.</p>",
+  "publishedAt": "2026-10-18T16:05:31Z",
+  "updatedAt": "2026-10-18T16:05:31Z",
+  "wordCount": 128,
+  "readingTimeMin": 1,
+  "topic": "Artemis II Heat Shield After Splashdown",
+  "tags": [
+    "NASA",
+    "Artemis II",
+    "Orion",
+    "US Navy"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA confirmed the performance of the Artemis II heat shield.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency completed an analysis of the Orion spacecraft heat shield following the April 10, 2026, splashdown.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 16, 2026, that the heat shield on the Orion spacecraft performed as expected following the Artemis II mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency conducted a rigorous analysis of the thermal protection system, which is designed to protect the spacecraft during reentry into Earth's atmosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Artemis II mission concluded with a splashdown on April 10, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Shortly after splashdown, U.S. Navy divers captured underwater imagery of the Orion spacecraft heat shield.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In the months after the splashdown, NASA measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The confirmation that the heat shield performed as expected was based on the rigorous analysis conducted in the months following splashdown.",
+      "source": "NASA"
+    }
+  ]
+}

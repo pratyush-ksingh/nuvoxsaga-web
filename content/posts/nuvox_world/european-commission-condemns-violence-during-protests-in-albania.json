@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-condemns-violence-during-protests-in-albania",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission condemns violence during protests in Albania",
+  "excerpt": "The commission called for peaceful dialogue while acknowledging the Albanian government's commitment to protect the right to protest.",
+  "bodyHtml": "<p>The European Commission issued a statement on October 18, 2026, condemning acts of violence occurring in Tirana and other cities in Albania. The commission cited reports of arson, attacks on state institutions, and the destruction of public and private property during the protests.</p>\n<p>The commission stated that those responsible for the violence should be held to account through due process. It emphasized that while freedom of assembly and expression are fundamental rights, they must be exercised peacefully.</p>\n<p>The European Commission noted that it welcomes the commitment from Albanian authorities to protect the right to protest. It further stated that grievances in the candidate country should be handled through constructive dialogue.</p>",
+  "publishedAt": "2026-10-18T16:05:48Z",
+  "updatedAt": "2026-10-18T16:05:48Z",
+  "wordCount": 110,
+  "readingTimeMin": 1,
+  "topic": "Commission statement on the protests in Albania",
+  "tags": [
+    "Albania",
+    "European Commission",
+    "protests"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2194"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission condemns violence during protests in Albania.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The commission called for peaceful dialogue.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The commission acknowledged the Albanian government's commitment to protect the right to protest.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission issued a statement on October 18, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The commission cited reports of arson, attacks on state institutions, and the destruction of public and private property during the protests.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The commission stated that those responsible for the violence should be held to account through due process.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The commission emphasized that while freedom of assembly and expression are fundamental rights, they must be exercised peacefully.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Albania is a candidate country.",
+      "source": "The European Commission"
+    }
+  ]
+}
