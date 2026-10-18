@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-researchers-develop-multimodal-ai-model-for-crystalline-materials",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT researchers develop multimodal AI model for crystalline materials",
+  "excerpt": "The new system integrates 3D atomic structures with natural language to improve material design and identification.",
+  "bodyHtml": "<p>MIT researchers announced on October 18, 2026, the development of a multimodal AI model designed to identify crystalline materials. The model combines 3D atomic structures with natural language descriptions to create unified data about chemical composition, properties, and processing considerations.</p>\n<p>In a paper published in Nature Communications, researchers demonstrated that the system outperforms models trained on text streams alone by allowing the AI to analyze atomic arrangements and bonding patterns. The model successfully identified promising candidates for solid-state lithium-ion battery electrolytes during testing.</p>\n<p>The researchers trained the model using an approach known as contrastive learning, which involves comparing similar and dissimilar examples of structures and textual descriptions. This method allows the model to align geometric structures with text descriptions.</p>\n<p>The work was supported, in part, by the U.S. Defense Threat Reduction Agency through the University Research Alliance; the U.S. Defense Advanced Research Projects Agency; and the National Research Foundation of Korea.</p>",
+  "publishedAt": "2026-10-18T06:03:40Z",
+  "updatedAt": "2026-10-18T06:03:40Z",
+  "wordCount": 151,
+  "readingTimeMin": 1,
+  "topic": "Giving AI a “crystal clear” view of the materials world",
+  "tags": [
+    "MIT",
+    "Artificial intelligence",
+    "Materials science"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT researchers develop a multimodal AI model for crystalline materials.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The new system integrates 3D atomic structures with natural language to improve material design and identification.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT researchers announced on October 18, 2026, the development of a multimodal AI model designed to identify crystalline materials.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The model combines 3D atomic structures with natural language descriptions to create unified data about chemical composition, properties, and processing considerations.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "In a paper published in Nature Communications, researchers demonstrated that the system outperforms models trained on text streams alone by allowing the AI to analyze atomic arrangements and bonding patterns.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The model successfully identified promising candidates for solid-state lithium-ion battery electrolytes during testing.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers trained the model using an approach known as contrastive learning, which involves comparing similar and dissimilar examples of structures and textual descriptions.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The contrastive learning method allows the model to align geometric structures with text descriptions.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The work was supported, in part, by the U.S. Defense Threat Reduction Agency through the University Research Alliance; the U.S. Defense Advanced Research Projects Agency; and the National Research Foundation of Korea.",
+      "source": "MIT News"
+    }
+  ]
+}

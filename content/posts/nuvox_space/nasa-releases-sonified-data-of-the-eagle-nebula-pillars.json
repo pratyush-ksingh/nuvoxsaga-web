@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-sonified-data-of-the-eagle-nebula-pillars",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases sonified data of the Eagle Nebula pillars",
+  "excerpt": "The audio-visual representation maps the vertical position of dust and stars to pitch.",
+  "bodyHtml": "<p>NASA released a sonified version of the Eagle Nebula, also known as M16, on October 18, 2026. The project converts visual data from the nebula into sound, allowing users to experience the structure through audio.</p>\n<p>The sonification process involves a line moving from left to right across the image, where the vertical position of the stars and dust determines the pitch. The underlying imagery combines visible light data from Hubble and X-ray data from Chandra.</p>\n<p>The Eagle Nebula is located 6,500 light-years away in the constellation of the Serpent, or Serpens. The pillars are composed of cold gas and dust that are currently being eroded by ultraviolet light and stellar winds from massive stars. The environment of star formation within M16 is likely similar to the environment that formed our own Sun.</p>",
+  "publishedAt": "2026-10-18T06:04:05Z",
+  "updatedAt": "2026-10-18T06:04:05Z",
+  "wordCount": 132,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+  "tags": [
+    "NASA",
+    "Eagle Nebula",
+    "Hubble",
+    "Chandra"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released sonified data of the Eagle Nebula pillars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The audio-visual representation maps the vertical position of dust and stars to pitch.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA released a sonified version of the Eagle Nebula on October 18, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Eagle Nebula is also known as M16.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The project converts visual data from the nebula into sound, allowing users to experience the structure through audio.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The sonification process involves a line moving from left to right across the image.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The underlying imagery combines visible light data from Hubble and X-ray data from Chandra.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Eagle Nebula is located 6,500 light-years away.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Eagle Nebula is in the constellation of the Serpent, or Serpens.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The pillars are composed of cold gas and dust.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The pillars are currently being eroded by ultraviolet light and stellar winds from massive stars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The environment of star formation within M16 is likely similar to the environment that formed our own Sun.",
+      "source": "NASA"
+    }
+  ]
+}
