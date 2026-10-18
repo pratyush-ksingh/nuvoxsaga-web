@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-launches-rtx-spark-laptops-with-blackwell-rtx-graphics",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA launches RTX Spark laptops with Blackwell RTX graphics",
+  "excerpt": "The new Windows PCs feature up to 128GB of unified memory and are priced starting at $2,399.",
+  "bodyHtml": "<p>NVIDIA announced on October 17, 2026, that RTX Spark laptops are available for purchase. These devices, produced by manufacturers including ASUS, Dell, HP, Lenovo, Microsoft and MSI, are designed to support local AI, content creation and gaming.</p>\n<p>The laptops utilize a superchip that combines an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU. This hardware configuration provides up to 1 petaflop of AI compute and up to 128GB of unified memory. The systems are available in slim, premium Windows PCs.</p>\n<p>NVIDIA held launch events in six cities worldwide to demonstrate the capabilities of the new systems. These locations included Berlin, Beijing, Istanbul, Seoul, San Francisco and Taipei. At the Berlin event, NVIDIA founder and CEO Jensen Huang made a surprise appearance to greet attendees and distribute signed laptops.</p>\n<p>Developers and AI enthusiasts can access resources for running local AI on the new hardware. NVIDIA provides tested recipes and playbooks for users to explore the capabilities of the RTX Spark platform.</p>",
+  "publishedAt": "2026-10-18T02:04:18Z",
+  "updatedAt": "2026-10-18T02:04:18Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+  "tags": [
+    "NVIDIA",
+    "RTX Spark",
+    "Windows",
+    "Local AI"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA launched RTX Spark laptops equipped with Blackwell RTX graphics.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The new Windows PCs feature up to 128GB of unified memory and have a starting price of $2,399.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on October 17, 2026, that RTX Spark laptops are available for purchase.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The laptops are produced by manufacturers including ASUS, Dell, HP, Lenovo, Microsoft, and MSI, and are designed to support local AI, content creation, and gaming.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The laptops use a superchip combining an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The hardware configuration delivers up to 1 petaflop of AI compute and up to 128GB of unified memory in slim, premium Windows PCs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA held retail launch events in six cities worldwide, including Berlin, Beijing, Istanbul, Seoul, San Francisco, and Taipei, to demonstrate the new systems.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "At the Berlin event, NVIDIA founder and CEO Jensen Huang made a surprise appearance to greet attendees and distribute signed laptops.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Developers and AI enthusiasts can access NVIDIA-tested recipes, playbooks, and resources for running local AI on RTX Spark.",
+      "source": "NVIDIA"
+    }
+  ]
+}
