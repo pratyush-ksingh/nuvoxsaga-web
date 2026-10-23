@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-and-poland-s-nask-sign-agreement-on-ai-safety-research",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "OpenAI and Poland’s NASK sign agreement on AI safety research",
+  "excerpt": "The partnership focuses on evaluating AI systems and strengthening safeguards through technical collaboration.",
+  "bodyHtml": "<p>OpenAI and Poland’s NASK National Research Institute announced an agreement on October 23, 2026, to collaborate on AI safety, security, and technical research. The partnership brings together expertise from both organizations to better understand emerging risks and strengthen safeguards.</p>\n<p>Under the agreement, NASK’s AI Safety Research Center, which serves as the Polish Artificial Intelligence Safety Institute, will work with OpenAI to evaluate increasingly capable AI systems. The organizations intend to identify potential vulnerabilities and strengthen safeguards through this research collaboration.</p>\n<p>This agreement builds on previous work between the two organizations. In July 2026, CERT Polska, which operates within NASK, gained access to OpenAI’s cyber capable models through Daybreak. The team used these models to help discover six vulnerabilities in MikroTik RouterOS, including flaws that could be combined to take control of affected devices without authentication.</p>\n<p>The vendor subsequently released fixes for the identified flaws, which CERT Polska confirmed prevented the attacks it observed. This collaboration reflects the value of bringing national expertise into the wider effort to establish international technical standards for frontier AI.</p>",
+  "publishedAt": "2026-10-23T06:23:44Z",
+  "updatedAt": "2026-10-23T06:23:44Z",
+  "wordCount": 174,
+  "readingTimeMin": 1,
+  "topic": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+  "tags": [
+    "OpenAI",
+    "NASK",
+    "AI safety"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI and Poland’s NASK signed an agreement on AI safety research.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The partnership focuses on evaluating AI systems and strengthening safeguards through technical collaboration.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI and Poland’s NASK National Research Institute announced an agreement on October 23, 2026, to collaborate on AI safety, security, and technical research.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The partnership brings together expertise from both organizations to better understand emerging risks and strengthen safeguards.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "NASK’s AI Safety Research Center serves as the Polish Artificial Intelligence Safety Institute.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "NASK's AI Safety Research Center will work with OpenAI to evaluate increasingly capable AI systems.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The organizations intend to identify potential vulnerabilities and strengthen safeguards through research collaboration.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The agreement builds on previous work between OpenAI and cyber defenders in Poland / NASK.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In July 2026, CERT Polska, which operates within NASK, gained access to OpenAI’s cyber capable models through Daybreak.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The CERT Polska team used OpenAI models to help discover six vulnerabilities in MikroTik RouterOS, including flaws that could be combined to take control of affected devices without authentication.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The vendor released fixes for the flaws, which CERT Polska confirmed prevented the observed attacks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The collaboration reflects the value of bringing national expertise into the wider effort to establish international technical standards for frontier AI.",
+      "source": "OpenAI"
+    }
+  ]
+}

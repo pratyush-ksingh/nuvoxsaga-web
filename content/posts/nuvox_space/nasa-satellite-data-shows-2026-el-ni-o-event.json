@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/space/nasa-satellite-data-shows-2026-el-ni-o-event.webp",
+    "alt": "Side-by-side maps of the Pacific Ocean compare sea surface height anomalies in October 1997 (left) and October 2026 (right). In both, red areas of higher-than-normal sea surface height stretch across the central and eastern Pacific and...",
+    "credit": "NASA Earth Observatory / Lauren Dauphin"
+  },
+  "slug": "nasa-satellite-data-shows-2026-el-ni-o-event",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA satellite data shows 2026 El Niño event",
+  "excerpt": "Altimetry satellites indicate the current El Niño pattern resembles the 1997 event.",
+  "bodyHtml": "<p>NASA reported on October 23, 2026, that satellite altimetry data shows sea levels are higher than normal across the central and eastern equatorial Pacific. This pattern is a hallmark of the El Niño climate phenomenon, which involves warmer-than-normal water in the equatorial Pacific.</p>\n<p>Data from the Sentinel-6 Michael Freilich satellite indicates that the 2026 event is similar in character to the 1997-98 El Niño. According to Josh Willis, a project scientist at NASA’s Jet Propulsion Laboratory, the current event is on track to be even bigger than the 1997 event.</p>\n<p>The 2015-16 El Niño was also very strong, but its pattern differed from those in October 1997 and October 2026. NOAA’s October 8, 2026, outlook predicted an 83 percent chance of a strong-to-very strong El Niño through the first three months of 2027.</p>",
+  "publishedAt": "2026-10-23T06:51:19Z",
+  "updatedAt": "2026-10-23T06:51:19Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "El Niño Then and Now",
+  "tags": [
+    "NASA",
+    "El Niño",
+    "Sentinel-6 Michael Freilich"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA satellite data shows 2026 El Niño event.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Altimetry satellites indicate the current El Niño pattern resembles the 1997 event.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA reported on October 23, 2026, that satellite altimetry data shows sea levels are higher than normal across the central and eastern equatorial Pacific.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The pattern of higher-than-normal sea levels is a hallmark of the El Niño climate phenomenon.",
+      "source": "NASA"
+    },
+    {
+      "claim": "El Niño involves warmer-than-normal water in the equatorial Pacific.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Data from the Sentinel-6 Michael Freilich satellite indicates that the 2026 event is similar in character to the 1997-98 El Niño.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Josh Willis is a project scientist at NASA’s Jet Propulsion Laboratory.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to Josh Willis, the current El Niño event is on track to be even bigger than the 1997 event.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The 2015-16 El Niño was also very strong.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The 2015-16 El Niño pattern differed from those in October 1997 and October 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NOAA’s October 8, 2026, outlook predicted an 83 percent chance of a strong-to-very strong El Niño through the first three months of 2027.",
+      "source": "NASA"
+    }
+  ]
+}

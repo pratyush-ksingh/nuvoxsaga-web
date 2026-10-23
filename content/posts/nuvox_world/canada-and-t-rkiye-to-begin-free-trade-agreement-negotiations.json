@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-and-t-rkiye-to-begin-free-trade-agreement-negotiations",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Canada and Türkiye to begin free trade agreement negotiations",
+  "excerpt": "The two nations plan to start formal talks in November to establish a comprehensive bilateral free trade agreement.",
+  "bodyHtml": "<p>The Government of Canada announced on October 22, 2026, that Minister of Foreign Affairs Anita Anand and Türkiye’s Minister of Foreign Affairs Hakan Fidan met in Ankara. The ministers agreed to initiate negotiations for a comprehensive bilateral free trade agreement beginning in November.</p>\n<p>During the meeting, the ministers discussed geopolitical and security concerns, including continued coordination on Euro-Atlantic security and support for Ukraine. They also addressed diplomatic efforts toward de-escalation and civilian protection in the Middle East, while Minister Anand raised the importance of respect for human rights.</p>\n<p>The ministers reviewed progress on the Statement of Intent on Defence Cooperation signed in July 2026 and explored potential collaboration in energy, critical minerals, and defence sector opportunities. Minister Anand also congratulated Türkiye on hosting the 2026 NATO Summit in Ankara and expressed appreciation for Türkiye’s commitment to the Defence, Security and Resilience Bank. The ministers agreed to remain in close contact as they advance the implementation of the Canada-Türkiye Strategic Partnership.</p>",
+  "publishedAt": "2026-10-23T07:17:04Z",
+  "updatedAt": "2026-10-23T07:17:04Z",
+  "wordCount": 160,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand meets with Türkiye’s Minister of Foreign Affairs",
+  "tags": [
+    "Canada",
+    "Türkiye",
+    "Trade",
+    "Diplomacy"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-anand-meets-with-turkiyes-minister-of-foreign-affairs.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada and Türkiye plan to begin free trade agreement negotiations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Canada and Türkiye plan to start formal talks in November to establish a comprehensive bilateral free trade agreement.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on October 22, 2026, that Minister of Foreign Affairs Anita Anand and Türkiye’s Minister of Foreign Affairs Hakan Fidan met in Ankara.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers agreed to initiate negotiations for a comprehensive bilateral free trade agreement beginning in November.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "During the meeting, the ministers discussed geopolitical and security concerns, including continued coordination on Euro-Atlantic security and support for Ukraine.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers addressed diplomatic efforts toward de-escalation and civilian protection in the Middle East, while Minister Anand raised the importance of respect for human rights.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers reviewed progress on the Statement of Intent on Defence Cooperation signed in July 2026 and explored potential collaboration in energy, critical minerals, and defence sector opportunities.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand congratulated Türkiye on hosting the 2026 NATO Summit in Ankara and expressed appreciation for Türkiye’s commitment to the Defence, Security and Resilience Bank.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The ministers agreed to remain in close contact as they advance the implementation of the Canada-Türkiye Strategic Partnership.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

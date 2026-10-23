@@ -1,0 +1,63 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-proclaims-october-2026-as-national-seafood-month",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump proclaims October 2026 as National Seafood Month",
+  "excerpt": "The proclamation follows administration actions to increase commercial fishing quotas and restore access to thousands of square miles of ocean.",
+  "bodyHtml": "<p>President Donald J. Trump proclaimed October 2026 as National Seafood Month in a document released by the White House on October 22, 2026. The proclamation recognizes the American seafood industry, which the White House states harvests nearly 8.5 billion pounds of food annually and supports over a million jobs.</p>\n<p>The administration reported several recent actions regarding the industry, including the establishment of the Department of Agriculture Office of Seafood. The White House also stated it has signed three proclamations to restore commercial fishing access to nearly 5,000 square miles in the Atlantic Ocean and hundreds of thousands of square miles in the Pacific.</p>\n<p>According to the White House, these measures included a 1,200 percent quota increase for Atlantic mackerel and the allocation of $123.6 million in fishery disaster assistance.</p>",
+  "publishedAt": "2026-10-23T07:19:45Z",
+  "updatedAt": "2026-10-23T07:19:45Z",
+  "wordCount": 129,
+  "readingTimeMin": 1,
+  "topic": "National Seafood Month, 2026",
+  "tags": [
+    "Donald J. Trump",
+    "Seafood",
+    "Fisheries",
+    "United States"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/national-seafood-month-2026/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump proclaimed October 2026 as National Seafood Month.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation follows administration actions to increase commercial fishing quotas and restore access to thousands of square miles of ocean.",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Donald J. Trump proclaimed October 2026 as National Seafood Month in a document released by the White House on October 22, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House states that the American seafood industry harvests nearly 8.5 billion pounds of food annually and supports over a million jobs.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration reported several recent actions regarding the industry, including the establishment of the Department of Agriculture Office of Seafood.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated it has signed three proclamations to restore commercial fishing access to nearly 5,000 square miles in the Atlantic Ocean and hundreds of thousands of square miles in the Pacific.",
+      "source": "The White House"
+    },
+    {
+      "claim": "According to the White House, these measures included a 1,200 percent quota increase for Atlantic mackerel and the allocation of $123.6 million in fishery disaster assistance.",
+      "source": "The White House"
+    }
+  ]
+}

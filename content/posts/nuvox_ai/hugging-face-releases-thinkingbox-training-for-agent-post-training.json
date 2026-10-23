@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-thinkingbox-training-for-agent-post-training",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face releases ThinkingBox-Training for agent post-training",
+  "excerpt": "The new tool uses database state outcomes as rewards to improve AI agent performance.",
+  "bodyHtml": "<p>Hugging Face announced on October 22, 2026, the availability of ThinkingBox-Training on GitHub. The framework evaluates AI agent performance by comparing final database states against expected outcomes, using these results as reward signals for post-training.</p>\n<p>According to Hugging Face, the method was applied to the Qwen3.8-27B model using 50 steps of GRPO. Following the training, the model&#x27;s average success rate on benchmark tasks rose from 51.70% to 60.78%. Additionally, the number of tasks completed correctly on all twenty attempts increased from 38 to 107.</p>\n<p>The training pool for the model consisted of tasks selected based on offline policy-relative difficulty, which estimates a task&#x27;s success probability using a base policy. The final checkpoint was evaluated on the 507-task ThinkingBox-Bench, which the model had not encountered during its training phase. Each of its 507 tasks in ThinkingBox-Bench hands an agent a real backend and a set of tools, lets it work, then checks what really changed in the database.</p>",
+  "publishedAt": "2026-10-23T06:39:14Z",
+  "updatedAt": "2026-10-23T06:39:14Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "tags": [
+    "Hugging Face",
+    "ThinkingBox",
+    "Qwen3.8-27B",
+    "AI agents"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released ThinkingBox-Training for agent post-training.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "ThinkingBox-Training uses database state outcomes as rewards to improve AI agent performance.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the availability of ThinkingBox-Training on GitHub on October 22, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework evaluates AI agent performance by comparing final database states against expected outcomes and using these results as reward signals for post-training.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The method was applied to the Qwen3.8-27B model using 50 steps of GRPO.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Following training, Qwen3.8-27B's average success rate on benchmark tasks rose from 51.70% to 60.78%.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The number of tasks completed correctly on all twenty attempts increased from 38 to 107.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The training pool was selected based on offline policy-relative difficulty, which estimates a task's success probability using a base policy.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The final checkpoint was evaluated on the 507-task ThinkingBox-Bench, which the model had not encountered during its training phase.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Each of the 507 tasks in ThinkingBox-Bench hands an agent a real backend and a set of tools, lets it work, and checks what changed in the database.",
+      "source": "Hugging Face"
+    }
+  ]
+}

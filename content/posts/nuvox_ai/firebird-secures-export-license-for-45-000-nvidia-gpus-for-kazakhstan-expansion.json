@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "firebird-secures-export-license-for-45-000-nvidia-gpus-for-kazakhstan-expansion",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Firebird secures export license for 45,000 NVIDIA GPUs for Kazakhstan expansion",
+  "excerpt": "Firebird plans to build AI infrastructure in Kazakhstan and establish a research lab to support local startups and talent development.",
+  "bodyHtml": "<p>NVIDIA announced on October 21, 2026, that Firebird is expanding into Kazakhstan. The company has secured a U.S. export license for 45,000 NVIDIA Grace Blackwell GPUs.</p>\n<p>The first phase of the infrastructure project is under construction with Kazakhtelecom at Data Center Valley, with a commercial launch targeted for the third quarter of 2027. A planned second phase would bring Firebird’s total potential AI infrastructure capacity in Kazakhstan to approximately 500 megawatts.</p>\n<p>Firebird also plans to establish Firebird Labs Kazakhstan to support local AI startups, research and talent development through funding, access to compute and research partnerships.</p>\n<p>Separately, Kazakhtelecom has deployed 400 NVIDIA H200 and 480 NVIDIA B300 GPUs in Astana and Almaty. The company plans to deploy more than 1,000 GPUs in the Data Center Valley, along with more than 1,000 NVIDIA Vera Rubin GPUs in the Ekibastuz region.</p>",
+  "publishedAt": "2026-10-23T06:34:10Z",
+  "updatedAt": "2026-10-23T06:34:10Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "Kazakhstan Expands Compute for Its AI Future",
+  "tags": [
+    "Firebird",
+    "Kazakhstan",
+    "NVIDIA",
+    "AI Infrastructure"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Firebird secures export license for 45,000 NVIDIA GPUs for Kazakhstan expansion.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Firebird plans to build AI infrastructure in Kazakhstan and establish a research lab to support local startups and talent development.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on October 21, 2026, that Firebird is expanding into Kazakhstan.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Firebird has secured a U.S. export license for 45,000 NVIDIA Grace Blackwell GPUs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The first phase of the infrastructure project is under construction with Kazakhtelecom at Data Center Valley, with a commercial launch targeted for the third quarter of 2027.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "A planned second phase would bring Firebird’s total potential AI infrastructure capacity in Kazakhstan to approximately 500 megawatts.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Firebird plans to establish Firebird Labs Kazakhstan to support local AI startups, research and talent development through funding, access to compute and research partnerships.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Separately, Kazakhtelecom has deployed 400 NVIDIA H200 and 480 NVIDIA B300 GPUs in Astana and Almaty.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Kazakhtelecom plans to deploy more than 1,000 GPUs in the Data Center Valley, along with more than 1,000 NVIDIA Vera Rubin GPUs in the Ekibastuz region.",
+      "source": "NVIDIA"
+    }
+  ]
+}

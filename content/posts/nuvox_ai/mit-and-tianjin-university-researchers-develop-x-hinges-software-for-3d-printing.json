@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-and-tianjin-university-researchers-develop-x-hinges-software-for-3d-printing",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT and Tianjin University researchers develop X-Hinges software for 3D printing",
+  "excerpt": "The software allows users to embed two materials into 3D-printed objects to enable sensing and movement across three axes.",
+  "bodyHtml": "<p>Researchers at MIT’s Computer Science and Artificial Intelligence Laboratory and Tianjin University announced on October 22, 2026, the development of X-Hinges, a software tool for 3D printing interactive objects. The software enables the embedding of two distinct materials into a single design, allowing developers to use a filament for sensors and another for wire-like elements to prevent signal interference.</p>\n<p>The tool allows users to customize designs with up to three axes of motion, such as compressing or moving up, down, and to the sides. The team used the software to create items including a robotic glove for teaching grasping tasks and an origami-style lamp that adjusts brightness based on physical interaction. The software also allows for the creation of devices that identify objects placed on them using tactile data.</p>\n<p>To address calibration issues where electrical elements vary between prints, the researchers built a computer vision system to align outputs. The researchers are scheduled to present their work at the ACM Symposium on User Interface Software and Technology in early November.</p>",
+  "publishedAt": "2026-10-23T06:45:24Z",
+  "updatedAt": "2026-10-23T06:45:24Z",
+  "wordCount": 170,
+  "readingTimeMin": 1,
+  "topic": "This design software reimagines everyday objects as self-aware devices",
+  "tags": [
+    "MIT",
+    "Tianjin University",
+    "3D printing",
+    "software"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT and Tianjin University researchers developed X-Hinges software for 3D printing.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "X-Hinges software allows users to embed two materials into 3D-printed objects to enable sensing and movement across three axes.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Researchers at MIT’s CSAIL and Tianjin University announced the development of X-Hinges on October 22, 2026.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The software enables embedding two distinct materials into a single design, using one filament for sensors and another for wire-like elements to prevent signal interference.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The tool allows users to customize designs with up to three axes of motion, such as compressing or moving up, down, and to the sides.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The research team used the software to create a robotic glove for teaching grasping tasks and an origami-style lamp that adjusts brightness based on physical interaction.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The software allows for the creation of devices that identify objects placed on them using tactile data.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "To address calibration issues where electrical elements vary between prints, the researchers built a computer vision system to align outputs.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers are scheduled to present their work at the ACM Symposium on User Interface Software and Technology in early November.",
+      "source": "MIT News"
+    }
+  ]
+}

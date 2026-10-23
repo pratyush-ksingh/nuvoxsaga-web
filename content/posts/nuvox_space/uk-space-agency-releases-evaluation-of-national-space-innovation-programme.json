@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-2.webp",
+    "alt": "Illustration: conference hall with a large screen showing a starfield, empty seats",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-releases-evaluation-of-national-space-innovation-programme",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK Space Agency releases evaluation of National Space Innovation Programme",
+  "excerpt": "The report assesses the impact and economic performance of the pilot and ETP projects.",
+  "bodyHtml": "<p>The UK Space Agency released the Full Impact and Economic Evaluation of the National Space Innovation Programme (NSIP) pilot and ETP on October 21, 2026. The programme supports the research and development of innovative products, services, and technologies with space sector applications.</p>\n<p>The evaluation was conducted by know.space and RAND Europe. The report provides findings on the programme, which is designed to catalyse investment, drive innovation, and capture market share for the UK space sector by 2030.</p>\n<p>The core aims of the programme include supporting projects that multiply the value of non-government contracts and capital secured by the UK space sector by five to eight times the value of NSIP investment by 2030. Additionally, the programme supports an average improvement in Technology Readiness Level of 2 or more for supported projects, as measured over the lifetime of each project.</p>\n<p>NSIP supports the delivery of the UK’s Modern Industrial Strategy 2025. This involves developing the technologies and capabilities that will meet the priorities of the Department of Science Innovation and Technology and the wider ambitions of government.</p>",
+  "publishedAt": "2026-10-23T07:08:30Z",
+  "updatedAt": "2026-10-23T07:08:30Z",
+  "wordCount": 176,
+  "readingTimeMin": 1,
+  "topic": "Research: National Space Innovation Programme: Evaluation",
+  "tags": [
+    "UK Space Agency",
+    "NSIP",
+    "space industry"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/national-space-innovation-programme-evaluation"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency released an evaluation of the National Space Innovation Programme.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The report assesses the impact and economic performance of the pilot and ETP projects.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency released the Full Impact and Economic Evaluation of the National Space Innovation Programme (NSIP) pilot and ETP on October 21, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme supports the research and development of innovative products, services, and technologies with space sector applications.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The evaluation was conducted by know.space and RAND Europe.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The report provides findings on the programme, which is designed to catalyse investment, drive innovation, and capture market share for the UK space sector by 2030.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The core aims of the programme include supporting projects that multiply the value of non-government contracts and capital secured by the UK space sector by five to eight times the value of NSIP investment by 2030.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme supports an average improvement in Technology Readiness Level of 2 or more for supported projects, as measured over the lifetime of each project.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "NSIP supports the delivery of the UK’s Modern Industrial Strategy 2025.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "This involves developing the technologies and capabilities that will meet the priorities of the Department of Science Innovation and Technology and the wider ambitions of government.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-olmoearth-v1-3-satellite-embedding-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Hugging Face releases OlmoEarth v1.3 satellite embedding model",
+  "excerpt": "The new model provides 128-dimensional vectors for satellite imagery to assist in environmental monitoring and land-cover analysis.",
+  "bodyHtml": "<p>Hugging Face released OlmoEarth v1.3 on October 22, 2026, a satellite embedding model designed to compress satellite data into features for various tasks. The model uses a vision transformer to process radar and multispectral satellite time series, producing a 128-dimensional vector for every 10-meter pixel on Earth.</p>\n<p>The release includes precomputed annual embeddings for the entire planet and a browser-based tool called the OlmoEarth Embeddings Explorer. This tool allows users to explore and customize maps based on the embeddings without requiring sign-in or advanced technical knowledge.</p>\n<p>According to Hugging Face, the 128-dimensional embeddings outperformed AlphaEarth Foundations and Tessera v2 in 20 of 27 evaluations. The model weights, pretraining data, and pretraining code are available under the open OlmoEarth Artifact License. Pre-training the base model cost roughly $2,720 of rented H100 time for the final run.</p>",
+  "publishedAt": "2026-10-23T06:50:58Z",
+  "updatedAt": "2026-10-23T06:50:58Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+  "tags": [
+    "Hugging Face",
+    "OlmoEarth",
+    "satellite imagery"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face releases the OlmoEarth v1.3 satellite embedding model.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The new model provides 128-dimensional vectors for satellite imagery to assist in environmental monitoring and land-cover analysis.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face released OlmoEarth v1.3 on October 22, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "OlmoEarth v1.3 is a satellite embedding model designed to compress satellite data into features for various tasks.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model uses a vision transformer to process radar and multispectral satellite time series, producing a 128-dimensional vector for every 10-meter pixel on Earth.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The release includes precomputed annual embeddings for the entire planet and a browser-based tool called the OlmoEarth Embeddings Explorer.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The OlmoEarth Embeddings Explorer tool allows users to explore and customize maps based on the embeddings without requiring sign-in or advanced technical knowledge.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "According to Hugging Face, the 128-dimensional embeddings outperformed AlphaEarth Foundations and Tessera v2 in 20 of 27 evaluations.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model weights, pretraining data, and pretraining code are available under the open OlmoEarth Artifact License.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Pre-training the base model cost roughly $2,720 of rented H100 time for the final run.",
+      "source": "Hugging Face"
+    }
+  ]
+}

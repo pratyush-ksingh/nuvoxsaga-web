@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "minister-leblanc-meets-with-advisory-committee-on-canada-u-s-economic-relations",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Minister LeBlanc meets with Advisory Committee on Canada-U.S. Economic Relations",
+  "excerpt": "The committee convened on October 22, 2026, to discuss the impact of U.S. tariffs on Canadian businesses and sectors.",
+  "bodyHtml": "<p>On October 22, 2026, the Honourable Dominic LeBlanc, President of the King&#x27;s Privy Council for Canada and Minister responsible for Canada-U.S. Trade, Intergovernmental Affairs, Internal Trade and One Canadian Economy, met with members of the Advisory Committee on Canada-U.S. Economic Relations. The meeting included Chief Trade Negotiator Janice Charette and Ambassador Mark Wiseman.</p>\n<p>During the session, committee members discussed the ongoing impact of U.S. tariffs on their regions, businesses, or sectors. Participants shared perspectives on Canada’s response to these measures and how they are helping mitigate economic impacts across the country. This meeting marks the ninth time the committee has convened since April 2026.</p>\n<p>Chief Trade Negotiator Charette discussed the ongoing work to address unjustified trade measures affecting Canadian workers and businesses. Ambassador Wiseman provided an update on the current state of play in Washington. The discussion underscored the importance of continued collaboration with governments, industry, labour and other partners to ensure Canada’s response reflects national priorities and promotes long-term economic growth.</p>",
+  "publishedAt": "2026-10-23T07:22:52Z",
+  "updatedAt": "2026-10-23T07:22:52Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "Minister LeBlanc chairs meeting of Advisory Committee on Canada-U.S. Economic Relations to discuss current trade situation and opportunities",
+  "tags": [
+    "Canada",
+    "United States",
+    "Trade",
+    "Economy"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-leblanc-chairs-meeting-of-advisory-committee-on-canada-us-economic-relations-to-discuss-current-trade-situation-and-opportunities.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Minister LeBlanc met with the Advisory Committee on Canada-U.S. Economic Relations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The committee convened on October 22, 2026, to discuss the impact of U.S. tariffs on Canadian businesses and sectors.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "On October 22, 2026, the Honourable Dominic LeBlanc, President of the King's Privy Council for Canada and Minister responsible for Canada-U.S. Trade, Intergovernmental Affairs, Internal Trade and One Canadian Economy, met with members of the Advisory Committee on Canada-U.S. Economic Relations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The meeting included Chief Trade Negotiator Janice Charette and Ambassador Mark Wiseman.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "During the session, committee members discussed the ongoing impact of U.S. tariffs on their regions, businesses, or sectors.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Participants shared perspectives on Canada’s response to these measures and how they are helping mitigate economic impacts across the country.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "This meeting marks the ninth time the committee has convened since April 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Chief Trade Negotiator Charette discussed ongoing work to address unjustified trade measures affecting Canadian workers and businesses.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Ambassador Wiseman provided an update on the current state of play in Washington.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The discussion underscored the importance of continued collaboration with governments, industry, labour and other partners to ensure Canada’s response reflects national priorities and promotes long-term economic growth.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

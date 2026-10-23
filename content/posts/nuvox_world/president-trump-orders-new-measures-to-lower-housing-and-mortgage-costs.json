@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-orders-new-measures-to-lower-housing-and-mortgage-costs",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump orders new measures to lower housing and mortgage costs",
+  "excerpt": "The directive establishes a task force for manufactured housing and mandates interest rate reductions on specific government-backed home loans.",
+  "bodyHtml": "<p>On October 22, 2026, the White House announced a new executive order aimed at reducing regulatory barriers and costs associated with homeownership in the United States. The order directs the Federal Housing Finance Agency to create pilot programs for the proactive cancellation of mortgage insurance and to expand title acceptance programs, which allow for automated title reviews in place of traditional lender title insurance policies.</p>\n<p>The directive also establishes a Task Force on Manufactured Housing Innovation, co-chaired by the Secretary of Housing and Urban Development and the Director of the Federal Housing Finance Agency. This group is tasked with submitting recommendations within 180 days to modernize manufacturing methods for factory-built housing and to standardize permitting processes across federal programs.</p>\n<p>Additionally, the Secretary of Agriculture and the Secretary of Veterans Affairs are instructed to reduce interest rates on single-family home loans provided directly by their respective departments, contingent upon available appropriations and existing legal authorities.</p>",
+  "publishedAt": "2026-10-23T07:20:01Z",
+  "updatedAt": "2026-10-23T07:20:01Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "DECREASING HOUSING COSTS FOR THE AMERICAN PEOPLE",
+  "tags": [
+    "housing",
+    "mortgages",
+    "White House"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/decreasing-housing-costs-for-the-american-people/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump ordered new measures to lower housing and mortgage costs.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The directive establishes a task force for manufactured housing.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The directive mandates interest rate reductions on specific government-backed home loans.",
+      "source": "The White House"
+    },
+    {
+      "claim": "On October 22, 2026, the White House announced a new executive order.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order is aimed at reducing regulatory barriers and costs associated with homeownership in the United States.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order directs the Federal Housing Finance Agency to create pilot programs for the proactive cancellation of mortgage insurance.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order directs the FHFA to expand title acceptance programs.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These programs allow for automated title reviews in place of traditional lender title insurance policies.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Task Force on Manufactured Housing Innovation is co-chaired by the Secretary of Housing and Urban Development and the Director of the Federal Housing Finance Agency.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The task force is tasked with submitting recommendations within 180 days.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The recommendations are to modernize manufacturing methods for factory-built housing.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The recommendations are to standardize permitting processes across federal programs.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Secretary of Agriculture and the Secretary of Veterans Affairs are instructed to reduce interest rates on single-family home loans provided directly by their respective departments.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The interest rate reduction is contingent upon available appropriations and existing legal authorities.",
+      "source": "The White House"
+    }
+  ]
+}
