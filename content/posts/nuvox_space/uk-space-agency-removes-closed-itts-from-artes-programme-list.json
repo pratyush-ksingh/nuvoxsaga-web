@@ -1,0 +1,86 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-1.webp",
+    "alt": "Illustration: Earth from orbit with thin atmosphere glow at the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-removes-closed-itts-from-artes-programme-list",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK Space Agency removes closed ITTs from ARTES programme list",
+  "excerpt": "The agency updated its online documentation on October 21, 2026, to reflect the removal of closed Invitations to Tender.",
+  "bodyHtml": "<p>The UK Space Agency updated its documentation regarding the ESA ARTES programme on October 21, 2026. The agency stated that closed Invitations to Tender, or ITTs, have been removed from the list of supported activities.</p>\n<p>The ARTES programme is an ESA-initiated programme offering up to 100% funding for developing early technologies and innovations. Applicants must be UK organisations and companies, and both the UK Space Agency and ESA approval are required for participation.</p>\n<p>The application process involves three stages. Applicants must complete an online form to register interest in ITT activities, submit a full proposal to the UK Space Agency, and receive an authorisation of funding letter before submitting the final proposal to ESA. Applicants are also required to complete the UK Registration form for ARTES Invitations to Tender prior to the submission of a proposal. The deadline for applications is open until further notice.</p>",
+  "publishedAt": "2026-10-23T12:39:33Z",
+  "updatedAt": "2026-10-23T12:39:33Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "Notice: UK National Delegate support for ESA ARTES Invitations to Tender",
+  "tags": [
+    "UK Space Agency",
+    "ESA",
+    "ARTES"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/uk-national-delegate-support-for-the-advanced-technology-call"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency removed closed ITTs from the ARTES programme list.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The agency updated its online documentation on October 21, 2026, to reflect the removal of closed Invitations to Tender.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency updated its documentation regarding the ESA ARTES programme on October 21, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The agency stated that closed Invitations to Tender, or ITTs, have been removed from the list of supported activities.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The ARTES programme is an ESA-initiated programme offering up to 100% funding for developing early technologies and innovations.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applicants must be UK organisations and companies.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Both the UK Space Agency and ESA approval are required for participation.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The application process involves three stages.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applicants must complete an online form to register interest in ITT activities.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applicants must submit a full proposal to the UK Space Agency.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applicants must receive an authorisation of funding letter before submitting the final proposal to ESA.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applicants are also required to complete the UK Registration form for ARTES Invitations to Tender prior to the submission of a proposal.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The deadline for applications is open until further notice.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

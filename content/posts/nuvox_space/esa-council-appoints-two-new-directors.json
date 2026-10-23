@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-3.webp",
+    "alt": "Illustration: classical columns at night under a clear starry sky",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-council-appoints-two-new-directors",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "ESA Council appoints two new directors",
+  "excerpt": "Andrzej Banasiak and Nicolaus Hanowski will assume their new leadership roles at the European Space Agency on 1 January 2027.",
+  "bodyHtml": "<p>The European Space Agency Council approved the appointment of two new directors during its 350th meeting held on 21–22 October 2026 at the agency&#x27;s headquarters in Paris, France. The appointments were confirmed following proposals from the Director General.</p>\n<p>Andrzej Banasiak will serve as Director of Commercialisation and Industry Partnership, based at the European Centre for Space Applications and Telecommunications in Harwell, United Kingdom. He has more than 25 years of international leadership experience in the space, defence, aerospace and high-technology sectors.</p>\n<p>Nicolaus Hanowski will serve as Director of Space Operations, based at the European Space Operations Centre in Darmstadt, Germany. He has more than 25 years of experience in the space sector and has headed ESA’s Earth Observation Mission Management and Ground Segment Department since 2014.</p>\n<p>Both directors are scheduled to take up their duties on 1 January 2027.</p>",
+  "publishedAt": "2026-10-23T12:33:53Z",
+  "updatedAt": "2026-10-23T12:33:53Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "ESA Council approves appointment of two new directors",
+  "tags": [
+    "ESA",
+    "Andrzej Banasiak",
+    "Nicolaus Hanowski"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_approves_appointment_of_two_new_directors"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The ESA Council appointed two new directors (headline)",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Andrzej Banasiak and Nicolaus Hanowski will assume their new leadership roles at ESA on 1 January 2027.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Council approved the appointments during its 350th meeting held on 21–22 October 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The meeting was held at the agency's headquarters in Paris, France.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The appointments were confirmed following proposals from the Director General.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Banasiak will serve as Director of Commercialisation and Industry Partnership, based at ECSAT in Harwell, UK.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Banasiak has more than 25 years of international leadership experience in the space, defence, aerospace and high-technology sectors.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Hanowski will serve as Director of Space Operations, based at ESOC in Darmstadt, Germany.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Hanowski has more than 25 years of experience in the space sector and has headed ESA’s Earth Observation Mission Management and Ground Segment Department since 2014.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

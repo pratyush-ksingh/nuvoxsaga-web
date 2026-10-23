@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-publishes-study-on-ai-assisted-gestational-age-assessment",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research publishes study on AI-assisted gestational age assessment",
+  "excerpt": "A prospective study shows an AI model can estimate gestational age using blind sweep ultrasound scans with accuracy comparable to expert sonographers.",
+  "bodyHtml": "<p>On October 21, 2026, Google Research published a study in JAMA Network Open evaluating an AI model designed to interpret blind sweep ultrasounds. This scanning method allows operators without specialized sonography training to perform assessments by moving a portable ultrasound probe across the abdomen in a standardized pattern.</p>\n<p>The study tested the model prospectively in Chicago, Illinois, and Nairobi, Kenya. Across both cohorts, the AI model achieved a mean absolute error of 4.18 days in estimating gestational age, compared to 4.48 days for expert sonographers. In Nairobi, where the model received no local fine-tuning, it achieved a mean absolute error of 4.27 days.</p>\n<p>The research team fine-tuned the model using a dataset of 120 participants from Chicago before the prospective testing phase. The final evaluation included 385 participants between 16 and 36 weeks of pregnancy.</p>",
+  "publishedAt": "2026-10-23T12:12:55Z",
+  "updatedAt": "2026-10-23T12:12:55Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "Empowering frontline maternal care with AI-assisted ultrasound",
+  "tags": [
+    "Google Research",
+    "JAMA Network Open",
+    "AI",
+    "ultrasound"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research published a study on AI-assisted gestational age assessment.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "A prospective study shows an AI model can estimate gestational age using blind sweep ultrasound scans with accuracy comparable to expert sonographers.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research published the study on October 21, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The study was published in JAMA Network Open.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Blind sweep scanning allows operators without specialized sonography training to perform assessments by moving a portable ultrasound probe across the abdomen in a standardized pattern.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The study tested the model prospectively in Chicago, Illinois, and Nairobi, Kenya.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Across both cohorts, the AI model achieved a mean absolute error of 4.18 days in estimating gestational age.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Expert sonographers had a mean absolute error of 4.48 days.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "In Nairobi, the model achieved a mean absolute error of 4.27 days with no local fine-tuning.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The research team fine-tuned the model using a dataset of 120 participants from Chicago before the prospective testing phase.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The final evaluation included 385 participants between 16 and 36 weeks of pregnancy.",
+      "source": "Google Research"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "microsoft-research-introduces-flint-interactive-for-data-visualizations",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Microsoft Research introduces Flint-interactive for data visualizations",
+  "excerpt": "The language allows AI agents to create interactive charts that support filtering, zooming, and cross-chart data exploration.",
+  "bodyHtml": "<p>Microsoft Research announced the release of Flint-interactive on October 22, 2026. This language enables AI agents to create data visualizations that users can explore through clicking, filtering, zooming, highlighting, and cross-chart interactions.</p>\n<p>According to Microsoft Research, the system uses a compiler to handle interaction logic and visual dependencies. This approach helps avoid many of the layout, rendering, and debugging challenges common in custom interactive visualizations. Instead of requiring low-level visualization code, the system allows users and agents to define behaviors using high-level semantic events and update operators.</p>\n<p>Flint-interactive supports interactive data stories, dashboards, and connected experiences where actions in one view can update charts, documents, widgets, or application state in another. To create bespoke interactions beyond presets, users can define a trigger and a custom handle function with the programming API that maps semantic events to custom chart update sequences.</p>\n<p>Users can access the tool by setting up Flint in their chat or canvas environment through Flint-MCP and MCP Apps. Interaction designers are invited to propose a preset on GitHub to help expand the interaction vocabulary.</p>",
+  "publishedAt": "2026-10-23T12:06:15Z",
+  "updatedAt": "2026-10-23T12:06:15Z",
+  "wordCount": 176,
+  "readingTimeMin": 1,
+  "topic": "Flint-interactive: A language for creating interactive data visualizations",
+  "tags": [
+    "Microsoft Research",
+    "Flint-interactive",
+    "Data Visualization"
+  ],
+  "source": {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+  },
+  "sources": [
+    "Microsoft Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Microsoft Research introduces Flint-interactive for data visualizations.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The language allows AI agents to create interactive charts that support filtering, zooming, and cross-chart data exploration.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Microsoft Research announced the release of Flint-interactive on October 22, 2026.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Flint-interactive enables AI agents to create data visualizations that users can explore through clicking, filtering, zooming, highlighting, and cross-chart interactions.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "According to Microsoft Research, the system uses a compiler to handle interaction logic and visual dependencies.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The compiler-based approach helps avoid many of the layout, rendering, and debugging challenges common in custom interactive visualizations.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Instead of requiring low-level visualization code, the system allows users and agents to define behaviors using high-level semantic events and update operators.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Flint-interactive supports interactive data stories, dashboards, and connected experiences where actions in one view can update charts, documents, widgets, or application state in another.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "To create bespoke interactions beyond presets, users can define a trigger and a custom handle function with the programming API that maps semantic events to custom chart update sequences.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Users can access the tool by setting up Flint in their chat or canvas environment through Flint-MCP and MCP Apps.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Interaction designers are invited to propose a preset on GitHub to help expand the interaction vocabulary.",
+      "source": "Microsoft Research"
+    }
+  ]
+}

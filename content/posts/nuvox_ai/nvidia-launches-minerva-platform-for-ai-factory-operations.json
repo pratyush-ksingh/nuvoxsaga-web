@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-launches-minerva-platform-for-ai-factory-operations",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Nvidia launches Minerva platform for AI factory operations",
+  "excerpt": "The artificial intelligence infrastructure monitoring tool connects data across graphics processing units and workloads.",
+  "bodyHtml": "<p>Nvidia announced the launch of Nvidia Minerva on October 22, 2026, an AIOps platform built to find problems earlier and keep artificial intelligence factories productive. According to Nvidia, the platform brings together telemetry from infrastructure and artificial intelligence workloads to turn data into actionable insight.</p>\n<p>Minerva builds a dynamic knowledge graph that logically maps infrastructure components and running jobs. The system analyzes billions of data points per hour using machine learning to detect anomalies and predict emerging failures.</p>\n<p>Partners including IREN, Aolani, Bitdeer AI, IBM, Jio, Lambda, Quake AI and Tesla plan to deploy Minerva. Dell Technologies, Lenovo and Supermicro will offer the platform as part of their artificial intelligence factory operations portfolios.</p>",
+  "publishedAt": "2026-10-23T12:07:01Z",
+  "updatedAt": "2026-10-23T12:07:01Z",
+  "wordCount": 113,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+  "tags": [
+    "NVIDIA",
+    "AI Infrastructure",
+    "AI Factory",
+    "GTC 2026"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Nvidia launches the Minerva platform for AI factory operations.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The Minerva platform is an artificial intelligence infrastructure monitoring tool that connects data across graphics processing units and workloads.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Nvidia announced the launch of Nvidia Minerva on October 22, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Minerva is an AIOps platform built to find problems earlier and keep artificial intelligence factories productive.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "According to Nvidia, the platform brings together telemetry from infrastructure and artificial intelligence workloads to turn data into actionable insight.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Minerva builds a dynamic knowledge graph that logically maps infrastructure components and running jobs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system analyzes billions of data points per hour using machine learning to detect anomalies and predict emerging failures.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Partners including IREN, Aolani, Bitdeer AI, IBM, Jio, Lambda, Quake AI and Tesla plan to deploy Minerva.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Dell Technologies, Lenovo and Supermicro will offer the platform as part of their artificial intelligence factory operations portfolios.",
+      "source": "NVIDIA"
+    }
+  ]
+}

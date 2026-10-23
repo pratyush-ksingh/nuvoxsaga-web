@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-reports-performance-gains-from-forward-deployed-engineering-deployments",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "OpenAI reports performance gains from Forward Deployed Engineering deployments",
+  "excerpt": "OpenAI detailed how its engineering teams use custom implementations to scale AI solutions for enterprise customers.",
+  "bodyHtml": "<p>OpenAI announced on October 22, 2026, that its Forward Deployed Engineering (FDE) team has implemented AI-native workflows for various enterprise partners. Colin Jarvis, Head of Forward Deployed Engineering, stated that the team focuses on closing the deployment gap between model capabilities and practical, real-world use cases.</p>\n<p>In a mid-2025 engagement with a semiconductor customer, the team achieved a 48% time saving through AI-based directed test generation and a 22% median performance improvement through kernel optimization. The team also reported that weeks of debugging were compressed into hours.</p>\n<p>A pilot program for Tax AI with Thrive Holdings processed 7,000 tax returns, resulting in a 50% increase in throughput. Additionally, a voice-based customer service platform for a telecommunications partner improved from 60% to over 90% on key production evals over a six-month period.</p>\n<p>The team also noted that for one project, an initial deployment took two months, while extending the solution to a second team in August 2026 took one day.</p>",
+  "publishedAt": "2026-10-23T12:08:15Z",
+  "updatedAt": "2026-10-23T12:08:15Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "What FDE means at OpenAI",
+  "tags": [
+    "OpenAI",
+    "Forward Deployed Engineering",
+    "Enterprise AI"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/forward-deployed-engineering-means"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI reports performance gains from Forward Deployed Engineering deployments.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI detailed how its engineering teams use custom implementations to scale AI solutions for enterprise customers.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced on October 22, 2026, that its Forward Deployed Engineering (FDE) team has implemented AI-native workflows for various enterprise partners.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Colin Jarvis is the Head of Forward Deployed Engineering at OpenAI.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Jarvis stated that the team focuses on closing the deployment gap between model capabilities and practical, real-world use cases.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In a mid-2025 engagement with a semiconductor customer, the team achieved a 48% time saving through AI-based directed test generation.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In the semiconductor engagement, the team achieved a 22% median performance improvement through kernel optimization.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The team reported that weeks of debugging were compressed into hours for the semiconductor customer.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "A pilot program for Tax AI with Thrive Holdings processed 7,000 tax returns.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The Tax AI pilot resulted in a 50% increase in throughput.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "A voice-based customer service platform for a telecommunications partner improved from 60% to over 90% on key production evals over a six-month period.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "For one project, an initial deployment took two months, while extending the solution to a second team in August 2026 took one day.",
+      "source": "OpenAI"
+    }
+  ]
+}

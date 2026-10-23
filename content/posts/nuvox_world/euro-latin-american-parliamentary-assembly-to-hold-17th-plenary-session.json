@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "euro-latin-american-parliamentary-assembly-to-hold-17th-plenary-session",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Euro-Latin American Parliamentary Assembly to hold 17th plenary session",
+  "excerpt": "Around 40 MEPs will attend the event in Santa Cruz de Tenerife to discuss trade and global challenges.",
+  "bodyHtml": "<p>The European Parliament said on October 23, 2026, that the Euro-Latin American Parliamentary Assembly will hold its 17th plenary session in Santa Cruz de Tenerife on 28-29 October. Around 40 MEPs will attend the plenary, hosted by the Parliament of the Canary Islands.</p>\n<p>The agenda includes the protection of multilateralism and Euro-Latin American cooperation, and the promotion of free trade. The parliamentarians will be joined for the discussions by academics, and representatives of international and non-governmental organisations and Canary Islands local and regional authorities.</p>\n<p>The opening session on Wednesday will feature the president of the government of the Canary Islands, Fernando Clavijo Battle, and the speaker of the regional parliament, Astrid Pérez. European Parliament president Roberta Metsola and the secretary general of the Ibero-American General Secretariat Andrés Allamand will contribute with video messages.</p>\n<p>The EuroLat standing committees will hold meetings on Tuesday 27 October.</p>",
+  "publishedAt": "2026-10-23T12:46:50Z",
+  "updatedAt": "2026-10-23T12:46:50Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "Press release - EU-Latin America: parliamentary dialogue in the face of global instability",
+  "tags": [
+    "EuroLat",
+    "European Parliament",
+    "Canary Islands",
+    "Santa Cruz de Tenerife"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261019IPR48287/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The Euro-Latin American Parliamentary Assembly will hold its 17th plenary session.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Around 40 MEPs will attend the event in Santa Cruz de Tenerife to discuss trade and global challenges.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament said on October 23, 2026, that the Euro-Latin American Parliamentary Assembly will hold its 17th plenary session in Santa Cruz de Tenerife on 28-29 October.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Around 40 MEPs will attend the plenary, hosted by the Parliament of the Canary Islands.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The agenda includes the protection of multilateralism and Euro-Latin American cooperation, and the promotion of free trade.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The parliamentarians will be joined for the discussions by academics, and representatives of international and non-governmental organisations and Canary Islands local and regional authorities.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The opening session on Wednesday will feature the president of the government of the Canary Islands, Fernando Clavijo Battle, and the speaker of the regional parliament, Astrid Pérez.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "European Parliament president Roberta Metsola and the secretary general of the Ibero-American General Secretariat Andrés Allamand will contribute with video messages.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The EuroLat standing committees will hold meetings on Tuesday 27 October.",
+      "source": "The European Parliament"
+    }
+  ]
+}

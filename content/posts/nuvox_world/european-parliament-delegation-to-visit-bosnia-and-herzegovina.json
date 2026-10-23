@@ -1,0 +1,62 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-delegation-to-visit-bosnia-and-herzegovina",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament delegation to visit Bosnia and Herzegovina",
+  "excerpt": "MEPs will conduct a three-day fact-finding mission starting October 26, 2026, to assess hybrid threats and foreign interference.",
+  "bodyHtml": "<p>The European Parliament announced on October 23, 2026, that members of the Special Committee on the European Democracy Shield will travel to Sarajevo for a fact-finding visit from 26 – 28 October 2026.</p>\n<p>The delegation will examine the scope and impact of hybrid threats and foreign interference on Bosnia and Herzegovina’s democratic institutions and its EU accession process. Members of the European Parliament will examine disinformation, economic leverage, cyberattacks and other vectors of interference, identify gaps in the country’s resilience, and discuss targeted policy recommendations.</p>\n<p>The visit will give members of the European Parliament the chance to hold high-level dialogue with representatives of relevant authorities in Bosnia and Herzegovina, discuss hybrid threats and foreign interference with parliamentary committees, and meet state bodies responsible for ensuring democratic integrity and resilience, as well as a range of civil society organisations, media representatives, and researchers.</p>\n<p>Nathalie Loiseau, Mika Aaltola, Ana Catarina Mendes, and Cristian Terheş make up the delegation composition for the visit to Sarajevo.</p>",
+  "publishedAt": "2026-10-23T12:42:18Z",
+  "updatedAt": "2026-10-23T12:42:18Z",
+  "wordCount": 162,
+  "readingTimeMin": 1,
+  "topic": "Press release - Hybrid threats in Bosnia and Herzegovina: EUDS mission to Sarajevo",
+  "tags": [
+    "European Parliament",
+    "Bosnia and Herzegovina",
+    "European Democracy Shield"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261020IPR48312/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "A European Parliament delegation will visit Bosnia and Herzegovina.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs will conduct a three-day fact-finding mission starting October 26, 2026, to assess hybrid threats and foreign interference.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament announced on October 23, 2026, that members of the Special Committee on the European Democracy Shield will travel to Sarajevo for a fact-finding visit from 26 – 28 October 2026.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The delegation will examine the scope and impact of hybrid threats and foreign interference on Bosnia and Herzegovina’s democratic institutions and its EU accession process.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Members of the European Parliament will examine disinformation, economic leverage, cyberattacks and other vectors of interference, identify gaps in the country’s resilience, and discuss targeted policy recommendations.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The visit will give members of the European Parliament the chance to hold high-level dialogue with representatives of relevant authorities in Bosnia and Herzegovina, discuss hybrid threats and foreign interference with parliamentary committees, and meet state bodies responsible for ensuring democratic integrity and resilience, as well as a range of civil society organisations, media representatives, and researchers.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Nathalie Loiseau, Mika Aaltola, Ana Catarina Mendes, and Cristian Terheş make up the delegation composition for the visit to Sarajevo.",
+      "source": "The European Parliament"
+    }
+  ]
+}

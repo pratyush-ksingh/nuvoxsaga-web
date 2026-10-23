@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-3.webp",
+    "alt": "Illustration: storm clouds gathering over the ocean seen from above",
+    "credit": "AI illustration"
+  },
+  "slug": "who-and-enhypen-review-blood-donation-campaign-results",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "WHO and ENHYPEN review blood donation campaign results",
+  "excerpt": "The World Health Organization and the K-pop group ENHYPEN met in Seoul to discuss the results of the 2026 Drop Your Drop campaign.",
+  "bodyHtml": "<p>World Health Organization Director-General Dr Tedros Adhanom Ghebreyesus met with members of the K-pop group ENHYPEN on 22 October 2026 at HYBE headquarters in Seoul. The meeting served to review the outcomes of the Drop Your Drop global blood donation campaign, which launched on 14 June 2026.</p>\n<p>The campaign generated more than 9000 pledges from participants across 177 countries. During the visit, members of the group visited a Korean Red Cross blood donation centre, where members JAY and JUNGWON donated plasma.</p>\n<p>The meeting included representatives from the Republic of Korea&#x27;s Ministry of Health and Welfare and the Korean Red Cross to discuss future efforts to promote blood donation among young people. The group also explored opportunities to further promote other health issues among young people.</p>",
+  "publishedAt": "2026-10-23T12:41:25Z",
+  "updatedAt": "2026-10-23T12:41:25Z",
+  "wordCount": 125,
+  "readingTimeMin": 1,
+  "topic": "WHO and ENHYPEN join efforts to inspire young blood donors globally",
+  "tags": [
+    "WHO",
+    "ENHYPEN",
+    "blood donation"
+  ],
+  "source": {
+    "name": "The World Health Organization",
+    "url": "https://www.who.int/news/item/23-10-2026-who-and-enhypen-join-efforts-to-inspire-young-blood-donors-globally"
+  },
+  "sources": [
+    "The World Health Organization"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "WHO and ENHYPEN reviewed blood donation campaign results.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The World Health Organization and the K-pop group ENHYPEN met in Seoul to discuss the results of the 2026 Drop Your Drop campaign.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "WHO Director-General Dr Tedros Adhanom Ghebreyesus met with members of the K-pop group ENHYPEN on 22 October 2026 at HYBE headquarters in Seoul.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The Drop Your Drop global blood donation campaign launched on 14 June 2026.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The campaign generated more than 9000 pledges from participants across 177 countries.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "Members of ENHYPEN visited a Korean Red Cross blood donation centre, where members JAY and JUNGWON donated plasma.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The meeting included representatives from the Republic of Korea's Ministry of Health and Welfare and the Korean Red Cross to discuss future efforts to promote blood donation among young people.",
+      "source": "The World Health Organization"
+    },
+    {
+      "claim": "The meeting participants explored opportunities to further promote other health issues among young people.",
+      "source": "The World Health Organization"
+    }
+  ]
+}

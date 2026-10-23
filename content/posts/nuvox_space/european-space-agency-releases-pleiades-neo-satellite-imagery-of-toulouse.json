@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "european-space-agency-releases-pleiades-neo-satellite-imagery-of-toulouse",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "European Space Agency releases Pleiades Neo satellite imagery of Toulouse",
+  "excerpt": "The high-resolution image shows the city of Toulouse, France, captured by the Pleiades Neo satellite mission.",
+  "bodyHtml": "<p>The European Space Agency released a new satellite image of Toulouse, France, on October 23, 2026. The image was captured by the Pleiades Neo satellite mission and provides a detailed view of the city, which is known for its terracotta tiled rooftops.</p>\n<p>The Pleiades Neo satellites have been in orbit since 2021 and are capable of capturing Earth observation images with a resolution of up to 30 cm. The mission is part of the Third Party Missions programme, which involves the use of multi-mission ground systems to process and distribute data from satellite missions operated by other agencies.</p>\n<p>One of the central features of Toulouse, as seen from above, is the Garonne river, which meanders through the city centre on its way from its source in the Pyrenees, to its estuary near Bordeaux. Numerous bridges span the Garonne and also connect the Ile Du Grand Ramier, a collection of river islands, south of Toulouse city centre, where the white oval of Toulouse Stadium is clearly visible.</p>\n<p>Other features seen from space include the Brienne, Midi and Garonne canals, the Matabiau railway station at the top of the image, and the tree-lined avenues around the University of Toulouse, one of the oldest universities in Europe, near the circular Boulingrin public garden in the centre of the image.</p>",
+  "publishedAt": "2026-10-23T12:23:56Z",
+  "updatedAt": "2026-10-23T12:23:56Z",
+  "wordCount": 216,
+  "readingTimeMin": 1,
+  "topic": "Earth from Space: The pink city",
+  "tags": [
+    "European Space Agency",
+    "Pleiades Neo",
+    "Toulouse"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Earth_from_Space_The_pink_city"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Space Agency released Pleiades Neo satellite imagery of Toulouse (headline).",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image is a high-resolution image of Toulouse, France, captured by the Pleiades Neo mission.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "ESA released a new satellite image of Toulouse on October 23, 2026.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image provides a detailed view of the city, which is known for its terracotta tiled rooftops.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Pleiades Neo satellites have been in orbit since 2021.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellites capture Earth observation images with a resolution of up to 30 cm.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission is part of the Third Party Missions programme, which uses multi-mission ground systems to process and distribute data from satellite missions operated by other agencies.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Garonne meanders through the city centre from its source in the Pyrenees to its estuary near Bordeaux.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Numerous bridges span the Garonne and connect the Ile Du Grand Ramier, river islands south of the city centre, where the white oval of Toulouse Stadium is visible.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Other visible features include the Brienne, Midi and Garonne canals, Matabiau station at the top of the image, and tree-lined avenues around the University of Toulouse, one of the oldest in Europe, near the circular Boulingrin garden in the centre.",
+      "source": "The European Space Agency"
+    }
+  ]
+}
