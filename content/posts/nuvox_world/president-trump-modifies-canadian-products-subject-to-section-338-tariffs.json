@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-modifies-canadian-products-subject-to-section-338-tariffs",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump modifies Canadian products subject to Section 338 tariffs",
+  "excerpt": "The changes to the tariff list, which take effect on October 30, 2026, remove certain goods while adding valves, carpets, and waste products.",
+  "bodyHtml": "<p>On October 23, 2026, the White House announced that President Donald J. Trump signed a Proclamation to modify the scope of tariffs on Canadian products under Section 338 of the Tariff Act of 1930.</p>\n<p>These tariffs apply to covered goods regardless of their origin under the U.S.-Mexico-Canada Agreement and are in addition to duties imposed under Section 232 of the Trade Expansion Act of 1962.</p>\n<p>The modification removes plywood sheets, some paper products, certain machinery, refrigeration equipment, and specific packing crates and boxes from the tariff list. These items are being replaced with certain valves, carpets, waste products, and other goods.</p>\n<p>The adjustments to the product list are scheduled to take effect on October 30, 2026. Section 338 authorizes the President to suspend, revoke, supplement, or amend any proclamation under Section 338 whenever the President deems that the public interests require such action.</p>",
+  "publishedAt": "2026-10-24T12:03:51Z",
+  "updatedAt": "2026-10-24T12:03:51Z",
+  "wordCount": 143,
+  "readingTimeMin": 1,
+  "topic": "Fact Sheet: President Donald J. Trump Further Modifies Canadian Products Subject to Tariffs Under Section 338",
+  "tags": [
+    "Canada",
+    "tariffs",
+    "trade"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-further-modifies-canadian-products-subject-to-tariffs-under-section-338/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump modifies Canadian products subject to Section 338 tariffs.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The changes to the tariff list take effect on October 30, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The changes to the tariff list remove certain goods while adding valves, carpets, and waste products.",
+      "source": "The White House"
+    },
+    {
+      "claim": "On October 23, 2026, the White House announced that President Donald J. Trump signed a Proclamation to modify the scope of tariffs on Canadian products under Section 338 of the Tariff Act of 1930.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These tariffs apply to covered goods regardless of their origin under the U.S.-Mexico-Canada Agreement.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These tariffs are in addition to duties imposed under Section 232 of the Trade Expansion Act of 1962.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The modification removes plywood sheets, some paper products, certain machinery, refrigeration equipment, and specific packing crates and boxes from the tariff list.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The removed items are being replaced with certain valves, carpets, waste products, and other goods.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Section 338 authorizes the President to suspend, revoke, supplement, or amend any proclamation under Section 338 whenever the President deems that the public interests require such action.",
+      "source": "The White House"
+    }
+  ]
+}

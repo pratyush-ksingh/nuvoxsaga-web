@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/space/nasa-announces-artemis-iii-mission-to-test-lunar-landers-in-2027.webp",
+    "alt": "NASA announces Artemis III mission to test lunar landers in 2027",
+    "credit": "NASA"
+  },
+  "slug": "nasa-announces-artemis-iii-mission-to-test-lunar-landers-in-2027",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA announces Artemis III mission to test lunar landers in 2027",
+  "excerpt": "The mission will send four astronauts to low Earth orbit to conduct docking demonstrations with test versions of Blue Origin and SpaceX landers.",
+  "bodyHtml": "<p>NASA announced on October 23, 2026, that the Artemis III mission will launch in 2027 to conduct test operations in low Earth orbit. Astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and Luca Parmitano will travel aboard the Orion spacecraft to perform demonstrations with test versions of human landing systems developed by Blue Origin and SpaceX.</p>\n<p>During the planned 14-day mission, crews and flight controllers will practice rendezvous, docking, habitation, and operational procedures. The mission will involve three separate spacecraft launched on three different heavy-lift rockets within a relatively short period of time.</p>\n<p>The crew will spend approximately two days conducting evaluations aboard the Blue Moon test article. Following this, Orion will undock and reposition to rendezvous with a Starship Version 3 test article. The mission will conclude with a splashdown in the Pacific Ocean off the coast of California.</p>",
+  "publishedAt": "2026-10-24T12:02:11Z",
+  "updatedAt": "2026-10-24T12:02:11Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+  "tags": [
+    "NASA",
+    "Artemis III",
+    "Blue Origin",
+    "SpaceX"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA announced on October 23, 2026, that the Artemis III mission will launch in 2027 to conduct test operations in low Earth orbit.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will send four astronauts: Randy Bresnik, Frank Rubio, Andre Douglas, and Luca Parmitano.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The astronauts will travel aboard the Orion spacecraft to perform demonstrations with test versions of human landing systems developed by Blue Origin and SpaceX.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission is planned for 14 days.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Crews and flight controllers will practice rendezvous, docking, habitation, and operational procedures during the mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will involve three separate spacecraft launched on three different heavy-lift rockets within a relatively short period of time.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crew will spend approximately two days conducting evaluations aboard the Blue Moon test article.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Orion will undock and reposition to rendezvous with a Starship Version 3 test article.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will conclude with a splashdown in the Pacific Ocean off the coast of California.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announces Artemis III mission to test lunar landers in 2027.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission will send four astronauts to low Earth orbit to conduct docking demonstrations with test versions of Blue Origin and SpaceX landers.",
+      "source": "NASA"
+    }
+  ]
+}

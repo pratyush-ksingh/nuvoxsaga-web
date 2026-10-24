@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/space/nasa-conducts-hot-fire-test-of-rs-25-engine-at-stennis-space-center.webp",
+    "alt": "A massive cloud of white vapor billows out from a structure where an RS-25 engine is firing. The flames are just barely visible through the structure. In the foreground is a body of water.",
+    "credit": "NASA/Danny Nowlin"
+  },
+  "slug": "nasa-conducts-hot-fire-test-of-rs-25-engine-at-stennis-space-center",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA conducts hot fire test of RS-25 engine at Stennis Space Center",
+  "excerpt": "The test of engine No. 10001 lasted 500 seconds at a 111% power level.",
+  "bodyHtml": "<p>NASA teams at Stennis Space Center near Bay St. Louis, Mississippi, conducted a hot fire test of RS-25 engine No. 10001 on October 21, 2026. The test lasted for 500 seconds, which is the same amount of time RS-25 engines fire during the launch of the Space Launch System rocket.</p>\n<p>The engine operated at a 111% power level during the test. NASA and its prime engine contractor, L3Harris Technologies, will use the data captured from this developmental engine to improve engine performance and reliability.</p>\n<p>Prior to use, all RS-25 engines are proven flightworthy at NASA Stennis. For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the Space Launch System rocket.</p>",
+  "publishedAt": "2026-10-24T12:02:29Z",
+  "updatedAt": "2026-10-24T12:02:29Z",
+  "wordCount": 120,
+  "readingTimeMin": 1,
+  "topic": "RS-25 Engine Tests at NASA Stennis",
+  "tags": [
+    "NASA",
+    "RS-25",
+    "Stennis Space Center",
+    "L3Harris Technologies"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA conducted a hot fire test of an RS-25 engine at Stennis Space Center.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The test of engine No. 10001 lasted 500 seconds.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The engine operated at a 111% power level during the test.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA teams at Stennis Space Center are located near Bay St. Louis, Mississippi.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The test occurred on October 21, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "500 seconds is the same amount of time RS-25 engines fire during the launch of the Space Launch System rocket.",
+      "source": "NASA"
+    },
+    {
+      "claim": "L3Harris Technologies is NASA's prime engine contractor.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA and L3Harris Technologies will use data from this developmental engine to improve engine performance and reliability.",
+      "source": "NASA"
+    },
+    {
+      "claim": "All RS-25 engines are proven flightworthy at NASA Stennis prior to use.",
+      "source": "NASA"
+    },
+    {
+      "claim": "For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust.",
+      "source": "NASA"
+    }
+  ]
+}

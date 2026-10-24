@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-announces-plans-to-strengthen-disaster-response-capacity",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission announces plans to strengthen disaster response capacity",
+  "excerpt": "President Ursula von der Leyen said emergency responders will develop proposals to improve civil-military cooperation and identify new response capabilities.",
+  "bodyHtml": "<p>The European Commission announced on October 23, 2026, that it is working to strengthen disaster preparedness and prevention measures. President Ursula von der Leyen stated that experienced firefighters and emergency responders will develop proposals to identify new response capabilities, including a future European firefighting fleet.</p>\n<p>This initiative follows the 25th anniversary of the EU Civil Protection Mechanism, a system that coordinates assistance between 27 EU Member States and 10 participating states. The mechanism allows any country in the world facing a crisis to call on assistance from across Europe.</p>\n<p>The mechanism was activated 12 times during the summer of 2026 to respond to wildfires, resulting in the deployment of 24 firefighting planes, 17 helicopters and 835 firefighters. The European Union is also investing in a permanent firefighting fleet of 22 airplanes and 5 helicopters under rescEU, which serves as its strategic reserve of emergency response capacities.</p>",
+  "publishedAt": "2026-10-24T12:17:58Z",
+  "updatedAt": "2026-10-24T12:17:58Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "EU Civil Protection Mechanism turns 25",
+  "tags": [
+    "European Commission",
+    "EU Civil Protection Mechanism",
+    "rescEU"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2248"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission announced plans to strengthen disaster response capacity.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "President Ursula von der Leyen said emergency responders will develop proposals to improve civil-military cooperation and identify new response capabilities.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced on October 23, 2026, that it is working to strengthen disaster preparedness and prevention measures.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "President Ursula von der Leyen stated that experienced firefighters and emergency responders will develop proposals to identify new response capabilities, including a future European firefighting fleet.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "This initiative coincides with/follows the 25th anniversary of the EU Civil Protection Mechanism, a system that coordinates assistance between 27 EU Member States and 10 participating states.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The mechanism allows any country in the world facing a crisis to call on assistance from across Europe.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The mechanism was activated 12 times during the summer of 2026 to respond to wildfires, resulting in the deployment of 24 firefighting planes, 17 helicopters and 835 firefighters.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Union is also investing in a permanent firefighting fleet of 22 airplanes and 5 helicopters under rescEU, which serves as its strategic reserve of emergency response capacities.",
+      "source": "The European Commission"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-issues-mental-health-guidance-for-nationals-in-argentina",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "UK government issues mental health guidance for nationals in Argentina",
+  "excerpt": "The guidance outlines emergency procedures and local support services for British nationals experiencing mental health difficulties in Argentina.",
+  "bodyHtml": "<p>The UK government published guidance on October 22, 2026, for British nationals in Argentina regarding access to mental health support. The document provides information on emergency contacts, medical facilities, and the process for accessing both inpatient and outpatient care within the country.</p>\n<p>For urgent medical attention, the government advises calling 911 or 107 for an ambulance. The guidance notes that public hospitals provide emergency treatment regardless of a patient&#x27;s ability to pay, though costs for follow-up care or non-emergency services may apply.</p>\n<p>The document also lists several local organizations, such as the suicide prevention helpline Centro de Asistencia al Suicida, which can be reached at 135 from Buenos Aires City and Greater Buenos Aires. Additionally, the guidance states that individuals may find it difficult to find certain medicines in Argentina and should bring at least enough to last for their stay.</p>",
+  "publishedAt": "2026-10-24T12:18:31Z",
+  "updatedAt": "2026-10-24T12:18:31Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "Mental health support for British nationals in Argentina",
+  "tags": [
+    "Argentina",
+    "mental health",
+    "UK government"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/mental-health-support-for-british-nationals-in-argentina"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government issued mental health guidance for nationals in Argentina.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance outlines emergency procedures for British nationals experiencing mental health difficulties in Argentina.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance outlines local support services for British nationals experiencing mental health difficulties in Argentina.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government published the guidance on October 22, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance is for British nationals in Argentina regarding access to mental health support.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The document provides information on emergency contacts and medical facilities.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The document provides information on the process for accessing both inpatient and outpatient care within Argentina.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "For urgent medical attention, the government advises calling 911 or 107 for an ambulance.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Public hospitals in Argentina provide emergency treatment regardless of a patient's ability to pay.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Costs for follow-up care or non-emergency services may apply after emergency treatment at public hospitals.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The document lists several local organizations, such as the suicide prevention helpline Centro de Asistencia al Suicida.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Centro de Asistencia al Suicida can be reached at 135 from Buenos Aires City and Greater Buenos Aires.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Individuals may find it difficult to find certain medicines in Argentina.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Individuals should bring at least enough medicine to last for their stay in Argentina.",
+      "source": "The UK government"
+    }
+  ]
+}
