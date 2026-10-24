@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-invokes-defense-production-act-for-domestic-petroleum-capacity",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump invokes Defense Production Act for domestic petroleum capacity",
+  "excerpt": "The order authorizes the Secretary of War to provide financial support to expand petroleum production, refining, and logistics infrastructure.",
+  "bodyHtml": "<p>On October 22, 2026, the White House announced a presidential determination under section 303 of the Defense Production Act of 1950. The order identifies domestic petroleum production, refining, and logistics capacity, including exploration and production, gathering and transmission pipelines, storage, and marine terminals, as industrial resources essential to the national defense.</p>\n<p>The determination authorizes the Secretary of War to implement the order by making purchases, commitments, and providing financial support for the development of production capabilities. The President waived specific requirements of the Act to facilitate these actions, citing the need to avert shortfalls that could impair national defense capability. The President stated that without such action, United States industry cannot reasonably be expected to provide these capabilities in a timely manner due to constrained financing, long lead times, permitting and infrastructure bottlenecks, and supply chain limitations.</p>\n<p>The Secretary of War is directed to implement this determination and to publish the document in the Federal Register.</p>",
+  "publishedAt": "2026-10-24T16:01:59Z",
+  "updatedAt": "2026-10-24T16:01:59Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity",
+  "tags": [
+    "Donald J. Trump",
+    "Defense Production Act",
+    "petroleum"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/10/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-domestic-petroleum-production-refining-and-logistics-capacity-c139/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump invokes Defense Production Act for domestic petroleum capacity.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order authorizes the Secretary of War to provide financial support to expand petroleum production, refining, and logistics infrastructure.",
+      "source": "The White House"
+    },
+    {
+      "claim": "On October 22, 2026, the White House announced a presidential determination under section 303 of the Defense Production Act of 1950.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order identifies domestic petroleum production, refining, and logistics capacity, including exploration and production, gathering and transmission pipelines, storage, and marine terminals, as industrial resources essential to the national defense.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The determination authorizes the Secretary of War to implement the order by making purchases, commitments, and providing financial support for the development of production capabilities.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The President waived specific requirements of the Act to facilitate these actions.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The President cited the need to avert shortfalls that could impair national defense capability.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The President stated that without such action, United States industry cannot reasonably be expected to provide these capabilities in a timely manner due to constrained financing, long lead times, permitting and infrastructure bottlenecks, and supply chain limitations.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Secretary of War is directed to implement this determination and to publish the document in the Federal Register.",
+      "source": "The White House"
+    }
+  ]
+}
