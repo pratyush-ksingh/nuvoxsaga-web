@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "webb-telescope-captures-new-data-on-star-formation-in-n159",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Webb telescope captures new data on star formation in N159",
+  "excerpt": "Researchers used the James Webb Space Telescope to identify young stellar objects and dim stars within the N159 nebula.",
+  "bodyHtml": "<p>The European Space Agency announced on October 22, 2026, that the NASA/ESA James Webb Space Telescope has captured new data on the star-forming region N159. Located 161 000 light-years away in the Large Magellanic Cloud, the nebula is an area of space filled with ionised hydrogen gas where giant molecular clouds collapse to form new stars.</p>\n<p>Using data from observing programme 5114, researchers were able to detect stars less than a tenth as massive as the Sun. The analysis distinguished between fully evolved stars and young stellar objects still contained within thick clouds.</p>\n<p>The study found that the western region of N159 contains a higher concentration of young stellar objects, indicating it is at an earlier stage of collapse. N159 is one of the youngest star-forming regions of the Large Magellanic Cloud, containing thousands of stars at their earliest stages of formation.</p>",
+  "publishedAt": "2026-10-24T02:15:33Z",
+  "updatedAt": "2026-10-24T02:15:33Z",
+  "wordCount": 142,
+  "readingTimeMin": 1,
+  "topic": "Stars brewing in a nebulous cauldron",
+  "tags": [
+    "James Webb Space Telescope",
+    "N159",
+    "star formation"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/Stars_brewing_in_a_nebulous_cauldron"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Webb telescope captures new data on star formation in N159",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Researchers used the James Webb Space Telescope to identify young stellar objects and dim stars within N159",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 22, 2026 that Webb captured new data on N159",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "N159 is located 161 000 light-years away in the Large Magellanic Cloud",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The nebula is an area of space filled with ionised hydrogen gas",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Giant molecular clouds collapse in the nebula to form new stars",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Data came from observing programme 5114",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Researchers were able to detect stars less than a tenth as massive as the Sun",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The analysis distinguished fully evolved stars from young stellar objects still contained within thick clouds",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The western region of N159 contains a higher concentration of young stellar objects, indicating an earlier stage of collapse",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "N159 is one of the youngest star-forming regions of the LMC, containing thousands of stars at their earliest stages of formation",
+      "source": "The European Space Agency"
+    }
+  ]
+}

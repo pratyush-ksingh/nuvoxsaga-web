@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-trade-committee-to-visit-china",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament trade committee to visit China",
+  "excerpt": "A delegation led by Bernd Lange will travel to Beijing, Hangzhou and Shanghai from 27 to 29 October to discuss trade policy.",
+  "bodyHtml": "<p>The European Parliament announced on October 22, 2026, that a delegation from its International Trade committee will visit China from 27 to 29 October. The mission will include stops in Beijing, Hangzhou and Shanghai.</p>\n<p>The delegation, led by committee chair Bernd Lange, plans to discuss trade policy and its impact on European businesses and jobs. The group is scheduled to meet with Chinese government officials, including representatives from the Ministry of Commerce, as well as the EU Chamber of Commerce, the International Monetary Fund and the World Bank.</p>\n<p>The MEPs intend to address issues including EU dependence on critical raw materials and technologies, market imbalances caused by excess production capacity, and market access for European companies. The delegation will also visit the technology companies Unitree and BrainCo in Hangzhou.</p>",
+  "publishedAt": "2026-10-23T16:12:59Z",
+  "updatedAt": "2026-10-23T16:12:59Z",
+  "wordCount": 129,
+  "readingTimeMin": 1,
+  "topic": "Press release - MEPs visit China next week to discuss trade challenges and opportunities",
+  "tags": [
+    "European Parliament",
+    "China",
+    "Trade"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261019IPR48283/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: European Parliament trade committee to visit China",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "A delegation led by Bernd Lange will travel to Beijing, Hangzhou and Shanghai from 27 to 29 October to discuss trade policy.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament announced on October 22, 2026 the visit.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The delegation is from the International Trade committee.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Lange is the committee chair.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The delegation plans to discuss trade policy and its impact on European businesses and jobs.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The group is scheduled to meet Chinese government officials, including from the Ministry of Commerce.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The group will meet the EU Chamber of Commerce, the IMF and the World Bank.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs intend to address EU dependence on critical raw materials and technologies, market imbalances from excess production capacity, and market access for European companies.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The delegation will visit Unitree and BrainCo in Hangzhou, described as technology companies.",
+      "source": "The European Parliament"
+    }
+  ]
+}

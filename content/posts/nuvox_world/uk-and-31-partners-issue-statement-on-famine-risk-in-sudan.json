@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-3.webp",
+    "alt": "Illustration: aerial view of a port city by a turquoise sea, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-and-31-partners-issue-statement-on-famine-risk-in-sudan",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "UK and 31 partners issue statement on famine risk in Sudan",
+  "excerpt": "A joint ministerial statement warns that 19.5 million people in Sudan are experiencing high levels of acute food insecurity.",
+  "bodyHtml": "<p>The UK government and 31 international partners released a joint ministerial statement on October 23, 2026, regarding the risk of famine in Sudan. The signatories stated that the country is experiencing an alarming deterioration in food security and warned of the risk of famine in the coming months as assessed by the Integrated Food Security Phase Classification.</p>\n<p>According to the statement, 19.5 million people, representing 41% of the population, are facing high levels of acute food insecurity, including 5 million people facing emergency levels. Without immediate action, the number of children suffering from severe acute malnutrition could exceed 825,000, and the number of food insecure areas, initially assessed at 14, is expected to double.</p>\n<p>The statement identifies conflict, systematic obstruction of aid, and the effects of El Niño as drivers of the crisis. The signatories urged parties to the conflict to lift impediments on humanitarian assistance, including authorizing operations through all crossline and cross-border routes, and to refrain from strikes on civilian infrastructure.</p>",
+  "publishedAt": "2026-10-24T02:21:56Z",
+  "updatedAt": "2026-10-24T02:21:56Z",
+  "wordCount": 163,
+  "readingTimeMin": 1,
+  "topic": "Joint ministerial statement on the risk of famine in Sudan",
+  "tags": [
+    "Sudan",
+    "famine",
+    "humanitarian aid"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/joint-ministerial-statement-on-the-risk-of-famine-in-sudan"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK and 31 partners issued a joint statement on famine risk in Sudan (headline).",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The statement was released on October 23, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "19.5 million people in Sudan are experiencing high levels of acute food insecurity.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The 19.5 million people represent 41% of the population.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "5 million people face emergency levels of food insecurity.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The signatories said Sudan is experiencing an alarming deterioration in food security and warned of famine risk in the coming months, as assessed by the IPC.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Without immediate action, the number of children with severe acute malnutrition could exceed 825,000.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The number of food insecure areas, initially assessed at 14, is expected to double.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The statement identifies conflict, systematic obstruction of aid and El Niño as drivers of the crisis.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Signatories urged the parties to lift impediments on humanitarian assistance, including authorizing operations through all crossline and cross-border routes.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Signatories urged the parties to refrain from strikes on civilian infrastructure.",
+      "source": "The UK government"
+    }
+  ]
+}

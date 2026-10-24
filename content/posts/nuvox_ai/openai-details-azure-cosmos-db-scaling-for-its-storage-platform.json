@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-details-azure-cosmos-db-scaling-for-its-storage-platform",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "OpenAI details Azure Cosmos DB scaling for its storage platform",
+  "excerpt": "OpenAI outlined how it optimized Azure Cosmos DB in its Habitat platform to support rapid growth.",
+  "bodyHtml": "<p>OpenAI said on October 23, 2026, that its storage platform, Habitat, requires fast and reliable access to data across 40 geographic regions. The platform serves over 1 billion ChatGPT users and manages over 500 petabytes of data. Habitat functions as an online storage platform that allows OpenAI products to access information quickly and reliably.</p>\n<p>OpenAI stated that it evaluated tradeoffs through a circular journey, moving from a multi-tenant Azure Cosmos DB container to single-tenant backing containers, and finally reverting to a multi-tenant container by default. The organization collaborated with the Azure team to address multi-tenancy issues, including noisy-neighbor problems where one tenant consumes an unusually large share of resources. By implementing hot key throttling and request tiering, the team prevented offline workloads from utilizing all throughput for a physical partition.</p>\n<p>OpenAI noted that its largest Azure Cosmos DB account stores 10s of petabytes of data and serves more than 20M QPS. The company reported that it has not had any provisioning or noisy neighbor incidents in the months since shifting back to a shared container model.</p>",
+  "publishedAt": "2026-10-24T02:11:22Z",
+  "updatedAt": "2026-10-24T02:11:22Z",
+  "wordCount": 176,
+  "readingTimeMin": 1,
+  "topic": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+  "tags": [
+    "OpenAI",
+    "Azure Cosmos DB",
+    "ChatGPT",
+    "Habitat"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI detailed Azure Cosmos DB scaling for its storage platform.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI outlined how it optimized Azure Cosmos DB in its Habitat platform to support rapid growth.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI said on October 23, 2026, that its storage platform, Habitat, requires fast and reliable access to data across 40 geographic regions.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The platform serves over 1 billion ChatGPT users and manages over 500 petabytes of data.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Habitat functions as an online storage platform that allows OpenAI products to access information quickly and reliably.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI stated that it evaluated tradeoffs through a circular journey, moving from a multi-tenant Azure Cosmos DB container to single-tenant backing containers, and finally reverting to a multi-tenant container by default.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The organization collaborated with the Azure team to address multi-tenancy issues, including noisy-neighbor problems where one tenant consumes an unusually large share of resources.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "By implementing hot key throttling and request tiering, the team prevented offline workloads from utilizing all throughput for a physical partition.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI noted that its largest Azure Cosmos DB account stores 10s of petabytes of data and serves more than 20M QPS.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company reported that it has not had any provisioning or noisy neighbor incidents in the months since shifting back to a shared container model.",
+      "source": "OpenAI"
+    }
+  ]
+}

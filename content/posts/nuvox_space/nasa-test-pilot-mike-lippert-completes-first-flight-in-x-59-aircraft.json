@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-test-pilot-mike-lippert-completes-first-flight-in-x-59-aircraft",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA test pilot Mike Lippert completes first flight in X-59 aircraft",
+  "excerpt": "Lippert reached a maximum speed of Mach 1.4 and an altitude of 55,000 feet during the one-hour flight.",
+  "bodyHtml": "<p>NASA test pilot Mike Lippert completed his first flight in the agency’s X-59 quiet supersonic research aircraft on October 21, 2026. The flight took off from NASA’s Armstrong Flight Research Center in Edwards, California, and lasted one hour.</p>\n<p>During the flight, Lippert reached a maximum speed of Mach 1.4 and an altitude of 55,000 feet. He performed various maneuvers to assess the handling of the aircraft while the team evaluated its systems following scheduled maintenance.</p>\n<p>Lippert spent months preparing for the milestone, which included logging extensive simulator time and training alongside fellow NASA test pilots Nils Larson and Jim “Clue” Less. In August, he completed his first engine run to gain experience with the cockpit and work with the mission control team.</p>\n<p>The flight occurred after a review of the X-59’s systems following the aircraft’s busiest week of testing to date. In September, the aircraft completed six flights in three days.</p>",
+  "publishedAt": "2026-10-23T16:10:41Z",
+  "updatedAt": "2026-10-23T16:10:41Z",
+  "wordCount": 151,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Mike Lippert Takes Controls of X-59 for First Time",
+  "tags": [
+    "NASA",
+    "X-59",
+    "Mike Lippert"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/blogs/quesst/2026/10/22/nasas-mike-lippert-takes-controls-of-x-59-for-first-time/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA test pilot Mike Lippert completed his first flight in the agency's X-59 quiet supersonic research aircraft.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flight took place on October 21, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flight took off from NASA's Armstrong Flight Research Center in Edwards, California.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flight lasted one hour.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Lippert reached a maximum speed of Mach 1.4 and an altitude of 55,000 feet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "He performed various maneuvers to assess the aircraft's handling while the team evaluated its systems.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flight followed scheduled maintenance.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Lippert spent months preparing, including extensive simulator time and training alongside fellow NASA test pilots Nils Larson and Jim \"Clue\" Less.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In August, he completed his first engine run to gain experience with the cockpit and work with the mission control team.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The flight occurred after a review of the X-59's systems following the aircraft's busiest week of testing to date.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In September, the aircraft completed six flights in three days.",
+      "source": "NASA"
+    }
+  ]
+}

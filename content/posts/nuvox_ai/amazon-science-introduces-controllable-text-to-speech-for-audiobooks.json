@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "amazon-science-introduces-controllable-text-to-speech-for-audiobooks",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Amazon Science introduces controllable text-to-speech for audiobooks",
+  "excerpt": "The system uses natural-language captions to improve character voice consistency and dialogue differentiation in long-form audio.",
+  "bodyHtml": "<p>Amazon Science announced on October 23, 2026, a controllable text-to-speech (TTS) system designed to enhance audiobook narration. The technology allows for the control of speech delivery through natural-language captions, such as &quot;whispering nervously&quot; or &quot;shouting in anger,&quot; enabling the model to synthesize speech with specific emotional or stylistic characteristics.</p>\n<p>The system utilizes a component called BookLLM to identify unique characters and assign them consistent voice profiles throughout an entire book. According to Amazon Science, the system achieved 97% accuracy in identifying dialogue in English and 94% in Spanish. This process involves building a cast list and ranking characters by importance to derive voice descriptions.</p>\n<p>Testing showed that rendering distinct character voices improved dialogue differentiation by 3.7 points on a MUSHRA listener-rating scale. The researchers observed statistically significant improvement in the listening experience for eight out of ten voices across both English and Spanish tests.</p>",
+  "publishedAt": "2026-10-23T16:01:35Z",
+  "updatedAt": "2026-10-23T16:01:35Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "Better speech synthesis for audiobooks",
+  "tags": [
+    "Amazon Science",
+    "Audible",
+    "text-to-speech"
+  ],
+  "source": {
+    "name": "Amazon Science",
+    "url": "https://www.amazon.science/blog/better-speech-synthesis-for-audiobooks"
+  },
+  "sources": [
+    "Amazon Science"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Amazon Science introduces controllable text-to-speech for audiobooks.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The system uses natural-language captions to improve character voice consistency and dialogue differentiation in long-form audio.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "Amazon Science announced the system on October 23, 2026.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The technology allows for the control of speech delivery through natural-language captions, such as 'whispering nervously' or 'shouting in anger,' enabling the model to synthesize speech with specific emotional or stylistic characteristics.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The system utilizes a component called BookLLM to identify unique characters and assign them consistent voice profiles throughout an entire book.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "According to Amazon Science, the system achieved 97% accuracy in identifying dialogue in English and 94% in Spanish.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The process involves building a cast list and ranking characters by importance to derive voice descriptions.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "Testing showed that rendering distinct character voices improved dialogue differentiation by 3.7 points on a MUSHRA listener-rating scale.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The researchers observed statistically significant improvement in the listening experience for eight out of ten voices across both English and Spanish tests.",
+      "source": "Amazon Science"
+    }
+  ]
+}

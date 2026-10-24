@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "ai2-to-present-litpivot-research-tool-at-uist-2026",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Ai2 to present LitPivot research tool at UIST 2026",
+  "excerpt": "The system helps researchers refine their work by organizing literature around specific segments of a research proposal.",
+  "bodyHtml": "<p>Ai2 announced that it will present a new research tool called LitPivot at the UIST 2026 conference in Detroit. Developed in collaboration with the University of Pennsylvania, the system is designed to assist researchers in navigating literature-initiated pivots, which are changes in research direction prompted by reading prior work.</p>\n<p>LitPivot functions by segmenting a research proposal into three facets: the problem, the proposed contribution, and the evaluation plan. The system retrieves papers using Asta Paper Finder and groups them based on the specific facet being edited. It then provides critiques supported by excerpts from the selected studies and suggests revisions for the researcher to accept, edit, or reject.</p>\n<p>In a study with 17 researchers, domain experts rated research ideas developed with LitPivot as better grounded in the literature than those developed with a text editor and an AI chat tool. Participants also perceived their revised research ideas as more novel and useful, and reported a stronger understanding of the surrounding literature. LitPivot will be presented at UIST 2026 in Detroit.</p>",
+  "publishedAt": "2026-10-24T02:12:55Z",
+  "updatedAt": "2026-10-24T02:12:55Z",
+  "wordCount": 170,
+  "readingTimeMin": 1,
+  "topic": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+  "tags": [
+    "Ai2",
+    "LitPivot",
+    "UIST 2026",
+    "University of Pennsylvania"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/allenai/litpivot"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Ai2 announced it will present LitPivot at UIST 2026 in Detroit.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "LitPivot is a research tool/system from Ai2.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Developed in collaboration with the University of Pennsylvania.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system is designed to assist researchers in navigating literature-initiated pivots, changes in research direction prompted by reading prior work.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "LitPivot segments a research proposal into three facets: problem, proposed contribution, and evaluation plan.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system retrieves papers using Asta Paper Finder.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "It groups papers based on the specific facet being edited.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "It provides critiques supported by excerpts from selected studies and suggests revisions the researcher can accept, edit, or reject.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "In a study with 17 researchers, domain experts rated ideas developed with LitPivot as better grounded in the literature than those developed with a text editor and an AI chat tool.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Participants perceived their revised ideas as more novel and useful and reported stronger understanding of the literature.",
+      "source": "Hugging Face"
+    }
+  ]
+}
