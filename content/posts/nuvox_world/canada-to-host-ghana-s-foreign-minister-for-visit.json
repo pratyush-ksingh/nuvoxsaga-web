@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-2.webp",
+    "alt": "Illustration: acacia trees on a savanna at golden hour",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-to-host-ghana-s-foreign-minister-for-visit",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "Canada to host Ghana's Foreign Minister for visit",
+  "excerpt": "Anita Anand will welcome Samuel Okudzeto Ablakwa to Canada for high-level discussions.",
+  "bodyHtml": "<p>The Honourable Anita Anand, Minister of Foreign Affairs, will welcome Samuel Okudzeto Ablakwa, Ghana&#x27;s Minister for Foreign Affairs, to Canada for a high-level visit on October 26, 2026, according to the Government of Canada.</p>\n<p>During the visit, Minister Anand and her Ghanaian counterpart will engage in strategic discussions encompassing bilateral, regional and global priorities, focusing on strengthening cooperation and building on Canada and Ghana&#x27;s almost seven decades of partnership.</p>\n<p>While in Ottawa, Minister Ablakwa will also meet with the Honourable Randeep Sarai, Secretary of State (International Development), to discuss Canada-Ghana development cooperation and opportunities to deepen Canada and Ghana&#x27;s long-standing partnership in advancing mutually beneficial economic partnerships, inclusive social development and sustainable peace and security.</p>\n<p>In 2025, Ghana was Canada&#x27;s eighth-largest merchandise trading partner in Africa, with merchandise trade valued at $752 million.</p>",
+  "publishedAt": "2026-10-25T16:03:06Z",
+  "updatedAt": "2026-10-25T16:03:06Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand to welcome Ghana’s Foreign Minister to Canada",
+  "tags": [
+    "Canada",
+    "Ghana",
+    "Global Affairs Canada"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-anand-to-welcome-ghanas-foreign-minister-to-canada.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Canada to host Ghana's Foreign Minister for visit",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anita Anand will welcome Samuel Okudzeto Ablakwa to Canada for high-level discussions.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anand is Minister of Foreign Affairs and Ablakwa is Ghana's Minister for Foreign Affairs.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The visit takes place on October 26, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The information is according to the Government of Canada.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Anand and her Ghanaian counterpart will hold strategic discussions on bilateral, regional and global priorities, focusing on strengthening cooperation and building on almost seven decades of partnership.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "While in Ottawa, Ablakwa will also meet Randeep Sarai, Secretary of State (International Development).",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The meeting with Sarai will discuss Canada-Ghana development cooperation and opportunities to deepen the partnership in mutually beneficial economic partnerships, inclusive social development and sustainable peace and security.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "In 2025, Ghana was Canada's eighth-largest merchandise trading partner in Africa.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Merchandise trade was valued at $752 million.",
+      "source": "The Government of Canada"
+    }
+  ]
+}
