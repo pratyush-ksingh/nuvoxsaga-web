@@ -1,0 +1,93 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "fanatics-launches-ai-powered-shop-the-look-feature",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Fanatics launches AI-powered Shop the Look feature",
+  "excerpt": "The new commerce tool uses OpenAI models to recommend coordinated merchandise for sports fans.",
+  "bodyHtml": "<p>Fanatics announced on October 26, 2026, the launch of an OpenAI-powered version of its Shop the Look feature. The tool uses artificial intelligence models to recommend coordinated merchandise to help fans complete game-day outfits on the company&#x27;s digital sports platform. Fanatics uses ChatGPT Work and Codex across its corporate, commerce, collectibles, and betting and gaming divisions.</p>\n<p>The feature is live on Fanatics.com and the official online stores for the NFL, NBA, MLB, and NHL. OpenAI models utilize enriched product data, team information, and inventory details to generate these recommendations, which are refreshed daily. Fanatics&#x27; merchandising rules keep the selections compatible and relevant.</p>\n<p>During the development process, the Fanatics engineering team and OpenAI used Codex to build custom recommendation tools. Testing the new approach on 50 products took less than a day to complete. After testing the recommendations across roughly 30,000 MLB products, the OpenAI-powered Shop the Look experience achieved 10% higher engagement than the previous experience.</p>",
+  "publishedAt": "2026-10-26T16:03:26Z",
+  "updatedAt": "2026-10-26T16:03:26Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "How Fanatics and OpenAI streamline the fan experience",
+  "tags": [
+    "Fanatics",
+    "OpenAI"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/fanatics-streamline-fan-experience"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Fanatics launches AI-powered Shop the Look feature.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The new commerce tool uses OpenAI models to recommend coordinated merchandise for sports fans.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Fanatics announced on October 26, 2026, the launch of an OpenAI-powered version of its Shop the Look feature.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The tool uses artificial intelligence models to recommend coordinated merchandise to help fans complete game-day outfits.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The tool is on the company's digital sports platform.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Fanatics uses ChatGPT Work and Codex across its corporate, commerce, collectibles, and betting and gaming divisions.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The feature is live on Fanatics.com.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The feature is live on the official online stores for the NFL, NBA, MLB, and NHL.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI models utilize enriched product data, team information, and inventory details to generate these recommendations.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The recommendations are refreshed daily.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Fanatics' merchandising rules keep the selections compatible and relevant.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "During the development process, the Fanatics engineering team and OpenAI used Codex to build custom recommendation tools.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Testing the new approach on 50 products took less than a day to complete.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Testing the recommendations across roughly 30,000 MLB products occurred.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The OpenAI-powered Shop the Look experience achieved 10% higher engagement than the previous experience.",
+      "source": "OpenAI"
+    }
+  ]
+}

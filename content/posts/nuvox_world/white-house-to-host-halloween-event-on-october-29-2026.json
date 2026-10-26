@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "white-house-to-host-halloween-event-on-october-29-2026",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "White House to host Halloween event on October 29, 2026",
+  "excerpt": "President Donald J. Trump and First Lady Melania Trump will open the South Lawn to ticketholders for a Halloween event.",
+  "bodyHtml": "<p>The White House announced on October 26, 2026, that First Lady Melania Trump and President Donald J. Trump will open the South Lawn of the White House to trick or treaters of all ages on October 29, 2026. The event will take place from 3:30 PM to 7:00 PM.</p>\n<p>The event is open to ticketholders, including military families, law enforcement families, foster and adoptive families, and Administration officials with children. Thousands of children and their parents will proceed around the South Lawn to visit various trick-or-treat booths and enjoy spooky decorations featuring the harvest Moon on the South Portico of the White House. The United States (U.S.) Air Force Strolling Strings will play traditional Halloween songs and modern tunes.</p>\n<p>The U.S. Secret Service reserves the right to prohibit personal items. Strollers, wheelchairs, umbrellas (no metal tips), and cameras are permitted. Attendees may call the 24-hour information line at (202) 456-7040 to check on the status of the event. This event will not be rescheduled if canceled due to inclement weather or any other reason.</p>",
+  "publishedAt": "2026-10-26T16:15:57Z",
+  "updatedAt": "2026-10-26T16:15:57Z",
+  "wordCount": 174,
+  "readingTimeMin": 1,
+  "topic": "First Lady Melania Trump Announces Halloween at the White House 2026",
+  "tags": [
+    "White House",
+    "Donald J. Trump",
+    "Melania Trump",
+    "U.S. Secret Service"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-announces-halloween-at-the-white-house-2026/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The White House will host a Halloween event on October 29, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Trump and First Lady Melania Trump will open the South Lawn to ticketholders for a Halloween event.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House announced on October 26, 2026 the event.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The South Lawn will be open to trick or treaters of all ages.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The event will take place from 3:30 PM to 7:00 PM.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The event is open to ticketholders, including military families, law enforcement families, foster and adoptive families, and Administration officials with children.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Thousands of children and their parents will proceed around the South Lawn to visit trick-or-treat booths and enjoy spooky decorations featuring the harvest Moon on the South Portico.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The U.S. Air Force Strolling Strings will play traditional Halloween songs and modern tunes.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The U.S. Secret Service reserves the right to prohibit personal items.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Strollers, wheelchairs, umbrellas (no metal tips), and cameras are permitted.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Attendees may call the 24-hour information line at (202) 456-7040 to check on the status of the event.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The event will not be rescheduled if canceled due to inclement weather or any other reason.",
+      "source": "The White House"
+    }
+  ]
+}
