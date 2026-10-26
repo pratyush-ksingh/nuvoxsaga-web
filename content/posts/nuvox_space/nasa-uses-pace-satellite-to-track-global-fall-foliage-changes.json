@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/space/nasa-uses-pace-satellite-to-track-global-fall-foliage-changes.webp",
+    "alt": "A similar global map depicts the redness of vegetation from October 5 to 11. The reddest areas have shifted equatorward, with more color visible in the Mid-Atlantic, the U.S. Southeast, southern Russia, China, and Mongolia.",
+    "credit": "NASA Earth Observatory / Lauren Dauphin"
+  },
+  "slug": "nasa-uses-pace-satellite-to-track-global-fall-foliage-changes",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA uses PACE satellite to track global fall foliage changes",
+  "excerpt": "The Ocean Color Instrument on the PACE satellite observes vegetation pigments daily to map seasonal color shifts across the planet.",
+  "bodyHtml": "<p>NASA announced on October 26, 2026, that the Ocean Color Instrument (OCI) on the PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) satellite is tracking fall foliage displays globally. The instrument observes the planet&#x27;s vegetation daily at 286 spectral bands.</p>\n<p>Among these spectral bands are wavelengths that allow scientists to track changes in leaf pigments including anthocyanins, carotenoids, and chlorophylls. By measuring the ratio of red, orange, and yellow pigments compared with green, the PACE team produces maps showing where leaves are changing and when color peaks.</p>\n<p>The PACE team is asking the public to submit photographs of fall foliage to help scientists ground truth the satellite observations. These ground observations are intended to help researchers understand how factors such as drought, insect infestations, and plant disease influence vegetation color.</p>\n<p>Scientists also want to know whether PACE can detect early warning signs of drought, insect infestations, and plant disease. The satellite is the first capable of measuring all three key leaf pigments across the entire planet every day or two.</p>",
+  "publishedAt": "2026-10-26T06:04:01Z",
+  "updatedAt": "2026-10-26T06:04:01Z",
+  "wordCount": 168,
+  "readingTimeMin": 1,
+  "topic": "Hunting Red Leaves with Satellites",
+  "tags": [
+    "NASA",
+    "PACE",
+    "vegetation"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA uses the PACE satellite to track global fall foliage changes.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Ocean Color Instrument on the PACE satellite observes vegetation pigments daily to map seasonal color shifts across the planet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 26, 2026, that the Ocean Color Instrument (OCI) on the PACE satellite is tracking fall foliage displays globally.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The instrument observes the planet's vegetation daily at 286 spectral bands.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Wavelengths within these spectral bands allow scientists to track changes in leaf pigments including anthocyanins, carotenoids, and chlorophylls.",
+      "source": "NASA"
+    },
+    {
+      "claim": "By measuring the ratio of red, orange, and yellow pigments compared with green, scientists produce maps showing where leaves are changing and when color peaks.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The PACE team is asking the public to submit photographs of fall foliage to help scientists ground truth the satellite observations.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Ground observations are intended to help researchers understand how factors such as drought, insect infestations, and plant disease influence vegetation color.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Scientists want to know whether PACE can detect early warning signs of drought, insect infestations, and plant disease.",
+      "source": "NASA"
+    },
+    {
+      "claim": "PACE is the first satellite capable of measuring all three key leaf pigments across the entire planet every day or two.",
+      "source": "NASA"
+    }
+  ]
+}
