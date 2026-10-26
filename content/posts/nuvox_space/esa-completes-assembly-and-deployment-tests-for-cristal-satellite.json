@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-completes-assembly-and-deployment-tests-for-cristal-satellite",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "ESA completes assembly and deployment tests for CRISTAL satellite",
+  "excerpt": "The ice-monitoring satellite is transitioning to environmental testing ahead of a planned launch between late 2027 and early 2028.",
+  "bodyHtml": "<p>The European Space Agency announced on October 26, 2026, that the CRISTAL satellite has moved from assembly into a testing phase. Engineers at Airbus facilities in Friedrichshafen, Germany, finished assembling the satellite in September and successfully completed the first solar panel deployment test.</p>\n<p>The project also conducted an Intermediate Qualification Status Review to examine the status of equipment and subsystems. The satellite will now be transported to the European Space Agency establishment in the Netherlands for environmental testing to ensure it can withstand the conditions of launch and orbit.</p>\n<p>CRISTAL is scheduled for launch between late 2027 and early 2028. The mission will carry a dual-frequency radar altimeter and a microwave radiometer to monitor sea-ice thickness, snow depth, and ice-sheet elevation.</p>",
+  "publishedAt": "2026-10-26T12:01:24Z",
+  "updatedAt": "2026-10-26T12:01:24Z",
+  "wordCount": 121,
+  "readingTimeMin": 1,
+  "topic": "Ice mission CRISTAL opens its wings",
+  "tags": [
+    "ESA",
+    "CRISTAL",
+    "Airbus"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Ice_mission_CRISTAL_opens_its_wings"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ESA completes assembly and deployment tests for CRISTAL satellite.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The ice-monitoring satellite is transitioning to environmental testing ahead of a planned launch between late 2027 and early 2028.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 26, 2026, that the CRISTAL satellite has moved from assembly into a testing phase.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Engineers at Airbus facilities in Friedrichshafen, Germany, finished assembling the satellite in September.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Engineers successfully completed the first solar panel deployment test.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The project conducted an Intermediate Qualification Status Review to examine the status of equipment and subsystems.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite will be transported to the European Space Agency establishment in the Netherlands for environmental testing.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The environmental testing is to ensure the satellite can withstand the conditions of launch and orbit.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "CRISTAL is scheduled for launch between late 2027 and early 2028.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission will carry a dual-frequency radar altimeter and a microwave radiometer.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission will monitor sea-ice thickness, snow depth, and ice-sheet elevation.",
+      "source": "The European Space Agency"
+    }
+  ]
+}
