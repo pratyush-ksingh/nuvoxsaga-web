@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-announces-ai-generated-proofs-for-three-scientific-conjectures",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "OpenAI announces AI-generated proofs for three scientific conjectures",
+  "excerpt": "The company is collaborating with academic experts to verify and explain new findings in mathematics, computer science, and physics.",
+  "bodyHtml": "<p>On October 26, 2026, OpenAI announced three new scientific discoveries produced by its models in the fields of mathematics, computer science, and physics. The results include a proof of the local smoothing conjecture, a refutation of the Exponential Time Hypothesis, and a mathematically rigorous existence proof for certain quantum field theories.</p>\n<p>To process these findings, OpenAI is partnering with external academic experts who will act as shepherds for the research. The company is employing three different release strategies, ranging from making AI outputs public to deferring the release of materials to external collaborators. For the computer science result, OpenAI has committed to funding a conference to examine the implications of the work.</p>\n<p>The AI-generated proof for the local smoothing conjecture was obtained on October 18th, 2026. The disproof of the Exponential Time Hypothesis was found on October 16th, 2026, and the existence proof for Quantum Chromodynamics was completed on September 18th, 2026.</p>",
+  "publishedAt": "2026-10-27T02:04:06Z",
+  "updatedAt": "2026-10-27T02:04:06Z",
+  "wordCount": 152,
+  "readingTimeMin": 1,
+  "topic": "Working with academic communities to build scientific understanding",
+  "tags": [
+    "OpenAI",
+    "mathematics",
+    "physics",
+    "computer science"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI announced AI-generated proofs for three scientific conjectures.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI is collaborating with academic experts to verify and explain new findings in mathematics, computer science, and physics.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "On October 26, 2026, OpenAI announced three new scientific discoveries produced by its models in mathematics, computer science, and physics.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The results include a proof of the local smoothing conjecture, a refutation of the Exponential Time Hypothesis, and a mathematically rigorous existence proof for certain quantum field theories.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "To process these findings, OpenAI is partnering with external academic experts who will act as shepherds for the research.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI is employing three different release strategies, ranging from making AI outputs public to deferring the release of materials to external collaborators.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "For the computer science result, OpenAI has committed to funding a conference to examine the implications of the work.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The AI-generated proof for the local smoothing conjecture was obtained on October 18th, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The disproof of the Exponential Time Hypothesis was found on October 16th, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The existence proof for Quantum Chromodynamics was completed on September 18th, 2026.",
+      "source": "OpenAI"
+    }
+  ]
+}

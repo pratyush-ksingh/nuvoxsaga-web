@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "white-house-announces-infrastructure-and-investment-projects-in-mississippi",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "White House announces infrastructure and investment projects in Mississippi",
+  "excerpt": "The administration reported new federal grants for transportation and private sector investments across the state.",
+  "bodyHtml": "<p>The White House announced on October 26, 2026, a series of infrastructure projects and private investments in Mississippi. The administration awarded a $44 million grant to expand the I-55/I-69 corridor in DeSoto County from four to ten lanes.</p>\n<p>The Mississippi Export Railroad received up to $35.5 million to modernize and automate a 121-year-old swing bridge and upgrade track. Additionally, the administration awarded $51.1 million in federal BUILD grants to improve U.S. Highway 80 in Brandon, expand truck parking along I-10 in Hancock County, and upgrade Mallett Road in D’Iberville.</p>\n<p>Private sector developments include a $20 billion investment from xAI to build a data center in Southaven and a $12 billion investment from Amazon to expand data center operations in Madison County. Siemens Energy is investing $300 million to build a manufacturing facility in Pearl, while BWC Terminals is investing $316 million to locate a terminal facility in Pascagoula.</p>",
+  "publishedAt": "2026-10-27T02:21:39Z",
+  "updatedAt": "2026-10-27T02:21:39Z",
+  "wordCount": 148,
+  "readingTimeMin": 1,
+  "topic": "President Trump Puts Mississippi First with Historic Tax Cuts, Surging Investment, and Stronger Communities",
+  "tags": [
+    "Mississippi",
+    "infrastructure",
+    "investment"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-puts-mississippi-first-with-historic-tax-cuts-surging-investment-and-stronger-communities/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The White House announced infrastructure and investment projects in Mississippi.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration reported new federal grants for transportation and private sector investments across the state.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House announced on October 26, 2026, a series of infrastructure projects and private investments in Mississippi.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration awarded a $44 million grant to expand the I-55/I-69 corridor in DeSoto County from four to ten lanes.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Mississippi Export Railroad received up to $35.5 million to modernize and automate a 121-year-old swing bridge and upgrade track.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration awarded $51.1 million in federal BUILD grants to improve U.S. Highway 80 in Brandon, expand truck parking along I-10 in Hancock County, and upgrade Mallett Road in D’Iberville.",
+      "source": "The White House"
+    },
+    {
+      "claim": "xAI is investing $20 billion to build a data center in Southaven.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Amazon is investing $12 billion to expand data center operations in Madison County.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Siemens Energy is investing $300 million to build a manufacturing facility in Pearl.",
+      "source": "The White House"
+    },
+    {
+      "claim": "BWC Terminals is investing $316 million to locate a terminal facility in Pascagoula.",
+      "source": "The White House"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-receives-report-on-civil-service-reform",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission receives report on civil service reform",
+  "excerpt": "The High-Level Group on the Future of the Commission's Civil Service submitted its findings to President von der Leyen on October 26, 2026.",
+  "bodyHtml": "<p>The European Commission received an independent report from the High-Level Group on the Future of the Commission&#x27;s Civil Service on October 26, 2026. The document provides an external perspective on the modernisation and reform of the Commission&#x27;s administration.</p>\n<p>The review process included contributions from over 150 staff members across 15 workstreams. Additionally, thousands of colleagues from all Commission services contributed with comments and about 2 000 different ideas since the start of this process.</p>\n<p>The report will inform the review&#x27;s recommendations, which are due by the end of 2026. This work brings together the experience of colleagues across the Commission, benchmarking against comparable organisations, and the advice of the High-Level Reflection Group.</p>\n<p>The Commission stated that the review builds on the foundations of the European civil service, which has shown its dedication, professionalism and its capacity to deliver through successive crises. The findings will be used to help the Commission act effectively and quickly, make every euro count, and equip people for the future.</p>",
+  "publishedAt": "2026-10-27T02:23:07Z",
+  "updatedAt": "2026-10-27T02:23:07Z",
+  "wordCount": 164,
+  "readingTimeMin": 1,
+  "topic": "Statement by President von der Leyen with Commissioner Serafin and Catherine Day, Chair of the High-Level Group on the Future of the Commission's Civil Service, on the occasion of the handover of the report by the external advisers on the Large-scale review",
+  "tags": [
+    "European Commission",
+    "civil service"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2258"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission received a report on civil service reform.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The High-Level Group on the Future of the Commission's Civil Service submitted its findings to President von der Leyen on October 26, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission received an independent report from the High-Level Group on the Future of the Commission's Civil Service on October 26, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The document provides an external perspective on the modernisation and reform of the Commission's administration.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The review process included contributions from over 150 staff members across 15 workstreams.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Thousands of colleagues from all Commission services contributed with comments and about 2,000 different ideas since the start of this process.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The report will inform the review's recommendations, which are due by the end of 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The work brings together the experience of colleagues across the Commission, benchmarking against comparable organisations, and the advice of the High-Level Reflection Group.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission stated that the review builds on the foundations of the European civil service, which has shown its dedication, professionalism and its capacity to deliver through successive crises.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The findings will be used to help the Commission act effectively and quickly, make every euro count, and equip people for the future.",
+      "source": "The European Commission"
+    }
+  ]
+}

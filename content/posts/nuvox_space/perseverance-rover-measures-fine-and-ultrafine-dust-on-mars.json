@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "perseverance-rover-measures-fine-and-ultrafine-dust-on-mars",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Perseverance rover measures fine and ultrafine dust on Mars",
+  "excerpt": "Researchers report the first on-site measurements of fine and ultrafine dust particles on the Martian surface.",
+  "bodyHtml": "<p>NASA announced that the Perseverance rover has conducted the first on-site measurements of fine and ultrafine Martian dust particles. The findings, which will be published October 27, 2026, in the Proceedings of the National Academy of Sciences, were obtained using the rover&#x27;s PIXL instrument, or Planetary Instrument for X-ray Lithochemistry.</p>\n<p>The study identified fine particles measuring less than 2.5 micrometers and ultrafine particles around 100 nanometers. These measurements were taken from dust resting on calibration targets, including samples of Teflon and basaltic glass, as well as swatches of Teflon and Vectran spacesuit materials. The research team found that organic polymers like Teflon readily collect fine dust.</p>\n<p>The study results could inform spacesuit and habitat design, dust-removal procedures, and crew health standards for future NASA missions to Mars. Scientists believe that the health risks of Mars dust depend on the quantity of dust and length of exposure. The PIXL instrument also found the dust to be enriched in phosphorus and detected signs of calcium sulfate.</p>",
+  "publishedAt": "2026-10-27T02:12:07Z",
+  "updatedAt": "2026-10-27T02:12:07Z",
+  "wordCount": 164,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+  "tags": [
+    "NASA",
+    "Perseverance",
+    "Mars",
+    "PIXL"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Perseverance rover measures fine and ultrafine dust on Mars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Researchers report the first on-site measurements of fine and ultrafine dust particles on the Martian surface.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that the Perseverance rover has conducted the first on-site measurements of fine and ultrafine Martian dust particles.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The findings will be published October 27, 2026, in the Proceedings of the National Academy of Sciences.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The measurements were obtained using the rover's PIXL instrument, or Planetary Instrument for X-ray Lithochemistry.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The study identified fine particles measuring less than 2.5 micrometers and ultrafine particles around 100 nanometers.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The measurements were taken from dust resting on calibration targets, including samples of Teflon and basaltic glass, as well as swatches of Teflon and Vectran spacesuit materials.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The research team found that organic polymers like Teflon readily collect fine dust.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The study results could inform spacesuit and habitat design, dust-removal procedures, and crew health standards for future NASA missions to Mars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Scientists believe that the health risks of Mars dust depend on the quantity of dust and length of exposure.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The PIXL instrument also found the dust to be enriched in phosphorus and detected signs of calcium sulfate.",
+      "source": "NASA"
+    }
+  ]
+}

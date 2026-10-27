@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "apple-researchers-introduce-gharp-for-real-time-3d-head-animation",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Apple researchers introduce GHARP for real-time 3D head animation",
+  "excerpt": "The method uses a two-stage process to animate human heads from input images and expression signals.",
+  "bodyHtml": "<p>Apple researchers published a paper on October 26, 2026, detailing GHARP, a method for animating 3D human heads in real time. The system uses a few input images of a subject and a driving expression signal to generate animations.</p>\n<p>The process separates the task into an identity stage, which builds a geometry and appearance representation offline, and an animation stage that predicts expression-dependent residuals at runtime. The animation stage utilizes a lightweight network optimized for mobile devices.</p>\n<p>The researchers also introduced a body alignment network to address issues with body pose and clothing position. This network learns to align the person’s body in the target image with the input reference images, removing ambiguity from the training signal.</p>\n<p>According to the researchers, the method achieves state-of-the-art quality on the Ava-256 benchmark while running up to 13× faster on an A100 GPU with 8× fewer Gaussians.</p>",
+  "publishedAt": "2026-10-27T02:05:34Z",
+  "updatedAt": "2026-10-27T02:05:34Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "GHARP: Real-Time Gaussian Head Animation from Large-Scale Reconstruction Prior",
+  "tags": [
+    "Apple",
+    "GHARP",
+    "Computer Vision"
+  ],
+  "source": {
+    "name": "Apple",
+    "url": "https://machinelearning.apple.com/research/gharp-head-animation"
+  },
+  "sources": [
+    "Apple"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Apple researchers introduced GHARP for real-time 3D head animation.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The method uses a two-stage process to animate human heads from input images and expression signals.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Apple researchers published a paper on October 26, 2026, detailing GHARP.",
+      "source": "Apple"
+    },
+    {
+      "claim": "GHARP is a method for animating 3D human heads in real time.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The system uses a few input images of a subject and a driving expression signal to generate animations.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The process separates the task into an identity stage and an animation stage.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The identity stage builds a geometry and appearance representation offline.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The animation stage predicts expression-dependent residuals at runtime.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The animation stage utilizes a lightweight network optimized for mobile devices.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The researchers introduced a body alignment network to address issues with body pose and clothing position.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The body alignment network learns to align the person’s body in the target image with the input reference images, removing ambiguity from the training signal.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The method achieves state-of-the-art quality on the Ava-256 benchmark.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The method runs up to 13× faster on an A100 GPU.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The method uses 8× fewer Gaussians.",
+      "source": "Apple"
+    }
+  ]
+}

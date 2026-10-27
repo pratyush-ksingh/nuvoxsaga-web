@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-3.webp",
+    "alt": "Illustration: aerial view of a port city by a turquoise sea, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-urges-progress-on-missing-persons-and-property-in-iraq-and-kuwait",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "UK urges progress on missing persons and property in Iraq and Kuwait",
+  "excerpt": "The United Kingdom stated on October 26, 2026, that 315 Kuwaiti and third-country nationals remain missing.",
+  "bodyHtml": "<p>The United Kingdom government stated on October 26, 2026, that it remains committed to working with Iraq, Kuwait, and the Tripartite Commission to help families find missing loved ones. Ambassador Kate Foster, UK Deputy Permanent Representative to the UN, addressed the UN Security Council meeting on the situation between Iraq and Kuwait.</p>\n<p>Ambassador Foster reported that 315 Kuwaiti and third-country nationals remain missing, adding that no new identifications were made since the Secretary-General&#x27;s last report. The UK government welcomed the work of the Senior Representative, the International Committee of the Red Cross, and the Tripartite Commission.</p>\n<p>The UK government also encouraged the Tripartite Commission to agree on practical indicators to assess progress ahead of the Council&#x27;s review in 2028. Furthermore, the UK called for renewed engagement on missing Kuwaiti property, including the national archives and the resumption of the Joint Committee on missing Kuwaiti property.</p>",
+  "publishedAt": "2026-10-27T02:18:40Z",
+  "updatedAt": "2026-10-27T02:18:40Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "The United Kingdom remains committed to working with Iraq, Kuwait, and the Tripartite Commission to provide answers for families of missing loved ones: UK statement at the UN Security Council",
+  "tags": [
+    "United Kingdom",
+    "Iraq",
+    "Kuwait",
+    "Tripartite Commission"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/speeches/the-united-kingdom-remains-committed-to-working-with-iraq-kuwait-and-the-tripartite-commission-to-provide-answers-for-families-of-missing-loved-ones-u"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK urges progress on missing persons and property in Iraq and Kuwait.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom stated on October 26, 2026, that 315 Kuwaiti and third-country nationals remain missing.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The United Kingdom government stated on October 26, 2026, that it remains committed to working with Iraq, Kuwait, and the Tripartite Commission to help families find missing loved ones.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Ambassador Kate Foster, UK Deputy Permanent Representative to the UN, addressed the UN Security Council meeting on the situation between Iraq and Kuwait.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Ambassador Foster reported that 315 Kuwaiti and third-country nationals remain missing, adding that no new identifications were made since the Secretary-General's last report.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government welcomed the work of the Senior Representative, the International Committee of the Red Cross, and the Tripartite Commission.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government also encouraged the Tripartite Commission to agree on practical indicators to assess progress ahead of the Council's review in 2028.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Furthermore, the UK called for renewed engagement on missing Kuwaiti property, including the national archives and the resumption of the Joint Committee on missing Kuwaiti property.",
+      "source": "The UK government"
+    }
+  ]
+}
