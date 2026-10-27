@@ -1,0 +1,85 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-1.webp",
+    "alt": "Illustration: Earth from orbit with thin atmosphere glow at the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-publishes-quantum-technology-roadmap",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK Space Agency publishes quantum technology roadmap",
+  "excerpt": "The document outlines strategic priorities for the UK space sector through the 2040 horizon.",
+  "bodyHtml": "<p>The UK Space Agency released the Quantum Technology Roadmap for Space on October 27, 2026. This document establishes strategic priorities for the UK space sector for the period spanning 2026 to 2040.</p>\n<p>The roadmap focuses on areas where quantum technologies can contribute to UK space capability through the 2035 to 2040 horizon. These specific applications include resilient timing, sensing, and more secure communications.</p>\n<p>The agency also identifies quantum computing as a longer-term opportunity for the sector. It states that this area is best pursued through close engagement with wider national programmes.</p>\n<p>The published roadmap is 52 pages in length and is available in both PDF and HTML formats. The PDF version of the document is 17.7 MB.</p>",
+  "publishedAt": "2026-10-27T18:23:15Z",
+  "updatedAt": "2026-10-27T18:23:15Z",
+  "wordCount": 117,
+  "readingTimeMin": 1,
+  "topic": "Research: Quantum Technology Roadmap for Space",
+  "tags": [
+    "UK Space Agency",
+    "quantum technology"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/quantum-technology-roadmap-for-space"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "UK Space Agency publishes quantum technology roadmap",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The document outlines strategic priorities for the UK space sector through the 2040 horizon.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency released the Quantum Technology Roadmap for Space on October 27, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "This document establishes strategic priorities for the UK space sector for the period spanning 2026 to 2040.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The roadmap focuses on areas where quantum technologies can contribute to UK space capability through the 2035 to 2040 horizon.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Specific applications include resilient timing.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Specific applications include sensing.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Specific applications include more secure communications.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The agency identifies quantum computing as a longer-term opportunity for the sector.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Quantum computing is best pursued through close engagement with wider national programmes.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The published roadmap is 52 pages in length.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The roadmap is available in both PDF and HTML formats.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The PDF version of the document is 17.7 MB.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

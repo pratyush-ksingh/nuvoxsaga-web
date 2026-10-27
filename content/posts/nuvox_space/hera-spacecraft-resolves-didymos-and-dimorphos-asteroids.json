@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "hera-spacecraft-resolves-didymos-and-dimorphos-asteroids",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "Hera spacecraft resolves Didymos and Dimorphos asteroids",
+  "excerpt": "The European Space Agency spacecraft imaged the binary asteroid system from a distance of 1280 km.",
+  "bodyHtml": "<p>The European Space Agency said on October 27, 2026, that its Hera spacecraft for planetary defence has resolved its two target asteroids separately for the first time. The Didymos system is 197 million km away from Earth.</p>\n<p>The European Space Agency stated that Hera imaged Didymos and Dimorphos with its monochromatic Asteroid Framing Camera on the evening of 18 October. The image was taken at a distance of 1280 km away from the asteroid pair.</p>\n<p>Michael Kueppers explained that the smaller Dimorphos asteroid becomes visible for the first time with this image. Before this acquisition, the spacecraft was still resolving the Didymos system as a single dot. Mission manager Ian Carnelli stated that for the first time they are seeing through Hera’s own eyes the double asteroid system that the mission was designed and built for. The European Space Agency announced that the first detailed images of Dimorphos will be unveiled on 25 November.</p>",
+  "publishedAt": "2026-10-27T18:22:48Z",
+  "updatedAt": "2026-10-27T18:22:48Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "First light: Hera resolves two asteroids instead of one",
+  "tags": [
+    "Hera",
+    "European Space Agency",
+    "Didymos",
+    "Dimorphos"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Space_Safety/Hera/First_light_Hera_resolves_two_asteroids_instead_of_one"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The Hera spacecraft resolved the Didymos and Dimorphos asteroids.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency spacecraft imaged the binary asteroid system from a distance of 1280 km.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency said on October 27, 2026, that its Hera spacecraft for planetary defence has resolved its two target asteroids separately for the first time.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Didymos system is 197 million km away from Earth.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency stated that Hera imaged Didymos and Dimorphos with its monochromatic Asteroid Framing Camera on the evening of 18 October.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The image was taken at a distance of 1280 km away from the asteroid pair.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Michael Kueppers explained that the smaller Dimorphos asteroid becomes visible for the first time with this image.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Before this acquisition, the spacecraft was still resolving the Didymos system as a single dot.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Mission manager Ian Carnelli stated that for the first time they are seeing through Hera’s own eyes the double asteroid system that the mission was designed and built for.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced that the first detailed images of Dimorphos will be unveiled on 25 November.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

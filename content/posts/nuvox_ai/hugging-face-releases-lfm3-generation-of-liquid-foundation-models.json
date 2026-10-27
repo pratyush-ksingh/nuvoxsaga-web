@@ -1,0 +1,61 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-lfm3-generation-of-liquid-foundation-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Hugging Face releases LFM3 generation of Liquid Foundation Models",
+  "excerpt": "The new 2B parameter range brings text, vision, audio, omni, and decision models onto a shared backbone.",
+  "bodyHtml": "<p>Hugging Face published an announcement on October 27, 2026, regarding the launch of LFM3, its new generation of Liquid Foundation Models built to serve as a starting point for specialized intelligence. The release integrates text, vision, audio, omni, and decision models onto a single shared backbone within the 2B parameter range.</p>\n<p>The LFM3-1.7B-Base model incorporates a tri-hybrid layer mix consisting of 13 gated short convolutions, 5 sliding-window attention layers with a 256-token window, and 6 global attention layers. It was pre-trained on 22T tokens using a 128K vocabulary.</p>\n<p>Every LFM3 model branches from the LFM3-1.7B-Base. The family includes six models designed for edge deployment, fine-tuning on a single GPU, and various modalities such as vision, audio, and decision tasks.</p>",
+  "publishedAt": "2026-10-27T18:12:46Z",
+  "updatedAt": "2026-10-27T18:12:46Z",
+  "wordCount": 119,
+  "readingTimeMin": 1,
+  "topic": "Build specialized multimodal models with LFM3",
+  "tags": [
+    "Hugging Face",
+    "LFM3"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released the LFM3 generation of Liquid Foundation Models.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The LFM3 models bring text, vision, audio, omni, and decision models onto a shared backbone in the 2B parameter range.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face published an announcement on October 27, 2026, regarding the launch of LFM3 as a starting point for specialized intelligence.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The LFM3-1.7B-Base model incorporates a tri-hybrid layer mix consisting of 13 gated short convolutions, 5 sliding-window attention layers with a 256-token window, and 6 global attention layers.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "LFM3-1.7B-Base was pre-trained on 22T tokens using a 128K vocabulary.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Every LFM3 model branches from LFM3-1.7B-Base.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The LFM3 family includes six models designed for edge deployment, fine-tuning on a single GPU, and various modalities.",
+      "source": "Hugging Face"
+    }
+  ]
+}

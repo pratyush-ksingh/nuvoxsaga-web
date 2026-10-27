@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-2.webp",
+    "alt": "Illustration: acacia trees on a savanna at golden hour",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-advises-against-all-travel-to-yemen",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "UK government advises against all travel to Yemen",
+  "excerpt": "The Foreign, Commonwealth and Development Office has withdrawn all diplomatic staff and warns that evacuation support is unavailable.",
+  "bodyHtml": "<p>The UK government announced on October 27, 2026, that it advises against all travel to Yemen due to unpredictable security conditions. The Foreign, Commonwealth and Development Office (FCDO) stated that British nationals currently in the country should leave immediately.</p>\n<p>According to the FCDO, British Embassy services in Sana’a are suspended, and all diplomatic and consular staff have been withdrawn. The government stated that it cannot assist British nationals with leaving the country, as there are no evacuation procedures in place.</p>\n<p>The FCDO noted that if British nationals choose to remain in Yemen, they should minimize movement and monitor local security developments. Individuals requiring assistance can contact the FCDO on 020 7008 5000.</p>",
+  "publishedAt": "2026-10-27T18:31:53Z",
+  "updatedAt": "2026-10-27T18:31:53Z",
+  "wordCount": 112,
+  "readingTimeMin": 1,
+  "topic": "Yemen travel advice",
+  "tags": [
+    "Yemen",
+    "FCDO",
+    "UK government"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/foreign-travel-advice/yemen"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government advises against all travel to Yemen.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office has withdrawn all diplomatic staff.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office warns that evacuation support is unavailable.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced on October 27, 2026, that it advises against all travel to Yemen due to unpredictable security conditions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office (FCDO) stated that British nationals currently in Yemen should leave immediately.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "According to the FCDO, British Embassy services in Sana’a are suspended, and all diplomatic and consular staff have been withdrawn.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government stated that it cannot assist British nationals with leaving the country, as there are no evacuation procedures in place.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO noted that if British nationals choose to remain in Yemen, they should minimize movement and monitor local security developments.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Individuals requiring assistance from the UK government can contact the FCDO on 020 7008 5000.",
+      "source": "The UK government"
+    }
+  ]
+}

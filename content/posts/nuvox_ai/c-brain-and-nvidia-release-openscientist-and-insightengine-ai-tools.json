@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "c-brain-and-nvidia-release-openscientist-and-insightengine-ai-tools",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "C-BRAIN and NVIDIA release OpenScientist and InsightEngine AI tools",
+  "excerpt": "The tools were developed to help accelerate Alzheimer's disease research and data analysis.",
+  "bodyHtml": "<p>According to a source published on October 27, 2026, the Consortium for Biomedical Research and AI in Neurodegeneration working with NVIDIA built two tools named OpenScientist and InsightEngine. OpenScientist was built with Lawrence Berkeley National Laboratory and InsightEngine was built with 387 Labs.</p>\n<p>OpenScientist is an open source agentic AI co-scientist that takes a scientist&#x27;s research question and dataset, then semi-autonomously generates hypotheses, runs analyses and produces verifiable, auditable insights. InsightEngine is an open source research platform that uses agentic AI to test hypotheses against the scientific literature, analyzing user-supplied datasets, exploring a biomedical knowledge graph and checking every claim against evidence to catch hallucinations before researchers commit to costly experiments.</p>\n<p>C-BRAIN currently runs 64 NVIDIA data center GPUs on premises alongside cloud-based nodes on Microsoft Azure. The consortium aims to discover new causal mechanisms of brain aging and Alzheimer&#x27;s disease by year three.</p>",
+  "publishedAt": "2026-10-27T18:16:50Z",
+  "updatedAt": "2026-10-27T18:16:50Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+  "tags": [
+    "C-BRAIN",
+    "NVIDIA",
+    "OpenScientist",
+    "InsightEngine"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "C-BRAIN and NVIDIA release OpenScientist and InsightEngine AI tools.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The tools were developed to help accelerate Alzheimer's disease research and data analysis.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "A source was published on October 27, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The Consortium for Biomedical Research and AI in Neurodegeneration working with NVIDIA built two tools named OpenScientist and InsightEngine.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "OpenScientist was built with Lawrence Berkeley National Laboratory.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "InsightEngine was built with 387 Labs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "OpenScientist is an open source agentic AI co-scientist that takes a scientist's research question and dataset, then semi-autonomously generates hypotheses, runs analyses and produces verifiable, auditable insights.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "InsightEngine is an open source research platform that uses agentic AI to test hypotheses against the scientific literature, analyzing user-supplied datasets, exploring a biomedical knowledge graph and checking every claim against evidence to catch hallucinations before researchers commit to costly experiments.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "C-BRAIN currently runs 64 NVIDIA data center GPUs on premises.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "C-BRAIN runs cloud-based nodes on Microsoft Azure.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The consortium aims to discover new causal mechanisms of brain aging and Alzheimer's disease by year three.",
+      "source": "NVIDIA"
+    }
+  ]
+}

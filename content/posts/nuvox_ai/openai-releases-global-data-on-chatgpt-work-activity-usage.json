@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-releases-global-data-on-chatgpt-work-activity-usage",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "OpenAI releases global data on ChatGPT work activity usage",
+  "excerpt": "The new dataset covers 165 work activities across nearly 100 countries from the first quarter of 2025 through the third quarter of 2026.",
+  "bodyHtml": "<p>OpenAI released a new dataset on October 26, 2026, detailing how consumers use ChatGPT for work-related tasks. The data, titled OpenAI Signals, tracks 165 work activities across nearly 100 countries to assist researchers in studying the role of artificial intelligence in the global economy.</p>\n<p>The information is categorized by Intermediate Work Activities, which are standardized task groups used across various occupations. The data shows that work-related use of ChatGPT became less concentrated in common activities over time, suggesting that countries are specializing in different types of work.</p>\n<p>As of the third quarter of 2026, the ten most common activities accounted for 51.1% of classified work messages across 74 countries, a decrease from 56.0% in the first quarter of 2025. Researchers can use this data to explore how ChatGPT use for work differs across countries, track changes over time, and match this data to other economic indicators.</p>",
+  "publishedAt": "2026-10-27T18:20:29Z",
+  "updatedAt": "2026-10-27T18:20:29Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "ChatGPT’s expanding world of work",
+  "tags": [
+    "OpenAI",
+    "ChatGPT",
+    "AI research"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI released global data on ChatGPT work activity usage.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The dataset covers 165 work activities across nearly 100 countries from the first quarter of 2025 through the third quarter of 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI released the dataset, titled OpenAI Signals, on October 26, 2026, detailing how consumers use ChatGPT for work-related tasks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The data tracks 165 work activities across nearly 100 countries to assist researchers in studying the role of artificial intelligence in the global economy.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The information is categorized by Intermediate Work Activities, which are standardized task groups used across various occupations.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The data shows that work-related use of ChatGPT became less concentrated in common activities over time, suggesting that countries are specializing in different types of work.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "As of the third quarter of 2026, the ten most common activities accounted for 51.1% of classified work messages across 74 countries, down from 56.0% in the first quarter of 2025.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Researchers can use this data to explore how ChatGPT use for work differs across countries, track changes over time, and match this data to other economic indicators.",
+      "source": "OpenAI"
+    }
+  ]
+}

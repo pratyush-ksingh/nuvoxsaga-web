@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-introduces-sleep-framework-for-large-language-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research introduces sleep framework for large language models",
+  "excerpt": "The paradigm uses an active wake phase and a sleep phase to integrate new facts while mitigating catastrophic forgetting.",
+  "bodyHtml": "<p>Google Research announced the sleep framework on October 27, 2026, introducing a continual learning approach for large language models. Ali Behrouz and Vahab Mirrokni stated that the framework enables models to continuously integrate new facts and enhance reasoning while mitigating catastrophic forgetting or static knowledge cutoffs.</p>\n<p>The learning paradigm equips large language models with a continuous periodic lifecycle. It alternates between active interaction and offline memory consolidation, allowing models to acquire new facts, retain long-context knowledge up to 10M tokens, and improve complex reasoning.</p>\n<p>During the offline sleep phase, the model unlocks pre-allocated Mixture-of-Experts memory blocks and updates numerical weights using self-generated practice examples. The sleep process addresses continuous adaptation through memory consolidation and dreaming.</p>",
+  "publishedAt": "2026-10-27T18:12:21Z",
+  "updatedAt": "2026-10-27T18:12:21Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+  "tags": [
+    "Google Research",
+    "Ali Behrouz",
+    "Vahab Mirrokni"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research introduces sleep framework for large language models.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The paradigm uses an active wake phase and a sleep phase to integrate new facts while mitigating catastrophic forgetting.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research announced the sleep framework on October 27, 2026, introducing a continual learning approach for large language models.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Ali Behrouz and Vahab Mirrokni stated that the framework enables models to continuously integrate new facts and enhance reasoning while mitigating catastrophic forgetting or static knowledge cutoffs.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The learning paradigm equips large language models with a continuous periodic lifecycle.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "It alternates between active interaction and offline memory consolidation, allowing models to acquire new facts, retain long-context knowledge up to 10M tokens, and improve complex reasoning.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "During the offline sleep phase, the model unlocks pre-allocated Mixture-of-Experts memory blocks and updates numerical weights using self-generated practice examples.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The sleep process addresses continuous adaptation through memory consolidation and dreaming.",
+      "source": "Google Research"
+    }
+  ]
+}
