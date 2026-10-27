@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-and-meta-expand-partnership-on-muse-ai-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA and Meta expand partnership on Muse AI models",
+  "excerpt": "NVIDIA will invest $3 billion in Meta as part of an expanded collaboration on AI agent infrastructure and performance optimization.",
+  "bodyHtml": "<p>NVIDIA and Meta announced on October 26, 2026, that they are expanding their partnership regarding the Muse family of AI models. The collaboration focuses on improving inference and training performance for AI agents.</p>\n<p>Meta intends to expand the deployment of NVIDIA infrastructure, including Vera Rubin and Vera CPUs for next-generation AI agents to deliver maximum performance per watt. Meta will also deploy NVIDIA Spectrum-X Ethernet networking and BlueField-4 to support network efficiency and throughput.</p>\n<p>The companies are also considering additional collaboration opportunities with NVIDIA on its NVIDIA OpenShell Reference Architecture, including NVIDIA OpenShell for safe deployment and NVIDIA Sentry for monitoring agent behavior. Additionally, NVIDIA will invest $3 billion in Meta’s equity offering.</p>",
+  "publishedAt": "2026-10-27T12:01:35Z",
+  "updatedAt": "2026-10-27T12:01:35Z",
+  "wordCount": 113,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+  "tags": [
+    "NVIDIA",
+    "Meta",
+    "Muse",
+    "AI agents"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA and Meta are expanding their partnership on Muse AI models.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA will invest $3 billion in Meta as part of an expanded collaboration on AI agent infrastructure and performance optimization.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA and Meta announced the expansion of their partnership on October 26, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The collaboration focuses on improving inference and training performance for AI agents.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Meta intends to expand the deployment of NVIDIA infrastructure, including Vera Rubin and Vera CPUs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The deployment of Vera Rubin and Vera CPUs is intended to deliver maximum performance per watt for next-generation AI agents.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Meta will deploy NVIDIA Spectrum-X Ethernet networking and BlueField-4.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The deployment of Spectrum-X and BlueField-4 is intended to support network efficiency and throughput.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The companies are considering additional collaboration opportunities on NVIDIA OpenShell Reference Architecture.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Potential collaboration includes NVIDIA OpenShell for safe deployment and NVIDIA Sentry for monitoring agent behavior.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA will invest $3 billion in Meta’s equity offering.",
+      "source": "NVIDIA"
+    }
+  ]
+}

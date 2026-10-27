@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-1.webp",
+    "alt": "Illustration: desert dunes at sunset with long shadows",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-launches-t-med-investment-platform",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "European Commission launches T-MED Investment Platform",
+  "excerpt": "The platform provides up to €4.5 billion in EU guarantees to support renewable energy and clean technology projects across the Mediterranean.",
+  "bodyHtml": "<p>The European Commission announced the launch of the T-MED Investment Platform on October 26, 2026. The platform is a component of the Trans-Mediterranean Renewable Energy and Clean Tech Cooperation Initiative, which is a flagship initiative of the Pact for the Mediterranean.</p>\n<p>The initiative offers up to €4.5 billion in guarantee capacity under the European Fund for Sustainable Development Plus. These guarantees are intended to reduce investment risks and attract private capital for projects including renewable electricity generation, renewable hydrogen, electricity transmission and distribution networks, energy storage, cross-border interconnections and clean technology manufacturing.</p>\n<p>The platform will also support efforts to improve regulatory frameworks, permitting procedures, grid access and power purchase agreements, while promoting skills development and local clean technology value chains. By 2035, T-MED aims to mobilise up to €25 billion in expected investments in renewable energy production, electricity grids, interconnections and clean technologies, alongside the training and upskilling of up to 10 000 workers.</p>",
+  "publishedAt": "2026-10-27T12:11:42Z",
+  "updatedAt": "2026-10-27T12:11:42Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "Commission launches T-MED Investment Platform with up to €4.5 billion in EU guarantees",
+  "tags": [
+    "European Commission",
+    "T-MED",
+    "renewable energy",
+    "Mediterranean"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2256"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission launched the T-MED Investment Platform.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The T-MED Investment Platform provides up to €4.5 billion in EU guarantees to support renewable energy and clean technology projects across the Mediterranean.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced the launch of the T-MED Investment Platform on October 26, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The T-MED Investment Platform is a component of the Trans-Mediterranean Renewable Energy and Clean Tech Cooperation Initiative (T-MED).",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "T-MED is a flagship initiative of the Pact for the Mediterranean.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The T-MED initiative offers up to €4.5 billion in guarantee capacity under the European Fund for Sustainable Development Plus.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The EU guarantees are intended to reduce investment risks and attract private capital.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Supported projects include renewable electricity generation, renewable hydrogen, electricity transmission and distribution networks, energy storage, cross-border interconnections and clean technology manufacturing.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The platform will support efforts to improve regulatory frameworks, permitting procedures, grid access and power purchase agreements.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The platform will promote skills development and local clean technology value chains.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "By 2035, T-MED aims to mobilise up to €25 billion in expected investments in renewable energy production, electricity grids, interconnections and clean technologies.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "By 2035, T-MED aims to train and upskill up to 10,000 workers.",
+      "source": "The European Commission"
+    }
+  ]
+}

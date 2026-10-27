@@ -1,0 +1,62 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-intern-develops-analysis-tools-for-u-s-deorbit-vehicle",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA intern develops analysis tools for U.S. Deorbit Vehicle",
+  "excerpt": "Malvika Bhardwaj is creating software to evaluate thruster firings and control systems for the International Space Station's future deorbiting.",
+  "bodyHtml": "<p>NASA intern Malvika Bhardwaj is developing tools to analyze thruster firings on the U.S. Deorbit Vehicle, a spacecraft designed to safely deorbit the International Space Station at the end of its operational life. Bhardwaj, a student at Rice University, is working with the Guidance, Navigation &amp; Control team at NASA’s Johnson Space Center.</p>\n<p>Bhardwaj uses computer simulations to test the control system of the U.S. Deorbit Vehicle and identify conditions under which the system could fail. She completed her first project, which consisted of a set of analysis tools built from scratch to support the agency&#x27;s mission objectives.</p>\n<p>Her mentor, Daniel Cohen, is a Guidance, Navigation &amp; Control engineer at the Johnson Space Center. Cohen supports the U.S. Deorbit Vehicle project by developing simulations and models for studies, analyzing control algorithms, and evaluating SpaceX’s design at multiple life-cycle reviews.</p>",
+  "publishedAt": "2026-10-27T12:07:40Z",
+  "updatedAt": "2026-10-27T12:07:40Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+  "tags": [
+    "NASA",
+    "International Space Station",
+    "U.S. Deorbit Vehicle"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Malvika Bhardwaj is a NASA intern developing analysis tools for the U.S. Deorbit Vehicle.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Bhardwaj is creating software/tools to evaluate thruster firings and control systems for the International Space Station's future deorbiting.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Bhardwaj is a student at Rice University working with the Guidance, Navigation & Control (GN&C) team at NASA’s Johnson Space Center.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Bhardwaj uses computer simulations to test the control system of the U.S. Deorbit Vehicle and identify conditions under which the system could fail.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Bhardwaj completed her first project, consisting of a set of analysis tools built from scratch.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Bhardwaj's mentor, Daniel Cohen, is a Guidance, Navigation & Control engineer at NASA’s Johnson Space Center.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Cohen supports the U.S. Deorbit Vehicle project by developing simulations and models for studies, analyzing control algorithms, and evaluating SpaceX’s design at multiple life-cycle reviews.",
+      "source": "NASA"
+    }
+  ]
+}

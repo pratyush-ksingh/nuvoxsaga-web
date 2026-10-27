@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-2.webp",
+    "alt": "Illustration: rows of small satellites in a factory under white light",
+    "credit": "AI illustration"
+  },
+  "slug": "esa-expands-galileo-second-generation-satellite-procurement",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "ESA expands Galileo Second Generation satellite procurement",
+  "excerpt": "The European Space Agency has ordered four additional satellites to bring the total Galileo Second Generation fleet to 16.",
+  "bodyHtml": "<p>The European Space Agency announced on October 27, 2026, that it has extended contracts for the construction of four additional Galileo Second Generation satellites. The procurement increases the total number of satellites in the second generation fleet to 16. These satellites are intended to ensure the long-term continuity of the constellation and support the rollout of new services.</p>\n<p>Contracts were signed with Thales Alenia Space in Rome, Italy, on 23 October and with Airbus Defence and Space in Ottobrunn, Germany, on 26 October. These companies were previously contracted in 2021 to build six satellites each. The European Space Agency extended the contracts on behalf of the EU Agency for the Space Programme for the benefit of the European Union.</p>\n<p>The four additional satellites are scheduled for delivery in 2031. These satellites will be equipped with fully digital navigation payloads, a better-performing navigation antenna, inter-satellite link capacity and an advanced atomic clock configuration. The first twelve satellites of the second generation are currently undergoing development and qualification activities, with the first launch expected in 2028.</p>",
+  "publishedAt": "2026-10-27T12:04:46Z",
+  "updatedAt": "2026-10-27T12:04:46Z",
+  "wordCount": 174,
+  "readingTimeMin": 1,
+  "topic": "ESA procures four new Galileo Second Generation satellites",
+  "tags": [
+    "ESA",
+    "Galileo",
+    "Thales Alenia Space",
+    "Airbus Defence and Space"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Applications/Satellite_navigation/Galileo/ESA_procures_four_new_Galileo_Second_Generation_satellites"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Space Agency expands Galileo Second Generation satellite procurement.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency has ordered four additional satellites to bring the total Galileo Second Generation fleet to 16.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 27, 2026, that it has extended contracts for the construction of four additional Galileo Second Generation satellites.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The procurement increases the total number of satellites in the second generation fleet to 16.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "These satellites are intended to ensure the long-term continuity of the constellation and support the rollout of new services.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Contracts were signed with Thales Alenia Space in Rome, Italy, on 23 October and with Airbus Defence and Space in Ottobrunn, Germany, on 26 October.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "These companies were previously contracted in 2021 to build six satellites each.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency extended the contracts on behalf of the EU Agency for the Space Programme for the benefit of the European Union.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The four additional satellites are scheduled for delivery in 2031.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "These satellites will be equipped with fully digital navigation payloads, a better-performing navigation antenna, inter-satellite link capacity and an advanced atomic clock configuration.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The first twelve satellites of the second generation are currently undergoing development and qualification activities, with the first launch expected in 2028.",
+      "source": "The European Space Agency"
+    }
+  ]
+}
