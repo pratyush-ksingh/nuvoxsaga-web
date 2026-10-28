@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-s-lucy-spacecraft-reaches-trojan-asteroid-region",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA's Lucy spacecraft reaches Trojan asteroid region",
+  "excerpt": "The spacecraft has traveled more than 2.2 billion miles since its launch on Oct. 16, 2021.",
+  "bodyHtml": "<p>NASA announced on October 28, 2026, that its Lucy spacecraft has entered a region of primitive solar-system bodies known as the Jupiter Trojan asteroids. NASA stated that having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA&#x27;s Lucy is the first spacecraft to enter this region.</p>\n<p>Mission engineers know that Lucy is approaching Jupiter&#x27;s Lagrange point 4 by tracking Lucy&#x27;s location through the spacecraft&#x27;s radio signals and images of surrounding stars. This region is one of two large and unexplored islands of stability, where thousands of asteroids share Jupiter&#x27;s orbit around the Sun.</p>\n<p>Lucy will visit asteroids in both regions, and Lucy&#x27;s first encounter with the Trojan Eurybates will occur on Aug. 11, 2027.</p>",
+  "publishedAt": "2026-10-28T16:20:42Z",
+  "updatedAt": "2026-10-28T16:20:42Z",
+  "wordCount": 119,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Lucy Reaches Trojan Asteroid Region 5 Years After Launch",
+  "tags": [
+    "NASA",
+    "Lucy",
+    "Jupiter"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/blogs/lucy/2026/10/28/nasas-lucy-reaches-trojan-asteroid-region-5-years-after-launch/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA's Lucy spacecraft reaches Trojan asteroid region.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft has traveled more than 2.2 billion miles since its launch on Oct. 16, 2021.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on October 28, 2026, that its Lucy spacecraft has entered a region of primitive solar-system bodies known as the Jupiter Trojan asteroids.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA stated that having traveled more than 2.2 billion miles since it launched on Oct. 16, 2021, NASA's Lucy is the first spacecraft to enter this region.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Mission engineers know that Lucy is approaching Jupiter's Lagrange point 4 by tracking Lucy's location through the spacecraft's radio signals and images of surrounding stars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "This region is one of two large and unexplored islands of stability, where thousands of asteroids share Jupiter's orbit around the Sun.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Lucy will visit asteroids in both regions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Lucy's first encounter with the Trojan Eurybates will occur on Aug. 11, 2027.",
+      "source": "NASA"
+    }
+  ]
+}

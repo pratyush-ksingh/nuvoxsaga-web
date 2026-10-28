@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-2.webp",
+    "alt": "Illustration: conference hall with a large screen showing a starfield, empty seats",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-reports-september-collision-risks-and-re-entries",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK Space Agency reports September collision risks and re-entries",
+  "excerpt": "The National Space Operations Centre monitored 58 objects re-entering Earth's atmosphere during the month of September.",
+  "bodyHtml": "<p>According to the UK Space Agency on October 28, 2026, September saw slightly elevated risk levels to UK interests, with more uncontrolled re-entry and collision hazards but lower space weather activity when compared with August. The National Space Operations Centre is led by the UK Space Agency and UK Space Command in partnership with the Met Office.</p>\n<p>There was a 7% increase in the number of objects re-entering Earth’s atmosphere monitored by NSpOC in September, when compared with the previous month. Of the 58 objects that re-entered, 51 were satellites, five were rocket bodies and two were likely pieces of debris.</p>\n<p>Collision risks to UK-licensed satellites were 16% higher in September than in August but sat well below the 12-month rolling average. Space weather activity was lower in September when compared with the previous month, consisting of some very limited solar radiation and geomagnetic storms.</p>",
+  "publishedAt": "2026-10-28T16:20:06Z",
+  "updatedAt": "2026-10-28T16:20:06Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "How we protected the UK and space in September 2026",
+  "tags": [
+    "UK Space Agency",
+    "UK Space Command",
+    "Met Office",
+    "National Space Operations Centre"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/news/how-we-protected-the-uk-and-space-in-september-2026"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency reported on September collision risks and re-entries.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The National Space Operations Centre monitored 58 objects re-entering Earth's atmosphere during the month of September.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "According to the UK Space Agency on October 28, 2026, September saw slightly elevated risk levels to UK interests, with more uncontrolled re-entry and collision hazards but lower space weather activity when compared with August.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The National Space Operations Centre is led by the UK Space Agency and UK Space Command in partnership with the Met Office.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "There was a 7% increase in the number of objects re-entering Earth’s atmosphere monitored by NSpOC in September, when compared with the previous month.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Of the 58 objects that re-entered, 51 were satellites, five were rocket bodies and two were likely pieces of debris.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Collision risks to UK-licensed satellites were 16% higher in September than in August but sat well below the 12-month rolling average.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Space weather activity was lower in September when compared with the previous month, consisting of some very limited solar radiation and geomagnetic storms.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

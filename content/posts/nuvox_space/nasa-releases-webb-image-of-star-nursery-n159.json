@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/space/nasa-releases-webb-image-of-star-nursery-n159.webp",
+    "alt": "A nebula made of clouds of gas and dust with stars forming within. In the center and out to the left it is filled with thin, wispy blue gas that forms delicate layers. Around this are thicker orange clouds with dark ridges. Thin red...",
+    "credit": "ESA/Webb, NASA & CSA, E. Sabbi, M. Zamani (ESA/Webb); Acknowledgement: M. H. Özsaraç (CC BY 4.0)"
+  },
+  "slug": "nasa-releases-webb-image-of-star-nursery-n159",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases Webb image of star nursery N159",
+  "excerpt": "The image shows dense clumps of gas in a region located 161,000 light-years away.",
+  "bodyHtml": "<p>NASA said on October 28, 2026, that an image released on Oct. 22, 2026, shows a turbulent cauldron of star formation filled with dense clumps of gas. The region is named N159.</p>\n<p>According to NASA, N159 is located 161,000 light-years away in the Large Magellanic Cloud, one of the satellite galaxies orbiting the Milky Way galaxy.</p>\n<p>The region has a lower metallicity, described as the proportion of elements that are heavier than helium and hydrogen, than the Milky Way. NASA said this gives astronomers an opportunity to learn more about conditions found in the early universe and how stars formed under those conditions.</p>\n<p>The image credit lists ESA/Webb, NASA &amp; CSA, E. Sabbi, M. Zamani, with an acknowledgement to M. H. Özsaraç.</p>",
+  "publishedAt": "2026-10-28T16:10:20Z",
+  "updatedAt": "2026-10-28T16:10:20Z",
+  "wordCount": 122,
+  "readingTimeMin": 1,
+  "topic": "Webb Sees Turbulent Star Nursery",
+  "tags": [
+    "NASA",
+    "Webb",
+    "Large Magellanic Cloud",
+    "Milky Way"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/image-article/webb-sees-turbulent-star-nursery/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released a Webb image of star nursery N159.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image shows dense clumps of gas in a region located 161,000 light-years away.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA said on October 28, 2026, that an image released on Oct. 22, 2026, shows a turbulent cauldron of star formation filled with dense clumps of gas.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The region is named N159.",
+      "source": "NASA"
+    },
+    {
+      "claim": "According to NASA, N159 is located 161,000 light-years away in the Large Magellanic Cloud, one of the satellite galaxies orbiting the Milky Way galaxy.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The region has a lower metallicity than the Milky Way.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Metallicity is described as the proportion of elements that are heavier than helium and hydrogen.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA said this gives astronomers an opportunity to learn more about conditions found in the early universe and how stars formed under those conditions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image credit lists ESA/Webb, NASA & CSA, E. Sabbi, M. Zamani, with an acknowledgement to M. H. Özsaraç.",
+      "source": "NASA"
+    }
+  ]
+}

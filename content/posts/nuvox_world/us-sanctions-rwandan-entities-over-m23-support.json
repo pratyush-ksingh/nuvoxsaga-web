@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-2.webp",
+    "alt": "Illustration: acacia trees on a savanna at golden hour",
+    "credit": "AI illustration"
+  },
+  "slug": "us-sanctions-rwandan-entities-over-m23-support",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "US sanctions Rwandan entities over M23 support",
+  "excerpt": "The US State Department announced sanctions on October 28, 2026, against Rwanda's Ministry of Defense and a financial institution.",
+  "bodyHtml": "<p>The United States announced sanctions against Rwanda&#x27;s Ministry of Defense and Zigama Credit and Savings Society on October 28, 2026, according to the US State Department. Zigama Credit and Savings Society is a financial institution that serves Rwanda&#x27;s security services.</p>\n<p>The US State Department stated that the entities are being sanctioned for supporting the March 23 Movement armed group in the eastern Democratic Republic of the Congo. According to the US State Department, thousands of Rwanda Defense Force troops fight alongside the group in North and South Kivu provinces and have supplied the group with weapons and training.</p>\n<p>The US State Department said Rwandan troops have brought in surface-to-air missiles and jamming equipment that endanger civilian aviation. The Rwandan Ministry of Defense is designated pursuant to E.O. 13413, as amended, for supporting the Rwanda Defense Force. Zigama is designated under the same order for supporting the Rwanda Defense Force, the March 23 Movement, and AFC.</p>",
+  "publishedAt": "2026-10-28T16:22:48Z",
+  "updatedAt": "2026-10-28T16:22:48Z",
+  "wordCount": 155,
+  "readingTimeMin": 1,
+  "topic": "The United States Announces Sanctions in Response to Rwanda’s Destabilizing Activities in Eastern Democratic Republic of the Congo",
+  "tags": [
+    "United States",
+    "Rwanda",
+    "Democratic Republic of the Congo",
+    "March 23 Movement"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/the-united-states-announces-sanctions-in-response-to-rwandas-destabilizing-activities-in-eastern-democratic-republic-of-the-congo/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US sanctioned Rwandan entities over M23 support.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department announced sanctions on October 28, 2026, against Rwanda's Ministry of Defense and a financial institution.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The United States announced sanctions against Rwanda's Ministry of Defense and Zigama Credit and Savings Society on October 28, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Zigama Credit and Savings Society is a financial institution that serves Rwanda's security services.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The entities are being sanctioned for supporting the March 23 Movement armed group in the eastern Democratic Republic of the Congo.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Thousands of Rwanda Defense Force troops fight alongside the March 23 Movement in North and South Kivu provinces.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rwandan troops have supplied the March 23 Movement with weapons and training.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rwandan troops have brought in surface-to-air missiles and jamming equipment that endanger civilian aviation.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Rwandan Ministry of Defense is designated pursuant to E.O. 13413, as amended, for supporting the Rwanda Defense Force.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Zigama is designated under E.O. 13413 for supporting the Rwanda Defense Force, the March 23 Movement, and AFC.",
+      "source": "The US State Department"
+    }
+  ]
+}
