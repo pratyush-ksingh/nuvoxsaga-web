@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-publishes-final-2025-official-development-assistance-spending-stat",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government publishes final 2025 official development assistance spending statistics",
+  "excerpt": "The report provides data on international aid spending from January to December 2025.",
+  "bodyHtml": "<p>The UK government published its final statistics on Official Development Assistance (ODA) spend for the period of January to December 2025 on October 28, 2026. This publication follows an initial release of the data on September 17, 2026.</p>\n<p>The government stated that it has removed potentially sensitive information for UK ODA programmes in Afghanistan. This includes project titles, descriptions, channels of delivery, and sectors. The government cited the security situation in Afghanistan as the reason for these removals.</p>\n<p>The publication includes a 40-page PDF document, various ODS format tables, and a factsheet regarding ODA gender equality and disability inclusion policy markers. The government also provided annexes 1, 2 and 3 as part of the documentation.</p>",
+  "publishedAt": "2026-10-28T12:23:13Z",
+  "updatedAt": "2026-10-28T12:23:13Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "Accredited official statistics: Statistics on International Development: final UK ODA spend 2025",
+  "tags": [
+    "UK government",
+    "international development",
+    "Afghanistan"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/statistics/statistics-on-international-development-final-uk-oda-spend-2025"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government published final 2025 official development assistance spending statistics.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The report provides data on international aid spending from January to December 2025.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government published its final statistics on Official Development Assistance (ODA) spend for the period of January to December 2025 on October 28, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The publication on October 28, 2026, follows an initial release of the data on September 17, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government stated that it has removed potentially sensitive information for UK ODA programmes in Afghanistan.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The removed information for Afghanistan includes project titles, descriptions, channels of delivery, and sectors.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government cited the security situation in Afghanistan as the reason for the removal of sensitive information.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The publication includes a 40-page PDF document.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The publication includes various ODS format tables.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The publication includes a factsheet regarding ODA gender equality and disability inclusion policy markers.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government provided annexes 1, 2 and 3 as part of the documentation.",
+      "source": "The UK government"
+    }
+  ]
+}

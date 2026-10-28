@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-approves-319-million-euro-state-aid-for-austrian-semiconduct",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission approves 319 million euro state aid for Austrian semiconductor plant",
+  "excerpt": "The funding supports an upgrade to Infineon Technologies Austria AG's facility in Villach to enable large-scale manufacturing of power gallium nitride devices.",
+  "bodyHtml": "<p>The European Commission announced on October 27, 2026, that it has approved 319 million euro in Austrian state aid for the upgrading of an existing semiconductor facility owned by Infineon Technologies Austria AG in Villach, Carinthia.</p>\n<p>The project aims to establish high-volume manufacturing of power gallium nitride semiconductor devices, which offer higher energy efficiency and greater power density than traditional silicon-based alternatives. The facility will be the first of its kind in the European Union to manufacture these devices on 300 mm wafers.</p>\n<p>The Commission assessed the aid under EU state aid rules and the European Chips Act, concluding that the measure is necessary to ensure the resilience of the semiconductor supply chain. The aid is provided as a direct grant, and the company has agreed to expand collaboration with universities, research institutions, and small and medium-sized enterprises.</p>",
+  "publishedAt": "2026-10-28T12:23:52Z",
+  "updatedAt": "2026-10-28T12:23:52Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "Daily News 27 / 10 / 2026",
+  "tags": [
+    "European Commission",
+    "Austria",
+    "semiconductors",
+    "Infineon Technologies"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2270"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission approved 319 million euro in state aid for an Austrian semiconductor plant.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The funding supports an upgrade to Infineon Technologies Austria AG's facility in Villach to enable large-scale manufacturing of power gallium nitride devices.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced the approval on October 27, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The facility is located in Villach, Carinthia.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Power gallium nitride semiconductor devices offer higher energy efficiency and greater power density than traditional silicon-based alternatives.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The facility will be the first of its kind in the European Union to manufacture these devices on 300 mm wafers.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission assessed the aid under EU state aid rules and the European Chips Act.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission concluded the measure is necessary to ensure the resilience of the semiconductor supply chain.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The aid is provided as a direct grant.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Infineon Technologies Austria AG has agreed to expand collaboration with universities, research institutions, and small and medium-sized enterprises.",
+      "source": "The European Commission"
+    }
+  ]
+}

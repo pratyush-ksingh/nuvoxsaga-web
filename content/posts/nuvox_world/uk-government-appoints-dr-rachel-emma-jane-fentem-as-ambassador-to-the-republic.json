@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-1.webp",
+    "alt": "Illustration: aerial view of a river winding through green mountains at dawn",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-appoints-dr-rachel-emma-jane-fentem-as-ambassador-to-the-republic",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "UK government appoints Dr Rachel Emma-Jane Fentem as ambassador to the Republic of Korea",
+  "excerpt": "Dr Fentem will succeed Mr Colin James Crooks in March 2027 as the head of the UK diplomatic mission in Seoul.",
+  "bodyHtml": "<p>The UK government announced on October 28, 2026, that Dr Rachel Emma-Jane Fentem CMG has been appointed as His Majesty’s Ambassador to the Republic of Korea. She will succeed Mr Colin James Crooks LVO, who will be leaving the Diplomatic Service.</p>\n<p>Dr Fentem has held various government roles since 2008, including positions at the Foreign, Commonwealth and Development Office, the Prime Minister’s Office, and HM Treasury. Her experience includes serving as the Principal Private Secretary to the Foreign Secretary from 2022 to 2025 and as Deputy Principal Private Secretary to the Foreign Secretary from 2021 to 2022.</p>\n<p>She also served as a Counsellor in Berlin from 2018 to 2021 and in Tokyo from 2017 to 2018. Additionally, she worked as the Director of Overseas Operations for the Department for International Trade between 2016 and 2017, and as a Counsellor in Tokyo from 2015 to 2016. Dr Fentem will take up her appointment during March, 2027.</p>",
+  "publishedAt": "2026-10-28T12:22:36Z",
+  "updatedAt": "2026-10-28T12:22:36Z",
+  "wordCount": 155,
+  "readingTimeMin": 1,
+  "topic": "Change of His Majesty’s Ambassador to Seoul",
+  "tags": [
+    "UK government",
+    "Republic of Korea",
+    "Diplomatic Service"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/change-of-his-majestys-ambassador-to-seoul"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government appoints Dr Rachel Emma-Jane Fentem as ambassador to the Republic of Korea (headline)",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Fentem will succeed Mr Colin James Crooks as head of the UK diplomatic mission in Seoul, in March 2027",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced the appointment on October 28, 2026",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Crooks LVO is leaving the Diplomatic Service",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Fentem has held various government roles since 2008, including at the FCDO, the Prime Minister's Office and HM Treasury",
+      "source": "The UK government"
+    },
+    {
+      "claim": "She was Principal Private Secretary to the Foreign Secretary from 2022 to 2025",
+      "source": "The UK government"
+    },
+    {
+      "claim": "She was Deputy Principal Private Secretary to the Foreign Secretary from 2021 to 2022",
+      "source": "The UK government"
+    },
+    {
+      "claim": "She was Counsellor in Berlin from 2018 to 2021",
+      "source": "The UK government"
+    },
+    {
+      "claim": "She was Counsellor in Tokyo from 2017 to 2018",
+      "source": "The UK government"
+    },
+    {
+      "claim": "She was Director of Overseas Operations at the Department for International Trade 2016 to 2017",
+      "source": "The UK government"
+    },
+    {
+      "claim": "She was Counsellor in Tokyo from 2015 to 2016",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Fentem will take up her appointment during March 2027",
+      "source": "The UK government"
+    }
+  ]
+}

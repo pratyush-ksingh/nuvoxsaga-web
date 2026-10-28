@@ -1,0 +1,69 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "chiricahua-national-monument-redesignated-as-national-park",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Chiricahua National Monument redesignated as national park",
+  "excerpt": "The site in southeastern Arizona was redesignated as Chiricahua National Park in October 2026.",
+  "bodyHtml": "<p>Chiricahua National Monument was redesignated as Chiricahua National Park in October 2026. The area, located in southeastern Arizona, was previously designated as a national monument in 1924 to preserve its geology.</p>\n<p>The Operational Land Imager on the Landsat 9 satellite captured a cloud-free image of the new national park on July 2, 2026. The imagery shows the landscape of eroding rhyolitic tuff, a rock formed from volcanic ash, and stream valleys containing vegetation.</p>\n<p>The park contains a variety of ecosystems including desert, grassland, chaparral, deciduous forest, and coniferous forest. Among the 1,000 species growing within the park are agaves, prickly pear cacti, yuccas, manzanita, pine, fir, cypress, sycamore, juniper, and oak.</p>\n<p>The park is located within the Chiricahua Mountains, which are among several sky islands in Arizona. The range&#x27;s highest point outside the park rises 2,986 meters above sea level, more than 1,800 meters above the surrounding valley.</p>",
+  "publishedAt": "2026-10-28T12:17:49Z",
+  "updatedAt": "2026-10-28T12:17:49Z",
+  "wordCount": 148,
+  "readingTimeMin": 1,
+  "topic": "The Land of the Standing-Up Rocks",
+  "tags": [
+    "Landsat 9",
+    "Chiricahua National Park"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Chiricahua National Monument was redesignated as Chiricahua National Park in October 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The site is located in southeastern Arizona.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The area was designated a national monument in 1924 to preserve its geology.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The Operational Land Imager on the Landsat 9 satellite captured a cloud-free image of the new national park on July 2, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The imagery shows the landscape of eroding rhyolitic tuff and stream valleys containing vegetation.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The park contains a variety of ecosystems including desert, grassland, chaparral, deciduous forest, and coniferous forest.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Among the 1,000 species growing within the park are agaves, prickly pear cacti, yuccas, manzanita, pine, fir, cypress, sycamore, juniper, and oak.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The park is located within the Chiricahua Mountains, which are among several sky islands in Arizona.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The range's highest point outside the park rises 2,986 meters above sea level, more than 1,800 meters above the surrounding valley.",
+      "source": "NASA"
+    }
+  ]
+}
