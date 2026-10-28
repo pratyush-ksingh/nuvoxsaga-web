@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-professor-paris-smaragdis-researches-machine-learning-for-audio-processing",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT professor Paris Smaragdis researches machine learning for audio processing",
+  "excerpt": "The research group focuses on machine learning for sound source separation and tools to help people understand, manipulate, analyze, and create music.",
+  "bodyHtml": "<p>MIT News reported on October 28, 2026, that Professor Paris Smaragdis is leading a research group at MIT to develop machines capable of hearing and understanding sound. The group explores machine learning for sound source separation, which involves using neural networks to isolate individual sounds from audio mixtures.</p>\n<p>Smaragdis, who joined the MIT faculty in 2025, previously contributed to the sound editing for the 2021 documentary mini-series The Beatles: Get Back. His work on that project helped the production team win an Emmy Award for sound editing for a nonfiction or reality program in 2022.</p>\n<p>His current research at MIT includes developing systems that provide feedback to musicians and exploring algorithms for signal processing that do not rely on fixed sampling rates or frame sizes. The team is also investigating ways to incorporate large language models into speech recognition and audio enhancement.</p>",
+  "publishedAt": "2026-10-28T06:01:48Z",
+  "updatedAt": "2026-10-28T06:01:48Z",
+  "wordCount": 142,
+  "readingTimeMin": 1,
+  "topic": "Making machines that can listen",
+  "tags": [
+    "MIT",
+    "Machine learning",
+    "Music technology"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT professor Paris Smaragdis researches machine learning for audio processing.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The research group focuses on machine learning for sound source separation and tools to help people understand, manipulate, analyze, and create music.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT News reported on October 28, 2026, that Professor Paris Smaragdis is leading a research group at MIT to develop machines capable of hearing and understanding sound.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The group explores machine learning for sound source separation, which involves using neural networks to isolate individual sounds from audio mixtures.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Smaragdis, who joined the MIT faculty in 2025, previously contributed to the sound editing for the 2021 documentary mini-series The Beatles: Get Back.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "His work on that project helped the production team win an Emmy Award for sound editing for a nonfiction or reality program in 2022.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "His current research at MIT includes developing systems that provide feedback to musicians and exploring algorithms for signal processing that do not rely on fixed sampling rates or frame sizes.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team is also investigating ways to incorporate large language models into speech recognition and audio enhancement.",
+      "source": "MIT News"
+    }
+  ]
+}
