@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "prabha-jha-and-peers-release-the-ai-anthology",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Prabha Jha and peers release The AI Anthology",
+  "excerpt": "The collection of essays examines the influence of artificial intelligence across industries and society.",
+  "bodyHtml": "<p>On October 27, 2026, MIT News reported that Prabha Jha and 20 other leaders released a book titled The AI Anthology. The publication is a collection of essays that examine the influence artificial intelligence has had across industries and society.</p>\n<p>Jha, an information technology professional, developed the book following her participation in the MIT xPRO AI for Senior Executives program. She collaborated with peers she met during the program to capture diverse perspectives and experiences regarding AI implementation and its impact on business and society. Jha estimates that 30 percent of what she was learning was from the program, material, and professor, while 70 percent was her peers and the interactions.</p>\n<p>Jha is currently working on a new initiative focused on supporting small and medium-sized businesses that are navigating AI implementation. Her goal for this initiative is to help them understand what tools they need, how AI fits into their specific operational model, and how they can measure success.</p>",
+  "publishedAt": "2026-10-28T02:04:07Z",
+  "updatedAt": "2026-10-28T02:04:07Z",
+  "wordCount": 159,
+  "readingTimeMin": 1,
+  "topic": "Learner collaborates with MIT peers to develop book of AI insights",
+  "tags": [
+    "MIT",
+    "Artificial intelligence",
+    "Books and authors"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Prabha Jha and peers released The AI Anthology.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The collection of essays examines the influence of artificial intelligence across industries and society.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "On October 27, 2026, MIT News reported that Prabha Jha and 20 other leaders released a book titled The AI Anthology.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The publication is a collection of essays that examine the influence artificial intelligence has had across industries and society.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Jha, an information technology professional, developed the book following her participation in the MIT xPRO AI for Senior Executives program.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "She collaborated with peers she met during the program to capture diverse perspectives and experiences regarding AI implementation and its impact on business and society.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Jha estimates that 30 percent of what she was learning was from the program, material, and professor, while 70 percent was her peers and the interactions.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Jha is currently working on a new initiative focused on supporting small and medium-sized businesses that are navigating AI implementation.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Her goal for this initiative is to help them understand what tools they need, how AI fits into their specific operational model, and how they can measure success.",
+      "source": "MIT News"
+    }
+  ]
+}

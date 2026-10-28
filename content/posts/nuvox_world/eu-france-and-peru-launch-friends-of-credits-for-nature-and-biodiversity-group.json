@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-3.webp",
+    "alt": "Illustration: storm clouds gathering over the ocean seen from above",
+    "credit": "AI illustration"
+  },
+  "slug": "eu-france-and-peru-launch-friends-of-credits-for-nature-and-biodiversity-group",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "EU, France and Peru launch Friends of Credits for Nature and Biodiversity group",
+  "excerpt": "The new government-led forum aims to facilitate policy dialogue on biodiversity finance and nature credits.",
+  "bodyHtml": "<p>The European Commission announced on October 27, 2026, the launch of the Friends of Credits for Nature and Biodiversity. The initiative was established in partnership with France and Peru to serve as an inclusive, government-led forum for policy dialogue regarding biodiversity finance.</p>\n<p>The group intends to provide a space for countries to examine policy implications and opportunities for cooperation on nature credits. These credits are financial instruments designed to reward measurable contributions to biodiversity, providing potential benefits for land managers, Indigenous Peoples, and local communities.</p>\n<p>The forum will build upon existing work from international partners, including the International Advisory Panel on Biodiversity Credits and the Biodiversity Credit Alliance. The group will focus on identifying opportunities for cooperation and strengthening links between national biodiversity strategies and the implementation of the Kunming-Montreal Global Biodiversity Framework.</p>",
+  "publishedAt": "2026-10-28T02:08:38Z",
+  "updatedAt": "2026-10-28T02:08:38Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "Commissioner Roswall's speech at the event, ‘From Principles to International Cooperation: Mobilising Biodiversity Finance through High-Integrity Nature Credits'",
+  "tags": [
+    "European Commission",
+    "biodiversity",
+    "finance"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2276"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The EU, France, and Peru launched the Friends of Credits for Nature and Biodiversity group.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The new government-led forum aims to facilitate policy dialogue on biodiversity finance and nature credits.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced the launch of the Friends of Credits for Nature and Biodiversity on October 27, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The initiative was established in partnership with France and Peru to serve as an inclusive, government-led forum for policy dialogue regarding biodiversity finance.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The group intends to provide a space for countries to examine policy implications and opportunities for cooperation on nature credits.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Nature credits reward measurable contributions to biodiversity and provide potential benefits for land managers, Indigenous Peoples, and local communities.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The forum will build upon existing work from international partners, including the International Advisory Panel on Biodiversity Credits and the Biodiversity Credit Alliance.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The group will focus on identifying opportunities for cooperation and strengthening links between national biodiversity strategies and the implementation of the Kunming-Montreal Global Biodiversity Framework.",
+      "source": "The European Commission"
+    }
+  ]
+}

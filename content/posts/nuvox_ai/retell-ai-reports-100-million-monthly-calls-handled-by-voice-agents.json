@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "retell-ai-reports-100-million-monthly-calls-handled-by-voice-agents",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Retell AI reports 100 million monthly calls handled by voice agents",
+  "excerpt": "The voice AI platform achieved an annual revenue run rate of $1.6 million per employee as of October 27, 2026.",
+  "bodyHtml": "<p>Retell AI announced on October 27, 2026, that its voice AI platform now manages more than 100 million calls per month. The company, which provides tools for contact centers to build automated agents, stated that its monthly call volume increased from 30 million in early 2026 to over 100 million by September.</p>\n<p>According to the company, OpenAI models generate responses for 80% of these calls, with customers achieving resolution rates exceeding 80%. Retell AI reported that it has consumed 1 trillion tokens across OpenAI models. The company currently maintains an annual revenue run rate of $1.6 million per employee.</p>\n<p>In a benchmark conducted on October 13, 2026, Retell AI found that the GPT‑6 Astra model ranked first for instruction following at 89.7%. The company also reported that its engineers use Codex to research, build, and debug, and that it plans to expand quality assurance and simulation, support more languages, and develop knowledge base auto-learning.</p>",
+  "publishedAt": "2026-10-28T02:07:14Z",
+  "updatedAt": "2026-10-28T02:07:14Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "Retell uses OpenAI models to help power 100M monthly calls",
+  "tags": [
+    "Retell AI",
+    "OpenAI",
+    "voice AI"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/retell-ai"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Retell AI reports 100 million monthly calls handled by voice agents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI achieved an annual revenue run rate of $1.6 million per employee as of October 27, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI announced on October 27, 2026, that its voice AI platform now manages more than 100 million calls per month.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI provides tools for contact centers to build automated agents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI stated that its monthly call volume increased from 30 million in early 2026 to over 100 million by September.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI models generate responses for 80% of calls on Retell AI.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Customers using Retell AI achieve resolution rates exceeding 80%.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI reported that it has consumed 1 trillion tokens across OpenAI models.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI currently maintains an annual revenue run rate of $1.6 million per employee.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In a benchmark conducted on October 13, 2026, Retell AI found that the GPT‑6 Astra model ranked first for instruction following at 89.7%.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI reported that its engineers use Codex to research, build, and debug.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Retell AI plans to expand quality assurance and simulation, support more languages, and develop knowledge base auto-learning.",
+      "source": "OpenAI"
+    }
+  ]
+}
