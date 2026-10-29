@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-1.webp",
+    "alt": "Illustration: aerial view of a river winding through green mountains at dawn",
+    "credit": "AI illustration"
+  },
+  "slug": "vietnam-signs-the-artemis-accords",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Vietnam signs the Artemis Accords",
+  "excerpt": "The agreement was signed on October 28, 2026, during Vietnam International Digital Week.",
+  "bodyHtml": "<p>The United States Department of State announced that Vietnam has joined the Artemis Accords. The Accords, established by the United States and seven other countries in 2020 during President Trump’s first term, serve as a set of practical principles to guide responsible space exploration.</p>\n<p>Vietnam is the 78th nation to sign the agreement. Minister of Science and Technology Vũ Hải Quân signed the Accords on behalf of the Socialist Republic of Vietnam on October 28, 2026. United States Ambassador to Vietnam Jennifer Wicks witnessed the signing at a ceremony on the margins of Vietnam International Digital Week in Ha Long, Vietnam.</p>\n<p>According to the United States Department of State, the signing extends the U.S.-Vietnam Comprehensive Strategic Partnership into a new frontier. The Department of State and NASA lead the United States’ outreach and implementation of the Accords.</p>",
+  "publishedAt": "2026-10-29T12:33:28Z",
+  "updatedAt": "2026-10-29T12:33:28Z",
+  "wordCount": 137,
+  "readingTimeMin": 1,
+  "topic": "United States Welcomes Vietnam’s Signing of the Artemis Accords",
+  "tags": [
+    "Vietnam",
+    "Artemis Accords",
+    "United States"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/united-states-welcomes-vietnams-signing-of-the-artemis-accords/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Vietnam signs the Artemis Accords.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The agreement was signed on October 28, 2026, during Vietnam International Digital Week.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The United States Department of State announced that Vietnam has joined the Artemis Accords.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Accords were established by the United States and seven other countries in 2020.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Accords were established during President Trump’s first term.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Accords serve as a set of practical principles to guide responsible space exploration.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Vietnam is the 78th nation to sign the agreement.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Minister of Science and Technology Vũ Hải Quân signed the Accords on behalf of the Socialist Republic of Vietnam on October 28, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "United States Ambassador to Vietnam Jennifer Wicks witnessed the signing at a ceremony on the margins of Vietnam International Digital Week in Ha Long, Vietnam.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "According to the United States Department of State, the signing extends the U.S.-Vietnam Comprehensive Strategic Partnership into a new frontier.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State and NASA lead the United States’ outreach and implementation of the Accords.",
+      "source": "The US State Department"
+    }
+  ]
+}

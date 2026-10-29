@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-reports-progress-on-global-biodiversity-restoration-targets",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission reports progress on global biodiversity restoration targets",
+  "excerpt": "Commissioner Roswall stated that restoration efforts are underway but remain behind the pace required to meet 2030 goals.",
+  "bodyHtml": "<p>On October 28, 2026, the European Commission reported that restoration of ecosystems is occurring globally, though not at the scale needed to meet Target 2 of the Kunming-Montreal Global Biodiversity Framework. This target calls for the effective restoration of at least 30% of degraded terrestrial, inland water, coastal, and marine ecosystems by 2030.</p>\n<p>Commissioner Roswall noted that the European Union&#x27;s Nature Restoration Regulation aims to deliver restoration measures on at least 20% of land and sea by 2030. The Commission stated that governments are beginning to commit resources to these efforts, citing a fund of nearly 6 billion euro in Denmark to support changes in land use and peatland restoration.</p>\n<p>The European Commission also noted that nature-negative finance reached around 6.5 trillion euro in 2023. According to the Commission, achieving the goals of the Global Biodiversity Framework requires aligning financial flows with nature-positive development and ensuring that nature has a seat in corporate boardrooms.</p>",
+  "publishedAt": "2026-10-29T12:27:46Z",
+  "updatedAt": "2026-10-29T12:27:46Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "Commissioner Roswall's address at a High-level side-event at CBD COP17, “Restoring nature – from commitments to action”",
+  "tags": [
+    "European Commission",
+    "Biodiversity",
+    "Nature Restoration"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2280"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission reported progress on global biodiversity restoration targets.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Commissioner Roswall stated that restoration efforts are underway but remain behind the pace required to meet 2030 goals.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "On October 28, 2026, the European Commission reported that restoration of ecosystems is occurring globally, though not at the scale needed to meet Target 2 of the Kunming-Montreal Global Biodiversity Framework.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Target 2 calls for the effective restoration of at least 30% of degraded terrestrial, inland water, coastal, and marine ecosystems by 2030.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Commissioner Roswall noted that the European Union's Nature Restoration Regulation aims to deliver restoration measures on at least 20% of land and sea by 2030.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission stated that governments are beginning to commit resources to restoration efforts, citing a fund of nearly 6 billion euro in Denmark to support changes in land use and peatland restoration.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission noted that nature-negative finance reached around 6.5 trillion euro in 2023.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "According to the European Commission, achieving the goals of the Global Biodiversity Framework requires aligning financial flows with nature-positive development and ensuring that nature has a seat in corporate boardrooms.",
+      "source": "The European Commission"
+    }
+  ]
+}

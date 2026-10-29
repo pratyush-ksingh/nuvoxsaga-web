@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-signs-proclamation-to-adjust-imports-of-robotics-and-industrial",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump signs proclamation to adjust imports of robotics and industrial machinery",
+  "excerpt": "The order directs officials to negotiate agreements with trading partners to address national security concerns regarding foreign machinery imports.",
+  "bodyHtml": "<p>President Donald J. Trump signed a proclamation on October 28, 2026, to address the threatened impairment of national security regarding imports of robotics, industrial machinery, and their parts and components. The action was taken pursuant to Section 232 of the Trade Expansion Act of 1962.</p>\n<p>The proclamation directs the U.S. Secretary of Commerce and the U.S. Trade Representative to jointly negotiate agreements with trading partners concerning these imports. The White House stated that the United States produces less robotics and industrial equipment than it consumes and lacks the capacity to satisfy increasing U.S. demand for these goods.</p>\n<p>The White House noted that the United States relies on foreign imports for most types of robotics, industrial machinery, and their parts and components. The Secretary of Commerce will inform the President of any circumstances that might indicate the need for further action under Section 232 with respect to robotics, industrial machinery, and their parts and components.</p>",
+  "publishedAt": "2026-10-29T12:24:31Z",
+  "updatedAt": "2026-10-29T12:24:31Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "Fact Sheet: President Donald J. Trump Adjusts Imports of Robotics, Industrial Machinery, and their Parts and Components into the United States",
+  "tags": [
+    "United States",
+    "Trade",
+    "Manufacturing",
+    "National Security"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-adjusts-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump signed a proclamation to adjust imports of robotics and industrial machinery.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The order directs officials to negotiate agreements with trading partners to address national security concerns regarding foreign machinery imports.",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Donald J. Trump signed a proclamation on October 28, 2026, to address the threatened impairment of national security regarding imports of robotics, industrial machinery, and their parts and components.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The action was taken pursuant to Section 232 of the Trade Expansion Act of 1962.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation directs the U.S. Secretary of Commerce and the U.S. Trade Representative to jointly negotiate agreements with trading partners concerning these imports.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated that the United States produces less robotics and industrial equipment than it consumes.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated that the United States lacks the capacity to satisfy increasing U.S. demand for robotics and industrial equipment.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House noted that the United States relies on foreign imports for most types of robotics, industrial machinery, and their parts and components.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Secretary of Commerce will inform the President of any circumstances that might indicate the need for further action under Section 232 with respect to robotics, industrial machinery, and their parts and components.",
+      "source": "The White House"
+    }
+  ]
+}

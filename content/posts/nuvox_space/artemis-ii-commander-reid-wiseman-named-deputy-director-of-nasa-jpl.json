@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-2.webp",
+    "alt": "Illustration: rows of small satellites in a factory under white light",
+    "credit": "AI illustration"
+  },
+  "slug": "artemis-ii-commander-reid-wiseman-named-deputy-director-of-nasa-jpl",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "Artemis II commander Reid Wiseman named deputy director of NASA JPL",
+  "excerpt": "The former astronaut will begin his new role at the Southern California laboratory on November 30, 2026.",
+  "bodyHtml": "<p>NASA&#x27;s Jet Propulsion Laboratory announced on October 28, 2026, that Artemis II commander Reid Wiseman has been appointed as the deputy director of the laboratory and an associate vice president at Caltech. Wiseman, an emeritus astronaut and retired U.S. Navy captain, is scheduled to begin his new position on November 30, 2026.</p>\n<p>In his new capacity, Wiseman will be responsible for the strategic leadership, stewardship, and continuous improvement of laboratory operations. He will also serve as the Center Management Authority for mission execution and act as the primary interface for national security programs at the facility.</p>\n<p>Wiseman previously served as the agency’s chief astronaut from December 2020 to November 2022. During his career, he also served as flight engineer aboard the International Space Station for the 165-day Expedition 41 mission in 2014 and was a commander of NASA’s 21st Extreme Environment Mission Operations expedition in 2016.</p>\n<p>Wiseman holds a bachelor’s degree in computer and systems engineering from Rensselaer Polytechnic Institute and a master’s degree in systems engineering from Johns Hopkins University. He will assume his duties at the laboratory as it approaches its 90th anniversary since being founded by Caltech.</p>",
+  "publishedAt": "2026-10-29T12:18:56Z",
+  "updatedAt": "2026-10-29T12:18:56Z",
+  "wordCount": 190,
+  "readingTimeMin": 1,
+  "topic": "Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
+  "tags": [
+    "NASA",
+    "JPL",
+    "Artemis II",
+    "Reid Wiseman"
+  ],
+  "source": {
+    "name": "NASA's Jet Propulsion Laboratory",
+    "url": "https://www.jpl.nasa.gov/news/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy"
+  },
+  "sources": [
+    "NASA's Jet Propulsion Laboratory"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Artemis II commander Reid Wiseman has been appointed deputy director of NASA's Jet Propulsion Laboratory and associate vice president at Caltech.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Reid Wiseman will begin his new position at NASA JPL on November 30, 2026.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "NASA's Jet Propulsion Laboratory announced the appointment on October 28, 2026.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman is an emeritus astronaut and retired U.S. Navy captain.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman will be responsible for the strategic leadership, stewardship, and continuous improvement of laboratory operations.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman will serve as Center Management Authority for mission execution and act as JPL's primary interface for national security programs.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman served as NASA's chief astronaut from December 2020 to November 2022.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman served as a flight engineer aboard the International Space Station for the 165-day Expedition 41 mission in 2014.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman commanded NASA’s 21st Extreme Environment Mission Operations expedition in 2016.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman holds a bachelor’s degree in computer and systems engineering from Rensselaer Polytechnic Institute and a master’s degree in systems engineering from Johns Hopkins University.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    },
+    {
+      "claim": "Wiseman will assume his duties at JPL as it approaches its 90th anniversary since being founded by Caltech.",
+      "source": "NASA's Jet Propulsion Laboratory"
+    }
+  ]
+}

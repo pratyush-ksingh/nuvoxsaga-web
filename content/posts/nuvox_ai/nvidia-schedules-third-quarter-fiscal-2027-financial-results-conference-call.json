@@ -1,0 +1,73 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-schedules-third-quarter-fiscal-2027-financial-results-conference-call",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA schedules third-quarter fiscal 2027 financial results conference call",
+  "excerpt": "The company will host a live webcast on November 17 to discuss financial results for the quarter ending October 25, 2026.",
+  "bodyHtml": "<p>NVIDIA announced it will hold a conference call on November 17 at 2 p.m. PT to discuss its financial results for the third quarter of fiscal year 2027. The quarter concluded on October 25, 2026.</p>\n<p>The event will feature prepared remarks followed by a question and answer session restricted to financial analysts and institutional investors. A live, listen-only webcast will be available on the company investor relations website. The webcast will be recorded and available for replay until the company’s conference call to discuss financial results for its fourth quarter and fiscal year 2027.</p>\n<p>Ahead of the call, NVIDIA said it will provide written commentary on its third-quarter results from Colette Kress, the company’s Executive Vice President and Chief Financial Officer. This material will be posted to investor.nvidia.com at approximately 1:20 p.m. PT on November 17. NVIDIA stated that it is the world leader in AI and accelerated computing.</p>",
+  "publishedAt": "2026-10-29T12:07:33Z",
+  "updatedAt": "2026-10-29T12:07:33Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+  "tags": [
+    "NVIDIA",
+    "financial results"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA schedules third-quarter fiscal 2027 financial results conference call.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The company will host a live webcast on November 17 to discuss financial results for the quarter ending October 25, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced it will hold a conference call on November 17 at 2 p.m. PT to discuss its financial results for the third quarter of fiscal year 2027.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The third quarter concluded on October 25, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The event will feature prepared remarks followed by a question and answer session restricted to financial analysts and institutional investors.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "A live, listen-only webcast will be available on the company investor relations website.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The webcast will be recorded and available for replay until the company’s conference call to discuss financial results for its fourth quarter and fiscal year 2027.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Ahead of the call, NVIDIA said it will provide written commentary on its third-quarter results from Colette Kress, the company’s Executive Vice President and Chief Financial Officer.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "This material will be posted to investor.nvidia.com at approximately 1:20 p.m. PT on November 17.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA stated that it is the world leader in AI and accelerated computing.",
+      "source": "NVIDIA"
+    }
+  ]
+}
