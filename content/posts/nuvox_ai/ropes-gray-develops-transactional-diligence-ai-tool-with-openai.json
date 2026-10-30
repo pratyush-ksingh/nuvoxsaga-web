@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "ropes-gray-develops-transactional-diligence-ai-tool-with-openai",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Ropes & Gray develops transactional diligence AI tool with OpenAI",
+  "excerpt": "The law firm is building a tool to assist with the first pass of document review during transactional diligence.",
+  "bodyHtml": "<p>OpenAI reported on October 29, 2026, that law firm Ropes &amp; Gray is developing a transactional diligence AI tool in partnership with OpenAI. Transactional diligence requires lawyers to investigate a seller’s financial and legal claims before an acquisition, a process that involves parsing large volumes of documents.</p>\n<p>The tool is designed to take a first pass by combing through thousands of pages, identifying relevant documents, and automatically grouping them by themes and issues. It produces summaries and a report in the firm&#x27;s signature format. The tool inventories and categorizes a data room to review full relationships between documents.</p>\n<p>The initial development work has focused on material commercial contracts. The tool is comparable to the work of a capable junior-to-mid-level associate, providing a first pass through the process. Lawyers continue to review interim summaries and source documents to ensure the work is accurate before delivery to clients. Ropes &amp; Gray has described an ambition for the tool to produce a detailed, issue-level diligence report in hours rather than weeks.</p>",
+  "publishedAt": "2026-10-30T06:02:05Z",
+  "updatedAt": "2026-10-30T06:02:05Z",
+  "wordCount": 168,
+  "readingTimeMin": 1,
+  "topic": "How Ropes & Gray is developing AI for transactional diligence",
+  "tags": [
+    "Ropes & Gray",
+    "OpenAI",
+    "AI"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/ropes-gray-ai-diligence"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Ropes & Gray develops transactional diligence AI tool with OpenAI",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The law firm is building a tool to assist with the first pass of document review during transactional diligence.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI reported on October 29, 2026 that Ropes & Gray is developing the tool in partnership with OpenAI.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Transactional diligence requires lawyers to investigate a seller's financial and legal claims before an acquisition, involving parsing large volumes of documents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The tool takes a first pass combing through thousands of pages, identifying relevant documents and automatically grouping them by themes and issues.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "It produces summaries and a report in the firm's signature format.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The tool inventories and categorizes a data room to review full relationships between documents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The initial development work has focused on material commercial contracts.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The tool is comparable to the work of a capable junior-to-mid-level associate, providing a first pass.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Lawyers continue to review interim summaries and source documents to ensure accuracy before delivery to clients.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Ropes & Gray has described an ambition for the tool to produce a detailed, issue-level diligence report in hours rather than weeks.",
+      "source": "OpenAI"
+    }
+  ]
+}
