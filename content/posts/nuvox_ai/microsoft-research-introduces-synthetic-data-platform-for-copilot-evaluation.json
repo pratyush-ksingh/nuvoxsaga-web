@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "microsoft-research-introduces-synthetic-data-platform-for-copilot-evaluation",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Microsoft Research introduces synthetic data platform for Copilot evaluation",
+  "excerpt": "The platform generates simulated enterprise environments to test AI performance without using sensitive customer data.",
+  "bodyHtml": "<p>Microsoft Research announced on October 30, 2026, the launch of its Industry Evaluation Data Generation Platform. The system creates full-scale synthetic enterprise environments to evaluate Microsoft Copilot, aiming to replicate the complexity of real organizations while ensuring privacy.</p>\n<p>The platform utilizes publicly available data sources, including O*NET occupational data, online job postings, and SEC filings, to ground its synthetic environments. These simulated workspaces, referred to as tenants, feature realistic organizational structures, communication histories, and work artifacts. The system also includes an automated pipeline that converts generic query templates into industry-specific questions.</p>\n<p>Microsoft Research reported that the platform has improved its composite quality metric by 39% compared to its initial generation approach. The implementation of this automated system reduced the time required for evaluation dataset creation and resulted in estimated project savings of $300,000.</p>",
+  "publishedAt": "2026-10-30T16:05:32Z",
+  "updatedAt": "2026-10-30T16:05:32Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+  "tags": [
+    "Microsoft",
+    "Copilot",
+    "Artificial Intelligence"
+  ],
+  "source": {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/"
+  },
+  "sources": [
+    "Microsoft Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Microsoft Research introduces synthetic data platform for Copilot evaluation.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The platform generates simulated enterprise environments to test AI performance without using sensitive customer data.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Microsoft Research announced on October 30, 2026, the launch of its Industry Evaluation Data Generation Platform.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The system creates full-scale synthetic enterprise environments to evaluate Microsoft Copilot, aiming to replicate the complexity of real organizations while ensuring privacy.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The platform utilizes publicly available data sources, including O*NET occupational data, online job postings, and SEC filings, to ground its synthetic environments.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "These simulated workspaces are referred to as tenants.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Tenants feature realistic organizational structures, communication histories, and work artifacts.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The system also includes an automated pipeline that converts generic query templates into industry-specific questions.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "Microsoft Research reported that the platform has improved its composite quality metric by 39% compared to its initial generation approach.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The implementation of this automated system reduced the time required for evaluation dataset creation.",
+      "source": "Microsoft Research"
+    },
+    {
+      "claim": "The implementation resulted in estimated project savings of $300,000.",
+      "source": "Microsoft Research"
+    }
+  ]
+}

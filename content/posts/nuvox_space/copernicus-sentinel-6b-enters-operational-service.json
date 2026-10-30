@@ -1,0 +1,86 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "copernicus-sentinel-6b-enters-operational-service",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "Copernicus Sentinel-6B enters operational service",
+  "excerpt": "The high-precision altimetry satellite will track global sea levels and support weather forecasting.",
+  "bodyHtml": "<p>EUMETSAT announced that the Copernicus Sentinel-6B satellite entered operational service on October 30, 2026. Operated on behalf of the European Commission, the satellite will serve as a reference for high-precision ocean altimetry, which measures the height of the ocean surface.</p>\n<p>The satellite provides data used by weather services to forecast conditions such as Atlantic winter storms and Mediterranean cyclones. It also monitors long-term changes in the ocean and supports maritime navigation through a high-resolution mode that measures water levels near coastlines and over inland waters. Sentinel-6B will continue a satellite record of global sea level that began in 1992.</p>\n<p>A radio occultation instrument on board the satellite adds data on atmospheric temperature and water vapour. The satellite and its twin, Sentinel-6 Michael Freilich, will provide data on sea level across up to 95% of the ice-free ocean, along with ocean currents, wave height and wind speed, and water levels in rivers and lakes.</p>",
+  "publishedAt": "2026-10-30T16:14:16Z",
+  "updatedAt": "2026-10-30T16:14:16Z",
+  "wordCount": 153,
+  "readingTimeMin": 1,
+  "topic": "Sentinel-6B to track rising seas, predict storms and aid forecasts",
+  "tags": [
+    "Sentinel-6B",
+    "EUMETSAT",
+    "Copernicus"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/sentinel-6b-track-rising-seas-predict-storms-and-aid-forecasts"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Copernicus Sentinel-6B enters operational service.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The high-precision altimetry satellite will track global sea levels and support weather forecasting.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT announced that the Copernicus Sentinel-6B satellite entered operational service on October 30, 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite is operated on behalf of the European Commission.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite will serve as a reference for high-precision ocean altimetry.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Ocean altimetry measures the height of the ocean surface.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite provides data used by weather services to forecast conditions such as Atlantic winter storms and Mediterranean cyclones.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite monitors long-term changes in the ocean.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite supports maritime navigation through a high-resolution mode that measures water levels near coastlines and over inland waters.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Sentinel-6B will continue a satellite record of global sea level that began in 1992.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "A radio occultation instrument on board the satellite adds data on atmospheric temperature and water vapour.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite and its twin, Sentinel-6 Michael Freilich, will provide data on sea level across up to 95% of the ice-free ocean.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellites will provide data on ocean currents, wave height and wind speed, and water levels in rivers and lakes.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

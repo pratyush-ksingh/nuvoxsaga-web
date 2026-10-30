@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "seti-institute-and-breakthrough-listen-deploy-agentic-ai-for-telescope-operation",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "SETI Institute and Breakthrough Listen deploy agentic AI for telescope operations",
+  "excerpt": "The new system uses NVIDIA Holoscan to process sensor data and allows researchers to control telescope instruments using natural language.",
+  "bodyHtml": "<p>On October 30, 2026, NVIDIA announced that the SETI Institute and Breakthrough Listen have integrated agentic AI into the Allen Telescope Array in Northern California. The system allows researchers to steer the telescope, calibrate instruments, and process data through natural language requests.</p>\n<p>The observatory uses the NVIDIA Holoscan platform and the DAQIRI library to process terabits of sensor data per second in flight. The system, which runs on NVIDIA RTX PRO 6000 Blackwell GPUs, has already performed a real-time AI detection of a pulsar in the Crab Nebula.</p>\n<p>The pipeline enables an agent to steer a telescope’s antennae, calibrate and focus the instrument for a clean signal, catch and fix data errors and plot the result. The team is now evaluating the use of open models, including NVIDIA Nemotron, for future observatory operations.</p>",
+  "publishedAt": "2026-10-30T16:04:21Z",
+  "updatedAt": "2026-10-30T16:04:21Z",
+  "wordCount": 133,
+  "readingTimeMin": 1,
+  "topic": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+  "tags": [
+    "SETI Institute",
+    "Breakthrough Listen",
+    "NVIDIA Holoscan",
+    "Artificial Intelligence"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "SETI Institute and Breakthrough Listen deployed agentic AI for telescope operations.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The new system uses NVIDIA Holoscan to process sensor data and allows researchers to control telescope instruments using natural language.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "On October 30, 2026, NVIDIA announced that the SETI Institute and Breakthrough Listen integrated agentic AI into the Allen Telescope Array in Northern California.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system allows researchers to steer the telescope, calibrate instruments, and process data through natural language requests.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The observatory uses the NVIDIA Holoscan platform and the DAQIRI library to process terabits of sensor data per second in flight.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The system runs on NVIDIA RTX PRO 6000 Blackwell GPUs and has performed a real-time AI detection of a pulsar in the Crab Nebula.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The pipeline enables an agent to steer a telescope’s antennae, calibrate and focus the instrument for a clean signal, catch and fix data errors, and plot the result.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The team is evaluating the use of open models, including NVIDIA Nemotron, for future observatory operations.",
+      "source": "NVIDIA"
+    }
+  ]
+}
