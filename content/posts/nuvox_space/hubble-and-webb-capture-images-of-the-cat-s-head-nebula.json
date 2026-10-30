@@ -1,0 +1,87 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "hubble-and-webb-capture-images-of-the-cat-s-head-nebula",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "Hubble and Webb capture images of the Cat’s Head Nebula",
+  "excerpt": "The two space telescopes observed a star-forming region located 7500 light-years away within the Carina Nebula.",
+  "bodyHtml": "<p>The European Space Agency announced on October 29, 2026, that the NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes have observed a star-forming scene within the Carina Nebula. The region, nicknamed the Cat’s Head Nebula, is located approximately 7500 light-years away from Earth.</p>\n<p>Hubble’s visible-light imagery depicts the nebula as a dark, elongated dust pillar. In contrast, Webb’s infrared-light observations reveal hidden stars and complex surface structures, including a faint jet-like feature near the cat’s belly that may indicate an outflow associated with a young star.</p>\n<p>The nebula’s shape has been sculpted by ultraviolet radiation and winds from massive stars in the Carina Nebula. Hubble’s filters capture light emitted by oxygen, hydrogen, and sulfur, along with starlight scattered by dust. These colour variations reveal a complex mix of excited gas, dust, and stellar illumination.</p>\n<p>In mid-infrared light, emission from warm dust and carbon-based molecules outlines intricate structures within the nebula. The filament’s bluish and greenish colours highlight emission that includes polycyclic aromatic hydrocarbons, which are carbon-based molecules excited by starlight.</p>",
+  "publishedAt": "2026-10-29T16:32:15Z",
+  "updatedAt": "2026-10-29T16:32:15Z",
+  "wordCount": 171,
+  "readingTimeMin": 1,
+  "topic": "Ghostly Cat’s Head Nebula lurks within sight of Hubble and Webb",
+  "tags": [
+    "Hubble",
+    "Webb",
+    "Carina Nebula",
+    "Cat’s Head Nebula"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Ghostly_Cat_s_Head_Nebula_lurks_within_sight_of_Hubble_and_Webb"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hubble and Webb capture images of the Cat’s Head Nebula.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The two space telescopes observed a star-forming region located 7500 light-years away within the Carina Nebula.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on October 29, 2026, that the NASA/ESA Hubble and the NASA/ESA/CSA James Webb Space Telescopes have observed a star-forming scene within the Carina Nebula.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The region, nicknamed the Cat’s Head Nebula, is located approximately 7500 light-years away from Earth.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Hubble’s visible-light imagery depicts the nebula as a dark, elongated dust pillar.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Webb’s infrared-light observations reveal hidden stars and complex surface structures.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Webb's observations include a faint jet-like feature near the cat’s belly that may indicate an outflow associated with a young star.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The nebula’s shape has been sculpted by ultraviolet radiation and winds from massive stars in the Carina Nebula.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Hubble’s filters capture light emitted by oxygen, hydrogen, and sulfur, along with starlight scattered by dust.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The colour variations in Hubble's imagery reveal a complex mix of excited gas, dust, and stellar illumination.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "In mid-infrared light, emission from warm dust and carbon-based molecules outlines intricate structures within the nebula.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The filament’s bluish and greenish colours highlight emission that includes polycyclic aromatic hydrocarbons.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Polycyclic aromatic hydrocarbons are carbon-based molecules excited by starlight.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-2.webp",
+    "alt": "Illustration: wooden gavel on a desk next to a glowing microchip",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-updates-model-spec-with-five-core-values",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "OpenAI updates model spec with five core values",
+  "excerpt": "The updated guidelines reorganize model behavior around faithfulness, harm minimization, honesty, human agency, and care.",
+  "bodyHtml": "<p>OpenAI released an updated Model Spec on October 29, 2026, outlining how its models should behave. The organization restructured the document around five core values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care.</p>\n<p>The update introduces new guidance on context, oversight, and agency while retiring much of the previous detailed style instructions. The revision also incorporates an updated chain of command, which explains which instructions apply and how conflicts are resolved.</p>\n<p>OpenAI now refers to its models as GPT within the document to reflect the increasing breadth of use cases and deployment settings. The company stated that it will continue to improve both the Model Spec and its models based on research, real-world use, and feedback.</p>",
+  "publishedAt": "2026-10-30T02:01:26Z",
+  "updatedAt": "2026-10-30T02:01:26Z",
+  "wordCount": 121,
+  "readingTimeMin": 1,
+  "topic": "An updated Model Spec for more capable and beneficial AI",
+  "tags": [
+    "OpenAI",
+    "GPT",
+    "Model Spec"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/updated-model-spec"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI updated its Model Spec with five core values on October 29, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The five core values are faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The Model Spec outlines how OpenAI's models should behave.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The update introduces new guidance on context, oversight, and agency.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The update retires much of the previous detailed style instructions.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The revision incorporates an updated chain of command explaining which instructions apply and how conflicts are resolved.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI now refers to its models as GPT within the document.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The change to the name GPT reflects the increasing breadth of use cases and deployment settings.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI stated it will continue to improve both the Model Spec and its models based on research, real-world use, and feedback.",
+      "source": "OpenAI"
+    }
+  ]
+}

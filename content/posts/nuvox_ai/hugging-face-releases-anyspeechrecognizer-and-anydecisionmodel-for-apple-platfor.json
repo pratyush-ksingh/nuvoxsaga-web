@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-anyspeechrecognizer-and-anydecisionmodel-for-apple-platfor",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face releases AnySpeechRecognizer and AnyDecisionModel for Apple platforms",
+  "excerpt": "The new Swift packages allow developers to integrate speech recognition and decision-making models into iOS and macOS applications.",
+  "bodyHtml": "<p>Hugging Face announced the release of two software packages, AnySpeechRecognizer and AnyDecisionModel, on October 29, 2026. These tools provide Swift APIs for developers to implement speech-to-text and decision-making capabilities within applications on Apple platforms.</p>\n<p>AnySpeechRecognizer supports multiple recognition engines, including NVIDIA Parakeet and Alibaba Qwen3-ASR, and includes a speaker diarization module to track individual speakers in audio. AnyDecisionModel allows applications to perform tasks such as yes-or-no questions and rating-scale assessments by deriving results from model probabilities rather than generating text.</p>\n<p>The packages enable developers to download open models from the Hugging Face Hub and execute them directly on devices using frameworks such as Core ML, MLX, and llama.cpp. According to Hugging Face, the packages require Swift 6.2 or later and macOS 26 or iOS 26 or later.</p>",
+  "publishedAt": "2026-10-30T02:11:42Z",
+  "updatedAt": "2026-10-30T02:11:42Z",
+  "wordCount": 127,
+  "readingTimeMin": 1,
+  "topic": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+  "tags": [
+    "Hugging Face",
+    "Apple",
+    "Swift",
+    "AnySpeechRecognizer"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/anydecisionmodel"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released AnySpeechRecognizer and AnyDecisionModel for Apple platforms.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The new Swift packages allow developers to integrate speech recognition and decision-making models into iOS and macOS applications.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the release of AnySpeechRecognizer and AnyDecisionModel on October 29, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The tools provide Swift APIs for developers to implement speech-to-text and decision-making capabilities within applications on Apple platforms.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AnySpeechRecognizer supports multiple recognition engines, including NVIDIA Parakeet and Alibaba Qwen3-ASR, and includes a speaker diarization module to track individual speakers in audio.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "AnyDecisionModel allows applications to perform tasks such as yes-or-no questions and rating-scale assessments by deriving results from model probabilities rather than generating text.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The packages enable developers to download open models from the Hugging Face Hub and execute them directly on devices using frameworks such as Core ML, MLX, and llama.cpp.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "According to Hugging Face, the packages require Swift 6.2 or later and macOS 26 or iOS 26 or later.",
+      "source": "Hugging Face"
+    }
+  ]
+}

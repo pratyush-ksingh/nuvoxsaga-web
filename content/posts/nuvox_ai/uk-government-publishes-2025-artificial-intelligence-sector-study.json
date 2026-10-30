@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-1.webp",
+    "alt": "Illustration: classical government building columns at night with soft light",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-publishes-2025-artificial-intelligence-sector-study",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "UK government publishes 2025 artificial intelligence sector study",
+  "excerpt": "The report provides data on employment, revenue, and investment in the UK AI sector from 2022 to 2025.",
+  "bodyHtml": "<p>The UK government published the Artificial Intelligence sector study 2025 on October 29, 2026. The report offers an analysis of the scale and scope of firms developing artificial intelligence products and services within the country.</p>\n<p>The study includes a timeseries of data covering the sector&#x27;s employment, revenue, gross value added, and equity investment. These figures span the period from 2022 to 2025. The research is intended to allow the Department for Business, Innovation, Science and Trade to deepen its understanding of the AI sector, monitor developments over time, and evaluate interventions to best support sector growth.</p>\n<p>The publication also contains qualitative insights gathered directly from stakeholders in the UK AI sector. The study is available in both HTML and PDF formats, with an additional annex on qualitative findings provided as a separate PDF document.</p>",
+  "publishedAt": "2026-10-30T02:08:04Z",
+  "updatedAt": "2026-10-30T02:08:04Z",
+  "wordCount": 134,
+  "readingTimeMin": 1,
+  "topic": "Research: Artificial Intelligence sector study 2025",
+  "tags": [
+    "UK government",
+    "artificial intelligence",
+    "BIST"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government published the 2025 artificial intelligence sector study.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The report provides data on employment, revenue, and investment in the UK AI sector from 2022 to 2025.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government published the Artificial Intelligence sector study 2025 on October 29, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The report offers an analysis of the scale and scope of firms developing artificial intelligence products and services within the UK.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The study includes a timeseries of data covering the sector's employment, revenue, gross value added, and equity investment spanning 2022 to 2025.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The research allows the Department for Business, Innovation, Science and Trade to deepen its understanding of the AI sector, monitor developments over time, and evaluate interventions to best support sector growth.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The publication contains qualitative insights gathered directly from stakeholders in the UK AI sector.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The study is available in both HTML and PDF formats, with an additional annex on qualitative findings provided as a separate PDF document.",
+      "source": "The UK government"
+    }
+  ]
+}

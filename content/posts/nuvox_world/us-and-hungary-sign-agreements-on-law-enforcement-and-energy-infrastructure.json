@@ -1,0 +1,87 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "us-and-hungary-sign-agreements-on-law-enforcement-and-energy-infrastructure",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "US and Hungary sign agreements on law enforcement and energy infrastructure",
+  "excerpt": "Secretary Rubio and Foreign Minister Orbán signed two memorandums of understanding regarding law enforcement cooperation and regional energy infrastructure.",
+  "bodyHtml": "<p>US Secretary of State Marco Rubio and Hungarian Foreign Minister Anita Orbán signed two memorandums of understanding in Washington, DC, on October 29, 2026. The ceremony was held in the Colin L. Powell Treaty Room.</p>\n<p>The first memorandum concerns law enforcement cooperation and information exchange. Secretary Rubio stated that the agreement aims to confront what he described as a resurgence of far-left terrorism. Foreign Minister Orbán noted that the agreement will enhance information sharing to prevent, detect, and prosecute violence by left-wing groups, specifically citing Antifa Ost. Secretary Rubio stated that these movements operate off the basis of an international network that seeks to destabilize Western societies.</p>\n<p>The second memorandum concerns energy infrastructure and regional energy security. This agreement is signed within the framework of the Trump Peace Pipelines initiative. The initiative is intended to meet Central Europe’s energy needs through the export of United States energy. Foreign Minister Orbán stated the agreement will enhance the energy infrastructure of central Eastern Europe in both oil and gas.</p>",
+  "publishedAt": "2026-10-30T02:20:01Z",
+  "updatedAt": "2026-10-30T02:20:01Z",
+  "wordCount": 167,
+  "readingTimeMin": 1,
+  "topic": "Secretary Rubio and Hungarian FM Orbán at a MOU Signing Ceremony on Energy Infrastructure and Regional Energy Security and on Law Enforcement Cooperation and Information Exchange",
+  "tags": [
+    "United States",
+    "Hungary",
+    "Energy",
+    "Law Enforcement"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-rubio-and-hungarian-fm-orban-at-a-mou-signing-ceremony-on-energy-infrastructure-and-regional-energy-security-and-on-law-enforcement-cooperation-and-information-exchange/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "US and Hungary signed agreements on law enforcement and energy infrastructure (headline)",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio and Orbán signed two memorandums of understanding regarding law enforcement cooperation and regional energy infrastructure.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Marco Rubio is US Secretary of State and Anita Orbán is Hungarian Foreign Minister.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The signing took place in Washington, DC on October 29, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The ceremony was held in the Colin L. Powell Treaty Room.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The first memorandum concerns law enforcement cooperation and information exchange.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio stated the agreement aims to confront what he described as a resurgence of far-left terrorism.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Orbán noted the agreement will enhance information sharing to prevent, detect, and prosecute violence by left-wing groups, specifically citing Antifa Ost.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio stated these movements operate off the basis of an international network that seeks to destabilize Western societies.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The second memorandum concerns energy infrastructure and regional energy security.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The energy agreement is signed within the framework of the Trump Peace Pipelines initiative.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The initiative is intended to meet Central Europe's energy needs through the export of United States energy.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Orbán stated the agreement will enhance the energy infrastructure of central Eastern Europe in both oil and gas.",
+      "source": "The US State Department"
+    }
+  ]
+}

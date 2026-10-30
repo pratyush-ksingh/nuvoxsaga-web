@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-2.webp",
+    "alt": "Illustration: abstract lattice of softly glowing nodes and connections floating in dark space",
+    "credit": "AI illustration"
+  },
+  "slug": "mistral-releases-mistral-large-4-multimodal-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Mistral releases Mistral Large 4 multimodal model",
+  "excerpt": "The new Mixture-of-Experts model supports text and image inputs with a 1M token context window.",
+  "bodyHtml": "<p>Hugging Face announced the release of Mistral Large 4, also known as Le Chonk, on October 29, 2026. The model is a multimodal, multilingual, Mixture-of-Experts (MoE) system that processes both text and image inputs to generate text.</p>\n<p>Mistral Large 4 features approximately 1 trillion total parameters with 49 billion active parameters and a 1 million token context window. It is distributed under the Mistral Ecosystem Open-Weight License, which is an MIT derivative that includes limitations for model-as-a-service offerings.</p>\n<p>The model is available in FP8 and NVFP4 variants, with additional GGUF format files provided by Unsloth and the llama.cpp team. According to Hugging Face, the model is currently the fifth best open weights model on the Artificial Analysis Intelligence index as of October 29, 2026.</p>",
+  "publishedAt": "2026-10-30T02:11:30Z",
+  "updatedAt": "2026-10-30T02:11:30Z",
+  "wordCount": 124,
+  "readingTimeMin": 1,
+  "topic": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+  "tags": [
+    "Mistral",
+    "Hugging Face",
+    "Le Chonk"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/mistral-large4"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Mistral released the Mistral Large 4 multimodal model.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The Mixture-of-Experts model supports text and image inputs with a 1 million token context window.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the release of Mistral Large 4, also known as Le Chonk, on October 29, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model is a multimodal, multilingual, Mixture-of-Experts (MoE) system that processes both text and image inputs to generate text.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Mistral Large 4 features approximately 1 trillion total parameters with 49 billion active parameters and a 1 million token context window.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "It is distributed under the Mistral Ecosystem Open-Weight License, which is an MIT derivative that includes limitations for model-as-a-service offerings.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The model is available in FP8 and NVFP4 variants, with additional GGUF format files provided by Unsloth and the llama.cpp team.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "According to Hugging Face, the model is currently the fifth best open weights model on the Artificial Analysis Intelligence index as of October 29, 2026.",
+      "source": "Hugging Face"
+    }
+  ]
+}

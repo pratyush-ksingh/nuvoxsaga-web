@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-3.webp",
+    "alt": "Illustration: rows of server racks with small blue status lights in a dark data hall",
+    "credit": "AI illustration"
+  },
+  "slug": "mistral-ai-releases-weights-for-mistral-large-4-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Mistral AI releases weights for Mistral Large 4 model",
+  "excerpt": "The one-trillion-parameter multimodal model is now available for open-weight deployment with improved coding and cybersecurity capabilities.",
+  "bodyHtml": "<p>Mistral AI announced on October 29, 2026, the release of the weights for Mistral Large 4, a one-trillion-parameter multimodal model. The model, which was previously in public preview, is designed for coding and defensive cybersecurity tasks.</p>\n<p>The updated model features three reasoning modes to manage performance and inference costs. According to Mistral AI, the model leads open-weight benchmarks in coding, including FrontierCode and Terminal-Bench. Mistral AI stated the model achieves an average refusal rate of 96.6% on malicious cyber requests, the highest it measures among open models.</p>\n<p>Mistral AI is providing enterprise design partners with preview access to a specialized variant of the model optimized for penetration testing and vulnerability assessment. This access is subject to contractual safeguards and restricted to authorized systems. Mistral AI stated it sees potential for uplift to conduct real attacks and is modifying its guardrails accordingly.</p>",
+  "publishedAt": "2026-10-29T16:30:59Z",
+  "updatedAt": "2026-10-29T16:30:59Z",
+  "wordCount": 141,
+  "readingTimeMin": 1,
+  "topic": "Le Chonk: Built for Coders, Trusted by Defenders.",
+  "tags": [
+    "Mistral AI",
+    "Mistral Large 4",
+    "Cybersecurity"
+  ],
+  "source": {
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/"
+  },
+  "sources": [
+    "Mistral AI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Mistral AI announced on October 29, 2026 the release of the weights for Mistral Large 4.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral Large 4 is a one-trillion-parameter multimodal model.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The model was previously in public preview.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The model is now available for open-weight deployment with improved coding and cybersecurity capabilities.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The model is designed for coding and defensive cybersecurity tasks.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The updated model features three reasoning modes to manage performance and inference costs.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "According to Mistral AI, the model leads open-weight benchmarks in coding, including FrontierCode and Terminal-Bench.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral AI stated the model achieves an average refusal rate of 96.6% on malicious cyber requests, the highest it measures among open models.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral AI is providing enterprise design partners with preview access to a specialized variant optimized for penetration testing and vulnerability assessment.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "This access is subject to contractual safeguards and restricted to authorized systems.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral AI stated it sees potential for uplift to conduct real attacks and is modifying its guardrails accordingly.",
+      "source": "Mistral AI"
+    }
+  ]
+}

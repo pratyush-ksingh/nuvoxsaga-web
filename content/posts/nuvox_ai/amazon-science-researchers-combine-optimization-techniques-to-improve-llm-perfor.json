@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "amazon-science-researchers-combine-optimization-techniques-to-improve-llm-perfor",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Amazon Science researchers combine optimization techniques to improve LLM performance",
+  "excerpt": "The integration of knowledge distillation and Medusa-2 produced a model matching the quality of a 70-billion-parameter teacher at higher speeds.",
+  "bodyHtml": "<p>Amazon Science announced on October 29, 2026, that combining knowledge distillation and the Medusa-2 framework improves the speed and cost effectiveness of large language models. Knowledge distillation is a compression technique where a powerful model produces training targets for a lightweight model. Medusa is a framework that transforms sequential next-token predictions into parallel computations.</p>\n<p>In collaboration with Booking.com, researchers applied these techniques to three use cases. The resulting 1.1-billion-parameter TinyLlama model matched the quality of the 70-billion-parameter Llama-3.1 teacher while running 10 to 20 times as fast. For the AI Trip Planner, the pipeline drove a 2.9% increase in user engagement compared to GPT-3.5.</p>\n<p>The team also reported that accommodation description generation saw 1.4% more helpful ratings at lower costs than other models. Additionally, for Smart Filters, the approach delivered responses 15 times as fast for 99% of queries. These techniques were presented at the meeting of the Association for Computational Linguistics, where the work received the Industry Track best-paper award.</p>",
+  "publishedAt": "2026-10-30T02:04:14Z",
+  "updatedAt": "2026-10-30T02:04:14Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Speeding up language models for travel applications",
+  "tags": [
+    "Amazon Science",
+    "Booking.com",
+    "LLMs"
+  ],
+  "source": {
+    "name": "Amazon Science",
+    "url": "https://www.amazon.science/blog/speeding-up-language-models-for-travel-applications"
+  },
+  "sources": [
+    "Amazon Science"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Amazon Science researchers combined optimization techniques to improve LLM performance.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The integration of knowledge distillation and Medusa-2 produced a model matching the quality of a 70-billion-parameter teacher at higher speeds.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "Amazon Science announced on October 29, 2026, that combining knowledge distillation and the Medusa-2 framework improves the speed and cost effectiveness of large language models.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "Knowledge distillation is a compression technique where a powerful model produces training targets for a lightweight model.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "Medusa is a framework that transforms sequential next-token predictions into parallel computations.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "In collaboration with Booking.com, researchers applied these techniques to three use cases.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "The resulting 1.1-billion-parameter TinyLlama model matched the quality of the 70-billion-parameter Llama-3.1 teacher while running 10 to 20 times as fast.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "For the AI Trip Planner, the pipeline drove a 2.9% increase in user engagement compared to GPT-3.5.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "Accommodation description generation saw 1.4% more helpful ratings at lower costs than other models.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "For Smart Filters, the approach delivered responses 15 times as fast for 99% of queries.",
+      "source": "Amazon Science"
+    },
+    {
+      "claim": "These techniques were presented at the meeting of the Association for Computational Linguistics, where the work received the Industry Track best-paper award.",
+      "source": "Amazon Science"
+    }
+  ]
+}

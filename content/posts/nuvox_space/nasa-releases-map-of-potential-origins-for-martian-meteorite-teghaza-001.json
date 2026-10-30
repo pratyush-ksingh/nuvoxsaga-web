@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-2.webp",
+    "alt": "Illustration: spiral galaxy seen at an angle in deep space",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-map-of-potential-origins-for-martian-meteorite-teghaza-001",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases map of potential origins for Martian meteorite Teghaza 001",
+  "excerpt": "The map identifies 13 locations on Mars that share mineral and chemical characteristics with the ancient meteorite.",
+  "bodyHtml": "<p>NASA released a global map on October 29, 2026, identifying 13 potential origin sites for the Martian meteorite Teghaza 001. The meteorite is described as one of the most ancient Martian meteorites ever found on Earth.</p>\n<p>Scientists identified the locations by matching the mineralogy and chemistry of the meteorite to specific areas on the Martian surface. The base map was produced with data from the Mars Orbiter Laser Altimeter instrument aboard NASA’s Mars Global Surveyor mission. Scientists used data from NASA’s Mars Reconnaissance Orbiter to identify areas of the map, noted with white circles, that have similar mineralogy and chemistry as Teghaza 001.</p>\n<p>While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of the Red Planet.</p>",
+  "publishedAt": "2026-10-30T02:15:58Z",
+  "updatedAt": "2026-10-30T02:15:58Z",
+  "wordCount": 132,
+  "readingTimeMin": 1,
+  "topic": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+  "tags": [
+    "Mars",
+    "NASA",
+    "Teghaza 001",
+    "meteorite"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released a map showing potential origins for the Martian meteorite Teghaza 001.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The map identifies 13 locations on Mars that share mineral and chemical characteristics with Teghaza 001.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA released the global map on October 29, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Teghaza 001 is described as one of the most ancient Martian meteorites ever found on Earth.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Scientists identified the locations by matching the meteorite's mineralogy and chemistry to specific areas on the Martian surface.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The base map was produced with data from the Mars Orbiter Laser Altimeter instrument aboard NASA's Mars Global Surveyor mission.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Scientists used data from NASA's Mars Reconnaissance Orbiter to identify areas of the map, marked with white circles, having similar mineralogy and chemistry to Teghaza 001.",
+      "source": "NASA"
+    },
+    {
+      "claim": "While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of Mars.",
+      "source": "NASA"
+    }
+  ]
+}

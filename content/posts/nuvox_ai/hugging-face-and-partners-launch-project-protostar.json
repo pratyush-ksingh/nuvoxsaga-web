@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-and-partners-launch-project-protostar",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Hugging Face and partners launch Project ProtoStar",
+  "excerpt": "The initiative aims to make publicly funded scientific research datasets, models, and code more accessible for AI-driven research.",
+  "bodyHtml": "<p>Hugging Face announced the launch of Project ProtoStar on October 29, 2026. This initiative brings together universities, research organizations, industry, and the open science community to support the release of scientific artifacts in machine-actionable, AI-ready formats.</p>\n<p>Founding partners include Carnegie Mellon University, Purdue University, Georgia Institute of Technology, Arizona State University, The George Washington University, the Astera Institute, Hugging Face, and the Open Research Community Accelerator. Participating organizations formalize their involvement through a memorandum of understanding to share research outputs on open infrastructure.</p>\n<p>The initiative will host a series of open challenges to demonstrate the value of these resources. The first challenge, hosted by Carnegie Mellon University, is scheduled to open on November 2, 2026.</p>",
+  "publishedAt": "2026-10-29T16:31:18Z",
+  "updatedAt": "2026-10-29T16:31:18Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+  "tags": [
+    "Hugging Face",
+    "Project ProtoStar",
+    "Carnegie Mellon University"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/announcing-project-protostar"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face and partners launch Project ProtoStar.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The initiative aims to make publicly funded scientific research datasets, models, and code more accessible for AI-driven research.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the launch of Project ProtoStar on October 29, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The initiative brings together universities, research organizations, industry, and the open science community to support the release of scientific artifacts in machine-actionable, AI-ready formats.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Founding partners include Carnegie Mellon University, Purdue University, Georgia Institute of Technology, Arizona State University, The George Washington University, the Astera Institute, Hugging Face, and the Open Research Community Accelerator.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Participating organizations formalize their involvement through a memorandum of understanding to share research outputs on open infrastructure.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The initiative will host a series of open challenges to demonstrate the value of these resources.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The first challenge, hosted by Carnegie Mellon University, is scheduled to open on November 2, 2026.",
+      "source": "Hugging Face"
+    }
+  ]
+}
