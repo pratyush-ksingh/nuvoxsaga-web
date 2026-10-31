@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-3.webp",
+    "alt": "Illustration: aerial view of a port city by a turquoise sea, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "united-states-signs-contract-for-participation-in-expo-2030-riyadh",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "United States signs contract for participation in Expo 2030 Riyadh",
+  "excerpt": "Secretary of State Marco Rubio and Saudi Foreign Minister Prince Faisal bin Farhan al Saud formalized the agreement in Atlanta, Georgia.",
+  "bodyHtml": "<p>The United States State Department announced on October 30, 2026, that Secretary of State Marco Rubio and Saudi Foreign Minister Prince Faisal bin Farhan al Saud signed a contract for the United States to participate in Expo 2030 in Riyadh.</p>\n<p>The signing ceremony took place at Loews Atlanta in Atlanta, Georgia. Secretary Rubio stated that the contract marks the formal commitment of the United States to the event. He described the agreement as an opportunity to strengthen the bilateral relationship between the United States and the Kingdom of Saudi Arabia.</p>\n<p>Secretary Rubio added that the participation is intended to showcase America on the global stage and expand commercial opportunities for U.S. businesses. Foreign Minister Prince Faisal bin Farhan al Saud stated that the Kingdom of Saudi Arabia looks forward to the United States Pavilion and everything the country has to offer.</p>\n<p>The contract was signed following the remarks by both officials during the ceremony.</p>",
+  "publishedAt": "2026-10-31T06:04:58Z",
+  "updatedAt": "2026-10-31T06:04:58Z",
+  "wordCount": 154,
+  "readingTimeMin": 1,
+  "topic": "Secretary of State Marco Rubio and Saudi Foreign Minister Prince Faisal bin Farhan al Saud at an Expo 2030 Riyadh Participation Contract Signing Ceremony",
+  "tags": [
+    "United States",
+    "Saudi Arabia",
+    "Expo 2030"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/secretary-of-state-marco-rubio-and-saudi-foreign-minister-prince-faisal-bin-farhan-al-saud-at-an-expo-2030-riyadh-participation-contract-signing-ceremony/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: United States signs contract for participation in Expo 2030 Riyadh",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio and Prince Faisal bin Farhan al Saud formalized the agreement in Atlanta, Georgia.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The State Department announced on October 30, 2026 that Rubio and al Saud signed a contract for US participation in Expo 2030 in Riyadh.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Marco Rubio is Secretary of State and Prince Faisal bin Farhan al Saud is Saudi Foreign Minister.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The signing ceremony took place at Loews Atlanta in Atlanta, Georgia.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio stated that the contract marks the formal commitment of the United States to the event.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio described the agreement as an opportunity to strengthen the bilateral relationship between the US and Saudi Arabia.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Rubio added that the participation is intended to showcase America on the global stage and expand commercial opportunities for U.S. businesses.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Al Saud stated that the Kingdom of Saudi Arabia looks forward to the US Pavilion and everything the country has to offer.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The contract was signed following the remarks by both officials during the ceremony.",
+      "source": "The US State Department"
+    }
+  ]
+}

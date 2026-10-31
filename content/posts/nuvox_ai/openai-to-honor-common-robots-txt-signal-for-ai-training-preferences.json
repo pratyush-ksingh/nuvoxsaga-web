@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-policy-3.webp",
+    "alt": "Illustration: empty conference table with microphones in a dim hall",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-to-honor-common-robots-txt-signal-for-ai-training-preferences",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "OpenAI to honor common robots.txt signal for AI training preferences",
+  "excerpt": "The company announced it will support a voluntary signal allowing website operators to communicate content usage preferences to multiple AI providers at once.",
+  "bodyHtml": "<p>OpenAI announced on October 30, 2026, that it will honor a common signal in robots.txt files. This voluntary effort allows website operators to express their preferences regarding the use of their content for foundational generative AI training. The company aims to implement the signal in the coming months.</p>\n<p>This initiative draws on the work of the Internet Engineering Task Force’s AI Preferences working group. OpenAI stated that a shared signal reduces the work for operators who previously had to identify individual crawlers and maintain separate rules for each provider. The company noted that this new signal will not replace the controls it already provides through robots.txt.</p>\n<p>OpenAI is joining other participants in the working group in the announcement of this shared signal. The company stated that it believes this strengthens its continued participation in the IETF standards discussions. OpenAI will continue to adapt its practices as those conversations and the landscape continue to evolve in view of appropriate controls and fairness.</p>",
+  "publishedAt": "2026-10-31T06:01:51Z",
+  "updatedAt": "2026-10-31T06:01:51Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Making it easier for websites to express AI training preferences",
+  "tags": [
+    "OpenAI",
+    "IETF",
+    "robots.txt"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI will honor a common signal in robots.txt for AI training preferences (headline)",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The signal lets website operators communicate content usage preferences to multiple AI providers at once (dek)",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The effort is voluntary",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced on October 30, 2026",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The signal concerns use of content for foundational generative AI training",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company aims to implement the signal in the coming months",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The initiative draws on the work of the IETF's AI Preferences working group",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "A shared signal reduces the work for operators, who previously had to identify individual crawlers and maintain separate rules for each provider (attributed to OpenAI)",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The new signal will not replace the controls OpenAI already provides through robots.txt",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI is joining other participants in the working group in announcing the shared signal",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI believes this strengthens its continued participation in the IETF standards discussions",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI will continue to adapt its practices as conversations and the landscape evolve in view of appropriate controls and fairness",
+      "source": "OpenAI"
+    }
+  ]
+}
