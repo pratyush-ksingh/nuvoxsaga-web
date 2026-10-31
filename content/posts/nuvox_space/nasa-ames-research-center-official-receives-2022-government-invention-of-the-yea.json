@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-1.webp",
+    "alt": "Illustration: satellite on an assembly stand in a clean room, workers out of frame",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-ames-research-center-official-receives-2022-government-invention-of-the-yea",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA Ames Research Center official receives 2022 Government Invention of the Year Award",
+  "excerpt": "Peter B. Tran was recognized for his work on the Agencywide NASA Technology Transfer System.",
+  "bodyHtml": "<p>NASA announced that Peter B. Tran, the Mission Critical Software Technical Area Lead at the NASA Ames Research Center, received the 2022 NASA Government Invention of the Year Award. The award recognizes his contributions to the development of the Agencywide NASA Technology Transfer System, also known as NTTS.</p>\n<p>Tran has served in various leadership roles at NASA since becoming a civil servant in 2007. His work includes the adaptation of the NTTS into the Defense Technology Transfer Information System for the Air Force Research Laboratory and the licensing of the NASA-patented NETMARK schema-less database framework to private technology companies.</p>\n<p>In addition to his current role, Tran previously served as the Deputy Technical Area Lead for the Collaborative and Assistant Systems within the same division. His early technical contributions at NASA included an aviation safety system for tracking remote airport tower sensors and the joint NASA–FAA Performance Data Analysis and Reporting System.</p>",
+  "publishedAt": "2026-10-31T12:04:54Z",
+  "updatedAt": "2026-10-31T12:04:54Z",
+  "wordCount": 151,
+  "readingTimeMin": 1,
+  "topic": "Peter B. Tran",
+  "tags": [
+    "NASA",
+    "NASA Ames Research Center",
+    "NTTS"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/people/peter-b-tran/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "A NASA Ames Research Center official received the 2022 NASA Government Invention of the Year Award.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Peter B. Tran was recognized for his work on the Agencywide NASA Technology Transfer System.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that Peter B. Tran, the Mission Critical Software Technical Area Lead at the NASA Ames Research Center, received the 2022 NASA Government Invention of the Year Award.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The award recognizes Tran's contributions to the development of the Agencywide NASA Technology Transfer System, also known as NTTS.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Tran has served in various leadership roles at NASA since becoming a civil servant in 2007.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Tran's work includes adapting the NTTS into the Defense Technology Transfer Information System for the Air Force Research Laboratory and licensing the NASA-patented NETMARK schema-less database framework to private technology companies.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Prior to his current role, Tran served as the Deputy Technical Area Lead for the Collaborative and Assistant Systems within the same division.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Tran's early technical contributions at NASA included an aviation safety system for tracking remote airport tower sensors and the joint NASA–FAA Performance Data Analysis and Reporting System.",
+      "source": "NASA"
+    }
+  ]
+}

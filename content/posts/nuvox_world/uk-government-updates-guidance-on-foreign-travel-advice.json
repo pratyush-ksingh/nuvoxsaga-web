@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-updates-guidance-on-foreign-travel-advice",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government updates guidance on foreign travel advice",
+  "excerpt": "The Foreign, Commonwealth & Development Office released updated information regarding when it advises against travel for British nationals.",
+  "bodyHtml": "<p>The UK government updated its guidance regarding Foreign, Commonwealth &amp; Development Office (FCDO) travel advice on October 30, 2026. The FCDO provides information to help British nationals assess risks when travelling abroad, including specific advice for countries and territories.</p>\n<p>The updated guidance clarifies the criteria used when the FCDO advises against all travel or all but essential travel. The FCDO states it only advises against travel if it believes the risk to British nationals is unacceptably high due to factors such as armed conflict, military coups, civil unrest, disease outbreaks, or natural disasters.</p>\n<p>The FCDO also noted that it does not provide tailored advice for individual trips and that travellers must take personal responsibility for their own travel decisions. The office further stated that it does not let the impact on businesses or international relations influence its travel advice.</p>",
+  "publishedAt": "2026-10-31T12:08:42Z",
+  "updatedAt": "2026-10-31T12:08:42Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "About Foreign, Commonwealth & Development Office travel advice",
+  "tags": [
+    "UK government",
+    "FCDO",
+    "travel"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/about-foreign-commonwealth-development-office-travel-advice"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated its guidance regarding Foreign, Commonwealth & Development Office (FCDO) travel advice on October 30, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO provides information to help British nationals assess risks when travelling abroad.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO provides specific advice for countries and territories.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The updated guidance clarifies the criteria used when the FCDO advises against all travel or all but essential travel.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO states it only advises against travel if it believes the risk to British nationals is unacceptably high.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Factors for advising against travel include armed conflict, military coups, civil unrest, disease outbreaks, or natural disasters.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO noted that it does not provide tailored advice for individual trips.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Travellers must take personal responsibility for their own travel decisions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The office stated that it does not let the impact on businesses or international relations influence its travel advice.",
+      "source": "The UK government"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "eu-and-canada-conclude-negotiations-for-a-digital-trade-agreement",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "EU and Canada conclude negotiations for a Digital Trade Agreement",
+  "excerpt": "Leaders meeting in Montréal launched the Alliance for the Future during the EU-Canada Summit 2026.",
+  "bodyHtml": "<p>According to the European Commission, the EU and Canada concluded negotiations for a Digital Trade Agreement on October 31, 2026. The announcement follows the EU-Canada Summit 2026 hosted by Canadian Prime Minister Mark Carney in Montréal, where European Council President António Costa and Commission President Ursula von der Leyen took part.</p>\n<p>During the summit, the EU and Canada launched the Alliance for the Future. The European Commission described the Alliance as a common space for growth, prosperity, resilience and economic security.</p>\n<p>The European Commission stated that the Digital Trade Agreement will complement the success of CETA, the EU-Canada free trade agreement. Additionally, an agreement between Canada and the European Investment Bank on investment in critical raw materials is being finalised.</p>",
+  "publishedAt": "2026-10-31T12:08:17Z",
+  "updatedAt": "2026-10-31T12:08:17Z",
+  "wordCount": 120,
+  "readingTimeMin": 1,
+  "topic": "EU-Canada Summit 2026: Leaders mark a historic moment in bilateral relations",
+  "tags": [
+    "EU",
+    "Canada",
+    "Digital Trade Agreement"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2318"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EU and Canada conclude negotiations for a Digital Trade Agreement.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Leaders meeting in Montréal launched the Alliance for the Future during the EU-Canada Summit 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "According to the European Commission, the EU and Canada concluded negotiations for a Digital Trade Agreement on October 31, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The announcement follows the EU-Canada Summit 2026 hosted by Canadian Prime Minister Mark Carney in Montréal, where European Council President António Costa and Commission President Ursula von der Leyen took part.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "During the summit, the EU and Canada launched the Alliance for the Future.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission described the Alliance as a common space for growth, prosperity, resilience and economic security.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission stated that the Digital Trade Agreement will complement the success of CETA, the EU-Canada free trade agreement.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Additionally, an agreement between Canada and the European Investment Bank on investment in critical raw materials is being finalised.",
+      "source": "The European Commission"
+    }
+  ]
+}
