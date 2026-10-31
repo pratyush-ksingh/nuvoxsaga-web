@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-researchers-track-ai-chatbot-responses-to-2026-u-s-midterm-election-queries",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT researchers track AI chatbot responses to 2026 U.S. midterm election queries",
+  "excerpt": "The LLM Election Observatory monitors how AI systems respond to election-related questions over time.",
+  "bodyHtml": "<p>MIT researchers have built a dashboard called the LLM Election Observatory to examine how popular artificial intelligence chatbots respond to questions about the 2026 U.S. midterm elections. The team, led by Professor Adam Berinsky, Assistant Professor Chara Podimata, and Professor Charles Stewart III, tracks how different AI systems respond to a fixed set of questions on topics including election certification, result predictions, and news coverage.</p>\n<p>The team runs these questions through the chatbots every few days to monitor how responses vary based on user location, political party affiliation, and identity. The researchers intend to document how these information environments evolve as the election approaches. The dashboard presents the underlying data and preliminary descriptive analyses, and the team plans to make the dataset available for other researchers to study.</p>\n<p>The researchers have not yet completed a full longitudinal analysis of the data. While broad patterns are visible in the 2026 data, the team cannot yet determine how stable those differences are or how they move over the course of the election. The team expects the dashboard to evolve as the data and methods evolve.</p>",
+  "publishedAt": "2026-10-31T02:09:55Z",
+  "updatedAt": "2026-10-31T02:09:55Z",
+  "wordCount": 183,
+  "readingTimeMin": 1,
+  "topic": "Q&A: Hey AI, who should I vote for this year?",
+  "tags": [
+    "MIT",
+    "Artificial intelligence",
+    "Voting and elections"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT researchers built a dashboard called the LLM Election Observatory to examine how popular AI chatbots respond to questions about the 2026 U.S. midterm elections.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team is led by Professor Adam Berinsky, Assistant Professor Chara Podimata, and Professor Charles Stewart III.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team tracks how different AI systems respond to a fixed set of questions on topics including election certification, result predictions, and news coverage.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team runs these questions through the chatbots every few days.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team monitors how responses vary based on user location, political party affiliation, and identity.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers intend to document how these information environments evolve as the election approaches.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The dashboard presents the underlying data and preliminary descriptive analyses.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team plans to make the dataset available for other researchers to study.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The researchers have not yet completed a full longitudinal analysis of the data.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Broad patterns are visible in the 2026 data, but the team cannot yet determine how stable those differences are or how they move over the course of the election.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The team expects the dashboard to evolve as the data and methods evolve.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Headline/dek: the Observatory monitors how AI systems respond to election-related questions over time.",
+      "source": "MIT News"
+    }
+  ]
+}

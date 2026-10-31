@@ -1,0 +1,86 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "schmidt-sciences-names-five-mit-faculty-as-2026-ai2050-fellows",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Schmidt Sciences names five MIT faculty as 2026 AI2050 Fellows",
+  "excerpt": "The initiative, co-chaired by Eric Schmidt and James Manyika, supports research into solving complex problems in artificial intelligence.",
+  "bodyHtml": "<p>MIT News announced on October 30, 2026, that five MIT faculty members and two alumni were selected for the 2026 cohort of AI2050 Fellows. The fellowship is an annual honor presented by Schmidt Sciences, a philanthropic initiative established by Eric and Wendy Schmidt to advance scientific innovation.</p>\n<p>The 2026 MIT faculty fellows include Sendhil Mullainathan, Alex Damian, Bailey Flanigan, Yunha Hwang, and Manish Raghavan. Each fellow is tasked with addressing the central AI2050 question regarding how artificial intelligence can be made beneficial to society by 2050. The cohort also includes MIT alumni Irene Chen, Allison Z. Koenecke, and former postdoc Juan Carlos Perdomo.</p>\n<p>Sendhil Mullainathan is the Peter de Florez Professor at MIT with dual appointments in the departments of Economics and Electrical Engineering and Computer Science. His AI2050 project focuses on the translation of patterns detectable by AI into testable theories. Alex Damian, an assistant professor in the Department of Mathematics, focuses his AI2050 project on effective AI model training.</p>\n<p>Bailey Flanigan, a Theodore T. Miller (1922) Career Development Assistant Professor, focuses her project on gathering structured public input for lawmakers. Yunha Hwang, the Samuel A. Goldblitch Career Development Assistant Professor, focuses on determining biological enzyme functions. Manish Raghavan, the Drew Houston (2005) Career Development Professor, focuses on mitigating negative effects and strengthening positive aspects of widespread AI reliance.</p>",
+  "publishedAt": "2026-10-31T02:04:11Z",
+  "updatedAt": "2026-10-31T02:04:11Z",
+  "wordCount": 220,
+  "readingTimeMin": 1,
+  "topic": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+  "tags": [
+    "MIT",
+    "Schmidt Sciences",
+    "Artificial intelligence"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Schmidt Sciences named five MIT faculty as 2026 AI2050 Fellows.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The AI2050 initiative is co-chaired by Eric Schmidt and James Manyika and supports research into solving complex problems in artificial intelligence.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT News announced on October 30, 2026, that five MIT faculty members and two alumni were selected for the 2026 cohort of AI2050 Fellows.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The fellowship is an annual honor presented by Schmidt Sciences, a philanthropic initiative established by Eric and Wendy Schmidt to advance scientific innovation.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The 2026 MIT faculty fellows include Sendhil Mullainathan, Alex Damian, Bailey Flanigan, Yunha Hwang, and Manish Raghavan.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Each fellow is tasked with addressing the central AI2050 question regarding how artificial intelligence can be made beneficial to society by 2050.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The cohort also includes MIT alumni Irene Chen, Allison Z. Koenecke, and former postdoc Juan Carlos Perdomo.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Sendhil Mullainathan is the Peter de Florez Professor at MIT with dual appointments in the departments of Economics and Electrical Engineering and Computer Science.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Sendhil Mullainathan's AI2050 project focuses on the translation of patterns detectable by AI into testable theories.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Alex Damian is an assistant professor in the Department of Mathematics whose AI2050 project focuses on effective AI model training.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Bailey Flanigan is a Theodore T. Miller (1922) Career Development Assistant Professor whose AI2050 project focuses on gathering structured public input for lawmakers.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Yunha Hwang is the Samuel A. Goldblitch Career Development Assistant Professor whose project focuses on determining biological enzyme functions.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Manish Raghavan is the Drew Houston (2005) Career Development Professor whose project focuses on mitigating negative effects and strengthening positive aspects of widespread AI reliance.",
+      "source": "MIT News"
+    }
+  ]
+}

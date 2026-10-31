@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-expresses-disappointment-at-russia-vetoing-western-sahara-resolution",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK expresses disappointment at Russia vetoing Western Sahara resolution",
+  "excerpt": "The United Kingdom said on October 30, 2026, that Russia's veto undermines UN Council action and risks setting back the political process.",
+  "bodyHtml": "<p>The United Kingdom expressed disappointment at Russia&#x27;s decision to veto a draft resolution on Western Sahara, according to a statement published by the UK government on October 30, 2026. Sarah MacIntosh, UK Permanent Representative to the UN, delivered the explanation of vote at the UN Security Council meeting.</p>\n<p>The UK stated that the decision undermines the Council&#x27;s action on the file, jeopardises the deployment of the UN Mission, and risks setting back progress on the political process for the Western Sahara. The UK commended US leadership on the resolution and welcomed the work of Personal Envoy de Mistura to advance the political process.</p>\n<p>The UK urged Council members to approach the question of Western Sahara in the interests of accelerating progress toward a just, lasting, and mutually agreed solution that meaningfully provides the self-determination of the people of Western Sahara. The UK reiterated its position that Morocco&#x27;s 2007 autonomy proposal is the most credible, viable, and pragmatic basis for a lasting resolution of the dispute.</p>",
+  "publishedAt": "2026-10-31T02:19:16Z",
+  "updatedAt": "2026-10-31T02:19:16Z",
+  "wordCount": 165,
+  "readingTimeMin": 1,
+  "topic": "Russia’s decision to veto this draft resolution risks setting back progress on the political process for the Western Sahara: UK statement at the UN Security Council",
+  "tags": [
+    "United Kingdom",
+    "Russia",
+    "Western Sahara",
+    "UN Security Council"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/speeches/russias-decision-to-veto-this-draft-resolution-risks-setting-back-progress-on-the-political-process-for-the-western-sahara-uk-statement-at-the-un-secu"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK expressed disappointment at Russia's decision to veto a draft resolution on Western Sahara.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The statement was published by the UK government on October 30, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK said on October 30, 2026 that Russia's veto undermines UN Council action and risks setting back the political process.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Sarah MacIntosh, UK Permanent Representative to the UN, delivered the explanation of vote at the UN Security Council meeting.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK stated the decision jeopardises the deployment of the UN Mission.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK commended US leadership on the resolution and welcomed the work of Personal Envoy de Mistura to advance the political process.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK urged Council members to approach Western Sahara in the interests of accelerating progress toward a just, lasting, mutually agreed solution that meaningfully provides self-determination of the people of Western Sahara.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK reiterated its position that Morocco's 2007 autonomy proposal is the most credible, viable, and pragmatic basis for a lasting resolution of the dispute.",
+      "source": "The UK government"
+    }
+  ]
+}
