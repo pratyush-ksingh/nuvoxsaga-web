@@ -1,0 +1,69 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-and-eu-conclude-digital-trade-agreement-negotiations",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Canada and EU conclude digital trade agreement negotiations",
+  "excerpt": "According to the Government of Canada, the agreement is the first of its kind for Canada.",
+  "bodyHtml": "<p>The Government of Canada announced on October 31, 2026, that Canada and the European Union concluded negotiations for a digital trade agreement. The announcement followed a meeting between Canada&#x27;s Minister of International Trade, the Honourable Maninder Sidhu, and the European Union&#x27;s Commissioner for Trade and Economic Security, Maroš Šefčovič, held on the margins of the Canada-EU Summit in Montréal.</p>\n<p>According to the Government of Canada, the accord is the first of its kind for Canada. The Government of Canada stated that the agreement will modernize the bilateral trade framework for the digital economy, complement the benefits provided by the Canada-EU Comprehensive Economic and Trade Agreement, and help businesses on both sides of the Atlantic compete and grow in an increasingly digital global marketplace.</p>\n<p>Minister Sidhu and Commissioner Šefčovič will meet next at the Comprehensive and Progressive Agreement for Trans-Pacific Partnership-EU ministerial dialogue in Hanoi, Vietnam.</p>",
+  "publishedAt": "2026-11-01T02:03:07Z",
+  "updatedAt": "2026-11-01T02:03:07Z",
+  "wordCount": 145,
+  "readingTimeMin": 1,
+  "topic": "Minister Sidhu and EU Commissioner for Trade and Economic Security welcome conclusion of Canada-EU digital trade agreement negotiations",
+  "tags": [
+    "Canada",
+    "European Union"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-sidhu-and-eu-commissioner-for-trade-and-economic-security-welcome-conclusion-of-canada-eu-digital-trade-agreement-negotiations.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada and the EU have concluded digital trade agreement negotiations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "According to the Government of Canada, the digital trade agreement is the first of its kind for Canada.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced the conclusion of negotiations on October 31, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The announcement followed a meeting between Canada's Minister of International Trade, Maninder Sidhu, and the EU's Commissioner for Trade and Economic Security, Maroš Šefčovič.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The meeting between Sidhu and Šefčovič was held on the margins of the Canada-EU Summit in Montréal.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada stated the agreement will modernize the bilateral trade framework for the digital economy.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada stated the agreement will complement the benefits provided by the Canada-EU Comprehensive Economic and Trade Agreement.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada stated the agreement will help businesses on both sides of the Atlantic compete and grow in an increasingly digital global marketplace.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Sidhu and Commissioner Šefčovič will meet next at the Comprehensive and Progressive Agreement for Trans-Pacific Partnership-EU ministerial dialogue in Hanoi, Vietnam.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

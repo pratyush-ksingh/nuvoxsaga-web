@@ -1,0 +1,102 @@
+{
+  "image": {
+    "src": "/media/sections/world-health-climate-2.webp",
+    "alt": "Illustration: cracked dry earth under a hazy sun",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-details-global-clean-power-alliance-missions",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "health-climate",
+  "title": "UK government details Global Clean Power Alliance missions",
+  "excerpt": "The alliance focuses on finance and supply chain barriers to accelerate the global transition to clean power.",
+  "bodyHtml": "<p>The UK government announced on October 30, 2026, the operational framework for the Global Clean Power Alliance. The alliance consists of partners from the Global North and Global South working to advance electrification and strengthen energy security. The alliance focuses on two of the biggest barriers to progress, which are finance and supply chains.</p>\n<p>The alliance operates through two missions. The Finance Mission, co-led by the UK and Brazil, assists emerging markets and developing economies in attracting private investment for clean energy projects. This mission focuses on three building blocks: people, connecting countries with the expertise and tools they need; plans, developing credible and investment-ready energy plans; and projects, creating pipelines of clean-energy projects that can attract private finance.</p>\n<p>The Supply Chains Mission works to diversify clean power supply chains, address bottlenecks, and promote data transparency and a global circular economy. The UK government stated that it will provide updates on the progress of both missions on the GOV.UK website.</p>",
+  "publishedAt": "2026-11-01T02:03:30Z",
+  "updatedAt": "2026-11-01T02:03:30Z",
+  "wordCount": 160,
+  "readingTimeMin": 1,
+  "topic": "Global Clean Power Alliance",
+  "tags": [
+    "Global Clean Power Alliance",
+    "UK government",
+    "clean energy"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/global-clean-power-alliance"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government detailed the Global Clean Power Alliance missions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The alliance focuses on finance and supply chain barriers to accelerate the global transition to clean power.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced the operational framework for the Global Clean Power Alliance on October 30, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The alliance consists of partners from the Global North and Global South.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The alliance works to advance electrification and strengthen energy security.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The alliance focuses on two of the biggest barriers to progress: finance and supply chains.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The alliance operates through two missions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Finance Mission is co-led by the UK and Brazil.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Finance Mission assists emerging markets and developing economies in attracting private investment for clean energy projects.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Finance Mission focuses on three building blocks: people, connecting countries with the expertise and tools they need.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Finance Mission focuses on three building blocks: plans, developing credible and investment-ready energy plans.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Finance Mission focuses on three building blocks: projects, creating pipelines of clean-energy projects that can attract private finance.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Supply Chains Mission works to diversify clean power supply chains.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Supply Chains Mission works to address bottlenecks.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Supply Chains Mission works to promote data transparency.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Supply Chains Mission works to promote a global circular economy.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government stated that it will provide updates on the progress of both missions on the GOV.UK website.",
+      "source": "The UK government"
+    }
+  ]
+}
