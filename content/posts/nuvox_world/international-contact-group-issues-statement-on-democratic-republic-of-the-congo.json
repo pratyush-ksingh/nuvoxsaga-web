@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-2.webp",
+    "alt": "Illustration: acacia trees on a savanna at golden hour",
+    "credit": "AI illustration"
+  },
+  "slug": "international-contact-group-issues-statement-on-democratic-republic-of-the-congo",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "International Contact Group issues statement on Democratic Republic of the Congo",
+  "excerpt": "The group of nations rejected the use of violence by the Front for the Refoundation of the Nation to achieve political objectives.",
+  "bodyHtml": "<p>On October 30, 2026, the International Contact Group for the Great Lakes region, which includes the United States, Canada, the United Kingdom, and several European nations, issued a statement regarding the situation in the Democratic Republic of the Congo.</p>\n<p>The group called for all parties to the Washington Accords and Doha Framework to engage in good faith to resolve the conflict. It also stated its categorical rejection of the Front for the Refoundation of the Nation and its use of violence to pursue political objectives.</p>\n<p>The group urged all parties to honor the ceasefire commitments made in Doha on 19 July 2025. Furthermore, it reminded parties to implement UN Security Council Resolution 2773, which calls for the Rwanda Defence Forces to cease support to the M23 and immediately withdraw from DRC territory without preconditions.</p>\n<p>The ICG encouraged the Congolese authorities to present an action plan and timeline aimed at swiftly implementing the disarmament, demobilization, and reintegration protocol for the FDLR groups.</p>",
+  "publishedAt": "2026-11-01T12:04:59Z",
+  "updatedAt": "2026-11-01T12:04:59Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Joint Statement from the International Contact Group for the Great Lakes Region (ICG)",
+  "tags": [
+    "Democratic Republic of the Congo",
+    "International Contact Group",
+    "Great Lakes region"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/joint-statement-from-the-international-contact-group-for-the-great-lakes-region-icg/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The International Contact Group issued a statement on the Democratic Republic of the Congo.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The group of nations rejected the use of violence by the Front for the Refoundation of the Nation to achieve political objectives.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "On October 30, 2026, the International Contact Group for the Great Lakes region, which includes the United States, Canada, the United Kingdom, and several European nations, issued a statement regarding the situation in the Democratic Republic of the Congo.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The group called for all parties to the Washington Accords and Doha Framework to engage in good faith to resolve the conflict.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The group stated its categorical rejection of the Front for the Refoundation of the Nation and its use of violence to pursue political objectives.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The group urged all parties to honor the ceasefire commitments made in Doha on 19 July 2025.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The group reminded parties to implement UN Security Council Resolution 2773, which calls for the Rwanda Defence Forces to cease support to the M23 and immediately withdraw from DRC territory without preconditions.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The ICG encouraged the Congolese authorities to present an action plan and timeline aimed at swiftly implementing the disarmament, demobilization, and reintegration protocol for the FDLR groups.",
+      "source": "The US State Department"
+    }
+  ]
+}

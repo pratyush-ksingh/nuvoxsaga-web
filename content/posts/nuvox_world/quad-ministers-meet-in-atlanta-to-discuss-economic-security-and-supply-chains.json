@@ -1,0 +1,77 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "quad-ministers-meet-in-atlanta-to-discuss-economic-security-and-supply-chains",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Quad ministers meet in Atlanta to discuss economic security and supply chains",
+  "excerpt": "Ministers from the United States, Australia, India, and Japan met to discuss economic security and reliable global supply chains.",
+  "bodyHtml": "<p>The US State Department said that the Secretary of State of the United States and the Foreign Ministers of Australia, India, and Japan met in Atlanta, Georgia, on October 31, 2026, to discuss progress on ongoing Quad initiatives and reaffirm their commitment to a free and open Indo-Pacific.</p>\n<p>The Quad ministers underscored the importance of economic security in maintaining global stability and prosperity. They reiterated their commitment to building reliable and open global supply chains and trusted and resilient infrastructure.</p>\n<p>The ministers expressed grave concerns regarding economic coercion, including through arbitrary export restrictions, as well as non-market policies and practices that result in overcapacity to disrupt global supply chains in critical industries.</p>\n<p>The Quad ministers highlighted the importance of Super Intelligence and initiatives like Pax Silica to the future of economic growth and expressed their intent to provide over $85 million of technical and financial assistance to support access to trusted SI across the Indo-Pacific, including through the Quad SI Accelerator.</p>",
+  "publishedAt": "2026-11-01T12:02:08Z",
+  "updatedAt": "2026-11-01T12:02:08Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Quad Joint Press Release on Economic Prosperity and Security",
+  "tags": [
+    "Quad",
+    "United States"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/quad-joint-press-release-on-economic-prosperity-and-security/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Quad ministers met in Atlanta to discuss economic security and supply chains.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Ministers from the United States, Australia, India, and Japan met to discuss economic security and reliable global supply chains.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department said that the Secretary of State of the United States and the Foreign Ministers of Australia, India, and Japan met in Atlanta, Georgia, on October 31, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The meeting was to discuss progress on ongoing Quad initiatives and reaffirm their commitment to a free and open Indo-Pacific.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Quad ministers underscored the importance of economic security in maintaining global stability and prosperity.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The ministers reiterated their commitment to building reliable and open global supply chains and trusted and resilient infrastructure.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The ministers expressed grave concerns regarding economic coercion, including through arbitrary export restrictions.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The ministers expressed grave concerns regarding non-market policies and practices that result in overcapacity to disrupt global supply chains in critical industries.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Quad ministers highlighted the importance of Super Intelligence and initiatives like Pax Silica to the future of economic growth.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The ministers expressed their intent to provide over $85 million of technical and financial assistance to support access to trusted SI across the Indo-Pacific.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The assistance for trusted SI includes the Quad SI Accelerator.",
+      "source": "The US State Department"
+    }
+  ]
+}
