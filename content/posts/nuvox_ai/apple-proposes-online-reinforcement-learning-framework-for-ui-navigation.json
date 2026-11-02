@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "apple-proposes-online-reinforcement-learning-framework-for-ui-navigation",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Apple proposes online reinforcement learning framework for UI navigation",
+  "excerpt": "The framework trains UI navigation agents directly on live iOS applications using a Planning agent and a UI Grounding model.",
+  "bodyHtml": "<p>Apple published research on November 2, 2026, detailing an online reinforcement learning framework that trains user interface navigation agents directly on live iOS applications. According to the source, vision-language models have high inference costs that prohibit everyday use, while smaller models trained via supervised fine-tuning or offline reinforcement learning memorize static trajectories and fail to recover from errors.</p>\n<p>The proposed framework decouples the agent into a Planning agent and a UI Grounding model. An LLM-as-a-Judge provides reward signals combining step-level feedback with a terminal reward for task completion. The framework optimizes the agent using Proximal Policy Optimization with step-level advantage estimation, alongside a neighbor-conditioned value estimation method called GiGPPO.</p>\n<p>Evaluations on benchmarks such as UINavBench, iOSWorld, and AndroidWorld showed that the online reinforcement learning trained agents outperformed supervised fine-tuning and terminal-only baselines. The research states that 8B reinforcement learning agents achieved nearly a sevenfold improvement over the supervised fine-tuning baseline in out-of-distribution generalization to Android environments.</p>",
+  "publishedAt": "2026-11-02T16:04:40Z",
+  "updatedAt": "2026-11-02T16:04:40Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live iOS Apps",
+  "tags": [
+    "Apple",
+    "UINavBench",
+    "iOSWorld",
+    "AndroidWorld"
+  ],
+  "source": {
+    "name": "Apple",
+    "url": "https://machinelearning.apple.com/research/planning-grounding-ui-navigation"
+  },
+  "sources": [
+    "Apple"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Apple proposes online reinforcement learning framework for UI navigation.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The framework trains UI navigation agents directly on live iOS applications using a Planning agent and a UI Grounding model.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Apple published research on November 2, 2026.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The research details an online reinforcement learning framework that trains user interface navigation agents directly on live iOS applications.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Vision-language models have high inference costs that prohibit everyday use.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Smaller models trained via supervised fine-tuning or offline reinforcement learning often memorize static trajectories and fail to recover from errors.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The proposed framework decouples the agent into a Planning agent and a UI Grounding model.",
+      "source": "Apple"
+    },
+    {
+      "claim": "An LLM-as-a-Judge provides reward signals combining step-level feedback with a terminal reward for task completion.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The framework optimizes the agent using Proximal Policy Optimization with step-level advantage estimation.",
+      "source": "Apple"
+    },
+    {
+      "claim": "The framework uses a neighbor-conditioned value estimation method called GiGPPO.",
+      "source": "Apple"
+    },
+    {
+      "claim": "Evaluations on benchmarks such as UINavBench, iOSWorld, and AndroidWorld showed that the online reinforcement learning trained agents outperformed supervised fine-tuning and terminal-only baselines.",
+      "source": "Apple"
+    },
+    {
+      "claim": "8B reinforcement learning agents achieved nearly a sevenfold improvement over the supervised fine-tuning baseline in out-of-distribution generalization to Android environments.",
+      "source": "Apple"
+    }
+  ]
+}

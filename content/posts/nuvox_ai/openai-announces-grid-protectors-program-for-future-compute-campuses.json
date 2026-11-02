@@ -1,0 +1,59 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-announces-grid-protectors-program-for-future-compute-campuses",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "OpenAI announces Grid Protectors Program for future compute campuses",
+  "excerpt": "The national effort will develop arrangements with utilities to reduce electricity demand when the grid is under strain.",
+  "bodyHtml": "<p>OpenAI announced the launch of the Grid Protectors Program on November 2, 2026. The national effort is designed to support affordable and reliable electricity for families and businesses in the communities where the company builds future compute campuses.</p>\n<p>Working with utilities, regulators, and policymakers, OpenAI will develop arrangements for future campuses to reduce electricity demand when the grid is under strain. Georgia serves as the starting point for the program.</p>\n<p>For a planned Effingham County campus, an agreement with Georgia Power includes up to 1,000 megawatts of flexible demand response. Georgia Power projects approximately $950 million in annual customer savings beginning in 2029 from its portfolio of large-load agreements and expected growth, including Project Camellia.</p>",
+  "publishedAt": "2026-11-02T16:04:11Z",
+  "updatedAt": "2026-11-02T16:04:11Z",
+  "wordCount": 115,
+  "readingTimeMin": 1,
+  "topic": "Introducing the Grid Protectors Program",
+  "tags": [
+    "OpenAI",
+    "Grid Protectors Program",
+    "Georgia Power",
+    "Effingham County"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/grid-protectors-program"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI announced the Grid Protectors Program for future compute campuses on November 2, 2026.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The national effort will develop arrangements with utilities, regulators, and policymakers to reduce electricity demand when the grid is under strain.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The program is designed to support affordable and reliable electricity for families and businesses in communities where OpenAI builds future compute campuses.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Georgia serves as the starting point for the program.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "For a planned Effingham County campus, OpenAI's agreement with Georgia Power includes up to 1,000 megawatts of flexible demand response.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Georgia Power projects approximately $950 million in annual customer savings beginning in 2029 from its portfolio of large-load agreements and expected growth, including Project Camellia.",
+      "source": "OpenAI"
+    }
+  ]
+}

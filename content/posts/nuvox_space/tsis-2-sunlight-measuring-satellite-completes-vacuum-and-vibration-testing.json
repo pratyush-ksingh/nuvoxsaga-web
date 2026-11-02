@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/space-launch-1.webp",
+    "alt": "Illustration: unbranded rocket on a launch pad at night lit by floodlights",
+    "credit": "AI illustration"
+  },
+  "slug": "tsis-2-sunlight-measuring-satellite-completes-vacuum-and-vibration-testing",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "launch",
+  "title": "TSIS-2 sunlight-measuring satellite completes vacuum and vibration testing",
+  "excerpt": "The spacecraft underwent below-freezing temperatures, vacuum pressures, and vibration testing simulating launch conditions.",
+  "bodyHtml": "<p>NASA announced on November 2, 2026, that the TSIS-2 (Total and Spectral Solar Irradiance Sensor-2) spacecraft completed a series of tests including vacuum and vibration assessments. General Atomics Electromagnetic Systems (GA-EMS) team members conducted the tests, exposing the satellite to below-freezing temperatures, vacuum-level pressures, and launch-like shaking.</p>\n<p>The observatory also underwent measurements for its mass, center of gravity, and mass distribution. The spacecraft carries two instruments designed to measure solar irradiance, which is the intensity of sunlight reaching the top of the Earth&#x27;s atmosphere.</p>\n<p>Following the completion of these tests, TSIS-2 will be prepared for transport to the launch site for integration with a rocket. The mission has a launch target of early 2027 in New Zealand aboard Rocket Lab’s Electron rocket.</p>",
+  "publishedAt": "2026-11-02T16:08:17Z",
+  "updatedAt": "2026-11-02T16:08:17Z",
+  "wordCount": 122,
+  "readingTimeMin": 1,
+  "topic": "NASA’s Mission to Study Sunlight Completes Vacuum, Vibration Testing",
+  "tags": [
+    "NASA",
+    "TSIS-2",
+    "General Atomics Electromagnetic Systems",
+    "Rocket Lab"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/blogs/tsis-2/2026/11/02/nasas-mission-to-study-sunlight-completes-vacuum-vibration-testing/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "TSIS-2 sunlight-measuring satellite completes vacuum and vibration testing.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft underwent below-freezing temperatures, vacuum pressures, and vibration testing simulating launch conditions.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced on November 2, 2026, that the TSIS-2 (Total and Spectral Solar Irradiance Sensor-2) spacecraft completed a series of tests including vacuum and vibration assessments.",
+      "source": "NASA"
+    },
+    {
+      "claim": "General Atomics Electromagnetic Systems (GA-EMS) team members conducted the tests, exposing the satellite to below-freezing temperatures, vacuum-level pressures, and launch-like shaking.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The observatory also underwent measurements for its mass, center of gravity, and mass distribution.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The spacecraft carries two instruments designed to measure solar irradiance, which is the intensity of sunlight reaching the top of the Earth's atmosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Following the completion of these tests, TSIS-2 will be prepared for transport to the launch site for integration with a rocket.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The mission has a launch target of early 2027 in New Zealand aboard Rocket Lab’s Electron rocket.",
+      "source": "NASA"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "ermis-3-cubesat-establishes-laser-communication-link-with-ground-station",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "ERMIS-3 CubeSat establishes laser communication link with ground station",
+  "excerpt": "The 8U CubeSat successfully transmitted data to the Holomondas Optical Ground Station in Greece using an optical terminal.",
+  "bodyHtml": "<p>The European Space Agency announced on November 2, 2026, that the ERMIS-3 CubeSat has established an optical communication link with a ground station. Developed by the National and Kapodistrian University of Athens, the 8U satellite used an ATLAS-1 optical terminal to transmit data via narrow laser beams rather than conventional radio-frequency communications.</p>\n<p>The connection was made with the Holomondas Optical Ground Station in Greece, which features a terminal from the Lithuanian company Astrolight. This operation marks the first optical link between a low Earth orbit satellite and a ground station in Greece.</p>\n<p>The mission is part of the National Space Programme, which is implemented by the European Space Agency on behalf of the Greek government. The satellite was launched on 30 March 2026 alongside ERMIS-1 and ERMIS-2.</p>",
+  "publishedAt": "2026-11-02T16:08:42Z",
+  "updatedAt": "2026-11-02T16:08:42Z",
+  "wordCount": 127,
+  "readingTimeMin": 1,
+  "topic": "CubeSat achieves challenging laser link to ground",
+  "tags": [
+    "ERMIS-3",
+    "ESA",
+    "CubeSat",
+    "Greece"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/CubeSat_achieves_challenging_laser_link_to_ground"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "ERMIS-3 CubeSat establishes laser communication link with ground station.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The 8U CubeSat successfully transmitted data to the Holomondas Optical Ground Station in Greece using an optical terminal.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on November 2, 2026, that the ERMIS-3 CubeSat has established an optical communication link with a ground station.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "ERMIS-3 was developed by the National and Kapodistrian University of Athens.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The 8U satellite used an ATLAS-1 optical terminal to transmit data.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Optical links use narrow laser beams rather than conventional radio-frequency communications.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The connection was made with the Holomondas Optical Ground Station in Greece.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The Holomondas Optical Ground Station features a terminal from the Lithuanian company Astrolight.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "This operation marks the first optical link between a low Earth orbit satellite and a ground station in Greece.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The mission is part of the National Space Programme.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The National Space Programme is implemented by the European Space Agency on behalf of the Greek government.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite was launched on 30 March 2026 alongside ERMIS-1 and ERMIS-2.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

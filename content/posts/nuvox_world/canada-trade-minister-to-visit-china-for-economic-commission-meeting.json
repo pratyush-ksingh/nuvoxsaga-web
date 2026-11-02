@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-2.webp",
+    "alt": "Illustration: busy harbor with container cranes at dusk, seen from above",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-trade-minister-to-visit-china-for-economic-commission-meeting",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Canada trade minister to visit China for economic commission meeting",
+  "excerpt": "Minister Maninder Sidhu will co-lead the Joint Economic and Trade Commission in Beijing from November 3 to 6, 2026.",
+  "bodyHtml": "<p>The Government of Canada announced that the Honourable Maninder Sidhu, Minister of International Trade, will visit China from November 3 to 6, 2026. The visit includes co-leading the Joint Economic and Trade Commission, a body for discussing bilateral trade issues, with China’s Minister of Commerce, Wang Wentao.</p>\n<p>In Shanghai, Minister Sidhu will attend the China International Import Expo, where Canada is the Guest Country of Honour. The Minister will meet with government officials, investors and businesses to explore opportunities in sectors including agri-food, agriculture, energy, clean technology and consumer products.</p>\n<p>The Government of Canada reported that merchandise exports to China grew by 31.4% to $21.5 billion in the first half of 2026. Minister Sidhu stated that the government is working to grow exports to China by 50% by 2030.</p>",
+  "publishedAt": "2026-11-02T16:11:37Z",
+  "updatedAt": "2026-11-02T16:11:37Z",
+  "wordCount": 129,
+  "readingTimeMin": 1,
+  "topic": "Minister Sidhu to advance Canada’s trade and investment priorities during visit to China",
+  "tags": [
+    "Canada",
+    "China",
+    "Trade",
+    "Maninder Sidhu"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-to-advance-canadas-trade-and-investment-priorities-during-visit-to-china.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada's trade minister will visit China for an economic commission meeting.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Maninder Sidhu will co-lead the Joint Economic and Trade Commission in Beijing from November 3 to 6, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced that the Honourable Maninder Sidhu, Minister of International Trade, will visit China from November 3 to 6, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The visit includes co-leading the Joint Economic and Trade Commission, a body for discussing bilateral trade issues, with China’s Minister of Commerce, Wang Wentao.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "In Shanghai, Minister Sidhu will attend the China International Import Expo, where Canada is the Guest Country of Honour.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Minister will meet with government officials, investors and businesses to explore opportunities in sectors including agri-food, agriculture, energy, clean technology and consumer products.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada reported that merchandise exports to China grew by 31.4% to $21.5 billion in the first half of 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Sidhu stated that the government is working to grow exports to China by 50% by 2030.",
+      "source": "The Government of Canada"
+    }
+  ]
+}
