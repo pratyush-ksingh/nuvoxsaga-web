@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/space/nasa-releases-landsat-8-image-of-pine-creek-gorge.webp",
+    "alt": "A forested plateau displays red and gold foliage and is incised by several narrow, curving valleys.",
+    "credit": "NASA Earth Observatory/Michala Garrison"
+  },
+  "slug": "nasa-releases-landsat-8-image-of-pine-creek-gorge",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases Landsat 8 image of Pine Creek Gorge",
+  "excerpt": "The agency captured the Pennsylvania landmark on October 25, 2026, when colorful fall foliage was on display.",
+  "bodyHtml": "<p>NASA released an image of Pine Creek Gorge in Pennsylvania captured by the Operational Land Imager (OLI) on the NASA-USGS Landsat 8 satellite. The observation took place on October 25, 2026, documenting the landscape during the autumn season.</p>\n<p>The gorge, often called the Grand Canyon of Pennsylvania, runs for 45 miles from Ansonia to the West Branch Susquehanna River. The imagery shows the topography of the Allegheny Plateau, which reaches depths of about 1,500 feet, with its greatest depths occurring around Waterville.</p>\n<p>The hillsides around the gorge are blanketed in northern hardwood and mixed oak forest, sprinkled with hemlock and white pine. In 1968, an area of 30,000 acres was designated a National Natural Landmark.</p>\n<p>The region is home to wild inhabitants such as black bears, coyotes, bobcats, timber rattlesnakes, and a diversity of songbirds. Visitors can experience the gorge at many points along its path, including from multiple state parks and the Pine Creek Rail Trail.</p>",
+  "publishedAt": "2026-11-02T06:07:09Z",
+  "updatedAt": "2026-11-02T06:07:09Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "Pennsylvania’s Grand Canyon",
+  "tags": [
+    "NASA",
+    "Landsat 8",
+    "Pennsylvania"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released a Landsat 8 image of Pine Creek Gorge.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency captured the Pennsylvania landmark on October 25, 2026, when colorful fall foliage was on display.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The observation was taken by the Operational Land Imager (OLI) on the NASA-USGS Landsat 8 satellite on October 25, 2026, documenting the landscape during autumn.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Pine Creek Gorge, often called the Grand Canyon of Pennsylvania, runs for 45 miles from Ansonia to the West Branch Susquehanna River.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The gorge forms in the Allegheny Plateau and reaches depths of about 1,500 feet, with its greatest depths occurring around Waterville.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The hillsides around the gorge are blanketed in northern hardwood and mixed oak forest, sprinkled with hemlock and white pine.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In 1968, an area of 30,000 acres was designated a National Natural Landmark.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The region is home to wild inhabitants such as black bears, coyotes, bobcats, timber rattlesnakes, and a diversity of songbirds.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Visitors can experience the gorge at many points along its path, including from multiple state parks and the Pine Creek Rail Trail.",
+      "source": "NASA"
+    }
+  ]
+}
