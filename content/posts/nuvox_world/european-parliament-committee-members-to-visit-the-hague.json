@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-committee-members-to-visit-the-hague",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament committee members to visit The Hague",
+  "excerpt": "Three members of the Legal Affairs Committee will meet with representatives of the International Criminal Court and other legal institutions.",
+  "bodyHtml": "<p>Three members of the European Parliament’s Legal Affairs Committee are scheduled to travel to The Hague on October 28, 2026, for a one-day visit. The delegation includes the chair of the committee, Ilhan Kyuchyuk, along with members Axel Voss and Lara Wolters.</p>\n<p>The MEPs will meet with representatives of the International Criminal Court, which is the 2026 laureate of the Parliament’s Sakharov Prize for Freedom of Thought. During this visit, the members intend to discuss the latest developments in the international legal order, noting the increasing attacks on multilateralism and the international justice architecture.</p>\n<p>The delegation will also hold discussions with the Permanent Bureau of the Hague Conference on Private International Law regarding legal instruments in civil, family, company, and intellectual property law. Additionally, the MEPs will meet with representatives of the Dutch Whistleblowers Authority to discuss the practical implementation of the EU’s Whistleblower Protection Directive.</p>",
+  "publishedAt": "2026-11-02T12:04:20Z",
+  "updatedAt": "2026-11-02T12:04:20Z",
+  "wordCount": 146,
+  "readingTimeMin": 1,
+  "topic": "Press release - MEPs to meet 2026 Sakharov Prize laureate representatives in The Hague",
+  "tags": [
+    "European Parliament",
+    "International Criminal Court",
+    "The Hague"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261019IPR48291/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "European Parliament committee members will visit The Hague.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Three members of the Legal Affairs Committee will meet with representatives of the International Criminal Court and other legal institutions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Three members of the European Parliament’s Legal Affairs Committee are scheduled to travel to The Hague on October 28, 2026, for a one-day visit.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The delegation includes the chair of the committee, Ilhan Kyuchyuk, along with members Axel Voss and Lara Wolters.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The MEPs will meet with representatives of the International Criminal Court, which is the 2026 laureate of the Parliament’s Sakharov Prize for Freedom of Thought.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "During this visit, the members intend to discuss the latest developments in the international legal order, noting the increasing attacks on multilateralism and the international justice architecture.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The delegation will also hold discussions with the Permanent Bureau of the Hague Conference on Private International Law regarding legal instruments in civil, family, company, and intellectual property law.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Additionally, the MEPs will meet with representatives of the Dutch Whistleblowers Authority to discuss the practical implementation of the EU’s Whistleblower Protection Directive.",
+      "source": "The European Parliament"
+    }
+  ]
+}
