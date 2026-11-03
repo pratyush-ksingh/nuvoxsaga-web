@@ -1,0 +1,91 @@
+{
+  "image": {
+    "src": "/media/sections/space-policy-3.webp",
+    "alt": "Illustration: classical columns at night under a clear starry sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-and-classcrunchlabs-foundation-announce-stem-education-partnership",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "policy",
+  "title": "NASA and ClassCrunchLabs Foundation announce STEM education partnership",
+  "excerpt": "The organizations will collaborate to provide hands-on engineering content to students through shared programming and outreach.",
+  "bodyHtml": "<p>NASA announced a new collaboration with the ClassCrunchLabs Foundation on November 3, 2026. The partnership aims to broaden access to science, technology, engineering, and mathematics learning by aligning NASA educational resources with engineering content from the foundation.</p>\n<p>As part of the launch, NASA astronaut and Expedition 74 flight engineer Anil Menon and STEM content creator Mark Rober will host a live, interactive in-flight call from the International Space Station. The event is scheduled for 11 a.m. EST on November 4, 2026, and will be broadcast on the agency&#x27;s YouTube channel.</p>\n<p>During the call, Menon will answer questions from students about living and working in microgravity, the path to becoming an astronaut, and the technologies that make human spaceflight possible. Rober will join the event from California to share how curiosity, creativity, and hands-on problem-solving shaped his career from NASA engineer to STEM creator.</p>\n<p>The downlink will feature Menon demonstrating how everyday activities, from eating to experimenting, change in microgravity. The event will be available to watch on the agency’s flagship YouTube with additional engagement across Learn With NASA channels.</p>",
+  "publishedAt": "2026-11-03T16:04:19Z",
+  "updatedAt": "2026-11-03T16:04:19Z",
+  "wordCount": 179,
+  "readingTimeMin": 1,
+  "topic": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
+  "tags": [
+    "NASA",
+    "ClassCrunchLabs Foundation",
+    "STEM",
+    "International Space Station"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA and ClassCrunchLabs Foundation announced a STEM education partnership.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The organizations will collaborate to provide hands-on engineering content to students through shared programming and outreach.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the collaboration with the ClassCrunchLabs Foundation on November 3, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The partnership aims to broaden access to STEM learning by aligning NASA educational resources with engineering content from the foundation.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA astronaut Anil Menon is an Expedition 74 flight engineer.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Mark Rober is a STEM content creator.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Anil Menon and Mark Rober will host a live, interactive in-flight call from the International Space Station.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The in-flight call is scheduled for 11 a.m. EST on November 4, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The event will be broadcast on the agency's YouTube channel.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Menon will answer questions from students about living and working in microgravity, the path to becoming an astronaut, and the technologies that make human spaceflight possible.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Mark Rober will join the event from California.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Mark Rober's career path went from NASA engineer to STEM creator.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The downlink will feature Menon demonstrating how everyday activities, from eating to experimenting, change in microgravity.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The event will have additional engagement across Learn With NASA channels.",
+      "source": "NASA"
+    }
+  ]
+}

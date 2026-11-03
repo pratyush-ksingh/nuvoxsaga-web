@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "first-lady-melania-trump-to-host-russian-and-ukrainian-representatives",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "First Lady Melania Trump to host Russian and Ukrainian representatives",
+  "excerpt": "The event follows a ceasefire in the Oleshky and Kherson region initiated by the First Lady.",
+  "bodyHtml": "<p>The White House announced on November 3, 2026, that First Lady Melania Trump will convene representatives from Russia and Ukraine at the White House. The meeting involves officials from the two nations currently engaged in war.</p>\n<p>According to the White House, the First Lady independently initiated engagement between the two countries and secured a ceasefire in Oleshky and the surrounding Kherson region. This development is described by the White House as an extraordinary moment in American history.</p>\n<p>The White House stated that this achievement marks an unprecedented diplomatic initiative by an American First Lady. Mrs. Trump is scheduled to deliver remarks regarding the ceasefire at 11:00 am ET on November 5, 2026, at the White House.</p>",
+  "publishedAt": "2026-11-03T16:18:46Z",
+  "updatedAt": "2026-11-03T16:18:46Z",
+  "wordCount": 116,
+  "readingTimeMin": 1,
+  "topic": "First Lady Melania Trump to Convene Russian and Ukrainian Representatives at the White House",
+  "tags": [
+    "Russia",
+    "Ukraine",
+    "White House",
+    "Melania Trump"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/11/first-lady-melania-trump-to-convene-russian-and-ukrainian-representatives-at-the-white-house/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "First Lady Melania Trump will host Russian and Ukrainian representatives at the White House.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The event follows a ceasefire in the Oleshky and Kherson region initiated by the First Lady.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House announced on November 3, 2026, that First Lady Melania Trump will convene representatives from Russia and Ukraine at the White House.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The meeting involves officials from the two nations currently engaged in war.",
+      "source": "The White House"
+    },
+    {
+      "claim": "According to the White House, the First Lady independently initiated engagement between Russia and Ukraine.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The First Lady secured a ceasefire in Oleshky and the surrounding Kherson region.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House described the development as an extraordinary moment in American history.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated that this achievement marks an unprecedented diplomatic initiative by an American First Lady.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Mrs. Trump is scheduled to deliver remarks regarding the ceasefire at 11:00 am ET on November 5, 2026, at the White House.",
+      "source": "The White House"
+    }
+  ]
+}

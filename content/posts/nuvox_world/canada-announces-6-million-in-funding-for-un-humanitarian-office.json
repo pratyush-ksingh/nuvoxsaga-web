@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-3.webp",
+    "alt": "Illustration: city skyline across a bay at blue hour, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-announces-6-million-in-funding-for-un-humanitarian-office",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Canada announces $6 million in funding for UN humanitarian office",
+  "excerpt": "The funding for the United Nations Office for the Coordination of Humanitarian Affairs will be distributed over three years.",
+  "bodyHtml": "<p>The Government of Canada announced on November 3, 2026, that it is providing $6 million in funding to the United Nations Office for the Coordination of Humanitarian Affairs (OCHA). This institutional support will be distributed over a three-year period to assist the organization in its efforts to provide humanitarian aid to people affected by conflict, disasters and displacement.</p>\n<p>Secretary of State for International Development Randeep Sarai confirmed the funding during a meeting in Ottawa with Tom Fletcher, the United Nations Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator. The two officials discussed the global humanitarian landscape, including rising humanitarian needs and financial pressures on the international humanitarian system.</p>\n<p>Canada is also contributing US$430 million toward urgent humanitarian needs identified in the 2026 Global Humanitarian Overview. Furthermore, Canada is scheduled to begin chairing the OCHA Donor Support Group in July 2027.</p>",
+  "publishedAt": "2026-11-03T16:17:43Z",
+  "updatedAt": "2026-11-03T16:17:43Z",
+  "wordCount": 140,
+  "readingTimeMin": 1,
+  "topic": "Secretary of State Sarai reaffirms Canada’s support for United Nations Office for the Coordination of Humanitarian Affairs",
+  "tags": [
+    "Canada",
+    "OCHA",
+    "United Nations"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/11/secretary-of-state-sarai-reaffirms-canadas-support-for-united-nations-office-for-the-coordination-of-humanitarian-affairs.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada announces $6 million in funding for UN humanitarian office.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The funding for the United Nations Office for the Coordination of Humanitarian Affairs will be distributed over three years.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on November 3, 2026, that it is providing $6 million in funding to the United Nations Office for the Coordination of Humanitarian Affairs (OCHA).",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "This institutional support will be distributed over a three-year period to assist the organization in its efforts to provide humanitarian aid to people affected by conflict, disasters and displacement.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Secretary of State for International Development Randeep Sarai confirmed the funding during a meeting in Ottawa with Tom Fletcher.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Tom Fletcher is the United Nations Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The two officials discussed the global humanitarian landscape, including rising humanitarian needs and financial pressures on the international humanitarian system.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Canada is also contributing US$430 million toward urgent humanitarian needs identified in the 2026 Global Humanitarian Overview.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Canada is scheduled to begin chairing the OCHA Donor Support Group in July 2027.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

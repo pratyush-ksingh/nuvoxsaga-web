@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-completes-development-of-cimr-ocean-and-atmospheric-retrieval-algorithm",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "EUMETSAT completes development of CIMR ocean and atmospheric retrieval algorithm",
+  "excerpt": "The new algorithm enables consistent retrieval of global ocean parameters using data from the Copernicus Imaging Microwave Radiometer satellite mission.",
+  "bodyHtml": "<p>EUMETSAT announced on November 3, 2026, the completion of a study that developed and prototyped a physically based algorithm for the Copernicus Imaging Microwave Radiometer (CIMR). The project, which concluded on March 30, 2026, focused on creating a method to retrieve global ocean and atmospheric variables simultaneously.</p>\n<p>The algorithm uses a cascade retrieval approach to process multi-frequency observations at three spatial resolutions ranging from 5 km to 60 km. It utilizes the SURFEM-Ocean radiative transfer model to simulate ocean-atmosphere microwave radiances to estimate parameters including sea surface temperature, ocean wind speed and direction, sea surface salinity, and atmospheric variables such as total column water vapor, liquid water path, and precipitation rate.</p>\n<p>The study included the development of the physical algorithm, a proof of concept, the provision of scientific prototype software, and the preparation of test datasets. Evaluation results across various global scenes, from the tropics to polar regions, confirmed that the algorithm meets mission requirements.</p>",
+  "publishedAt": "2026-11-03T16:08:08Z",
+  "updatedAt": "2026-11-03T16:08:08Z",
+  "wordCount": 155,
+  "readingTimeMin": 1,
+  "topic": "CIMR Synergistic Global Ocean and Atmospheric Product",
+  "tags": [
+    "EUMETSAT",
+    "CIMR",
+    "Copernicus"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/cimr-synergistic-global-ocean-and-atmospheric-product"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EUMETSAT completed the development of a CIMR ocean and atmospheric retrieval algorithm.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The new algorithm enables consistent retrieval of global ocean parameters using data from the Copernicus Imaging Microwave Radiometer satellite mission.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT announced on November 3, 2026, the completion of a study that developed and prototyped a physically based algorithm for the Copernicus Imaging Microwave Radiometer (CIMR).",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The project concluded on March 30, 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The project focused on creating a method to retrieve global ocean and atmospheric variables simultaneously.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The algorithm uses a cascade retrieval approach to process multi-frequency observations at three spatial resolutions ranging from 5 km to 60 km.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The algorithm utilizes the SURFEM-Ocean radiative transfer model to simulate ocean-atmosphere microwave radiances.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The algorithm estimates parameters including sea surface temperature, ocean wind speed and direction, sea surface salinity, and atmospheric variables such as total column water vapor, liquid water path, and precipitation rate.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The study included the development of the physical algorithm, a proof of concept, the provision of scientific prototype software, and the preparation of test datasets.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Evaluation results across various global scenes, from the tropics to polar regions, confirmed that the algorithm meets mission requirements.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

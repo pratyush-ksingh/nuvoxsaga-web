@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-2.webp",
+    "alt": "Illustration: rows of small satellites in a factory under white light",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-issues-guidance-on-chip-resistor-cracking-in-printed-circuit-boards",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA issues guidance on chip resistor cracking in printed circuit boards",
+  "excerpt": "The bulletin follows observations of alumina substrate cracking in large resistors during environmental testing.",
+  "bodyHtml": "<p>NASA published a technical bulletin on November 3, 2026, regarding the cracking of thick-film chip resistors on printed circuit board assemblies. The agency identified two instances where resistors experienced transverse fractures during thermal cycling following vibration testing.</p>\n<p>According to the bulletin, failure analyses ruled out defective production lots and fatigue as causes. Instead, investigators identified factors including board flexure, component orientation, and excessive solder as contributing to the stress. The resistors involved in the failures were case size 2512.</p>\n<p>NASA recommends that engineers perform finite element analysis, control solder fillet height, and conduct functional thermal shock testing to mitigate these risks in future projects. The agency also advises avoiding the orientation of the long axis of large footprint ceramic components parallel to nearby printed circuit board edges to reduce susceptibility to damage.</p>",
+  "publishedAt": "2026-11-03T16:03:56Z",
+  "updatedAt": "2026-11-03T16:03:56Z",
+  "wordCount": 132,
+  "readingTimeMin": 1,
+  "topic": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
+  "tags": [
+    "NASA",
+    "electronics",
+    "testing"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA issues guidance on chip resistor cracking in printed circuit boards.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The bulletin follows observations of alumina substrate cracking in large resistors during environmental testing.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA published a technical bulletin on November 3, 2026, regarding the cracking of thick-film chip resistors on printed circuit board assemblies.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency identified two instances where resistors experienced transverse fractures during thermal cycling following vibration testing.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Failure analyses ruled out defective production lots and fatigue as causes.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Investigators identified factors including board flexure, component orientation, and excessive solder as contributing to the stress.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The resistors involved in the failures were case size 2512.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA recommends that engineers perform finite element analysis.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA recommends engineers control solder fillet height.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA recommends engineers conduct functional thermal shock testing to mitigate these risks in future projects.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency also advises avoiding the orientation of the long axis of large footprint ceramic components parallel to nearby printed circuit board edges to reduce susceptibility to damage.",
+      "source": "NASA"
+    }
+  ]
+}

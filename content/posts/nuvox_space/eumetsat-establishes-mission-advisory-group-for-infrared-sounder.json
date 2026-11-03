@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-establishes-mission-advisory-group-for-infrared-sounder",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "EUMETSAT establishes mission advisory group for Infrared Sounder",
+  "excerpt": "The group will provide independent advice on scientific concepts and data usability for the instrument hosted on MTG-S satellites.",
+  "bodyHtml": "<p>EUMETSAT announced on November 3, 2026, the establishment of the IRS Mission Advisory Group to support the Infrared Sounder instrument. The instrument is hosted on board the Meteosat Third Generation sounding satellites, known as MTG-S.</p>\n<p>The advisory group is tasked with providing independent advice regarding scientific concepts, calibration and validation approaches, and data usability for the mission. The scope of the mission includes retrieving high-frequency temperature and humidity profiles, wind fields, and trace gases such as ozone and CO. These products support the nowcasting of severe convective weather and assimilation into numerical weather prediction models.</p>\n<p>The group held a meeting on 25-26 November 2025 to discuss mission status, first acquisitions, and quality assessments. The agenda included reviews of commissioning and FM2 status, sub-pixel deselection and decontamination, and first geo-location results. The next meeting date is currently to be confirmed.</p>",
+  "publishedAt": "2026-11-03T16:05:00Z",
+  "updatedAt": "2026-11-03T16:05:00Z",
+  "wordCount": 139,
+  "readingTimeMin": 1,
+  "topic": "IRS Mission Advisory Group (IRS-MAG) November 2025",
+  "tags": [
+    "EUMETSAT",
+    "IRS",
+    "MTG-S"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/irs-mission-advisory-group-irs-mag-november-2025"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EUMETSAT establishes mission advisory group for Infrared Sounder",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The group will provide independent advice on scientific concepts and data usability for the instrument hosted on MTG-S satellites.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT announced on November 3, 2026, the establishment of the IRS Mission Advisory Group to support the Infrared Sounder instrument.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The instrument is hosted on board the Meteosat Third Generation sounding satellites, known as MTG-S.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The advisory group is tasked with providing independent advice regarding scientific concepts, calibration and validation approaches, and data usability for the mission.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The scope of the mission includes retrieving high-frequency temperature and humidity profiles, wind fields, and trace gases such as ozone and CO.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "These products support the nowcasting of severe convective weather and assimilation into numerical weather prediction models.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The group held a meeting on 25-26 November 2025 to discuss mission status, first acquisitions, and quality assessments.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The agenda included reviews of commissioning and FM2 status, sub-pixel deselection and decontamination, and first geo-location results.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The next meeting date is currently to be confirmed.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

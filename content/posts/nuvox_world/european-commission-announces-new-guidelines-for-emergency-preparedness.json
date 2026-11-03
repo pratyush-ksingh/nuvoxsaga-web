@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-announces-new-guidelines-for-emergency-preparedness",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission announces new guidelines for emergency preparedness",
+  "excerpt": "The initiative includes plans for an annual EU Preparedness Day starting on 23 October 2027.",
+  "bodyHtml": "<p>The European Commission announced new guidelines on November 3, 2026, to assist citizens and communities in preparing for emergencies. Commissioner for Equality, Preparedness and Crisis Management Hadja Lahbib presented the measures, which focus on helping people manage the first 72 hours of a crisis, integrating preparedness into education, ensuring disability-inclusive planning, and improving risk communication.</p>\n<p>The Commission also proposed the establishment of an annual EU Preparedness Day to be held every 23 October, beginning in 2027. This event is intended to encourage citizens to take an active role in emergency planning and to recognize the work of civil protection organizations.</p>\n<p>The date commemorates the 2001 establishment of the Civil Protection Mechanism. Additionally, the Commission adopted a recommendation on operational continuity and stress-testing to ensure that national civil protection contact points remain operational during disruptive events.</p>",
+  "publishedAt": "2026-11-03T16:19:20Z",
+  "updatedAt": "2026-11-03T16:19:20Z",
+  "wordCount": 135,
+  "readingTimeMin": 1,
+  "topic": "Commission takes new steps to prepare Europeans for growing crisis risks",
+  "tags": [
+    "European Commission",
+    "Civil Protection",
+    "EU Preparedness Day"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2324"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission announced new guidelines for emergency preparedness.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The initiative includes plans for an annual EU Preparedness Day starting on 23 October 2027.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced new guidelines on November 3, 2026, to assist citizens and communities in preparing for emergencies.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Commissioner for Equality, Preparedness and Crisis Management Hadja Lahbib presented the measures.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The measures focus on helping people manage the first 72 hours of a crisis.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The measures focus on integrating preparedness into education.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The measures focus on ensuring disability-inclusive planning.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The measures focus on improving risk communication.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission proposed the establishment of an annual EU Preparedness Day to be held every 23 October, beginning in 2027.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The EU Preparedness Day is intended to encourage citizens to take an active role in emergency planning.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The EU Preparedness Day is intended to recognize the work of civil protection organizations.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The date of October 23 commemorates the 2001 establishment of the Civil Protection Mechanism.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission adopted a recommendation on operational continuity and stress-testing.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The recommendation aims to ensure that national civil protection contact points remain operational during disruptive events.",
+      "source": "The European Commission"
+    }
+  ]
+}
