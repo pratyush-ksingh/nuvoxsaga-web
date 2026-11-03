@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-proposes-model-integration-contracts-for-testing-ai-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face proposes Model Integration Contracts for testing AI models",
+  "excerpt": "The new standard uses shrunk model fixtures to catch regressions in the Transformers library before they reach the main branch.",
+  "bodyHtml": "<p>Hugging Face announced a proposed standard called Model Integration Contracts (MIC) on November 3, 2026, to improve testing for the Transformers library. The system uses shrunk model fixtures, which are small versions of real model checkpoints with fewer layers, to run integration tests on CPU hardware.</p>\n<p>A Model Integration Contract consists of a pinned fixture, a runnable Markdown usage path, and human-reviewed baseline outputs. The company developed the tmic command-line interface to help users draft contracts and record baselines. This tool allows developers to measure candidate baselines on both CPU and GPU runs.</p>\n<p>The recipe for creating these fixtures involves four steps: shrinking the configuration, preserving preprocessing, building and validating weights, and freezing the final record. The process ensures that the model responds to inputs and maintains finite outputs, loss, and gradients.</p>\n<p>As of November 1, 2026, the MIC job in the Transformers continuous integration system reports failures without blocking pull requests. The company is currently evaluating how many real bugs the system catches and how often it generates false alarms before deciding if the process should block future updates.</p>",
+  "publishedAt": "2026-11-03T12:04:31Z",
+  "updatedAt": "2026-11-03T12:04:31Z",
+  "wordCount": 180,
+  "readingTimeMin": 1,
+  "topic": "Transformers Model Integration Contracts",
+  "tags": [
+    "Hugging Face",
+    "Transformers",
+    "AI testing"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/transformers-mic"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face proposes Model Integration Contracts for testing AI models.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The new standard uses shrunk model fixtures to catch regressions in the Transformers library before they reach the main branch.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced a proposed standard called Model Integration Contracts (MIC) on November 3, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system uses shrunk model fixtures, which are small versions of real model checkpoints with fewer layers.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The fixtures are used to run integration tests on CPU hardware.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "A Model Integration Contract consists of a pinned fixture, a runnable Markdown usage path, and human-reviewed baseline outputs.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The company developed the tmic command-line interface to help users draft contracts and record baselines.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The tmic tool allows developers to measure candidate baselines on both CPU and GPU runs.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The recipe for creating these fixtures involves four steps: shrinking the configuration, preserving preprocessing, building and validating weights, and freezing the final record.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The fixture creation process ensures that the model responds to inputs and maintains finite outputs, loss, and gradients.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "As of November 1, 2026, the MIC job in the Transformers continuous integration system reports failures without blocking pull requests.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The company is currently evaluating how many real bugs the system catches and how often it generates false alarms before deciding if the process should block future updates.",
+      "source": "Hugging Face"
+    }
+  ]
+}

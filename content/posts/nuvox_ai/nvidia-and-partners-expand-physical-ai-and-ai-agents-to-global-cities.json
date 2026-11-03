@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-and-partners-expand-physical-ai-and-ai-agents-to-global-cities",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "NVIDIA and partners expand physical AI and AI agents to global cities",
+  "excerpt": "Shared computing infrastructure is being deployed across multiple international locations to support municipal services and infrastructure planning.",
+  "bodyHtml": "<p>According to an announcement published by NVIDIA on November 2, 2026, NVIDIA and its partners are expanding physical artificial intelligence and artificial intelligence agents to cities worldwide. The expansion builds on initiatives announced at GTC Berlin and provides a shared computing infrastructure that serves as a common foundation for city departments, neighboring municipalities, and local developers.</p>\n<p>In Spain, 1MillionBot combines open source ALIA models trained at the Barcelona Supercomputing Center with NVIDIA Nemotron and other models in resident-service agents deployed across more than 150 locations. In Malaysia, ITMAX is scaling its SamurAI V2 vision agents on NVIDIA RTX PRO 6000 GPUs to support more than 17,000 cameras by the year 2027.</p>\n<p>The deployments utilize hardware including NVIDIA RTX workstations and small graphical processing unit systems, as well as NVIDIA Cosmos world models, Metropolis libraries, and RTX PRO accelerators.</p>",
+  "publishedAt": "2026-11-03T12:04:05Z",
+  "updatedAt": "2026-11-03T12:04:05Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+  "tags": [
+    "NVIDIA",
+    "Agentic AI",
+    "Cosmos",
+    "Nemotron"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA and partners are expanding physical AI and AI agents to global cities.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Shared computing infrastructure is being deployed across multiple international locations to support municipal services and infrastructure planning.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA published an announcement on November 2, 2026, stating that NVIDIA and its partners are expanding physical artificial intelligence and artificial intelligence agents to cities worldwide.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The expansion builds on initiatives announced at GTC Berlin.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The initiatives provide a shared computing infrastructure that serves as a common foundation for city departments, neighboring municipalities, and local developers.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "In Spain, 1MillionBot combines open source ALIA models trained at the Barcelona Supercomputing Center with NVIDIA Nemotron and other models in resident-service agents deployed across more than 150 locations.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "In Malaysia, ITMAX is scaling its SamurAI V2 vision agents on NVIDIA RTX PRO 6000 GPUs to support more than 17,000 cameras by 2027.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The deployments utilize hardware including NVIDIA RTX workstations, small GPU systems, NVIDIA Cosmos world models, Metropolis libraries, and RTX PRO accelerators.",
+      "source": "NVIDIA"
+    }
+  ]
+}
