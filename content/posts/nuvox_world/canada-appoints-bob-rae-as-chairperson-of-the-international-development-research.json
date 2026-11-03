@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-appoints-bob-rae-as-chairperson-of-the-international-development-research",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Canada appoints Bob Rae as chairperson of the International Development Research Centre",
+  "excerpt": "The former ambassador to the United Nations will lead the board of the federal Crown corporation.",
+  "bodyHtml": "<p>The Government of Canada announced on November 2, 2026, the appointment of the Honourable Bob Rae as the chairperson of the Board of Governors of the International Development Research Centre (IDRC). The appointment was made by the Honourable Randeep Sarai, Secretary of State (International Development).</p>\n<p>The IDRC is a federal Crown corporation established in 1970 that reports to Parliament through the secretary of state (international development). The board consists of up to 14 members who provide strategic direction, stewardship, and oversight for the organization.</p>\n<p>Mr. Rae previously served as Canada’s ambassador and permanent representative to the United Nations. The Board of Governors oversees the centre&#x27;s investments in research within developing countries and its efforts to share knowledge with policy makers.</p>",
+  "publishedAt": "2026-11-03T02:19:33Z",
+  "updatedAt": "2026-11-03T02:19:33Z",
+  "wordCount": 120,
+  "readingTimeMin": 1,
+  "topic": "Secretary of State Sarai announces Government of Canada’s appointment of new chairperson of board of International Development Research Centre",
+  "tags": [
+    "Canada",
+    "International Development Research Centre",
+    "Bob Rae"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/11/secretary-of-state-sarai-announces-government-of-canadas-appointment-of-new-chairperson-of-board-of-international-development-research-centre.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada appoints Bob Rae as chairperson of the International Development Research Centre.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The former ambassador to the United Nations will lead the board of the federal Crown corporation.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on November 2, 2026, the appointment of the Honourable Bob Rae as the chairperson of the Board of Governors of the International Development Research Centre (IDRC).",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The appointment was made by the Honourable Randeep Sarai, Secretary of State (International Development).",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The IDRC is a federal Crown corporation established in 1970.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The IDRC reports to Parliament through the secretary of state (international development).",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The board consists of up to 14 members who provide strategic direction, stewardship, and oversight for the organization.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Mr. Rae previously served as Canada’s ambassador and permanent representative to the United Nations.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Board of Governors oversees the centre's investments in research within developing countries.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Board of Governors oversees the centre's efforts to share knowledge with policy makers.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

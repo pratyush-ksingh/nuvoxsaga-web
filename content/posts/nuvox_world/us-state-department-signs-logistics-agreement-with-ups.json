@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "us-state-department-signs-logistics-agreement-with-ups",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "US State Department signs logistics agreement with UPS",
+  "excerpt": "The agreement allows the department to use UPS logistics networks for global disaster response operations.",
+  "bodyHtml": "<p>The US State Department signed a memorandum of understanding with the United Parcel Service on November 2, 2026. The agreement establishes a framework for the department to utilize the company&#x27;s cargo transportation and supply chain expertise during international disaster response operations.</p>\n<p>According to the US State Department, the partnership is intended to facilitate the delivery of life-saving assistance. The department stated that the collaboration brings the best of American private sector logistics capability to bear alongside the Department of State’s disaster response expertise.</p>\n<p>UPS has previously provided logistics support to the Department of State and its implementers during recent crises. These past efforts included support during Hurricane Melissa, earthquakes in Venezuela and Colombia, and floods in Nepal.</p>\n<p>The Department of State stated that it looks forward to continued collaboration with UPS. The department also reiterated its commitment to advancing American private sector involvement in disaster response efforts around the world.</p>",
+  "publishedAt": "2026-11-03T02:10:55Z",
+  "updatedAt": "2026-11-03T02:10:55Z",
+  "wordCount": 150,
+  "readingTimeMin": 1,
+  "topic": "U.S. Department of State Signs Humanitarian Logistics Memorandum of Understanding with UPS to Support Disaster Response Efforts",
+  "tags": [
+    "US State Department",
+    "UPS",
+    "disaster response"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-department-of-state-signs-humanitarian-logistics-memorandum-of-understanding-with-ups-to-support-disaster-response-efforts/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US State Department signed a logistics agreement with UPS.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The agreement allows the department to use UPS logistics networks for global disaster response operations.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The US State Department signed a memorandum of understanding with the United Parcel Service on November 2, 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The agreement establishes a framework for the department to utilize the company's cargo transportation and supply chain expertise during international disaster response operations.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "According to the US State Department, the partnership is intended to facilitate the delivery of life-saving assistance.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The department stated that the collaboration brings the best of American private sector logistics capability to bear alongside the Department of State’s disaster response expertise.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "UPS has previously provided logistics support to the Department of State and its implementers during recent crises.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Past efforts included support during Hurricane Melissa, earthquakes in Venezuela and Colombia, and floods in Nepal.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Department of State stated that it looks forward to continued collaboration with UPS.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The department reiterated its commitment to advancing American private sector involvement in disaster response efforts around the world.",
+      "source": "The US State Department"
+    }
+  ]
+}

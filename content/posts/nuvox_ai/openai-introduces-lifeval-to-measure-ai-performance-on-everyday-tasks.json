@@ -1,0 +1,82 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-introduces-lifeval-to-measure-ai-performance-on-everyday-tasks",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "OpenAI introduces LifeVal to measure AI performance on everyday tasks",
+  "excerpt": "The evaluation tool tracks model capabilities in areas including caregiving, personal finances, and household administration.",
+  "bodyHtml": "<p>OpenAI announced on November 2, 2026, the introduction of LifeVal, an evaluation framework designed to measure artificial intelligence performance on practical tasks. The company developed the tool to track progress in areas where users seek assistance, such as managing household responsibilities, accessing government services, and coordinating caregiving.</p>\n<p>To create the evaluation, OpenAI utilized data from the American Time Use Survey and the Multinational Time Use Study, supplemented by a survey of 3,995 respondents. The company stated that it has used LifeVal over the past year to improve model performance in browser use, computer use, and connector tasks.</p>\n<p>OpenAI reported that its latest models score highly on these practical workflows. The company stated that enabling these capabilities in ChatGPT expands the types of tasks the model can help with, moving the tool towards an agentic personal assistant.</p>",
+  "publishedAt": "2026-11-03T02:10:23Z",
+  "updatedAt": "2026-11-03T02:10:23Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "LifeVal",
+  "tags": [
+    "OpenAI",
+    "LifeVal",
+    "ChatGPT"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/lifeval"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI introduces LifeVal to measure AI performance on everyday tasks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The evaluation tool tracks model capabilities in areas including caregiving, personal finances, and household administration.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced on November 2, 2026, the introduction of LifeVal.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "LifeVal is an evaluation framework designed to measure artificial intelligence performance on practical tasks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company developed the tool to track progress in areas where users seek assistance, such as managing household responsibilities, accessing government services, and coordinating caregiving.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "To create the evaluation, OpenAI utilized data from the American Time Use Survey.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI utilized data from the Multinational Time Use Study.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The data was supplemented by a survey of 3,995 respondents.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company stated that it has used LifeVal over the past year to improve model performance in browser use, computer use, and connector tasks.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI reported that its latest models score highly on these practical workflows.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company stated that enabling these capabilities in ChatGPT expands the types of tasks the model can help with.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The capabilities move the tool towards an agentic personal assistant.",
+      "source": "OpenAI"
+    }
+  ]
+}
