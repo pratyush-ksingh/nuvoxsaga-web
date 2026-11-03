@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "regina-barzilay-and-james-collins-win-2026-pritzker-prize",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Regina Barzilay and James Collins win 2026 Pritzker Prize",
+  "excerpt": "The MIT professors received the award for pioneering AI-enabled antibiotic discovery.",
+  "bodyHtml": "<p>According to MIT News on November 2, 2026, Regina Barzilay and James Collins are the recipients of the 2026 Pritzker Prize for AI in Science Research Excellence. The University of Chicago established the award in 2024 in partnership with Caltech.</p>\n<p>The award recognizes their joint work in pioneering AI-enabled antibiotic discovery, integrating deep learning, bioengineering, and experimental validation to identify novel antibacterial candidates against drug-resistant pathogens. Barzilay is MIT’s School of Engineering Distinguished Professor of AI and Health, and Collins is MIT’s Termeer Professor of Medical Engineering and Science.</p>\n<p>Barzilay and Collins are faculty co-leads of the Abdul Latif Jameel Clinic for Machine Learning in Health and affiliates of the MIT Schwarzman College of Computing and the MIT School of Engineering. They published their first breakthrough paper together in 2020 in Cell with then-MIT postdoc and first author Jonathan Stokes.</p>",
+  "publishedAt": "2026-11-03T06:05:11Z",
+  "updatedAt": "2026-11-03T06:05:11Z",
+  "wordCount": 140,
+  "readingTimeMin": 1,
+  "topic": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+  "tags": [
+    "Regina Barzilay",
+    "James Collins",
+    "MIT",
+    "University of Chicago"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Regina Barzilay and James Collins won the 2026 Pritzker Prize.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The MIT professors received the award for pioneering AI-enabled antibiotic discovery.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "According to MIT News on November 2, 2026, Regina Barzilay and James Collins are the recipients of the 2026 Pritzker Prize for AI in Science Research Excellence.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The University of Chicago established the award in 2024 in partnership with Caltech.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The award recognizes their joint work in pioneering AI-enabled antibiotic discovery, integrating deep learning, bioengineering, and experimental validation to identify novel antibacterial candidates against drug-resistant pathogens.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Barzilay is MIT’s School of Engineering Distinguished Professor of AI and Health, and Collins is MIT’s Termeer Professor of Medical Engineering and Science.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Barzilay and Collins are faculty co-leads of the Abdul Latif Jameel Clinic for Machine Learning in Health and affiliates of the MIT Schwarzman College of Computing and the MIT School of Engineering.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "They published their first breakthrough paper together in 2020 in Cell with then-MIT postdoc and first author Jonathan Stokes.",
+      "source": "MIT News"
+    }
+  ]
+}
