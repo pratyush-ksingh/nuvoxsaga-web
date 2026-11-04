@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "professor-dapo-akande-elected-as-judge-to-international-court-of-justice",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Professor Dapo Akande elected as judge to International Court of Justice",
+  "excerpt": "A UK judge has been elected to the International Court of Justice following a United Nations vote.",
+  "bodyHtml": "<p>The UK government announced on November 3, 2026, that Professor Dapo Akande has been elected as a judge to the International Court of Justice following a United Nations vote. The leading international lawyer and academic received support from a majority of UN Member States.</p>\n<p>Prime Minister Andy Burnham stated that the election signals that the UK is back on the world stage and ready to play its part in ensuring global stability and upholding the rule of law. Foreign Secretary Ed Miliband stated that the election is a victory for the UK&#x27;s commitment to the rule of law.</p>\n<p>Professor Akande is a Professor of Public International Law and a Fellow of All Souls College, Oxford, and is also an elected member of the UN International Law Commission. He will serve as a judge at the International Court of Justice for the next 9 years.</p>",
+  "publishedAt": "2026-11-04T06:15:31Z",
+  "updatedAt": "2026-11-04T06:15:31Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "UK judge takes on key role in upholding international law at International Court of Justice",
+  "tags": [
+    "International Court of Justice",
+    "United Nations",
+    "UK government",
+    "UN International Law Commission"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/uk-judge-takes-on-key-role-in-upholding-international-law-at-international-court-of-justice"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Professor Dapo Akande was elected as a judge to the International Court of Justice.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "A UK judge was elected to the International Court of Justice following a United Nations vote.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced on November 3, 2026, that Professor Dapo Akande was elected as a judge to the International Court of Justice following a UN vote.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Professor Akande received support from a majority of UN Member States.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Prime Minister Andy Burnham stated that the election signals that the UK is back on the world stage and ready to play its part in ensuring global stability and upholding the rule of law.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Foreign Secretary Ed Miliband stated that the election is a victory for the UK's commitment to the rule of law.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Professor Akande is a Professor of Public International Law, a Fellow of All Souls College, Oxford, and an elected member of the UN International Law Commission.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Professor Akande will serve as a judge at the International Court of Justice for the next 9 years.",
+      "source": "The UK government"
+    }
+  ]
+}

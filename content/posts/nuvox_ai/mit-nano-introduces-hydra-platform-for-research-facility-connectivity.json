@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-nano-introduces-hydra-platform-for-research-facility-connectivity",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "MIT.nano introduces Hydra platform for research facility connectivity",
+  "excerpt": "The open-source tool synchronizes data across laboratory management systems to help researchers locate specialized equipment.",
+  "bodyHtml": "<p>MIT.nano presented the Hydra platform at the 2026 NEMO User Meeting held October 5–6, 2026. According to MIT News, the open-source system is designed to connect multiple NanoFab Equipment Management and Operations (NEMO) installations to synchronize information across research facilities in real time.</p>\n<p>Hydra functions by drawing data directly from existing facility management systems rather than requiring manual database updates. The platform is a key component of the NEMC Technical Concierge, a program that aims to help researchers identify and access specialized capabilities across a network of facilities. The system is being developed with support from the Northeast Microelectronics Coalition hub.</p>\n<p>The platform is intended to address challenges in microelectronics research and development where progress depends on moving between specialized capabilities. By connecting multiple NEMO installations, Hydra allows researchers to find specialized equipment without needing to know which laboratory holds the relevant tools. The project reflects a broader philosophy that research infrastructure must evolve as research itself changes.</p>",
+  "publishedAt": "2026-11-04T06:03:55Z",
+  "updatedAt": "2026-11-04T06:03:55Z",
+  "wordCount": 158,
+  "readingTimeMin": 1,
+  "topic": "Building connections across the research infrastructure",
+  "tags": [
+    "MIT.nano",
+    "NEMO",
+    "Hydra",
+    "Northeast Microelectronics Coalition"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT.nano introduced the Hydra platform for research facility connectivity.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The open-source tool synchronizes data across laboratory management systems to help researchers locate specialized equipment.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "MIT.nano presented the Hydra platform at the 2026 NEMO User Meeting held October 5–6, 2026.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The open-source system is designed to connect multiple NanoFab Equipment Management and Operations (NEMO) installations to synchronize information across research facilities in real time.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "Hydra functions by drawing data directly from existing facility management systems rather than requiring manual database updates.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The platform is a key component of the NEMC Technical Concierge, a program that aims to help researchers identify and access specialized capabilities across a network of facilities.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The system is being developed with support from the Northeast Microelectronics Coalition hub.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The platform is intended to address challenges in microelectronics research and development where progress depends on moving between specialized capabilities.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "By connecting multiple NEMO installations, Hydra allows researchers to find specialized equipment without needing to know which laboratory holds the relevant tools.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The project reflects a broader philosophy that research infrastructure must evolve as research itself changes.",
+      "source": "MIT News"
+    }
+  ]
+}

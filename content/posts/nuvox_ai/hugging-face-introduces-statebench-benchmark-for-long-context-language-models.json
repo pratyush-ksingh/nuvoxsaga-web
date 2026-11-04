@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-3.webp",
+    "alt": "Illustration: close-up of a notebook with hand-drawn diagrams next to a glowing laptop, faceless",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-introduces-statebench-benchmark-for-long-context-language-models",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Hugging Face introduces StateBench benchmark for long-context language models",
+  "excerpt": "The new benchmark tests how language models track state changes over long documents across four complexity levels.",
+  "bodyHtml": "<p>Hugging Face introduced StateBench on November 3, 2026, a benchmark for long-context state tracking designed to test how well language models keep track of information about entities in long documents as they evolve. State tracking underlies tasks from reading code to following a story.</p>\n<p>The benchmark consists of four difficulty levels allowing increasingly complex state update operations, ranging from r-trivial problems using immutable assignment to general finite problems involving assignment by reference. Researchers evaluated open pretrained models and frontier models including Gemini 3.8 Flash, Claude Opus 5.5, and GPT-6 Sol and Luna using the benchmark.</p>\n<p>Testing showed that frontier models performed well on r-trivial and aperiodic problems, but accuracy fell sharply on soluble and general finite problems as inputs grew longer. Models trained directly on the task demonstrated that recurrent and hybrid architectures like Gated DeltaNet can generalize much farther than transformers.</p>",
+  "publishedAt": "2026-11-04T06:08:27Z",
+  "updatedAt": "2026-11-04T06:08:27Z",
+  "wordCount": 142,
+  "readingTimeMin": 1,
+  "topic": "StateBench: Testing how language models track state changes over long documents",
+  "tags": [
+    "Hugging Face",
+    "StateBench",
+    "Gemini 3.8 Flash",
+    "Claude Opus 5.5"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/allenai/statebench"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face introduced the StateBench benchmark for long-context language models.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The StateBench benchmark tests how language models track state changes over long documents across four complexity levels.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face introduced StateBench on November 3, 2026, to evaluate how well language models track information about entities in long documents as they evolve.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "State tracking underlies tasks from reading code to following a story.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The benchmark's four difficulty levels range from r-trivial problems using immutable assignment to general finite problems involving assignment by reference.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Researchers evaluated open pretrained models and frontier models including Gemini 3.8 Flash, Claude Opus 5.5, and GPT-6 Sol and Luna using the benchmark.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Testing showed that frontier models performed well on r-trivial and aperiodic problems, but accuracy fell sharply on soluble and general finite problems as inputs grew longer.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Models trained directly on the task demonstrated that recurrent and hybrid architectures like Gated DeltaNet can generalize much farther than transformers.",
+      "source": "Hugging Face"
+    }
+  ]
+}

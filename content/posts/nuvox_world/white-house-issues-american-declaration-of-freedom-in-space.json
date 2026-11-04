@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "white-house-issues-american-declaration-of-freedom-in-space",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "White House issues American Declaration of Freedom in Space",
+  "excerpt": "President Donald J. Trump proclaimed that outer space beyond Earth is open to exploration and use by American citizens.",
+  "bodyHtml": "<p>According to the White House, President Donald J. Trump issued the American Declaration of Freedom in Space on November 3, 2026. The proclamation states that the solar system and all of outer space beyond Earth are the province of all humans.</p>\n<p>The White House announced that outer space is open to exploration, development, use, and the establishment of a permanent presence by American citizens consistent with United States law and international obligations. The administration stated that the United States will lead the way in the exploration, development, use, and settlement of these new frontiers.</p>\n<p>The United States plans to return to the Moon by 2028. The administration intends to lay the foundation for a permanent American lunar presence and aims to hasten the day when an American becomes the first human to set foot on the red dunes of Mars.</p>",
+  "publishedAt": "2026-11-04T06:22:18Z",
+  "updatedAt": "2026-11-04T06:22:18Z",
+  "wordCount": 140,
+  "readingTimeMin": 1,
+  "topic": "THE AMERICAN DECLARATION OF FREEDOM IN SPACE",
+  "tags": [
+    "White House",
+    "Donald J. Trump",
+    "Moon",
+    "Mars"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/11/the-american-declaration-of-freedom-in-space/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The White House issued the American Declaration of Freedom in Space (headline)",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Donald J. Trump proclaimed that outer space beyond Earth is open to exploration and use by American citizens (dek)",
+      "source": "The White House"
+    },
+    {
+      "claim": "Trump issued the proclamation on November 3, 2026",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation states that the solar system and all of outer space beyond Earth are the province of all humans",
+      "source": "The White House"
+    },
+    {
+      "claim": "Outer space is open to exploration, development, use, and permanent presence by American citizens consistent with US law and international obligations",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration stated the US will lead the way in the exploration, development, use, and settlement of these new frontiers",
+      "source": "The White House"
+    },
+    {
+      "claim": "The United States plans to return to the Moon by 2028",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration intends to lay the foundation for a permanent American lunar presence",
+      "source": "The White House"
+    },
+    {
+      "claim": "The administration aims to hasten the day an American becomes the first human to set foot on the red dunes of Mars",
+      "source": "The White House"
+    }
+  ]
+}

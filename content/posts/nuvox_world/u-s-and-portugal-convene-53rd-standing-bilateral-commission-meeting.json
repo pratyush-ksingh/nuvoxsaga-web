@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "u-s-and-portugal-convene-53rd-standing-bilateral-commission-meeting",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "U.S. and Portugal convene 53rd Standing Bilateral Commission meeting",
+  "excerpt": "The governments confirmed the inaugural CEO Forum Plenary Meeting to be held on November 10, 2026, in Lisbon.",
+  "bodyHtml": "<p>The governments of the United States and the Portuguese Republic convened the 53rd meeting of the Portugal-United States Standing Bilateral Commission, according to the US State Department.</p>\n<p>The dialogue focused on defense and security cooperation, cooperation in the Azores and Lajes, and economic security. Both delegations reaffirmed NATO’s central role in Euro-Atlantic security and their shared commitment to allied defense investment in line with commitments made at the 2025 NATO Summit in The Hague. Both sides confirmed the inaugural CEO Forum Plenary Meeting to be held on November 10, 2026, in Lisbon.</p>\n<p>The United States congratulated Portugal on its election to the UN Security Council for the 2027-2028 term, and both delegations agreed to cooperate within the Council to address pressing topics of the global agenda. The 54th Standing Bilateral Commission will meet in Lisbon in 2027.</p>",
+  "publishedAt": "2026-11-04T06:14:21Z",
+  "updatedAt": "2026-11-04T06:14:21Z",
+  "wordCount": 137,
+  "readingTimeMin": 1,
+  "topic": "Joint Statement on the 53rd U.S.-Portugal Standing Bilateral Commission",
+  "tags": [
+    "United States",
+    "Portugal",
+    "Standing Bilateral Commission",
+    "UN Security Council"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-53rd-u-s-portugal-standing-bilateral-commission/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "U.S. and Portugal convened the 53rd Standing Bilateral Commission meeting (headline)",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The governments confirmed the inaugural CEO Forum Plenary Meeting to be held on November 10, 2026, in Lisbon.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The governments convened the 53rd meeting, according to the US State Department.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The dialogue focused on defense and security cooperation, cooperation in the Azores and Lajes, and economic security.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Both delegations reaffirmed NATO's central role in Euro-Atlantic security and their shared commitment to allied defense investment in line with 2025 NATO Summit in The Hague commitments.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The United States congratulated Portugal on its election to the UN Security Council for the 2027-2028 term.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Both delegations agreed to cooperate within the Council to address pressing topics of the global agenda.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The 54th Standing Bilateral Commission will meet in Lisbon in 2027.",
+      "source": "The US State Department"
+    }
+  ]
+}

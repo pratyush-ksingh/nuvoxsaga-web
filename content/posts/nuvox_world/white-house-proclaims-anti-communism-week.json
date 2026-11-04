@@ -1,0 +1,65 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-2.webp",
+    "alt": "Illustration: aerial view of a large river through dense rainforest",
+    "credit": "AI illustration"
+  },
+  "slug": "white-house-proclaims-anti-communism-week",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "White House proclaims Anti-Communism Week",
+  "excerpt": "President Donald J. Trump proclaimed the week of November 1 through November 7 as Anti-Communism Week.",
+  "bodyHtml": "<p>The White House announced on November 3, 2026, that President Donald J. Trump proclaimed the week of November 1 through November 7 as Anti-Communism Week. The proclamation states that human freedom has been threatened for more than a century by communist and socialist ideologies that eliminate individual opportunity and subjugate individuals to the state.</p>\n<p>The proclamation further notes that the American Republic was founded upon the conviction that rights are inherent, liberties are sacred, and the government derives its just powers from the consent of the governed. These principles have defined the national character for over 250 years and continue to distinguish the American way of life from that of other countries.</p>\n<p>The White House stated that the administration will defend the Constitution, uphold the dignity of every individual, and strengthen the free market. The President called upon all Americans to stand firm in their defense against any threat to the American way of life and to protect the burning flame of liberty from the darkness of communism.</p>",
+  "publishedAt": "2026-11-04T06:21:04Z",
+  "updatedAt": "2026-11-04T06:21:04Z",
+  "wordCount": 168,
+  "readingTimeMin": 1,
+  "topic": "ANTI-COMMUNISM WEEK, 2026",
+  "tags": [
+    "White House",
+    "Donald J. Trump"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/11/anti-communism-week-2026/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The White House proclaimed Anti-Communism Week.",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Donald J. Trump proclaimed the week of November 1 through November 7 as Anti-Communism Week.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House announced on November 3, 2026, that President Donald J. Trump proclaimed the week of November 1 through November 7 as Anti-Communism Week.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation states that human freedom has been threatened for more than a century by communist and socialist ideologies that eliminate individual opportunity and subjugate individuals to the state.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation notes that the American Republic was founded upon the conviction that rights are inherent, liberties are sacred, and the government derives its just powers from the consent of the governed.",
+      "source": "The White House"
+    },
+    {
+      "claim": "These principles have defined the national character for over 250 years and continue to distinguish the American way of life from that of other countries.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The White House stated that the administration will defend the Constitution, uphold the dignity of every individual, and strengthen the free market.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The President called upon all Americans to stand firm in their defense against any threat to the American way of life and to protect the burning flame of liberty from the darkness of communism.",
+      "source": "The White House"
+    }
+  ]
+}
