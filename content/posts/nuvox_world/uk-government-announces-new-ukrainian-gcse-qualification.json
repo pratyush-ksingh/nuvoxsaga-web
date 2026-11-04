@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-announces-new-ukrainian-gcse-qualification",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government announces new Ukrainian GCSE qualification",
+  "excerpt": "The qualification is expected to be available for first teaching in England, Wales and Northern Ireland from September 2028.",
+  "bodyHtml": "<p>According to the UK government, a new Ukrainian GCSE will be introduced to help young people preserve their language and cultural heritage while opening doors to future opportunities. The UK government announced the qualification on November 4, 2026.</p>\n<p>The qualification will be open to all pupils and is expected to be available for first teaching in England, Wales and Northern Ireland from September 2028, with first assessments taking place in 2029. AQA will begin the next phase of development to design the qualification.</p>\n<p>In line with other modern foreign language GCSEs, the qualification will assess listening, speaking, reading and writing skills, and recognize the cultural and historical contexts shaping the Ukrainian language.</p>",
+  "publishedAt": "2026-11-04T12:09:43Z",
+  "updatedAt": "2026-11-04T12:09:43Z",
+  "wordCount": 112,
+  "readingTimeMin": 1,
+  "topic": "New Ukrainian GCSE to help young people preserve their heritage",
+  "tags": [
+    "UK government",
+    "Ukrainian GCSE",
+    "AQA"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/news/new-ukrainian-gcse-to-help-young-people-preserve-their-heritage"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government announced a new Ukrainian GCSE qualification.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The qualification is expected to be available for first teaching in England, Wales and Northern Ireland from September 2028.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "According to the UK government, a new Ukrainian GCSE will be introduced to help young people preserve their language and cultural heritage while opening doors to future opportunities.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced the qualification on November 4, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The qualification will be open to all pupils.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "First assessments for the qualification are scheduled to take place in 2029.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "AQA will begin the next phase of development to design the qualification.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "In line with other modern foreign language GCSEs, the qualification will assess listening, speaking, reading and writing skills, and recognize the cultural and historical contexts shaping the Ukrainian language.",
+      "source": "The UK government"
+    }
+  ]
+}

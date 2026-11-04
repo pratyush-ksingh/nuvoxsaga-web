@@ -1,0 +1,63 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-updates-rules-for-giving-evidence-from-abroad",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government updates rules for giving evidence from abroad",
+  "excerpt": "The updated country guidance details rules for video testimony in UK tribunals for Burkina Faso and Myanmar.",
+  "bodyHtml": "<p>The UK government announced on November 4, 2026, that it updated its guidance regarding giving evidence from abroad to UK tribunals. The updates modify rules for Burkina Faso and Myanmar to reflect new regulations for those countries.</p>\n<p>The country-by-country guidance explains whether individuals can provide evidence by video link from each country in a UK tribunal case. It also details which kinds of tribunals permit this method and what individuals must do before giving evidence.</p>\n<p>If a specific country is not listed in the guidance, the government directs individuals to contact the Taking of Evidence Team at the Foreign, Commonwealth &amp; Development Office or reach out to the relevant tribunal directly.</p>",
+  "publishedAt": "2026-11-04T12:10:43Z",
+  "updatedAt": "2026-11-04T12:10:43Z",
+  "wordCount": 111,
+  "readingTimeMin": 1,
+  "topic": "Guidance: Giving evidence from abroad to UK tribunals: rules by country",
+  "tags": [
+    "UK government",
+    "Burkina Faso",
+    "Myanmar",
+    "Foreign, Commonwealth & Development Office"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/publications/giving-evidence-from-abroad-to-uk-tribunals-rules-by-country"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated rules for giving evidence from abroad.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The updated country guidance details rules for video testimony in UK tribunals for Burkina Faso and Myanmar.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced on November 4, 2026, that it updated its guidance regarding giving evidence from abroad to UK tribunals.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The updates modify rules for Burkina Faso and Myanmar to reflect new regulations for those countries.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The country-by-country guidance explains whether individuals can provide evidence by video link from each country in a UK tribunal case.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The guidance details which kinds of tribunals permit video testimony and what individuals must do before giving evidence.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "If a specific country is not listed in the guidance, the government directs individuals to contact the Taking of Evidence Team at the Foreign, Commonwealth & Development Office or reach out to the relevant tribunal directly.",
+      "source": "The UK government"
+    }
+  ]
+}

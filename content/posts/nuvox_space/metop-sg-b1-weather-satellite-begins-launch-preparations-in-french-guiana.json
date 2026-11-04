@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/space-launch-2.webp",
+    "alt": "Illustration: rocket exhaust plume rising into a twilight sky, seen from far away",
+    "credit": "AI illustration"
+  },
+  "slug": "metop-sg-b1-weather-satellite-begins-launch-preparations-in-french-guiana",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "launch",
+  "title": "MetOp-SG-B1 weather satellite begins launch preparations in French Guiana",
+  "excerpt": "The satellite has been moved to a cleanroom at Europe’s Spaceport following its arrival from France.",
+  "bodyHtml": "<p>The European Space Agency announced on November 4, 2026, that the MetOp Second Generation-B1 weather satellite has been transferred to a cleanroom at Europe’s Spaceport in French Guiana. The satellite was removed from its transport container after being held in storage upon its arrival on October 16.</p>\n<p>The satellite arrived in Kourou after departing Bordeaux, France, on October 6 aboard the transport vessel Canopée. The vessel uses an innovative sail system to help reduce fuel consumption and associated carbon dioxide emissions during transport.</p>\n<p>Teams are now beginning the final checks and preparations for the satellite. The launch campaign will progress through a series of key milestones, including switching on the satellite, final checks and fuelling. MetOp-SG-B1 will then be encapsulated within the fairing of its Ariane 6 launcher before being transported to the launch pad for liftoff, planned towards the end of the year.</p>",
+  "publishedAt": "2026-11-04T12:06:31Z",
+  "updatedAt": "2026-11-04T12:06:31Z",
+  "wordCount": 144,
+  "readingTimeMin": 1,
+  "topic": "Time to wake up MetOp-SG-B1 weather satellite",
+  "tags": [
+    "MetOp-SG-B1",
+    "European Space Agency",
+    "Ariane 6",
+    "French Guiana"
+  ],
+  "source": {
+    "name": "The European Space Agency",
+    "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/Time_to_wake_up_MetOp-SG-B1_weather_satellite"
+  },
+  "sources": [
+    "The European Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MetOp-SG-B1 weather satellite begins launch preparations in French Guiana.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite has been moved to a cleanroom at Europe’s Spaceport following its arrival from France.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The European Space Agency announced on November 4, 2026, that the MetOp Second Generation-B1 weather satellite has been transferred to a cleanroom at Europe’s Spaceport in French Guiana.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite was removed from its transport container after being held in storage upon its arrival on October 16.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The satellite arrived in Kourou after departing Bordeaux, France, on October 6 aboard the transport vessel Canopée.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The vessel uses an innovative sail system to help reduce fuel consumption and associated carbon dioxide emissions during transport.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "Teams are now beginning the final checks and preparations for the satellite.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "The launch campaign will progress through a series of key milestones, including switching on the satellite, final checks and fuelling.",
+      "source": "The European Space Agency"
+    },
+    {
+      "claim": "MetOp-SG-B1 will then be encapsulated within the fairing of its Ariane 6 launcher before being transported to the launch pad for liftoff, planned towards the end of the year.",
+      "source": "The European Space Agency"
+    }
+  ]
+}

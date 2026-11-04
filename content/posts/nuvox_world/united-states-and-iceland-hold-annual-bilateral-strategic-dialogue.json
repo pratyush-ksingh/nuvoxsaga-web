@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "united-states-and-iceland-hold-annual-bilateral-strategic-dialogue",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "United States and Iceland hold annual bilateral Strategic Dialogue",
+  "excerpt": "Officials from both nations met in Reykjavik to discuss security cooperation and regional domain awareness.",
+  "bodyHtml": "<p>The United States and Iceland held the annual bilateral Strategic Dialogue in Reykjavik from November 2-3, according to the US State Department.</p>\n<p>The meeting was led by U.S. Department of State Bureau of European and Eurasian Affairs Deputy Assistant Secretary Peter Andreoli, Office of the Secretary of War Principal Director for Europe and NATO Policy Alton Buland, Icelandic Director General for International Affairs and Policy Anna Hjartardóttir, and Director General for Defense Jónas Allansson.</p>\n<p>Participants also included U.S. Ambassador to Iceland Billy Long and Icelandic Ambassador to the United States Svanhildur Hólm Valsdóttir. The United States and Iceland marked 75 years of close bilateral defense and security cooperation.</p>\n<p>Discussions addressed the evolving European security landscape and wider global security challenges, with particular emphasis on enhancing cooperation in the Arctic, reinforcing NATO’s collective deterrence and defense, and advancing bilateral security initiatives. The Dialogue also focused on improving regional domain awareness, protection of critical infrastructure, and countering malign influence and subversive activities. Participants explored new opportunities for dual-use technologies, supply chain security, innovation, and collaboration with the U.S. National Guard.</p>",
+  "publishedAt": "2026-11-04T12:18:58Z",
+  "updatedAt": "2026-11-04T12:18:58Z",
+  "wordCount": 178,
+  "readingTimeMin": 1,
+  "topic": "Joint Statement on United States – Iceland Strategic Dialogue",
+  "tags": [
+    "United States",
+    "Iceland",
+    "NATO",
+    "U.S. National Guard"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-united-states-iceland-strategic-dialogue/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The United States and Iceland held the annual bilateral Strategic Dialogue (headline/body)",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Dialogue took place in Reykjavik from November 2-3",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The information is according to the US State Department",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The meeting was led by Peter Andreoli (State Dept EUR Deputy Assistant Secretary), Alton Buland (Office of the Secretary of War Principal Director for Europe and NATO Policy), Anna Hjartardóttir (Icelandic DG for International Affairs and Policy) and Jónas Allansson (DG for Defense)",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Participants also included U.S. Ambassador to Iceland Billy Long and Icelandic Ambassador to the US Svanhildur Hólm Valsdóttir",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The United States and Iceland marked 75 years of close bilateral defense and security cooperation",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Discussions addressed the evolving European security landscape and wider global security challenges, with emphasis on Arctic cooperation, NATO's collective deterrence and defense, and bilateral security initiatives",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Dialogue also focused on improving regional domain awareness, protection of critical infrastructure, and countering malign influence and subversive activities",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Participants explored new opportunities for dual-use technologies, supply chain security, innovation, and collaboration with the U.S. National Guard",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Dek: officials met to discuss security cooperation and regional domain awareness",
+      "source": "The US State Department"
+    }
+  ]
+}

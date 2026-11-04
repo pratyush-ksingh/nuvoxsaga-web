@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-conditionally-approves-jd-com-acquisition-of-ceconomy",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission conditionally approves JD.com acquisition of CECONOMY",
+  "excerpt": "The approval under the Foreign Subsidies Regulation requires the parties to adhere to commitments for 10 years to address competition concerns.",
+  "bodyHtml": "<p>The European Commission announced on November 3, 2026, that it has conditionally approved the acquisition of CECONOMY AG by JD.com, Inc. under the Foreign Subsidies Regulation. This regulation enables the Commission to address distortions caused by foreign subsidies to ensure a level playing field in the internal market.</p>\n<p>The Commission found that JD.com received subsidies from the People&#x27;s Republic of China in the form of preferential financing, tax incentives, and grants. These subsidies were found to potentially distort competition by improving the capacity of the combined entity to engage in aggressive pricing and providing logistic and technological capabilities to CECONOMY.</p>\n<p>To address these concerns, the parties offered commitments to conduct intra-group transactions on market terms. Additionally, the parties will provide JD.com&#x27;s warehousing and logistic services to third-party retailers and technology services to third parties on the same terms as those provided to CECONOMY. The commitments are valid for 10 years, and an independent trustee will monitor their implementation under the supervision of the Commission.</p>",
+  "publishedAt": "2026-11-04T12:32:18Z",
+  "updatedAt": "2026-11-04T12:32:18Z",
+  "wordCount": 164,
+  "readingTimeMin": 1,
+  "topic": "Commission conditionally approves JD.com's acquisition of CECONOMY under the Foreign Subsidies Regulation",
+  "tags": [
+    "European Commission",
+    "JD.com",
+    "CECONOMY",
+    "Foreign Subsidies Regulation"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2300"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission conditionally approved JD.com, Inc.'s acquisition of CECONOMY AG under the Foreign Subsidies Regulation.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission announced the approval on November 3, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The approval requires the parties to adhere to commitments for 10 years.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The commitments address competition concerns.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The FSR enables the Commission to address distortions caused by foreign subsidies to ensure a level playing field in the internal market.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission found JD.com received subsidies from the PRC in the form of preferential financing, tax incentives and grants.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The subsidies were found to potentially distort competition by improving the combined entity's capacity to engage in aggressive pricing.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The subsidies contributed to logistic and technological capabilities provided to CECONOMY.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The parties offered to conduct intra-group transactions on market terms.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The parties will provide JD.com's warehousing and logistic services to third-party retailers and technology services to third parties on the same terms as to CECONOMY.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "An independent trustee will monitor implementation under the Commission's supervision.",
+      "source": "The European Commission"
+    }
+  ]
+}

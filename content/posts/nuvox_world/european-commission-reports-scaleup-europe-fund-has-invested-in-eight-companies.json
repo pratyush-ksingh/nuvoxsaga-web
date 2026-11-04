@@ -1,0 +1,61 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-reports-scaleup-europe-fund-has-invested-in-eight-companies",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission reports Scaleup Europe Fund has invested in eight companies",
+  "excerpt": "The fund, created to provide growth-stage equity, has helped companies raise close to 5 billion euros in two months.",
+  "bodyHtml": "<p>According to the European Commission, the Scaleup Europe Fund has invested in eight companies and helped them raise close to €5 billion in two months. The European Commission stated that the fund was created by bringing together public and private investors to form Europe&#x27;s largest growth-stage equity fund.</p>\n<p>The European Commission noted that the fund has supported companies building technologies such as reusable spacecraft, a new generation of ultra-efficient AI chips, and radar satellites that can see through clouds. These companies are building the technologies that will shape the future.</p>\n<p>The European Commission also stated that European scale-ups typically raise 50% less capital than their peers in San Francisco. The fund aims to provide the capital these companies need to succeed and stay in Europe.</p>",
+  "publishedAt": "2026-11-04T12:23:41Z",
+  "updatedAt": "2026-11-04T12:23:41Z",
+  "wordCount": 125,
+  "readingTimeMin": 1,
+  "topic": "Keynote speech by President von der Leyen at the WinWin Brussels Summit",
+  "tags": [
+    "Scaleup Europe Fund",
+    "European Commission"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2319"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission reports that the Scaleup Europe Fund has invested in eight companies.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Scaleup Europe Fund was created to provide growth-stage equity and has helped companies raise close to €5 billion in two months.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Scaleup Europe Fund was created by bringing together public and private investors to form Europe's largest growth-stage equity fund.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Scaleup Europe Fund has supported companies building technologies such as reusable spacecraft, ultra-efficient AI chips, and radar satellites that can see through clouds.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "These companies are building technologies that will shape the future.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "European scale-ups typically raise 50% less capital than their peers in San Francisco.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The fund aims to provide the capital these companies need to succeed and stay in Europe.",
+      "source": "The European Commission"
+    }
+  ]
+}

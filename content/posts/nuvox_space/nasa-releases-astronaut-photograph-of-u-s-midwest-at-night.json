@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-1.webp",
+    "alt": "Illustration: colorful nebula with dense star fields",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-astronaut-photograph-of-u-s-midwest-at-night",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases astronaut photograph of U.S. Midwest at night",
+  "excerpt": "The image captured on October 18, 2026, shows illuminated cities and airglow across the region.",
+  "bodyHtml": "<p>NASA released an astronaut photograph of the U.S. Midwest taken from the International Space Station on October 18, 2026. The wide-angle image was captured at 4:54 a.m. Central Daylight Time, displaying illuminated cities and interstate highways across the darkened landscape.</p>\n<p>The photograph features metropolitan areas including Chicago, Illinois, and Detroit, Michigan. Mid-sized cities such as Indianapolis, Indiana; Cincinnati, Ohio; and Louisville, Kentucky, are also visible along with their interconnections along state and interstate highways.</p>\n<p>Above the web of nighttime lights and Earth’s lower atmosphere, a diffuse layer of green and orange light known as airglow is visible along the horizon. This band of light is produced when sunlight strikes atoms and molecules in the upper atmosphere and causes them to eject photons.</p>\n<p>The image was acquired using a Nikon Z9 digital camera with a 14-millimeter focal length. The photograph is provided by the ISS Crew Earth Observations Facility and the Earth Science and Remote Sensing Unit at NASA Johnson Space Center.</p>",
+  "publishedAt": "2026-11-04T12:06:57Z",
+  "updatedAt": "2026-11-04T12:06:57Z",
+  "wordCount": 161,
+  "readingTimeMin": 1,
+  "topic": "Before the Dawn in America’s Heartland",
+  "tags": [
+    "NASA",
+    "International Space Station",
+    "Earth"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released an astronaut photograph of the U.S. Midwest at night.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image was captured on October 18, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image shows illuminated cities and airglow across the region.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The wide-angle image was captured at 4:54 a.m. Central Daylight Time.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph features metropolitan areas including Chicago, Illinois, and Detroit, Michigan.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Mid-sized cities such as Indianapolis, Indiana; Cincinnati, Ohio; and Louisville, Kentucky, are visible.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Interconnections along state and interstate highways are visible in the photograph.",
+      "source": "NASA"
+    },
+    {
+      "claim": "A diffuse layer of green and orange light known as airglow is visible along the horizon.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Airglow is produced when sunlight strikes atoms and molecules in the upper atmosphere and causes them to eject photons.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image was acquired using a Nikon Z9 digital camera with a 14-millimeter focal length.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph is provided by the ISS Crew Earth Observations Facility and the Earth Science and Remote Sensing Unit at NASA Johnson Space Center.",
+      "source": "NASA"
+    }
+  ]
+}
