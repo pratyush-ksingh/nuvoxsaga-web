@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-committees-adopt-position-on-clean-corporate-vehicle-targets",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament committees adopt position on clean corporate vehicle targets",
+  "excerpt": "MEPs voted to support national aspirational targets for zero- and low-emission corporate vehicle registrations by 2030 and 2035.",
+  "bodyHtml": "<p>On November 4, 2026, the European Parliament announced that Transport and Environment Committees MEPs adopted a position on how the EU should increase the share of clean vehicles in corporate fleets. The draft rules were adopted by 89 votes to 29, with four abstentions. These rules would apply to corporate cars and vans registered by large businesses in EU countries with more than 250 employees and a turnover exceeding €50 million.</p>\n<p>The committees propose that member states establish aspirational targets for the share of zero- and low-emission vehicles in new corporate registrations for 2030 and 2035, ranging from 67% to 95%. Governments would have the freedom to determine the mix of support measures, such as road tolling and charging infrastructure improvements. Additionally, MEPs argue that member states should not provide financial support for corporate vehicles other than zero- or low-emission models as of 2028, and that such support should be limited to vehicles made in the European Union.</p>\n<p>Parliament’s final position and mandate for negotiations with EU governments is expected to be voted on at the December 2026 plenary session.</p>",
+  "publishedAt": "2026-11-04T16:11:38Z",
+  "updatedAt": "2026-11-04T16:11:38Z",
+  "wordCount": 180,
+  "readingTimeMin": 1,
+  "topic": "Press release - Corporate fleets: accelerating the uptake of zero- and low-emission vehicles",
+  "tags": [
+    "European Parliament",
+    "corporate vehicles",
+    "emissions"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261103IPR48612/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "European Parliament committees adopted a position on clean corporate vehicle targets.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs voted to support national aspirational targets for zero- and low-emission corporate vehicle registrations by 2030 and 2035.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "On November 4, 2026, the European Parliament announced that Transport and Environment Committees MEPs adopted a position on how the EU should increase the share of clean vehicles in corporate fleets.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The draft rules were adopted by 89 votes to 29, with four abstentions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The rules would apply to corporate cars and vans registered by large businesses in EU countries with more than 250 employees and a turnover exceeding €50 million.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The committees propose that member states establish aspirational targets for the share of zero- and low-emission vehicles in new corporate registrations for 2030 and 2035, ranging from 67% to 95%.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Governments would have the freedom to determine the mix of support measures, such as road tolling and charging infrastructure improvements.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs argue that member states should not provide financial support for corporate vehicles other than zero- or low-emission models as of 2028.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs argue that financial support should be limited to vehicles made in the European Union.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Parliament’s final position and mandate for negotiations with EU governments is expected to be voted on at the December 2026 plenary session.",
+      "source": "The European Parliament"
+    }
+  ]
+}

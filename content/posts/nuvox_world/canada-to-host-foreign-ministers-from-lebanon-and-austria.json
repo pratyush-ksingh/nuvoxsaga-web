@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-to-host-foreign-ministers-from-lebanon-and-austria",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "Canada to host foreign ministers from Lebanon and Austria",
+  "excerpt": "Minister of Foreign Affairs Anita Anand will meet with Youssef Raggi and Beate Meinl-Reisinger on November 6, 2026.",
+  "bodyHtml": "<p>The Government of Canada announced on November 4, 2026, that the Minister of Foreign Affairs, Anita Anand, will host the foreign ministers of Lebanon and Austria in Canada on November 6, 2026. These visits are intended to advance bilateral cooperation and strengthen Canada’s ties with Lebanon and Austria.</p>\n<p>Minister Anand and Youssef Raggi, Lebanon’s Minister of Foreign Affairs and Emigrants, will discuss opportunities to strengthen cooperation, including through Canada’s continued support for the Lebanese Armed Forces and other state institutions. They will also discuss efforts to support Lebanon’s long-term stability and sovereignty.</p>\n<p>Minister Anand and Beate Meinl-Reisinger, Austria’s Federal Minister for European and International Affairs, will exchange views on deepening Canada-Austria cooperation on European and transatlantic security, including continued support for Ukraine. They will also discuss close cooperation during Austria’s upcoming United Nations Security Council term, advance Canada-EU cooperation, and strengthen economic resilience, as well as bilateral trade, investment and innovation ties.</p>\n<p>Merchandise trade between Canada and Austria reached $3.6 billion in 2025. Since May 2025, Canada has provided more than $83 million in humanitarian assistance to Lebanon.</p>",
+  "publishedAt": "2026-11-04T16:06:28Z",
+  "updatedAt": "2026-11-04T16:06:28Z",
+  "wordCount": 178,
+  "readingTimeMin": 1,
+  "topic": "Minister Anand to welcome foreign ministers of Lebanon and Austria to Canada",
+  "tags": [
+    "Canada",
+    "Lebanon",
+    "Austria"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-to-welcome-foreign-ministers-of-lebanon-and-austria-to-canada.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada will host foreign ministers from Lebanon and Austria.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister of Foreign Affairs Anita Anand will meet with Youssef Raggi and Beate Meinl-Reisinger on November 6, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on November 4, 2026, that the Minister of Foreign Affairs, Anita Anand, will host the foreign ministers of Lebanon and Austria in Canada on November 6, 2026.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "These visits are intended to advance bilateral cooperation and strengthen Canada’s ties with Lebanon and Austria.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand and Youssef Raggi will discuss opportunities to strengthen cooperation, including through Canada’s continued support for the Lebanese Armed Forces and other state institutions.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand and Youssef Raggi will discuss efforts to support Lebanon’s long-term stability and sovereignty.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand and Beate Meinl-Reisinger will exchange views on deepening Canada-Austria cooperation on European and transatlantic security, including continued support for Ukraine.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister Anand and Beate Meinl-Reisinger will discuss close cooperation during Austria’s upcoming United Nations Security Council term, advance Canada-EU cooperation, and strengthen economic resilience, as well as bilateral trade, investment and innovation ties.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Merchandise trade between Canada and Austria reached $3.6 billion in 2025.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Since May 2025, Canada has provided more than $83 million in humanitarian assistance to Lebanon.",
+      "source": "The Government of Canada"
+    }
+  ]
+}

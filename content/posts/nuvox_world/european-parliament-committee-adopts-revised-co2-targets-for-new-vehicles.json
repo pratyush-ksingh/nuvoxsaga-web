@@ -1,0 +1,65 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-committee-adopts-revised-co2-targets-for-new-vehicles",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament committee adopts revised CO2 targets for new vehicles",
+  "excerpt": "Environment Committee members adopted a proposal adjusting 2035 emissions targets and adding low-carbon steel credits for new cars and vans.",
+  "bodyHtml": "<p>The European Parliament reported on November 4, 2026, that Parliament’s Environment Committee adopted its proposal for revised CO2 emissions targets for new cars and vans and incentives for clean vehicles made in the EU. The draft rules were adopted with 48 votes in favour, 30 against and two abstentions.</p>\n<p>For passenger cars, members of the European Parliament want to lower the 2035 fleet-wide CO2 emissions reduction target from 100% to 87.5%. Manufacturers would have to compensate for emissions capped at 7.5% of the 2021 EU fleet-wide reference target to reach a target of 95%, by using credits for low-carbon steel made in the EU. For vans, the 2035 target would decrease from 100% to 80%, subject to a 7.5% cap for low-carbon steel credits.</p>\n<p>Parliament’s mandate for negotiations with EU governments is expected to be voted during the December 2026 plenary session.</p>",
+  "publishedAt": "2026-11-04T16:08:45Z",
+  "updatedAt": "2026-11-04T16:08:45Z",
+  "wordCount": 142,
+  "readingTimeMin": 1,
+  "topic": "Press release - CO2 emissions: adjusted targets, more incentives for clean vehicles",
+  "tags": [
+    "European Parliament",
+    "CO2 emissions"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261103IPR48613/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Parliament's Environment Committee adopted a proposal for revised CO2 emissions targets for new cars and vans.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The Environment Committee proposal includes adding low-carbon steel credits for new cars and vans.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament reported this on November 4, 2026.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The draft rules were adopted with 48 votes in favour, 30 against and two abstentions.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "MEPs want to lower the 2035 fleet-wide CO2 emissions reduction target for passenger cars from 100% to 87.5%.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Manufacturers would have to compensate for emissions capped at 7.5% of the 2021 EU fleet-wide reference target to reach a target of 95%, by using credits for low-carbon steel made in the EU.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "For vans, the 2035 target would decrease from 100% to 80%, subject to a 7.5% cap for low-carbon steel credits.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Parliament’s mandate for negotiations with EU governments is expected to be voted during the December 2026 plenary session.",
+      "source": "The European Parliament"
+    }
+  ]
+}

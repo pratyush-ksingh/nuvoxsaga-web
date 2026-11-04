@@ -1,0 +1,79 @@
+{
+  "image": {
+    "src": "/media/sections/world-asia-2.webp",
+    "alt": "Illustration: busy harbor with container cranes at dusk, seen from above",
+    "credit": "AI illustration"
+  },
+  "slug": "canada-and-china-extend-market-access-agreement-for-agriculture-and-seafood",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "asia",
+  "title": "Canada and China extend market access agreement for agriculture and seafood",
+  "excerpt": "The two-year extension maintains favourable market access for Canadian canola meal, peas, lobsters and crab through the end of 2028.",
+  "bodyHtml": "<p>The Government of Canada announced on November 4, 2026, that Canada and China have agreed to a two-year extension of favourable market access for specific Canadian products. The agreement covers canola meal, peas, lobsters and crab and remains in effect until the end of 2028.</p>\n<p>The extension was finalized during a meeting of the Joint Economic and Trade Commission in Beijing. This commission serves as the primary mechanism for the two countries to address bilateral trade and economic issues. Minister of International Trade Maninder Sidhu co-led the meeting with China’s Minister of Commerce, Wang Wentao.</p>\n<p>Canada will also extend remission measures for certain Chinese steel and aluminum products not manufactured in Canada until the end of 2028. The government continues to identify opportunities to deliver on its target of increasing Canadian exports to China by 50%.</p>\n<p>In the first half of 2026, Canadian exports to China grew by 31.4% to $21.5 billion. Canada and China will continue discussions to identify further opportunities for trade.</p>",
+  "publishedAt": "2026-11-04T16:06:03Z",
+  "updatedAt": "2026-11-04T16:06:03Z",
+  "wordCount": 164,
+  "readingTimeMin": 1,
+  "topic": "Minister Sidhu announces extension of favourable market access for Canadian canola meal, peas, lobsters and crab through 2028",
+  "tags": [
+    "Canada",
+    "China",
+    "Trade",
+    "Agriculture"
+  ],
+  "source": {
+    "name": "The Government of Canada",
+    "url": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-announces-extension-of-favourable-market-access-for-canadian-canola-meal-peas-lobsters-and-crab-through-2028.html"
+  },
+  "sources": [
+    "The Government of Canada"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Canada and China extended a market access agreement for agriculture and seafood.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The two-year extension maintains favourable market access for Canadian canola meal, peas, lobsters and crab through the end of 2028.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Government of Canada announced on November 4, 2026, that Canada and China agreed to a two-year extension of favourable market access for specific Canadian products.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The agreement covers canola meal, peas, lobsters and crab and remains in effect until the end of 2028.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The extension was finalized during a meeting of the Joint Economic and Trade Commission in Beijing.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Joint Economic and Trade Commission serves as the primary mechanism for Canada and China to address bilateral trade and economic issues.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Minister of International Trade Maninder Sidhu co-led the meeting with China’s Minister of Commerce, Wang Wentao.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Canada will extend remission measures for certain Chinese steel and aluminum products not manufactured in Canada until the end of 2028.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "The Canadian government continues to identify opportunities to deliver on its target of increasing Canadian exports to China by 50%.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "In the first half of 2026, Canadian exports to China grew by 31.4% to $21.5 billion.",
+      "source": "The Government of Canada"
+    },
+    {
+      "claim": "Canada and China will continue discussions to identify further opportunities for trade.",
+      "source": "The Government of Canada"
+    }
+  ]
+}
