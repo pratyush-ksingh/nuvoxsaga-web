@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-reports-autonomous-pipeline-identified-948-linux-kernel-vulnerabilities",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "OpenAI reports autonomous pipeline identified 948 Linux kernel vulnerabilities",
+  "excerpt": "The research pipeline generated patches for local privilege escalation vulnerabilities at an API cost of $1.2 million.",
+  "bodyHtml": "<p>OpenAI announced on November 4, 2026, that it developed an autonomous pipeline for vulnerability discovery, exploitation, and patching. In a mid-October 2026 run, the pipeline used a cyber model to identify and analyze 2,308 candidate Linux kernel findings.</p>\n<p>The system dynamically reproduced 1,724 vulnerabilities and produced 948 local privilege escalation exploits. These exploits could allow an unprivileged local user to gain root access. The pipeline identified security-relevant parts of the Linux kernel, scanned them, reproduced findings in an isolated environment, and generated patches.</p>\n<p>The total API cost for the run was $1,213,430. OpenAI reported that human security researchers reviewed the outputs to assist in assessing severity and upstreaming fixes. The pipeline also identified at least 10 novel Linux exploitation techniques during the process.</p>",
+  "publishedAt": "2026-11-05T06:07:33Z",
+  "updatedAt": "2026-11-05T06:07:33Z",
+  "wordCount": 123,
+  "readingTimeMin": 1,
+  "topic": "A thousand fewer paths to root",
+  "tags": [
+    "OpenAI",
+    "Linux",
+    "cybersecurity"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI reported that an autonomous pipeline identified 948 Linux kernel vulnerabilities.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The research pipeline generated patches for local privilege escalation vulnerabilities at an API cost of $1.2 million.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced on November 4, 2026, that it developed an autonomous pipeline for vulnerability discovery, exploitation, and patching.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "In a mid-October 2026 run, the pipeline used a cyber model to identify and analyze 2,308 candidate Linux kernel findings.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The system dynamically reproduced 1,724 vulnerabilities and produced 948 local privilege escalation exploits.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "These exploits could allow an unprivileged local user to gain root access.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The pipeline identified security-relevant parts of the Linux kernel, scanned them, reproduced findings in an isolated environment, and generated patches.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The total API cost for the run was $1,213,430.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI reported that human security researchers reviewed the outputs to assist in assessing severity and upstreaming fixes.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The pipeline also identified at least 10 novel Linux exploitation techniques during the process.",
+      "source": "OpenAI"
+    }
+  ]
+}

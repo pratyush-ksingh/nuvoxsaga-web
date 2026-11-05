@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-3.webp",
+    "alt": "Illustration: rocket engine nozzle close-up in a test facility",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-unveils-x-70-fractal-experimental-aircraft",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "NASA unveils X-70 Fractal experimental aircraft",
+  "excerpt": "The crewed research platform is designed for testing advanced aviation technologies and flight-control systems.",
+  "bodyHtml": "<p>NASA announced the X-70 Fractal experimental aircraft on November 4, 2026, during the UP.Summit at the Kennedy Space Center in Florida. The agency described the vehicle as a high-performance, crewed research platform capable of testing advanced flight-control and maneuverability technologies.</p>\n<p>The X-70 Fractal features a modular design that allows for the rapid reconfiguration of internal and external payloads up to 2,000 pounds. The aircraft has a takeoff weight of 10,000 pounds, a cruise speed of Mach .75, and an operational range exceeding 1,500 nautical miles.</p>\n<p>The aircraft is designed to reach altitudes of up to 45,000 feet. NASA expects the first flight of the X-70 under the agency&#x27;s banner to occur within two years.</p>",
+  "publishedAt": "2026-11-05T06:07:49Z",
+  "updatedAt": "2026-11-05T06:07:49Z",
+  "wordCount": 114,
+  "readingTimeMin": 1,
+  "topic": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+  "tags": [
+    "NASA",
+    "X-70 Fractal",
+    "Aeronautics"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA unveiled the X-70 Fractal experimental aircraft.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The crewed research platform is designed for testing advanced aviation technologies and flight-control systems.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the X-70 Fractal experimental aircraft on November 4, 2026, during the UP.Summit at the Kennedy Space Center in Florida.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The agency described the vehicle as a high-performance, crewed research platform capable of testing advanced flight-control and maneuverability technologies.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The X-70 Fractal features a modular design that allows for the rapid reconfiguration of internal and external payloads up to 2,000 pounds.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The aircraft has a takeoff weight of 10,000 pounds.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The aircraft has a cruise speed of Mach .75.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The aircraft has an operational range exceeding 1,500 nautical miles.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The aircraft is designed to reach altitudes of up to 45,000 feet.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA expects the first flight of the X-70 under the agency's banner to occur within two years.",
+      "source": "NASA"
+    }
+  ]
+}

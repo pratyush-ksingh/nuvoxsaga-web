@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-releases-agile-deliberation-framework-for-ai-image-classifiers",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research releases Agile Deliberation framework for AI image classifiers",
+  "excerpt": "The framework uses an iterative process to help users define subjective categories for vision systems.",
+  "bodyHtml": "<p>Google Research announced the release of Agile Deliberation on November 4, 2026. The framework is designed to assist users in building AI image classifiers for subjective categories, such as identifying healthy food or inspiring artwork, where boundaries are not universally recognized or static.</p>\n<p>The system guides users through two stages: concept scoping, which involves creating a hierarchy of sub-categories and exclusions, and concept iteration, which uses vision-language models to surface borderline images for user feedback. This process replaces manual prompt engineering with an automatic optimization loop.</p>\n<p>In a study of 18 live sessions, participants using the framework reported lower cognitive fatigue and higher consistency compared to standard baseline methods. The framework evaluated performance across two complex domains: Healthy Food and Pay-to-Play. The underlying code and algorithms are available on GitHub.</p>",
+  "publishedAt": "2026-11-05T06:03:57Z",
+  "updatedAt": "2026-11-05T06:03:57Z",
+  "wordCount": 130,
+  "readingTimeMin": 1,
+  "topic": "Agile Deliberation: How AI helps humans define the gray areas",
+  "tags": [
+    "Google Research",
+    "AI",
+    "GitHub"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research released the Agile Deliberation framework for AI image classifiers.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The framework uses an iterative process to help users define subjective categories for vision systems.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research announced the release of Agile Deliberation on November 4, 2026.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The framework is designed to assist users in building AI image classifiers for subjective categories, such as identifying healthy food or inspiring artwork, where boundaries are not universally recognized or static.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system guides users through two stages: concept scoping (creating a hierarchy of sub-categories and exclusions) and concept iteration (using vision-language models to surface borderline images for user feedback).",
+      "source": "Google Research"
+    },
+    {
+      "claim": "This process replaces manual prompt engineering with an automatic optimization loop.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "In a study of 18 live sessions, participants using the framework reported lower cognitive fatigue and higher consistency compared to standard baseline methods.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The framework evaluated performance across two complex domains: Healthy Food and Pay-to-Play.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The underlying code and algorithms are available on GitHub.",
+      "source": "Google Research"
+    }
+  ]
+}
