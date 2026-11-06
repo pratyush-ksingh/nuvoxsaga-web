@@ -1,0 +1,102 @@
+{
+  "image": {
+    "src": "/media/sections/ai-models-3.webp",
+    "alt": "Illustration: rows of server racks with small blue status lights in a dark data hall",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-four-nvidia-cosmos-3-open-weight-checkpoints",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "models",
+  "title": "Hugging Face releases four NVIDIA Cosmos 3 open-weight checkpoints",
+  "excerpt": "The new 16B parameter models are designed for interactive world simulation and multi-sensor driving scene generation.",
+  "bodyHtml": "<p>Hugging Face announced on November 5, 2026, that the NVIDIA Cosmos world model development platform has added four new open-weight checkpoints to its Cosmos 3 model family. These models, which feature 16B trainable parameters, are intended for generating interactive world simulations and multi-sensor, multi-view driving scenes.</p>\n<p>The new checkpoints include Cosmos3-Nano-Transfer-Auto for generating multi-view driving data, Cosmos3-Nano-Sim-Auto for streaming camera and LiDAR observations, Cosmos3-Nano-Sim-Transfer for rendering photorealistic video from simulator controls, and Cosmos3-Nano-Sim-Bimanual for predicting video from robot actions. All four models are post-trained examples of Cosmos 3 Nano and are released under the OpenMDW1.1 license, which permits commercial and non-commercial use.</p>\n<p>The models utilize a Mixture-of-Transformers backbone that connects text-processing and visual-generation networks through attention. Developers can adapt these models using a four-stage training recipe that includes bidirectional adaptation, teacher forcing, consistency distillation, and self-forcing. The checkpoints are available for download alongside a technical report and demonstration videos.</p>",
+  "publishedAt": "2026-11-06T06:13:18Z",
+  "updatedAt": "2026-11-06T06:13:18Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+  "tags": [
+    "NVIDIA",
+    "Cosmos 3",
+    "Hugging Face"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released four NVIDIA Cosmos 3 open-weight checkpoints.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The new models feature 16B trainable parameters.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The models are designed for interactive world simulation and multi-sensor driving scene generation.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the release on November 5, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The NVIDIA Cosmos world model development platform added four new open-weight checkpoints to its Cosmos 3 model family.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Cosmos3-Nano-Transfer-Auto is for generating multi-view driving data.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Cosmos3-Nano-Sim-Auto is for streaming camera and LiDAR observations.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Cosmos3-Nano-Sim-Transfer is for rendering photorealistic video from simulator controls.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Cosmos3-Nano-Sim-Bimanual is for predicting video from robot actions.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "All four models are post-trained examples of Cosmos 3 Nano.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The models are released under the OpenMDW1.1 license.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The OpenMDW1.1 license permits both commercial and non-commercial use.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The models utilize a Mixture-of-Transformers backbone.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The backbone connects text-processing and visual-generation networks through attention.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Developers can adapt the models using a four-stage training recipe.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The training recipe includes bidirectional adaptation, teacher forcing, consistency distillation, and self-forcing.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The checkpoints are available for download alongside a technical report and demonstration videos.",
+      "source": "Hugging Face"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-1.webp",
+    "alt": "Illustration: modern glass office tower at dusk with lit windows",
+    "credit": "AI illustration"
+  },
+  "slug": "cult-fit-reports-operational-savings-and-tool-development-using-codex",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Cult.fit reports operational savings and tool development using Codex",
+  "excerpt": "The fitness company built over 20 internal applications and reduced customer support costs by more than 50 percent using the AI coding tool.",
+  "bodyHtml": "<p>On November 5, 2026, OpenAI reported that the fitness company cult.fit has standardized its software development on Codex, an AI coding assistant. The company integrated the tool to manage repository structures, code reviews, and testing across its engineering teams.</p>\n<p>Beyond engineering, non-engineering teams at the company have used Codex to build more than 20 internal applications. The company also utilized the OpenAI API to integrate GPT Realtime into its AI Trainer, enabling a voice-first workout experience for members.</p>\n<p>According to the report, these initiatives resulted in over $100,000 in annual software savings and a reduction in customer support costs of more than 50 percent. The company also implemented AI agents within its Sprinklr support platform to assess requests for waiving penalties for missed group fitness classes.</p>",
+  "publishedAt": "2026-11-06T06:04:38Z",
+  "updatedAt": "2026-11-06T06:04:38Z",
+  "wordCount": 126,
+  "readingTimeMin": 1,
+  "topic": "Cult.fit builds operational muscle with Codex",
+  "tags": [
+    "cult.fit",
+    "Codex",
+    "OpenAI"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/cultfit-builds-with-codex"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Cult.fit reports operational savings and tool development using Codex.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The fitness company built over 20 internal applications and reduced customer support costs by more than 50 percent using the AI coding tool.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "On November 5, 2026, OpenAI reported that cult.fit has standardized its software development on Codex, an AI coding assistant.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company integrated the tool to manage repository structures, code reviews, and testing across its engineering teams.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Beyond engineering, non-engineering teams at the company have used Codex to build more than 20 internal applications.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company also utilized the OpenAI API to integrate GPT Realtime into its AI Trainer, enabling a voice-first workout experience for members.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "These initiatives resulted in over $100,000 in annual software savings and a reduction in customer support costs of more than 50 percent.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The company also implemented AI agents within its Sprinklr support platform to assess requests for waiving penalties for missed group fitness classes.",
+      "source": "OpenAI"
+    }
+  ]
+}

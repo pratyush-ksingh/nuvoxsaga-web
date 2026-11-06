@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-reports-throughput-gains-for-vera-rubin-platform",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA reports throughput gains for Vera Rubin platform",
+  "excerpt": "NVIDIA says the Vera Rubin platform offers up to 30x higher agentic throughput per dollar compared to the GB300 NVL72.",
+  "bodyHtml": "<p>NVIDIA announced on November 5, 2026, that its Vera Rubin platform provides up to 30x higher agentic throughput per dollar than the GB300 NVL72 platform. The company attributes these performance gains to a full-stack codesign approach that integrates GPUs, CPUs, networking, storage, and software.</p>\n<p>According to NVIDIA, the company is managing memory across a hierarchy to address pressure on high-bandwidth memory (HBM), which is the fastest and most expensive tier of storage. The firm stated that its Dynamo inference software moves inactive context to CMX context memory storage, a tier designed for capacity at a lower cost per bit than HBM.</p>\n<p>NVIDIA reported that HBM capacity per GPU rose by approximately 3% from the Blackwell Ultra to the Vera Rubin platform. The company stated that the Vera Rubin NVL72 platform delivers these throughput results with HBM capacity per GPU up about 3%.</p>",
+  "publishedAt": "2026-11-06T16:09:51Z",
+  "updatedAt": "2026-11-06T16:09:51Z",
+  "wordCount": 142,
+  "readingTimeMin": 1,
+  "topic": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+  "tags": [
+    "NVIDIA",
+    "NVIDIA Rubin",
+    "Hardware",
+    "Inference"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA reports throughput gains for the Vera Rubin platform.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA says the Vera Rubin platform offers up to 30x higher agentic throughput per dollar compared to the GB300 NVL72.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on November 5, 2026, that its Vera Rubin platform provides up to 30x higher agentic throughput per dollar than the GB300 NVL72 platform.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA attributes these performance gains to a full-stack codesign approach that integrates GPUs, CPUs, networking, storage, and software.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "According to NVIDIA, the company is managing memory across a hierarchy to address pressure on high-bandwidth memory (HBM), which is the fastest and most expensive tier of storage.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Dynamo inference software moves inactive context to CMX context memory storage, a tier designed for capacity at a lower cost per bit than HBM.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "HBM capacity per GPU rose by approximately 3% from the Blackwell Ultra to the Vera Rubin platform.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The Vera Rubin NVL72 platform delivers these throughput results with HBM capacity per GPU up about 3%.",
+      "source": "NVIDIA"
+    }
+  ]
+}

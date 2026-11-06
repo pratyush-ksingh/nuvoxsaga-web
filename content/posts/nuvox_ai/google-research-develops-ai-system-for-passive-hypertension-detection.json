@@ -1,0 +1,91 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-2.webp",
+    "alt": "Illustration: abstract visualization of branching light paths like a neural network",
+    "credit": "AI illustration"
+  },
+  "slug": "google-research-develops-ai-system-for-passive-hypertension-detection",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "Google Research develops AI system for passive hypertension detection",
+  "excerpt": "The AI-PPG-ACC-HTN system uses smartwatch sensors to identify signs of high blood pressure without requiring cuff calibration.",
+  "bodyHtml": "<p>Google Research announced on November 5, 2026, a new artificial intelligence system designed to detect signs of hypertension using consumer smartwatch sensors. The system, titled AI-PPG-ACC-HTN, utilizes photoplethysmography to track blood volume changes and accelerometry to capture mechanical heart vibrations.</p>\n<p>In a study published in Nature, researchers validated the system against 24-hour ambulatory blood pressure monitoring. The study involved 196 participants across five US sites and demonstrated that the system achieves accuracy levels comparable to traditional cuff-based diagnostic workflows for initial and confirmatory screening.</p>\n<p>The system uses a two-stage machine learning approach. Stage 1 involves self-supervised pre-training using a 1-D deep convolutional neural network. Stage 2 involves person-level aggregation and classification. During confirmatory testing, the system achieved a sensitivity of 78.4%, a specificity of 90.9%, and a positive predictive value of 96.7%.</p>",
+  "publishedAt": "2026-11-06T16:09:19Z",
+  "updatedAt": "2026-11-06T16:09:19Z",
+  "wordCount": 132,
+  "readingTimeMin": 1,
+  "topic": "Detecting signs of hypertension using wearable sensors",
+  "tags": [
+    "Google Research",
+    "Nature",
+    "Health & Bioscience",
+    "Machine Intelligence"
+  ],
+  "source": {
+    "name": "Google Research",
+    "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/"
+  },
+  "sources": [
+    "Google Research"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Google Research develops AI system for passive hypertension detection",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The AI-PPG-ACC-HTN system uses smartwatch sensors to identify signs of high blood pressure without requiring cuff calibration.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Google Research announced on November 5, 2026, a new artificial intelligence system designed to detect signs of hypertension using consumer smartwatch sensors.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system, titled AI-PPG-ACC-HTN, utilizes photoplethysmography to track blood volume changes.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system utilizes accelerometry to capture mechanical heart vibrations.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "In a study published in Nature, researchers validated the system against 24-hour ambulatory blood pressure monitoring.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The study involved 196 participants across five US sites.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system achieves accuracy levels comparable to traditional cuff-based diagnostic workflows for initial and confirmatory screening.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "The system uses a two-stage machine learning approach.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Stage 1 involves self-supervised pre-training using a 1-D deep convolutional neural network.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "Stage 2 involves person-level aggregation and classification.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "During confirmatory testing, the system achieved a sensitivity of 78.4%.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "During confirmatory testing, the system achieved a specificity of 90.9%.",
+      "source": "Google Research"
+    },
+    {
+      "claim": "During confirmatory testing, the system achieved a positive predictive value of 96.7%.",
+      "source": "Google Research"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "image": {
+    "src": "/media/sections/space-industry-1.webp",
+    "alt": "Illustration: satellite on an assembly stand in a clean room, workers out of frame",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-space-agency-launches-2-million-grant-competition-for-space-enabled-solutions",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "industry",
+  "title": "UK Space Agency launches £2 million grant competition for space-enabled solutions",
+  "excerpt": "The competition offers up to £400,000 per project to support environmental intelligence and emissions monitoring.",
+  "bodyHtml": "<p>The UK Space Agency announced a £2 million challenge-led grant competition on November 5, 2026. The programme seeks end-user-led consortia to develop and demonstrate innovative space-enabled solutions that address real-world business needs across two specific challenge areas.</p>\n<p>The first challenge area focuses on environmental intelligence for climate, nature and natural capital, which involves improving environmental monitoring, analysis and decision-making through space-enabled capabilities. The second challenge area targets environmental emissions monitoring and verification, aiming to enhance the identification, monitoring, reporting and verification of emissions to support organisational and national sustainability objectives.</p>\n<p>The initiative provides up to £400,000 in grant funding per project. This competition is part of the Unlocking Space for Business programme, which has engaged over 300 organisations since launching in October 2023. Applications for the new grant competition close at 16:00 GMT on Friday 11 December 2026.</p>",
+  "publishedAt": "2026-11-06T16:21:00Z",
+  "updatedAt": "2026-11-06T16:21:00Z",
+  "wordCount": 138,
+  "readingTimeMin": 1,
+  "topic": "Guidance: Unlocking Space for Business",
+  "tags": [
+    "UK Space Agency",
+    "grant",
+    "environment"
+  ],
+  "source": {
+    "name": "The UK Space Agency",
+    "url": "https://www.gov.uk/government/publications/unlocking-space-for-business"
+  },
+  "sources": [
+    "The UK Space Agency"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK Space Agency launched a £2 million grant competition for space-enabled solutions.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The competition offers up to £400,000 per project.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The competition supports environmental intelligence and emissions monitoring.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The UK Space Agency announced the competition on November 5, 2026.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The programme seeks end-user-led consortia to develop and demonstrate innovative space-enabled solutions.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The solutions must address real-world business needs across two specific challenge areas.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The first challenge area focuses on environmental intelligence for climate, nature and natural capital.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The first challenge area involves improving environmental monitoring, analysis and decision-making through space-enabled capabilities.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The second challenge area targets environmental emissions monitoring and verification.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The second challenge area aims to enhance the identification, monitoring, reporting and verification of emissions to support organisational and national sustainability objectives.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The competition is part of the Unlocking Space for Business programme.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "The Unlocking Space for Business programme has engaged over 300 organisations since launching in October 2023.",
+      "source": "The UK Space Agency"
+    },
+    {
+      "claim": "Applications for the new grant competition close at 16:00 GMT on Friday 11 December 2026.",
+      "source": "The UK Space Agency"
+    }
+  ]
+}

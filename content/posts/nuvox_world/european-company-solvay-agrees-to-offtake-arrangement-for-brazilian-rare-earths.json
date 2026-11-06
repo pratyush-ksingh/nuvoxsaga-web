@@ -1,0 +1,63 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-company-solvay-agrees-to-offtake-arrangement-for-brazilian-rare-earths",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European company Solvay agrees to offtake arrangement for Brazilian rare earths",
+  "excerpt": "The agreement follows a European Commission project visit to a rare earth research and processing site in the Brazilian state of Minas Gerais.",
+  "bodyHtml": "<p>The European Commission announced on November 6, 2026, that the European company Solvay has entered into a strategic offtake arrangement for rare earth elements from a project in Poços de Caldas, Brazil. The project, known as Colossus, focuses on the research and processing of rare earth materials.</p>\n<p>Commissioner Síkela stated that the materials processed at the site can be used for the manufacturing of electric cars, wind turbines, fighter jets, drones, and medical equipment. Further processing of the materials will take place in Europe as part of the arrangement.</p>\n<p>The European Commission reported that since 2021, it has mobilised more than 306 billion euros in investment through the Global Gateway initiative.</p>",
+  "publishedAt": "2026-11-06T16:35:59Z",
+  "updatedAt": "2026-11-06T16:35:59Z",
+  "wordCount": 111,
+  "readingTimeMin": 1,
+  "topic": "Keynote speech by Commissioner Síkela at the International Partnership Conference",
+  "tags": [
+    "Solvay",
+    "Global Gateway",
+    "Brazil",
+    "European Commission"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2367"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "European company Solvay agreed to an offtake arrangement for Brazilian rare earths.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The agreement follows a European Commission project visit to a rare earth research and processing site in the Brazilian state of Minas Gerais.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced on November 6, 2026, that Solvay entered into a strategic offtake arrangement for rare earth elements from a project in Poços de Caldas, Brazil.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The project, known as Colossus, focuses on the research and processing of rare earth materials.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Commissioner Síkela stated that the materials processed at the site can be used for the manufacturing of electric cars, wind turbines, fighter jets, drones, and medical equipment.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Further processing of the materials will take place in Europe as part of the arrangement.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission reported that since 2021, it has mobilised more than 306 billion euros in investment through the Global Gateway initiative.",
+      "source": "The European Commission"
+    }
+  ]
+}

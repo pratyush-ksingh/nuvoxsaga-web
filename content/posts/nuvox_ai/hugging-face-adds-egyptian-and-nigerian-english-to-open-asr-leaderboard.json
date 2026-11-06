@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-adds-egyptian-and-nigerian-english-to-open-asr-leaderboard",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face adds Egyptian and Nigerian English to Open ASR Leaderboard",
+  "excerpt": "The update introduces private conversational speech data provided by Liva AI to improve accent representation in automated speech recognition evaluations.",
+  "bodyHtml": "<p>Hugging Face announced on November 6, 2026, that it has expanded its Open ASR Leaderboard to include private data for Egyptian and Nigerian English accents. The new datasets, provided by Liva AI, consist of conversational and spontaneous speech that includes punctuation, casing, and disfluencies.</p>\n<p>The addition of these accents allows the leaderboard to categorize data based on Kachru’s Three Circles framework. The platform now reports performance metrics for US versus non-US English, as well as comparisons between Inner Circle countries and Outer and Expanding Circle regions, which currently include India, Nigeria, and Egypt.</p>\n<p>Liva AI collects multimodal interaction data through consumer products used by real people. Because Liva owns both the collection environment and distribution, it can design products around specific model gaps across domains, industries, languages, modalities, and interaction types. This gives it access to natural, high-context behavior that emerges through real product use, rather than artificially elicited or task-based interactions.</p>",
+  "publishedAt": "2026-11-06T16:05:41Z",
+  "updatedAt": "2026-11-06T16:05:41Z",
+  "wordCount": 152,
+  "readingTimeMin": 1,
+  "topic": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+  "tags": [
+    "Hugging Face",
+    "Liva AI",
+    "ASR"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face added Egyptian and Nigerian English to the Open ASR Leaderboard.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The update introduces private conversational speech data provided by Liva AI to improve accent representation in automated speech recognition evaluations.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced on November 6, 2026, that it has expanded its Open ASR Leaderboard to include private data for Egyptian and Nigerian English accents.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The new datasets provided by Liva AI consist of conversational and spontaneous speech including punctuation, casing, and disfluencies.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The addition of these accents allows the leaderboard to categorize data based on Kachru’s Three Circles framework.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The platform now reports performance metrics for US versus non-US English, as well as Inner Circle versus Outer & Expanding Circles (which currently include India, Nigeria, and Egypt).",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Liva AI collects multimodal interaction data through consumer products used by real people.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Because Liva owns both the collection environment and distribution, it can design products around specific model gaps across domains, industries, languages, modalities, and interaction types.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "This ownership gives Liva AI access to natural, high-context behavior that emerges through real product use, rather than artificially elicited or task-based interactions.",
+      "source": "Hugging Face"
+    }
+  ]
+}

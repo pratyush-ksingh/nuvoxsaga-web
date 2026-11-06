@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-3.webp",
+    "alt": "Illustration: abstract rising bar shapes made of light on a dark surface",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-announces-vera-cpu-for-ai-agent-workloads",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "NVIDIA announces Vera CPU for AI agent workloads",
+  "excerpt": "The company reports that the Vera CPU outperforms existing x86 processors in agent speed and energy efficiency.",
+  "bodyHtml": "<p>NVIDIA announced the Vera CPU on November 5, 2026, designed to support AI agents that search for information, query databases, and write or test code. The company states that the processor is intended to provide high capacity per watt for AI factories, which are often limited by power availability.</p>\n<p>According to NVIDIA, internal testing in a 100-megawatt data center showed that a single Vera CPU performs better than the fastest and most energy-efficient x86 CPUs. The company reported that Vera enables 1.6x more agents per watt than the fastest x86 CPU and delivers 2x faster agent speed compared with the most energy-efficient x86 CPU.</p>\n<p>Early adopters have reported production-style performance results, including Perplexity, which ran agentic coding tasks 1.5x faster, and DeepInfra, which achieved up to 2.2x the speed of the best x86 processor on agentic orchestration. Additionally, Daytona reported bringing 1,000 agent sandboxes online in 10.8 seconds using Vera.</p>",
+  "publishedAt": "2026-11-06T06:07:19Z",
+  "updatedAt": "2026-11-06T06:07:19Z",
+  "wordCount": 150,
+  "readingTimeMin": 1,
+  "topic": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+  "tags": [
+    "NVIDIA Vera",
+    "AI Infrastructure",
+    "Agentic AI"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA announced the Vera CPU for AI agent workloads on November 5, 2026.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The company reports that the Vera CPU outperforms existing x86 processors in agent speed and energy efficiency.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The Vera CPU is designed to support AI agents that search for information, query databases, and write or test code.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The processor is intended to provide high capacity per watt for AI factories, which are limited by power availability.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Internal testing in a 100-megawatt data center showed that a single Vera CPU performs better than the fastest and most energy-efficient x86 CPUs.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Vera enables 1.6x more agents per watt than the fastest x86 CPU and delivers 2x faster agent speed compared with the most energy-efficient x86 CPU.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Perplexity ran agentic coding tasks 1.5x faster with Vera.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "DeepInfra achieved up to 2.2x the speed of the best x86 processor on agentic orchestration.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Daytona brought 1,000 agent sandboxes online in 10.8 seconds using Vera.",
+      "source": "NVIDIA"
+    }
+  ]
+}

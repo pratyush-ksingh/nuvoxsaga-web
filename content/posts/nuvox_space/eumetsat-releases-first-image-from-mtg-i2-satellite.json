@@ -1,0 +1,77 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-3.webp",
+    "alt": "Illustration: space station module silhouette against the sun's glare",
+    "credit": "AI illustration"
+  },
+  "slug": "eumetsat-releases-first-image-from-mtg-i2-satellite",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "EUMETSAT releases first image from MTG-I2 satellite",
+  "excerpt": "The Meteosat Third Generation Imager 2 satellite captured its first full-disc image from geostationary orbit on October 20, 2026.",
+  "bodyHtml": "<p>EUMETSAT released the first image from the Flexible Combined Imager on board the Meteosat Third Generation Imager 2 (MTG-I2) satellite on November 6, 2026. The satellite, which launched on August 27, 2026, captured the full-disc image from a geostationary orbit 36,000 km above the Earth on October 20, 2026.</p>\n<p>The image reveals extensive cloud cover over northern Europe and the North Atlantic, contrasting with largely clear skies over the Sahara. EUMETSAT also released an animation showing Europe and northern Africa at 2.5-minute intervals, which previews the satellite&#x27;s future operational service. This animation shows fog and low clouds over central Europe and deep convective clouds over the Mediterranean. A smoke plume from a wildfire in central Portugal is also visible on 3 November.</p>\n<p>The satellite is undergoing calibration and validation, working with the European Space Agency and European industry. This process prepares the satellite for operational service, which is expected to begin in the second quarter of 2027. The satellite was developed by the European Space Agency with Thales Alenia Space as industry prime contractor.</p>",
+  "publishedAt": "2026-11-06T16:20:31Z",
+  "updatedAt": "2026-11-06T16:20:31Z",
+  "wordCount": 174,
+  "readingTimeMin": 1,
+  "topic": "MTG-I2 first images",
+  "tags": [
+    "EUMETSAT",
+    "MTG-I2"
+  ],
+  "source": {
+    "name": "EUMETSAT",
+    "url": "https://www.eumetsat.int/mtg-i2-first-images"
+  },
+  "sources": [
+    "EUMETSAT"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "EUMETSAT released the first image from the MTG-I2 satellite.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The Meteosat Third Generation Imager 2 satellite captured its first full-disc image from geostationary orbit on October 20, 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT released the first image from the Flexible Combined Imager on board MTG-I2 on November 6, 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The MTG-I2 satellite launched on August 27, 2026, and captured the full-disc image from geostationary orbit 36,000 km above Earth on October 20, 2026.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The image reveals extensive cloud cover over northern Europe and the North Atlantic, contrasting with largely clear skies over the Sahara.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "EUMETSAT also released an animation showing Europe and northern Africa at 2.5-minute intervals, previewing the satellite's future operational service.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The animation shows fog and low clouds over central Europe and deep convective clouds over the Mediterranean.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "A smoke plume from a wildfire in central Portugal is visible on 3 November.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite is undergoing calibration and validation, working with the European Space Agency and European industry.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "Calibration and validation prepare the satellite for operational service, expected to begin in the second quarter of 2027.",
+      "source": "EUMETSAT"
+    },
+    {
+      "claim": "The satellite was developed by the European Space Agency with Thales Alenia Space as industry prime contractor.",
+      "source": "EUMETSAT"
+    }
+  ]
+}

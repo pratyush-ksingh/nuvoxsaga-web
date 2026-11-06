@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "australian-universities-partner-with-openai-to-expand-ai-access",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "Australian universities partner with OpenAI to expand AI access",
+  "excerpt": "UNSW Sydney, the University of Sydney, La Trobe University, and Adelaide University are collaborating with OpenAI to provide AI tools to students and staff.",
+  "bodyHtml": "<p>Australian universities, including UNSW Sydney, the University of Sydney, La Trobe University, and Adelaide University, are collaborating with OpenAI to provide students and staff with access to frontier AI tools. The partnerships include the integration of generative AI foundations and tools such as ChatGPT Edu and Codex into educational programs, research, and operations.</p>\n<p>La Trobe University plans to provide universal access to ChatGPT Edu for its 45,000 students and staff in the first quarter of 2027. The university appointed Phil Laufenberg as Australia’s first Pro Vice-Chancellor AI and Chief AI Officer to lead its approach to AI across education, research and operations.</p>\n<p>The University of Sydney scheduled access for all students for Semester 1, 2027, following a trial. UNSW Sydney is bringing ChatGPT Edu to more than 80,000 students and staff, expanding access in stages as it works towards availability across the student community. UNSW and OpenAI plan to integrate generative AI foundations and Codex into educational programs and courses, with opportunities for students to apply AI through hackathons and industry projects.</p>",
+  "publishedAt": "2026-11-06T06:17:00Z",
+  "updatedAt": "2026-11-06T06:17:00Z",
+  "wordCount": 172,
+  "readingTimeMin": 1,
+  "topic": "Australian universities are creating AI-native graduates",
+  "tags": [
+    "OpenAI",
+    "Australia",
+    "Education"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/australian-universities-ai-native-graduates"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Australian universities are partnering with OpenAI to expand AI access.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "UNSW Sydney, the University of Sydney, La Trobe University, and Adelaide University are collaborating with OpenAI to provide AI tools to students and staff.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Australian universities, including UNSW Sydney, the University of Sydney, La Trobe University, and Adelaide University, are collaborating with OpenAI to provide students and staff with access to frontier AI tools.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The partnerships include the integration of generative AI foundations and tools such as ChatGPT Edu and Codex into educational programs, research, and operations.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "La Trobe University plans to provide universal access to ChatGPT Edu for its 45,000 students and staff in the first quarter of 2027.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "La Trobe University appointed Phil Laufenberg as Australia's first Pro Vice-Chancellor AI and Chief AI Officer to lead its approach to AI across education, research, and operations.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The University of Sydney scheduled access to ChatGPT Edu for all students for Semester 1, 2027, following a trial.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "UNSW Sydney is bringing ChatGPT Edu to more than 80,000 students and staff, expanding access in stages as it works towards availability across the student community.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "UNSW and OpenAI plan to integrate generative AI foundations and Codex into educational programs and courses, with opportunities for students to apply AI through hackathons and industry projects.",
+      "source": "OpenAI"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-updates-guidance-for-domestic-abuse-victims-abroad",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government updates guidance for domestic abuse victims abroad",
+  "excerpt": "The Foreign, Commonwealth & Development Office provides information on support services and consular assistance for British citizens.",
+  "bodyHtml": "<p>The UK government published updated guidance on November 6, 2026, regarding how British citizens can access help if they experience domestic abuse while abroad. The Foreign, Commonwealth &amp; Development Office (FCDO) stated that consular staff can assist victims by providing information on local support services, helping contact family, and identifying English-speaking lawyers or medical facilities.</p>\n<p>The guidance clarifies that while the FCDO can liaise with local authorities and banks, it cannot provide legal advice, collect evidence, or fund travel costs. Victims are advised to contact local emergency services if in immediate danger. In the European Union, the guidance notes that individuals should call 112 for emergency services.</p>\n<p>The FCDO maintains a 24/7 support line in London at +44(0)20 7008 5000 for those requiring immediate information. Additionally, the National Domestic Abuse Helpline in the UK offers free, confidential advice and support to anyone experiencing domestic abuse and can be reached at 0808 2000 247.</p>",
+  "publishedAt": "2026-11-06T16:28:46Z",
+  "updatedAt": "2026-11-06T16:28:46Z",
+  "wordCount": 153,
+  "readingTimeMin": 1,
+  "topic": "Domestic abuse abroad: how to get help",
+  "tags": [
+    "UK government",
+    "FCDO",
+    "domestic abuse"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/guidance/domestic-abuse-abroad-how-to-get-help"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated guidance for domestic abuse victims abroad on November 6, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth & Development Office provides information on support services and consular assistance for British citizens.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth & Development Office (FCDO) stated that consular staff can assist victims by providing information on local support services.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Consular staff can help victims contact family.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Consular staff can help identify English-speaking lawyers.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Consular staff can provide details of medical facilities.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO can liaise with local authorities.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO can liaise with banks.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO cannot provide legal advice.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO cannot collect evidence.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO cannot fund travel costs.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Victims are advised to contact local emergency services if in immediate danger.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "In the European Union, individuals should call 112 for emergency services.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO maintains a 24/7 support line in London at +44(0)20 7008 5000.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The National Domestic Abuse Helpline in the UK offers free, confidential advice and support to anyone experiencing domestic abuse.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The National Domestic Abuse Helpline can be reached at 0808 2000 247.",
+      "source": "The UK government"
+    }
+  ]
+}

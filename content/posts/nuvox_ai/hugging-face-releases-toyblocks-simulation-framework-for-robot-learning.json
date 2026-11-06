@@ -1,0 +1,99 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-1.webp",
+    "alt": "Illustration: close-up of a mechanical keyboard lit by a monitor glow",
+    "credit": "AI illustration"
+  },
+  "slug": "hugging-face-releases-toyblocks-simulation-framework-for-robot-learning",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Hugging Face releases ToyBlocks simulation framework for robot learning",
+  "excerpt": "The framework provides a controlled environment for researchers to study robot behavior and train models using simulated tabletop tasks.",
+  "bodyHtml": "<p>Hugging Face announced the release of ToyBlocks on November 6, 2026. The framework is designed as a FoundationWorld, which pairs a simulated environment with tools for generating tasks, training demonstrations, and measuring robot performance.</p>\n<p>ToyBlocks features a robot arm and blocks on a tabletop, requiring the robot to reason about interactions while pushing, flipping, and stacking objects. The framework uses reinforcement learning and motion planning to generate skills for short-horizon tasks within the Isaac Lab simulation environment.</p>\n<p>Researchers can use ToyBlocks to study how models generalize to new tasks, evaluate spatial reasoning, and test high-level planning. The system can generate and execute hundreds of plans in parallel on a single graphics processing unit, reaching up to 24 times real-time performance.</p>\n<p>The framework also includes a webpage interface that lets users connect Claude or another frontier model to instruct the robot using natural language. Hugging Face plans to extend this approach to increasingly complex environments in the future.</p>",
+  "publishedAt": "2026-11-06T16:02:48Z",
+  "updatedAt": "2026-11-06T16:02:48Z",
+  "wordCount": 157,
+  "readingTimeMin": 1,
+  "topic": "ToyBlocks: A controlled world for robot learning and evaluation",
+  "tags": [
+    "Hugging Face",
+    "ToyBlocks",
+    "robotics",
+    "simulation"
+  ],
+  "source": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/allenai/toyblocks"
+  },
+  "sources": [
+    "Hugging Face"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Hugging Face released the ToyBlocks simulation framework for robot learning.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework provides a controlled environment for researchers to study robot behavior and train models using simulated tabletop tasks.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face announced the release of ToyBlocks on November 6, 2026.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework is designed as a FoundationWorld.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "A FoundationWorld pairs a simulated environment with tools for generating tasks, training demonstrations, and measuring robot performance.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "ToyBlocks features a robot arm and blocks on a tabletop.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework requires the robot to reason about interactions while pushing, flipping, and stacking objects.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework uses reinforcement learning and motion planning to generate skills for short-horizon tasks.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Skill training occurs within the Isaac Lab simulation environment.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Researchers can use ToyBlocks to study how models generalize to new tasks.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Researchers can use ToyBlocks to evaluate spatial reasoning.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Researchers can use ToyBlocks to test high-level planning.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system can generate and execute hundreds of plans in parallel on a single graphics processing unit.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The system reaches up to 24 times real-time performance.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "The framework includes a webpage interface that lets users connect Claude or another frontier model to instruct the robot using natural language.",
+      "source": "Hugging Face"
+    },
+    {
+      "claim": "Hugging Face plans to extend this approach to increasingly complex environments in the future.",
+      "source": "Hugging Face"
+    }
+  ]
+}
