@@ -1,0 +1,67 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "first-lady-melania-trump-hosts-russian-and-ukrainian-officials-at-the-white-hous",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "First Lady Melania Trump hosts Russian and Ukrainian officials at the White House",
+  "excerpt": "The meeting follows a ceasefire in Oleshky that facilitated the evacuation of 800 people.",
+  "bodyHtml": "<p>First Lady Melania Trump hosted representatives from Russia and Ukraine at the White House on November 5, 2026. The gathering involved officials who participated in the ceasefire in Oleshky, an agreement that allowed for the delivery of humanitarian aid and the evacuation of nearly 800 people.</p>\n<p>During the event, Ukrainian representatives presented the First Lady with the Order of Princess Olga, First Class, in recognition of her role as an intermediary in the ceasefire negotiations. Mrs. Trump stated that she was involved in every stage of the planning, including reviewing demining plans, aerial images, and discussing evacuation routes.</p>\n<p>Mrs. Trump concluded the event by providing letters addressed to President Putin and President Zelensky to the attending officials for delivery. She also invited the guests to view a late 18th-century medicine chest and an 1899 Presentation Cup, which she selected as symbols of peace.</p>",
+  "publishedAt": "2026-11-07T16:12:41Z",
+  "updatedAt": "2026-11-07T16:12:41Z",
+  "wordCount": 143,
+  "readingTimeMin": 1,
+  "topic": "First Lady Melania Trump Unites Russia and Ukraine at The White House Following Historic Ceasefire",
+  "tags": [
+    "Russia",
+    "Ukraine",
+    "Melania Trump",
+    "Oleshky"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/11/first-lady-melania-trump-unites-russia-and-ukraine-at-the-white-house-following-historic-ceasefire/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "First Lady Melania Trump hosted Russian and Ukrainian officials at the White House.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The meeting followed a ceasefire in Oleshky that facilitated the evacuation of 800 people.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Melania Trump hosted the representatives on November 5, 2026.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The gathering included officials who took part in the ceasefire in Oleshky, which allowed humanitarian aid delivery and the evacuation of nearly 800 people.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Ukrainian representatives presented Melania Trump with the Order of Princess Olga, First Class, recognizing her intermediary role in securing the ceasefire.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Melania Trump stated she was involved in every stage of planning, including reviewing demining plans, aerial images, and discussing evacuation routes.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Melania Trump concluded the event by providing letters addressed to President Putin and President Zelensky to attending officials for delivery.",
+      "source": "The White House"
+    },
+    {
+      "claim": "Melania Trump invited guests to view a late 18th-century medicine chest and an 1899 Presentation Cup selected as symbols of peace.",
+      "source": "The White House"
+    }
+  ]
+}

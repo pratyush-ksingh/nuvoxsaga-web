@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-3.webp",
+    "alt": "Illustration: wind turbines on rolling green hills under clouds",
+    "credit": "AI illustration"
+  },
+  "slug": "police-detain-suspect-following-shooting-in-krak-w-s-main-market-square",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "Police detain suspect following shooting in Kraków’s Main Market Square",
+  "excerpt": "The UK government reported the incident on November 7, 2026, advising those in the area to follow local authority guidance.",
+  "bodyHtml": "<p>The UK government reported on November 7, 2026, that a shooting has occurred in Kraków’s Main Market Square. Local police have confirmed that the perpetrator involved in the incident has been detained.</p>\n<p>The UK government advised individuals currently in the immediate area to follow the instructions provided by local authorities and to monitor local media for further updates.</p>\n<p>Separately, the UK government noted that Russian military strikes have taken place in Ukraine within 20km of the Polish border. Access to the border is currently restricted.</p>\n<p>The Foreign, Commonwealth &amp; Development Office provides advice about risks of travel to help individuals make informed decisions. The government recommends that travelers research their destinations and obtain appropriate travel insurance that covers their itinerary, planned activities, and expenses in an emergency.</p>",
+  "publishedAt": "2026-11-07T16:04:18Z",
+  "updatedAt": "2026-11-07T16:04:18Z",
+  "wordCount": 127,
+  "readingTimeMin": 1,
+  "topic": "Poland travel advice",
+  "tags": [
+    "Poland",
+    "Kraków",
+    "UK government"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/foreign-travel-advice/poland"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Police detain suspect following shooting in Kraków’s Main Market Square.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government reported the incident on November 7, 2026, advising those in the area to follow local authority guidance.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government reported on November 7, 2026, that a shooting has occurred in Kraków’s Main Market Square.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Local police have confirmed that the perpetrator involved in the incident has been detained.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government advised individuals currently in the immediate area to follow the instructions provided by local authorities and to monitor local media for further updates.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Separately, the UK government noted that Russian military strikes have taken place in Ukraine within 20km of the Polish border.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "Access to the border is currently restricted.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth & Development Office provides advice about risks of travel to help individuals make informed decisions.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The government recommends that travelers research their destinations and obtain appropriate travel insurance that covers their itinerary, planned activities, and expenses in an emergency.",
+      "source": "The UK government"
+    }
+  ]
+}

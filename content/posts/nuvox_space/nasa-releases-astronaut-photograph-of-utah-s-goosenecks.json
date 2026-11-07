@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/space-science-3.webp",
+    "alt": "Illustration: large radio telescope dishes under a starry night sky",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-releases-astronaut-photograph-of-utah-s-goosenecks",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "science",
+  "title": "NASA releases astronaut photograph of Utah's Goosenecks",
+  "excerpt": "An Expedition 75 crew member captured the entrenched meanders of the San Juan River from the International Space Station on October 6, 2026.",
+  "bodyHtml": "<p>NASA released an astronaut photograph of the San Juan River in southern Utah, documenting the river&#x27;s entrenched meanders, also known as goosenecks. The image was acquired on October 6, 2026, by a member of the Expedition 75 crew aboard the International Space Station.</p>\n<p>The photograph was taken using a Nikon Z9 digital camera with a focal length of 400 millimeters. The image was provided by the ISS Crew Earth Observations Facility and the Earth Science and Remote Sensing Unit at NASA Johnson Space Center. The image has been cropped and enhanced to improve contrast, and lens artifacts have been removed.</p>\n<p>In Utah’s Goosenecks State Park, the river runs through a canyon 1,000 feet deep. One section is so curvy that the river travels 5.5 miles between two points that are only 1.3 miles apart. The area’s remote, high-desert location and 360-degree views of the sky helped earn it an International Dark Sky Park designation in 2021.</p>",
+  "publishedAt": "2026-11-07T16:01:31Z",
+  "updatedAt": "2026-11-07T16:01:31Z",
+  "wordCount": 156,
+  "readingTimeMin": 1,
+  "topic": "Taking a Gander at Utah’s Goosenecks",
+  "tags": [
+    "NASA",
+    "International Space Station",
+    "Utah"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA released an astronaut photograph of Utah's Goosenecks.",
+      "source": "NASA"
+    },
+    {
+      "claim": "An Expedition 75 crew member captured the entrenched meanders of the San Juan River from the International Space Station on October 6, 2026.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph documents the San Juan River's entrenched meanders, also known as goosenecks.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The photograph was taken using a Nikon Z9 digital camera with a focal length of 400 millimeters.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image was provided by the ISS Crew Earth Observations Facility and the Earth Science and Remote Sensing Unit at NASA Johnson Space Center.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The image has been cropped and enhanced to improve contrast, and lens artifacts have been removed.",
+      "source": "NASA"
+    },
+    {
+      "claim": "In Utah’s Goosenecks State Park, the river runs through a canyon 1,000 feet deep.",
+      "source": "NASA"
+    },
+    {
+      "claim": "One section of the river travels 5.5 miles between two points that are only 1.3 miles apart.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Goosenecks State Park earned an International Dark Sky Park designation in 2021 due to its remote location and 360-degree views.",
+      "source": "NASA"
+    }
+  ]
+}

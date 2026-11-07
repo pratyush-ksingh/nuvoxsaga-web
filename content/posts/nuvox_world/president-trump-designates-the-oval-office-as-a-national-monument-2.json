@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "president-trump-designates-the-oval-office-as-a-national-monument-2",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "President Trump designates the Oval Office as a national monument",
+  "excerpt": "The designation includes the Oval Office, the Outer Oval Office, and the Cabinet Room under the Antiquities Act.",
+  "bodyHtml": "<p>President Donald J. Trump issued a proclamation on November 5, 2026, establishing the Oval Office as the Oval Office National Monument. The proclamation utilizes the authority granted under section 320301 of title 54, United States Code, known as the Antiquities Act, which allows the President to declare historic structures on federal land as national monuments.</p>\n<p>The monument boundaries encompass the Oval Office, identified as Room 110, along with the Outer Oval Office, consisting of Rooms 106 and 108, and the Cabinet Room, identified as Room 105. The Secretary of the Interior is directed to manage the monument through the National Park Service to protect its architectural integrity and historic character.</p>\n<p>The Secretary of the Interior is required to develop a management plan in consultation with the White House Office of Administration. This plan must prioritize the preservation of the monument&#x27;s structural and architectural features while requiring review before any actions that would substantially alter or demolish the monument.</p>",
+  "publishedAt": "2026-11-07T16:08:02Z",
+  "updatedAt": "2026-11-07T16:08:02Z",
+  "wordCount": 158,
+  "readingTimeMin": 1,
+  "topic": "ESTABLISHMENT OF THE OVAL OFFICE NATIONAL MONUMENT",
+  "tags": [
+    "Oval Office",
+    "Donald J. Trump",
+    "National Park Service"
+  ],
+  "source": {
+    "name": "The White House",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/11/establishment-of-the-oval-office-national-monument/"
+  },
+  "sources": [
+    "The White House"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "President Trump designates the Oval Office as a national monument.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The designation includes the Oval Office, the Outer Oval Office, and the Cabinet Room under the Antiquities Act.",
+      "source": "The White House"
+    },
+    {
+      "claim": "President Donald J. Trump issued a proclamation on November 5, 2026, establishing the Oval Office as the Oval Office National Monument.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The proclamation utilizes the authority granted under section 320301 of title 54, United States Code, known as the Antiquities Act, which allows the President to declare historic structures on federal land as national monuments.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The monument boundaries encompass the Oval Office (Room 110), Outer Oval Office (Rooms 106 and 108), and Cabinet Room (Room 105).",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Secretary of the Interior is directed to manage the monument through the National Park Service to protect its architectural integrity and historic character.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The Secretary of the Interior is required to develop a management plan in consultation with the White House Office of Administration.",
+      "source": "The White House"
+    },
+    {
+      "claim": "The management plan must prioritize the preservation of the monument's structural and architectural features while requiring review before any actions that would substantially alter or demolish the monument.",
+      "source": "The White House"
+    }
+  ]
+}

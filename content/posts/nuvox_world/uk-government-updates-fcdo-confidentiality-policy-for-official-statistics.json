@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "uk-government-updates-fcdo-confidentiality-policy-for-official-statistics",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "UK government updates FCDO confidentiality policy for official statistics",
+  "excerpt": "The Foreign, Commonwealth and Development Office updated its policy to align with the third edition of the Code of Practice for Statistics.",
+  "bodyHtml": "<p>The UK government announced on November 6, 2026, that it has updated its confidentiality policy regarding the Foreign, Commonwealth and Development Office (FCDO) statistics. The policy outlines how the department protects personal information used in the production of official statistics.</p>\n<p>This update ensures the department maintains compliance with data protection law and the Code of Practice for Statistics. The revised statement reflects the requirements of the Code of Practice for Statistics Edition 3.0, which mandates that producers of statistics manage data securely and remain transparent about data usage.</p>\n<p>The Code of Practice for Statistics requires producers of statistics to manage data and statistics safely and securely. Producers must also be open about how data will be used and protected. The FCDO first published its confidentiality policy on 1 March 2024.</p>",
+  "publishedAt": "2026-11-07T16:05:13Z",
+  "updatedAt": "2026-11-07T16:05:13Z",
+  "wordCount": 130,
+  "readingTimeMin": 1,
+  "topic": "Guidance: FCDO statistics: statement on confidentiality",
+  "tags": [
+    "FCDO",
+    "UK government",
+    "statistics"
+  ],
+  "source": {
+    "name": "The UK government",
+    "url": "https://www.gov.uk/government/publications/fcdo-statistics-statement-on-confidentiality"
+  },
+  "sources": [
+    "The UK government"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The UK government updated the FCDO confidentiality policy for official statistics.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Foreign, Commonwealth and Development Office updated its policy to align with the third edition of the Code of Practice for Statistics.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The UK government announced the update on November 6, 2026.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The policy outlines how the FCDO protects personal information used in the production of official statistics.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The update ensures the department maintains compliance with data protection law and the Code of Practice for Statistics.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The revised statement reflects the requirements of the Code of Practice for Statistics Edition 3.0.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Code of Practice for Statistics requires producers of statistics to manage data and statistics safely and securely.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The Code of Practice for Statistics requires producers to be open and transparent about how data will be used and protected.",
+      "source": "The UK government"
+    },
+    {
+      "claim": "The FCDO first published its confidentiality policy on 1 March 2024.",
+      "source": "The UK government"
+    }
+  ]
+}
