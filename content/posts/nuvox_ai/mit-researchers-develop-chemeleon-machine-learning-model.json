@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/ai-research-1.webp",
+    "alt": "Illustration: laboratory bench with a glass flask catching cool blue light beside a circuit board",
+    "credit": "AI illustration"
+  },
+  "slug": "mit-researchers-develop-chemeleon-machine-learning-model",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "research",
+  "title": "MIT researchers develop CheMeleon machine-learning model",
+  "excerpt": "The open-source foundation model uses molecular descriptors to predict chemical properties.",
+  "bodyHtml": "<p>According to MIT News on November 6, 2026, researchers at MIT developed an open-source machine-learning model called CheMeleon to predict how chemical compounds behave. The findings were reported in the Sept. 14 issue of the Journal of Chemical Information and Modeling in a paper by Akshat Shirish Zalte, Jackson Burns, Charlles Abreu, William Green, and three researchers from the chemical company BASF.</p>\n<p>The model was built using ChemProp, an open-source machine-learning package developed and maintained by the Green group at MIT. CheMeleon uses molecular descriptors of a million molecules from PubChem, a large, freely available database of chemical information maintained by the U.S. National Institutes of Health. The model is pre-trained to learn correlations between the structure of a given molecule and how it behaves with respect to a catalog of about 1,600 descriptors.</p>\n<p>In a contest organized by OpenADMET for trying to predict the properties of a variety of new molecules that had not previously been synthesized, nine of the top 20 entries had used CheMeleon in their process. The work was supported by the Machine Learning for Pharmaceutical Discovery and Synthesis consortium, along with fellowship support from U.S. Department of Energy and MathWorks.</p>",
+  "publishedAt": "2026-11-07T02:07:17Z",
+  "updatedAt": "2026-11-07T02:07:17Z",
+  "wordCount": 195,
+  "readingTimeMin": 1,
+  "topic": "How to predict the behavior of molecules from scant data",
+  "tags": [
+    "MIT",
+    "BASF",
+    "CheMeleon",
+    "ChemProp"
+  ],
+  "source": {
+    "name": "MIT News",
+    "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106"
+  },
+  "sources": [
+    "MIT News"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "MIT researchers developed the CheMeleon machine-learning model.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "CheMeleon is an open-source foundation model that uses molecular descriptors to predict chemical properties.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "According to MIT News on November 6, 2026, MIT researchers developed an open-source machine-learning model called CheMeleon to predict how chemical compounds behave.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The findings were reported in the Sept. 14 issue of the Journal of Chemical Information and Modeling in a paper by Akshat Shirish Zalte, Jackson Burns, Charlles Abreu, William Green, and three researchers from the chemical company BASF.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The model was built using ChemProp, an open-source machine-learning package developed and maintained by the Green group at MIT.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "CheMeleon uses molecular descriptors of a million molecules from PubChem, a large, freely available database of chemical information maintained by the U.S. National Institutes of Health.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The model is pre-trained to learn correlations between the structure of a given molecule and how it behaves with respect to a catalog of about 1,600 descriptors.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "In a contest organized by OpenADMET to predict the properties of unsynthesized molecules, nine of the top 20 entries used CheMeleon.",
+      "source": "MIT News"
+    },
+    {
+      "claim": "The work was supported by the Machine Learning for Pharmaceutical Discovery and Synthesis consortium, along with fellowship support from the U.S. Department of Energy and MathWorks.",
+      "source": "MIT News"
+    }
+  ]
+}

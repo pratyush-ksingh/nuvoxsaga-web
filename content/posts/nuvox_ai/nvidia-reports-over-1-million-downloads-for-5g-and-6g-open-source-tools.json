@@ -1,0 +1,75 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-3.webp",
+    "alt": "Illustration: developer desk with two monitors glowing in a dark room, no people",
+    "credit": "AI illustration"
+  },
+  "slug": "nvidia-reports-over-1-million-downloads-for-5g-and-6g-open-source-tools",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "NVIDIA reports over 1 million downloads for 5G and 6G open source tools",
+  "excerpt": "Global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x over the past year.",
+  "bodyHtml": "<p>NVIDIA announced on November 6, 2026, that its open source tools for 5G and 6G network development have surpassed 1 million downloads. The suite includes NVIDIA Aerial wireless software and NVIDIA Sionna, which are used by more than 8,000 research and academic institutions worldwide.</p>\n<p>Researchers are utilizing these platforms to develop AI-native networks, including experiments in goal-oriented semantic communications and neural receivers. At King’s College London, researchers using NVIDIA Sionna reduced robot task completion time by up to 52.6% in experiments.</p>\n<p>Tests by the University of Leeds using a 5G network-in-a-box resulted in a 45.6% reduction in RAN power consumption. Additionally, the Centre Tecnològic de Telecomunicacions de Catalunya reduced simulation runtime from approximately three hours to 10-20 minutes by using GPU-accelerated radio channel models.</p>",
+  "publishedAt": "2026-11-07T02:07:59Z",
+  "updatedAt": "2026-11-07T02:07:59Z",
+  "wordCount": 124,
+  "readingTimeMin": 1,
+  "topic": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+  "tags": [
+    "NVIDIA",
+    "6G",
+    "Open Source",
+    "Telecommunications"
+  ],
+  "source": {
+    "name": "NVIDIA",
+    "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/"
+  },
+  "sources": [
+    "NVIDIA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NVIDIA reports over 1 million downloads for 5G and 6G open source tools.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Global developer adoption of NVIDIA AI Aerial and NVIDIA Sionna software has grown 10x over the past year.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "NVIDIA announced on November 6, 2026, that its open source tools for 5G and 6G network development have surpassed 1 million downloads.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The suite includes NVIDIA Aerial wireless software and NVIDIA Sionna.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "These tools are used by more than 8,000 research and academic institutions worldwide.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Researchers are utilizing these platforms to develop AI-native networks.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Experiments include goal-oriented semantic communications and neural receivers.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "At King’s College London, researchers using NVIDIA Sionna reduced robot task completion time by up to 52.6% in experiments.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "Tests by the University of Leeds using a 5G network-in-a-box resulted in a 45.6% reduction in RAN power consumption.",
+      "source": "NVIDIA"
+    },
+    {
+      "claim": "The Centre Tecnològic de Telecomunicacions de Catalunya reduced simulation runtime from approximately three hours to 10-20 minutes by using GPU-accelerated radio channel models.",
+      "source": "NVIDIA"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/ai-business-2.webp",
+    "alt": "Illustration: stacked silicon wafers reflecting cool light on a dark table",
+    "credit": "AI illustration"
+  },
+  "slug": "openai-partners-with-hacktron-to-test-system-vulnerabilities",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "business",
+  "title": "OpenAI partners with Hacktron to test system vulnerabilities",
+  "excerpt": "The collaboration grants Hacktron researchers access to frontier models via Daybreak Red to identify security weaknesses.",
+  "bodyHtml": "<p>OpenAI announced a partnership with Hacktron on November 6, 2026, to identify vulnerabilities within its systems. The collaboration involves engineers from both organizations selecting high-priority areas for testing, with a specific focus on the interactions between OpenAI systems and third-party services.</p>\n<p>As part of the agreement, OpenAI is expanding Hacktron&#x27;s access to its frontier models through Daybreak Red. Hacktron, a firm that develops AI agents for code review, penetration testing, and red teaming, will work alongside OpenAI teams to strengthen security defenses.</p>\n<p>OpenAI also reported that it has increased its bug bounty rewards for independent researchers to encourage the discovery of vulnerabilities. Additionally, the company announced that researchers from Cathedral will work alongside its teams in an upcoming security sprint.</p>",
+  "publishedAt": "2026-11-07T02:08:40Z",
+  "updatedAt": "2026-11-07T02:08:40Z",
+  "wordCount": 120,
+  "readingTimeMin": 1,
+  "topic": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+  "tags": [
+    "OpenAI",
+    "Hacktron",
+    "Cybersecurity"
+  ],
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/partnering-with-hacktron"
+  },
+  "sources": [
+    "OpenAI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "OpenAI partners with Hacktron to test system vulnerabilities.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The collaboration grants Hacktron researchers access to frontier models via Daybreak Red to identify security weaknesses.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced a partnership with Hacktron on November 6, 2026, to identify vulnerabilities within its systems.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "The collaboration involves engineers from both organizations selecting high-priority areas for testing, with a specific focus on the interactions between OpenAI systems and third-party services.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "As part of the agreement, OpenAI is expanding Hacktron's access to its frontier models through Daybreak Red.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "Hacktron, a firm that develops AI agents for code review, penetration testing, and red teaming, will work alongside OpenAI teams to strengthen security defenses.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI reported that it has increased its bug bounty rewards for independent researchers to encourage the discovery of vulnerabilities.",
+      "source": "OpenAI"
+    },
+    {
+      "claim": "OpenAI announced that researchers from Cathedral will work alongside its teams in an upcoming security sprint.",
+      "source": "OpenAI"
+    }
+  ]
+}

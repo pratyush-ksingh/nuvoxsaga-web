@@ -1,0 +1,69 @@
+{
+  "image": {
+    "src": "/media/sections/ai-tools-2.webp",
+    "alt": "Illustration: abstract floating code-like light lines without readable characters",
+    "credit": "AI illustration"
+  },
+  "slug": "mistral-ai-expands-studio-platform-with-managed-agents-and-workflows",
+  "brand": "nuvox_ai",
+  "status": "published",
+  "kind": "brief",
+  "section": "tools",
+  "title": "Mistral AI expands Studio platform with managed agents and workflows",
+  "excerpt": "The updated enterprise AI platform allows developers to build and deploy automated agents and workflows across cloud or on-premises environments.",
+  "bodyHtml": "<p>Mistral AI announced on November 5, 2026, the expansion of its enterprise AI platform, Mistral Studio. The update introduces managed agents and apps alongside new capabilities for workflows, enterprise context, agent observability and evaluations.</p>\n<p>The platform lets teams activate models quickly through agents, workflows and apps connected to enterprise data and systems. Users can deploy them in the cloud, in a VPC, on-premises or across a combination of environments while retaining full control over the created intelligence.</p>\n<p>Through the new Mistral MCP server, developers can test locally and deploy to their Studio environment with one command. Studio manages the runtime and hosting, enabling teams to build on that foundation to get each new use case into production faster.</p>",
+  "publishedAt": "2026-11-07T02:11:47Z",
+  "updatedAt": "2026-11-07T02:11:47Z",
+  "wordCount": 118,
+  "readingTimeMin": 1,
+  "topic": "Le Chonk brings the brains. Studio puts it to work.",
+  "tags": [
+    "Mistral AI",
+    "Mistral Studio"
+  ],
+  "source": {
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/news/build-with-studio/"
+  },
+  "sources": [
+    "Mistral AI"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "Headline: Mistral AI expands Studio platform with managed agents and workflows",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The updated platform allows developers to build and deploy automated agents and workflows across cloud or on-premises environments.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral AI announced on November 5, 2026 the expansion of Mistral Studio.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Mistral Studio is an enterprise AI platform.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The update introduces managed agents and apps alongside new capabilities for workflows, enterprise context, agent observability and evaluations.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "The platform lets teams activate models quickly through agents, workflows and apps connected to enterprise data and systems.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Users can deploy in the cloud, in a VPC, on-premises or across a combination while retaining full control over the created intelligence.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Through the new Mistral MCP server, developers can test locally and deploy to their Studio environment with one command.",
+      "source": "Mistral AI"
+    },
+    {
+      "claim": "Studio manages the runtime and hosting, enabling teams to get each new use case into production faster.",
+      "source": "Mistral AI"
+    }
+  ]
+}
