@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/world-americas-1.webp",
+    "alt": "Illustration: long highway through a desert under a dramatic sky",
+    "credit": "AI illustration"
+  },
+  "slug": "us-state-department-selects-university-of-miami-for-2027-venice-architecture-bie",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "americas",
+  "title": "US State Department selects University of Miami for 2027 Venice Architecture Biennale",
+  "excerpt": "The university will represent the United States at the 20th Venice Architecture Biennale with an exhibition titled Earth Craft.",
+  "bodyHtml": "<p>The U.S. Department of State announced on November 6, 2026, the selection of the University of Miami School of Architecture to represent the United States at the 20th Venice Architecture Biennale.</p>\n<p>The exhibition, titled Earth Craft, will be organized by Lead Curator Germane Barnes, who serves as an Associate Professor and Director of the Master of Architecture Graduate Program at the University of Miami School of Architecture and Principal of Studio Barnes.</p>\n<p>The exhibition will look at how American architecture is shaped by the land and the people who build on it. It will follow earthen materials, including brick, rammed earth, adobe, and concrete masonry, from the ground to the finished building.</p>\n<p>The project will also recognize the brickmakers, masons, and builders who used American soil to build the homes, schools, and public buildings found across the United States. The Bureau of Educational and Cultural Affairs supports and manages the official U.S. participation at Venice Arts and Architecture Biennales to showcase the excellence of American art and culture on the world stage.</p>",
+  "publishedAt": "2026-11-07T06:04:45Z",
+  "updatedAt": "2026-11-07T06:04:45Z",
+  "wordCount": 172,
+  "readingTimeMin": 1,
+  "topic": "U.S. Department of State Announces Selection for the 2027 Venice Architecture Biennale",
+  "tags": [
+    "US State Department",
+    "University of Miami",
+    "Venice Architecture Biennale"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-department-of-state-announces-selection-for-the-2027-venice-architecture-biennale/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The US State Department selected the University of Miami (School of Architecture) for the 2027 Venice Architecture Biennale",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The university will represent the United States at the 20th Venice Architecture Biennale",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The exhibition is titled Earth Craft",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The State Department announced the selection on November 6, 2026",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The exhibition will be organized by Lead Curator Germane Barnes",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Barnes is Associate Professor and Director of the Master of Architecture Graduate Program at the University of Miami School of Architecture and Principal of Studio Barnes",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The exhibition will look at how American architecture is shaped by the land and the people who build on it",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "It will follow earthen materials, including brick, rammed earth, adobe, and concrete masonry, from the ground to the finished building",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The project will recognize the brickmakers, masons, and builders who used American soil to build homes, schools, and public buildings across the United States",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The Bureau of Educational and Cultural Affairs supports and manages official U.S. participation at Venice Arts and Architecture Biennales to showcase the excellence of American art and culture on the world stage",
+      "source": "The US State Department"
+    }
+  ]
+}

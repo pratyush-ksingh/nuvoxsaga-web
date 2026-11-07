@@ -1,0 +1,78 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-1.webp",
+    "alt": "Illustration: unbranded spacecraft with solar panels orbiting above Earth's night side",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-astronauts-to-answer-student-questions-from-international-space-station",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA astronauts to answer student questions from International Space Station",
+  "excerpt": "Astronauts Jessica Watkins and Luke Delaney will participate in a live Earth-to-space call on November 10.",
+  "bodyHtml": "<p>NASA announced that astronauts Jessica Watkins and Luke Delaney will answer prerecorded STEM questions from students while aboard the International Space Station. The event is scheduled for 10:40 a.m. EST on November 10.</p>\n<p>The session will be hosted by Freedom Crossing Academy in St. Johns, Florida, and will be available to students in grades K-12 and the community. The call will stream live on the Learn With NASA YouTube channel.</p>\n<p>For more than 26 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs not possible on Earth. The space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities in low Earth orbit, and build on the foundation for long-duration missions to the Moon, as part of the Artemis program, and to Mars.</p>\n<p>Media representatives must RSVP to Christina Upchurch by 5 p.m. EST on November 9 to cover the event.</p>",
+  "publishedAt": "2026-11-07T06:04:19Z",
+  "updatedAt": "2026-11-07T06:04:19Z",
+  "wordCount": 155,
+  "readingTimeMin": 1,
+  "topic": "NASA Astronauts to Answer Questions from Florida Students",
+  "tags": [
+    "NASA",
+    "International Space Station",
+    "STEM"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "NASA astronauts will answer student questions from the International Space Station (headline)",
+      "source": "NASA"
+    },
+    {
+      "claim": "Astronauts Jessica Watkins and Luke Delaney will participate in a live Earth-to-space call on November 10.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced the event.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The astronauts will answer prerecorded STEM questions from students while aboard the ISS.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The event is scheduled for 10:40 a.m. EST on November 10.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The session is hosted by Freedom Crossing Academy in St. Johns, Florida.",
+      "source": "NASA"
+    },
+    {
+      "claim": "It is available to students in grades K-12 and the community.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The call will stream live on the Learn With NASA YouTube channel.",
+      "source": "NASA"
+    },
+    {
+      "claim": "For more than 26 years, people have lived and worked continuously aboard the ISS, advancing scientific knowledge and making research breakthroughs not possible on Earth.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The space station helps NASA understand and overcome human spaceflight challenges, expand commercial opportunities in low Earth orbit, and build the foundation for long-duration missions to the Moon (Artemis) and Mars.",
+      "source": "NASA"
+    },
+    {
+      "claim": "Media representatives must RSVP to Christina Upchurch by 5 p.m. EST on November 9 to cover the event.",
+      "source": "NASA"
+    }
+  ]
+}
