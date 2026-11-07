@@ -1,0 +1,70 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-2.webp",
+    "alt": "Illustration: river crossing an old city with stone bridges at dusk, unrecognizable",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-launches-second-annual-migration-management-cycle-2",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission launches second annual migration management cycle",
+  "excerpt": "The initiative includes a proposal for a 2027 solidarity pool to assist member states facing migratory pressure.",
+  "bodyHtml": "<p>The European Commission launched the second Annual Migration Management Cycle on November 6, 2026. This process includes a yearly overview of the asylum and migration situation, a decision determining migratory situations in each member state, and a proposal for an Annual Solidarity Pool for the coming year.</p>\n<p>The Commission determined that Greece, Cyprus, Italy, and Spain are currently under migratory pressure due to disproportionate levels of arrivals. These four member states are eligible to access the Solidarity Pool, which allows member states to contribute through relocation, financial support, or alternative measures.</p>\n<p>The Commission also proposed a Solidarity Pool for 2027 to the Council. The Council will decide on the size of the pool and how each member state will contribute. Once the Council adopts the decision, member states&#x27; solidarity contributions will be public and legally binding.</p>",
+  "publishedAt": "2026-11-07T12:18:15Z",
+  "updatedAt": "2026-11-07T12:18:15Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "Commission launches second Annual Migration Management Cycle under the Pact on Migration and Asylum",
+  "tags": [
+    "European Commission",
+    "Migration",
+    "Asylum"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2365"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "European Commission launches second annual migration management cycle.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The initiative includes a proposal for a 2027 solidarity pool to assist member states facing migratory pressure.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission launched the second Annual Migration Management Cycle on November 6, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "This process includes a yearly overview of the asylum and migration situation, a decision determining migratory situations in each member state, and a proposal for an Annual Solidarity Pool for the coming year.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission determined that Greece, Cyprus, Italy, and Spain are currently under migratory pressure due to disproportionate levels of arrivals.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "These four member states are eligible to access the Solidarity Pool, which allows member states to contribute through relocation, financial support, or alternative measures.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission also proposed a Solidarity Pool for 2027 to the Council.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Council will decide on the size of the pool and how each member state will contribute.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Once the Council adopts the decision, member states' solidarity contributions will be public and legally binding.",
+      "source": "The European Commission"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "image": {
+    "src": "/media/sections/world-middle-east-africa-1.webp",
+    "alt": "Illustration: desert dunes at sunset with long shadows",
+    "credit": "AI illustration"
+  },
+  "slug": "us-and-drc-hold-second-meeting-of-the-joint-steering-committee",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "middle-east-africa",
+  "title": "US and DRC hold second meeting of the joint steering committee",
+  "excerpt": "Representatives met in Paris to discuss the U.S.-DRC Strategic Partnership Agreement and review progress on designated strategic projects.",
+  "bodyHtml": "<p>Representatives from the United States and the Democratic Republic of the Congo met in Paris on November 6, 2026, for the second meeting of the Joint Steering Committee of the U.S.-DRC Strategic Partnership Agreement. The committee provides strategic direction for implementing the agreement and works to turn commitments into initiatives with clear responsibilities and measurable outcomes.</p>\n<p>During the meeting, the delegations recognized milestones on the DRC Designated Strategic Projects, including the signing of a concession agreement for the Lobito Corridor. The committee also reviewed progress made since the inaugural meeting in February 2026 and discussed next steps for the Grand Inga hydropower project.</p>\n<p>The committee noted that the Democratic Republic of the Congo has adopted legislation setting tax and customs rules for projects under the partnership. The delegations also explored opportunities for U.S. companies in critical minerals processing, export, and the energy sector.</p>",
+  "publishedAt": "2026-11-07T12:10:14Z",
+  "updatedAt": "2026-11-07T12:10:14Z",
+  "wordCount": 143,
+  "readingTimeMin": 1,
+  "topic": "Joint Statement on the Second Meeting of the Joint Steering Committee of the U.S.-DRC Strategic Partnership Agreement",
+  "tags": [
+    "United States",
+    "Democratic Republic of the Congo",
+    "Lobito Corridor",
+    "Grand Inga"
+  ],
+  "source": {
+    "name": "The US State Department",
+    "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-second-meeting-of-the-joint-steering-committee-of-the-u-s-drc-strategic-partnership-agreement/"
+  },
+  "sources": [
+    "The US State Department"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The U.S. and DRC held the second meeting of the Joint Steering Committee.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Representatives met in Paris to discuss the U.S.-DRC Strategic Partnership Agreement and review progress on designated strategic projects.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "Representatives from the United States and the Democratic Republic of the Congo met in Paris on November 6, 2026, for the second meeting of the Joint Steering Committee of the U.S.-DRC Strategic Partnership Agreement.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The committee provides strategic direction for implementing the agreement and works to turn commitments into initiatives with clear responsibilities and measurable outcomes.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "During the meeting, the delegations recognized milestones on the DRC Designated Strategic Projects, including the signing of a concession agreement for the Lobito Corridor.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The committee reviewed progress made since the inaugural meeting in February 2026.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The committee discussed next steps for the Grand Inga hydropower project.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The committee noted that the Democratic Republic of the Congo has adopted legislation setting tax and customs rules for projects under the partnership.",
+      "source": "The US State Department"
+    },
+    {
+      "claim": "The delegations explored opportunities for U.S. companies in critical minerals processing, export, and the energy sector.",
+      "source": "The US State Department"
+    }
+  ]
+}

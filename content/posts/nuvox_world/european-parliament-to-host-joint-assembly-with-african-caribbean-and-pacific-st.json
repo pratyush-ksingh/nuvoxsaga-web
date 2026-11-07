@@ -1,0 +1,66 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-parliament-to-host-joint-assembly-with-african-caribbean-and-pacific-st",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Parliament to host joint assembly with African, Caribbean and Pacific states",
+  "excerpt": "The second plenary session of the OACPS-EU Joint Parliamentary Assembly will take place from 9 to 13 November.",
+  "bodyHtml": "<p>The European Parliament announced that approximately 160 parliamentarians from African, Caribbean and Pacific states will meet with members of the European Parliament from 9 to 13 November. The event marks the second plenary session of the Organisation of African, Caribbean and Pacific States – European Union (OACPS–EU) Joint Parliamentary Assembly under the Samoa Agreement.</p>\n<p>Participants are scheduled to discuss security, multilateralism, ocean protection, financing for development, critical raw materials and the EU’s Global Gateway strategy. The assembly will include a youth forum, a women’s forum and a civil society consultation.</p>\n<p>European Parliament President Roberta Metsola is scheduled to deliver an opening speech on 9 November, followed by an address from José Ramos-Horta, President of the Democratic Republic of Timor-Leste. A press briefing with co-presidents Francisco Assis and Thomas Tayebwa is scheduled for 14.00 on 9 November.</p>",
+  "publishedAt": "2026-11-07T12:21:12Z",
+  "updatedAt": "2026-11-07T12:21:12Z",
+  "wordCount": 136,
+  "readingTimeMin": 1,
+  "topic": "Press release - MEPs to host parliamentarians from Africa, Caribbean and Pacific",
+  "tags": [
+    "European Parliament",
+    "OACPS",
+    "Samoa Agreement"
+  ],
+  "source": {
+    "name": "The European Parliament",
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20261103IPR48623/"
+  },
+  "sources": [
+    "The European Parliament"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "European Parliament to host joint assembly with African, Caribbean and Pacific states.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The second plenary session of the OACPS-EU Joint Parliamentary Assembly will take place from 9 to 13 November.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The European Parliament announced that approximately 160 parliamentarians from African, Caribbean and Pacific states will meet with members of the European Parliament from 9 to 13 November.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The event marks the second plenary session of the Organisation of African, Caribbean and Pacific States – European Union (OACPS–EU) Joint Parliamentary Assembly under the Samoa Agreement.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "Participants are scheduled to discuss security, multilateralism, ocean protection, financing for development, critical raw materials and the EU’s Global Gateway strategy.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "The assembly will include a youth forum, a women’s forum and a civil society consultation.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "European Parliament President Roberta Metsola is scheduled to deliver an opening speech on 9 November, followed by an address from José Ramos-Horta, President of the Democratic Republic of Timor-Leste.",
+      "source": "The European Parliament"
+    },
+    {
+      "claim": "A press briefing with co-presidents Francisco Assis and Thomas Tayebwa is scheduled for 14.00 on 9 November.",
+      "source": "The European Parliament"
+    }
+  ]
+}

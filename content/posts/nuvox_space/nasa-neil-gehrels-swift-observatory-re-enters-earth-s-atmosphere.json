@@ -1,0 +1,74 @@
+{
+  "image": {
+    "src": "/media/sections/space-missions-2.webp",
+    "alt": "Illustration: lunar surface with long shadows and Earth rising on the horizon",
+    "credit": "AI illustration"
+  },
+  "slug": "nasa-neil-gehrels-swift-observatory-re-enters-earth-s-atmosphere",
+  "brand": "nuvox_space",
+  "status": "published",
+  "kind": "brief",
+  "section": "missions",
+  "title": "NASA Neil Gehrels Swift Observatory re-enters Earth's atmosphere",
+  "excerpt": "The satellite ended its nearly 22-year mission on November 4 after an unsuccessful attempt to boost its orbit.",
+  "bodyHtml": "<p>NASA announced that the Neil Gehrels Swift Observatory re-entered Earth&#x27;s atmosphere on November 4 at 7:39 EST. The satellite concluded its mission after nearly 22 years of service. The reentry occurred over the North Sumatra region of Indonesia.</p>\n<p>The observatory&#x27;s orbit decayed due to the most recent solar maximum. NASA attempted an innovative mission to rescue the satellite by boosting its orbit, but the effort was not successful. The satellite carried a combination of instruments, including an X-ray telescope and a gamma-ray telescope, that worked together to enable humanity to study the fastest and most energetic explosions in the universe.</p>\n<p>The featured image of the observatory is a mosaic created in 2018 using some of the first million images captured by the satellite&#x27;s Ultraviolet/Optical Telescope. The data acquired by the telescope over its mission will continue to bring light to the mysteries of the cosmos for years to come.</p>",
+  "publishedAt": "2026-11-07T12:07:23Z",
+  "updatedAt": "2026-11-07T12:07:23Z",
+  "wordCount": 149,
+  "readingTimeMin": 1,
+  "topic": "APOD: 2026 November 6 – A Farewell to Swift",
+  "tags": [
+    "NASA",
+    "Neil Gehrels Swift Observatory",
+    "Indonesia"
+  ],
+  "source": {
+    "name": "NASA",
+    "url": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/"
+  },
+  "sources": [
+    "NASA"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The NASA Neil Gehrels Swift Observatory re-entered Earth's atmosphere.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The satellite ended its nearly 22-year mission on November 4 after an unsuccessful attempt to boost its orbit.",
+      "source": "NASA"
+    },
+    {
+      "claim": "NASA announced that the Neil Gehrels Swift Observatory re-entered Earth's atmosphere on November 4 at 7:39 EST.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The satellite concluded its mission after nearly 22 years of service.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The reentry occurred over the North Sumatra region of Indonesia.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The observatory's orbit decayed due to the most recent solar maximum.",
+      "source": "NASA"
+    },
+    {
+      "claim": "An innovative mission to rescue the satellite by boosting its orbit was attempted, but the effort was not successful.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The satellite carried a combination of instruments, including an X-ray telescope and a gamma-ray telescope, that worked together to enable humanity to study the fastest and most energetic explosions in the universe.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The featured image of the observatory is a mosaic created in 2018 using some of the first million images captured by the satellite's Ultraviolet/Optical Telescope.",
+      "source": "NASA"
+    },
+    {
+      "claim": "The data acquired by the telescope over its mission will continue to bring light to the mysteries of the cosmos for years to come.",
+      "source": "NASA"
+    }
+  ]
+}

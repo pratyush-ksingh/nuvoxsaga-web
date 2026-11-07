@@ -1,0 +1,90 @@
+{
+  "image": {
+    "src": "/media/sections/world-europe-1.webp",
+    "alt": "Illustration: cobbled old town square at night with warm lamps, empty",
+    "credit": "AI illustration"
+  },
+  "slug": "european-commission-launches-second-annual-migration-management-cycle",
+  "brand": "nuvox_world",
+  "status": "published",
+  "kind": "brief",
+  "section": "europe",
+  "title": "European Commission launches second Annual Migration Management Cycle",
+  "excerpt": "The Commission identified several member states facing migratory pressure and announced the start of the process to establish an annual solidarity pool.",
+  "bodyHtml": "<p>The European Commission announced the launch of the second Annual Migration Management Cycle on November 6, 2026. This cycle includes the European Annual Asylum and Migration Report, a Commission Implementing Decision determining which Member States are under migratory pressure, and a Commission proposal for a Council Implementing Decision to establish the Annual Solidarity Pool.</p>\n<p>The Commission identified Greece, Cyprus, Italy, and Spain as being under migratory pressure, making them eligible for access to the Solidarity Pool. Additionally, Belgium, Czechia, Germany, Estonia, Ireland, France, Croatia, Latvia, Lithuania, Luxembourg, the Netherlands, Poland, Romania, Slovenia and Finland are at risk of migratory pressure. Bulgaria, Czechia, Estonia, Croatia, Austria and Poland face a significant migratory situation because of the cumulative pressure of the last five years.</p>\n<p>The Council will now convene the High-Level EU Solidarity Forum to identify needs and determine contributions from member states. The Council will establish and formally adopt the Solidarity Pool before the end of the year. The Solidarity Pool sets out the needs of Member States under migratory pressure, covering the total number for relocations of asylum applicants and the corresponding total number for financial contributions.</p>",
+  "publishedAt": "2026-11-07T12:15:11Z",
+  "updatedAt": "2026-11-07T12:15:11Z",
+  "wordCount": 187,
+  "readingTimeMin": 1,
+  "topic": "Questions and answers on the second Annual Migration Management Cycle",
+  "tags": [
+    "European Commission",
+    "Migration",
+    "Asylum"
+  ],
+  "source": {
+    "name": "The European Commission",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2366"
+  },
+  "sources": [
+    "The European Commission"
+  ],
+  "checkedClaims": [
+    {
+      "claim": "The European Commission launched the second Annual Migration Management Cycle.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission identified several member states facing migratory pressure.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission announced the start of the process to establish an annual solidarity pool.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The European Commission announced the launch of the second Annual Migration Management Cycle on November 6, 2026.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The second Annual Migration Management Cycle includes the European Annual Asylum and Migration Report.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The cycle includes a Commission Implementing Decision determining which Member States are under migratory pressure.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The cycle includes a Commission proposal for a Council Implementing Decision to establish the Annual Solidarity Pool.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Commission identified Greece, Cyprus, Italy, and Spain as being under migratory pressure.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Greece, Cyprus, Italy, and Spain are eligible for access to the Solidarity Pool.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Belgium, Czechia, Germany, Estonia, Ireland, France, Croatia, Latvia, Lithuania, Luxembourg, the Netherlands, Poland, Romania, Slovenia and Finland are at risk of migratory pressure.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "Bulgaria, Czechia, Estonia, Croatia, Austria and Poland face a significant migratory situation because of the cumulative pressure of the last five years.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Council will now convene the High-Level EU Solidarity Forum to identify needs and determine contributions from member states.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Council will establish and formally adopt the Solidarity Pool before the end of the year.",
+      "source": "The European Commission"
+    },
+    {
+      "claim": "The Solidarity Pool sets out the needs of Member States under migratory pressure, covering the total number for relocations of asylum applicants and the corresponding total number for financial contributions.",
+      "source": "The European Commission"
+    }
+  ]
+}
